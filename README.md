@@ -22,6 +22,7 @@ assets/icons/   module artwork by content family
 assets/tokens/  VTT token art
 scripts/        runtime module code
 tools/          deterministic pack build/extract tooling
+sources/        accepted upstream transformation inputs
 ```
 
 ## Build commands
@@ -67,12 +68,20 @@ Step 2 — Module Skeleton: established.
 
 Step 3 — Deterministic source-pack transformation: implemented and validated.
 
-To regenerate Step 3 sources from the consolidated package:
+To regenerate Step 3 sources locally:
 
 ```bash
 npm run build:sources -- /path/to/edgeheart-consolidated-production-v1.0.zip
 npm run validate:sources
 ```
+
+For the authoritative GitHub build, place the accepted archive at:
+
+`sources/edgeheart-consolidated-production-v1.0.zip`
+
+Pushing that exact path to `main` triggers the Step 3 workflow. The workflow
+verifies the frozen SHA-256, regenerates and validates `src/packs/`, and commits
+the generated source-pack JSON and Step 3 reports back to `main`.
 
 Step 4 will resolve the intentionally preserved class/subclass/origin symbolic
 references and class Competency mappings before Compendium compilation.
