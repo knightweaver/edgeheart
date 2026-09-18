@@ -65,5 +65,14 @@ Step 1 — Deployment Contract: accepted and frozen.
 
 Step 2 — Module Skeleton: established.
 
-Step 3 will populate `src/packs/` deterministically from
-`edgeheart-consolidated-production-v1.0.zip`.
+Step 3 — Deterministic source-pack transformation: implemented and validated.
+
+To regenerate Step 3 sources from the consolidated package:
+
+```bash
+npm run build:sources -- /path/to/edgeheart-consolidated-production-v1.0.zip
+npm run validate:sources
+```
+
+Step 4 will resolve the intentionally preserved class/subclass/origin symbolic
+references and class Competency mappings before Compendium compilation.
