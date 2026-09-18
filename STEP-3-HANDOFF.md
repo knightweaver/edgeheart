@@ -5,6 +5,12 @@
 Step 3 is implemented and locally validated against the accepted
 `edgeheart-consolidated-production-v1.0.zip` input.
 
+The GitHub repository now contains the deterministic builder, validator, and an
+Actions workflow that will populate the authoritative `src/packs/` tree when
+the canonical ZIP is added at:
+
+`sources/edgeheart-consolidated-production-v1.0.zip`
+
 ## Accepted output
 
 - **638** Foundry documents
@@ -15,9 +21,12 @@ Step 3 is implemented and locally validated against the accepted
 - **0** stable-ID collisions
 - **0** `system.actions` shape errors
 
-The tested source archive SHA-256 is:
+The accepted source archive SHA-256 is:
 
 `3943cf9957661c82add6ecbaac33a3ecb8a80f1dc1b2d3161b1ba6f3590d32fa`
+
+The workflow verifies this checksum before generating or committing source-pack
+JSON.
 
 ## Step 3 boundaries
 
