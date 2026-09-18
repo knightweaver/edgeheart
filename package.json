@@ -9,7 +9,9 @@
     "clean:packs": "rimraf packs",
     "compile:packs": "node tools/compile-packs.mjs",
     "extract:packs": "node tools/extract-packs.mjs",
-    "build": "npm run validate && npm run clean:packs && npm run compile:packs"
+    "build": "npm run validate && npm run clean:packs && npm run compile:packs",
+    "build:sources": "python tools/build-source-packs.py",
+    "validate:sources": "python tools/validate-source-packs.py"
   },
   "repository": {
     "type": "git",
