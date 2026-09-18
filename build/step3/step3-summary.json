@@ -1,0 +1,44 @@
+{
+  "step": 3,
+  "status": "PASS",
+  "inputPackage": "edgeheart-consolidated-production-v1.0",
+  "inputArchiveSha256": "3943cf9957661c82add6ecbaac33a3ecb8a80f1dc1b2d3161b1ba6f3590d32fa",
+  "runtime": {
+    "foundryCore": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7"
+  },
+  "documentCount": 638,
+  "folderCount": 172,
+  "documentsByPack": {
+    "adversaries": 22,
+    "ancestries": 6,
+    "armors": 25,
+    "classes": 9,
+    "communities": 8,
+    "consumables": 40,
+    "cyberware": 60,
+    "domains": 231,
+    "environments": 15,
+    "features": 100,
+    "loot": 40,
+    "subclasses": 18,
+    "weapons": 64
+  },
+  "foldersByPack": {
+    "armors": 4,
+    "domains": 121,
+    "features": 43,
+    "weapons": 4
+  },
+  "unresolvedReferenceCount": 145,
+  "unresolvedKinds": {
+    "bundle-membership-reference": 18,
+    "bundle-symbolic-reference": 118,
+    "external-domain-registration-reference": 9
+  },
+  "unknownInternalReferenceTargets": 0,
+  "stableIdCollisions": 0,
+  "systemActionsShapeErrors": 0,
+  "nextStep": "Resolve bundle references and class domain mappings before Compendium compilation."
+}
