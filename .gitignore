@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Generated Foundry LevelDB packs
+/packs/
+
+# Release/build output
+/dist/
+/release/
+
+# Local secrets and environment
+.env
+*.local
+
+# Temporary and editor files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python artifacts, if helper scripts are added later
+__pycache__/
+*.py[cod]
