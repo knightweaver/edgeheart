@@ -1,0 +1,47 @@
+name: Build Edgeheart Source Packs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "sources/edgeheart-consolidated-production-v1.0.zip"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-source-packs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Verify canonical source package
+        shell: bash
+        run: |
+          test -f sources/edgeheart-consolidated-production-v1.0.zip
+          echo "3943cf9957661c82add6ecbaac33a3ecb8a80f1dc1b2d3161b1ba6f3590d32fa  sources/edgeheart-consolidated-production-v1.0.zip" | sha256sum --check --strict
+
+      - name: Build deterministic source packs
+        run: |
+          python tools/build-source-packs.py sources/edgeheart-consolidated-production-v1.0.zip --repo .
+
+      - name: Validate generated source packs
+        run: |
+          python tools/validate-source-packs.py --repo .
+
+      - name: Commit generated source packs
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/packs build/step3
+          if git diff --cached --quiet; then
+            echo "Generated source packs are already current."
+            exit 0
+          fi
+          git commit -m "Generate Edgeheart Step 3 source packs"
+          git push
