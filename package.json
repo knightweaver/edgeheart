@@ -11,7 +11,9 @@
     "extract:packs": "node tools/extract-packs.mjs",
     "build": "npm run validate && npm run clean:packs && npm run compile:packs",
     "build:sources": "python tools/build-source-packs.py",
-    "validate:sources": "python tools/validate-source-packs.py"
+    "validate:sources": "python tools/validate-source-packs.py",
+    "resolve:references": "python tools/resolve-source-references.py",
+    "validate:references": "python tools/validate-resolved-references.py"
   },
   "repository": {
     "type": "git",
