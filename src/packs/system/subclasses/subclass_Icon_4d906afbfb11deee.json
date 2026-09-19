@@ -8,20 +8,20 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:icon:public-persona"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.6ff27674be7a20e5"
       },
       {
         "type": "specialization",
-        "ref": "feature:icon:live-feed"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.662bc7cf14e1c89f"
       },
       {
         "type": "mastery",
-        "ref": "feature:icon:living-brand"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.e91df4bf9c567624"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:broker"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.ee9d0299d7db1e2b"
   },
   "effects": [],
   "flags": {
@@ -35,8 +35,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:icon",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

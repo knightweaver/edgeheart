@@ -7,11 +7,11 @@
     "features": [
       {
         "type": "primary",
-        "ref": "feature:corpo-raised:corporate-design"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.8849fe444b4b4a70"
       },
       {
         "type": "secondary",
-        "ref": "feature:corpo-raised:efficient-routine"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.f3372b49f837dd6d"
       }
     ],
     "attribution": {
@@ -32,8 +32,8 @@
       },
       "deployment": {
         "logicalKey": "ancestry:corpo-raised",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

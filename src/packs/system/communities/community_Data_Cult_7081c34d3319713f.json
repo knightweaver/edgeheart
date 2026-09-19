@@ -5,7 +5,7 @@
   "system": {
     "description": "<p>You are connected to digital mystics, Old Net scavengers, Blackwall obsessives, rogue archivists, signal prophets, or people who believe the machine is haunted.</p><h4>COMMUNITY FEATURE</h4><p><em><strong>Forbidden Pattern:</strong></em> Your connection to corrupted data, rogue AI signs, Blackwall residue, impossible signals, or lost technology might have altered your perception of reality. You can spend 2 Hope to reroll your Fear Die.</p>",
     "features": [
-      "feature:data-cult:forbidden-pattern"
+      "Compendium.edgeheart.edgeheart-features.Item.06c9d3114d430ebb"
     ],
     "attribution": {
       "source": "Edgeheart",
@@ -25,8 +25,8 @@
       },
       "deployment": {
         "logicalKey": "community:data-cult",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

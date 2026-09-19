@@ -8,24 +8,24 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:silent-killer:opening-strike"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.dc3e7dbe0920c57d"
       },
       {
         "type": "foundation",
-        "ref": "feature:silent-killer:no-witnesses"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.019611eaaa99fd4c"
       },
       {
         "type": "specialization",
-        "ref": "feature:silent-killer:kill-window"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.57d864fb69ed0275"
       },
       {
         "type": "mastery",
-        "ref": "feature:silent-killer:perfect-ambush"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.7d69d20a51698304"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:infiltrator"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.5556a029c4dd2ef9"
   },
   "effects": [],
   "flags": {
@@ -39,8 +39,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:silent-killer",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

@@ -8,24 +8,24 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:shock-trooper:breach-momentum"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.3a6e34054d46f967"
       },
       {
         "type": "foundation",
-        "ref": "feature:shock-trooper:hard-entry"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.51703c2278e0182c"
       },
       {
         "type": "specialization",
-        "ref": "feature:shock-trooper:clear-the-line"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.e33170d6dc0a7cb1"
       },
       {
         "type": "mastery",
-        "ref": "feature:shock-trooper:no-way-back"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.a5247ca892889237"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:solo"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.a3072d80bc1b4f6b"
   },
   "effects": [],
   "flags": {
@@ -39,8 +39,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:shock-trooper",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

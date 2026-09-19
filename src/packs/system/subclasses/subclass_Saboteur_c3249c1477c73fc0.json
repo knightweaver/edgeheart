@@ -8,20 +8,20 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:saboteur:planted-charge"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.e91d61034f0b4aa9"
       },
       {
         "type": "specialization",
-        "ref": "feature:saboteur:cascading-failure"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.b57d7df1e722910a"
       },
       {
         "type": "mastery",
-        "ref": "feature:saboteur:controlled-demolition"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.492feb584845daee"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:tech"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.e7975847093a2ace"
   },
   "effects": [],
   "flags": {
@@ -35,8 +35,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:saboteur",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

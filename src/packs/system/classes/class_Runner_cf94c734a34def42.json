@@ -4,25 +4,30 @@
   "img": "icons/svg/book.svg",
   "system": {
     "description": "<p>Other mercenaries can use Network tools, but Runners live inside the breach. They are intrusion specialists, signal thieves, and digital exploiters who survive by turning every system into an opening.</p>",
-    "domains": [],
+    "domains": [
+      "network"
+    ],
     "classItems": [],
     "hitPoints": 5,
     "evasion": 10,
     "features": [
       {
         "type": "hope",
-        "ref": "feature:runner:zero-day"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.5bd4868b4679a801"
       },
       {
         "type": "class",
-        "ref": "feature:runner:hold-your-breach"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.ff387dceb7895e34"
       },
       {
         "type": "class",
-        "ref": "feature:runner:exploit"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.8b8bd7ffd1598a4a"
       }
     ],
-    "subclasses": [],
+    "subclasses": [
+      "Compendium.edgeheart.edgeheart-subclasses.Item.dd2947e288ec9d89",
+      "Compendium.edgeheart.edgeheart-subclasses.Item.d3441e69a1337f8c"
+    ],
     "isMulticlass": false
   },
   "effects": [],
@@ -38,13 +43,14 @@
           "An illegal cyberdeck with a custom interface or a stolen access shard from a job that should have killed you."
         ]
       },
-      "pendingDomainMapping": [
-        "network"
-      ],
       "deployment": {
         "logicalKey": "class:runner",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true,
+        "resolvedDomains": [
+          "network"
+        ],
+        "domainRegistrationPending": true
       }
     }
   },

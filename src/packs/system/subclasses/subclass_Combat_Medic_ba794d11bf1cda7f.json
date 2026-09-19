@@ -8,24 +8,24 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:combat-medic:rapid-response"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.ec5d8843d3e610ee"
       },
       {
         "type": "foundation",
-        "ref": "feature:combat-medic:field-extraction"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.68c9b1fcfd77a516"
       },
       {
         "type": "specialization",
-        "ref": "feature:combat-medic:mass-casualty-protocol"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.d302d7a4d994e568"
       },
       {
         "type": "mastery",
-        "ref": "feature:combat-medic:combat-triage"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.d7d643ae8e3d5d3d"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:trauma-doc"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.52b4cba42b6e515a"
   },
   "effects": [],
   "flags": {
@@ -39,8 +39,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:combat-medic",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

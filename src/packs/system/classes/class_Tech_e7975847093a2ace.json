@@ -4,21 +4,26 @@
   "img": "icons/svg/book.svg",
   "system": {
     "description": "<p>Techs are problem solvers who understand that every machine has a way to break, bend, or become useful. They make impossible plans work just long enough to matter.</p>",
-    "domains": [],
+    "domains": [
+      "systems"
+    ],
     "classItems": [],
     "hitPoints": 5,
     "evasion": 10,
     "features": [
       {
         "type": "hope",
-        "ref": "feature:tech:make-it-work"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.0318f30f5e04243b"
       },
       {
         "type": "class",
-        "ref": "feature:tech:jury-rig"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.6b7ee1ebf817560e"
       }
     ],
-    "subclasses": [],
+    "subclasses": [
+      "Compendium.edgeheart.edgeheart-subclasses.Item.43decc43b2e1c720",
+      "Compendium.edgeheart.edgeheart-subclasses.Item.c3249c1477c73fc0"
+    ],
     "isMulticlass": false
   },
   "effects": [],
@@ -34,13 +39,14 @@
           "A customized toolkit full of illegal adapters and scavenged parts, or a broken machine you refuse to stop repairing."
         ]
       },
-      "pendingDomainMapping": [
-        "systems"
-      ],
       "deployment": {
         "logicalKey": "class:tech",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true,
+        "resolvedDomains": [
+          "systems"
+        ],
+        "domainRegistrationPending": true
       }
     }
   },

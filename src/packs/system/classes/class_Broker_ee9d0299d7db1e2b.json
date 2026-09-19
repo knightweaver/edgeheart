@@ -4,21 +4,26 @@
   "img": "icons/svg/book.svg",
   "system": {
     "description": "<p>Brokers are negotiators, public faces, and social predators who understand that power rarely sits in the hands of the person holding the gun. They know who pays, who can be bought, and who needs to disappear before the next contract begins.</p>",
-    "domains": [],
+    "domains": [
+      "influence"
+    ],
     "classItems": [],
     "hitPoints": 5,
     "evasion": 10,
     "features": [
       {
         "type": "hope",
-        "ref": "feature:broker:fine-print"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.dfd45881d44ec13e"
       },
       {
         "type": "class",
-        "ref": "feature:broker:terms-of-engagement"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.bf0113139444712f"
       }
     ],
-    "subclasses": [],
+    "subclasses": [
+      "Compendium.edgeheart.edgeheart-subclasses.Item.243aad9c45310dd5",
+      "Compendium.edgeheart.edgeheart-subclasses.Item.4d906afbfb11deee"
+    ],
     "isMulticlass": false
   },
   "effects": [],
@@ -34,13 +39,14 @@
           "A contact list that worth more than your bank balance or a contract chip containing a big and illegal corporate deal."
         ]
       },
-      "pendingDomainMapping": [
-        "influence"
-      ],
       "deployment": {
         "logicalKey": "class:broker",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true,
+        "resolvedDomains": [
+          "influence"
+        ],
+        "domainRegistrationPending": true
       }
     }
   },

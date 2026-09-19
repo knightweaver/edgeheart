@@ -8,24 +8,24 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:reflex-suite:neural-reflexes"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.b4110c822e5b4440"
       },
       {
         "type": "foundation",
-        "ref": "feature:reflex-suite:fast-enough"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.2644989436dae0fd"
       },
       {
         "type": "specialization",
-        "ref": "feature:reflex-suite:motion-blur"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.07f6a4b99daf3305"
       },
       {
         "type": "mastery",
-        "ref": "feature:reflex-suite:accelerated-loop"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.e434fd30106b7244"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:augmented"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.33f62e868e0a459b"
   },
   "effects": [],
   "flags": {
@@ -39,8 +39,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:reflex-suite",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

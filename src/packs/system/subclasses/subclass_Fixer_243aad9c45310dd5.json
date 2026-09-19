@@ -8,20 +8,20 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:fixer:black-market-network"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.c6ee7b7dfc5f8076"
       },
       {
         "type": "specialization",
-        "ref": "feature:fixer:contacts-everywhere"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.58cd852503d934f4"
       },
       {
         "type": "mastery",
-        "ref": "feature:fixer:everybody-owes-somebody"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.1ff0fddc45e0b242"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:broker"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.ee9d0299d7db1e2b"
   },
   "effects": [],
   "flags": {
@@ -35,8 +35,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:fixer",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

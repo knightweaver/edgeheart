@@ -4,21 +4,26 @@
   "img": "icons/svg/book.svg",
   "system": {
     "description": "<p>Wardens are bodyguards, riot breakers, and professional protectors who survive by making themselves the hardest problem in the room while they stand between the crew and whatever wants them dead.</p>",
-    "domains": [],
+    "domains": [
+      "aegis"
+    ],
     "classItems": [],
     "hitPoints": 7,
     "evasion": 9,
     "features": [
       {
         "type": "hope",
-        "ref": "feature:warden:not-today"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.d80e0c7f7d6ab7b7"
       },
       {
         "type": "class",
-        "ref": "feature:warden:guardian-protocol"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.778dd209187a852a"
       }
     ],
-    "subclasses": [],
+    "subclasses": [
+      "Compendium.edgeheart.edgeheart-subclasses.Item.c31bbf0a4ba3622f",
+      "Compendium.edgeheart.edgeheart-subclasses.Item.c1057ca09916c374"
+    ],
     "isMulticlass": false
   },
   "effects": [],
@@ -34,13 +39,14 @@
           "A defensive rig marked by old impacts or a contract token from someone you swore to protect."
         ]
       },
-      "pendingDomainMapping": [
-        "aegis"
-      ],
       "deployment": {
         "logicalKey": "class:warden",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true,
+        "resolvedDomains": [
+          "aegis"
+        ],
+        "domainRegistrationPending": true
       }
     }
   },

@@ -8,20 +8,20 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:riotbreaker:crowd-control"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.faa994e8906b4b89"
       },
       {
         "type": "specialization",
-        "ref": "feature:riotbreaker:hard-stop"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.57d9b706e5496127"
       },
       {
         "type": "mastery",
-        "ref": "feature:riotbreaker:break-the-line"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.69df49f31939cae1"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:warden"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.d9d094b21ea54536"
   },
   "effects": [],
   "flags": {
@@ -35,8 +35,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:riotbreaker",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

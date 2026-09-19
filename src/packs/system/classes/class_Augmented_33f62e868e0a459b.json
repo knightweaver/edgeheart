@@ -4,21 +4,26 @@
   "img": "icons/svg/book.svg",
   "system": {
     "description": "<p>Augmented are mercenaries who turned their own bodies into their livelihood. They know how to move with metal bones, strike with calibrated limbs, survive with artificial organs, and push their systems without immediately burning out.</p>",
-    "domains": [],
+    "domains": [
+      "chrome"
+    ],
     "classItems": [],
     "hitPoints": 6,
     "evasion": 11,
     "features": [
       {
         "type": "hope",
-        "ref": "feature:augmented:chrome-surge"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.1b3f697166b4a2bd"
       },
       {
         "type": "class",
-        "ref": "feature:augmented:integrated-chrome"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.2bcc5fd87339dc95"
       }
     ],
-    "subclasses": [],
+    "subclasses": [
+      "Compendium.edgeheart.edgeheart-subclasses.Item.6ebef169afb18b8d",
+      "Compendium.edgeheart.edgeheart-subclasses.Item.696fda42bade918b"
+    ],
     "isMulticlass": false
   },
   "effects": [],
@@ -34,13 +39,14 @@
           "A maintenance kit for your most important implant or the original piece of your body that was replaced by chrome."
         ]
       },
-      "pendingDomainMapping": [
-        "chrome"
-      ],
       "deployment": {
         "logicalKey": "class:augmented",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true,
+        "resolvedDomains": [
+          "chrome"
+        ],
+        "domainRegistrationPending": true
       }
     }
   },

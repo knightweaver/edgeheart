@@ -8,24 +8,24 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:breach-specialist:exploit-payload"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.2d9e539d996eeb99"
       },
       {
         "type": "foundation",
-        "ref": "feature:breach-specialist:hard-crash"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.4206c3dd23cc99c4"
       },
       {
         "type": "specialization",
-        "ref": "feature:breach-specialist:cascade-breach"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.cca6ff2910755faa"
       },
       {
         "type": "mastery",
-        "ref": "feature:breach-specialist:rootkill"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.94df424796512b59"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:runner"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.cf94c734a34def42"
   },
   "effects": [],
   "flags": {
@@ -39,8 +39,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:breach-specialist",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

@@ -5,7 +5,7 @@
   "system": {
     "description": "<p>You are connected to rebels, labor organizers, or anti-corporate cells.</p><h4>COMMUNITY FEATURE</h4><p><em><strong>Found Family:</strong></em> Once per session, you can spend a Hope to use an ally’s Affiliation Feature. When you do, your ally gains a Hope.</p>",
     "features": [
-      "feature:resistance-cell:found-family"
+      "Compendium.edgeheart.edgeheart-features.Item.982518bddf1f18ab"
     ],
     "attribution": {
       "source": "Edgeheart",
@@ -25,8 +25,8 @@
       },
       "deployment": {
         "logicalKey": "community:resistance-cell",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

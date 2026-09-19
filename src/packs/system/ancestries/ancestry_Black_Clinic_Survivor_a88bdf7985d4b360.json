@@ -7,11 +7,11 @@
     "features": [
       {
         "type": "primary",
-        "ref": "feature:black-clinic-survivor:scar-tissue"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.d78f774b42bbd60d"
       },
       {
         "type": "secondary",
-        "ref": "feature:black-clinic-survivor:emergency-rebuild"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.b551734b338343b0"
       }
     ],
     "attribution": {
@@ -32,8 +32,8 @@
       },
       "deployment": {
         "logicalKey": "ancestry:black-clinic-survivor",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

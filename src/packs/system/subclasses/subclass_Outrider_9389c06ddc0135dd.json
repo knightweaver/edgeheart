@@ -8,20 +8,20 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:outrider:signature-vehicle"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.05368147ebbff17b"
       },
       {
         "type": "specialization",
-        "ref": "feature:outrider:stunt-driver"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.8658aae085b12a83"
       },
       {
         "type": "mastery",
-        "ref": "feature:outrider:drive-off"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.0ad8925a5dc7918f"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:reclaimer"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.9ac740df778cb9c3"
   },
   "effects": [],
   "flags": {
@@ -35,8 +35,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:outrider",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

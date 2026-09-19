@@ -4,21 +4,26 @@
   "img": "icons/svg/book.svg",
   "system": {
     "description": "<p>Trauma Docs are field medics, black-clinic surgeons, and cyberware miracle workers who know how to keep people alive when the world has already decided they should be dead.</p>",
-    "domains": [],
+    "domains": [
+      "medtech"
+    ],
     "classItems": [],
     "hitPoints": 5,
     "evasion": 10,
     "features": [
       {
         "type": "hope",
-        "ref": "feature:trauma-doc:stay-with-me"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.9fb64cf8858b6f08"
       },
       {
         "type": "class",
-        "ref": "feature:trauma-doc:emergency-medicine"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.0ee01b6ba54a8581"
       }
     ],
-    "subclasses": [],
+    "subclasses": [
+      "Compendium.edgeheart.edgeheart-subclasses.Item.ba794d11bf1cda7f",
+      "Compendium.edgeheart.edgeheart-subclasses.Item.ba7dea3ab3d763f2"
+    ],
     "isMulticlass": false
   },
   "effects": [],
@@ -34,13 +39,14 @@
           "A trauma kit full of illegal pharmaceuticals and tools, or a bloodstained patient tag from someone you could not save."
         ]
       },
-      "pendingDomainMapping": [
-        "medtech"
-      ],
       "deployment": {
         "logicalKey": "class:trauma-doc",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true,
+        "resolvedDomains": [
+          "medtech"
+        ],
+        "domainRegistrationPending": true
       }
     }
   },

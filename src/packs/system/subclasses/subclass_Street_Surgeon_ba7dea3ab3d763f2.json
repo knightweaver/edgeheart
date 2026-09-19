@@ -8,20 +8,20 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:street-surgeon:black-clinic-procedure"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.1f519942aa91023f"
       },
       {
         "type": "specialization",
-        "ref": "feature:street-surgeon:bad-medicine"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.3e64e085944ea297"
       },
       {
         "type": "mastery",
-        "ref": "feature:street-surgeon:miracle-cocktail"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.dda67c1d55cc93e0"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:trauma-doc"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.52b4cba42b6e515a"
   },
   "effects": [],
   "flags": {
@@ -35,8 +35,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:street-surgeon",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

@@ -4,21 +4,26 @@
   "img": "icons/svg/book.svg",
   "system": {
     "description": "<p>Reclaimers are survivors who know how to live where civilization failed. They cross dead cities and see routes, shelter, and resources of the old world waiting to be used.</p>",
-    "domains": [],
+    "domains": [
+      "frontier"
+    ],
     "classItems": [],
     "hitPoints": 6,
     "evasion": 11,
     "features": [
       {
         "type": "hope",
-        "ref": "feature:reclaimer:home-ground"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.5ac9218f5d1a54e6"
       },
       {
         "type": "class",
-        "ref": "feature:reclaimer:surveyed-route"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.5eb33f85661bdae7"
       }
     ],
-    "subclasses": [],
+    "subclasses": [
+      "Compendium.edgeheart.edgeheart-subclasses.Item.9389c06ddc0135dd",
+      "Compendium.edgeheart.edgeheart-subclasses.Item.dba6096d4108494e"
+    ],
     "isMulticlass": false
   },
   "effects": [],
@@ -34,13 +39,14 @@
           "A cracked route-map filled with personal markings or a piece of salvage from the place that should have killed you."
         ]
       },
-      "pendingDomainMapping": [
-        "frontier"
-      ],
       "deployment": {
         "logicalKey": "class:reclaimer",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true,
+        "resolvedDomains": [
+          "frontier"
+        ],
+        "domainRegistrationPending": true
       }
     }
   },

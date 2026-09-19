@@ -8,20 +8,20 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:rigger:companion-drone"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.1d037a25e9c6540a"
       },
       {
         "type": "specialization",
-        "ref": "feature:rigger:remote-hands"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.eea541e3054b2211"
       },
       {
         "type": "mastery",
-        "ref": "feature:rigger:drone-network"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.88f76d5550a141f9"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:tech"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.e7975847093a2ace"
   },
   "effects": [],
   "flags": {
@@ -35,8 +35,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:rigger",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

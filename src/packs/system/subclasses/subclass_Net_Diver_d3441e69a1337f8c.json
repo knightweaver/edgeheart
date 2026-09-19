@@ -8,20 +8,20 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:net-diver:deep-dive"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.fe0b3e2dd751cbfa"
       },
       {
         "type": "specialization",
-        "ref": "feature:net-diver:virtual-overwatch"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.3dd6d1d6165b3b38"
       },
       {
         "type": "mastery",
-        "ref": "feature:net-diver:blackout-cascade"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.aedf639e214c13f6"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:runner"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.cf94c734a34def42"
   },
   "effects": [],
   "flags": {
@@ -35,8 +35,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:net-diver",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

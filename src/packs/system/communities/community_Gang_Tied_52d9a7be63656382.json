@@ -5,7 +5,7 @@
   "system": {
     "description": "<p>You are connected to a gang, street family, or violent local power.</p><h4>COMMUNITY FEATURE</h4><p><em><strong>Street Wise:</strong></em> You have advantage on rolls to negotiate with criminals, detect lies, recognize gang signs, or find a safe place to hide in criminal territory.</p>",
     "features": [
-      "feature:gang-tied:street-wise"
+      "Compendium.edgeheart.edgeheart-features.Item.ddeee16f0f906567"
     ],
     "attribution": {
       "source": "Edgeheart",
@@ -25,8 +25,8 @@
       },
       "deployment": {
         "logicalKey": "community:gang-tied",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

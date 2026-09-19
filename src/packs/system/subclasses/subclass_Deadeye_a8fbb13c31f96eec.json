@@ -8,20 +8,20 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:deadeye:marked-target"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.605026a1e2a4b225"
       },
       {
         "type": "specialization",
-        "ref": "feature:deadeye:called-shot"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.34141c42cdca76d4"
       },
       {
         "type": "mastery",
-        "ref": "feature:deadeye:kill-confirmed"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.3c52ac322616f9f2"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:solo"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.a3072d80bc1b4f6b"
   },
   "effects": [],
   "flags": {
@@ -35,8 +35,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:deadeye",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

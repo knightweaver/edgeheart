@@ -7,11 +7,11 @@
     "features": [
       {
         "type": "primary",
-        "ref": "feature:nomad:road-sprint"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.186fbb46f2494920"
       },
       {
         "type": "secondary",
-        "ref": "feature:nomad:off-road-born"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.54ebb34a6030cf77"
       }
     ],
     "attribution": {
@@ -32,8 +32,8 @@
       },
       "deployment": {
         "logicalKey": "ancestry:nomad",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

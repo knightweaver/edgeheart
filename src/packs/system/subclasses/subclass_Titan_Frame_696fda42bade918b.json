@@ -8,24 +8,24 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:titan-frame:reinforced-build"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.4d7072ea8ff303f5"
       },
       {
         "type": "foundation",
-        "ref": "feature:titan-frame:load-bearing-body"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.e9ef43990f41a191"
       },
       {
         "type": "specialization",
-        "ref": "feature:titan-frame:impact-absorbers"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.825cc6bc102dca58"
       },
       {
         "type": "mastery",
-        "ref": "feature:titan-frame:heavy-chrome-walking"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.0c8eb58ddbb7b381"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:augmented"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.33f62e868e0a459b"
   },
   "effects": [],
   "flags": {
@@ -39,8 +39,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:titan-frame",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

@@ -4,21 +4,26 @@
   "img": "icons/svg/book.svg",
   "system": {
     "description": "<p>Other mercenaries can hide, sneak, or bypass security. Infiltrators turn those moments into a profession. They feel the exact second when a target becomes vulnerable.</p>",
-    "domains": [],
+    "domains": [
+      "ghost"
+    ],
     "classItems": [],
     "hitPoints": 5,
     "evasion": 12,
     "features": [
       {
         "type": "hope",
-        "ref": "feature:infiltrator:clean-exit"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.fe9a635324760435"
       },
       {
         "type": "class",
-        "ref": "feature:infiltrator:cover-work"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.fa05836bf4833a68"
       }
     ],
-    "subclasses": [],
+    "subclasses": [
+      "Compendium.edgeheart.edgeheart-subclasses.Item.d16fffd6439709c2",
+      "Compendium.edgeheart.edgeheart-subclasses.Item.b694819eb8453236"
+    ],
     "isMulticlass": false
   },
   "effects": [],
@@ -34,13 +39,14 @@
           "A set of false credentials or a suppressed weapon from a job that officially never happened."
         ]
       },
-      "pendingDomainMapping": [
-        "ghost"
-      ],
       "deployment": {
         "logicalKey": "class:infiltrator",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true,
+        "resolvedDomains": [
+          "ghost"
+        ],
+        "domainRegistrationPending": true
       }
     }
   },

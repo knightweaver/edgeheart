@@ -8,20 +8,20 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:zonebreaker:field-salvage"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.426e898d1dfe5fe8"
       },
       {
         "type": "specialization",
-        "ref": "feature:zonebreaker:bad-ground"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.5be9b8bedd34f874"
       },
       {
         "type": "mastery",
-        "ref": "feature:zonebreaker:dead-zone"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.fa8114625dbe20c6"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:reclaimer"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.9ac740df778cb9c3"
   },
   "effects": [],
   "flags": {
@@ -35,8 +35,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:zonebreaker",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

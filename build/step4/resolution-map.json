@@ -1,0 +1,1024 @@
+{
+  "schemaVersion": "1.0",
+  "buildStep": 4,
+  "sourceStep": 3,
+  "status": "RESOLVED",
+  "count": 145,
+  "references": [
+    {
+      "ownerLogicalKey": "ancestry:black-clinic-survivor",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:black-clinic-survivor:scar-tissue",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.d78f774b42bbd60d",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "ancestry:black-clinic-survivor",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:black-clinic-survivor:emergency-rebuild",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.b551734b338343b0",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "ancestry:corpo-raised",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:corpo-raised:corporate-design",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.8849fe444b4b4a70",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "ancestry:corpo-raised",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:corpo-raised:efficient-routine",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.f3372b49f837dd6d",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "ancestry:military-surplus",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:military-surplus:combat-reactions",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.ff5d741fca1835c8",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "ancestry:military-surplus",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:military-surplus:last-one-standing",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.92e8e7c623600fcd",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "ancestry:nomad",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:nomad:road-sprint",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.186fbb46f2494920",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "ancestry:nomad",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:nomad:off-road-born",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.54ebb34a6030cf77",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "ancestry:streetborn",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:streetborn:alley-reflexes",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.515671d737e35914",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "ancestry:streetborn",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:streetborn:cheap-shot",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.13107f681d3e6ce5",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "ancestry:wasteland-native",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:wasteland-native:hazard-bred",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.011b7ca905fe1c92",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "ancestry:wasteland-native",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:wasteland-native:hard-as-nails",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.f49c0be9d31f45be",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:augmented",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:chrome",
+      "resolvedValue": "chrome",
+      "kind": "external-domain-registration-reference"
+    },
+    {
+      "ownerLogicalKey": "class:augmented",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:augmented:chrome-surge",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.1b3f697166b4a2bd",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:augmented",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:augmented:integrated-chrome",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.2bcc5fd87339dc95",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:augmented",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:reflex-suite",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.6ebef169afb18b8d",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:augmented",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:titan-frame",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.696fda42bade918b",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:broker",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:influence",
+      "resolvedValue": "influence",
+      "kind": "external-domain-registration-reference"
+    },
+    {
+      "ownerLogicalKey": "class:broker",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:broker:fine-print",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.dfd45881d44ec13e",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:broker",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:broker:terms-of-engagement",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.bf0113139444712f",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:broker",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:fixer",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.243aad9c45310dd5",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:broker",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:icon",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.4d906afbfb11deee",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:infiltrator",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:ghost",
+      "resolvedValue": "ghost",
+      "kind": "external-domain-registration-reference"
+    },
+    {
+      "ownerLogicalKey": "class:infiltrator",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:infiltrator:clean-exit",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.fe9a635324760435",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:infiltrator",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:infiltrator:cover-work",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.fa05836bf4833a68",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:infiltrator",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:phantom",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.b694819eb8453236",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:infiltrator",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:silent-killer",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.d16fffd6439709c2",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:reclaimer",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:frontier",
+      "resolvedValue": "frontier",
+      "kind": "external-domain-registration-reference"
+    },
+    {
+      "ownerLogicalKey": "class:reclaimer",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:reclaimer:home-ground",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.5ac9218f5d1a54e6",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:reclaimer",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:reclaimer:surveyed-route",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.5eb33f85661bdae7",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:reclaimer",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:outrider",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.9389c06ddc0135dd",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:reclaimer",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:zonebreaker",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.dba6096d4108494e",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:runner",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:network",
+      "resolvedValue": "network",
+      "kind": "external-domain-registration-reference"
+    },
+    {
+      "ownerLogicalKey": "class:runner",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:runner:zero-day",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.5bd4868b4679a801",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:runner",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:runner:hold-your-breach",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.ff387dceb7895e34",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:runner",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:runner:exploit",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.8b8bd7ffd1598a4a",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:runner",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:breach-specialist",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.dd2947e288ec9d89",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:runner",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:net-diver",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.d3441e69a1337f8c",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:solo",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:assault",
+      "resolvedValue": "assault",
+      "kind": "external-domain-registration-reference"
+    },
+    {
+      "ownerLogicalKey": "class:solo",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:solo:fire-superiority",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.6faf890fe1762273",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:solo",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:solo:kill-chain",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.fe62ecd66b29cd6c",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:solo",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:deadeye",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.a8fbb13c31f96eec",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:solo",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:shock-trooper",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.e4207d3de3a2309f",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:tech",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:systems",
+      "resolvedValue": "systems",
+      "kind": "external-domain-registration-reference"
+    },
+    {
+      "ownerLogicalKey": "class:tech",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:tech:make-it-work",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.0318f30f5e04243b",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:tech",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:tech:jury-rig",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.6b7ee1ebf817560e",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:tech",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:rigger",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.43decc43b2e1c720",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:tech",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:saboteur",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.c3249c1477c73fc0",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:trauma-doc",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:medtech",
+      "resolvedValue": "medtech",
+      "kind": "external-domain-registration-reference"
+    },
+    {
+      "ownerLogicalKey": "class:trauma-doc",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:trauma-doc:stay-with-me",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.9fb64cf8858b6f08",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:trauma-doc",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:trauma-doc:emergency-medicine",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.0ee01b6ba54a8581",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:trauma-doc",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:combat-medic",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.ba794d11bf1cda7f",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:trauma-doc",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:street-surgeon",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.ba7dea3ab3d763f2",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:warden",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:aegis",
+      "resolvedValue": "aegis",
+      "kind": "external-domain-registration-reference"
+    },
+    {
+      "ownerLogicalKey": "class:warden",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:warden:not-today",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.d80e0c7f7d6ab7b7",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:warden",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:warden:guardian-protocol",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.778dd209187a852a",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "class:warden",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:bulwark",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.c31bbf0a4ba3622f",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "class:warden",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:riotbreaker",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.c1057ca09916c374",
+      "kind": "bundle-membership-reference"
+    },
+    {
+      "ownerLogicalKey": "community:black-clinic",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:black-clinic:chillax",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.630e34027ab99924",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "community:corporate-asset",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:corporate-asset:elite-privilege",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.87c2e6f79782bf65",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "community:data-cult",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:data-cult:forbidden-pattern",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.06c9d3114d430ebb",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "community:fixer-network",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:fixer-network:know-the-deal",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.597d16ac013d31f7",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "community:gang-tied",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:gang-tied:street-wise",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.ddeee16f0f906567",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "community:mercenary-network",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:mercenary-network:unbound",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.cc07bb07c96daebe",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "community:nomad-convoy",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:nomad-convoy:law-of-the-road",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.ad8fef8696eb5333",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "community:resistance-cell",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:resistance-cell:found-family",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.982518bddf1f18ab",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:breach-specialist",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:breach-specialist:exploit-payload",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.2d9e539d996eeb99",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:breach-specialist",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:breach-specialist:hard-crash",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.4206c3dd23cc99c4",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:breach-specialist",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:breach-specialist:cascade-breach",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.cca6ff2910755faa",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:breach-specialist",
+      "jsonPath": "$.system.features[3]",
+      "targetLogicalKey": "feature:breach-specialist:rootkill",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.94df424796512b59",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:breach-specialist",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:runner",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.cf94c734a34def42",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:bulwark",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:bulwark:impact-frame",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.b2163fd0da0b8eba",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:bulwark",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:bulwark:hard-to-break",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.3df69ec3509bb3dc",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:bulwark",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:bulwark:unbreakable-frame",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.25ba029eb11200cd",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:bulwark",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:warden",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.d9d094b21ea54536",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:combat-medic",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:combat-medic:rapid-response",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.ec5d8843d3e610ee",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:combat-medic",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:combat-medic:field-extraction",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.68c9b1fcfd77a516",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:combat-medic",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:combat-medic:mass-casualty-protocol",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.d302d7a4d994e568",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:combat-medic",
+      "jsonPath": "$.system.features[3]",
+      "targetLogicalKey": "feature:combat-medic:combat-triage",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.d7d643ae8e3d5d3d",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:combat-medic",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:trauma-doc",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.52b4cba42b6e515a",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:deadeye",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:deadeye:marked-target",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.605026a1e2a4b225",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:deadeye",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:deadeye:called-shot",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.34141c42cdca76d4",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:deadeye",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:deadeye:kill-confirmed",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.3c52ac322616f9f2",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:deadeye",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:solo",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.a3072d80bc1b4f6b",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:fixer",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:fixer:black-market-network",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.c6ee7b7dfc5f8076",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:fixer",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:fixer:contacts-everywhere",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.58cd852503d934f4",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:fixer",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:fixer:everybody-owes-somebody",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.1ff0fddc45e0b242",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:fixer",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:broker",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.ee9d0299d7db1e2b",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:icon",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:icon:public-persona",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.6ff27674be7a20e5",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:icon",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:icon:live-feed",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.662bc7cf14e1c89f",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:icon",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:icon:living-brand",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.e91df4bf9c567624",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:icon",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:broker",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.ee9d0299d7db1e2b",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:net-diver",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:net-diver:deep-dive",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.fe0b3e2dd751cbfa",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:net-diver",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:net-diver:virtual-overwatch",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.3dd6d1d6165b3b38",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:net-diver",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:net-diver:blackout-cascade",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.aedf639e214c13f6",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:net-diver",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:runner",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.cf94c734a34def42",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:outrider",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:outrider:signature-vehicle",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.05368147ebbff17b",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:outrider",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:outrider:stunt-driver",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.8658aae085b12a83",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:outrider",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:outrider:drive-off",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.0ad8925a5dc7918f",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:outrider",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:reclaimer",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.9ac740df778cb9c3",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:phantom",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:phantom:ghost-route",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.3e0c4cb0ded7597a",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:phantom",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:phantom:now-you-see-me",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.2031185b862b001c",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:phantom",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:phantom:extraction-window",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.b710ea8acce81756",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:phantom",
+      "jsonPath": "$.system.features[3]",
+      "targetLogicalKey": "feature:phantom:impossible-exit",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.dbed3d70a1411f16",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:phantom",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:infiltrator",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.5556a029c4dd2ef9",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:reflex-suite",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:reflex-suite:neural-reflexes",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.b4110c822e5b4440",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:reflex-suite",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:reflex-suite:fast-enough",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.2644989436dae0fd",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:reflex-suite",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:reflex-suite:motion-blur",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.07f6a4b99daf3305",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:reflex-suite",
+      "jsonPath": "$.system.features[3]",
+      "targetLogicalKey": "feature:reflex-suite:accelerated-loop",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.e434fd30106b7244",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:reflex-suite",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:augmented",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.33f62e868e0a459b",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:rigger",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:rigger:companion-drone",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.1d037a25e9c6540a",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:rigger",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:rigger:remote-hands",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.eea541e3054b2211",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:rigger",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:rigger:drone-network",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.88f76d5550a141f9",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:rigger",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:tech",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.e7975847093a2ace",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:riotbreaker",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:riotbreaker:crowd-control",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.faa994e8906b4b89",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:riotbreaker",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:riotbreaker:hard-stop",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.57d9b706e5496127",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:riotbreaker",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:riotbreaker:break-the-line",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.69df49f31939cae1",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:riotbreaker",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:warden",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.d9d094b21ea54536",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:saboteur",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:saboteur:planted-charge",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.e91d61034f0b4aa9",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:saboteur",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:saboteur:cascading-failure",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.b57d7df1e722910a",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:saboteur",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:saboteur:controlled-demolition",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.492feb584845daee",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:saboteur",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:tech",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.e7975847093a2ace",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:shock-trooper",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:shock-trooper:breach-momentum",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.3a6e34054d46f967",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:shock-trooper",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:shock-trooper:hard-entry",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.51703c2278e0182c",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:shock-trooper",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:shock-trooper:clear-the-line",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.e33170d6dc0a7cb1",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:shock-trooper",
+      "jsonPath": "$.system.features[3]",
+      "targetLogicalKey": "feature:shock-trooper:no-way-back",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.a5247ca892889237",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:shock-trooper",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:solo",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.a3072d80bc1b4f6b",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:silent-killer",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:silent-killer:opening-strike",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.dc3e7dbe0920c57d",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:silent-killer",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:silent-killer:no-witnesses",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.019611eaaa99fd4c",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:silent-killer",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:silent-killer:kill-window",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.57d864fb69ed0275",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:silent-killer",
+      "jsonPath": "$.system.features[3]",
+      "targetLogicalKey": "feature:silent-killer:perfect-ambush",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.7d69d20a51698304",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:silent-killer",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:infiltrator",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.5556a029c4dd2ef9",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:street-surgeon",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:street-surgeon:black-clinic-procedure",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.1f519942aa91023f",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:street-surgeon",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:street-surgeon:bad-medicine",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.3e64e085944ea297",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:street-surgeon",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:street-surgeon:miracle-cocktail",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.dda67c1d55cc93e0",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:street-surgeon",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:trauma-doc",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.52b4cba42b6e515a",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:titan-frame",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:titan-frame:reinforced-build",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.4d7072ea8ff303f5",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:titan-frame",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:titan-frame:load-bearing-body",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.e9ef43990f41a191",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:titan-frame",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:titan-frame:impact-absorbers",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.825cc6bc102dca58",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:titan-frame",
+      "jsonPath": "$.system.features[3]",
+      "targetLogicalKey": "feature:titan-frame:heavy-chrome-walking",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.0c8eb58ddbb7b381",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:titan-frame",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:augmented",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.33f62e868e0a459b",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:zonebreaker",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:zonebreaker:field-salvage",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.426e898d1dfe5fe8",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:zonebreaker",
+      "jsonPath": "$.system.features[1]",
+      "targetLogicalKey": "feature:zonebreaker:bad-ground",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.5be9b8bedd34f874",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:zonebreaker",
+      "jsonPath": "$.system.features[2]",
+      "targetLogicalKey": "feature:zonebreaker:dead-zone",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.fa8114625dbe20c6",
+      "kind": "bundle-symbolic-reference"
+    },
+    {
+      "ownerLogicalKey": "subclass:zonebreaker",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:reclaimer",
+      "resolvedValue": "Compendium.edgeheart.edgeheart-classes.Item.9ac740df778cb9c3",
+      "kind": "bundle-symbolic-reference"
+    }
+  ]
+}

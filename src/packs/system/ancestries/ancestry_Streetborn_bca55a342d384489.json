@@ -7,11 +7,11 @@
     "features": [
       {
         "type": "primary",
-        "ref": "feature:streetborn:alley-reflexes"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.515671d737e35914"
       },
       {
         "type": "secondary",
-        "ref": "feature:streetborn:cheap-shot"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.13107f681d3e6ce5"
       }
     ],
     "attribution": {
@@ -32,8 +32,8 @@
       },
       "deployment": {
         "logicalKey": "ancestry:streetborn",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

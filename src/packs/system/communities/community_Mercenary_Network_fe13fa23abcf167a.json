@@ -5,7 +5,7 @@
   "system": {
     "description": "<p>You are connected to a mercenary company, job board, or professional network of hired guns.</p><h4>COMMUNITY FEATURE</h4><p><em><strong>Unbound:</strong></em> Once per session, when you make an action roll with Fear, you can change it to a roll with Hope instead.</p>",
     "features": [
-      "feature:mercenary-network:unbound"
+      "Compendium.edgeheart.edgeheart-features.Item.cc07bb07c96daebe"
     ],
     "attribution": {
       "source": "Edgeheart",
@@ -25,8 +25,8 @@
       },
       "deployment": {
         "logicalKey": "community:mercenary-network",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

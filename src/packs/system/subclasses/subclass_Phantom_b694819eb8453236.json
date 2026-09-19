@@ -8,24 +8,24 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:phantom:ghost-route"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.3e0c4cb0ded7597a"
       },
       {
         "type": "foundation",
-        "ref": "feature:phantom:now-you-see-me"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.2031185b862b001c"
       },
       {
         "type": "specialization",
-        "ref": "feature:phantom:extraction-window"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.b710ea8acce81756"
       },
       {
         "type": "mastery",
-        "ref": "feature:phantom:impossible-exit"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.dbed3d70a1411f16"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:infiltrator"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.5556a029c4dd2ef9"
   },
   "effects": [],
   "flags": {
@@ -39,8 +39,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:phantom",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },

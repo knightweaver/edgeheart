@@ -8,20 +8,20 @@
     "features": [
       {
         "type": "foundation",
-        "ref": "feature:bulwark:impact-frame"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.b2163fd0da0b8eba"
       },
       {
         "type": "specialization",
-        "ref": "feature:bulwark:hard-to-break"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.3df69ec3509bb3dc"
       },
       {
         "type": "mastery",
-        "ref": "feature:bulwark:unbreakable-frame"
+        "item": "Compendium.edgeheart.edgeheart-features.Item.25ba029eb11200cd"
       }
     ],
     "featureState": 1,
     "isMulticlass": false,
-    "linkedClass": "@class:warden"
+    "linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.d9d094b21ea54536"
   },
   "effects": [],
   "flags": {
@@ -35,8 +35,8 @@
       },
       "deployment": {
         "logicalKey": "subclass:bulwark",
-        "sourceBuildStep": 3,
-        "referencesResolved": false
+        "sourceBuildStep": 4,
+        "referencesResolved": true
       }
     }
   },
