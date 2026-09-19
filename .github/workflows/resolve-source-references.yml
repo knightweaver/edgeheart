@@ -1,0 +1,45 @@
+name: Resolve Edgeheart Source References
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "tools/resolve-source-references.py"
+      - "tools/validate-resolved-references.py"
+      - ".github/workflows/resolve-source-references.yml"
+      - "build/step3/stable-id-registry.json"
+      - "build/step3/bundle-relations.json"
+      - "build/step3/unresolved-references.json"
+
+permissions:
+  contents: write
+
+jobs:
+  resolve-references:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Resolve deterministic references
+        run: |
+          python tools/resolve-source-references.py --repo .
+
+      - name: Validate resolved references
+        run: |
+          python tools/validate-resolved-references.py --repo .
+
+      - name: Commit resolved source documents
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/packs build/step4
+          if git diff --cached --quiet; then
+            echo "Step 4 resolved references are already current."
+            exit 0
+          fi
+          git commit -m "Resolve Edgeheart Step 4 references"
+          git push
