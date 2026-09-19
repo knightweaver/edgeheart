@@ -66,25 +66,27 @@ Step 1 — Deployment Contract: accepted and frozen.
 
 Step 2 — Module Skeleton: established.
 
-Step 3 — Deterministic source-pack transformation: **complete and authoritative
-in GitHub**. The accepted consolidated source package has been checksum-verified,
-the `src/packs/` tree has been generated and validated, and the generated
-sources are committed to `main`.
+Step 3 — Deterministic source-pack transformation: complete and authoritative in
+GitHub.
 
-To regenerate Step 3 sources locally:
+Step 4 — Symbolic reference and class Competency mapping resolution: **complete
+and authoritative in GitHub**. All 145 Step 3 unresolved references have been
+resolved into Daggerheart 1.2.7-compatible Compendium UUID/domain structures and
+validated with zero symbolic references remaining.
+
+To regenerate Steps 3–4 locally:
 
 ```bash
 npm run build:sources -- /path/to/edgeheart-consolidated-production-v1.0.zip
 npm run validate:sources
+npm run resolve:references
+npm run validate:references
 ```
 
-For the authoritative GitHub build, the accepted archive lives at:
+The accepted source archive remains:
 
 `sources/edgeheart-consolidated-production-v1.0.zip`
 
-Changes to that exact path trigger the Step 3 workflow, which verifies the
-frozen SHA-256, regenerates and validates `src/packs/`, and commits generated
-source-pack JSON and Step 3 reports back to `main`.
-
-Step 4 will resolve the intentionally preserved class/subclass/origin symbolic
-references and class Competency mappings before Compendium compilation.
+The next deployment work is native registration of the eleven Edgeheart
+Competencies through Daggerheart 1.2.7 Homebrew domains, followed by final asset
+path rewriting, Compendium compilation, and runtime qualification.
