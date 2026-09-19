@@ -1,0 +1,16 @@
+name: Validate Staged Edgeheart Assets
+
+on:
+  workflow_dispatch:
+
+jobs:
+  validate-staged-assets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Require and validate all staged assets
+        run: |
+          python tools/validate-asset-paths.py --repo . --require-assets
