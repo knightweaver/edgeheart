@@ -72,14 +72,26 @@ GitHub.
 Step 4 — Symbolic reference and class Competency mapping resolution: complete
 and authoritative in GitHub.
 
-Step 5 — Native Competency registration: **complete and authoritative in
-GitHub**. Edgeheart now registers Network, Assault, Chrome, Systems, Influence,
-Ghost, Frontier, Medtech, Aegis, Redline, and Blackwall through Daggerheart
-1.2.7's native world-scoped Homebrew domain setting. Static validation confirms
-all 231 Domain Cards use those IDs, 21 cards per Competency, and all 9 class
-mappings are valid.
+Step 5 — Native Competency registration: complete and authoritative in GitHub.
 
-To regenerate and validate Steps 3–5 locally:
+Step 6 — Asset deployment: **deterministic path rewriting is complete; binary
+art staging is pending**. The source tree now contains portable Edgeheart module
+paths for all 538 source-document images, all 22 adversary tokens, and 528
+same-document action/attack image references. The deployment manifest contains
+571 required assets and has been cross-checked against the accepted Visual Canon
+v0.1.1 full art manifest.
+
+The final generated image binaries are not yet present in the repository. Stage
+them from the completed local art-generation output with:
+
+```bash
+python tools/stage-assets.py /path/to/generated-edgeheart-art --repo .
+npm run validate:assets
+```
+
+See `ASSET-STAGING.md` for the complete path and validation contract.
+
+To regenerate and validate Steps 3–6 locally:
 
 ```bash
 npm run build:sources -- /path/to/edgeheart-consolidated-production-v1.0.zip
@@ -87,12 +99,13 @@ npm run validate:sources
 npm run resolve:references
 npm run validate:references
 npm run validate:competencies
+npm run rewrite:assets
+npm run validate:asset-paths
 ```
 
 The accepted source archive remains:
 
 `sources/edgeheart-consolidated-production-v1.0.zip`
 
-The next deployment work is final asset staging and deterministic asset-path
-rewriting, followed by Compendium compilation and clean-world Foundry runtime
-qualification.
+Compendium compilation and clean-world Foundry runtime qualification remain
+downstream of final binary asset validation.
