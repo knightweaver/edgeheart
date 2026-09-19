@@ -69,24 +69,30 @@ Step 2 — Module Skeleton: established.
 Step 3 — Deterministic source-pack transformation: complete and authoritative in
 GitHub.
 
-Step 4 — Symbolic reference and class Competency mapping resolution: **complete
-and authoritative in GitHub**. All 145 Step 3 unresolved references have been
-resolved into Daggerheart 1.2.7-compatible Compendium UUID/domain structures and
-validated with zero symbolic references remaining.
+Step 4 — Symbolic reference and class Competency mapping resolution: complete
+and authoritative in GitHub.
 
-To regenerate Steps 3–4 locally:
+Step 5 — Native Competency registration: **complete and authoritative in
+GitHub**. Edgeheart now registers Network, Assault, Chrome, Systems, Influence,
+Ghost, Frontier, Medtech, Aegis, Redline, and Blackwall through Daggerheart
+1.2.7's native world-scoped Homebrew domain setting. Static validation confirms
+all 231 Domain Cards use those IDs, 21 cards per Competency, and all 9 class
+mappings are valid.
+
+To regenerate and validate Steps 3–5 locally:
 
 ```bash
 npm run build:sources -- /path/to/edgeheart-consolidated-production-v1.0.zip
 npm run validate:sources
 npm run resolve:references
 npm run validate:references
+npm run validate:competencies
 ```
 
 The accepted source archive remains:
 
 `sources/edgeheart-consolidated-production-v1.0.zip`
 
-The next deployment work is native registration of the eleven Edgeheart
-Competencies through Daggerheart 1.2.7 Homebrew domains, followed by final asset
-path rewriting, Compendium compilation, and runtime qualification.
+The next deployment work is final asset staging and deterministic asset-path
+rewriting, followed by Compendium compilation and clean-world Foundry runtime
+qualification.
