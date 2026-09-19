@@ -1,7 +1,7 @@
 {
   "name": "Shock Mine",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/consumables/shock-mine.webp",
   "system": {
     "description": "<p>Place on a surface. The next creature who moves within Melee range of it marks 1 Stress and becomes temporarily Vulnerable.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Shock Mine",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/consumables/shock-mine.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -58,7 +58,10 @@
       "deployment": {
         "logicalKey": "consumable:shock-mine",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/consumables/shock-mine.webp"
       }
     }
   },

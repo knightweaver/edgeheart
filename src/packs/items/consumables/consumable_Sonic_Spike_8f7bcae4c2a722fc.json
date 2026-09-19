@@ -1,7 +1,7 @@
 {
   "name": "Sonic Spike",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/consumables/sonic-spike.webp",
   "system": {
     "description": "<p>All creatures within Very Close range of the target point mark 1 Stress, and fragile glass, sensors, or exposed electronics break.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Sonic Spike",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/consumables/sonic-spike.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -58,7 +58,10 @@
       "deployment": {
         "logicalKey": "consumable:sonic-spike",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/consumables/sonic-spike.webp"
       }
     }
   },

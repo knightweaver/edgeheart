@@ -1,7 +1,7 @@
 {
   "name": "Angel Skin Prototype",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/edgeheart/assets/icons/armors/angel-skin-prototype.webp",
   "system": {
     "description": "<p>Emergency Halo: When you would spend a Hope to help an ally or use a defensive feature, you may mark an Armor Slot instead.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Emergency Halo",
-        "img": "icons/svg/shield.svg",
+        "img": "modules/edgeheart/assets/icons/armors/angel-skin-prototype.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -74,7 +74,10 @@
       "deployment": {
         "logicalKey": "armor:angel-skin-prototype",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/armors/angel-skin-prototype.webp"
       }
     }
   },

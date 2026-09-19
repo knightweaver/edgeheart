@@ -1,7 +1,7 @@
 {
   "name": "Prototype Battery",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/consumables/prototype-battery.webp",
   "system": {
     "description": "<p>Recharge one expended Loot item that works through power, signal, drones, hardlight, scanners, or electronics, allowing it to be used one additional time before your next rest.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Prototype Battery",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/consumables/prototype-battery.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -58,7 +58,10 @@
       "deployment": {
         "logicalKey": "consumable:prototype-battery",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/consumables/prototype-battery.webp"
       }
     }
   },

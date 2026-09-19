@@ -1,7 +1,7 @@
 {
   "name": "Streetborn",
   "type": "ancestry",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/life-paths/streetborn.webp",
   "system": {
     "description": "<p>You grew up in the streets, alleys, and gang districts of the New Dark Age. You learned how to read danger before it speaks.</p><h4>LIFE PATH FEATURES</h4><p><em><strong>Alley Reflexes:</strong></em> When you make an Agility Roll, you can spend 2 Hope to reroll your Hope Die.</p><p><em><strong>Cheap Shot:</strong></em> When you succeed on an attack against a target within Very Close range using an improvised weapon, hidden blade, dirty trick, or street tactic, you can spend a Hope to make them temporarily Vulnerable.</p>",
     "features": [
@@ -33,7 +33,10 @@
       "deployment": {
         "logicalKey": "ancestry:streetborn",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/life-paths/streetborn.webp"
       }
     }
   },

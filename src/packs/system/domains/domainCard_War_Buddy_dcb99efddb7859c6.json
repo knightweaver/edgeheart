@@ -1,7 +1,7 @@
 {
   "name": "War Buddy",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/war-buddy.webp",
   "system": {
     "description": "<p>Once per long rest, when you<br>compliment someone or ask them<br>about something they’re good at, you<br>can both gain 3 Hope.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "War Buddy",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/war-buddy.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:war-buddy",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/war-buddy.webp"
       }
     }
   },

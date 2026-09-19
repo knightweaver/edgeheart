@@ -1,7 +1,7 @@
 {
   "name": "Thermal Hijack",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/thermal-hijack.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Melee range. On a success, you<br>force their implants ports to violently<br>overheat. They take 1d20+3 techno<br>damage and are Overheated.<br>When a creature acts while<br>Overheated, they must take an extra<br>2d6 techno damage if they are still<br>Overheated at the end of their action.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Thermal Hijack",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/thermal-hijack.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:thermal-hijack",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/thermal-hijack.webp"
       }
     }
   },

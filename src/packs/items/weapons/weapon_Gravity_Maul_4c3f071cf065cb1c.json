@@ -1,7 +1,7 @@
 {
   "name": "Gravity Maul",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/gravity-maul.webp",
   "system": {
     "description": "<p>Crater: On a successful attack, all targets within Very Close range of the target must mark 1 Stress.</p>",
     "tier": 3,
@@ -10,7 +10,7 @@
     "burden": "twoHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/gravity-maul.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "melee",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Crater",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/gravity-maul.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:gravity-maul",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/gravity-maul.webp"
       }
     }
   },

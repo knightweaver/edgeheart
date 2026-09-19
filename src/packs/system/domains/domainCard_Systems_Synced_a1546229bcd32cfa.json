@@ -1,7 +1,7 @@
 {
   "name": "Systems-Synced",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/systems-synced.webp",
   "system": {
     "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Systems<br>Competency, gain the following:<br>* You can mark a Stress to add your<br>Proficiency to an Interface Roll.<br>* Once per rest, replace this card with<br>any card from your vault without<br>paying its Recall Cost.<br>ee ae</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Systems-Synced",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/systems-synced.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:systems-synced",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/systems-synced.webp"
       }
     }
   },

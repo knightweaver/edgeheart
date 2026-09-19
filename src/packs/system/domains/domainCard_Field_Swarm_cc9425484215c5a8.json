@@ -1,7 +1,7 @@
 {
   "name": "Field Swarm",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/field-swarm.webp",
   "system": {
     "description": "<p>Guardian Swarm: Mark a Stress to<br>release micro shield-drones that<br>encircle you. When you take damage,<br>reduce the severity by one threshold.<br>You can spend a Hope to keep the<br>swarm active after taking damage.<br>Razor Swarm: Make an Interface Roll<br>against all adversaries within Close<br>range. Spend a Hope to send the<br>swarm outward in a burst of micro-<br>drone impacts. Targets you succeeded</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Field Swarm",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/field-swarm.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:field-swarm",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/field-swarm.webp"
       }
     }
   },

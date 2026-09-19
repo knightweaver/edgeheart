@@ -1,7 +1,7 @@
 {
   "name": "Repulsion Pulse",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/repulsion-pulse.webp",
   "system": {
     "description": "<p>Make an Interface Roll against all<br>targets within Melee range. Targets you<br>succeed against are forced back to Far<br>range and take d8+3 impact or techno<br>damage using your Interface trait.<br>This might look like a shield discharge,<br>repulsor plate, pressure wave, or<br>defensive blast from your armor rig.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Repulsion Pulse",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/repulsion-pulse.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:repulsion-pulse",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/repulsion-pulse.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Angel-Skin Plating",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/angel-skin-plating.webp",
   "system": {
     "description": "<p>Cyber Cost: 3</p><p>Gain +2 Armor Score. Once per long rest, when an ally within Very Close range would mark Hit Points, you can mark an Armor Slot to reduce the severity by one threshold.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Angel-Skin Plating",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/angel-skin-plating.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:angel-skin-plating",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/angel-skin-plating.webp"
       }
     }
   },

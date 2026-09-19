@@ -1,7 +1,7 @@
 {
   "name": "Pulse Halberd",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/pulse-halberd.webp",
   "system": {
     "description": "<p>Reach Arc: On a roll with Hope, another target in a line within range marks 1 Stress.</p>",
     "tier": 2,
@@ -10,7 +10,7 @@
     "burden": "twoHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/pulse-halberd.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "veryClose",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Reach Arc",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/pulse-halberd.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:pulse-halberd",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/pulse-halberd.webp"
       }
     }
   },

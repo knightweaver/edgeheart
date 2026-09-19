@@ -1,7 +1,7 @@
 {
   "name": "Weakpoint Tag",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/weakpoint-tag.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Very Close range.<br>On a success, spend a Hope to mark<br>them with a hidden tracer, targeting<br>glyph, or weakpoint scanner,<br>temporarily reducing the target’s<br>Difficulty by a value equal to your<br>Interface trait, minimum 1.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Weakpoint Tag",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/weakpoint-tag.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:weakpoint-tag",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/weakpoint-tag.webp"
       }
     }
   },

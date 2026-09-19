@@ -1,7 +1,7 @@
 {
   "name": "Corrosive Round",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/corrosive-round.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, deal<br>d6+4 techno damage using your<br>Proficiency.<br>Additionally, mark 2 or more Stress to<br>make them permanently Corroded.<br>While a target is Corroded, theytake a<br>-1 to their Difficulty forevery 2 Stress</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Corrosive Round",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/corrosive-round.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:corrosive-round",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/corrosive-round.webp"
       }
     }
   },

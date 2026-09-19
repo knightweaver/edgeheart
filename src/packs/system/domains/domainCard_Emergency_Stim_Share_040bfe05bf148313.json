@@ -1,7 +1,7 @@
 {
   "name": "Emergency Stim Share",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/emergency-stim-share.webp",
   "system": {
     "description": "<p>Once per rest, mark a HP to flood each<br>ally within Close range with combat<br>drugs, trauma stabilizers, emergency<br>stimulants, or pain suppressors.<br>Each affected ally clears a HP ora<br>Stress. You can mark a Stress to allow<br>those allies to clear one of each<br>instead.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Emergency Stim Share",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/emergency-stim-share.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:emergency-stim-share",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/emergency-stim-share.webp"
       }
     }
   },

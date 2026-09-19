@@ -1,7 +1,7 @@
 {
   "name": "Cryo Pack",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/consumables/cryo-pack.webp",
   "system": {
     "description": "<p>When you or an ally within Melee range would take fire, heat, acid, or explosive damage, reduce the severity by one threshold.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Cryo Pack",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/consumables/cryo-pack.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -58,7 +58,10 @@
       "deployment": {
         "logicalKey": "consumable:cryo-pack",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/consumables/cryo-pack.webp"
       }
     }
   },

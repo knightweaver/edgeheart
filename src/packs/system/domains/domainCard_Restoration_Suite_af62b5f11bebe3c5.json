@@ -1,7 +1,7 @@
 {
   "name": "Restoration Suite",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/restoration-suite.webp",
   "system": {
     "description": "<p>After a rest, place a number of tokens<br>equal to your Interface trait on this<br>card. Touch a creature and spend any<br>number of tokens to clear 1 HP or 1<br>Stress for each token spent.<br>You can also spend 2 token from this<br>card when touching a creature to clear<br>a condition or treat a physical,<br>cybernetic, or psychological ailment.<br>The GM might require additional<br>tokens depending on the severity of the<br>ailment. After a rest, clear all tokens.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Restoration Suite",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/restoration-suite.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:restoration-suite",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/restoration-suite.webp"
       }
     }
   },

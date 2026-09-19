@@ -1,7 +1,7 @@
 {
   "name": "Danger Close",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/danger-close.webp",
   "system": {
     "description": "<p>Mark a Stress to gain advantage on an<br>attack.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Danger Close",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/danger-close.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:danger-close",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/danger-close.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Reclaimer",
   "type": "class",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/classes/reclaimer.webp",
   "system": {
     "description": "<p>Reclaimers are survivors who know how to live where civilization failed. They cross dead cities and see routes, shelter, and resources of the old world waiting to be used.</p>",
     "domains": [
@@ -46,7 +46,10 @@
         "resolvedDomains": [
           "frontier"
         ],
-        "domainRegistrationPending": true
+        "domainRegistrationPending": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/classes/reclaimer.webp"
       }
     }
   },

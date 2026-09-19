@@ -1,7 +1,7 @@
 {
   "name": "Field Markers",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/field-markers.webp",
   "system": {
     "description": "<p>Make an Interface Roll (13).<br>On a success, spend any number of<br>Hope to create an equal number of<br>field markers that appear at points you<br>choose within Far range, providing the<br>following benefits:<br>• Allies gain a +3 bonus to attack rolls<br>against adversaries within Very<br>Close range of a marker.<br>• Allies who marks an Armor while<br>within Very Close range of a marker<br>can mark an extra Armor.<br>A marker vanishes after granting a<br>benefit or taking any damage.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Field Markers",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/field-markers.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:field-markers",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/field-markers.webp"
       }
     }
   },

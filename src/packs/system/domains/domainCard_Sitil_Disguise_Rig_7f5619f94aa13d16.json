@@ -1,7 +1,7 @@
 {
   "name": "*Sitil Disguise Rig",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/sitil-disguise-rig.webp",
   "system": {
     "description": "<p>Adjust Appearance: You shift your<br>appearance and clothing with light- z<br>bending fabric, facial projection, —<br>skinmesh, or disguise tech to avoid<br>recognition.<br>Target Splitter: Spend 2 Hope to<br>activate this targeting assist on<br>yourself or an ally within Close range.<br>. The next time the target makes an<br>attack, they can hit an additional target<br>within range that their attack roll would<br>succeed against. You can only hold this<br>protocol on one creature at atime.<br>Hard-Light Decoy: Make an Interface<br>Roll (14). On a success, create a<br>temporary visual projection, hard-light<br>duplicate, false object, or tactical<br>hologram no larger than you within<br>Close range that lasts for as long as<br>you look at it. It holds up to scrutiny<br>until an observer is within Melee range.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "*Sitil Disguise Rig",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/sitil-disguise-rig.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:sitil-disguise-rig",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/sitil-disguise-rig.webp"
       }
     }
   },

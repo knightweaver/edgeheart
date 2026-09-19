@@ -1,7 +1,7 @@
 {
   "name": "Shockwave Slam",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/shockwave-slam.webp",
   "system": {
     "description": "<p>Spend 2 Hope to strike the ground<br>where you stand using a kinetic<br>hammer, gravity boot, hydraulic fist,<br>shield piston, exo-frame impact<br>system, or reinforced body slam.<br>Make a Strength Roll against all targets<br>within Very Close range. Targets you<br>succeed against are thrown back to Far<br>range and must make a Reaction Roll<br>(17).<br>Targets who fail take 4d10+8 impact<br>damage. Targets who succeed take half<br>damage.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Shockwave Slam",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/shockwave-slam.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:shockwave-slam",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/shockwave-slam.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Ablative Dermal Shell",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/ablative-dermal-shell.webp",
   "system": {
     "description": "<p>Cyber Cost: 2</p><p>Gain a +3 bonus to your damage thresholds. Once per scene, when you mark an Armor Slot, reduce the severity by one additional threshold.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Ablative Dermal Shell",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/ablative-dermal-shell.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:ablative-dermal-shell",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/ablative-dermal-shell.webp"
       }
     }
   },

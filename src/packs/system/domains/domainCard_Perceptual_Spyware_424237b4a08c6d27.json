@@ -1,7 +1,7 @@
 {
   "name": "Perceptual Spyware",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/perceptual-spyware.webp",
   "system": {
     "description": "<p>Choose a target within Very Far range.<br>You can see through their eyes and<br>hear through their ears through a<br>hacked sensory feed, neural bridge,<br>surveillance implant, or signal parasite.<br>You can transition between using your<br>own senses or the target’s freely until<br>you run another protocol or until your<br>next rest.<br>a TaLeseseSeenEenananesanaseeeneneeameessanesananesenanenemensssnensssnanenanesenaneessemenesanaananenaneneeennet te fioieeesannasanend Giseasemenncs yf annenaassamensssnmsssnmsnne</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Perceptual Spyware",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/perceptual-spyware.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:perceptual-spyware",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/perceptual-spyware.webp"
       }
     }
   },

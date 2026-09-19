@@ -1,7 +1,7 @@
 {
   "name": "Razor Mesh",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/razor-mesh.webp",
   "system": {
     "description": "<p>Once per rest, spend a Hope to coat<br>yourself in razor mesh, reactive thorns,<br>or defensive nanofibers and place a<br>number of tokens equal to your<br>Interface trait on this card.<br>When you take damage, you can spend<br>any number of tokens to roll that<br>number of d6s. Add the results<br>together and reduce the incoming<br>damage by that amount.<br>If you’re within Melee range of the<br>attacker, deal that amount of damage<br>back to them. When you take a rest,<br>clear all unspent tokens.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Razor Mesh",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/razor-mesh.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:razor-mesh",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/razor-mesh.webp"
       }
     }
   },

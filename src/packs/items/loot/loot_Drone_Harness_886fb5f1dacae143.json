@@ -1,7 +1,7 @@
 {
   "name": "Drone Harness",
   "type": "loot",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/loot/drone-harness.webp",
   "system": {
     "description": "<p>You can carry, dock, launch, or repair small drones more easily. Your first roll on a rest to repair, hide, or recover a drone has advantage.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Drone Harness",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/loot/drone-harness.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -57,7 +57,10 @@
       "deployment": {
         "logicalKey": "loot:drone-harness",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/loot/drone-harness.webp"
       }
     }
   },

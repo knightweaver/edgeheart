@@ -1,7 +1,7 @@
 {
   "name": "Fearmask",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/fearmask.webp",
   "system": {
     "description": "<p>Once per long rest, choose any targets<br>within Very Close range to perceive you<br>as a nightmarish threat, impossible<br>assassin, corrupted sensor ghost, or<br>fear-triggered hallucination.<br>The targets must succeed ona<br>Reaction Roll (16) or become<br>temporarily Horrified. While Horrified,<br>they’re Vulnerable.<br>Steal a number of Fear from the GM<br>equal to the number of targets that are<br>Horrified, up to the number of Fear in<br>the GM’s pool.<br>Roll a number of d6s equal to the<br>number of stolen Fear and deal the<br>total damage to each Horrified target.<br>Discard the stolen Fear.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Fearmask",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/fearmask.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:fearmask",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/fearmask.webp"
       }
     }
   },

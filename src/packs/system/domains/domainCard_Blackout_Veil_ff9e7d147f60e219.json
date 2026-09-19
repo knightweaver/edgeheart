@@ -1,7 +1,7 @@
 {
   "name": "Blackout Veil",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/blackout-veil.webp",
   "system": {
     "description": "<p>Make an Interface Roll (13). On a<br>success, you create a curtain of<br>darkness, signal chaff, or interference<br>between two points within Far range.<br>You&#x27;re considered Hidden to creatures<br>on the other side of the veil, and you<br>have advantage on attacks you make<br>through the veil. The veil remains until<br>you run another protocol.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Blackout Veil",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/blackout-veil.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:blackout-veil",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/blackout-veil.webp"
       }
     }
   },

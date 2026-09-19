@@ -1,7 +1,7 @@
 {
   "name": "Vagras Bulwark Harness",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/edgeheart/assets/icons/armors/vagras-bulwark-harness.webp",
   "system": {
     "description": "<p>Very Heavy: -2 to Evasion.</p><p>Walking Barricade: You count as cover for allies within Very Close range. When an ally within Very Close range is targeted by an attack, you can mark an Armor Slot to give that attack disadvantage.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Very Heavy",
-        "img": "icons/svg/shield.svg",
+        "img": "modules/edgeheart/assets/icons/armors/vagras-bulwark-harness.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -52,7 +52,7 @@
           "amount": null
         },
         "name": "Walking Barricade",
-        "img": "icons/svg/shield.svg",
+        "img": "modules/edgeheart/assets/icons/armors/vagras-bulwark-harness.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -102,7 +102,10 @@
       "deployment": {
         "logicalKey": "armor:vagras-bulwark-harness",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/armors/vagras-bulwark-harness.webp"
       }
     }
   },

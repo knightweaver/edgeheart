@@ -1,7 +1,7 @@
 {
   "name": "On the Brink",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/on-the-brink.webp",
   "system": {
     "description": "<p>When you have 2 or fewer Hit Points<br>unmarked, you don’t take Minor<br>damage.<br>a ee</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "On the Brink",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/on-the-brink.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:on-the-brink",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/on-the-brink.webp"
       }
     }
   },

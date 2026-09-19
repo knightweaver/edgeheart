@@ -1,7 +1,7 @@
 {
   "name": "Grazing Fire",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/grazing-fire.webp",
   "system": {
     "description": "<p>When you fail an attack, you can mark<br>a Stress to deal weapon damage using<br>half your Proficiency.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Grazing Fire",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/grazing-fire.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:grazing-fire",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/grazing-fire.webp"
       }
     }
   },

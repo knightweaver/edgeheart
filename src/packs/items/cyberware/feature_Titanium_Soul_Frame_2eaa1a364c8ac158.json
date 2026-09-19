@@ -1,7 +1,7 @@
 {
   "name": "Titanium Soul Frame",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/titanium-soul-frame.webp",
   "system": {
     "description": "<p>Cyber Cost: 4</p><p>Gain one additional Hit Point slot and +1 Armor Score. When you take Major or Severe damage, roll a d6. On 5+, mark 1 fewer Hit Point.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Titanium Soul Frame",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/titanium-soul-frame.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:titanium-soul-frame",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/titanium-soul-frame.webp"
       }
     }
   },

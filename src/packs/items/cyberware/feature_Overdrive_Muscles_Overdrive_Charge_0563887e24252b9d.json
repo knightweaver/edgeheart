@@ -1,7 +1,7 @@
 {
   "name": "Overdrive Muscles - Overdrive Charge",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/overdrive-muscles-overdrive-charge.webp",
   "system": {
     "description": "<p>Cyber Cost: 2</p><p>When you roll with Hope using a Chrome card or a Cyberware action, gain 1 Overdrive Charge, max 2. Before a roll, spend any Charges to roll that many +1 to the roll. If you spend 2 Charges and succeed, clear 1 Stress or gain +1 Evasion until your next action.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Overdrive Muscles - Overdrive Charge",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/overdrive-muscles-overdrive-charge.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:overdrive-muscles-overdrive-charge",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/overdrive-muscles-overdrive-charge.webp"
       }
     }
   },

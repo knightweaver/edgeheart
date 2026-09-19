@@ -1,7 +1,7 @@
 {
   "name": "Ghost Skin",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/ghost-skin.webp",
   "system": {
     "description": "<p>Make an Interface Roll (10). On a success, mark a Stress and choose yourself or an ally within Melee range to become Invisible through optical camouflage, ghost skin, or sensor-scrambling tech.<br>An Invisible creature can’t be seen except through appropriate detection methods, and attack rolls against them are made with disadvantage.<br>Place a number of tokens on this card equal to your Interface trait. When the Invisible creature takes an action, spend a token from this card. After the action that spends the last token is resolved, the effect ends.<br>You can only run Ghost Skin on one creature at a time.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Ghost Skin",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/ghost-skin.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:ghost-skin",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/ghost-skin.webp"
       }
     }
   },

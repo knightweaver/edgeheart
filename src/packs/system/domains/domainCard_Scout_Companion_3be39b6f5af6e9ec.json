@@ -1,7 +1,7 @@
 {
   "name": "Scout Companion",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/scout-companion.webp",
   "system": {
     "description": "<p>Spend a Hope to call a cyber-beast or<br>scout drone to your side until your next<br>rest, you run Scout Companion again,<br>or the companion is targeted by an<br>attack. If you spend an extra Hope, you<br>can call a companion that flies.<br>You can communicate with them, make<br>an Interface Roll to command them to<br>perform simple tasks, and mark a<br>Stress to see through their eyes. When<br>you deal damage to an adversary<br>within Melee range of your companion,<br>you add a d6 to your damage roll.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Scout Companion",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/scout-companion.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:scout-companion",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/scout-companion.webp"
       }
     }
   },

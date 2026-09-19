@@ -1,7 +1,7 @@
 {
   "name": "Ghostweave Cloak",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/edgeheart/assets/icons/armors/ghostweave-cloak.webp",
   "system": {
     "description": "<p>Ghosted: When you become Hidden, you may also become invisible until you move.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Ghosted",
-        "img": "icons/svg/shield.svg",
+        "img": "modules/edgeheart/assets/icons/armors/ghostweave-cloak.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -74,7 +74,10 @@
       "deployment": {
         "logicalKey": "armor:ghostweave-cloak",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/armors/ghostweave-cloak.webp"
       }
     }
   },

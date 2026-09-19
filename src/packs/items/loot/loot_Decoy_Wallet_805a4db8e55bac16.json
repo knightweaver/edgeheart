@@ -1,7 +1,7 @@
 {
   "name": "Decoy Wallet",
   "type": "loot",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/loot/decoy-wallet.webp",
   "system": {
     "description": "<p>Once per rest, when someone searches, robs, scans, or shakes you down, they find this convincing fake instead of something important.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Decoy Wallet",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/loot/decoy-wallet.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -57,7 +57,10 @@
       "deployment": {
         "logicalKey": "loot:decoy-wallet",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/loot/decoy-wallet.webp"
       }
     }
   },

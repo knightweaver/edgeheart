@@ -1,7 +1,7 @@
 {
   "name": "Portable Shrine",
   "type": "loot",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/loot/portable-shrine.webp",
   "system": {
     "description": "<p>During a rest, you or an ally can spend a Hope to clear 1 Stress by confessing, praying, remembering, or grounding yourself.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Portable Shrine",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/loot/portable-shrine.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -57,7 +57,10 @@
       "deployment": {
         "logicalKey": "loot:portable-shrine",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/loot/portable-shrine.webp"
       }
     }
   },

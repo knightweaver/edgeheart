@@ -1,7 +1,7 @@
 {
   "name": "Combat Knife",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/combat-knife.webp",
   "system": {
     "description": "<p>Paired: +2 to primary weapon damage against targets within Melee range.</p>",
     "tier": 1,
@@ -10,7 +10,7 @@
     "burden": "oneHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/combat-knife.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "melee",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Paired",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/combat-knife.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:combat-knife",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/combat-knife.webp"
       }
     }
   },

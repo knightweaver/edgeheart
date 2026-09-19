@@ -1,7 +1,7 @@
 {
   "name": "Yarrow Master Suite",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/yarrow-master-suite.webp",
   "system": {
     "description": "<p>Time Dilation Field: Make an Interface<br>Roll (18). On a success, you trigger an<br>illegal time-dilation field, perception<br>overclock, or localized causality lag.<br>Time temporarily slows to a halt for<br>everyone within Far range except for<br>you. It resumes the next time you make<br>an action roll that targets another<br>creature.<br>Techno Immunity: Spend 5 Hope to<br>become immune to techno damage<br>until your next rest.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Yarrow Master Suite",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/yarrow-master-suite.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:yarrow-master-suite",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/yarrow-master-suite.webp"
       }
     }
   },

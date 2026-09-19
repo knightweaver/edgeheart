@@ -1,7 +1,7 @@
 {
   "name": "Augmented",
   "type": "class",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/classes/augmented.webp",
   "system": {
     "description": "<p>Augmented are mercenaries who turned their own bodies into their livelihood. They know how to move with metal bones, strike with calibrated limbs, survive with artificial organs, and push their systems without immediately burning out.</p>",
     "domains": [
@@ -46,7 +46,10 @@
         "resolvedDomains": [
           "chrome"
         ],
-        "domainRegistrationPending": true
+        "domainRegistrationPending": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/classes/augmented.webp"
       }
     }
   },

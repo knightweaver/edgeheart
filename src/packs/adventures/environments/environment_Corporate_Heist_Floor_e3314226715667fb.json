@@ -1,7 +1,7 @@
 {
   "name": "Corporate Heist Floor",
   "type": "environment",
-  "img": "icons/svg/door-exit.svg",
+  "img": "modules/edgeheart/assets/icons/environments/corporate-heist-floor.webp",
   "system": {
     "description": "A secure corporate level built around vaults, hostages, panic rooms, and silent alarms.",
     "tier": 2,
@@ -117,7 +117,10 @@
       "deployment": {
         "logicalKey": "environment:corporate-heist-floor",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/environments/corporate-heist-floor.webp"
       }
     }
   },

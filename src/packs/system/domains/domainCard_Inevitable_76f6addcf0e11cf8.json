@@ -1,7 +1,7 @@
 {
   "name": "Inevitable",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/inevitable.webp",
   "system": {
     "description": "<p>When you fail an action roll, your next<br>action roll has advantage.<br>Your armor recalibrates, your stance<br>hardens, or your threat model updates.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Inevitable",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/inevitable.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:inevitable",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/inevitable.webp"
       }
     }
   },

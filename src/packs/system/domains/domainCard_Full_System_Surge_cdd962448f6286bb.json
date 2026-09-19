@@ -1,7 +1,7 @@
 {
   "name": "Full System Surge",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/full-system-surge.webp",
   "system": {
     "description": "<p>Once per long rest, mark 3 Stress to<br>push your body, armor, cyberware,<br>combat drugs, reinforcement frame,<br>and defensive systems to their limits.<br>Gain a +2 bonus to all of your character<br>traits until your next rest.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Full System Surge",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/full-system-surge.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:full-system-surge",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/full-system-surge.webp"
       }
     }
   },

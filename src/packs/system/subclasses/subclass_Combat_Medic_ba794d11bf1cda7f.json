@@ -1,7 +1,7 @@
 {
   "name": "Combat Medic",
   "type": "subclass",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/subclasses/combat-medic.webp",
   "system": {
     "description": "<p>Play as a Combat Medic if you want to keep the crew alive and perform emergency treatment in the middle of combat.</p>",
     "spellcastingTrait": "instinct",
@@ -40,7 +40,10 @@
       "deployment": {
         "logicalKey": "subclass:combat-medic",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/subclasses/combat-medic.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "*Ava Utility Kit",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/ava-utility-kit.webp",
   "system": {
     "description": "<p>Power Push: Make an Interface Roll<br>against a target within Melee range. On<br>a success, they&#x27;re knocked back to Far<br>range and take d10+2 techno damage<br>using your Proficiency.<br>Reactive Plating: Spend a Hope to<br>deploy reactive plates, smart-fiber<br>reinforcement, or a temporary armor<br>patch onto a target you can touch.<br>They gain a +1 bonus to their Armor<br>Score until their next rest or you run<br>Reactive Plating again.<br>Spike Printer: Make an Interface Roll<br>(12) to fabricate and launch a hardened<br>spike, anchor bolt, kinetic shard, or<br>compressed alloy projectile within Far<br>range. If you use it as a weapon, make<br>the Interface Roll against the target&#x27;s<br>Difficulty instead. On a success, deal<br>d6 physical damage using your<br>Proficiency.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "*Ava Utility Kit",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/ava-utility-kit.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:ava-utility-kit",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/ava-utility-kit.webp"
       }
     }
   },

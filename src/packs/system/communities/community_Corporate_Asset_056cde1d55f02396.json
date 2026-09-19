@@ -1,7 +1,7 @@
 {
   "name": "Corporate Asset",
   "type": "community",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/affiliations/corporate-asset.webp",
   "system": {
     "description": "<p>You are connected to a corporation as an employee, sponsored mercenary, or former insider.</p><h4>COMMUNITY FEATURE</h4><p><em><strong>Elite Privilege:</strong></em> You have advantage on rolls to consort with corporate employees, pass as authorized, or leverage your company reputation to get what you want.</p>",
     "features": [
@@ -26,7 +26,10 @@
       "deployment": {
         "logicalKey": "community:corporate-asset",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/affiliations/corporate-asset.webp"
       }
     }
   },

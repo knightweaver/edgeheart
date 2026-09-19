@@ -1,7 +1,7 @@
 {
   "name": "Overpressure",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/overpressure.webp",
   "system": {
     "description": "<p>Before you make an attack, you can<br>mark a Stress to gain a bonus to your<br>damage roll equal to twice your<br>Strength.<br>You can use Overpressure twice per<br>attack.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Overpressure",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/overpressure.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:overpressure",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/overpressure.webp"
       }
     }
   },

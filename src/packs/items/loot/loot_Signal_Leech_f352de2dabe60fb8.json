@@ -1,7 +1,7 @@
 {
   "name": "Signal Leech",
   "type": "loot",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/loot/signal-leech.webp",
   "system": {
     "description": "<p>When you succeed on an Interface Roll against a connected system, you may learn one other device or user currently connected to it.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Signal Leech",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/loot/signal-leech.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -57,7 +57,10 @@
       "deployment": {
         "logicalKey": "loot:signal-leech",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/loot/signal-leech.webp"
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "name": "Board Executive",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/edgeheart/assets/icons/adversaries/board-executive.webp",
   "type": "adversary",
   "system": {
     "difficulty": 20,
@@ -172,7 +172,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/edgeheart/assets/tokens/adversaries/board-executive-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -519,7 +519,11 @@
       "deployment": {
         "logicalKey": "adversary:board-executive",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/adversaries/board-executive.webp",
+        "tokenAssetPath": "modules/edgeheart/assets/tokens/adversaries/board-executive-token.png"
       }
     }
   },

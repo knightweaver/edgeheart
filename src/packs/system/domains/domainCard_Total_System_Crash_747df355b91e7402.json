@@ -1,7 +1,7 @@
 {
   "name": "Total System Crash",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/total-system-crash.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, mark 3<br>Stress and roll a number of d20s equal<br>to your Interface trait, dealing that<br>much techno damage to them.<br>If this damage is enough to defeat,<br>disable, or destroy the target, all<br>adversaries within Far range of the<br>target must mark a Stress.<br>This might look like a catastrophic<br>cyberware crash, mass hallucination,<br>corrupted command cascade, terminal<br>Black ICE burn, or rogue AI execution<br>routine.<br>Mi Invoke Shutdown</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Total System Crash",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/total-system-crash.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:total-system-crash",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/total-system-crash.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Trauma Armor",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/edgeheart/assets/icons/armors/trauma-armor.webp",
   "system": {
     "description": "<p>Life Support: Once per short rest, when you would mark your last Hit Point, you can instead mark a Stress.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Life Support",
-        "img": "icons/svg/shield.svg",
+        "img": "modules/edgeheart/assets/icons/armors/trauma-armor.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -74,7 +74,10 @@
       "deployment": {
         "logicalKey": "armor:trauma-armor",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/armors/trauma-armor.webp"
       }
     }
   },

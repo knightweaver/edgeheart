@@ -1,7 +1,7 @@
 {
   "name": "Net Diver",
   "type": "subclass",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/subclasses/net-diver.webp",
   "system": {
     "description": "<p>Play as a Net Diver if you want to enter hostile networks, control connected systems, and complete the job from inside the digital architecture.</p>",
     "spellcastingTrait": "instinct",
@@ -36,7 +36,10 @@
       "deployment": {
         "logicalKey": "subclass:net-diver",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/subclasses/net-diver.webp"
       }
     }
   },

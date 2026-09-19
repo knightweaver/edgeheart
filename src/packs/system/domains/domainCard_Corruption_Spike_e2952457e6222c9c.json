@@ -1,7 +1,7 @@
 {
   "name": "Corruption Spike",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/corruption-spike.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, the<br>target takes d6 techno damage using<br>your Proficiency as a corrupted signal,<br>Black ICE packet, or hostile daemon<br>tears through their system.<br>The next time the target deals damage,<br>that damage is reduced by 1d6.<br>On a success with Fear, the target<br>instead takes d10 techno damage using<br>your Proficiency.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Corruption Spike",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/corruption-spike.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:corruption-spike",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/corruption-spike.webp"
       }
     }
   },

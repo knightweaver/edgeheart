@@ -1,7 +1,7 @@
 {
   "name": "Redline-Synced",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/redline-synced.webp",
   "system": {
     "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Redline<br>Competency, gain the following:<br>• When you take enough damage to<br>mark 2 or more Hit Points, gain a<br>Hope.<br>For every 3 Hit Points you have<br>marked, gain a +1 bonus to your<br>Evasion.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Redline-Synced",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/redline-synced.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:redline-synced",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/redline-synced.webp"
       }
     }
   },

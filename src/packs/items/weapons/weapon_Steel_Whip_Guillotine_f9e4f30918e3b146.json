@@ -1,7 +1,7 @@
 {
   "name": "Steel-Whip Guillotine",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/steel-whip-guillotine.webp",
   "system": {
     "description": "<p>Sever: When you roll maximum value on any damage die, the target marks 1 Stress.</p>",
     "tier": 4,
@@ -10,7 +10,7 @@
     "burden": "oneHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/steel-whip-guillotine.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "close",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Sever",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/steel-whip-guillotine.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:steel-whip-guillotine",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/steel-whip-guillotine.webp"
       }
     }
   },

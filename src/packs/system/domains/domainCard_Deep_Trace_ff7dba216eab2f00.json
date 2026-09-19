@@ -1,7 +1,7 @@
 {
   "name": "Deep Trace",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/deep-trace.webp",
   "system": {
     "description": "<p>You can open a signal channel with any<br>person with whom you’ve made<br>contact. Once you&#x27;ve opened a channel<br>with them, they can speak back into<br>your mind, comms, or neural feed.<br>Additionally, you can mark a Stress to<br>make an Interface Roll against them.<br>On a success, you can receive an<br>answer to one of the questions:<br>1- Where are they?<br>2- What are they doing?<br>3- What are they afraid of?<br>4- What do they cherish most?</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Deep Trace",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/deep-trace.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:deep-trace",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/deep-trace.webp"
       }
     }
   },

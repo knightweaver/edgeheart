@@ -1,7 +1,7 @@
 {
   "name": "Magnetic Override",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/magnetic-override.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Far range.<br>On a success, you use magnetic force,<br>remote machinery, grav-tech,<br>industrial drones, or a heavy<br>manipulator array to move them<br>anywhere within Far range of their<br>original position.<br>You can throw the lifted target as an<br>attack by making an additional<br>Interface Roll against the second target<br>you’re trying to attack.<br>On a success, deal d12+4 physical<br>damage to the second target using<br>your Proficiency.<br>This protocol then ends.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Magnetic Override",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/magnetic-override.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:magnetic-override",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/magnetic-override.webp"
       }
     }
   },

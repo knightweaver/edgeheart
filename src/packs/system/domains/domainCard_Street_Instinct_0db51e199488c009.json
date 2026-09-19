@@ -1,7 +1,7 @@
 {
   "name": "Street Instinct",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/street-instinct.webp",
   "system": {
     "description": "<p>Once per rest, when you enter a urban,<br>ruined, or hostile environment, make<br>an Instinct Roll (12). On a success,<br>place a Street token on this card. Ona<br>success with Hope, place two instead.<br>Cover Line: When you are targeted by<br>an attack from beyond Melee range,<br>spend this token to gain a +2 to your<br>Evasion against that attack.<br>Open Lane: Spend this token to move<br>to a point within Far range.<br>Hazard Mark: When you deal damage,<br>spend this token to add 1d6 damage.<br>Clear all unspent tokens upon a rest.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Street Instinct",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/street-instinct.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:street-instinct",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/street-instinct.webp"
       }
     }
   },

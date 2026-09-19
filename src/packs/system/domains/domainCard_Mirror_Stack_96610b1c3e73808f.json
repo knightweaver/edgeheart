@@ -1,7 +1,7 @@
 {
   "name": "Mirror Stack",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/mirror-stack.webp",
   "system": {
     "description": "<p>Make an Interface Roll (14).<br>Once per long rest on a success, you<br>create a stack of false targeting<br>profiles, AR ghosts, signal echoes,<br>movement loops, or false targeting<br>data over your body that makes it hard<br>to tell exactly where you are.<br>Mark any number of Stress to make<br>that many additional layers.<br>When an adversary makes an attack<br>against you, roll a number of d6s equal<br>to the number of layers currently<br>active.<br>If any roll as or higher, one layer of the<br>decoy loop is destroyed and the attack<br>fails. a<br>If all the results are 4 or lower, you take<br>the damage and this protocol ends.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Mirror Stack",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/mirror-stack.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:mirror-stack",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/mirror-stack.webp"
       }
     }
   },

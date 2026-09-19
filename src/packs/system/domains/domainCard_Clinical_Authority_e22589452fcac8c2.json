@@ -1,7 +1,7 @@
 {
   "name": "Clinical Authority",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/clinical-authority.webp",
   "system": {
     "description": "<p>Make an Interface Roll (15) to activate a<br>neurological presence enhancer. Ona<br>success, spend 2 Hope to make your<br>Presence equal to your Interface trait<br>until your next long rest.<br>While this protocol is active, a creature<br>must mark a Stress when they target<br>you with an attack.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Clinical Authority",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/clinical-authority.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:clinical-authority",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/clinical-authority.webp"
       }
     }
   },

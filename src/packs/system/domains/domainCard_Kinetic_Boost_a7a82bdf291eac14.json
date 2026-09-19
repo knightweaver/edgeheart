@@ -1,7 +1,7 @@
 {
   "name": "Kinetic Boost",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/kinetic-boost.webp",
   "system": {
     "description": "<p>Mark a Stress to boost off a willing ally<br>within Close range, fling yourself into<br>the air, and perform an aerial attack<br>against a target within Far range.<br>You have advantage on the attack, add<br>a d10 to the damage roll, and end your<br>move within Melee range of the target!</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Kinetic Boost",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/kinetic-boost.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:kinetic-boost",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/kinetic-boost.webp"
       }
     }
   },

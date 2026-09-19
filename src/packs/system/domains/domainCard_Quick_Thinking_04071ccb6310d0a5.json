@@ -1,7 +1,7 @@
 {
   "name": "Quick Thinking",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/quick-thinking.webp",
   "system": {
     "description": "<p>When you&#x27;re targeted by an attack<br>made from beyond Melee range, you<br>can mark a Stress to roll a dq and gain<br>a bonus to your Evasion equal to the<br>result against the attack.<br>ae A</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Quick Thinking",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/quick-thinking.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:quick-thinking",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/quick-thinking.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Reflex Redirect",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/reflex-redirect.webp",
   "system": {
     "description": "<p>When an attack made against you from<br>beyond Melee range fails, roll a number<br>of d6s equal to your Proficiency.<br>If any roll a 6, you can mark a Stress to<br>redirect the attack to damage an<br>adversary within Very Close range<br>instead.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Reflex Redirect",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/reflex-redirect.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:reflex-redirect",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/reflex-redirect.webp"
       }
     }
   },

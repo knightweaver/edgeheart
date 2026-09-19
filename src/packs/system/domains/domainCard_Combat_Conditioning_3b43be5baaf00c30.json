@@ -1,7 +1,7 @@
 {
   "name": "Combat Conditioning",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/combat-conditioning.webp",
   "system": {
     "description": "<p>When you choose this card,<br>permanently gain two of the following<br>benefits:<br>• One Stress slot.<br>• One Hit Point slot.<br>* +2 bonus to your damage<br>thresholds.<br>Then place this card in your vault<br>permanently. f</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Combat Conditioning",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/combat-conditioning.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:combat-conditioning",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/combat-conditioning.webp"
       }
     }
   },

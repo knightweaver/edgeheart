@@ -1,7 +1,7 @@
 {
   "name": "Clean Needle",
   "type": "loot",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/loot/clean-needle.webp",
   "system": {
     "description": "<p>You have advantage on rolls to administer drugs, stabilize poison, draw blood, or perform delicate field surgery.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Clean Needle",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/loot/clean-needle.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -57,7 +57,10 @@
       "deployment": {
         "logicalKey": "loot:clean-needle",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/loot/clean-needle.webp"
       }
     }
   },

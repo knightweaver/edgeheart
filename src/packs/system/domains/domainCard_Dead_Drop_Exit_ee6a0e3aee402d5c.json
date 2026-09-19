@@ -1,7 +1,7 @@
 {
   "name": "Dead Drop Exit",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/dead-drop-exit.webp",
   "system": {
     "description": "<p>Spend a Hope to prepare a hidden exit<br>where you&#x27;re currently standing, such<br>as a service corridor, blind camera<br>angle,or pre-planned extraction path.<br>Until your next rest you can spend a<br>Hope to trigger the exit plan.<br>When you do, you immediately move to<br>the prepared exit or to a safe position<br>within Very Close range of it, become !<br>Hidden, and this protocol ends.<br>This movement must follow a route<br>that could plausibly exist in the fiction.<br>ee ae</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Dead Drop Exit",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/dead-drop-exit.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:dead-drop-exit",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/dead-drop-exit.webp"
       }
     }
   },

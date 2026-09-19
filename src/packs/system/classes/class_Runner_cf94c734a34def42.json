@@ -1,7 +1,7 @@
 {
   "name": "Runner",
   "type": "class",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/classes/runner.webp",
   "system": {
     "description": "<p>Other mercenaries can use Network tools, but Runners live inside the breach. They are intrusion specialists, signal thieves, and digital exploiters who survive by turning every system into an opening.</p>",
     "domains": [
@@ -50,7 +50,10 @@
         "resolvedDomains": [
           "network"
         ],
-        "domainRegistrationPending": true
+        "domainRegistrationPending": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/classes/runner.webp"
       }
     }
   },

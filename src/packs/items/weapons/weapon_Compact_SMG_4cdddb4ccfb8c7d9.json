@@ -1,7 +1,7 @@
 {
   "name": "Compact SMG",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/compact-smg.webp",
   "system": {
     "description": "<p>Spray: Mark a Stress to target another creature within Very Close range of your original target.</p>",
     "tier": 1,
@@ -10,7 +10,7 @@
     "burden": "oneHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/compact-smg.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "close",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Spray",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/compact-smg.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:compact-smg",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/compact-smg.webp"
       }
     }
   },

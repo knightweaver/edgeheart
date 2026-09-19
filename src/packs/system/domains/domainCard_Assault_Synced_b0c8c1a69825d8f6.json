@@ -1,7 +1,7 @@
 {
   "name": "Assault-Synced",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/assault-synced.webp",
   "system": {
     "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Assault<br>Competency, gain the following:<br>• +2 bonus to your attack rolls.<br>• +4 bonus to your Severe damage<br>threshold.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Assault-Synced",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/assault-synced.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:assault-synced",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/assault-synced.webp"
       }
     }
   },

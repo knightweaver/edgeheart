@@ -1,7 +1,7 @@
 {
   "name": "Bare Metal",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/bare-metal.webp",
   "system": {
     "description": "<p>When you choose not to equip armor,<br>your reinforced body, subdermal<br>plating, hardened bones, or defensive<br>cyberware gives you a base Armor<br>Score of 3 + your Strength and the<br>following base damage thresholds:<br>Tier 1: 9/19<br>Tier 2: 11/24<br>Tier 3: 13/31<br>Tier 4: 15/38</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Bare Metal",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/bare-metal.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:bare-metal",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/bare-metal.webp"
       }
     }
   },

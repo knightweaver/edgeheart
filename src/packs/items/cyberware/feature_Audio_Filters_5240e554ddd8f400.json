@@ -1,7 +1,7 @@
 {
   "name": "Audio Filters",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/audio-filters.webp",
   "system": {
     "description": "<p>Cyber Cost: 0</p><p>You have advantage on rolls to resist sonic hazards, ignore overwhelming noise, or isolate a specific voice or sound in a crowded area.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Audio Filters",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/audio-filters.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:audio-filters",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/audio-filters.webp"
       }
     }
   },

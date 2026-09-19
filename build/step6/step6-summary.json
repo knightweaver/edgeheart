@@ -1,0 +1,21 @@
+{
+  "step": 6,
+  "status": "PATHS_REWRITTEN_ASSETS_PENDING",
+  "visualCanon": "edgeheart-v0.1.1",
+  "primaryDocumentAssetCount": 538,
+  "competencyAssetCount": 11,
+  "adversaryTokenAssetCount": 22,
+  "totalExpectedAssetCount": 571,
+  "assetsPresentInRepository": 0,
+  "assetsMissingFromRepository": 571,
+  "documentsWithPrimaryArt": 538,
+  "nestedActionImagesRewritten": 528,
+  "derivedFeatureArtPolicy": "retain Daggerheart generic feature icons",
+  "embeddedActorFeatureArtPolicy": "retain Daggerheart generic feature icons",
+  "adversaryAttackArtPolicy": "retain Daggerheart generic attack icon",
+  "assetPathsRewritten": true,
+  "binaryAssetQualificationPending": true,
+  "compendiumCompilationPending": true,
+  "runtimeFoundryQualificationPending": true,
+  "nextStep": "Stage all 571 generated assets and run python tools/validate-asset-paths.py --require-assets"
+}

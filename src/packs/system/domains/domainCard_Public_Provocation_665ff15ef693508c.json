@@ -1,7 +1,7 @@
 {
   "name": "Public Provocation",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/public-provocation.webp",
   "system": {
     "description": "<p>When you provoke, taunt, expose, or<br>bait a target within Far range, make a<br>Presence Roll against them.<br>Once per rest on a success, roll a<br>number of d4s equal to your<br>Proficiency. The target marks Stress<br>equal to the highest result rolled.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Public Provocation",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/public-provocation.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:public-provocation",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/public-provocation.webp"
       }
     }
   },

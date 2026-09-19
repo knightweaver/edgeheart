@@ -1,7 +1,7 @@
 {
   "name": "Deployable Ascender",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/deployable-ascender.webp",
   "system": {
     "description": "<p>Once per rest, you can deploy a anchor<br>tower, climbing line, or rapid-build<br>ascent rig within Close range that can<br>be easily climbed. Its height can grow<br>up to Far range.<br>Mark a Stress to use this protocol as an<br>attack. Make an Interface Roll against<br>an adversary or group of adversaries<br>within Close range.<br>The erupting rig lifts targets you<br>succeed against into the air and drops<br>them, dealing d8 physical damage<br>using your Proficiency.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Deployable Ascender",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/deployable-ascender.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:deployable-ascender",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/deployable-ascender.webp"
       }
     }
   },

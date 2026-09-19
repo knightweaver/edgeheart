@@ -1,7 +1,7 @@
 {
   "name": "Boosted Maneuvers",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/boosted-maneuvers.webp",
   "system": {
     "description": "<p>Once per rest, mark a Stress to sprint<br>anywhere within Far range without<br>making an Agility Roll to get there.<br>If you end this movement within Melee<br>range of an adversary and immediately<br>make an attack against them, gain a +1<br>bonus to the attack roll.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Boosted Maneuvers",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/boosted-maneuvers.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:boosted-maneuvers",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/boosted-maneuvers.webp"
       }
     }
   },

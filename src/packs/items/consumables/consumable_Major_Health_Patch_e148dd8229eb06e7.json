@@ -1,7 +1,7 @@
 {
   "name": "Major Health Patch",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/consumables/major-health-patch.webp",
   "system": {
     "description": "<p>Clear 1 Hit Point. Afterward, mark 1 Stress.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Major Health Patch",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/consumables/major-health-patch.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -58,7 +58,10 @@
       "deployment": {
         "logicalKey": "consumable:major-health-patch",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/consumables/major-health-patch.webp"
       }
     }
   },

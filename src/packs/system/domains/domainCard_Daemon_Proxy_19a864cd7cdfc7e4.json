@@ -1,7 +1,7 @@
 {
   "name": "Daemon Proxy",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/daemon-proxy.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, spend a<br>Hope to call forth a daemon proxy,<br>hostile construct, AI splinter, or digital<br>horror to attack the target and deal d10<br>techno damage using your Proficiency.<br>The target must also make a Reaction<br>Roll (12) to steel themselves against<br>the intrusion. On a failure, they mark<br>1d4 Stress. After making the attack,<br>the proxy dissipates.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Daemon Proxy",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/daemon-proxy.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:daemon-proxy",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/daemon-proxy.webp"
       }
     }
   },

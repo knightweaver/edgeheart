@@ -1,7 +1,7 @@
 {
   "name": "Gang War Block",
   "type": "environment",
-  "img": "icons/svg/door-exit.svg",
+  "img": "modules/edgeheart/assets/icons/environments/gang-war-block.webp",
   "system": {
     "description": "A city block locked in open gang warfare, burning cars, rooftop shooters, and civilians trapped between colors.",
     "tier": 3,
@@ -118,7 +118,10 @@
       "deployment": {
         "logicalKey": "environment:gang-war-block",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/environments/gang-war-block.webp"
       }
     }
   },

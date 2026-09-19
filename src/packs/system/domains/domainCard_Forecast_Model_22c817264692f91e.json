@@ -1,7 +1,7 @@
 {
   "name": "Forecast Model",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/forecast-model.webp",
   "system": {
     "description": "<p>Once per rest, spend 2 Hope to run a<br>tactical assessment of your current<br>environment, using route data, terrain<br>scans, local markings, gang signs, old<br>maps, or survival instincts.<br>Ask the GM one yes or no question<br>about the current area, route, danger,<br>structure, or situation.<br>The GM answers truthfully based on<br>what is currently present or reasonably<br>detectable.<br>After receiving the answer, the next<br>time you or an ally acts directly on this<br>information, they gain a +2 bonus to<br>their action roll.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Forecast Model",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/forecast-model.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:forecast-model",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/forecast-model.webp"
       }
     }
   },

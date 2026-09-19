@@ -1,7 +1,7 @@
 {
   "name": "Influence-Synced",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/influence-synced.webp",
   "system": {
     "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Influence<br>Competency, gain the following:<br>* You can mark an Armor Slot instead<br>of marking a Stress.<br>* When you would force a target to<br>mark a number of Hit Points, you<br>can choose instead to force them to<br>mark that number of Stress.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Influence-Synced",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/influence-synced.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:influence-synced",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/influence-synced.webp"
       }
     }
   },

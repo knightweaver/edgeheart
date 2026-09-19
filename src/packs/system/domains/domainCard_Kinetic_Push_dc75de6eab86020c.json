@@ -1,7 +1,7 @@
 {
   "name": "Kinetic Push",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/kinetic-push.webp",
   "system": {
     "description": "<p>Make an attack with your weapon<br>against a target within Melee range.<br>On a success, you deal damage and<br>knock them back to Close range. Ona<br>success with Hope, add a d6 to your<br>damage roll.<br>Additionally, you can spend a Hope to<br>make them temporarily Vulnerable.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Kinetic Push",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/kinetic-push.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:kinetic-push",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/kinetic-push.webp"
       }
     }
   },

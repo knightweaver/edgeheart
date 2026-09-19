@@ -1,7 +1,7 @@
 {
   "name": "Threat Prediction",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/threat-prediction.webp",
   "system": {
     "description": "<p>Your prediction software constantly<br>analyzes hostile movement around you.<br>Gain a bonus to your Evasion equal to<br>half your Interface trait.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Threat Prediction",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/threat-prediction.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:threat-prediction",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/threat-prediction.webp"
       }
     }
   },

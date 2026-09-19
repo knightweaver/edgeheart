@@ -1,7 +1,7 @@
 {
   "name": "Vanishing Dodge",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/vanishing-dodge.webp",
   "system": {
     "description": "<p>When an attack made against you that<br>would deal physical damage fails, you<br>can spend a Hope to trigger a smoke<br>burst, ghost-skin flicker, phase jump,<br>emergency blink, or optical<br>displacement.<br>You become Hidden and move to a<br>point within Close range of the<br>attacker.<br>You remain Hidden until the next time<br>you make an action roll.<br>SS ae</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Vanishing Dodge",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/vanishing-dodge.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:vanishing-dodge",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/vanishing-dodge.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Optical Scrambler",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/optical-scrambler.webp",
   "system": {
     "description": "<p>When you make a successful Interface<br>Roll to run a different protocol, you can<br>spend a Hope to become Cloaked.<br>While Cloaked, you remain unseen if<br>you are stationary when someone<br>moves to where they would see you.<br>When you move into or within an<br>adversary’s line of sight or make an<br>attack, you are no longer Cloaked.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Optical Scrambler",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/optical-scrambler.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:optical-scrambler",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/optical-scrambler.webp"
       }
     }
   },

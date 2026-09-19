@@ -1,7 +1,7 @@
 {
   "name": "Remote Persona",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/remote-persona.webp",
   "system": {
     "description": "<p>Once per long rest, mark a Stress to<br>create a projected copy, remote<br>persona, hard-light avatar, hacked<br>broadcast body, or social proxy of<br>yourself that can appear anywhere<br>you&#x27;ve been before.<br>You can see and hear through the a<br>projection as though it were you and<br>affect the world as though you were<br>there.<br>A creature investigating the projection<br>can tell it’s artificial, digital, or<br>technologically generated.<br>This effect lasts until your next rest or<br>your projection takes any damage.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Remote Persona",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/remote-persona.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:remote-persona",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/remote-persona.webp"
       }
     }
   },

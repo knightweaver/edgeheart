@@ -1,7 +1,7 @@
 {
   "name": "Pop-Up Blade",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/pop-up-blade.webp",
   "system": {
     "description": "<p>Cyber Cost: 1</p><p>This implant counts as a Secondary Weapon which is always equipped: Finesse, Melee, d6+3 physical. Concealed: You have advantage on your first attack each scene with it.</p>",
     "actions": {
@@ -78,7 +78,7 @@
           "damageMod": "none"
         },
         "name": "Pop-Up Blade",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/pop-up-blade.webp",
         "range": "melee",
         "baseAction": false,
         "originItem": {
@@ -126,7 +126,10 @@
       "deployment": {
         "logicalKey": "cyberware:pop-up-blade",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/pop-up-blade.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Redline Detonation",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/redline-detonation.webp",
   "system": {
     "description": "<p>Make an Interface Roll (12). Ona<br>success, mark a HP as you force your<br>Redline systems past safe limits,<br>dumping excess heat, neural overload,<br>aggression feedback, or unstable<br>cyberware output into a point within<br>Far range.<br>A violent pulse of thermal distortion,<br>pressure shock, sensor scream, or<br>overclock fallout fills the area within<br>Very Close range of that point.<br>Each target within the area marks 1 HP.<br>On a success with Hope, each target<br>within the area marks 2 HP instead.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Redline Detonation",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/redline-detonation.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:redline-detonation",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/redline-detonation.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Remote Trojan",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/remote-trojan.webp",
   "system": {
     "description": "<p>Once per rest, make an Interface Roll<br>(15).<br>On a success, drop into a remote<br>spyware that lets you clearly see and a<br>hear any place you have been before as<br>though you are standing there in this<br>moment.<br>You can move freely in this spyware<br>and are not constrained by the physics<br>or impediments of a physical body.<br>This protocol cannot be detected by<br>mundane or technological means. You<br>drop out of this feed upon taking<br>damage or running another protocol.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Remote Trojan",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/remote-trojan.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:remote-trojan",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/remote-trojan.webp"
       }
     }
   },

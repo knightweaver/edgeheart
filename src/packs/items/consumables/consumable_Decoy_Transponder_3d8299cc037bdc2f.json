@@ -1,7 +1,7 @@
 {
   "name": "Decoy Transponder",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/consumables/decoy-transponder.webp",
   "system": {
     "description": "<p>Until your next rest, one vehicle, drone, device, or creature carrying this transponder appears under a false identity to simple scanners.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Decoy Transponder",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/consumables/decoy-transponder.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -58,7 +58,10 @@
       "deployment": {
         "logicalKey": "consumable:decoy-transponder",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/consumables/decoy-transponder.webp"
       }
     }
   },

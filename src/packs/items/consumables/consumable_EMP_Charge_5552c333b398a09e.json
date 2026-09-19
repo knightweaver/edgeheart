@@ -1,7 +1,7 @@
 {
   "name": "EMP Charge",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/consumables/emp-charge.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a connected device, drone, vehicle, or cyberware-linked target within Close range. On a success, it marks 1 Stress or becomes briefly disabled.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "EMP Charge",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/consumables/emp-charge.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -58,7 +58,10 @@
       "deployment": {
         "logicalKey": "consumable:emp-charge",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/consumables/emp-charge.webp"
       }
     }
   },

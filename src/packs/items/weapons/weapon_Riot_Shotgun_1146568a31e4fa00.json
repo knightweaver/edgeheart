@@ -1,7 +1,7 @@
 {
   "name": "Riot Shotgun",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/riot-shotgun.webp",
   "system": {
     "description": "<p>Crowd Breaker: On Major damage, all adversaries within Very Close range of the target must move away or mark 1 Stress.</p>",
     "tier": 2,
@@ -10,7 +10,7 @@
     "burden": "twoHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/riot-shotgun.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "veryClose",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Crowd Breaker",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/riot-shotgun.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:riot-shotgun",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/riot-shotgun.webp"
       }
     }
   },

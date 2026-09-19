@@ -1,7 +1,7 @@
 {
   "name": "*Illiat Software Pack",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/illiat-software-pack.webp",
   "system": {
     "description": "<p>Neural Lullaby: Make an Interface Roll<br>against a target within Very Close<br>range. On a success, you flood their<br>nervous system, cyberware, or sensory<br>feed with a sedative pulse. They&#x27;re<br>Asleep until they take damage or the<br>GM spends a Fear on their turn to clear<br>this condition.<br>Arc Barrage: Once per rest, spend any<br>number of Hope and fire micro-<br>missiles, drone shots, smart flechettes,<br>or compact energy projectiles that<br>strike a target of your choice within<br>Close range. Roll a number of d6s<br>equal to the Hope spent and deal that<br>much techno damage to the target.<br>Direct Message: Spend a Hope to open<br>aline of encrypted communication<br>with one target you can see. This<br>connection lasts until your next rest or<br>you run Direct Message again.<br>SEE</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "*Illiat Software Pack",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/illiat-software-pack.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:illiat-software-pack",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/illiat-software-pack.webp"
       }
     }
   },

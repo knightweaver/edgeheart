@@ -1,7 +1,7 @@
 {
   "name": "Refuse Shutdown",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/refuse-shutdown.webp",
   "system": {
     "description": "<p>When you would mark your last HP,<br>spend a Hope to mark a Stress instead.<br>Your backup heart, emergency stim,<br>pain editor, adrenal flood, or survival<br>implant refuses to let your body shut<br>down.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Refuse Shutdown",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/refuse-shutdown.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:refuse-shutdown",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/refuse-shutdown.webp"
       }
     }
   },

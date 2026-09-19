@@ -1,7 +1,7 @@
 {
   "name": "Neural Archive",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/neural-archive.webp",
   "system": {
     "description": "<p>Cyber Cost: 2</p><p>Gain a new Experience at +2 or add +1 to one of your Experiences. Once per rest, when you use that Experience, you may reroll your Fear Die.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Neural Archive",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/neural-archive.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:neural-archive",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/neural-archive.webp"
       }
     }
   },

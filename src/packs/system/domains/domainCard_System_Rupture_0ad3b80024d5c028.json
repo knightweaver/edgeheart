@@ -1,7 +1,7 @@
 {
   "name": "System Rupture",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/system-rupture.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a<br>creature within Far range. On a<br>success, mark a HP to mark the target<br>with a trauma amplifier, wound exploit,<br>neural instability feedback, pressure<br>spike, or hostile nanite brand.<br>This mark lasts until the GM spends 2<br>Fear to remove it or you take Severe<br>damage.<br>Whenever the target marks any HP<br>while the mark remains, you can mark<br>a Stress to make them mark an<br>additional HP.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "System Rupture",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/system-rupture.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:system-rupture",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/system-rupture.webp"
       }
     }
   },

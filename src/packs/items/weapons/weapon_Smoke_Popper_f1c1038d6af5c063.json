@@ -1,7 +1,7 @@
 {
   "name": "Smoke Popper",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/smoke-popper.webp",
   "system": {
     "description": "<p>Smoke: Mark a Stress to deploy smoke within Very Close range and become Hidden while inside the smokescreen.</p>",
     "tier": 1,
@@ -10,7 +10,7 @@
     "burden": "oneHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/smoke-popper.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "close",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Smoke",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/smoke-popper.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:smoke-popper",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/smoke-popper.webp"
       }
     }
   },

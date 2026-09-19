@@ -1,7 +1,7 @@
 {
   "name": "Shadow Asset",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/shadow-asset.webp",
   "system": {
     "description": "<p>Spend a Hope to deploy a silent<br>infiltration asset, such as a microdrone,<br>optical decoy, or assassination marker.<br>Until your next rest, the Shadow Asset<br>can quietly follow a creature, watch a<br>location, create a distraction, or help<br>you maintain cover. It can’t physically<br>manipulate the environment.<br>When you make a action involving a<br>creature or location watched by your<br>Shadow Asset, you gain advantage. L<br>You can also burn the asset to strike an<br>adversary. When you do, make an<br>Interface Roll against a target within<br>Very Far range.<br>On a hit, roll a number of d6s equal to<br>your Interface trait and deal that much<br>techno damage to the target. The<br>Shadow Asset then dissipates.<br>You can only have one Asset at a time.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Shadow Asset",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/shadow-asset.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:shadow-asset",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/shadow-asset.webp"
       }
     }
   },

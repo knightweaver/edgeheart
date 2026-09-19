@@ -1,7 +1,7 @@
 {
   "name": "Network-Synced",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/network-synced.webp",
   "system": {
     "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Network<br>Competency, gain the following:<br>* +1 bonus to your Interface Rolls.<br>* Once per rest, you can switch the<br>results of your Hope and Fear Dice.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Network-Synced",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/network-synced.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:network-synced",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/network-synced.webp"
       }
     }
   },

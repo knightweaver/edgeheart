@@ -1,7 +1,7 @@
 {
   "name": "Redline Ward",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/redline-ward.webp",
   "system": {
     "description": "<p>Mark a HP to deploy a Redline Ward<br>around yourself at Very Close range.<br>This might look like a haze of coolant<br>vapor, warning lights, pressure<br>distortion, combat drug mist, hostile<br>sensor static, or unstable cyberware<br>output bleeding into the air around you<br>While in the ward, you have resistance<br>to your choice of physical or techno<br>damage. Choose when you activate this<br>protocol. Allies also gain this benefit<br>while in the ward.<br>The ward disappears if you move out of<br>it, mark 2 or more HP, or use this<br>protocol again.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Redline Ward",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/redline-ward.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:redline-ward",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/redline-ward.webp"
       }
     }
   },

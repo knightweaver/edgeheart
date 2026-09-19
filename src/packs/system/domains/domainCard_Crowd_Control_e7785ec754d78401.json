@@ -1,7 +1,7 @@
 {
   "name": "Crowd Control",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/crowd-control.webp",
   "system": {
     "description": "<p>Make an Agility Roll against all targets<br>within Close range.<br>Spend a Hope to move targets you<br>succeed against, and any willing allies<br>within Close range, to another point<br>within Close range.<br>. a</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Crowd Control",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/crowd-control.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:crowd-control",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/crowd-control.webp"
       }
     }
   },

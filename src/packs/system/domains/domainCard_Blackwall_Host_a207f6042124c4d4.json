@@ -1,7 +1,7 @@
 {
   "name": "Blackwall Host",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/blackwall-host.webp",
   "system": {
     "description": "<p>You can mark a Stress to become an<br>Blackwall Host, allowing a rogue Al,<br>corrupted daemon, lost military<br>system, or forbidden Blackwall<br>fragment to partially pilot your body.<br>While in this form, gain the following:<br>All adversaries within Close range<br>must spend an additional Fear when<br>using a Fear feature.<br>When you defeat, disable, or<br>destroy a creature within Close<br>range, you absorb their final output<br>and clear a Hit Point.<br>You can mark a Stress to move to<br>any location within Very Far range,<br>ignoring difficult terrain, automated<br>security, and environmental<br>obstacles. This movement can&#x27;t pass<br>through sealed barriers or spaces<br>with no plausible route.<br>Every time you make an action roll in<br>this form, you must spend a Hope. If<br>you can’t, the breach collapses and you<br>drop this form.<br>aa cd</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Blackwall Host",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/blackwall-host.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:blackwall-host",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/blackwall-host.webp"
       }
     }
   },

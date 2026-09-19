@@ -1,7 +1,7 @@
 {
   "name": "*Vagras Security Kit",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/vagras-security-kit.webp",
   "system": {
     "description": "<p>Smart Lock Make an Interface Roll (15)<br>onan object you&#x27;re touching that can<br>close, such as a lock, chest, door, box,<br>panel, safe, or case. Once per rest ona<br>success, you encrypt, reinforce, and<br>seal the object so it can only be opened<br>by creatures with your password.<br>Someone with access to compatible<br>technology and an hour of time to<br>study the protocol can break it.<br>Emergency Door: When you have no<br>adversaries within Melee range, make<br>an Interface Roll (13). On a success,<br>spend a Hope to open a short-range<br>transit door, breach route,<br>displacement panel, or emergency<br>passage from where you are to a point<br>within Far range you can see. It closes<br>once a creature has passed through it.<br>Reveal: Make an Interface Roll. If there<br>is anything technologically, digitally, or<br>artificially hidden within Close range, it<br>is revealed.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "*Vagras Security Kit",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/vagras-security-kit.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:vagras-security-kit",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/vagras-security-kit.webp"
       }
     }
   },

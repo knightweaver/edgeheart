@@ -1,7 +1,7 @@
 {
   "name": "Omega Organ Cluster",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/omega-organ-cluster.webp",
   "system": {
     "description": "<p>Cyber Cost: 3</p><p>Gain two additional Hit Point slots. Once per long rest, when you would mark a Hit Point, you can instead clear it.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Omega Organ Cluster",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/omega-organ-cluster.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:omega-organ-cluster",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/omega-organ-cluster.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Invoke Shutdown",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/invoke-shutdown.webp",
   "system": {
     "description": "<p>When you deal damage to a creature<br>that has all ofits Stress marked,<br>double the damage.<br>If this defeats, disables, or destroys<br>them, you clear a Stress. If it doesn’t<br>defeat, disable, or destroy them, they<br>are permanently Vulnerable.<br>This might look like a kill command,<br>identity collapse, full nervous-system<br>lock, or a shutdown signal that leaves<br>the target forever compromised.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Invoke Shutdown",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/invoke-shutdown.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:invoke-shutdown",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/invoke-shutdown.webp"
       }
     }
   },

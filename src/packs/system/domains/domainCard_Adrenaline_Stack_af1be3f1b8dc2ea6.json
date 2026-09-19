@@ -1,7 +1,7 @@
 {
   "name": "Adrenaline Stack",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/adrenaline-stack.webp",
   "system": {
     "description": "<p>Your Redline systems have seeped into<br>your bloodstream, enhancing your body<br>in moments of urgency.<br>When you roll with advantage, use a d8<br>instead of a d6 as your advantage die if<br>you have 1 or more HP marked.<br>After you make a Strength, Agility, or<br>Finesse Roll, you can mark a HP to roll<br>1d8 and add it to the result.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Adrenaline Stack",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/adrenaline-stack.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:adrenaline-stack",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/adrenaline-stack.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Grapple Wire",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/grapple-wire.webp",
   "system": {
     "description": "<p>Hooked: On a successful attack, pull the target into Melee range or pull yourself to Very Close range of them.</p>",
     "tier": 1,
@@ -10,7 +10,7 @@
     "burden": "oneHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/grapple-wire.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "close",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Hooked",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/grapple-wire.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:grapple-wire",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/grapple-wire.webp"
       }
     }
   },

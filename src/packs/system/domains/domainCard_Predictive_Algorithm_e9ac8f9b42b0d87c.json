@@ -1,7 +1,7 @@
 {
   "name": "Predictive Algorithm",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/predictive-algorithm.webp",
   "system": {
     "description": "<p>You can run predictive models to<br>glimpse the most likely consequences<br>of your actions.<br>Once per long rest, immediately after<br>the GM conveys the consequences of a<br>roll you made, you can rescind the<br>move and consequences like they never<br>happened and make another move.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Predictive Algorithm",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/predictive-algorithm.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:predictive-algorithm",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/predictive-algorithm.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Trauma Ward",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/trauma-ward.webp",
   "system": {
     "description": "<p>Make an Interface Roll (16). Once per<br>long rest on a success, choose a point<br>within Far range and deploy a trauma<br>ward there for all allies within Very<br>Close range of that point.<br>This might appear as a med-drone<br>perimeter, hard-light clinic, surgical<br>tent, nanite curtain, emergency<br>stabilization field, or automated life-<br>support zone. When you do, place a d6<br>on this card with the 1 value facing up.<br>When an ally in this zone takes<br>damage, they reduce it by the die’s<br>value. You then increase the die’s value<br>by one. When the die’s value would<br>exceed 6, this effect ends.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Trauma Ward",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/trauma-ward.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:trauma-ward",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/trauma-ward.webp"
       }
     }
   },

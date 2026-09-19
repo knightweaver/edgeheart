@@ -1,7 +1,7 @@
 {
   "name": "Nomad",
   "type": "ancestry",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/life-paths/nomad.webp",
   "system": {
     "description": "<p>You come from road clans, convoy families, or people who survived by never staying owned. You know engines, routes, and the value of family chosen at road.</p><h4>LIFE PATH FEATURES</h4><p><em><strong>Road Sprint:</strong></em> When you succeed on an Agility Roll or vehicle roll to move from Far or Very Far range into Melee range with one or more targets, you can mark a Stress to deal 1d12 physical damage to all targets within Melee range.</p><p><em><strong>Off-Road Born:</strong></em> You can move naturally through rubble, broken roads, mud, sand, shallow water, wreckage, and unstable ground.</p>",
     "features": [
@@ -33,7 +33,10 @@
       "deployment": {
         "logicalKey": "ancestry:nomad",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/life-paths/nomad.webp"
       }
     }
   },

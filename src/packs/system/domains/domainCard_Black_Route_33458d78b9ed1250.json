@@ -1,7 +1,7 @@
 {
   "name": "Black Route",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/black-route.webp",
   "system": {
     "description": "<p>Make an Interface Roll (15). On a success, you map, open, or prepare a covert route through the area.<br>Until your next rest, you and any allies you guide can use this route to move between your current location and another one within Very Far range that you have already reached in this scene.<br>While using the route, you and allies you guide have advantage on rolls to avoid detection, bypass mundane security, or escape pursuit.<br>This route stays available until you choose to close it or the GM spends a Fear to reveal that the route has been compromised.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Black Route",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/black-route.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:black-route",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/black-route.webp"
       }
     }
   },

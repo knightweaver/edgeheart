@@ -1,7 +1,7 @@
 {
   "name": "Neural Burden Sync",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/neural-burden-sync.webp",
   "system": {
     "description": "<p>Once per rest, you can redistribute any<br>marked HP between two willing targets<br>you can touch.<br>This might look like synchronizing<br>forbidden Blackwall data, redistributing<br>system strain, offloading neurological<br>collapse, or splitting pain across linked<br>biomonitors between two bodies.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Neural Burden Sync",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/neural-burden-sync.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:neural-burden-sync",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/neural-burden-sync.webp"
       }
     }
   },

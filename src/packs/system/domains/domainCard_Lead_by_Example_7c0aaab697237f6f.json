@@ -1,7 +1,7 @@
 {
   "name": "Lead by Example",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/lead-by-example.webp",
   "system": {
     "description": "<p>When you deal damage to an<br>adversary, you can mark a Stress and<br>describe how you encourage your<br>allies, draw fire, expose a weakness, or<br>prove the enemy can be broken.<br>The next PC to make an attack against<br>that adversary can clear a Stress or<br>gain a Hope.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Lead by Example",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/lead-by-example.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:lead-by-example",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/lead-by-example.webp"
       }
     }
   },

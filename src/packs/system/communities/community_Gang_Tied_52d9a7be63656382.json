@@ -1,7 +1,7 @@
 {
   "name": "Gang-Tied",
   "type": "community",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/affiliations/gang-tied.webp",
   "system": {
     "description": "<p>You are connected to a gang, street family, or violent local power.</p><h4>COMMUNITY FEATURE</h4><p><em><strong>Street Wise:</strong></em> You have advantage on rolls to negotiate with criminals, detect lies, recognize gang signs, or find a safe place to hide in criminal territory.</p>",
     "features": [
@@ -26,7 +26,10 @@
       "deployment": {
         "logicalKey": "community:gang-tied",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/affiliations/gang-tied.webp"
       }
     }
   },

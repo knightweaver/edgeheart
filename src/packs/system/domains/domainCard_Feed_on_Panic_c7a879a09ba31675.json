@@ -1,7 +1,7 @@
 {
   "name": "Feed on Panic",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/feed-on-panic.webp",
   "system": {
     "description": "<p>Whenever a creature within Close<br>range marks any number of Stress or<br>takes Severe damage, you can spend a<br>Hope to clear a Stress or clear a Fear<br>the GM holds.<br>This might look like your system<br>harvesting panic data, converting<br>suffering into processing power, or<br>letting something beyond the wall feed</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Feed on Panic",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/feed-on-panic.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:feed-on-panic",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/feed-on-panic.webp"
       }
     }
   },

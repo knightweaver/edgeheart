@@ -1,7 +1,7 @@
 {
   "name": "Neural Spike",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/neural-spike.webp",
   "system": {
     "description": "<p>Pain Loop: On Major or Severe damage, the target marks 1 Stress.</p>",
     "tier": 3,
@@ -10,7 +10,7 @@
     "burden": "oneHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/neural-spike.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "melee",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Pain Loop",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/neural-spike.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:neural-spike",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/neural-spike.webp"
       }
     }
   },

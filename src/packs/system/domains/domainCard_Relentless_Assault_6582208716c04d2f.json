@@ -1,7 +1,7 @@
 {
   "name": "Relentless Assault",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/relentless-assault.webp",
   "system": {
     "description": "<p>When you successfully make an attack<br>with your weapon, you never deal<br>damage beneath a target&#x27;s Major<br>damage threshold. The target always<br>marks a minimum of 2 Hit Points.<br>Additionally, when a creature within<br>your weapon&#x27;s range deals damage to<br>an ally with an attack that doesn’t<br>include you, you can mark a Stress to<br>force them to make a Reaction Roll<br>(15).<br>On a failure, the target must mark a Hit<br>Point.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Relentless Assault",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/relentless-assault.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:relentless-assault",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/relentless-assault.webp"
       }
     }
   },

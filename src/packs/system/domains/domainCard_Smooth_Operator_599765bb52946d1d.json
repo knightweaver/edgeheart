@@ -1,7 +1,7 @@
 {
   "name": "Smooth Operator",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/smooth-operator.webp",
   "system": {
     "description": "<p>Spend a Hope to gain advantage ona<br>roll to deceive, mislead, bluff, trick, or<br>convince someone into believing a lie<br>you tell them.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Smooth Operator",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/smooth-operator.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:smooth-operator",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/smooth-operator.webp"
       }
     }
   },

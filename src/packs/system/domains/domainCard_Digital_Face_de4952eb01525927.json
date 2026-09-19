@@ -1,7 +1,7 @@
 {
   "name": "Digital Face",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/digital-face.webp",
   "system": {
     "description": "<p>When you have a few minutes to<br>prepare, you can mark a Stress to<br>apply a synthetic mask or smart-skin<br>overlay matching any humanoid you<br>have seen.<br>While disguised, you have advantage<br>on Presence Rolls to avoid scrutiny.<br>Place a number of tokens on this card<br>equal to your Interface trait. When you<br>take an action while disguised, spend a<br>token from this card.<br>After the action that spends the last<br>token is resolved, the disguise drops.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Digital Face",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/digital-face.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:digital-face",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/digital-face.webp"
       }
     }
   },

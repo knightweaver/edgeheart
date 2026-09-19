@@ -1,7 +1,7 @@
 {
   "name": "Field Bunker",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/field-bunker.webp",
   "system": {
     "description": "<p>Make an Interface Roll (13).<br>On a success, spend 2 Hope to deploy<br>a survival bunker, natural barricade,<br>scrap dome, hard-shell shelter,<br>emergency cover, or rapid-build<br>defensive structure that you and one<br>ally can take cover within.<br>While inside the bunker, a creature<br>can’t be targeted by attacks and can’t<br>make attacks.<br>Attacks made against the bunker<br>automatically succeed.<br>The bunker has the following damage<br>thresholds and lasts until it marks 3 Hit<br>Points. Place tokens on this card to<br>represent marking Hit Points.<br>Thresholds: 15/30</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Field Bunker",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/field-bunker.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:field-bunker",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/field-bunker.webp"
       }
     }
   },

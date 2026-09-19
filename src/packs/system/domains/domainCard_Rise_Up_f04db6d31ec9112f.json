@@ -1,7 +1,7 @@
 {
   "name": "Rise Up",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/rise-up.webp",
   "system": {
     "description": "<p>Gain a bonus to your Severe damage<br>threshold equal to your Proficiency.<br>When you mark 2 or more Hit Points<br>from anattack, clear a Stress.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Rise Up",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/rise-up.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:rise-up",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/rise-up.webp"
       }
     }
   },

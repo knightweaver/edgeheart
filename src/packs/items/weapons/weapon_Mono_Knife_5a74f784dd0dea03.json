@@ -1,7 +1,7 @@
 {
   "name": "Mono-Knife",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/mono-knife.webp",
   "system": {
     "description": "<p>Serrated: When you roll a 1 on a damage die, it deals 6 damage instead.</p>",
     "tier": 2,
@@ -10,7 +10,7 @@
     "burden": "oneHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/mono-knife.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "melee",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Serrated",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/mono-knife.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:mono-knife",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/mono-knife.webp"
       }
     }
   },

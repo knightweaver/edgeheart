@@ -1,7 +1,7 @@
 {
   "name": "Daemon Army",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/daemon-army.webp",
   "system": {
     "description": "<p>Make an Interface Roll (14). Once per<br>rest on a success, mark a Stress to<br>release eight daemon AI fragments<br>within Close range that move with you.<br>Place a d8 on this card set to 8,<br>representing the size of your daemon<br>army. Whenever you deal damage to a<br>target within Close range, you can<br>decrease this value by 1 to deal an<br>additional 1d8 techno damage.<br>When you take damage, you can<br>decrease this value by 1 to reduce the<br>damage by 1d8.<br>Each time the die is decreased, a<br>daemon acts on your behalf, then<br>disappears. When the die’s value would<br>be reduced below 1, return this card to<br>your vault.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Daemon Army",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/daemon-army.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:daemon-army",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/daemon-army.webp"
       }
     }
   },

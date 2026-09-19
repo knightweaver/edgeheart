@@ -1,7 +1,7 @@
 {
   "name": "Sonic Cutter",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/sonic-cutter.webp",
   "system": {
     "description": "<p>Resonance: On a successful attack, spend a Hope to make the target temporarily Vulnerable.</p>",
     "tier": 2,
@@ -10,7 +10,7 @@
     "burden": "oneHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/sonic-cutter.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "close",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Resonance",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/sonic-cutter.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:sonic-cutter",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/sonic-cutter.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Street Icon Fit",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/edgeheart/assets/icons/armors/street-icon-fit.webp",
   "system": {
     "description": "<p>Recognizable: Once per scene, choose one creature who has heard of your reputation. Gain advantage on your first roll against them.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Recognizable",
-        "img": "icons/svg/shield.svg",
+        "img": "modules/edgeheart/assets/icons/armors/street-icon-fit.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -74,7 +74,10 @@
       "deployment": {
         "logicalKey": "armor:street-icon-fit",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/armors/street-icon-fit.webp"
       }
     }
   },

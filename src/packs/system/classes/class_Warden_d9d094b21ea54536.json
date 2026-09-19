@@ -1,7 +1,7 @@
 {
   "name": "Warden",
   "type": "class",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/classes/warden.webp",
   "system": {
     "description": "<p>Wardens are bodyguards, riot breakers, and professional protectors who survive by making themselves the hardest problem in the room while they stand between the crew and whatever wants them dead.</p>",
     "domains": [
@@ -46,7 +46,10 @@
         "resolvedDomains": [
           "aegis"
         ],
-        "domainRegistrationPending": true
+        "domainRegistrationPending": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/classes/warden.webp"
       }
     }
   },

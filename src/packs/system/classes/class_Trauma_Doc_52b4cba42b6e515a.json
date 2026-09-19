@@ -1,7 +1,7 @@
 {
   "name": "Trauma Doc",
   "type": "class",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/classes/trauma-doc.webp",
   "system": {
     "description": "<p>Trauma Docs are field medics, black-clinic surgeons, and cyberware miracle workers who know how to keep people alive when the world has already decided they should be dead.</p>",
     "domains": [
@@ -46,7 +46,10 @@
         "resolvedDomains": [
           "medtech"
         ],
-        "domainRegistrationPending": true
+        "domainRegistrationPending": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/classes/trauma-doc.webp"
       }
     }
   },

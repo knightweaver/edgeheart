@@ -1,7 +1,7 @@
 {
   "name": "Support Tank",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/support-tank.webp",
   "system": {
     "description": "<p>When an ally within Close range fails a<br>roll, you can spend 2 Hope to allow<br>them to reroll either their Hope Die or<br>Fear Die.<br>This might look like providing cover,<br>forcing the enemy’s attention onto you,<br>or bracing them through impact.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Support Tank",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/support-tank.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:support-tank",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/support-tank.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Breaking Blow",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/breaking-blow.webp",
   "system": {
     "description": "<p>When you make a successful attack,<br>you can mark a Stress to make the next<br>successful attack against that sare<br>target deal an extra 2d12 damage.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Breaking Blow",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/breaking-blow.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:breaking-blow",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/breaking-blow.webp"
       }
     }
   },

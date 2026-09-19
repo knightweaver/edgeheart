@@ -1,7 +1,7 @@
 {
   "name": "Trapline Launcher",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/trapline-launcher.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Far range. On a hit, you fire a<br>trapline at the target. They take 1d8+1<br>physical damage and turn Restrained.<br>Additionally, you can spend a Hope to<br>launch a secondary trapline at another<br>adversary within Close range of the<br>EtarcatetamnnrarileReactrainingitharnm</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Trapline Launcher",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/trapline-launcher.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:trapline-launcher",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/trapline-launcher.webp"
       }
     }
   },

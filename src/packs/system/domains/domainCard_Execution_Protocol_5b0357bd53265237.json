@@ -1,7 +1,7 @@
 {
   "name": "Execution Protocol",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/execution-protocol.webp",
   "system": {
     "description": "<p>Once per long rest, spend a Hope to<br>make an attack roll.<br>The GM tells you which targets within<br>range it would succeed against.<br>Choose one of these targets and force<br>them to mark 5 Hit Points.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Execution Protocol",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/execution-protocol.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:execution-protocol",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/execution-protocol.webp"
       }
     }
   },

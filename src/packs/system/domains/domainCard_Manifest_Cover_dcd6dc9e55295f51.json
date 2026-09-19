@@ -1,7 +1,7 @@
 {
   "name": "Manifest Cover",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/manifest-cover.webp",
   "system": {
     "description": "<p>Make an Interface Roll (15). Once per<br>rest on a success, spend a Hope to<br>create a temporary wall, hard-light<br>barrier, deployable barricade, kinetic<br>shield, or instant structure between<br>two points within Far range.<br>It can be up to 50 feet high and form at<br>any angle. Creatures or objects in its<br>path are shunted to a side of your<br>choice. The wall stays until your next<br>rest or you run Manifest Cover again.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Manifest Cover",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/manifest-cover.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:manifest-cover",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/manifest-cover.webp"
       }
     }
   },

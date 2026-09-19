@@ -1,7 +1,7 @@
 {
   "name": "Ruinbreaker Rig",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/ruinbreaker-rig.webp",
   "system": {
     "description": "<p>Mark a Stress to activate a heavy<br>survival exo-rig built. While active,<br>hydraulic braces lock into place,<br>cutting tools unfold, armor plates shift,<br>hazard filters overclock, and your gear<br>enters full breach mode. You gain the<br>following benefits:<br>When you succeed on an attack or<br>Interface Roll, add +10 to damage.<br>When you deal enough damage to<br>defeat a creature within Close<br>range, you strip usable plating,<br>siphon a power cell, or trigger<br>emergency repair foam and clear an<br>Armor Slot.<br>You can’t be Restrained.<br>Before you make an action roll, you<br>must spend a Hope. If you can’t, the rig<br>overheats, locks, or burns through its<br>emergency charge, and you revert to<br>your normal state.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Ruinbreaker Rig",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/ruinbreaker-rig.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:ruinbreaker-rig",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/ruinbreaker-rig.webp"
       }
     }
   },

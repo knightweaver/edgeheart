@@ -1,7 +1,7 @@
 {
   "name": "Frontier-Synced",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/frontier-synced.webp",
   "system": {
     "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Frontier<br>Competency, gain the following:<br>While you’re in a urband, ruined, or<br>hostile environment, you gain a +2<br>bonus to your Interface Rolls.<br>Once per rest, you can double your<br>Agility or Instinct when making a roll<br>that uses that trait. You must choose<br>to do this before you roll.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Frontier-Synced",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/frontier-synced.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:frontier-synced",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/frontier-synced.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Aegis Threat Mesh - Guard Charge",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/aegis-threat-mesh-guard-charge.webp",
   "system": {
     "description": "<p>Cyber Cost: 2</p><p>When you roll with Hope using an Aegis card or protecting something, gain 1 Guard Charge, max 2. When an ally within Close range is targeted by an attack, spend 1 Charge to give them +1 Evasion. If you spent 2 Charges and the attack hits, reduce the damage by 1.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Aegis Threat Mesh - Guard Charge",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/aegis-threat-mesh-guard-charge.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:aegis-threat-mesh-guard-charge",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/aegis-threat-mesh-guard-charge.webp"
       }
     }
   },

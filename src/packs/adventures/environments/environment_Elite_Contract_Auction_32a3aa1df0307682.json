@@ -1,7 +1,7 @@
 {
   "name": "Elite Contract Auction",
   "type": "environment",
-  "img": "icons/svg/door-exit.svg",
+  "img": "modules/edgeheart/assets/icons/environments/elite-contract-auction.webp",
   "system": {
     "description": "A secret auction where corps, gangs, digital cults, and mercenary legends bid on a person, weapon, AI shard, or Eidolon key.",
     "tier": 4,
@@ -118,7 +118,10 @@
       "deployment": {
         "logicalKey": "environment:elite-contract-auction",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/environments/elite-contract-auction.webp"
       }
     }
   },

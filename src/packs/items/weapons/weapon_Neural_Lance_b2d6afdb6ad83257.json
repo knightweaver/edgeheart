@@ -1,7 +1,7 @@
 {
   "name": "Neural Lance",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/neural-lance.webp",
   "system": {
     "description": "<p>Mind Spike: On Major or Severe damage, the target can&#x27;t target anyone beyond Very Close range until your next action.</p>",
     "tier": 4,
@@ -10,7 +10,7 @@
     "burden": "twoHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/neural-lance.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "far",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Mind Spike",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/neural-lance.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:neural-lance",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/neural-lance.webp"
       }
     }
   },

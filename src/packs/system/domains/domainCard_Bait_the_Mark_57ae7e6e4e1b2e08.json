@@ -1,7 +1,7 @@
 {
   "name": "Bait the Mark",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/bait-the-mark.webp",
   "system": {
     "description": "<p>Describe how you taunt, challenge,<br>humiliate, expose, or bait a target<br>within Close range, then make a<br>Presence Roll against them.<br>On a success, the target must mark a<br>Stress, and the next time the GM<br>spotlights them, they must target you<br>with an attack, which they make with<br>disadvantage.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Bait the Mark",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/bait-the-mark.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:bait-the-mark",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/bait-the-mark.webp"
       }
     }
   },

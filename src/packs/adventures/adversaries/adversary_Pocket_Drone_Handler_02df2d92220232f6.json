@@ -1,6 +1,6 @@
 {
   "name": "Pocket Drone Handler",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/edgeheart/assets/icons/adversaries/pocket-drone-handler.webp",
   "type": "adversary",
   "system": {
     "difficulty": 11,
@@ -172,7 +172,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/edgeheart/assets/tokens/adversaries/pocket-drone-handler-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -384,7 +384,11 @@
       "deployment": {
         "logicalKey": "adversary:pocket-drone-handler",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/adversaries/pocket-drone-handler.webp",
+        "tokenAssetPath": "modules/edgeheart/assets/tokens/adversaries/pocket-drone-handler-token.png"
       }
     }
   },

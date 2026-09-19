@@ -1,7 +1,7 @@
 {
   "name": "Neurochemical Override",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/neurochemical-override.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Very Close range. If you use this<br>protocol on an ally, roll with advantage.<br>On a success, mark a Stress and<br>choose one of the following effects:<br>1- The target grows calmer, stabilized<br>by sedatives or neural regulation, and<br>clears a Stress. On a success with<br>Hope, they clear 2 Stress.<br>2- The target grows more anxious,<br>overloaded by adrenaline, panic<br>chemicals, or hostile feedback, and<br>marks a Stress. On a success with<br>Hope, they mark 2 Stress.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Neurochemical Override",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/neurochemical-override.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:neurochemical-override",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/neurochemical-override.webp"
       }
     }
   },

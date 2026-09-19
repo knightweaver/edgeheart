@@ -1,7 +1,7 @@
 {
   "name": "Military Surplus",
   "type": "ancestry",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/life-paths/military-surplus.webp",
   "system": {
     "description": "<p>You were trained by a corporate army, gang warband, or collapsed national force. Maybe you deserted. Maybe your unit was sold. Maybe you are the only one left.</p><h4>LIFE PATH FEATURES</h4><p><em><strong>Combat Reactions:</strong></em> Mark a Stress to gain advantage on a Reaction Roll.</p><p><em><strong>Last One Standing:</strong></em> When you have 1 Hit Point remaining, attacks against you have disadvantage.</p>",
     "features": [
@@ -33,7 +33,10 @@
       "deployment": {
         "logicalKey": "ancestry:military-surplus",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/life-paths/military-surplus.webp"
       }
     }
   },

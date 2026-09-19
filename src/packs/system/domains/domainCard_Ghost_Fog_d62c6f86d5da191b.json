@@ -1,7 +1,7 @@
 {
   "name": "Ghost Fog",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/ghost-fog.webp",
   "system": {
     "description": "<p>Make an Interface Roll (13). Ona<br>success, spend a Hope to flood the<br>area around you with ghost fog: sensor<br>static, chaff mist, corrupted light,<br>digital afterimages, or invasive route-<br>mapping projections.<br>You and any targets within Close range<br>become momentarily incorporeal to<br>security systems and automated<br>barriers, allowing you to pass through a<br>sealed passage that has a plausible<br>physical or digital bypass.<br>This protocol lasts until you have<br>passed through the barrier<br>successfully.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Ghost Fog",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/ghost-fog.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:ghost-fog",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/ghost-fog.webp"
       }
     }
   },

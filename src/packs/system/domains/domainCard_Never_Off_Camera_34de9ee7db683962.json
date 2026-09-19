@@ -1,7 +1,7 @@
 {
   "name": "Never Off Camera",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/never-off-camera.webp",
   "system": {
     "description": "<p>When you mark 1 or more Hit Points<br>from an attack, you can mark a Stress<br>to place a number of tokens equal to<br>the number of Hit Points you marked<br>on this card.<br>On your next successful attack, gain a<br>+5 bonus to your damage roll for each<br>token on this card, then clear all<br>tokens.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Never Off Camera",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/never-off-camera.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:never-off-camera",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/never-off-camera.webp"
       }
     }
   },

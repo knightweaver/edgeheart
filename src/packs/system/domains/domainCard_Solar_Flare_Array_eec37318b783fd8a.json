@@ -1,7 +1,7 @@
 {
   "name": "Solar Flare Array",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/solar-flare-array.webp",
   "system": {
     "description": "<p>Make an Interface Roll to unleash a<br>blast of burning flare shells against all<br>adversaries within Far range.<br>On a success, spend any number of<br>Hope and force that many targets you<br>succeeded against to make a Reaction<br>Roll (14).<br>Targets who succeed take 3d20+3<br>techno damage. Targets who fail take<br>4d20+5 techno damage and are<br>temporarily Blinded. While Blinded,<br>they has disadvantage on attack rolls<br>and can’t target anything beyond Close<br>range unless they can perceive it<br>through another sense.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Solar Flare Array",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/solar-flare-array.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:solar-flare-array",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/solar-flare-array.webp"
       }
     }
   },

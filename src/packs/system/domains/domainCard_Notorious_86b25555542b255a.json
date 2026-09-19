@@ -1,7 +1,7 @@
 {
   "name": "Notorious",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/notorious.webp",
   "system": {
     "description": "<p>People know who you are and what<br>you’ve done, and they treat you<br>differently because of it.<br>When you leverage your notoriety to<br>get what you want, you can mark a<br>Stress before you roll to gain a +10<br>bonus to the result.<br>Your food and drinks are always free<br>wherever you go, and everything else<br>you buy is reduced in price by one bag<br>of cash, credit, barter, or gold, to a<br>minimum of one handful.<br>This card doesn’t count against your<br>loadout’s domain card maximum of 5<br>and can’t be placed in your vault.<br>ee eee ee</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Notorious",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/notorious.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:notorious",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/notorious.webp"
       }
     }
   },

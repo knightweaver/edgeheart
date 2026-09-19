@@ -1,7 +1,7 @@
 {
   "name": "Armor Tech",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/armor-tech.webp",
   "system": {
     "description": "<p>While you’re wearing armor, gain a +1<br>bonus to your Armor Score.<br>During a rest, when you choose to<br>repair your armor as a downtime move,<br>your allies also clear an Armor Slot.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Armor Tech",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/armor-tech.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:armor-tech",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/armor-tech.webp"
       }
     }
   },

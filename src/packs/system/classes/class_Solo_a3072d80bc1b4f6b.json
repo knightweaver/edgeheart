@@ -1,7 +1,7 @@
 {
   "name": "Solo",
   "type": "class",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/classes/solo.webp",
   "system": {
     "description": "<p>Specters are professional combatants, hired guns, assault specialists, and battlefield killers who survive by ending threats before they become problems. They are the mercenaries called when the job turns loud.</p>",
     "domains": [
@@ -46,7 +46,10 @@
         "resolvedDomains": [
           "assault"
         ],
-        "domainRegistrationPending": true
+        "domainRegistrationPending": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/classes/solo.webp"
       }
     }
   },

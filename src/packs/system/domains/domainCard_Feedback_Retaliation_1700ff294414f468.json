@@ -1,7 +1,7 @@
 {
   "name": "Feedback Retaliation",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/feedback-retaliation.webp",
   "system": {
     "description": "<p>When an attack from a creature causes<br>you to mark one or more HP, you can<br>make a Reaction Roll using your<br>Interface trait against the creature.<br>On a success, your Redline system<br>converts the impact into a hostile<br>backlash through your combat<br>firmware, shock relays, rageware, or<br>neural feedback implants, forcing the<br>creature to mark the same number of<br>HP as you did.<br>You can’t use this protocol again until<br>you finish a rest.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Feedback Retaliation",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/feedback-retaliation.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:feedback-retaliation",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/feedback-retaliation.webp"
       }
     }
   },

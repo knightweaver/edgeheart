@@ -1,7 +1,7 @@
 {
   "name": "Neurospike",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/neurospike.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, mark a<br>Stress to fire a hostile neurospike,<br>overload pulse, rageware signal, pain-<br>editor exploit, or illegal combat<br>firmware into the target, dealing d10<br>techno damage using your Proficiency.<br>On a success with Hope, the target<br>also marks a Stress. On a roll with Fear,<br>you must also mark a Stress.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Neurospike",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/neurospike.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:neurospike",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/neurospike.webp"
       }
     }
   },

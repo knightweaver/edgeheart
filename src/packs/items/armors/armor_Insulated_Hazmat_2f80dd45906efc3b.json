@@ -1,7 +1,7 @@
 {
   "name": "Insulated Hazmat",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/edgeheart/assets/icons/armors/insulated-hazmat.webp",
   "system": {
     "description": "<p>Grounded: When you mark an Armor Slot against techno damage, reduce the severity by one additional threshold.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Grounded",
-        "img": "icons/svg/shield.svg",
+        "img": "modules/edgeheart/assets/icons/armors/insulated-hazmat.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -74,7 +74,10 @@
       "deployment": {
         "logicalKey": "armor:insulated-hazmat",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/armors/insulated-hazmat.webp"
       }
     }
   },

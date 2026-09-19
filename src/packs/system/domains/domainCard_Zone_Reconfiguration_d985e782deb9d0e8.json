@@ -1,7 +1,7 @@
 {
   "name": "Zone Reconfiguration",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/zone-reconfiguration.webp",
   "system": {
     "description": "<p>Make an Interface Roll (18).<br>Once per long rest on a success, you<br>reconfigure the surrounding combat<br>zone anywhere within Far range using<br>field engineering gear, demolition<br>charges, deployable barricades,<br>construction drones, foamcrete, road<br>spikes, cutting lasers, or compromised<br>infrastructure.<br>For example, you can clear a path<br>through dense debris, collapse<br>unstable cover, open a breach through<br>a wrecked zone, raise a wall of scrap<br>and barricades, expose buried<br>infrastructure, create a ramp or bridge,<br>or alter the battlefield’s available cover.<br>The change must be something that<br>could plausibly be accomplished<br>through machinery, demolition or<br>construction.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Zone Reconfiguration",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/zone-reconfiguration.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:zone-reconfiguration",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/zone-reconfiguration.webp"
       }
     }
   },

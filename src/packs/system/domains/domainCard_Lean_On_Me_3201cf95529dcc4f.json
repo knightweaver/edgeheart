@@ -1,7 +1,7 @@
 {
   "name": "Lean On Me",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/lean-on-me.webp",
   "system": {
     "description": "<p>Once per long rest, when you stabilize,<br>console, support, or talk an ally through<br>a failed action roll, you can both clear 2<br>Stress.<br>This might look like grounding them<br>through panic, forcing them to breathe,<br>administering a calming dose, resetting<br>their neural feedback, or simply</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Lean On Me",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/lean-on-me.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:lean-on-me",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/lean-on-me.webp"
       }
     }
   },

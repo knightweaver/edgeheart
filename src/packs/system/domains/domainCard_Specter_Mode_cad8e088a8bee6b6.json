@@ -1,7 +1,7 @@
 {
   "name": "Specter Mode",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/specter-mode.webp",
   "system": {
     "description": "<p>Mark a Stress to turn Spectral until you<br>make an action against other creature.<br>While Spectral, your body is wrapped<br>in active camouflage, signal chaff, and<br>predictive movement software. You are<br>Hidden, you don’t trigger mundane<br>cameras or alarms, and you can’t be<br>directly targeted by physical attacks<br>unless a creature is within Melee range<br>or the GM spends a Fear to reveal you.<br>While Spectral, you can bypass<br>cameras, laser grids, and other<br>security-controlled barriers as though<br>you had the proper access. This<br>doesn’t allow you to pass through solid<br>walls or barriers with no plausible entry<br>point.<br>Other creatures might still see brief<br>signs of your passage.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Specter Mode",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/specter-mode.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:specter-mode",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/specter-mode.webp"
       }
     }
   },

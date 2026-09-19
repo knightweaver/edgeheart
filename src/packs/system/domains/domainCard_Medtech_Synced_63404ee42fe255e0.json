@@ -1,7 +1,7 @@
 {
   "name": "Medtech-Synced",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/medtech-synced.webp",
   "system": {
     "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Medtech<br>Competency, gain the following:<br>* Gain a +3 bonus to your Severe<br>damage threshold.<br>* Once per rest, when incoming<br>damage would make you mark HP,<br>you can mark that much Stress or<br>spend that much Hope instead.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Medtech-Synced",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/medtech-synced.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:medtech-synced",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/medtech-synced.webp"
       }
     }
   },

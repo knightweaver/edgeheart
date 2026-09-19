@@ -1,7 +1,7 @@
 {
   "name": "Smartgun Link",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/smartgun-link.webp",
   "system": {
     "description": "<p>Cyber Cost: 1</p><p>When you attack with a firearm or smart weapon and roll with Hope, you can mark a Stress to target another creature within Very Close range of the original target for half damage.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Smartgun Link",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/smartgun-link.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:smartgun-link",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/smartgun-link.webp"
       }
     }
   },

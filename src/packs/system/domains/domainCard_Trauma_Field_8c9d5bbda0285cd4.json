@@ -1,7 +1,7 @@
 {
   "name": "Trauma Field",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/trauma-field.webp",
   "system": {
     "description": "<p>Once per long rest, you can deploy a<br>trauma field around you using medical<br>drones, nanite mist, auto-injectors, or<br>emergency triage beacons.<br>You and all allies within Close range<br>clear a HP. Spend 2 Hope to allow you<br>and all allies within Close range to clear<br>2 HP instead.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Trauma Field",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/trauma-field.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:trauma-field",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/trauma-field.webp"
       }
     }
   },

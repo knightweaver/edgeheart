@@ -1,7 +1,7 @@
 {
   "name": "Gang Colors Jacket",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/edgeheart/assets/icons/armors/gang-colors-jacket.webp",
   "system": {
     "description": "<p>Claimed: You have advantage on rolls to intimidate, negotiate, or avoid being challenged in gang territory, criminal spaces, or contested streets.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Claimed",
-        "img": "icons/svg/shield.svg",
+        "img": "modules/edgeheart/assets/icons/armors/gang-colors-jacket.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -74,7 +74,10 @@
       "deployment": {
         "logicalKey": "armor:gang-colors-jacket",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/armors/gang-colors-jacket.webp"
       }
     }
   },

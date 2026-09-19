@@ -1,7 +1,7 @@
 {
   "name": "Scrap Launcher",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/scrap-launcher.webp",
   "system": {
     "description": "<p>Junkshot: On a roll with Fear, the target takes 1d6 damage and the weapon becomes jammed until you mark a Stress to clear it.</p>",
     "tier": 1,
@@ -10,7 +10,7 @@
     "burden": "twoHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/scrap-launcher.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "close",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Junkshot",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/scrap-launcher.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:scrap-launcher",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/scrap-launcher.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Blackwall-Synced",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/blackwall-synced.webp",
   "system": {
     "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Blackwall<br>Competency, gain the following:<br>When you succeed with Fear, you<br>can mark 2 Stress to prevent the GM<br>from gaining a Fear.<br>Once per short rest, when making<br>an action roll, you can add a +1 to<br>the roll for each Fear the GM have.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Blackwall-Synced",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/blackwall-synced.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:blackwall-synced",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/blackwall-synced.webp"
       }
     }
   },

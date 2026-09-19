@@ -1,7 +1,7 @@
 {
   "name": "Rapid Riposte",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/rapid-riposte.webp",
   "system": {
     "description": "<p>When an attack made against you from<br>within Melee range fails, you can mark<br>a Stress and seize the opportunity to<br>deal the weapon damage of one of your<br>active weapons to the attacker.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Rapid Riposte",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/rapid-riposte.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:rapid-riposte",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/rapid-riposte.webp"
       }
     }
   },

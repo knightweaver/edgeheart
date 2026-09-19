@@ -1,7 +1,7 @@
 {
   "name": "Impact Shield",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/impact-shield.webp",
   "system": {
     "description": "<p>Protective: +1 to Armor Score; when you mark an Armor Slot, you may push one Melee attacker back to Close range.</p>",
     "tier": 2,
@@ -10,7 +10,7 @@
     "burden": "oneHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/impact-shield.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "melee",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Protective",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/impact-shield.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:impact-shield",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/impact-shield.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Megablock Stairwell",
   "type": "environment",
-  "img": "icons/svg/door-exit.svg",
+  "img": "modules/edgeheart/assets/icons/environments/megablock-stairwell.webp",
   "system": {
     "description": "A vertical maze of emergency stairs, leaking pipes, locked floors, and neighbors who know when to shut their doors.",
     "tier": 1,
@@ -118,7 +118,10 @@
       "deployment": {
         "logicalKey": "environment:megablock-stairwell",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/environments/megablock-stairwell.webp"
       }
     }
   },

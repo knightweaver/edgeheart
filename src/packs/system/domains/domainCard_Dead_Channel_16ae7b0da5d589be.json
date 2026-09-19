@@ -1,7 +1,7 @@
 {
   "name": "Dead Channel",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/dead-channel.webp",
   "system": {
     "description": "<p>You let a corrupted AI speak through a<br>dead channel, broken speaker, or<br>hijacked implant to torment a target.<br>Make an Interface Roll against a<br>creature you can see. On a success,<br>they must mark a Stress and become<br>temporarily Vulnerable.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Dead Channel",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/dead-channel.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:dead-channel",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/dead-channel.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Aggression Feedback",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/aggression-feedback.webp",
   "system": {
     "description": "<p>When you deal damage to a creature,<br>mark a Stress to lock their threat<br>profile into your Redline system.<br>Until this feedback ends, your combat<br>implants, adrenal processors, pain<br>editor, and aggression software remain<br>fixated on the target. You always know<br>the direction of it relative to you.<br>Additionally, each time that creature<br>deals damage to you or an ally within<br>Very Close range of you, your Redline<br>system fires a hostile feedback spike<br>back through the link, forcing them to<br>mark a Stress.<br>This feedback ends when you use this<br>protocol again.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Aggression Feedback",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/aggression-feedback.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:aggression-feedback",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/aggression-feedback.webp"
       }
     }
   },

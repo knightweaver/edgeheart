@@ -1,7 +1,7 @@
 {
   "name": "Tactical Rally",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/tactical-rally.webp",
   "system": {
     "description": "<p>Once per rest, when you critically<br>succeed on an attack, all allies within<br>Very Close range can clear a Stress or<br>gain a Hope.<br>This might look like a shouted<br>command, a decisive opening, or a<br>moment where your allies see that the<br>line is still holding.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Tactical Rally",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/tactical-rally.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:tactical-rally",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/tactical-rally.webp"
       }
     }
   },

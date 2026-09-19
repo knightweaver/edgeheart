@@ -1,7 +1,7 @@
 {
   "name": "Combat Transfusion",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/combat-transfusion.webp",
   "system": {
     "description": "<p>When you deal damage to a target, you<br>can spend 2 Hope to clear a HP on an<br>ally within Close range.<br>This might look like triggering a linked<br>trauma patch, releasing stored nanites,<br>or using the enemy’s exposed biology<br>or machinery to power an emergency<br>treatment.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Combat Transfusion",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/combat-transfusion.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:combat-transfusion",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/combat-transfusion.webp"
       }
     }
   },

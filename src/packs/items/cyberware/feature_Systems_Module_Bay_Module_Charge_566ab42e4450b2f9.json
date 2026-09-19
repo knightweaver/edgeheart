@@ -1,7 +1,7 @@
 {
   "name": "Systems Module Bay - Module Charge",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/systems-module-bay-module-charge.webp",
   "system": {
     "description": "<p>Cyber Cost: 2</p><p>When you roll with Hope using a Systems card or action involving devicess, gain 1 Module Charge, max 2. Spend 1 Charge to add +1d6 to a roll involving devices. Spend 2 Charges to also repair, disable, connect, or modify one Close device after the action resolves.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Systems Module Bay - Module Charge",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/systems-module-bay-module-charge.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:systems-module-bay-module-charge",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/systems-module-bay-module-charge.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Vital Beacon",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/vital-beacon.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Far range.<br>On a success, spend a Hope to tag<br>them with a vital scanner, surgical<br>laser, bioelectrical flare, or diagnostic<br>tracer, dealing d8+2 techno damage<br>using your Proficiency.<br>The target becomes temporarily<br>Vulnerable and remains visibly marked<br>until this condition is cleared.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Vital Beacon",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/vital-beacon.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:vital-beacon",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/vital-beacon.webp"
       }
     }
   },

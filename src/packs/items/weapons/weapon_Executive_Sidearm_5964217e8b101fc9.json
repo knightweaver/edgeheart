@@ -1,7 +1,7 @@
 {
   "name": "Executive Sidearm",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/executive-sidearm.webp",
   "system": {
     "description": "<p>Reliable: +1 to attack rolls.</p>",
     "tier": 4,
@@ -10,7 +10,7 @@
     "burden": "oneHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/executive-sidearm.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "far",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Reliable",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/executive-sidearm.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:executive-sidearm",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/executive-sidearm.webp"
       }
     }
   },

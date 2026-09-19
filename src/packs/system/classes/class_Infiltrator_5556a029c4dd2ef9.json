@@ -1,7 +1,7 @@
 {
   "name": "Infiltrator",
   "type": "class",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/classes/infiltrator.webp",
   "system": {
     "description": "<p>Other mercenaries can hide, sneak, or bypass security. Infiltrators turn those moments into a profession. They feel the exact second when a target becomes vulnerable.</p>",
     "domains": [
@@ -46,7 +46,10 @@
         "resolvedDomains": [
           "ghost"
         ],
-        "domainRegistrationPending": true
+        "domainRegistrationPending": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/classes/infiltrator.webp"
       }
     }
   },

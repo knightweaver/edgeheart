@@ -1,7 +1,7 @@
 {
   "name": "Emergency Procedure",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/emergency-procedure.webp",
   "system": {
     "description": "<p>Make an Interface Roll (13) and target a<br>creature other than yourself within<br>Melee range.<br>On a success, mark a Stress to clear 2<br>HP or 2 Stress on the target. On a<br>failure, mark a Stress to clear a HP ora<br>Stress on the target.<br>You can’t heal the same target with<br>Emergency Procedure again until your</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Emergency Procedure",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/emergency-procedure.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:emergency-procedure",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/emergency-procedure.webp"
       }
     }
   },

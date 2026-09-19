@@ -1,7 +1,7 @@
 {
   "name": "Tracewalk",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/tracewalk.webp",
   "system": {
     "description": "<p>Whenever you deal techno damage to a<br>target, you can mark a Stress to<br>immediately follow the trace and move<br>into Melee range with that creature.<br>This movement ignores difficult terrain<br>and environmental interference, but it<br>must follow a plausible physical, digital,<br>or tactical route through the scene.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Tracewalk",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/tracewalk.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:tracewalk",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/tracewalk.webp"
       }
     }
   },

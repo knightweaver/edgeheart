@@ -1,7 +1,7 @@
 {
   "name": "Kill Mode",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/kill-mode.webp",
   "system": {
     "description": "<p>Once per long rest, you can enter Kill<br>Mode until there are no more<br>adversaries within sight.<br>While in Kill Mode, you can’t use Armor<br>Slots, and you gain a +10 bonus to your<br>damage rolls and a +8 bonus to your<br>Severe damage threshold.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Kill Mode",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/kill-mode.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:kill-mode",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/kill-mode.webp"
       }
     }
   },

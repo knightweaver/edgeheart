@@ -1,7 +1,7 @@
 {
   "name": "Total Blackout",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/total-blackout.webp",
   "system": {
     "description": "<p>Make an Interface Roll (16). Once per<br>long rest on a success, plunge the<br>entire area within Far range into<br>complete darkness, signal blackout,<br>smoke saturation, sensor denial, or<br>light-eating interference that only you<br>and your allies can see through.<br>Attack rolls have disadvantage when<br>targeting you or an ally within this<br>blackout.<br>Additionally, when you or an ally<br>succeeds with Hope against an<br>adversary within this blackout, the<br>target must mark a Stress.<br>This protocol lasts until the GM spends<br>a Fear on their turn to clear this effect<br>or you take Severe damage.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Total Blackout",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/total-blackout.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:total-blackout",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/total-blackout.webp"
       }
     }
   },

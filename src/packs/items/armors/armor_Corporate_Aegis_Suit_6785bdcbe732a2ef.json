@@ -1,7 +1,7 @@
 {
   "name": "Corporate Aegis Suit",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/edgeheart/assets/icons/armors/corporate-aegis-suit.webp",
   "system": {
     "description": "<p>Executive Defense: Once per rest, when you roll with Fear on a Reaction Roll, you can change it to a roll with Hope.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Executive Defense",
-        "img": "icons/svg/shield.svg",
+        "img": "modules/edgeheart/assets/icons/armors/corporate-aegis-suit.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -74,7 +74,10 @@
       "deployment": {
         "logicalKey": "armor:corporate-aegis-suit",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/armors/corporate-aegis-suit.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Ghost-Synced",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/ghost-synced.webp",
   "system": {
     "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Ghost<br>Competency, gain the following:<br>• Once per rest, when you have 0<br>Hope and the GM would gain a Fear,<br>you can gain a Hope instead.<br>• When you make a successful attack,<br>you can mark a Stress to add the<br>result of your Fear Die to your<br>damage roll.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Ghost-Synced",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/ghost-synced.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:ghost-synced",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/ghost-synced.webp"
       }
     }
   },

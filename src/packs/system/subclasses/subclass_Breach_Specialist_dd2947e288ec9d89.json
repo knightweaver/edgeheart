@@ -1,7 +1,7 @@
 {
   "name": "Breach Specialist",
   "type": "subclass",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/subclasses/breach-specialist.webp",
   "system": {
     "description": "<p>Play as a Breach Specialist if you want to weaponize intrusion, break enemy systems, crash defenses, and turn networks into attack vectors.</p>",
     "spellcastingTrait": "knowledge",
@@ -40,7 +40,10 @@
       "deployment": {
         "logicalKey": "subclass:breach-specialist",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/subclasses/breach-specialist.webp"
       }
     }
   },

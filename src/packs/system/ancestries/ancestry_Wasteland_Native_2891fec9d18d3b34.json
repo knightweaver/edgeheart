@@ -1,7 +1,7 @@
 {
   "name": "Wasteland Native",
   "type": "ancestry",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/life-paths/wasteland-native.webp",
   "system": {
     "description": "<p>You come from a dead zone or place the city pretends does not exist. You know that survival is not luck. It is attention.</p><h4>LIFE PATH FEATURES</h4><p><em><strong>Hazard-Bred:</strong></em> You can breathe, move, and act naturally in smoke, ash, dust, polluted air, shallow water, heavy rain, toxic stink, or unstable terrain unless it is immediately lethal.</p><p><em><strong>Hard as Nails:</strong></em> Gain a bonus to your damage thresholds equal to your Proficiency.</p>",
     "features": [
@@ -33,7 +33,10 @@
       "deployment": {
         "logicalKey": "ancestry:wasteland-native",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/life-paths/wasteland-native.webp"
       }
     }
   },

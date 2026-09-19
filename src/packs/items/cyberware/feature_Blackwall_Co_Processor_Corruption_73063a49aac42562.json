@@ -1,7 +1,7 @@
 {
   "name": "Blackwall Co-Processor - Corruption",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/blackwall-co-processor-corruption.webp",
   "system": {
     "description": "<p>Cyber Cost: 4</p><p>Gain Full Access to Blackwall. When you roll with Fear using a Blackwall card, gain 1 Corruption, max 3. Before a Blackwall roll, spend any Corruption to roll that many d6s and add them to the roll. If you spend 3 Corruption and succeed, one affected target marks 1 Stress, becomes temporarily Degraded, and can’t benefit from connected systems while Degraded. Then mark a Stress and the GM gains a Fear.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Blackwall Co-Processor - Corruption",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/blackwall-co-processor-corruption.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -64,7 +64,10 @@
       "deployment": {
         "logicalKey": "cyberware:blackwall-co-processor-corruption",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/blackwall-co-processor-corruption.webp"
       }
     }
   },

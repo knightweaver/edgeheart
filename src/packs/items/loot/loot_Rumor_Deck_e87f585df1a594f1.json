@@ -1,7 +1,7 @@
 {
   "name": "Rumor Deck",
   "type": "loot",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/loot/rumor-deck.webp",
   "system": {
     "description": "<p>Once per rest, when you enter a bar, market, clinic, garage, hideout, or station, ask the GM what rumor everyone here is avoiding saying out loud.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Rumor Deck",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/loot/rumor-deck.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -57,7 +57,10 @@
       "deployment": {
         "logicalKey": "loot:rumor-deck",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/loot/rumor-deck.webp"
       }
     }
   },

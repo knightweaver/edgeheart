@@ -1,7 +1,7 @@
 {
   "name": "Military Rifle",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/military-rifle.webp",
   "system": {
     "description": "<p>Aim Down: Mark a Stress to attack a target up to Very Far range with advantage.</p>",
     "tier": 2,
@@ -10,7 +10,7 @@
     "burden": "twoHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/military-rifle.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "far",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Aim Down",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/military-rifle.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:military-rifle",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/military-rifle.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Perfected Pain Editor",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/perfected-pain-editor.webp",
   "system": {
     "description": "<p>Cyber Cost: 3</p><p>Gain two additional Stress slots. Once per long rest, when you would mark Stress, you can instead clear it.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Perfected Pain Editor",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/perfected-pain-editor.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:perfected-pain-editor",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/perfected-pain-editor.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Cortical Splinter",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/cortical-splinter.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a<br>creature within Very Far range.<br>On a success, mark a HP to deploy a<br>cortical splinter, neural spyware,<br>biochip packet, or pain-loop signal that<br>burrows into the target’s system.<br>On a success with Hope, the target<br>isn’t aware of the splinter.<br>You have advantage on Presence Rolls<br>against the target, and whenever they<br>make a roll, you can spend a Hope to<br>give the roll disadvantage.<br>You can destroy the splinter to cause<br>the target to mark a HP.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Cortical Splinter",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/cortical-splinter.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:cortical-splinter",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/cortical-splinter.webp"
       }
     }
   },

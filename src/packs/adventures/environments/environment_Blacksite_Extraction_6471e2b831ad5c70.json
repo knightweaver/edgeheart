@@ -1,7 +1,7 @@
 {
   "name": "Blacksite Extraction",
   "type": "environment",
-  "img": "icons/svg/door-exit.svg",
+  "img": "modules/edgeheart/assets/icons/environments/blacksite-extraction.webp",
   "system": {
     "description": "A hidden corporate facility where the objective is alive, unstable, and probably not human anymore.",
     "tier": 3,
@@ -118,7 +118,10 @@
       "deployment": {
         "logicalKey": "environment:blacksite-extraction",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/environments/blacksite-extraction.webp"
       }
     }
   },

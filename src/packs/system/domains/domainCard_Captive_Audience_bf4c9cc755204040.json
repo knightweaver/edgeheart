@@ -1,7 +1,7 @@
 {
   "name": "Captive Audience",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/captive-audience.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Close range. On a success, they<br>become temporarily Captivated. While<br>Captivated, a target’s attention is fixed<br>on you, narrowing their field of view<br>and drowning out any sound but your<br>voice, broadcast, performance, or<br>projection.<br>Once per rest on a success, you can<br>mark a Stress to force the Captivated<br>target to mark a Stress as well.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Captive Audience",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/captive-audience.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:captive-audience",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/captive-audience.webp"
       }
     }
   },

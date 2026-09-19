@@ -1,7 +1,7 @@
 {
   "name": "Corrupted Shell",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/corrupted-shell.webp",
   "system": {
     "description": "<p>You allow the Blackwall to partially<br>rewrite your body, armor, implants, and<br>nervous system.<br>While this card is active in your<br>loadout:<br>For every 2 Stress you have marked,<br>increase your thresholds by +1.<br>• Whenever you succeed with Fear on<br>an action roll, you can spend a Hope<br>to clear an Armor Slot.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Corrupted Shell",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/corrupted-shell.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:corrupted-shell",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/corrupted-shell.webp"
       }
     }
   },

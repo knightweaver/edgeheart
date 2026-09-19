@@ -1,7 +1,7 @@
 {
   "name": "Zone Suppression Array",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/zone-suppression-array.webp",
   "system": {
     "description": "<p>Choose one of the following<br>suppression modes and make an<br>Interface Roll against all targets within<br>Far range. Targets you succeed against<br>experience its effects until the GM<br>spends a Fear on their turn to end this<br>protocol.<br>1- Cryofoam Flood: You rupture cryo-<br>canisters, coolant lines, or emergency<br>suppression tanks across the zone.<br>Deal 2d20+8 techno damage and<br>targets are temporarily Vulnerable.<br>2- Vector Fan Grid: You activate<br>industrial fans, turbine drones,<br>pressure vents, traffic barriers, or<br>directional force engines. Deal 3d10+10<br>techno damage and choose a direction<br>the pressure is moving. Targets can’t<br>move against that direction.<br>3- Chaffstorm Screen: You flood the<br>zone with dust, chaff, smoke, scrap<br>particles, sensor noise, and hostile<br>visibility interference. Deal 5d6+9<br>techno damage. Attacks made from<br>beyond Melee range have<br>disadvantage.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Zone Suppression Array",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/zone-suppression-array.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:zone-suppression-array",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/zone-suppression-array.webp"
       }
     }
   },

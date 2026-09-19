@@ -1,7 +1,7 @@
 {
   "name": "Anti-Toxin Cartridge",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/consumables/anti-toxin-cartridge.webp",
   "system": {
     "description": "<p>Immediately clear poison, contamination, chemical exposure, or a similar temporary condition.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Anti-Toxin Cartridge",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/consumables/anti-toxin-cartridge.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -58,7 +58,10 @@
       "deployment": {
         "logicalKey": "consumable:anti-toxin-cartridge",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/consumables/anti-toxin-cartridge.webp"
       }
     }
   },

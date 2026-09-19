@@ -1,7 +1,7 @@
 {
   "name": "Impact Reducer",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/impact-reducer.webp",
   "system": {
     "description": "<p>Mark a Stress to deploy a protective<br>aura on a target within Close range,<br>such as emergency plating, pain<br>suppression, or nanite reinforcement.<br>When the target marks an Armor Slot,<br>they reduce the severity by an extra<br>threshold. If this protocol causes a<br>creature who would be damaged to<br>instead mark no HP, the effect ends.<br>You can only hold Impact Reducer on<br>one creature at a time.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Impact Reducer",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/impact-reducer.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:impact-reducer",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/impact-reducer.webp"
       }
     }
   },

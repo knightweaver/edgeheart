@@ -1,7 +1,7 @@
 {
   "name": "*Exota Fabrication Suite",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/exota-fabrication-suite.webp",
   "system": {
     "description": "<p>Repudiate: You can interrupt a<br>technological, digital, or techno effect<br>taking place. Make a Reaction Roll<br>using your Interface trait. Once per rest<br>on a success, the effect stops and any<br>consequences are avoided.<br>Deploy Construct: Spend a Hope to<br>deploy an animated construct, drone<br>cluster, jury-rigged machine, or<br>autonomous hardware unit from them<br>that obeys basic commands. Make an<br>Interface Roll to command them to<br>take action. When necessary, they<br>share your Evasion and traits, and their<br>attacks deal 2d10+3 physical damage.<br>You can only maintain one construct at<br>a time, and they fall apart when they<br>take any amount of damage.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "*Exota Fabrication Suite",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/exota-fabrication-suite.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:exota-fabrication-suite",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/exota-fabrication-suite.webp"
       }
     }
   },

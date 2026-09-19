@@ -1,7 +1,7 @@
 {
   "name": "Holo-Reactive Mantle",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/edgeheart/assets/icons/armors/holo-reactive-mantle.webp",
   "system": {
     "description": "<p>Shifting: When you are targeted by an attack, mark an Armor Slot to give the attack roll disadvantage.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Shifting",
-        "img": "icons/svg/shield.svg",
+        "img": "modules/edgeheart/assets/icons/armors/holo-reactive-mantle.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -74,7 +74,10 @@
       "deployment": {
         "logicalKey": "armor:holo-reactive-mantle",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/armors/holo-reactive-mantle.webp"
       }
     }
   },

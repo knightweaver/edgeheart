@@ -1,7 +1,7 @@
 {
   "name": "Drain Signal",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/drain-signal.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, once<br>per short rest, the target takes d8<br>techno damage using your Proficiency<br>and you clear 2 HP. On a success with<br>Fear, you clear 3 HP instead.<br>This might look like draining power,<br>stealing biofeedback, siphoning<br>processor load, feeding on neural<br>panic, or letting a daemon extract<br>something useful from the target.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Drain Signal",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/drain-signal.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:drain-signal",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/drain-signal.webp"
       }
     }
   },

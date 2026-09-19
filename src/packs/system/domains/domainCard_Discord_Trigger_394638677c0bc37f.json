@@ -1,7 +1,7 @@
 {
   "name": "Discord Trigger",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/discord-trigger.webp",
   "system": {
     "description": "<p>Whisper words of discord, transmit a<br>false order, exploit a rivalry, or trigger a<br>behavioral command in an adversary<br>within Melee range and make an<br>Interface Roll (13).<br>On a success, the target must mark a<br>Stress and make an attack against<br>another adversary instead of against<br>you or your allies.<br>Once this attack is over, the target<br>realizes what happened. The next time<br>you run Discord Trigger on them, gain a<br>-5 penalty to the Interface Roll.<br>ee ae</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Discord Trigger",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/discord-trigger.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:discord-trigger",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/discord-trigger.webp"
       }
     }
   },

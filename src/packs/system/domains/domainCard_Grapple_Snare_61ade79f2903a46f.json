@@ -1,7 +1,7 @@
 {
   "name": "Grapple Snare",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/grapple-snare.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Close range and choose one:<br>1- You pull the target into Melee range<br>or pull yourself into Melee range of it.<br>2- You constrict the target and force<br>them to mark 2 Stress.<br>3- All adversaries between you and the<br>target must succeed on a Reaction Roll<br>(13) or be caught by cables taking<br>3d6+2 physical damage.<br>On a success, the snare reaches out<br>from your hands, gear, vehicle, or<br>drone, causing the chosen effect and<br>temporarily Restraining the target.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Grapple Snare",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/grapple-snare.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:grapple-snare",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/grapple-snare.webp"
       }
     }
   },

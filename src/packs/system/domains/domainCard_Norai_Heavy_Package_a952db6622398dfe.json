@@ -1,7 +1,7 @@
 {
   "name": "*Norai Heavy Package",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/norai-heavy-package.webp",
   "system": {
     "description": "<p>Tether Clamp: Make an Interface Roll<br>against a target within Far range. Ona<br>success, they’re temporarily Restrained<br>and must mark a Stress. If you target a<br>flying creature, this protocol grounds<br>and temporarily Restrains them.<br>Firebomb: Make an Interface Roll<br>against a target within Very Far range.<br>On a success, launch an explosive<br>payload, plasma charge, volatile shell,<br>or drone-delivered bomb toward them<br>that explodes on impact. The target<br>and all creatures within Very Close<br>range of them must make a Reaction<br>Roll (13). Targets who fail take d20+5<br>techno damage using your Proficiency.<br>Targets who succeed take half damage.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "*Norai Heavy Package",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/norai-heavy-package.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:norai-heavy-package",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/norai-heavy-package.webp"
       }
     }
   },

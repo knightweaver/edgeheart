@@ -1,7 +1,7 @@
 {
   "name": "Digital Ghost Cathedral",
   "type": "environment",
-  "img": "icons/svg/door-exit.svg",
+  "img": "modules/edgeheart/assets/icons/environments/digital-ghost-cathedral.webp",
   "system": {
     "description": "A ruined data center where corrupted AI speak through prayer loops, broken ads, and dead family photos.",
     "tier": 3,
@@ -141,7 +141,10 @@
       "deployment": {
         "logicalKey": "environment:digital-ghost-cathedral",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/environments/digital-ghost-cathedral.webp"
       }
     }
   },

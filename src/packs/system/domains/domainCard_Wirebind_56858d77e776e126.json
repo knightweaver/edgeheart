@@ -1,7 +1,7 @@
 {
   "name": "Wirebind",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/wirebind.webp",
   "system": {
     "description": "<p>Make an Interface Roll against all<br>adversaries within Very Close range.<br>Targets you succeed against are<br>temporarily Restrained by snare wire,<br>smart restraints, adhesive gel, or<br>hijacked security systems.<br>a —</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Wirebind",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/wirebind.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:wirebind",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/wirebind.webp"
       }
     }
   },

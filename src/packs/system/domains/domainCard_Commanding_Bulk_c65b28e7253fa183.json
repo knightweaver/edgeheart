@@ -1,7 +1,7 @@
 {
   "name": "Commanding Bulk",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/commanding-bulk.webp",
   "system": {
     "description": "<p>When you make a Presence Roll, you<br>can spend a Hope to add your Strength<br>to the roll.<br>Additionally, once per rest when you<br>would gain a condition, you can<br>describe how your armored presence,<br>combat discipline, sheer mass, or<br>defensive posture helps you endure it<br>and avoid gaining the condition.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Commanding Bulk",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/commanding-bulk.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:commanding-bulk",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/commanding-bulk.webp"
       }
     }
   },

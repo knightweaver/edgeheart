@@ -1,7 +1,7 @@
 {
   "name": "Personal Firewall",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/personal-firewall.webp",
   "system": {
     "description": "<p>You have a encrypted device that can<br>be loaded with a defensive firewall and<br>held by you or an ally. Describe what it<br>is and why it matters to you.<br>The firewall’s holder can spend a Hope<br>to reduce incoming techno damage by<br>1d12. If the Firewall Die result is 12, the<br>firewall burns out after it reduces<br>damage this turn. It can be recharged<br>for free on your next rest.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Personal Firewall",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/personal-firewall.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:personal-firewall",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/personal-firewall.webp"
       }
     }
   },

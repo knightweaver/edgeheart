@@ -1,7 +1,7 @@
 {
   "name": "Feedback Charge",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/feedback-charge.webp",
   "system": {
     "description": "<p>When you take techno damage, place<br>tokens on this card equal to the<br>number of Hit Points you marked.<br>You can store a number of tokens equal<br>to your Interface trait.<br>When you make a successful attack<br>against a target, you can spend any<br>number of tokens to add a d6 for each<br>token spent to your damage roll.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Feedback Charge",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/feedback-charge.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:feedback-charge",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/feedback-charge.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Viral Cascade",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/viral-cascade.webp",
   "system": {
     "description": "<p>Mark 2 Stress to make an Interface<br>Roll, unleashing a self-replicating<br>attack on all targets within Close range.<br>Targets you succeed against must<br>make a Reaction Roll with a Difficulty<br>equal to the result of your Interface<br>Roll. Targets who fail take 2d8+4<br>techno damage.<br>Additional adversaries not already<br>targeted by Viral Cascade and within<br>Close range of previous targets who<br>took damage must also make the<br>Reaction Roll. Targets who fail take<br>2d8+4 techno damage. This chain<br>continues until there are no more<br>adversaries within range.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Viral Cascade",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/viral-cascade.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:viral-cascade",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/viral-cascade.webp"
       }
     }
   },

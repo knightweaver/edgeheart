@@ -1,7 +1,7 @@
 {
   "name": "Clone Reflex Loop",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/clone-reflex-loop.webp",
   "system": {
     "description": "<p>Cyber Cost: 3</p><p>Once per rest, when you roll with Hope on an attack, you can repeat the attack against another target within range for half damage.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Clone Reflex Loop",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/clone-reflex-loop.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:clone-reflex-loop",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/clone-reflex-loop.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Signal Rebound",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/signal-rebound.webp",
   "system": {
     "description": "<p>When you would take techno damage,<br>you can spend any number of Hope to<br>roll that many d6s.<br>If any roll a 6, the attack is reflected<br>back to the attacker, dealing the<br>damage to them instead.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Signal Rebound",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/signal-rebound.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:signal-rebound",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/signal-rebound.webp"
       }
     }
   },

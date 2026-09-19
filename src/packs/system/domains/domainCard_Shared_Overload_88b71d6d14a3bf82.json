@@ -1,7 +1,7 @@
 {
   "name": "Shared Overload",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/shared-overload.webp",
   "system": {
     "description": "<p>Spend a Hope to allow you and a willing<br>ally within Far range to redistribute<br>marked HP between the two of you.<br>This might look like linked trauma<br>pumps, shared pain editors, emergency<br>blood exchange, synchronized life-<br>support, mirrored cyberware stress, or<br>a dangerous neural bridge that spreads<br>the damage across two unstable<br>systems.<br>You can’t target that ally again with<br>Shared Overload until you finish a rest.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Shared Overload",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/shared-overload.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:shared-overload",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/shared-overload.webp"
       }
     }
   },

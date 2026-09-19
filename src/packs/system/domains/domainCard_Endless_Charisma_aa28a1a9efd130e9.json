@@ -1,7 +1,7 @@
 {
   "name": "Endless Charisma",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/endless-charisma.webp",
   "system": {
     "description": "<p>After you make an action roll to<br>persuade, lie, negotiate, perform,<br>command, manipulate, or garner favor,<br>you can spend a Hope to reroll the<br>Hope or Fear Die.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Endless Charisma",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/endless-charisma.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:endless-charisma",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/endless-charisma.webp"
       }
     }
   },

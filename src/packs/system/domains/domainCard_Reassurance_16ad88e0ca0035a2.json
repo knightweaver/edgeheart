@@ -1,7 +1,7 @@
 {
   "name": "Reassurance",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/reassurance.webp",
   "system": {
     "description": "<p>Once per rest, after an ally attempts an<br>action roll but before the consequences<br>take place, you can offer guidance,<br>calm their breathing, trigger a<br>stabilizer, shout a practiced command,<br>or talk them through shock. When you<br>do, your ally can reroll their dice.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Reassurance",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/reassurance.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:reassurance",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/reassurance.webp"
       }
     }
   },

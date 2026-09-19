@@ -1,7 +1,7 @@
 {
   "name": "Field Patch",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/field-patch.webp",
   "system": {
     "description": "<p>When you can take a few minutes to<br>focus on a creature you&#x27;re helping,<br>spend 2 Hope to use trauma foam,<br>sutures, nanite gel, pain blockers,<br>therapy software, or emergency<br>stabilizers to clear a HP or a Stress.<br>Once per long rest, when you spend<br>this time learning something new<br>about them or revealing something<br>about yourself, you can clear 2 HP or 2<br>Stress on them instead.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Field Patch",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/field-patch.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:field-patch",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/field-patch.webp"
       }
     }
   },

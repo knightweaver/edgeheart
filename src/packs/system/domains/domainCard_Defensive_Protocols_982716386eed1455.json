@@ -1,7 +1,7 @@
 {
   "name": "Defensive Protocols",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/defensive-protocols.webp",
   "system": {
     "description": "<p>Arc-Deflection: Once per long rest,<br>spend a Hope to negate the damage of<br>an attack targeting you or an ally within<br>Very Close range.<br>Routine Lock: Target a object within Far<br>range. That object’s operating routine<br>is interrupted exactly where it is until<br>your next rest. If a creature tries to<br>reactivate it, make an Interface Roll<br>against them to maintain this protocol.<br>Fire-Wall: Make an Interface Roll (15).<br>On a success, create a wall of hostile<br>signal, burning plasma, hard-light code,<br>or automated suppression between<br>two points within Far range. All<br>creatures in its path must choose a<br>side to be on, and anything that<br>subsequently passes through the wall<br>takes 4d10+3 techno damage.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Defensive Protocols",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/defensive-protocols.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:defensive-protocols",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/defensive-protocols.webp"
       }
     }
   },

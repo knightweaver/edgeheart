@@ -1,7 +1,7 @@
 {
   "name": "Talk To Me",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/talk-to-me.webp",
   "system": {
     "description": "<p>Once per rest, take on the Stress from<br>a willing creature within Melee range.<br>The target describes what intimate<br>knowledge, emotional static, personal<br>fear, or private memory leaks from<br>their mind in this moment between<br>you.<br>Transfer any number of their marked<br>Stress to you, then gain a Hope for<br>each Stress transferred.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Talk To Me",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/talk-to-me.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:talk-to-me",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/talk-to-me.webp"
       }
     }
   },

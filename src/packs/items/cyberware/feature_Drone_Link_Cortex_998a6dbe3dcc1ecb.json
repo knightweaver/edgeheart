@@ -1,7 +1,7 @@
 {
   "name": "Drone-Link Cortex",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/drone-link-cortex.webp",
   "system": {
     "description": "<p>Cyber Cost: 2</p><p>Gain Card Access to one Systems card of your level or lower. You can operate simple drones within Far range without using your hands.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Drone-Link Cortex",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/drone-link-cortex.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -65,7 +65,10 @@
       "deployment": {
         "logicalKey": "cyberware:drone-link-cortex",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/drone-link-cortex.webp"
       }
     }
   },

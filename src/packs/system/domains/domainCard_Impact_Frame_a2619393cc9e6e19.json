@@ -1,7 +1,7 @@
 {
   "name": "Impact Frame",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/impact-frame.webp",
   "system": {
     "description": "<p>You use the full force of your body,<br>armor, shield, exo-frame, or reinforced<br>limbs in a fight.<br>On a successful attack using a weapon<br>with a Melee range, gain a bonus to<br>your damage roll equal to your<br>Strength.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Impact Frame",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/impact-frame.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:impact-frame",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/impact-frame.webp"
       }
     }
   },

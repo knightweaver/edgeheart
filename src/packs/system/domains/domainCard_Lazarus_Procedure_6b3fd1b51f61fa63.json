@@ -1,7 +1,7 @@
 {
   "name": "Lazarus Procedure",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/lazarus-procedure.webp",
   "system": {
     "description": "<p>Make an Interface Roll (20) over the<br>body of a creature who died within the<br>current scene.<br>The body must still be mostly<br>recoverable, or there must be an intact<br>brain, neural core, cybernetic backup,<br>or vital implant you can work from.<br>On a success, restore the creature to<br>life using emergency surgery, synthetic<br>organs, neural rebooting, clone tissue,<br>or cybernetic replacement.<br>The restored creature clears all marked<br>HP, then marks 3 Stress. They return<br>alive, conscious, and stable, but<br>physically and psychologically shaken.<br>Until their next long rest, they are<br>temporarily Vulnerable and can’t<br>benefit from Lazarus Procedure again.<br>Then roll a d6. On a result of 5 or lower,<br>place this card in your vault<br>permanently.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Lazarus Procedure",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/lazarus-procedure.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:lazarus-procedure",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/lazarus-procedure.webp"
       }
     }
   },

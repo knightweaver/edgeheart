@@ -1,7 +1,7 @@
 {
   "name": "Combat Scan",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/combat-scan.webp",
   "system": {
     "description": "<p>When observing a creature, you can<br>make an Instinct Roll against them.<br>On a success, spend a Hope and ask<br>the GM for one set of information<br>about the target from the following<br>options:<br>* Their unmarked Hit Points and<br>Stress.<br>* Their Difficulty and damage<br>thresholds.<br>• Their tactics and standard attack<br>damage dice.<br>• Their features and Experiences.<br>Additionally on a success, you can ;<br>mark a Stress to remove a Fear from<br>the GM&#x27;s Fear Pool.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Combat Scan",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/combat-scan.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:combat-scan",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/combat-scan.webp"
       }
     }
   },

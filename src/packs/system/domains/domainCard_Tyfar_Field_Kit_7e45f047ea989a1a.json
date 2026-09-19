@@ -1,7 +1,7 @@
 {
   "name": "*Tyfar Field Kit",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/tyfar-field-kit.webp",
   "system": {
     "description": "<p>Wild Flame: Make an Interface Roll<br>against up to three adversaries within<br>Melee range. Targets you succeed<br>against take 2d6 techno damage and<br>must mark a Stress as a burst of flame,<br>plasma, or volatile chemical spray<br>erupts from your gear.<br>Utility Arm: You deploy a mechanical<br>hand, drone claw, or remote<br>manipulator with the same size and<br>strength as your own within Far range.<br>Smoke Field: Make an Interface Roll<br>(13) to deploy a temporary thick cloud<br>of smoke, fog, signal chaff, or<br>obscuring vapor that gathers ina<br>stationary area within Very Close<br>range. The fog heavily obscures this<br>area and everything in it.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "*Tyfar Field Kit",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/tyfar-field-kit.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:tyfar-field-kit",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/tyfar-field-kit.webp"
       }
     }
   },

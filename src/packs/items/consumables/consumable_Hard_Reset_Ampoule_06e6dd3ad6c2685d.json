@@ -1,7 +1,7 @@
 {
   "name": "Hard Reset Ampoule",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/consumables/hard-reset-ampoule.webp",
   "system": {
     "description": "<p>Clear one temporary physical condition from yourself or a creature within Melee range. The target becomes temporarily Vulnerable until their next action.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Hard Reset Ampoule",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/consumables/hard-reset-ampoule.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -58,7 +58,10 @@
       "deployment": {
         "logicalKey": "consumable:hard-reset-ampoule",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/consumables/hard-reset-ampoule.webp"
       }
     }
   },

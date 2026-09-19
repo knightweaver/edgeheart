@@ -1,7 +1,7 @@
 {
   "name": "Reinforced Combat Armor",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/reinforced-combat-armor.webp",
   "system": {
     "description": "<p>While you are wearing armor, gain a +2<br>bonus to your damage thresholds.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Reinforced Combat Armor",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/reinforced-combat-armor.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:reinforced-combat-armor",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/reinforced-combat-armor.webp"
       }
     }
   },

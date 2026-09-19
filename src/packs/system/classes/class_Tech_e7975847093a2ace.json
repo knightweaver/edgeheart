@@ -1,7 +1,7 @@
 {
   "name": "Tech",
   "type": "class",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/classes/tech.webp",
   "system": {
     "description": "<p>Techs are problem solvers who understand that every machine has a way to break, bend, or become useful. They make impossible plans work just long enough to matter.</p>",
     "domains": [
@@ -46,7 +46,10 @@
         "resolvedDomains": [
           "systems"
         ],
-        "domainRegistrationPending": true
+        "domainRegistrationPending": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/classes/tech.webp"
       }
     }
   },

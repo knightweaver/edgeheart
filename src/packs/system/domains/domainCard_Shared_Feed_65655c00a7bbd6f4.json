@@ -1,7 +1,7 @@
 {
   "name": "Shared Feed",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/shared-feed.webp",
   "system": {
     "description": "<p>When you Help an Ally, they can spend<br>a Hope to add one of your Experiences<br>to their roll alongside your advantage<br>die. Ez<br>When making a Tag Team Roll, you can<br>roll a d20 as your Hope Die.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Shared Feed",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/shared-feed.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:shared-feed",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/shared-feed.webp"
       }
     }
   },

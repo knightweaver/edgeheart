@@ -1,7 +1,7 @@
 {
   "name": "Low-Sec Data Office",
   "type": "environment",
-  "img": "icons/svg/door-exit.svg",
+  "img": "modules/edgeheart/assets/icons/environments/low-sec-data-office.webp",
   "system": {
     "description": "A cheap corporate office full of badge locks, glass walls, tired staff, and too many cameras.",
     "tier": 1,
@@ -117,7 +117,10 @@
       "deployment": {
         "logicalKey": "environment:low-sec-data-office",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/environments/low-sec-data-office.webp"
       }
     }
   },

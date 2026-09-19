@@ -1,7 +1,7 @@
 {
   "name": "Last-Chance Auto-Injector",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/last-chance-auto-injector.webp",
   "system": {
     "description": "<p>Cyber Cost: 2</p><p>Once per long rest, when you mark your last Hit Point and would make a Death Move, take the Avoid Death Death Move. You fall unconscious, can’t move, act, or be targeted by attacks, and wake when an ally clears 1 or more of your marked Hit Points or when the party finishes a long rest. When you wake, roll your Hope Die. If the result is equal to or lower than your level, you gain a Scar.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Last-Chance Auto-Injector",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/last-chance-auto-injector.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:last-chance-auto-injector",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/last-chance-auto-injector.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Luxurious Coat",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/edgeheart/assets/icons/armors/luxurious-coat.webp",
   "system": {
     "description": "<p>First Impression: Once per scene, choose one creature. They must treat you as important, dangerous, wealthy, or worth listening to until proven otherwise.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "First Impression",
-        "img": "icons/svg/shield.svg",
+        "img": "modules/edgeheart/assets/icons/armors/luxurious-coat.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -74,7 +74,10 @@
       "deployment": {
         "logicalKey": "armor:luxurious-coat",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/armors/luxurious-coat.webp"
       }
     }
   },

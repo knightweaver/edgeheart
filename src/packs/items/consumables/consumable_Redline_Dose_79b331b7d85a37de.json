@@ -1,7 +1,7 @@
 {
   "name": "Redline Dose",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/consumables/redline-dose.webp",
   "system": {
     "description": "<p>Add +1 Proficiency to your next damage roll. After the attack resolves, roll your Humanity Die. If the result is below your Cyber Load, mark 1 Stress.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Redline Dose",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/consumables/redline-dose.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -58,7 +58,10 @@
       "deployment": {
         "logicalKey": "consumable:redline-dose",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/consumables/redline-dose.webp"
       }
     }
   },

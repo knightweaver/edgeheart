@@ -1,7 +1,7 @@
 {
   "name": "Stun Dart",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/stun-dart.webp",
   "system": {
     "description": "<p>Sedative: On Major damage, the target has disadvantage on their next action roll.</p>",
     "tier": 1,
@@ -10,7 +10,7 @@
     "burden": "oneHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/stun-dart.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "far",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Sedative",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/stun-dart.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:stun-dart",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/stun-dart.webp"
       }
     }
   },

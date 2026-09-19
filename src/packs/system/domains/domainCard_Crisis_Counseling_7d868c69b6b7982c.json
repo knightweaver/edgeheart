@@ -1,7 +1,7 @@
 {
   "name": "Crisis Counseling",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/crisis-counseling.webp",
   "system": {
     "description": "<p>, During a short rest, when you take the<br>time to comfort, stabilize, coach, or<br>emotionally support another character<br>while using the Tend to Wounds<br>downtime move on them, clear an<br>additional Hit Point on that character.<br>When you do, you also clear 2 Hit<br>Points.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Crisis Counseling",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/crisis-counseling.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:crisis-counseling",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/crisis-counseling.webp"
       }
     }
   },

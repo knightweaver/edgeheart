@@ -1,7 +1,7 @@
 {
   "name": "Rejuvenation Barrier",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/rejuvenation-barrier.webp",
   "system": {
     "description": "<p>Make an Interface Roll (15). Once per<br>rest on a success, create a temporary<br>barrier of mobile life-support shielding<br>around you at Close range.<br>You and allies within the barrier when<br>this protocol is activated clear 1d4 HP.<br>While the barrier is active, you and<br>allies within it have resistance to<br>physical damage from outside the<br>barrier. When you move, the barrier<br>follows you.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Rejuvenation Barrier",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/rejuvenation-barrier.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:rejuvenation-barrier",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/rejuvenation-barrier.webp"
       }
     }
   },

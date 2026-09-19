@@ -1,7 +1,7 @@
 {
   "name": "Retaliation Daemon",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/retaliation-daemon.webp",
   "system": {
     "description": "<p>Mark an adversary within Close range<br>with a daemon. The GM gains a Fear.<br>When the marked adversary deals<br>damage to you or your allies, place a d8<br>on this card. You can hold a number of<br>d8s equal to your level.<br>When you hit the marked adversary,<br>roll the dice on this card and add it to<br>your damage roll, then clear the dice.<br>This effect ends when the marked<br>adversary is defeated or you run<br>Retaliation Daemon again.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Retaliation Daemon",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/retaliation-daemon.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:retaliation-daemon",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/retaliation-daemon.webp"
       }
     }
   },

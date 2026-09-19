@@ -1,7 +1,7 @@
 {
   "name": "Throwing Blades",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/throwing-blades.webp",
   "system": {
     "description": "<p>Spend a Hope to make an Interface<br>Roll and release a burst of throwing<br>blades, microdrones, or suppressed<br>smart-shards that strike out at all<br>targets within Very Close range.<br>Targets you hit take d8+2 physical<br>damage using your Proficiency. If a<br>target you hit is Vulnerable, they take<br>an extra 1d8 damage.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Throwing Blades",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/throwing-blades.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:throwing-blades",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/throwing-blades.webp"
       }
     }
   },

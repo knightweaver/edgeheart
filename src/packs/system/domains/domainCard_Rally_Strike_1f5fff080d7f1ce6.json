@@ -1,7 +1,7 @@
 {
   "name": "Rally Strike",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/rally-strike.webp",
   "system": {
     "description": "<p>Once per rest, when you critically<br>succeed on an attack, you and all allies<br>who can see or hear you can clear a Hit<br>Point or 1d4 Stress.<br>This might look like a shouted<br>command, a decisive opening, or a<br>moment where your allies see that the<br>line is still holding.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Rally Strike",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/rally-strike.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:rally-strike",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/rally-strike.webp"
       }
     }
   },

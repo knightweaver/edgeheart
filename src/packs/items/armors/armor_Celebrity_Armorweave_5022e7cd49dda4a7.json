@@ -1,7 +1,7 @@
 {
   "name": "Celebrity Armorweave",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/edgeheart/assets/icons/armors/celebrity-armorweave.webp",
   "system": {
     "description": "<p>Spotlight Altar: Once per scene, you can make yourself the center of attention. Until your next Spotlight, allies have advantage on rolls to hide, escape, or act unnoticed.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Spotlight Altar",
-        "img": "icons/svg/shield.svg",
+        "img": "modules/edgeheart/assets/icons/armors/celebrity-armorweave.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -74,7 +74,10 @@
       "deployment": {
         "logicalKey": "armor:celebrity-armorweave",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/armors/celebrity-armorweave.webp"
       }
     }
   },

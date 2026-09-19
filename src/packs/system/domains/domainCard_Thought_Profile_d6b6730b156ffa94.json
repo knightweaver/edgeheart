@@ -1,7 +1,7 @@
 {
   "name": "Thought Profile",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/thought-profile.webp",
   "system": {
     "description": "<p>You can read patterns in others<br>through microexpressions, voice<br>stress, neural leaks, surveillance feeds,<br>or emotional profiling.<br>Spend a Hope to read the vague<br>surface thoughts of a target within Far<br>range. Make an Interface Roll against<br>the target to delve for deeper, more<br>hidden thoughts.<br>On a roll with Fear, the target might, at<br>the GM’s discretion, become aware<br>that you’re reading them.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Thought Profile",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/thought-profile.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:thought-profile",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/thought-profile.webp"
       }
     }
   },

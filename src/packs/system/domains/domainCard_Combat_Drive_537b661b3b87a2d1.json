@@ -1,7 +1,7 @@
 {
   "name": "Combat Drive",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/combat-drive.webp",
   "system": {
     "description": "<p>When you cause an adversary to mark<br>lor more Hit Points, you can spend 2<br>Hope to increase your Evasion by the<br>number of Hit Points they marked.<br>This bonus lasts until after the next<br>attack made against you.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Combat Drive",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/combat-drive.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:combat-drive",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/combat-drive.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Last-Resort Chip",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/last-resort-chip.webp",
   "system": {
     "description": "<p>Mark a Hit Point to create a last-resort<br>chip, emergency override patch,<br>adrenaline key, survival trigger, or<br>illegal biofeedback token powered by<br>your own unstable systems.<br>Whoever carries it gains the following<br>benefit:<br>Whenever the bearer would mark 2<br>or more HP, they can spend a Hope<br>to reduce the HP marked by 1.<br>The chip burns out if you have no HP<br>marked or you use this protocol again.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Last-Resort Chip",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/last-resort-chip.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:last-resort-chip",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/last-resort-chip.webp"
       }
     }
   },

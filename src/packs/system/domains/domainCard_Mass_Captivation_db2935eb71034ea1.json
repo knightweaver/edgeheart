@@ -1,7 +1,7 @@
 {
   "name": "Mass Captivation",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/mass-captivation.webp",
   "system": {
     "description": "<p>Make an Interface Roll against all a<br>targets within Far range.<br>Targets you succeed against become<br>temporarily Captivated. While<br>Captivated, a target’s attention is fixed<br>on you, narrowing their field of view<br>and drowning out any sound but your<br>voice, broadcast, performance, or<br>projection.<br>Mark a Stress to force all Captivated<br>targets to mark a Stress, ending this<br>protocol.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Mass Captivation",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/mass-captivation.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:mass-captivation",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/mass-captivation.webp"
       }
     }
   },

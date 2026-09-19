@@ -1,7 +1,7 @@
 {
   "name": "Shock Palm",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/shock-palm.webp",
   "system": {
     "description": "<p>Cyber Cost: 1</p><p>This implant counts as a Secondary Weapon which is always equipped: Presence, Melee, d6 techno. Jolt: On a roll with Hope, the target marks 1 Stress and becomes Vulnerable.</p>",
     "actions": {
@@ -78,7 +78,7 @@
           "damageMod": "none"
         },
         "name": "Shock Palm",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/shock-palm.webp",
         "range": "melee",
         "baseAction": false,
         "originItem": {
@@ -126,7 +126,10 @@
       "deployment": {
         "logicalKey": "cyberware:shock-palm",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/shock-palm.webp"
       }
     }
   },

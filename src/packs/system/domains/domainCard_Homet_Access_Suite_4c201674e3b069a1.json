@@ -1,7 +1,7 @@
 {
   "name": "Homet Access Suite",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/homet-access-suite.webp",
   "system": {
     "description": "<p>Phase Breach: Make an Interface Roll<br>(13). Once per rest on a success, you<br>and all creatures touching you can pass<br>through a wall or door within Close<br>range by using a phase module,<br>molecular bypass, breach field, or<br>emergency matter-shift route. The<br>effect ends once everyone is on the<br>other side.<br>Blacksite Gate: Make an Interface Roll<br>(14). Once per long rest on a success,<br>open a gateway to a sealed facility,<br>hidden network layer, deep bunker, off-<br>grid safehouse, restricted blacksite, or<br>strange space you&#x27;ve been to before.<br>This gateway lasts until your next rest.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Homet Access Suite",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/homet-access-suite.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:homet-access-suite",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/homet-access-suite.webp"
       }
     }
   },

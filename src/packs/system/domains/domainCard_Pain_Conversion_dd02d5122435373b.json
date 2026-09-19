@@ -1,7 +1,7 @@
 {
   "name": "Pain Conversion",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/pain-conversion.webp",
   "system": {
     "description": "<p>If you have at least one HP marked, you<br>gain a bonus to your damage rolls<br>equal to twice your number of marked<br>HP.<br>Your pain editor, adrenal engine, threat<br>processor, or aggression software<br>converts physical damage into combat<br>output.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Pain Conversion",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/pain-conversion.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:pain-conversion",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/pain-conversion.webp"
       }
     }
   },

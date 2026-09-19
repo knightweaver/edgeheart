@@ -1,7 +1,7 @@
 {
   "name": "Blackwall Emitter",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/blackwall-emitter.webp",
   "system": {
     "description": "<p>Red Static: On a roll with Fear, you may add +1 Proficiency to the damage roll, then mark 1 Stress.</p>",
     "tier": 4,
@@ -10,7 +10,7 @@
     "burden": "twoHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/blackwall-emitter.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "far",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Red Static",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/blackwall-emitter.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:blackwall-emitter",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/blackwall-emitter.webp"
       }
     }
   },

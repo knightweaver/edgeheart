@@ -1,7 +1,7 @@
 {
   "name": "Haunted Subway Node",
   "type": "environment",
-  "img": "icons/svg/door-exit.svg",
+  "img": "modules/edgeheart/assets/icons/environments/haunted-subway-node.webp",
   "system": {
     "description": "An abandoned transit station where screens whisper names and trains arrive from routes that no longer exist.",
     "tier": 2,
@@ -140,7 +140,10 @@
       "deployment": {
         "logicalKey": "environment:haunted-subway-node",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/environments/haunted-subway-node.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Ronin Alteration Suite",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/ronin-alteration-suite.webp",
   "system": {
     "description": "<p>Adaptive Shell: Make an Interface Roll<br>(15). On a success, wrap yourself in<br>adaptive camouflage, smart-material<br>plating, hard-light masking, or a<br>compact disguise shell, transforming<br>into an inanimate object no larger than<br>twice your normal size. You can remain<br>in this shape until you take damage.<br>Permanent Weakpoint: Once per long<br>rest, make an Interface Roll against a<br>target within Close range. Ona<br>success, they become permanently<br>Vulnerable. They can’t clear this<br>condition by any means. i&quot;</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Ronin Alteration Suite",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/ronin-alteration-suite.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:ronin-alteration-suite",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/ronin-alteration-suite.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Splintering Strike",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/splintering-strike.webp",
   "system": {
     "description": "<p>Spend a Hope and make an attack<br>against all adversaries within your<br>weapon&#x27;s range.<br>Once per long rest, on a success<br>against any targets, add up the damage<br>dealt, then redistribute that damage<br>however you wish between the targets<br>you succeeded against.<br>When you deal damage to a target, roll<br>an additional damage die and add its<br>result to the damage you deal to that<br>target.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Splintering Strike",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/splintering-strike.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:splintering-strike",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/splintering-strike.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Interpose",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/interpose.webp",
   "system": {
     "description": "<p>When an ally within Very Close range<br>would take damage, you can mark a<br>Stress to throw yourself into the line of<br>fire, raise a defense, trigger your armor<br>rig, or physically block the attack.<br>You become the target of the attack<br>instead. When you take damage from<br>this attack, you can mark any number<br>of Armor Slots.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Interpose",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/interpose.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:interpose",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/interpose.webp"
       }
     }
   },

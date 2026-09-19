@@ -1,7 +1,7 @@
 {
   "name": "Trauma Lance",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/trauma-lance.webp",
   "system": {
     "description": "<p>Make an Interface Roll (16).<br>On a success, mark any number of<br>Stress to target a line of allies within<br>Far range with surgical drones, trauma<br>foam, life-support pulses, or<br>emergency repair systems.<br>You can clear HP on the targets equal<br>to the number of Stress marked,<br>divided among them however you’d<br>like.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Trauma Lance",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/trauma-lance.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:trauma-lance",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/trauma-lance.webp"
       }
     }
   },

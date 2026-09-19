@@ -1,7 +1,7 @@
 {
   "name": "Studying the Victim",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/studying-the-victim.webp",
   "system": {
     "description": "<p>Choose a target within Far range.<br>When you succeed on an action roll<br>against them that doesn’t result in<br>making a damage roll, place a token on<br>this card.<br>When you deal damage to this target,<br>spend any number of tokens to add a<br>d12 for each token spent to your<br>damage roll.<br>You can only hold Studying the Victim<br>on one creature at a time.<br>When you choose a new target or take<br>a rest, clear all unspent tokens.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Studying the Victim",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/studying-the-victim.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:studying-the-victim",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/studying-the-victim.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Stealth Expertise",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/stealth-expertise.webp",
   "system": {
     "description": "<p>When you roll with Fear while<br>attempting to move unnoticed through<br>a dangerous area, you can mark a<br>Stress to roll with Hope instead.<br>If an ally within Close range is also<br>attempting to move unnoticed and rolls<br>with Fear, you can mark a Stress to<br>change their result to a roll with Hope.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Stealth Expertise",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/stealth-expertise.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:stealth-expertise",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/stealth-expertise.webp"
       }
     }
   },

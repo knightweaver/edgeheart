@@ -1,7 +1,7 @@
 {
   "name": "Cruel Precision",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/cruel-precision.webp",
   "system": {
     "description": "<p>When you make a successful attack<br>with a weapon, gain a bonus to your<br>damage roll equal to either your<br>Finesse or Agility.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Cruel Precision",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/cruel-precision.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:cruel-precision",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/cruel-precision.webp"
       }
     }
   },

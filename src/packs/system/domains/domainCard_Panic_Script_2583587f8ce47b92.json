@@ -1,7 +1,7 @@
 {
   "name": "Panic Script",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/panic-script.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, the<br>target marks 1d4 Stress as you flood<br>their HUD, senses, implants, or<br>systems with corrupted signals.<br>You can choose to make the target run<br>one range away from you. You can also<br>spend a Hope to make the target<br>temporarily Vulnerable.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Panic Script",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/panic-script.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:panic-script",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/panic-script.webp"
       }
     }
   },

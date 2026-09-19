@@ -1,7 +1,7 @@
 {
   "name": "Transcendent Link",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/transcendent-link.webp",
   "system": {
     "description": "<p>Once per long rest, spend 5 Hope to<br>activate this protocol on two or more<br>willing creatures.<br>Until your next rest, when a creature<br>connected by this link would mark<br>Stress or Hit Points, the connected<br>creatures can choose who marks it.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Transcendent Link",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/transcendent-link.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:transcendent-link",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/transcendent-link.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Long-Range Extraction",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/long-range-extraction.webp",
   "system": {
     "description": "<p>Once per long rest, you can instantly<br>extract or displace yourself and any<br>number of willing targets within Close<br>range to a place you&#x27;ve been before —<br>using a recall beacon, displacement rig,<br>or pre-mapped extraction point.<br>Make an Interface Roll (16) with the<br>following modifiers:<br>7 1- If you’re familiar with the place: +3.<br>2- If you visit the place frequently: +1.<br>3- If you’ve visited the place once: +0.<br>4- If you’ve only been there once: -2.<br>On a success, you arrive where you<br>were intending to go. On a failure, you<br>arrive off course, with the range of<br>failure determining how far off course.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Long-Range Extraction",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/long-range-extraction.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:long-range-extraction",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/long-range-extraction.webp"
       }
     }
   },

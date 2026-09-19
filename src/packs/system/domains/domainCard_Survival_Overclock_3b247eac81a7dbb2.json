@@ -1,7 +1,7 @@
 {
   "name": "Survival Overclock",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/survival-overclock.webp",
   "system": {
     "description": "<p>Once per long rest, mark a Stress to<br>activate a survival overclock, pushing<br>your survival gear, reflex software,<br>hazard filters, movement assists,<br>terrain scanners, and emergency<br>stimulants past their safe limits.<br>Describe how you shift into survival<br>mode, then place a d6 on this card with<br>the 1 value facing up. While the<br>Survival Overclock Die is active, you<br>add its value to every action roll you<br>make.<br>After you add its value to a roll,<br>increase the Die’s value by one.<br>When the die’s value would exceed 6 or<br>you take a rest, the overclock burns out<br>and you must mark an additional<br>Stress.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Survival Overclock",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/survival-overclock.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:survival-overclock",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/survival-overclock.webp"
       }
     }
   },

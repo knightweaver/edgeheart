@@ -1,7 +1,7 @@
 {
   "name": "Smart Grenade",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/consumables/smart-grenade.webp",
   "system": {
     "description": "<p>Choose a point within Far range. All adversaries within Very Close range of that point must make a Reaction Roll (14). On a failure, they mark 1 Stress and become temporarily Vulnerable.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Smart Grenade",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/consumables/smart-grenade.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -58,7 +58,10 @@
       "deployment": {
         "logicalKey": "consumable:smart-grenade",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/consumables/smart-grenade.webp"
       }
     }
   },

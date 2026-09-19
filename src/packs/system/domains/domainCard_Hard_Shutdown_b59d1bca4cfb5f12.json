@@ -1,7 +1,7 @@
 {
   "name": "Hard Shutdown",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/hard-shutdown.webp",
   "system": {
     "description": "<p>Make an Interface Roll (16).<br>Once per rest on a success, all targets within Very Far range make a Reaction Roll (18).<br>Targets who fail take 3d10+8 techno damage and are temporarily Vulnerable. Targets who succeed take half damage.<br>Additionally, when you succeed on the Interface Roll, all terrain within Very Far range becomes Offline. While within an Offline range, targets cannot spend Fear and rolls with Fear do not generate Fear for the GM.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Hard Shutdown",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/hard-shutdown.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:hard-shutdown",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/hard-shutdown.webp"
       }
     }
   },

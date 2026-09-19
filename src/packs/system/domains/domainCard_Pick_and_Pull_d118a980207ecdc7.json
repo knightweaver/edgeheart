@@ -1,7 +1,7 @@
 {
   "name": "Pick and Pull",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/pick-and-pull.webp",
   "system": {
     "description": "<p>You have advantage on action rolls to<br>pick non-digital locks, bypass physical<br>security, disarm traps, disable simple<br>alarms, or steal items from a target,<br>either through stealth or by force.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Pick and Pull",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/pick-and-pull.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:pick-and-pull",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/pick-and-pull.webp"
       }
     }
   },

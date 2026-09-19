@@ -1,7 +1,7 @@
 {
   "name": "Siege Organ Rig",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/siege-organ-rig.webp",
   "system": {
     "description": "<p>Cyber Cost: 3</p><p>Your unarmed attacks and weaponware attacks negates any damage reduction. Once per scene, when you deal Major or Severe damage in Melee range, all adversaries within Very Close range of the target mark 1 Stress.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Siege Organ Rig",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/siege-organ-rig.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:siege-organ-rig",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/siege-organ-rig.webp"
       }
     }
   },

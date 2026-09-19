@@ -1,7 +1,7 @@
 {
   "name": "Countermeasure",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/countermeasure.webp",
   "system": {
     "description": "<p>r You can interrupt a technological or<br>digital effect taking place by makinga ym<br>Reaction Roll using your Interface trait.<br>On a success, the effect stops and any<br>consequences are avoided, and this<br>card is placed in your vault.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Countermeasure",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/countermeasure.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:countermeasure",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/countermeasure.webp"
       }
     }
   },

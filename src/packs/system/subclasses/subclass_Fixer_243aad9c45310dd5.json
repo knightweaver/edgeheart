@@ -1,7 +1,7 @@
 {
   "name": "Fixer",
   "type": "subclass",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/subclasses/fixer.webp",
   "system": {
     "description": "<p>Play as a Fixer if you want to arrange jobs, call in favors, and navigate the city’s hidden economy.</p>",
     "spellcastingTrait": "presence",
@@ -36,7 +36,10 @@
       "deployment": {
         "logicalKey": "subclass:fixer",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/subclasses/fixer.webp"
       }
     }
   },

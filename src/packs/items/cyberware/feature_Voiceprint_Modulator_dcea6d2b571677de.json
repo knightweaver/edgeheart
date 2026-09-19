@@ -1,7 +1,7 @@
 {
   "name": "Voiceprint Modulator",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/voiceprint-modulator.webp",
   "system": {
     "description": "<p>Cyber Cost: 1</p><p>Gain Card Access to one Influence card of your level or lower. You have advantage on rolls to mimic voices, spoof identity, or pass as authorized through audio systems.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Voiceprint Modulator",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/voiceprint-modulator.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -65,7 +65,10 @@
       "deployment": {
         "logicalKey": "cyberware:voiceprint-modulator",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/voiceprint-modulator.webp"
       }
     }
   },

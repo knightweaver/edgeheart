@@ -1,7 +1,7 @@
 {
   "name": "Rally Signal",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/rally-signal.webp",
   "system": {
     "description": "<p>Once per long rest, while you&#x27;re<br>charging into danger, you can muster a<br>rousing call, broadcast, gesture, or<br>squad signal that inspires your allies.<br>All allies who can hear you each clear a<br>Stress and gain a Hope.<br>Additionally, your allies gain advantage<br>on attack rolls until you or an ally rolls a<br>failure with Fear.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Rally Signal",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/rally-signal.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:rally-signal",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/rally-signal.webp"
       }
     }
   },

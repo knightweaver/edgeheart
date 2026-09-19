@@ -1,7 +1,7 @@
 {
   "name": "Nullweave Armor",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/edgeheart/assets/icons/armors/nullweave-armor.webp",
   "system": {
     "description": "<p>Signal Dead: You can&#x27;t be targeted by sensors, drones, or remote systems beyond Far range unless you are already detected.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Signal Dead",
-        "img": "icons/svg/shield.svg",
+        "img": "modules/edgeheart/assets/icons/armors/nullweave-armor.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -74,7 +74,10 @@
       "deployment": {
         "logicalKey": "armor:nullweave-armor",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/armors/nullweave-armor.webp"
       }
     }
   },

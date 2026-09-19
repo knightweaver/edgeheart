@@ -1,7 +1,7 @@
 {
   "name": "Street Surgeon",
   "type": "subclass",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/subclasses/street-surgeon.webp",
   "system": {
     "description": "<p>Play as a Street Surgeon if you want to use illegal medicine, cyberware patches, black-clinic procedures, and dangerous stimulants to push bodies past safe limits.</p>",
     "spellcastingTrait": "knowledge",
@@ -36,7 +36,10 @@
       "deployment": {
         "logicalKey": "subclass:street-surgeon",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/subclasses/street-surgeon.webp"
       }
     }
   },

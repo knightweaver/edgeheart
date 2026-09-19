@@ -1,7 +1,7 @@
 {
   "name": "Adaptive Weapon Handling",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/adaptive-weapon-handling.webp",
   "system": {
     "description": "<p>You can use a different character trait<br>for an equipped weapon, rather than<br>the trait the weapon calls for.<br>When you deal damage, you can mark<br>a Stress to use the maximum result of<br>one of your damage dice instead of<br>rolling it.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Adaptive Weapon Handling",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/adaptive-weapon-handling.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:adaptive-weapon-handling",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/adaptive-weapon-handling.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Black Clinic",
   "type": "community",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/affiliations/black-clinic.webp",
   "system": {
     "description": "<p>You are connected to a street doctor, illegal clinic, or illegal cyberware medical ring.</p><h4>COMMUNITY FEATURE</h4><p><em><strong>Chillax:</strong></em> During a short rest, you or an ally can reroll a die used for a recovery, repair, or cyberware-related downtime action.</p>",
     "features": [
@@ -26,7 +26,10 @@
       "deployment": {
         "logicalKey": "community:black-clinic",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/affiliations/black-clinic.webp"
       }
     }
   },

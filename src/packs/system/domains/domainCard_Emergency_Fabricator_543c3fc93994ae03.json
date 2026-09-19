@@ -1,7 +1,7 @@
 {
   "name": "Emergency Fabricator",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/emergency-fabricator.webp",
   "system": {
     "description": "<p>Spend a Hope to deploy a compact<br>medical fabricator, trauma printer, or<br>emergency reconstruction tool.<br>You can create, reshape, reinforce, or<br>repair a object or material within Close<br>range, no larger than you.<br>This protocol is designed for medical,<br>survival, and emergency use. For<br>example, you can print a temporary<br>prosthetic support, seal a wound,<br>create a tool, stabilize damaged<br>cyberware, or shape synthetic tissue.<br>If you use this protocol to help a<br>creature act through injury, or a failing<br>system, they gain a +2 bonus to their<br>next action roll.<br>This protocol can’t create weapons,<br>complex machines, advanced<br>electronics, ammunition, valuable<br>goods, or permanent.cyberware.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Emergency Fabricator",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/emergency-fabricator.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:emergency-fabricator",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/emergency-fabricator.webp"
       }
     }
   },

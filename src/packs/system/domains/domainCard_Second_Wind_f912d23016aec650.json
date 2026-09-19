@@ -1,7 +1,7 @@
 {
   "name": "Second Wind",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/second-wind.webp",
   "system": {
     "description": "<p>Once per rest, when you succeed on an<br>attack against an adversary, you can<br>trigger adrenaline, endorphin spikes,<br>pain blockers, combat drugs, or<br>survival reflexes to clear 3 Stress ora<br>HP.<br>On a success with Hope, you also<br>trigger this for an ally within Close<br>range that clears 3 Stress or a HP.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Second Wind",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/second-wind.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:second-wind",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/second-wind.webp"
       }
     }
   },

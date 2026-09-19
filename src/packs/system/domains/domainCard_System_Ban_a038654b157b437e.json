@@ -1,7 +1,7 @@
 {
   "name": "System Ban",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/system-ban.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Close range.<br>On a success, roll a number of d20s<br>equal to your Interface trait. The target<br>must make a Reaction Roll with a<br>Difficulty equal to your highest result.<br>On a success, the target must mark a<br>Stress but isn’t banished.<br>Once per rest on a failure, they are<br>banished from this battlefield, signal<br>layer, or active physical space.<br>When the PCs roll with Fear, the<br>Difficulty gains a -1 penalty and the<br>target makes another Reaction Roll. On<br>a success, they return from<br>banishment.<br>—eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeEeEeE—eEeEEEeEeEeEeee</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "System Ban",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/system-ban.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:system-ban",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/system-ban.webp"
       }
     }
   },

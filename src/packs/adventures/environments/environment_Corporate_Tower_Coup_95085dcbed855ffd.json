@@ -1,7 +1,7 @@
 {
   "name": "Corporate Tower Coup",
   "type": "environment",
-  "img": "icons/svg/door-exit.svg",
+  "img": "modules/edgeheart/assets/icons/environments/corporate-tower-coup.webp",
   "system": {
     "description": "A boardroom, gala, hostage floor, and command bunker all pretending to be the same building.",
     "tier": 4,
@@ -118,7 +118,10 @@
       "deployment": {
         "logicalKey": "environment:corporate-tower-coup",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/environments/corporate-tower-coup.webp"
       }
     }
   },

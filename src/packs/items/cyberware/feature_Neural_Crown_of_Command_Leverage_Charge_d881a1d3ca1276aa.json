@@ -1,7 +1,7 @@
 {
   "name": "Neural Crown of Command - Leverage Charge",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/neural-crown-of-command-leverage-charge.webp",
   "system": {
     "description": "<p>Cyber Cost: 3</p><p>When you roll with Hope using an Influence card or in a social context, gain 1 Leverage Charge, max 3. Before a roll using your Presence or Influence card, spend any Charges to add +1 per charge to the roll. If you succeed, a target also marks the same number of Stress and one ally who can hear you clears the same number of Stress for every charge spent.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Neural Crown of Command - Leverage Charge",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/neural-crown-of-command-leverage-charge.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:neural-crown-of-command-leverage-charge",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/neural-crown-of-command-leverage-charge.webp"
       }
     }
   },

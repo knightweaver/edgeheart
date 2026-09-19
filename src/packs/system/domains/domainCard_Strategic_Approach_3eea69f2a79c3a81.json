@@ -1,7 +1,7 @@
 {
   "name": "Strategic Approach",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/strategic-approach.webp",
   "system": {
     "description": "<p>After along rest, place a number of<br>tokens equal to your Knowledge on this<br>card, minimum 1.<br>The first time you move within Close<br>range of an adversary and make an Z<br>attack against them, you can spend<br>one token to choose one of the<br>following options:<br>• You make the attack with<br>advantage.<br>• You clear a Stress on an ally within<br>Melee range of the adversary.<br>• You add a d8 to your damage roll.<br>When you take along rest, clear all<br>unspent tokens.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Strategic Approach",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/strategic-approach.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:strategic-approach",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/strategic-approach.webp"
       }
     }
   },

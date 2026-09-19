@@ -1,7 +1,7 @@
 {
   "name": "Hush Field",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/hush-field.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Close range. On a success,<br>spend a Hope to deploy suppressive<br>tech around the target that<br>encompasses everything within Very<br>Close range of them and follows them<br>as they move.<br>The target and everything within the<br>area is Silenced until the GM spends a<br>Fear on their turn to clear this<br>condition, you run Hush Field again, or<br>you take Major damage.<br>While Silenced, they can’t make noise<br>and can’t run comm protocols or use<br>effects that require audible, verbal, or<br>broadcast commands.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Hush Field",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/hush-field.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:hush-field",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/hush-field.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Ghost Tag",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/consumables/ghost-tag.webp",
   "system": {
     "description": "<p>Use when you enter a restricted, surveilled, or guarded area. Until your next Spotlight, cameras and basic sensors treat you as authorized or harmless.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Ghost Tag",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/consumables/ghost-tag.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -58,7 +58,10 @@
       "deployment": {
         "logicalKey": "consumable:ghost-tag",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/consumables/ghost-tag.webp"
       }
     }
   },

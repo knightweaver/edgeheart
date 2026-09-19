@@ -1,7 +1,7 @@
 {
   "name": "Gripware Override",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/gripware-override.webp",
   "system": {
     "description": "<p>Spend a Hope to allow a creature you<br>can touch to climb on walls and ceilings<br>as easily as walking on the ground.<br>This lasts until the end of the scene or<br>you run Gripware Override again.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Gripware Override",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/gripware-override.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:gripware-override",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/gripware-override.webp"
       }
     }
   },

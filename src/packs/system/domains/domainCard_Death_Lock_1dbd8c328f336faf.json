@@ -1,7 +1,7 @@
 {
   "name": "Death Lock",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/death-lock.webp",
   "system": {
     "description": "<p>Spend 3 Hope and choose an ally<br>within Close range.<br>They are placed under a death-lock<br>protocol, such as a cardiac override,<br>neural backup, emergency blood pump,<br>trauma stasis patch, or Last-chance<br>Auto-injector.<br>When this ally would make a death<br>move, they clear a Hit Point instead.<br>This effect ends when it saves the<br>target from a death move, you use<br>Death Lock on another target, or you<br>take a long rest.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Death Lock",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/death-lock.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:death-lock",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/death-lock.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Broker",
   "type": "class",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/classes/broker.webp",
   "system": {
     "description": "<p>Brokers are negotiators, public faces, and social predators who understand that power rarely sits in the hands of the person holding the gun. They know who pays, who can be bought, and who needs to disappear before the next contract begins.</p>",
     "domains": [
@@ -46,7 +46,10 @@
         "resolvedDomains": [
           "influence"
         ],
-        "domainRegistrationPending": true
+        "domainRegistrationPending": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/classes/broker.webp"
       }
     }
   },

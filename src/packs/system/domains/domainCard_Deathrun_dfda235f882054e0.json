@@ -1,7 +1,7 @@
 {
   "name": "Deathrun",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/deathrun.webp",
   "system": {
     "description": "<p>Spend 3 Hope to run a straight path<br>through the battlefield to a point within<br>Far range, making an attack against all<br>adversaries within your weapon&#x27;s range<br>along that path.<br>Choose the order in which you deal<br>damage to the targets you succeeded<br>against.<br>For the first, roll your weapon damage<br>with a +1 bonus to your Proficiency.<br>Then remove adie from your damage<br>roll and deal the remaining damage to<br>the next target.<br>Continue to remove a die for each<br>subsequent target until you have no<br>more damage dice or adversaries.<br>You can’t target the same adversary<br>more than once per attack.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Deathrun",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/deathrun.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:deathrun",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/deathrun.webp"
       }
     }
   },

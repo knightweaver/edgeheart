@@ -1,7 +1,7 @@
 {
   "name": "Last Record",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/medtech/last-record.webp",
   "system": {
     "description": "<p>You can extract the final biological,<br>neural, or cybernetic record from a<br>corpse, damaged implant, memory<br>chip, or dead biomonitor.<br>Make an Interface Roll (13).<br>On a success with Hope, you find the<br>answer to three questions. On a<br>success with Fear, you find the answer<br>to one question.<br>The information is reliable, but you<br>cannot discover anything beyond what<br>the target knew or witnessed in life.<br>On a failure, or after you find your<br>answers, the body, implant, or data<br>source becomes unusable for this<br>protocol.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Last Record",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/medtech/last-record.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:medtech:last-record",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/medtech/last-record.webp"
       }
     }
   },

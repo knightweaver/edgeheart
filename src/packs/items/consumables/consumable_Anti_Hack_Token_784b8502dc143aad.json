@@ -1,7 +1,7 @@
 {
   "name": "Anti-Hack Token",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/consumables/anti-hack-token.webp",
   "system": {
     "description": "<p>Use when a trace, hack, scan, or hostile signal would affect you or your gear. Roll a d6. On 4+, the effect fails.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Anti-Hack Token",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/consumables/anti-hack-token.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -58,7 +58,10 @@
       "deployment": {
         "logicalKey": "consumable:anti-hack-token",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/consumables/anti-hack-token.webp"
       }
     }
   },

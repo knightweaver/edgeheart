@@ -1,7 +1,7 @@
 {
   "name": "Jumpjet Protocol",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/chrome/jumpjet-protocol.webp",
   "system": {
     "description": "<p>Make an Agility Roll (15). On a success,<br>place a number of tokens equal to your<br>Agility on this card, minimum 1.<br>When you make an action roll while<br>flying, spend a token from this card.<br>After the action that spends the last<br>token is resolved, you descend to the<br>ground directly below you.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Jumpjet Protocol",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/chrome/jumpjet-protocol.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:chrome:jumpjet-protocol",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/chrome/jumpjet-protocol.webp"
       }
     }
   },

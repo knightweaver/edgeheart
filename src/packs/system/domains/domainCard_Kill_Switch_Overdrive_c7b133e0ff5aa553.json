@@ -1,7 +1,7 @@
 {
   "name": "Kill-Switch Overdrive",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/kill-switch-overdrive.webp",
   "system": {
     "description": "<p>Make an Interface Roll against an<br>adversary within Close range. Ona<br>success, spend 2 Hope to mark 1-3 HP.<br>The target marks twice the number of<br>Hit Points you marked. If this causes<br>the target to mark their last HP, you<br>can clear the HP you marked to<br>activate this protocol.<br>This might look like a lethal overclock<br>strike, rageware execution, neural kill-<br>switch, cyberware burnout, adrenal<br>detonation, or a point-blank system<br>crash that converts the target’s<br>collapse into your survival.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Kill-Switch Overdrive",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/kill-switch-overdrive.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:kill-switch-overdrive",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/kill-switch-overdrive.webp"
       }
     }
   },

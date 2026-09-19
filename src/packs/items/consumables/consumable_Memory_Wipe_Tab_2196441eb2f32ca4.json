@@ -1,7 +1,7 @@
 {
   "name": "Memory Wipe Tab",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/consumables/memory-wipe-tab.webp",
   "system": {
     "description": "<p>Use after a short conversation with a minor NPC. They forget one small detail from the interaction unless it would obviously endanger them.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Memory Wipe Tab",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/consumables/memory-wipe-tab.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -58,7 +58,10 @@
       "deployment": {
         "logicalKey": "consumable:memory-wipe-tab",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/consumables/memory-wipe-tab.webp"
       }
     }
   },

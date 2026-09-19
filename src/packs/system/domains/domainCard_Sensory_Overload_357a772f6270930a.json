@@ -1,7 +1,7 @@
 {
   "name": "Sensory Overload",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/sensory-overload.webp",
   "system": {
     "description": "<p>Make an Interface Roll against all targets within Close range of you.<br>Once per rest on a success, create an overwhelming display of flashing ads, braindance static, sonic distortion, hard-light colors, or tactical projections that temporarily Stuns targets you succeed against and forces them to mark a Stress.<br>While Stunned, they can’t use reactions and can’t take any other actions until they clear this condition.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Sensory Overload",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/sensory-overload.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:sensory-overload",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/sensory-overload.webp"
       }
     }
   },

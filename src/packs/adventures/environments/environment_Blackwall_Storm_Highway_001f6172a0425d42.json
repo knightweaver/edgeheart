@@ -1,7 +1,7 @@
 {
   "name": "Blackwall Storm Highway",
   "type": "environment",
-  "img": "icons/svg/door-exit.svg",
+  "img": "modules/edgeheart/assets/icons/environments/blackwall-storm-highway.webp",
   "system": {
     "description": "A ruined highway where vehicles race through lightning, broken infrastructure, and corrupted machine weather.",
     "tier": 4,
@@ -118,7 +118,10 @@
       "deployment": {
         "logicalKey": "environment:blackwall-storm-highway",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/environments/blackwall-storm-highway.webp"
       }
     }
   },

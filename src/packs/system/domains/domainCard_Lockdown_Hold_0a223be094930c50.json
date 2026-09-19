@@ -1,7 +1,7 @@
 {
   "name": "Lockdown Hold",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/lockdown-hold.webp",
   "system": {
     "description": "<p>When you position yourself behind a<br>creature who’s about your size, you can<br>mark a Stress to pull them into a<br>lockdown hold using a chokehold, joint<br>lock, or restraint cable. The target<br>becomes temporarily Vulnerable.<br>When a creature attacks a target who<br>is Vulnerable in this way, they deal an<br>extra 2d6 damage.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Lockdown Hold",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/lockdown-hold.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:lockdown-hold",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/lockdown-hold.webp"
       }
     }
   },

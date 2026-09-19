@@ -1,7 +1,7 @@
 {
   "name": "Trail Reader",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/trail-reader.webp",
   "system": {
     "description": "<p>When you track a specific creature,<br>vehicle, or convoy, you can spend any<br>number of Hope and ask the GM that<br>many questions. When you encounter<br>targets you’ve tracked in this way, gain<br>a +1 to your Evasion against them:<br>1- What direction did they go?<br>2- How long ago did they pass by?<br>3- What were they doing here?<br>4- How many of them were here?</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Trail Reader",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/trail-reader.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:trail-reader",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/trail-reader.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Kinetic Tonfa",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/kinetic-tonfa.webp",
   "system": {
     "description": "<p>Counterweight: When an adversary attacks you, you can mark a Stress to gain a +2 bonus to Evasion against that attack. If the attack misses, the attacker marks 1 Stress.</p>",
     "tier": 3,
@@ -10,7 +10,7 @@
     "burden": "oneHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/kinetic-tonfa.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "melee",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Counterweight",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/kinetic-tonfa.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:kinetic-tonfa",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/kinetic-tonfa.webp"
       }
     }
   },

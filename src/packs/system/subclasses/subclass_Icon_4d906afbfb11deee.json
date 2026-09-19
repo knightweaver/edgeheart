@@ -1,7 +1,7 @@
 {
   "name": "Icon",
   "type": "subclass",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/subclasses/icon.webp",
   "system": {
     "description": "<p>Play as an Icon if you want to weaponize reputation, performance, fame, fear, propaganda, and public perception.</p>",
     "spellcastingTrait": "presence",
@@ -36,7 +36,10 @@
       "deployment": {
         "logicalKey": "subclass:icon",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/subclasses/icon.webp"
       }
     }
   },

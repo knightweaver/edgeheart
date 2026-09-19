@@ -1,7 +1,7 @@
 {
   "name": "Signal Burst",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/signal-burst.webp",
   "system": {
     "description": "<p>At the beginning of a session, place<br>tokens equal to your Interface trait on<br>this card.<br>Make an Interface Roll against a target<br>within Far range and spend any number<br>of tokens to release a concentrated<br>burst of unstable code, signal noise, or<br>weaponized feedback against them.<br>On a success, roll a number of d6s<br>equal to the tokens spent and deal that<br>much techno damage to the target.<br>Mark a Stress to replenish this card<br>with tokens, up to your Interface trait.<br>At the end of each session, clear all<br>unspent tokens.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Signal Burst",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/signal-burst.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:signal-burst",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/signal-burst.webp"
       }
     }
   },

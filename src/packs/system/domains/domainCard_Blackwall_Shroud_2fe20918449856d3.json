@@ -1,7 +1,7 @@
 {
   "name": "Blackwall Shroud",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/blackwall-shroud.webp",
   "system": {
     "description": "<p>Make an Interface Roll (10). On a<br>success, spend any number of Hope<br>and place an equal number of tokens<br>on this card to wrap yourself in sensor<br>noise, digital shadow, corrupted<br>overlays, haunted Al, or signal<br>distortion.<br>After an attack roll is made against<br>you, you can spend any number of<br>tokens to gain a +1 bonus to your<br>Evasion per token against that attack.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Blackwall Shroud",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/blackwall-shroud.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:blackwall-shroud",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/blackwall-shroud.webp"
       }
     }
   },

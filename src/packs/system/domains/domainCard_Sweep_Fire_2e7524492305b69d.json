@@ -1,7 +1,7 @@
 {
   "name": "Sweep Fire",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/sweep-fire.webp",
   "system": {
     "description": "<p>When you make a successful attack<br>against a target within Very Close<br>range, you can spend a Hope to use the<br>attack against all other targets within<br>Very Close range.<br>All additional adversaries you succeed<br>against with this ability take half<br>damage.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Sweep Fire",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/sweep-fire.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:sweep-fire",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/sweep-fire.webp"
       }
     }
   },

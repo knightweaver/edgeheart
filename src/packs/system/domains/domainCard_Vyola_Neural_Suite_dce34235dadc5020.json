@@ -1,7 +1,7 @@
 {
   "name": "Vyola Neural Suite",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/vyola-neural-suite.webp",
   "system": {
     "description": "<p>Memory Delve: Make an Interface Roll<br>against a target within Far range. Ona<br>success, peer into the target’s mind,<br>memory archive, neural residue, or<br>recorded perception and ask the GM a<br>question. The GM describes any<br>memories the target has pertaining to<br>the answer.<br>Neural Loadshare: Once per long rest,<br>spend a Hope to choose two willing<br>creatures. You create a temporary<br>neural support link between them.<br>When one of them would mark Stress,<br>they can choose between the two of<br>them who marks it. This protocol lasts<br>until their next rest.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Vyola Neural Suite",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/vyola-neural-suite.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:vyola-neural-suite",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/vyola-neural-suite.webp"
       }
     }
   },

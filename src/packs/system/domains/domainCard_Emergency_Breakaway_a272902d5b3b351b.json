@@ -1,7 +1,7 @@
 {
   "name": "Emergency Breakaway",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/emergency-breakaway.webp",
   "system": {
     "description": "<p>Once per rest, when a creature within<br>Melee range would deal damage to<br>you, you can avoid the attack and<br>safely move out of Melee range of the<br>enemy. a</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Emergency Breakaway",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/emergency-breakaway.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:emergency-breakaway",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/emergency-breakaway.webp"
       }
     }
   },

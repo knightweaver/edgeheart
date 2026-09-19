@@ -1,6 +1,6 @@
 {
   "name": "Sitil Black-Ops Captain",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/edgeheart/assets/icons/adversaries/sitil-black-ops-captain.webp",
   "type": "adversary",
   "system": {
     "difficulty": 17,
@@ -172,7 +172,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/edgeheart/assets/tokens/adversaries/sitil-black-ops-captain-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -474,7 +474,11 @@
       "deployment": {
         "logicalKey": "adversary:sitil-black-ops-captain",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/adversaries/sitil-black-ops-captain.webp",
+        "tokenAssetPath": "modules/edgeheart/assets/tokens/adversaries/sitil-black-ops-captain-token.png"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Black Clinic Under Siege",
   "type": "environment",
-  "img": "icons/svg/door-exit.svg",
+  "img": "modules/edgeheart/assets/icons/environments/black-clinic-under-siege.webp",
   "system": {
     "description": "A hidden clinic filled with half-finished surgeries, illegal medicine, and people too valuable to lose.",
     "tier": 2,
@@ -117,7 +117,10 @@
       "deployment": {
         "logicalKey": "environment:black-clinic-under-siege",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/environments/black-clinic-under-siege.webp"
       }
     }
   },

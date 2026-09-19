@@ -1,7 +1,7 @@
 {
   "name": "Blackbox Recorder",
   "type": "loot",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/loot/blackbox-recorder.webp",
   "system": {
     "description": "<p>When a dangerous scene ends, you can ask the GM what one nearby device, signal, or camera recorded.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Blackbox Recorder",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/loot/blackbox-recorder.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -57,7 +57,10 @@
       "deployment": {
         "logicalKey": "loot:blackbox-recorder",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/loot/blackbox-recorder.webp"
       }
     }
   },

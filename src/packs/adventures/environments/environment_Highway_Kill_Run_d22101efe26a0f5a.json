@@ -1,7 +1,7 @@
 {
   "name": "Highway Kill Run",
   "type": "environment",
-  "img": "icons/svg/door-exit.svg",
+  "img": "modules/edgeheart/assets/icons/environments/highway-kill-run.webp",
   "system": {
     "description": "A high-speed chase through broken roads, traffic drones, abandoned checkpoints, and ambush vehicles.",
     "tier": 2,
@@ -141,7 +141,10 @@
       "deployment": {
         "logicalKey": "environment:highway-kill-run",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/environments/highway-kill-run.webp"
       }
     }
   },

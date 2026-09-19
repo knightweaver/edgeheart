@@ -1,7 +1,7 @@
 {
   "name": "Ghost Ping",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/ghost-ping.webp",
   "system": {
     "description": "<p>Spend a Hope to release a hidden<br>signal spider into a network that you<br>can move anywhere within Very Far<br>range.<br>While this protocol is active, you may<br>see or hear through one connected<br>: device or feed inside that network as<br>though you were there. You can<br>transition between using your own<br>senses and seeing through the orb<br>freely.<br>If the network is severed, purged, fully<br>offline, or protected by a stronger<br>hostile system, this protocol ends.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Ghost Ping",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/ghost-ping.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:ghost-ping",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/ghost-ping.webp"
       }
     }
   },

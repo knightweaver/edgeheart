@@ -1,7 +1,7 @@
 {
   "name": "System Decay",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/system-decay.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, spend a<br>Hope to infect them with corrupted<br>firmware or obsolete code that their<br>system no longer know how to process.<br>The target becomes temporarily<br>Degraded. While Degraded, the target<br>uses a diz instead of a d20 for attack<br>rolls. You can only hold this protocol on<br>one creature at atime.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "System Decay",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/system-decay.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:system-decay",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/system-decay.webp"
       }
     }
   },

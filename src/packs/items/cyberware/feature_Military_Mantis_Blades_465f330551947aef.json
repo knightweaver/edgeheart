@@ -1,7 +1,7 @@
 {
   "name": "Military Mantis Blades",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/military-mantis-blades.webp",
   "system": {
     "description": "<p>Cyber Cost: 3</p><p>This implant counts as a Primary Weapon which is always equipped: Finesse, Melee, d8+7 physical. Tear Apart: When you move into Melee range before attacking, add 1d8 to the damage roll. On a roll with Hope, the target is temporarily Vulnerable.</p>",
     "actions": {
@@ -78,7 +78,7 @@
           "damageMod": "none"
         },
         "name": "Military Mantis Blades",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/military-mantis-blades.webp",
         "range": "melee",
         "baseAction": false,
         "originItem": {
@@ -126,7 +126,10 @@
       "deployment": {
         "logicalKey": "cyberware:military-mantis-blades",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/military-mantis-blades.webp"
       }
     }
   },

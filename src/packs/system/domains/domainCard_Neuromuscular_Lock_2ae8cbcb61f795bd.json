@@ -1,7 +1,7 @@
 {
   "name": "Neuromuscular Lock",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/neuromuscular-lock.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, mark a<br>Stress as you attack the target&#x27;s<br>muscles, cyberware, nerves, blood<br>pressure, or motor control.<br>The target becomes temporarily<br>Restrained and temporarily Vulnerable.<br>Each time the target is spotlighted<br>while either of these conditions<br>persists on them, they take d10 techno<br>damage using your Proficiency.<br>This protocol ends early on the target if<br>you use it again.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Neuromuscular Lock",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/neuromuscular-lock.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:neuromuscular-lock",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/neuromuscular-lock.webp"
       }
     }
   },

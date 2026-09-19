@@ -1,7 +1,7 @@
 {
   "name": "Botnet Cataclysm",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/botnet-cataclysm.webp",
   "system": {
     "description": "<p>Make an Interface Roll against all<br>adversaries within Far range.<br>Mark any number of Stress to wake<br>every compromised process, stolen<br>credential, old virus, hijacked device,<br>corrupted server, dead account, and<br>sleeper daemon you have seeded into<br>the local network.<br>Targets you succeed against take<br>1d20+2 physical damage for each<br>Stress marked.<br>On a success with Hope, choose one<br>affected target. They are also locked<br>out of all connected system, weapon<br>mode, drone link, cyberware feature, or<br>tactical support effect until their next<br>Spotlight.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Botnet Cataclysm",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/botnet-cataclysm.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:botnet-cataclysm",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/botnet-cataclysm.webp"
       }
     }
   },

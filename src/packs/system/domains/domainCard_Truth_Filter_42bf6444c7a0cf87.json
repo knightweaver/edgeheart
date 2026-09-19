@@ -1,7 +1,7 @@
 {
   "name": "Truth Filter",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/truth-filter.webp",
   "system": {
     "description": "<p>Make an Interface Roll against a target<br>within Very Close range.<br>On a success, they can’t lie to you while<br>they remain within Close range, but<br>they are not compelled to speak. If you<br>ask them a question and they refuse to<br>answer, they must mark a Stress and<br>the effect ends.<br>The target is typically unaware this<br>protocol has been activated on them<br>until it causes them to utter the truth.<br>a —</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Truth Filter",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/truth-filter.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:truth-filter",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/truth-filter.webp"
       }
     }
   },

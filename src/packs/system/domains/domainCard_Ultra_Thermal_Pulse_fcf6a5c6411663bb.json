@@ -1,7 +1,7 @@
 {
   "name": "Ultra Thermal Pulse",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/ultra-thermal-pulse.webp",
   "system": {
     "description": "<p>Make an Interface Roll (18). Once per<br>long rest on a success, the GM tells you<br>which adversaries within Far range<br>have a Difficulty of 18 or lower.<br>Mark a Stress for each one you wish to<br>hit with this protocol. They are<br>instantly killed.<br>eee eEEEE</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Ultra Thermal Pulse",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/ultra-thermal-pulse.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:ultra-thermal-pulse",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/ultra-thermal-pulse.webp"
       }
     }
   },

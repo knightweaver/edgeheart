@@ -1,7 +1,7 @@
 {
   "name": "Probability Rewrite",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/network/probability-rewrite.webp",
   "system": {
     "description": "<p>After you or a willing ally make any roll,<br>you can spend 5 Hope to rewrite the<br>outcome through predictive modeling,<br>tactical misdirection, and perfectly<br>timed intervention and change the<br>numerical result of that roll to a result<br>of your choice instead.<br>The result must be plausible within the<br>range of the dice.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Probability Rewrite",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/network/probability-rewrite.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:network:probability-rewrite",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/network/probability-rewrite.webp"
       }
     }
   },

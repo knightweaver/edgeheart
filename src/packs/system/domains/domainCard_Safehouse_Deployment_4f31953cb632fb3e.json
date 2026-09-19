@@ -1,7 +1,7 @@
 {
   "name": "Safehouse Deployment",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/safehouse-deployment.webp",
   "system": {
     "description": "<p>When you have a few minutes of calm<br>to focus, you can spend 2 Hope to<br>deploy, unlock, or reveal your<br>Safehouse, a large hidden shelter,<br>mobile base, bunker, or concealed<br>operational room where you and your<br>allies can take shelter.<br>When you do, a hidden entrance<br>appears somewhere within Close<br>range. Once inside, you can make the<br>entrance invisible. You and anyone else<br>inside can always exit. Once you leave,<br>the doorway must be deployed again.<br>When you take a rest within your own<br>Safehouse, you can choose an<br>additional downtime move.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Safehouse Deployment",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/safehouse-deployment.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:safehouse-deployment",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/safehouse-deployment.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Relic Edge",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/relic-edge.webp",
   "system": {
     "description": "<p>Spend a Hope to load your weapon<br>with a Blackwall combat routine until<br>your next rest.<br>When you make an attack with this<br>weapon, use your Interface trait<br>instead of the trait it normally calls for.<br>On a success, roll a number of d8s<br>equal to the current number of Fear the<br>GM has, up to your level, and deal that<br>much techno damage as the target&#x27;s<br>cyberware, nervous system, or armor<br>interface is cut open by corrupted<br>code.<br>If you succeed with Fear, the target<br>must also mark a Stress.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Relic Edge",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/relic-edge.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:relic-edge",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/relic-edge.webp"
       }
     }
   },

@@ -1,6 +1,6 @@
 {
   "name": "Tiger Choir Cutter",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/edgeheart/assets/icons/adversaries/tiger-choir-cutter.webp",
   "type": "adversary",
   "system": {
     "difficulty": 12,
@@ -172,7 +172,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/edgeheart/assets/tokens/adversaries/tiger-choir-cutter-token.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -384,7 +384,11 @@
       "deployment": {
         "logicalKey": "adversary:tiger-choir-cutter",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/adversaries/tiger-choir-cutter.webp",
+        "tokenAssetPath": "modules/edgeheart/assets/tokens/adversaries/tiger-choir-cutter-token.png"
       }
     }
   },

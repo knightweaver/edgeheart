@@ -1,7 +1,7 @@
 {
   "name": "Street-Level Stakeout",
   "type": "environment",
-  "img": "icons/svg/door-exit.svg",
+  "img": "modules/edgeheart/assets/icons/environments/street-level-stakeout.webp",
   "system": {
     "description": "A quiet surveillance job where everyone is waiting for the first mistake.",
     "tier": 1,
@@ -117,7 +117,10 @@
       "deployment": {
         "logicalKey": "environment:street-level-stakeout",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/environments/street-level-stakeout.webp"
       }
     }
   },

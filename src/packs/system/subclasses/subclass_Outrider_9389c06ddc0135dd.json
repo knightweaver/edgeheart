@@ -1,7 +1,7 @@
 {
   "name": "Outrider",
   "type": "subclass",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/subclasses/outrider.webp",
   "system": {
     "description": "<p>Play as an Outrider if you want to master vehicles, lead pursuits, and survive impossible roads.</p>",
     "spellcastingTrait": "agility",
@@ -36,7 +36,10 @@
       "deployment": {
         "logicalKey": "subclass:outrider",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/subclasses/outrider.webp"
       }
     }
   },

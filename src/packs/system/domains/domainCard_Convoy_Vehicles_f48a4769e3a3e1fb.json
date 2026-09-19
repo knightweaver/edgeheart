@@ -1,7 +1,7 @@
 {
   "name": "Convoy Vehicles",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/convoy-vehicles.webp",
   "system": {
     "description": "<p>Spend any number of Hope to call or<br>secure that many simple vehicles,<br>bikes, beasts, cyber-mounts, drones, or<br>survival transports that you and your<br>allies can drive until your next long rest<br>or the vehicles take any damage.<br>The vehicles double your land speed<br>while traveling and, when in danger,<br>allow you to move within Far range<br>without having to roll.<br>Creatures driving a vehicles gain a -2<br>penalty to attack rolls and a +2 bonus<br>to damage rolls.</p>",
     "level": 6,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Convoy Vehicles",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/convoy-vehicles.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:convoy-vehicles",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/convoy-vehicles.webp"
       }
     }
   },

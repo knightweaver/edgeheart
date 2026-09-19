@@ -1,7 +1,7 @@
 {
   "name": "Street Shotgun",
   "type": "weapon",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/weapons/street-shotgun.webp",
   "system": {
     "description": "<p>Scatter: On a successful attack, another target within Very Close range of the target marks 1 Stress.</p>",
     "tier": 1,
@@ -10,7 +10,7 @@
     "burden": "twoHanded",
     "attack": {
       "name": "Attack",
-      "img": "icons/svg/item-bag.svg",
+      "img": "modules/edgeheart/assets/icons/weapons/street-shotgun.webp",
       "systemPath": "attack",
       "type": "attack",
       "range": "veryClose",
@@ -105,7 +105,7 @@
           "amount": null
         },
         "name": "Scatter",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/weapons/street-shotgun.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -150,7 +150,10 @@
       "deployment": {
         "logicalKey": "weapon:street-shotgun",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/weapons/street-shotgun.webp"
       }
     }
   },

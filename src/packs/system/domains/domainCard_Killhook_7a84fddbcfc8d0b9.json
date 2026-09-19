@@ -1,7 +1,7 @@
 {
   "name": "Killhook",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/killhook.webp",
   "system": {
     "description": "<p>You launch a killhook, magnetic spike,<br>tendon cable, monowire harpoon,<br>recoil anchor, or combat grapnel at a<br>location or creature within Far range.<br>If the target is a location, make an<br>Interface Roll (13). On a success, mark<br>a Stress to pull yourself to a position<br>within Melee range of it.<br>Ifthe target is a creature, make an<br>Interface Roll against it. On a success,<br>mark a Stress to deal 3d8 physical<br>damage to the target. You then pull the<br>target straight toward yourself or pull<br>yourself straight toward the target,<br>ending within Melee range of it.</p>",
     "level": 4,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Killhook",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/killhook.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:killhook",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/killhook.webp"
       }
     }
   },

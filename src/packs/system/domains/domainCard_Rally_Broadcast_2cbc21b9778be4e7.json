@@ -1,7 +1,7 @@
 {
   "name": "Rally Broadcast",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/rally-broadcast.webp",
   "system": {
     "description": "<p>After a long rest, place a number of<br>tokens on this card equal to your<br>Presence. When you speak with an ally<br>or give them direct encouragement,<br>you can spend a token from this card to<br>give them one benefit from the<br>following options:<br>1- Your ally clears a Stress.<br>2- Your ally clears a Hit Point.<br>3- Your ally gains a Hope.<br>When you take a long rest, clear all<br>unspent tokens.</p>",
     "level": 1,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Rally Broadcast",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/rally-broadcast.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:rally-broadcast",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/rally-broadcast.webp"
       }
     }
   },

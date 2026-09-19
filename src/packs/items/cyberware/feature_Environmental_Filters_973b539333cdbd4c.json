@@ -1,7 +1,7 @@
 {
   "name": "Environmental Filters",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/environmental-filters.webp",
   "system": {
     "description": "<p>Cyber Cost: 1</p><p>You can breathe and act normally in smoke, dust, ash, polluted air, tear gas, and chemical stink unless the hazard is immediately lethal.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Environmental Filters",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/environmental-filters.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -61,7 +61,10 @@
       "deployment": {
         "logicalKey": "cyberware:environmental-filters",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/environmental-filters.webp"
       }
     }
   },

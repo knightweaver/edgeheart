@@ -1,7 +1,7 @@
 {
   "name": "Dead Pantheon Breach",
   "type": "environment",
-  "img": "icons/svg/door-exit.svg",
+  "img": "modules/edgeheart/assets/icons/environments/dead-pantheon-breach.webp",
   "system": {
     "description": "A place where the Blackwall thins and Theoi-derived systems start dreaming in public.",
     "tier": 4,
@@ -141,7 +141,10 @@
       "deployment": {
         "logicalKey": "environment:dead-pantheon-breach",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/environments/dead-pantheon-breach.webp"
       }
     }
   },

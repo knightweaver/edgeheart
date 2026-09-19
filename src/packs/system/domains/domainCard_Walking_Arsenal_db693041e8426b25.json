@@ -1,7 +1,7 @@
 {
   "name": "Walking Arsenal",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/walking-arsenal.webp",
   "system": {
     "description": "<p>When you make a successful attack<br>against an adversary, you can mark a<br>Stress to force the target to mark a<br>number of Hit Points equal to the<br>number of Hit Points you currently<br>have marked instead of rolling for<br>damage.</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Walking Arsenal",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/walking-arsenal.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:walking-arsenal",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/walking-arsenal.webp"
       }
     }
   },

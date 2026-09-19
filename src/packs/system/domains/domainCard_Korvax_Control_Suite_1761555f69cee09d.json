@@ -1,7 +1,7 @@
 {
   "name": "*Korvax Control Suite",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/systems/korvax-control-suite.webp",
   "system": {
     "description": "<p>Gravity Clamp: Make an Interface Roll<br>to temporarily lift a target you can see<br>up into the air and move them within<br>Close range of their original position.<br>Memory Scrub: Spend a Hope to force<br>a target within Melee range to make a<br>Reaction Roll (15). On a failure, you<br>overwrite, scramble, or suppress the<br>last minute of their short-term<br>memory, causing them to forget the<br>last minute of your conversation.<br>Repulsion Circle: Mark a Stress to<br>deploy a temporary repulsion field,<br>shock ring, or kinetic perimeter on the<br>ground where you stand. All<br>adversaries within Melee range, or who<br>enter Melee range, take 2d12+4 techno<br>damage and are knocked back to Very<br>Close range.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "*Korvax Control Suite",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/systems/korvax-control-suite.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:systems:korvax-control-suite",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/systems/korvax-control-suite.webp"
       }
     }
   },

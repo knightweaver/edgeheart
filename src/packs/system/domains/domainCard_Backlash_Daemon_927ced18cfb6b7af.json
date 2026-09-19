@@ -1,7 +1,7 @@
 {
   "name": "Backlash Daemon",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/backlash-daemon.webp",
   "system": {
     "description": "<p>When an ally within Close range takes<br>damage from a target you can see, you<br>can make a Reaction Roll against that<br>target using your Interface trait.<br>On a success, mark a Stress to unleash<br>a retaliatory daemon, system scream,<br>or invasive Black ICE backlash, dealing<br>d6 techno damage using your<br>Proficiency.</p>",
     "level": 2,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Backlash Daemon",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/backlash-daemon.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:backlash-daemon",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/backlash-daemon.webp"
       }
     }
   },

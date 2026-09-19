@@ -1,7 +1,7 @@
 {
   "name": "Hardlight Umbrella",
   "type": "loot",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/edgeheart/assets/icons/loot/hardlight-umbrella.webp",
   "system": {
     "description": "<p>Mark 1 Stress to create temporary cover for yourself or one ally within Very Close range.</p>",
     "quantity": 1,
@@ -26,7 +26,7 @@
           "amount": null
         },
         "name": "Hardlight Umbrella",
-        "img": "icons/svg/item-bag.svg",
+        "img": "modules/edgeheart/assets/icons/loot/hardlight-umbrella.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -57,7 +57,10 @@
       "deployment": {
         "logicalKey": "loot:hardlight-umbrella",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/loot/hardlight-umbrella.webp"
       }
     }
   },

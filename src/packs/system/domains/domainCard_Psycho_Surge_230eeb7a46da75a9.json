@@ -1,7 +1,7 @@
 {
   "name": "Psycho Surge",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/redline/psycho-surge.webp",
   "system": {
     "description": "<p>Once per rest, spend a Hope to unleash<br>aviolent surge of adrenaline, neural<br>noise, rageware instability, overheating<br>implants, pain-editor failure, and<br>cyberpsychosis-adjacent aggression<br>around yourself.<br>Make a single Interface Roll against<br>each adversary within Close range.<br>On a success, a target marks a HP and<br>a Stress. On a failure, atarget marks a<br>Stress.<br>Each ally within Close range marks a<br>Stress but clears a HP.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Psycho Surge",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/redline/psycho-surge.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:redline:psycho-surge",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/redline/psycho-surge.webp"
       }
     }
   },

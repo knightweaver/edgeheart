@@ -1,7 +1,7 @@
 {
   "name": "Unyielding Armor",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/unyielding-armor.webp",
   "system": {
     "description": "<p>When you would mark an Armor Slot,<br>roll a number of d6s equal to your<br>Proficiency.<br>If any roll a 6, reduce the severity by<br>one threshold without marking an<br>Armor Slot.<br>REDLINE</p>",
     "level": 10,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Unyielding Armor",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/unyielding-armor.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:unyielding-armor",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/unyielding-armor.webp"
       }
     }
   },

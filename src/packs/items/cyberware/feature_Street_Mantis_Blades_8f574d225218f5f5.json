@@ -1,7 +1,7 @@
 {
   "name": "Street Mantis Blades",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/street-mantis-blades.webp",
   "system": {
     "description": "<p>Cyber Cost: 2</p><p>This implant counts as a Primary Weapon which is always equipped: Finesse, Melee, d8+5 physical. Pounce: When you move into Melee range before attacking, add 1d6 to the damage roll. On a roll with Hope, the target is temporarily Restrained.</p>",
     "actions": {
@@ -78,7 +78,7 @@
           "damageMod": "none"
         },
         "name": "Street Mantis Blades",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/street-mantis-blades.webp",
         "range": "melee",
         "baseAction": false,
         "originItem": {
@@ -126,7 +126,10 @@
       "deployment": {
         "logicalKey": "cyberware:street-mantis-blades",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/street-mantis-blades.webp"
       }
     }
   },

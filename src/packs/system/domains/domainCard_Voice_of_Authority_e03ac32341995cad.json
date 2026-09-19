@@ -1,7 +1,7 @@
 {
   "name": "Voice of Authority",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/voice-of-authority.webp",
   "system": {
     "description": "<p>You speak with unmatched confidence, command presence, or cultivated authority. You have advantage on action rolls to de-escalate violent situations or convince someone to follow your lead.<br>Additionally, you’re emboldened in moments of duress. When all of your Stress are marked, you gain a +1 bonus to your Proficiency for damage rolls.</p>",
     "level": 3,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Voice of Authority",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/voice-of-authority.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:voice-of-authority",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/voice-of-authority.webp"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "name": "Blood and Chrome",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/blood-and-chrome.webp",
   "system": {
     "description": "<p>When you critically succeed ona<br>weapon attack, gain an additional Hope<br>or clear an additional Stress.<br>Additionally, when you deal enough<br>damage to defeat an enemy, gain a<br>Hope or clear a Stress.<br>CHROME</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Blood and Chrome",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/blood-and-chrome.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:blood-and-chrome",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/blood-and-chrome.webp"
       }
     }
   },

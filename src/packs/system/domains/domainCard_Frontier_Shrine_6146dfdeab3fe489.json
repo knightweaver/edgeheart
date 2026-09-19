@@ -1,7 +1,7 @@
 {
   "name": "Frontier Shrine",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/frontier/frontier-shrine.webp",
   "system": {
     "description": "<p>After a long rest, place a number of tokens equal to the number of Frontier domain cards in your loadout and vault on this card.<br>When you would make an Interface Roll, you can spend any number of tokens after the roll to gain a +1 bonus for each token spent.<br>When you critically succeed on an Interface Roll for a Frontier protocol, gain a token.<br>When you take a long rest, clear all unspent tokens.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Frontier Shrine",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/frontier/frontier-shrine.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:frontier:frontier-shrine",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/frontier/frontier-shrine.webp"
       }
     }
   },

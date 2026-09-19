@@ -1,7 +1,7 @@
 {
   "name": "Corpo-Raised",
   "type": "ancestry",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/life-paths/corpo-raised.webp",
   "system": {
     "description": "<p>You were raised inside corporate structure. You understand polished violence, contracts, etiquette, artificial comfort, and the language of people who believe they own the future.</p><h4>LIFE PATH FEATURES</h4><p><em><strong>Corporate Design:</strong></em> Choose one of your Experiences tied to corporate training, education, etiquette, security, finance, or bureaucracy. Gain a permanent +1 bonus to it.</p><p><em><strong>Efficient Routine:</strong></em> When you take a short rest, you can choose one long rest move instead of one short rest move.</p>",
     "features": [
@@ -33,7 +33,10 @@
       "deployment": {
         "logicalKey": "ancestry:corpo-raised",
         "sourceBuildStep": 4,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/life-paths/corpo-raised.webp"
       }
     }
   },

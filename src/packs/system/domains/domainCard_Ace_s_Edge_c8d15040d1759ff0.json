@@ -1,7 +1,7 @@
 {
   "name": "Ace's Edge",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/assault/ace-s-edge.webp",
   "system": {
     "description": "<p>When you critically succeed on an E<br>attack, you can spend up to 3 Hope and<br>choose one of the following options for<br>each Hope spent:<br>• You clear a Hit Point.<br>• You clear an Armor Slot.<br>• The target must mark an additional<br>Hit Point. E<br>You can’t choose the same option more<br>than once.</p>",
     "level": 5,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Ace's Edge",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/assault/ace-s-edge.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:assault:ace-s-edge",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/assault/ace-s-edge.webp"
       }
     }
   },

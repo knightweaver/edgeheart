@@ -1,7 +1,7 @@
 {
   "name": "Blackwall Manifestation",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/blackwall/blackwall-manifestation.webp",
   "system": {
     "description": "<p>Make an Interface Roll (13). Ona<br>success, you force a fragment of the<br>Blackwall to manifest between two<br>points within Far range as a corrupted<br>digital wall spilling into physical space.<br>It does not appear as a solid wall, but<br>as a violent fracture of static, hostile<br>code, and AI corruption expressed<br>through the surrounding environment.<br>This lasts until you mark your next HP.<br>Any creature inside the wall when it<br>appears, or that passes through it,<br>marks 2 Stress, then must succeed a<br>Reaction Roll (26) or are Restrained.</p>",
     "level": 7,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Blackwall Manifestation",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/blackwall/blackwall-manifestation.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:blackwall:blackwall-manifestation",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/blackwall/blackwall-manifestation.webp"
       }
     }
   },

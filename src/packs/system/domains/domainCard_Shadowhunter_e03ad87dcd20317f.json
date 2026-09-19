@@ -1,7 +1,7 @@
 {
   "name": "Shadowhunter",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/ghost/shadowhunter.webp",
   "system": {
     "description": "<p>Your combat systems, instincts, and<br>assassination training are at their best<br>under low visibility.<br>While you’re shrouded in low light,<br>darkness, smoke, heavy rain, dense<br>fog, crowd cover, or visual interference,<br>you gain a +1 bonus to your Evasion<br>and make attack rolls with advantage.</p>",
     "level": 8,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Shadowhunter",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/ghost/shadowhunter.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:ghost:shadowhunter",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/ghost/shadowhunter.webp"
       }
     }
   },

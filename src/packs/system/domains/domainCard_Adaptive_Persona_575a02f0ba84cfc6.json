@@ -1,7 +1,7 @@
 {
   "name": "Adaptive Persona",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/influence/adaptive-persona.webp",
   "system": {
     "description": "<p>Once per long rest, this card can mimic the features of another domain card of level 8 or lower in another player’s loadout.<br>Spend Hope equal to half the card’s level to gain access to the feature. It lasts until your next rest or they place the card in their vault.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Adaptive Persona",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/influence/adaptive-persona.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:influence:adaptive-persona",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/influence/adaptive-persona.webp"
       }
     }
   },

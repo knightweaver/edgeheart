@@ -1,7 +1,7 @@
 {
   "name": "Berserk Kernel - Overclock Charge",
   "type": "feature",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/edgeheart/assets/icons/cyberware/berserk-kernel-overclock-charge.webp",
   "system": {
     "description": "<p>Cyber Cost: 4</p><p>Gain Full Access to Redline. When you roll with Hope using a Redline card, gain 1 Overclock Charge, max 3. Before a damage roll, spend any Overclock Charges to add 1d12 per Charge spent. If you spend 3 Charges and the attack succeeds, you may immediately make a weapon attack as a reaction, then mark 2 Stress.</p>",
     "actions": {
@@ -25,7 +25,7 @@
           "amount": null
         },
         "name": "Berserk Kernel - Overclock Charge",
-        "img": "icons/svg/upgrade.svg",
+        "img": "modules/edgeheart/assets/icons/cyberware/berserk-kernel-overclock-charge.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -64,7 +64,10 @@
       "deployment": {
         "logicalKey": "cyberware:berserk-kernel-overclock-charge",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/cyberware/berserk-kernel-overclock-charge.webp"
       }
     }
   },

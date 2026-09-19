@@ -1,7 +1,7 @@
 {
   "name": "Hold the Line",
   "type": "domainCard",
-  "img": "icons/svg/book.svg",
+  "img": "modules/edgeheart/assets/icons/domains/aegis/hold-the-line.webp",
   "system": {
     "description": "<p>Describe the defensive stance you take and spend a Hope. If an adversary moves within Very Close range, they’re pulled into Melee range and Restrained.<br>This condition lasts until you move, fail a roll with Fear, or the GM spends 2 Fear on their turn to clear it.</p>",
     "level": 9,
@@ -30,7 +30,7 @@
           "amount": null
         },
         "name": "Hold the Line",
-        "img": "icons/svg/book.svg",
+        "img": "modules/edgeheart/assets/icons/domains/aegis/hold-the-line.webp",
         "range": "",
         "baseAction": false,
         "originItem": {
@@ -73,7 +73,10 @@
       "deployment": {
         "logicalKey": "domainCard:aegis:hold-the-line",
         "sourceBuildStep": 3,
-        "referencesResolved": true
+        "referencesResolved": true,
+        "assetBuildStep": 6,
+        "assetPathRewritten": true,
+        "primaryAssetPath": "modules/edgeheart/assets/icons/domains/aegis/hold-the-line.webp"
       }
     }
   },
