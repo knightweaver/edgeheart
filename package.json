@@ -13,7 +13,8 @@
     "build:sources": "python tools/build-source-packs.py",
     "validate:sources": "python tools/validate-source-packs.py",
     "resolve:references": "python tools/resolve-source-references.py",
-    "validate:references": "python tools/validate-resolved-references.py"
+    "validate:references": "python tools/validate-resolved-references.py",
+    "validate:competencies": "node tools/validate-competency-registration.mjs"
   },
   "repository": {
     "type": "git",
