@@ -1,0 +1,97 @@
+{
+  "name": "Luxurious Coat",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>First Impression: Once per scene, choose one creature. They must treat you as important, dangerous, wealthy, or worth listening to until proven otherwise.</p>",
+    "actions": {
+      "904c4f4835911156": {
+        "type": "effect",
+        "_id": "904c4f4835911156",
+        "systemPath": "actions",
+        "description": "<p>Once per scene, choose one creature. They must treat you as important, dangerous, wealthy, or worth listening to until proven otherwise.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "First Impression",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "baseScore": 3,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 7,
+      "severe": 16
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-luxurious-coat",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 35,
+        "pageEnd": 35,
+        "entityType": "armor",
+        "slug": "luxurious-coat",
+        "featureNames": [
+          "First Impression"
+        ]
+      },
+      "validationExpected": {
+        "name": "Luxurious Coat",
+        "type": "armor",
+        "system.tier": 2,
+        "system.baseScore": 3,
+        "system.baseThresholds.major": 7,
+        "system.baseThresholds.severe": 16,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:luxurious-coat",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0e9bb6a9a3b3370c",
+  "folder": "f2396412f668609d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0e9bb6a9a3b3370c"
+}

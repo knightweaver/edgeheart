@@ -1,0 +1,96 @@
+{
+  "name": "Assault-Synced",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Assault<br>Competency, gain the following:<br>• +2 bonus to your attack rolls.<br>• +4 bonus to your Severe damage<br>threshold.</p>",
+    "level": 7,
+    "domain": "assault",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "13a029a733180a47": {
+        "type": "effect",
+        "_id": "13a029a733180a47",
+        "systemPath": "actions",
+        "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Assault<br>Competency, gain the following:<br>• +2 bonus to your attack rolls.<br>• +4 bonus to your Severe damage<br>threshold.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Assault-Synced",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Assault:assault-synced",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 69,
+        "pageEnd": 69,
+        "entityType": "competencyCard",
+        "slug": "assault-synced",
+        "competency": "Assault",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "assault"
+        }
+      ],
+      "validationExpected": {
+        "name": "Assault-Synced",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "assault",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:assault:assault-synced",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "b0c8c1a69825d8f6",
+  "folder": "2fbc1978e7cee0dd",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b0c8c1a69825d8f6"
+}

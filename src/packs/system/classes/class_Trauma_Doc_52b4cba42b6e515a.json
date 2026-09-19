@@ -1,0 +1,63 @@
+{
+  "name": "Trauma Doc",
+  "type": "class",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Trauma Docs are field medics, black-clinic surgeons, and cyberware miracle workers who know how to keep people alive when the world has already decided they should be dead.</p>",
+    "domains": [],
+    "classItems": [],
+    "hitPoints": 5,
+    "evasion": 10,
+    "features": [
+      {
+        "type": "hope",
+        "ref": "feature:trauma-doc:stay-with-me"
+      },
+      {
+        "type": "class",
+        "ref": "feature:trauma-doc:emergency-medicine"
+      }
+    ],
+    "subclasses": [],
+    "isMulticlass": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "class:trauma-doc",
+      "source": {
+        "entityType": "class",
+        "slug": "trauma-doc",
+        "competency": "Medtech",
+        "classItems": [
+          "A trauma kit full of illegal pharmaceuticals and tools, or a bloodstained patient tag from someone you could not save."
+        ]
+      },
+      "pendingDomainMapping": [
+        "medtech"
+      ],
+      "deployment": {
+        "logicalKey": "class:trauma-doc",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "52b4cba42b6e515a",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!52b4cba42b6e515a"
+}

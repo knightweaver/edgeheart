@@ -1,0 +1,81 @@
+{
+  "name": "Smoke Canister",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Fill an area within Close range with smoke. Creatures inside can become Hidden if the fiction allows it.</p>",
+    "quantity": 1,
+    "actions": {
+      "bac72024abe99f71": {
+        "type": "effect",
+        "_id": "bac72024abe99f71",
+        "systemPath": "actions",
+        "description": "<p>Fill an area within Close range with smoke. Creatures inside can become Hidden if the fiction allows it.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Smoke Canister",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:smoke-canister",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 39,
+        "pageEnd": 39,
+        "entityType": "consumable",
+        "slug": "smoke-canister",
+        "roll": 7
+      },
+      "validationExpected": {
+        "name": "Smoke Canister",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:smoke-canister",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "345a29ec2349030c",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!345a29ec2349030c"
+}

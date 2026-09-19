@@ -1,0 +1,72 @@
+{
+  "name": "Emergency Medicine",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you have a moment to treat a creature within Melee range, make an Interface Roll (12). On a success, choose one:<br>• The target clears 1 Stress.<br>• The target clears a temporary physical condition, such as Vulnerable, or Restrained.<br>• The target stabilizes a damaged implant, life-support system, or cyberware component until their next rest.</p><p>Once per rest, when you succeed on this roll, the target can clear 1 Hit Point in addition of choosing one of the effects above. A creature can clear a Hit Point from Emergency Medicine only once per rest.</p>",
+    "actions": {
+      "ba0c4c550bbfbfe5": {
+        "type": "effect",
+        "_id": "ba0c4c550bbfbfe5",
+        "systemPath": "actions",
+        "description": "<p>When you have a moment to treat a creature within Melee range, make an Interface Roll (12). On a success, choose one:<br>• The target clears 1 Stress.<br>• The target clears a temporary physical condition, such as Vulnerable, or Restrained.<br>• The target stabilizes a damaged implant, life-support system, or cyberware component until their next rest.</p><p>Once per rest, when you succeed on this roll, the target can clear 1 Hit Point in addition of choosing one of the effects above. A creature can clear a Hit Point from Emergency Medicine only once per rest.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Emergency Medicine",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:trauma-doc:emergency-medicine",
+      "source": {
+        "featureStage": "class",
+        "sourcePage": 25
+      },
+      "deployment": {
+        "logicalKey": "feature:trauma-doc:emergency-medicine",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0ee01b6ba54a8581",
+  "folder": "32883832e74e5eed",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0ee01b6ba54a8581"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "ebb501fd45844a0e",
+  "name": "Shock Trooper",
+  "color": null,
+  "sorting": "a",
+  "_id": "8fcd9eba8917e1d9",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:features:subclass-shock-trooper",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!8fcd9eba8917e1d9"
+}

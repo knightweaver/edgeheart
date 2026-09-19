@@ -1,0 +1,96 @@
+{
+  "name": "Shockwave Slam",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Spend 2 Hope to strike the ground<br>where you stand using a kinetic<br>hammer, gravity boot, hydraulic fist,<br>shield piston, exo-frame impact<br>system, or reinforced body slam.<br>Make a Strength Roll against all targets<br>within Very Close range. Targets you<br>succeed against are thrown back to Far<br>range and must make a Reaction Roll<br>(17).<br>Targets who fail take 4d10+8 impact<br>damage. Targets who succeed take half<br>damage.</p>",
+    "level": 8,
+    "domain": "aegis",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "8cc61d813bb94159": {
+        "type": "effect",
+        "_id": "8cc61d813bb94159",
+        "systemPath": "actions",
+        "description": "<p>Spend 2 Hope to strike the ground<br>where you stand using a kinetic<br>hammer, gravity boot, hydraulic fist,<br>shield piston, exo-frame impact<br>system, or reinforced body slam.<br>Make a Strength Roll against all targets<br>within Very Close range. Targets you<br>succeed against are thrown back to Far<br>range and must make a Reaction Roll<br>(17).<br>Targets who fail take 4d10+8 impact<br>damage. Targets who succeed take half<br>damage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Shockwave Slam",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Aegis:shockwave-slam",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 85,
+        "pageEnd": 85,
+        "entityType": "competencyCard",
+        "slug": "shockwave-slam",
+        "competency": "Aegis",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "aegis"
+        }
+      ],
+      "validationExpected": {
+        "name": "Shockwave Slam",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "aegis",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:aegis:shockwave-slam",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "29c79a8784cf0bf8",
+  "folder": "bd1a7bbab69f9bd8",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!29c79a8784cf0bf8"
+}

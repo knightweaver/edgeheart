@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "216490cef1e420a4",
+  "name": "Level 1",
+  "color": null,
+  "sorting": "a",
+  "_id": "e3c4c5c64f1a8d2d",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-assault-level-1",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!e3c4c5c64f1a8d2d"
+}

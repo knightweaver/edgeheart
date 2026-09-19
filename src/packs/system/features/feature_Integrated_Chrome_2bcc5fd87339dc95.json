@@ -1,0 +1,72 @@
+{
+  "name": "Integrated Chrome",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Your cyberware is fully integrated into your nervous system. When you finish a rest, choose Agility, Strength, or Finesse as your Calibrated Trait. When you make an action roll using your Calibrated Trait or use a Chrome card, you can mark a Stress to roll a d6 and add its result to the roll. Additionally, when you roll your Humanity Die to resist Cyberpsychosis, treat your Cyber Load as 1 lower, to a minimum of 0.</p>",
+    "actions": {
+      "d7f206a3ad29509e": {
+        "type": "effect",
+        "_id": "d7f206a3ad29509e",
+        "systemPath": "actions",
+        "description": "<p>Your cyberware is fully integrated into your nervous system. When you finish a rest, choose Agility, Strength, or Finesse as your Calibrated Trait. When you make an action roll using your Calibrated Trait or use a Chrome card, you can mark a Stress to roll a d6 and add its result to the roll. Additionally, when you roll your Humanity Die to resist Cyberpsychosis, treat your Cyber Load as 1 lower, to a minimum of 0.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Integrated Chrome",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:augmented:integrated-chrome",
+      "source": {
+        "featureStage": "class",
+        "sourcePage": 17
+      },
+      "deployment": {
+        "logicalKey": "feature:augmented:integrated-chrome",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2bcc5fd87339dc95",
+  "folder": "05c81a05016f1e41",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2bcc5fd87339dc95"
+}

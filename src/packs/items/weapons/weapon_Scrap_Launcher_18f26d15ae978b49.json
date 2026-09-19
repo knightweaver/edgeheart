@@ -1,0 +1,173 @@
+{
+  "name": "Scrap Launcher",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Junkshot: On a roll with Fear, the target takes 1d6 damage and the weapon becomes jammed until you mark a Stress to clear it.</p>",
+    "tier": 1,
+    "equipped": false,
+    "secondary": false,
+    "burden": "twoHanded",
+    "attack": {
+      "name": "Attack",
+      "img": "icons/svg/item-bag.svg",
+      "systemPath": "attack",
+      "type": "attack",
+      "range": "close",
+      "target": {
+        "type": "any",
+        "amount": 1
+      },
+      "roll": {
+        "trait": "knowledge",
+        "type": "attack",
+        "difficulty": null,
+        "bonus": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "damage": {
+        "parts": [
+          {
+            "value": {
+              "dice": "d8",
+              "bonus": 1,
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "type": [
+              "physical"
+            ],
+            "applyTo": "hitPoints",
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        ],
+        "includeBase": false
+      },
+      "chatDisplay": true,
+      "actionType": "action",
+      "_id": "39fb099c26ab6c77",
+      "description": "",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      }
+    },
+    "actions": {
+      "0e70aa1c389f078d": {
+        "type": "effect",
+        "_id": "0e70aa1c389f078d",
+        "systemPath": "actions",
+        "description": "<p>On a roll with Fear, the target takes 1d6 damage and the weapon becomes jammed until you mark a Stress to clear it.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Junkshot",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "weaponFeatures": [],
+    "rules": {
+      "attack": {
+        "roll": {
+          "trait": null
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-weapon-scrap-launcher",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 31,
+        "pageEnd": 31,
+        "entityType": "weapon",
+        "slug": "scrap-launcher"
+      },
+      "validationExpected": {
+        "name": "Scrap Launcher",
+        "type": "weapon",
+        "system.tier": 1,
+        "system.secondary": false,
+        "system.burden": "twoHanded",
+        "system.attack.range": "close",
+        "system.attack.roll.trait": "knowledge",
+        "system.attack.damage.parts.0.value.dice": "d8",
+        "system.attack.damage.parts.0.value.bonus": 1
+      },
+      "deployment": {
+        "logicalKey": "weapon:scrap-launcher",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "18f26d15ae978b49",
+  "folder": "31cbb4321fa6a524",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!18f26d15ae978b49"
+}

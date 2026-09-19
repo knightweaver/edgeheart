@@ -1,0 +1,81 @@
+{
+  "name": "Patch Plate",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Immediately clear 1 Armor Slot from yourself, an ally within Melee range, or a Damaged vehicle.</p>",
+    "quantity": 1,
+    "actions": {
+      "a22d194be8961351": {
+        "type": "effect",
+        "_id": "a22d194be8961351",
+        "systemPath": "actions",
+        "description": "<p>Immediately clear 1 Armor Slot from yourself, an ally within Melee range, or a Damaged vehicle.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Patch Plate",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:patch-plate",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 40,
+        "pageEnd": 40,
+        "entityType": "consumable",
+        "slug": "patch-plate",
+        "roll": 30
+      },
+      "validationExpected": {
+        "name": "Patch Plate",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:patch-plate",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ebafe71343ab706c",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ebafe71343ab706c"
+}

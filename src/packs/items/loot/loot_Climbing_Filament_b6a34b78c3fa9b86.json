@@ -1,0 +1,80 @@
+{
+  "name": "Climbing Filament",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>You gain advantage on rolls to climb, descend, or secure on vertical surfaces.</p>",
+    "quantity": 1,
+    "actions": {
+      "f155648bc22e48b9": {
+        "type": "effect",
+        "_id": "f155648bc22e48b9",
+        "systemPath": "actions",
+        "description": "<p>You gain advantage on rolls to climb, descend, or secure on vertical surfaces.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Climbing Filament",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:climbing-filament",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 37,
+        "pageEnd": 37,
+        "entityType": "loot",
+        "slug": "climbing-filament",
+        "roll": 6
+      },
+      "validationExpected": {
+        "name": "Climbing Filament",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:climbing-filament",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "b6a34b78c3fa9b86",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b6a34b78c3fa9b86"
+}

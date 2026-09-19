@@ -1,0 +1,96 @@
+{
+  "name": "Corruption Spike",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, the<br>target takes d6 techno damage using<br>your Proficiency as a corrupted signal,<br>Black ICE packet, or hostile daemon<br>tears through their system.<br>The next time the target deals damage,<br>that damage is reduced by 1d6.<br>On a success with Fear, the target<br>instead takes d10 techno damage using<br>your Proficiency.</p>",
+    "level": 1,
+    "domain": "blackwall",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "cf4a7b958dcf06ae": {
+        "type": "effect",
+        "_id": "cf4a7b958dcf06ae",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, the<br>target takes d6 techno damage using<br>your Proficiency as a corrupted signal,<br>Black ICE packet, or hostile daemon<br>tears through their system.<br>The next time the target deals damage,<br>that damage is reduced by 1d6.<br>On a success with Fear, the target<br>instead takes d10 techno damage using<br>your Proficiency.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Corruption Spike",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:corruption-spike",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 88,
+        "pageEnd": 88,
+        "entityType": "competencyCard",
+        "slug": "corruption-spike",
+        "competency": "Blackwall",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "Corruption Spike",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "blackwall",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:corruption-spike",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e2952457e6222c9c",
+  "folder": "f8981f4eb95522f0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e2952457e6222c9c"
+}

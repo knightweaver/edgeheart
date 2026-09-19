@@ -1,0 +1,72 @@
+{
+  "name": "Unbreakable Frame",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, when you mark an Armor Slot, you can activate your full defensive rig until the scene ends or you mark your last Armor Slot. While this feature is active, when you mark an Armor Slot, choose one:<br>• Clear 1 Stress.<br>• Force the attacker to mark 1 Stress.<br>• One ally within Very Close range gains a +1 bonus to Evasion until your next Spotlight.</p>",
+    "actions": {
+      "9cd761597638bb80": {
+        "type": "effect",
+        "_id": "9cd761597638bb80",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, when you mark an Armor Slot, you can activate your full defensive rig until the scene ends or you mark your last Armor Slot. While this feature is active, when you mark an Armor Slot, choose one:<br>• Clear 1 Stress.<br>• Force the attacker to mark 1 Stress.<br>• One ally within Very Close range gains a +1 bonus to Evasion until your next Spotlight.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Unbreakable Frame",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:bulwark:unbreakable-frame",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 27
+      },
+      "deployment": {
+        "logicalKey": "feature:bulwark:unbreakable-frame",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "25ba029eb11200cd",
+  "folder": "d2396cc3b2b31443",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!25ba029eb11200cd"
+}

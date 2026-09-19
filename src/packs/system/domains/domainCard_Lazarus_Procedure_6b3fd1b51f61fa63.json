@@ -1,0 +1,96 @@
+{
+  "name": "Lazarus Procedure",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (20) over the<br>body of a creature who died within the<br>current scene.<br>The body must still be mostly<br>recoverable, or there must be an intact<br>brain, neural core, cybernetic backup,<br>or vital implant you can work from.<br>On a success, restore the creature to<br>life using emergency surgery, synthetic<br>organs, neural rebooting, clone tissue,<br>or cybernetic replacement.<br>The restored creature clears all marked<br>HP, then marks 3 Stress. They return<br>alive, conscious, and stable, but<br>physically and psychologically shaken.<br>Until their next long rest, they are<br>temporarily Vulnerable and can’t<br>benefit from Lazarus Procedure again.<br>Then roll a d6. On a result of 5 or lower,<br>place this card in your vault<br>permanently.</p>",
+    "level": 10,
+    "domain": "medtech",
+    "recallCost": 3,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "e228e85f153911f5": {
+        "type": "effect",
+        "_id": "e228e85f153911f5",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (20) over the<br>body of a creature who died within the<br>current scene.<br>The body must still be mostly<br>recoverable, or there must be an intact<br>brain, neural core, cybernetic backup,<br>or vital implant you can work from.<br>On a success, restore the creature to<br>life using emergency surgery, synthetic<br>organs, neural rebooting, clone tissue,<br>or cybernetic replacement.<br>The restored creature clears all marked<br>HP, then marks 3 Stress. They return<br>alive, conscious, and stable, but<br>physically and psychologically shaken.<br>Until their next long rest, they are<br>temporarily Vulnerable and can’t<br>benefit from Lazarus Procedure again.<br>Then roll a d6. On a result of 5 or lower,<br>place this card in your vault<br>permanently.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Lazarus Procedure",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:lazarus-procedure",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 83,
+        "pageEnd": 83,
+        "entityType": "competencyCard",
+        "slug": "lazarus-procedure",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Lazarus Procedure",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "medtech",
+        "system.recallCost": 3,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:lazarus-procedure",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6b3fd1b51f61fa63",
+  "folder": "f8c10bae3aee0f52",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6b3fd1b51f61fa63"
+}

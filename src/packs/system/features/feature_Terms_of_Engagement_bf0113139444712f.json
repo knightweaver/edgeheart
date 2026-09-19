@@ -1,0 +1,72 @@
+{
+  "name": "Terms of Engagement",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you succeed on a Presence Roll or Influence card against a creature or group, choose one:<br>• Pressure: One affected target marks 1 Stress.<br>• Opening: The next action roll made by you or an ally against one affected target gains a +2 bonus.<br>• Reassurance: You or an ally within Close range clears 1 Stress.</p><p>On a success with Hope, you can mark a Stress to choose one additional option.</p>",
+    "actions": {
+      "3c9f22d3675ac37c": {
+        "type": "effect",
+        "_id": "3c9f22d3675ac37c",
+        "systemPath": "actions",
+        "description": "<p>When you succeed on a Presence Roll or Influence card against a creature or group, choose one:<br>• Pressure: One affected target marks 1 Stress.<br>• Opening: The next action roll made by you or an ally against one affected target gains a +2 bonus.<br>• Reassurance: You or an ally within Close range clears 1 Stress.</p><p>On a success with Hope, you can mark a Stress to choose one additional option.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Terms of Engagement",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:broker:terms-of-engagement",
+      "source": {
+        "featureStage": "class",
+        "sourcePage": 21
+      },
+      "deployment": {
+        "logicalKey": "feature:broker:terms-of-engagement",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "bf0113139444712f",
+  "folder": "59287ec1ff48d6f2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!bf0113139444712f"
+}

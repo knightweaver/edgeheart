@@ -1,0 +1,72 @@
+{
+  "name": "Accelerated Loop",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, you can push your reflexware into full acceleration. Until the scene ends or you take Severe damage, the first time each Spotlight that you use Integrated Chrome on a successful Agility or Finesse Roll, you can clear a Stress or immediately move within Very Close range.</p>",
+    "actions": {
+      "2cba01c89427b5fe": {
+        "type": "effect",
+        "_id": "2cba01c89427b5fe",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, you can push your reflexware into full acceleration. Until the scene ends or you take Severe damage, the first time each Spotlight that you use Integrated Chrome on a successful Agility or Finesse Roll, you can clear a Stress or immediately move within Very Close range.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Accelerated Loop",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:reflex-suite:accelerated-loop",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 17
+      },
+      "deployment": {
+        "logicalKey": "feature:reflex-suite:accelerated-loop",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e434fd30106b7244",
+  "folder": "1e25616ff33ab6c6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e434fd30106b7244"
+}

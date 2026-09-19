@@ -1,0 +1,59 @@
+{
+  "name": "Icon",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as an Icon if you want to weaponize reputation, performance, fame, fear, propaganda, and public perception.</p>",
+    "spellcastingTrait": "presence",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:icon:public-persona"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:icon:live-feed"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:icon:living-brand"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:broker"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:icon",
+      "source": {
+        "entityType": "subclass",
+        "slug": "icon",
+        "parentClass": "Broker"
+      },
+      "deployment": {
+        "logicalKey": "subclass:icon",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "4d906afbfb11deee",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4d906afbfb11deee"
+}

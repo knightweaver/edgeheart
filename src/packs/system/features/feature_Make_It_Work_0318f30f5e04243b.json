@@ -1,0 +1,72 @@
+{
+  "name": "Make It Work",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Spend 3 Hope after you or an ally within Close range fails an action roll using a device, weapon, or Systems card. Describe your emergency fix, then the target can reroll their Duality Dice and use the new result.</p>",
+    "actions": {
+      "723bfb0e049b65b3": {
+        "type": "effect",
+        "_id": "723bfb0e049b65b3",
+        "systemPath": "actions",
+        "description": "<p>Spend 3 Hope after you or an ally within Close range fails an action roll using a device, weapon, or Systems card. Describe your emergency fix, then the target can reroll their Duality Dice and use the new result.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Make It Work",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:tech:make-it-work",
+      "source": {
+        "featureStage": "hope",
+        "sourcePage": 19
+      },
+      "deployment": {
+        "logicalKey": "feature:tech:make-it-work",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0318f30f5e04243b",
+  "folder": "b960adfceda6d47b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0318f30f5e04243b"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Smooth Operator",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Spend a Hope to gain advantage ona<br>roll to deceive, mislead, bluff, trick, or<br>convince someone into believing a lie<br>you tell them.</p>",
+    "level": 1,
+    "domain": "influence",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "74527d56d8bd86fe": {
+        "type": "effect",
+        "_id": "74527d56d8bd86fe",
+        "systemPath": "actions",
+        "description": "<p>Spend a Hope to gain advantage ona<br>roll to deceive, mislead, bluff, trick, or<br>convince someone into believing a lie<br>you tell them.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Smooth Operator",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:smooth-operator",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 75,
+        "pageEnd": 75,
+        "entityType": "competencyCard",
+        "slug": "smooth-operator",
+        "competency": "Influence",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Smooth Operator",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "influence",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:smooth-operator",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "599765bb52946d1d",
+  "folder": "a4cf6f087f960110",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!599765bb52946d1d"
+}

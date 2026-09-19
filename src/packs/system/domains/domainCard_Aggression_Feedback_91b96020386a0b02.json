@@ -1,0 +1,96 @@
+{
+  "name": "Aggression Feedback",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you deal damage to a creature,<br>mark a Stress to lock their threat<br>profile into your Redline system.<br>Until this feedback ends, your combat<br>implants, adrenal processors, pain<br>editor, and aggression software remain<br>fixated on the target. You always know<br>the direction of it relative to you.<br>Additionally, each time that creature<br>deals damage to you or an ally within<br>Very Close range of you, your Redline<br>system fires a hostile feedback spike<br>back through the link, forcing them to<br>mark a Stress.<br>This feedback ends when you use this<br>protocol again.</p>",
+    "level": 2,
+    "domain": "redline",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "5d0811d5a344cbed": {
+        "type": "effect",
+        "_id": "5d0811d5a344cbed",
+        "systemPath": "actions",
+        "description": "<p>When you deal damage to a creature,<br>mark a Stress to lock their threat<br>profile into your Redline system.<br>Until this feedback ends, your combat<br>implants, adrenal processors, pain<br>editor, and aggression software remain<br>fixated on the target. You always know<br>the direction of it relative to you.<br>Additionally, each time that creature<br>deals damage to you or an ally within<br>Very Close range of you, your Redline<br>system fires a hostile feedback spike<br>back through the link, forcing them to<br>mark a Stress.<br>This feedback ends when you use this<br>protocol again.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Aggression Feedback",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:aggression-feedback",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 86,
+        "pageEnd": 86,
+        "entityType": "competencyCard",
+        "slug": "aggression-feedback",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Aggression Feedback",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "redline",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:aggression-feedback",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "91b96020386a0b02",
+  "folder": "bf42abe165565e1a",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!91b96020386a0b02"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "EMP Charge",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a connected device, drone, vehicle, or cyberware-linked target within Close range. On a success, it marks 1 Stress or becomes briefly disabled.</p>",
+    "quantity": 1,
+    "actions": {
+      "63bac14433ee9991": {
+        "type": "effect",
+        "_id": "63bac14433ee9991",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a connected device, drone, vehicle, or cyberware-linked target within Close range. On a success, it marks 1 Stress or becomes briefly disabled.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "EMP Charge",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:emp-charge",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 39,
+        "pageEnd": 39,
+        "entityType": "consumable",
+        "slug": "emp-charge",
+        "roll": 8
+      },
+      "validationExpected": {
+        "name": "EMP Charge",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:emp-charge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "5552c333b398a09e",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5552c333b398a09e"
+}

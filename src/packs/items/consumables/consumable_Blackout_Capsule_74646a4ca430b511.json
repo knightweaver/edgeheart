@@ -1,0 +1,81 @@
+{
+  "name": "Blackout Capsule",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Disable lights, simple cameras, cheap sensors, and unsecured displays within Close range until your next Spotlight.</p>",
+    "quantity": 1,
+    "actions": {
+      "d8cc4d650f93c518": {
+        "type": "effect",
+        "_id": "d8cc4d650f93c518",
+        "systemPath": "actions",
+        "description": "<p>Disable lights, simple cameras, cheap sensors, and unsecured displays within Close range until your next Spotlight.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Blackout Capsule",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:blackout-capsule",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 40,
+        "pageEnd": 40,
+        "entityType": "consumable",
+        "slug": "blackout-capsule",
+        "roll": 33
+      },
+      "validationExpected": {
+        "name": "Blackout Capsule",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:blackout-capsule",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "74646a4ca430b511",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!74646a4ca430b511"
+}

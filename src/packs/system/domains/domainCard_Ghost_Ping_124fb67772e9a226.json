@@ -1,0 +1,96 @@
+{
+  "name": "Ghost Ping",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Spend a Hope to release a hidden<br>signal spider into a network that you<br>can move anywhere within Very Far<br>range.<br>While this protocol is active, you may<br>see or hear through one connected<br>: device or feed inside that network as<br>though you were there. You can<br>transition between using your own<br>senses and seeing through the orb<br>freely.<br>If the network is severed, purged, fully<br>offline, or protected by a stronger<br>hostile system, this protocol ends.</p>",
+    "level": 2,
+    "domain": "network",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "442d63ea8b39563d": {
+        "type": "effect",
+        "_id": "442d63ea8b39563d",
+        "systemPath": "actions",
+        "description": "<p>Spend a Hope to release a hidden<br>signal spider into a network that you<br>can move anywhere within Very Far<br>range.<br>While this protocol is active, you may<br>see or hear through one connected<br>: device or feed inside that network as<br>though you were there. You can<br>transition between using your own<br>senses and seeing through the orb<br>freely.<br>If the network is severed, purged, fully<br>offline, or protected by a stronger<br>hostile system, this protocol ends.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Ghost Ping",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Network:ghost-ping",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 67,
+        "pageEnd": 67,
+        "entityType": "competencyCard",
+        "slug": "ghost-ping",
+        "competency": "Network",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "network"
+        }
+      ],
+      "validationExpected": {
+        "name": "Ghost Ping",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "network",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:network:ghost-ping",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "124fb67772e9a226",
+  "folder": "0b14e5ce689973b8",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!124fb67772e9a226"
+}

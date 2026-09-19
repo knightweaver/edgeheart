@@ -1,0 +1,72 @@
+{
+  "name": "Bad Medicine",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per rest, when you succeed on a Medtech card, weapon attack, or Interface Roll against an adversary within Close range, you can turn your medical expertise against them. The target marks 1 Stress. The next time that target deals damage, reduce the damage by 1 Hit Point.</p>",
+    "actions": {
+      "f6dccef7746318e2": {
+        "type": "effect",
+        "_id": "f6dccef7746318e2",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, when you succeed on a Medtech card, weapon attack, or Interface Roll against an adversary within Close range, you can turn your medical expertise against them. The target marks 1 Stress. The next time that target deals damage, reduce the damage by 1 Hit Point.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Bad Medicine",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:street-surgeon:bad-medicine",
+      "source": {
+        "featureStage": "specialization",
+        "sourcePage": 26
+      },
+      "deployment": {
+        "logicalKey": "feature:street-surgeon:bad-medicine",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "3e64e085944ea297",
+  "folder": "56774260e8461d6b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3e64e085944ea297"
+}

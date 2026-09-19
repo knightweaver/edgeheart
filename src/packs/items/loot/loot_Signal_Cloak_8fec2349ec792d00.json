@@ -1,0 +1,80 @@
+{
+  "name": "Signal Cloak",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Once per rest, when a drone, camera, or scanner would detect you, roll a d6. On 4+, it fails to notice you.</p>",
+    "quantity": 1,
+    "actions": {
+      "51b754cc9e827dd6": {
+        "type": "effect",
+        "_id": "51b754cc9e827dd6",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, when a drone, camera, or scanner would detect you, roll a d6. On 4+, it fails to notice you.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Signal Cloak",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:signal-cloak",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 37,
+        "pageEnd": 37,
+        "entityType": "loot",
+        "slug": "signal-cloak",
+        "roll": 19
+      },
+      "validationExpected": {
+        "name": "Signal Cloak",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:signal-cloak",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "8fec2349ec792d00",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8fec2349ec792d00"
+}

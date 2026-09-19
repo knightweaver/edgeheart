@@ -1,0 +1,96 @@
+{
+  "name": "Zone Suppression Array",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Choose one of the following<br>suppression modes and make an<br>Interface Roll against all targets within<br>Far range. Targets you succeed against<br>experience its effects until the GM<br>spends a Fear on their turn to end this<br>protocol.<br>1- Cryofoam Flood: You rupture cryo-<br>canisters, coolant lines, or emergency<br>suppression tanks across the zone.<br>Deal 2d20+8 techno damage and<br>targets are temporarily Vulnerable.<br>2- Vector Fan Grid: You activate<br>industrial fans, turbine drones,<br>pressure vents, traffic barriers, or<br>directional force engines. Deal 3d10+10<br>techno damage and choose a direction<br>the pressure is moving. Targets can’t<br>move against that direction.<br>3- Chaffstorm Screen: You flood the<br>zone with dust, chaff, smoke, scrap<br>particles, sensor noise, and hostile<br>visibility interference. Deal 5d6+9<br>techno damage. Attacks made from<br>beyond Melee range have<br>disadvantage.</p>",
+    "level": 10,
+    "domain": "frontier",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "656f10f87637d40a": {
+        "type": "effect",
+        "_id": "656f10f87637d40a",
+        "systemPath": "actions",
+        "description": "<p>Choose one of the following<br>suppression modes and make an<br>Interface Roll against all targets within<br>Far range. Targets you succeed against<br>experience its effects until the GM<br>spends a Fear on their turn to end this<br>protocol.<br>1- Cryofoam Flood: You rupture cryo-<br>canisters, coolant lines, or emergency<br>suppression tanks across the zone.<br>Deal 2d20+8 techno damage and<br>targets are temporarily Vulnerable.<br>2- Vector Fan Grid: You activate<br>industrial fans, turbine drones,<br>pressure vents, traffic barriers, or<br>directional force engines. Deal 3d10+10<br>techno damage and choose a direction<br>the pressure is moving. Targets can’t<br>move against that direction.<br>3- Chaffstorm Screen: You flood the<br>zone with dust, chaff, smoke, scrap<br>particles, sensor noise, and hostile<br>visibility interference. Deal 5d6+9<br>techno damage. Attacks made from<br>beyond Melee range have<br>disadvantage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Zone Suppression Array",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:zone-suppression-array",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 81,
+        "pageEnd": 81,
+        "entityType": "competencyCard",
+        "slug": "zone-suppression-array",
+        "competency": "Frontier",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Zone Suppression Array",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "frontier",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:zone-suppression-array",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "5d8bb3994169579a",
+  "folder": "20f65553bd1fe454",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5d8bb3994169579a"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Field Swarm",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Guardian Swarm: Mark a Stress to<br>release micro shield-drones that<br>encircle you. When you take damage,<br>reduce the severity by one threshold.<br>You can spend a Hope to keep the<br>swarm active after taking damage.<br>Razor Swarm: Make an Interface Roll<br>against all adversaries within Close<br>range. Spend a Hope to send the<br>swarm outward in a burst of micro-<br>drone impacts. Targets you succeeded</p>",
+    "level": 2,
+    "domain": "frontier",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "c48474ac8940a145": {
+        "type": "effect",
+        "_id": "c48474ac8940a145",
+        "systemPath": "actions",
+        "description": "<p>Guardian Swarm: Mark a Stress to<br>release micro shield-drones that<br>encircle you. When you take damage,<br>reduce the severity by one threshold.<br>You can spend a Hope to keep the<br>swarm active after taking damage.<br>Razor Swarm: Make an Interface Roll<br>against all adversaries within Close<br>range. Spend a Hope to send the<br>swarm outward in a burst of micro-<br>drone impacts. Targets you succeeded</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Field Swarm",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:field-swarm",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 79,
+        "pageEnd": 79,
+        "entityType": "competencyCard",
+        "slug": "field-swarm",
+        "competency": "Frontier",
+        "cardType": "Protocol Suite"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Field Swarm",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "frontier",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:field-swarm",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "cc9425484215c5a8",
+  "folder": "afab25cddf068ee1",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!cc9425484215c5a8"
+}

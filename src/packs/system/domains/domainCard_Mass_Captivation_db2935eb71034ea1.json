@@ -1,0 +1,96 @@
+{
+  "name": "Mass Captivation",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against all a<br>targets within Far range.<br>Targets you succeed against become<br>temporarily Captivated. While<br>Captivated, a target’s attention is fixed<br>on you, narrowing their field of view<br>and drowning out any sound but your<br>voice, broadcast, performance, or<br>projection.<br>Mark a Stress to force all Captivated<br>targets to mark a Stress, ending this<br>protocol.</p>",
+    "level": 8,
+    "domain": "influence",
+    "recallCost": 3,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "d4c56074d9c8e696": {
+        "type": "effect",
+        "_id": "d4c56074d9c8e696",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against all a<br>targets within Far range.<br>Targets you succeed against become<br>temporarily Captivated. While<br>Captivated, a target’s attention is fixed<br>on you, narrowing their field of view<br>and drowning out any sound but your<br>voice, broadcast, performance, or<br>projection.<br>Mark a Stress to force all Captivated<br>targets to mark a Stress, ending this<br>protocol.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mass Captivation",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:mass-captivation",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 76,
+        "pageEnd": 76,
+        "entityType": "competencyCard",
+        "slug": "mass-captivation",
+        "competency": "Influence",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Mass Captivation",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "influence",
+        "system.recallCost": 3,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:mass-captivation",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "db2935eb71034ea1",
+  "folder": "d72148e7935aa3f0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!db2935eb71034ea1"
+}

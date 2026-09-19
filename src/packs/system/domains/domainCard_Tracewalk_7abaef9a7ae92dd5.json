@@ -1,0 +1,96 @@
+{
+  "name": "Tracewalk",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Whenever you deal techno damage to a<br>target, you can mark a Stress to<br>immediately follow the trace and move<br>into Melee range with that creature.<br>This movement ignores difficult terrain<br>and environmental interference, but it<br>must follow a plausible physical, digital,<br>or tactical route through the scene.</p>",
+    "level": 6,
+    "domain": "blackwall",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "1c7d2496a2f68ffd": {
+        "type": "effect",
+        "_id": "1c7d2496a2f68ffd",
+        "systemPath": "actions",
+        "description": "<p>Whenever you deal techno damage to a<br>target, you can mark a Stress to<br>immediately follow the trace and move<br>into Melee range with that creature.<br>This movement ignores difficult terrain<br>and environmental interference, but it<br>must follow a plausible physical, digital,<br>or tactical route through the scene.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Tracewalk",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:tracewalk",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 89,
+        "pageEnd": 89,
+        "entityType": "competencyCard",
+        "slug": "tracewalk",
+        "competency": "Blackwall",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "Tracewalk",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "blackwall",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:tracewalk",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7abaef9a7ae92dd5",
+  "folder": "c0ff891efade8521",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7abaef9a7ae92dd5"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Microfab Key",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>During downtime, you can fabricate a mundane tool, replacement part, casing, adapter, or simple weapon component.</p>",
+    "quantity": 1,
+    "actions": {
+      "f5e922eb77c3ae96": {
+        "type": "effect",
+        "_id": "f5e922eb77c3ae96",
+        "systemPath": "actions",
+        "description": "<p>During downtime, you can fabricate a mundane tool, replacement part, casing, adapter, or simple weapon component.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Microfab Key",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:microfab-key",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 37,
+        "pageEnd": 37,
+        "entityType": "loot",
+        "slug": "microfab-key",
+        "roll": 13
+      },
+      "validationExpected": {
+        "name": "Microfab Key",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:microfab-key",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "c775909658f95fc8",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c775909658f95fc8"
+}

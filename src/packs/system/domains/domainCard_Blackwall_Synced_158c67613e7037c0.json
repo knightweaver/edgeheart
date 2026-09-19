@@ -1,0 +1,96 @@
+{
+  "name": "Blackwall-Synced",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Blackwall<br>Competency, gain the following:<br>When you succeed with Fear, you<br>can mark 2 Stress to prevent the GM<br>from gaining a Fear.<br>Once per short rest, when making<br>an action roll, you can add a +1 to<br>the roll for each Fear the GM have.</p>",
+    "level": 7,
+    "domain": "blackwall",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "25a94f73a9a75a14": {
+        "type": "effect",
+        "_id": "25a94f73a9a75a14",
+        "systemPath": "actions",
+        "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Blackwall<br>Competency, gain the following:<br>When you succeed with Fear, you<br>can mark 2 Stress to prevent the GM<br>from gaining a Fear.<br>Once per short rest, when making<br>an action roll, you can add a +1 to<br>the roll for each Fear the GM have.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Blackwall-Synced",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:blackwall-synced",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 89,
+        "pageEnd": 89,
+        "entityType": "competencyCard",
+        "slug": "blackwall-synced",
+        "competency": "Blackwall",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "Blackwall-Synced",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "blackwall",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:blackwall-synced",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "158c67613e7037c0",
+  "folder": "c09460f8957dae8d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!158c67613e7037c0"
+}

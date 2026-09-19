@@ -1,0 +1,81 @@
+{
+  "name": "Adrenal Inhaler",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Gain advantage on your next action roll. After the roll resolves, mark 1 Stress.</p>",
+    "quantity": 1,
+    "actions": {
+      "dd685900fdfc1d99": {
+        "type": "effect",
+        "_id": "dd685900fdfc1d99",
+        "systemPath": "actions",
+        "description": "<p>Gain advantage on your next action roll. After the roll resolves, mark 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Adrenal Inhaler",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:adrenal-inhaler",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 40,
+        "pageEnd": 40,
+        "entityType": "consumable",
+        "slug": "adrenal-inhaler",
+        "roll": 34
+      },
+      "validationExpected": {
+        "name": "Adrenal Inhaler",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:adrenal-inhaler",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2ec0bf0c10dc3e1f",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2ec0bf0c10dc3e1f"
+}

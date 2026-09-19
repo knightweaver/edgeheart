@@ -1,0 +1,96 @@
+{
+  "name": "Redline Ward",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Mark a HP to deploy a Redline Ward<br>around yourself at Very Close range.<br>This might look like a haze of coolant<br>vapor, warning lights, pressure<br>distortion, combat drug mist, hostile<br>sensor static, or unstable cyberware<br>output bleeding into the air around you<br>While in the ward, you have resistance<br>to your choice of physical or techno<br>damage. Choose when you activate this<br>protocol. Allies also gain this benefit<br>while in the ward.<br>The ward disappears if you move out of<br>it, mark 2 or more HP, or use this<br>protocol again.</p>",
+    "level": 6,
+    "domain": "redline",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "ba23fd0d25db20da": {
+        "type": "effect",
+        "_id": "ba23fd0d25db20da",
+        "systemPath": "actions",
+        "description": "<p>Mark a HP to deploy a Redline Ward<br>around yourself at Very Close range.<br>This might look like a haze of coolant<br>vapor, warning lights, pressure<br>distortion, combat drug mist, hostile<br>sensor static, or unstable cyberware<br>output bleeding into the air around you<br>While in the ward, you have resistance<br>to your choice of physical or techno<br>damage. Choose when you activate this<br>protocol. Allies also gain this benefit<br>while in the ward.<br>The ward disappears if you move out of<br>it, mark 2 or more HP, or use this<br>protocol again.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Redline Ward",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:redline-ward",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 86,
+        "pageEnd": 86,
+        "entityType": "competencyCard",
+        "slug": "redline-ward",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Redline Ward",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "redline",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:redline-ward",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "abeab9a6a14c9db0",
+  "folder": "9602fbf007687d95",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!abeab9a6a14c9db0"
+}

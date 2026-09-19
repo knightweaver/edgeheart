@@ -1,0 +1,81 @@
+{
+  "name": "Kinetic Booster",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Move within Far range and ignore difficult terrain during that movement. Afterward, mark 1 Stress.</p>",
+    "quantity": 1,
+    "actions": {
+      "82f86e85c83d13eb": {
+        "type": "effect",
+        "_id": "82f86e85c83d13eb",
+        "systemPath": "actions",
+        "description": "<p>Move within Far range and ignore difficult terrain during that movement. Afterward, mark 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Kinetic Booster",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:kinetic-booster",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 40,
+        "pageEnd": 40,
+        "entityType": "consumable",
+        "slug": "kinetic-booster",
+        "roll": 28
+      },
+      "validationExpected": {
+        "name": "Kinetic Booster",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:kinetic-booster",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "815d7ada29b1fe2a",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!815d7ada29b1fe2a"
+}

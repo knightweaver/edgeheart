@@ -1,0 +1,72 @@
+{
+  "name": "Clear the Line",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per rest, when you deal Major or Severe damage to an adversary within Melee or Very Close range, you can force them and each adversary within Very Close range of them to mark 1 Stress. Then choose one affected adversary and make them temporarily Vulnerable.</p>",
+    "actions": {
+      "24f2fcd3c3b1fe11": {
+        "type": "effect",
+        "_id": "24f2fcd3c3b1fe11",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, when you deal Major or Severe damage to an adversary within Melee or Very Close range, you can force them and each adversary within Very Close range of them to mark 1 Stress. Then choose one affected adversary and make them temporarily Vulnerable.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Clear the Line",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:shock-trooper:clear-the-line",
+      "source": {
+        "featureStage": "specialization",
+        "sourcePage": 16
+      },
+      "deployment": {
+        "logicalKey": "feature:shock-trooper:clear-the-line",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e33170d6dc0a7cb1",
+  "folder": "8fcd9eba8917e1d9",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e33170d6dc0a7cb1"
+}

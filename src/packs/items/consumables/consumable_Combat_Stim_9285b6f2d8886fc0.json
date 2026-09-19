@@ -1,0 +1,81 @@
+{
+  "name": "Combat Stim",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Add 1d6 to your next Agility, Strength, or Finesse Roll. After the roll, mark 1 Stress.</p>",
+    "quantity": 1,
+    "actions": {
+      "46372a2dcd1b58ec": {
+        "type": "effect",
+        "_id": "46372a2dcd1b58ec",
+        "systemPath": "actions",
+        "description": "<p>Add 1d6 to your next Agility, Strength, or Finesse Roll. After the roll, mark 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Combat Stim",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:combat-stim",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 39,
+        "pageEnd": 39,
+        "entityType": "consumable",
+        "slug": "combat-stim",
+        "roll": 4
+      },
+      "validationExpected": {
+        "name": "Combat Stim",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:combat-stim",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "9285b6f2d8886fc0",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!9285b6f2d8886fc0"
+}

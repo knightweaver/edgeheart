@@ -1,0 +1,96 @@
+{
+  "name": "Breaking Blow",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you make a successful attack,<br>you can mark a Stress to make the next<br>successful attack against that sare<br>target deal an extra 2d12 damage.</p>",
+    "level": 8,
+    "domain": "chrome",
+    "recallCost": 3,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "f44e8c741dd243ee": {
+        "type": "effect",
+        "_id": "f44e8c741dd243ee",
+        "systemPath": "actions",
+        "description": "<p>When you make a successful attack,<br>you can mark a Stress to make the next<br>successful attack against that sare<br>target deal an extra 2d12 damage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Breaking Blow",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Chrome:breaking-blow",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 71,
+        "pageEnd": 71,
+        "entityType": "competencyCard",
+        "slug": "breaking-blow",
+        "competency": "Chrome",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "chrome"
+        }
+      ],
+      "validationExpected": {
+        "name": "Breaking Blow",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "chrome",
+        "system.recallCost": 3,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:chrome:breaking-blow",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "febc395696a8176a",
+  "folder": "a2beef412f38145d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!febc395696a8176a"
+}

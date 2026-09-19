@@ -1,0 +1,96 @@
+{
+  "name": "Systems-Synced",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Systems<br>Competency, gain the following:<br>* You can mark a Stress to add your<br>Proficiency to an Interface Roll.<br>* Once per rest, replace this card with<br>any card from your vault without<br>paying its Recall Cost.<br>ee ae</p>",
+    "level": 7,
+    "domain": "systems",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "e1d677a160cc1fbf": {
+        "type": "effect",
+        "_id": "e1d677a160cc1fbf",
+        "systemPath": "actions",
+        "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Systems<br>Competency, gain the following:<br>* You can mark a Stress to add your<br>Proficiency to an Interface Roll.<br>* Once per rest, replace this card with<br>any card from your vault without<br>paying its Recall Cost.<br>ee ae</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Systems-Synced",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:systems-synced",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 73,
+        "pageEnd": 73,
+        "entityType": "competencyCard",
+        "slug": "systems-synced",
+        "competency": "Systems",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "Systems-Synced",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "systems",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:systems-synced",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "a1546229bcd32cfa",
+  "folder": "75316aca2e25cc7c",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a1546229bcd32cfa"
+}

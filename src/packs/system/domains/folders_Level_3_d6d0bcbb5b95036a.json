@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "b795d56f0cb2eb43",
+  "name": "Level 3",
+  "color": null,
+  "sorting": "a",
+  "_id": "d6d0bcbb5b95036a",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-blackwall-level-3",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!d6d0bcbb5b95036a"
+}

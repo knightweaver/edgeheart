@@ -1,0 +1,63 @@
+{
+  "name": "Reflex Suite",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as a Reflex Suite if you want to move faster than human reaction time and turn your nervous system into a weapon.</p>",
+    "spellcastingTrait": "agility",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:reflex-suite:neural-reflexes"
+      },
+      {
+        "type": "foundation",
+        "ref": "feature:reflex-suite:fast-enough"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:reflex-suite:motion-blur"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:reflex-suite:accelerated-loop"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:augmented"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:reflex-suite",
+      "source": {
+        "entityType": "subclass",
+        "slug": "reflex-suite",
+        "parentClass": "Augmented"
+      },
+      "deployment": {
+        "logicalKey": "subclass:reflex-suite",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "6ebef169afb18b8d",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6ebef169afb18b8d"
+}

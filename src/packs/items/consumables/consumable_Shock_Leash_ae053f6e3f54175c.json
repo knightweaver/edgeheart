@@ -1,0 +1,81 @@
+{
+  "name": "Shock Leash",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Make an attack against a target within Very Close range. On a success, deal no damage, but the target becomes temporarily Restrained.</p>",
+    "quantity": 1,
+    "actions": {
+      "f565414af80988e6": {
+        "type": "effect",
+        "_id": "f565414af80988e6",
+        "systemPath": "actions",
+        "description": "<p>Make an attack against a target within Very Close range. On a success, deal no damage, but the target becomes temporarily Restrained.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Shock Leash",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:shock-leash",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 40,
+        "pageEnd": 40,
+        "entityType": "consumable",
+        "slug": "shock-leash",
+        "roll": 37
+      },
+      "validationExpected": {
+        "name": "Shock Leash",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:shock-leash",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ae053f6e3f54175c",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ae053f6e3f54175c"
+}

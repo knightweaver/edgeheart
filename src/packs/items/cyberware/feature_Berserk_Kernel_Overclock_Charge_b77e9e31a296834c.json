@@ -1,0 +1,87 @@
+{
+  "name": "Berserk Kernel - Overclock Charge",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 4</p><p>Gain Full Access to Redline. When you roll with Hope using a Redline card, gain 1 Overclock Charge, max 3. Before a damage roll, spend any Overclock Charges to add 1d12 per Charge spent. If you spend 3 Charges and the attack succeeds, you may immediately make a weapon attack as a reaction, then mark 2 Stress.</p>",
+    "actions": {
+      "b103f9a3d2eeb9fa": {
+        "type": "effect",
+        "_id": "b103f9a3d2eeb9fa",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 4</p><p>Gain Full Access to Redline. When you roll with Hope using a Redline card, gain 1 Overclock Charge, max 3. Before a damage roll, spend any Overclock Charges to add 1d12 per Charge spent. If you spend 3 Charges and the attack succeeds, you may immediately make a weapon attack as a reaction, then mark 2 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Berserk Kernel - Overclock Charge",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:berserk-kernel-overclock-charge",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 44,
+        "pageEnd": 44,
+        "entityType": "cyberware",
+        "slug": "berserk-kernel-overclock-charge",
+        "roll": 48,
+        "cyberCostRaw": "4",
+        "competencyAccess": {
+          "competency": "Redline",
+          "mode": "full"
+        },
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Berserk Kernel - Overclock Charge",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:berserk-kernel-overclock-charge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "b77e9e31a296834c",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b77e9e31a296834c"
+}

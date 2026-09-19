@@ -1,0 +1,80 @@
+{
+  "name": "Lockspike",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When you create a Breach against a lock, door, or local security panel, gain a +2 bonus to the roll.</p>",
+    "quantity": 1,
+    "actions": {
+      "54ca138c488381ed": {
+        "type": "effect",
+        "_id": "54ca138c488381ed",
+        "systemPath": "actions",
+        "description": "<p>When you create a Breach against a lock, door, or local security panel, gain a +2 bonus to the roll.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Lockspike",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:lockspike",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 37,
+        "pageEnd": 37,
+        "entityType": "loot",
+        "slug": "lockspike",
+        "roll": 3
+      },
+      "validationExpected": {
+        "name": "Lockspike",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:lockspike",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "07dcb935da82feb2",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!07dcb935da82feb2"
+}

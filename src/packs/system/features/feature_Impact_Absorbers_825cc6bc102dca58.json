@@ -1,0 +1,72 @@
+{
+  "name": "Impact Absorbers",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per scene, when you would mark one or more Hit Points from physical or impact damage, you can mark a Stress to reduce the severity by one threshold. If this prevents you from marking any Hit Points, you can immediately move within Very Close range or force the attacker to mark 1 Stress.</p>",
+    "actions": {
+      "a24b7d9e0438ce77": {
+        "type": "effect",
+        "_id": "a24b7d9e0438ce77",
+        "systemPath": "actions",
+        "description": "<p>Once per scene, when you would mark one or more Hit Points from physical or impact damage, you can mark a Stress to reduce the severity by one threshold. If this prevents you from marking any Hit Points, you can immediately move within Very Close range or force the attacker to mark 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Impact Absorbers",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:titan-frame:impact-absorbers",
+      "source": {
+        "featureStage": "specialization",
+        "sourcePage": 18
+      },
+      "deployment": {
+        "logicalKey": "feature:titan-frame:impact-absorbers",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "825cc6bc102dca58",
+  "folder": "32ac2bae6062c9a7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!825cc6bc102dca58"
+}

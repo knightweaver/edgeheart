@@ -1,0 +1,96 @@
+{
+  "name": "Endless Charisma",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>After you make an action roll to<br>persuade, lie, negotiate, perform,<br>command, manipulate, or garner favor,<br>you can spend a Hope to reroll the<br>Hope or Fear Die.</p>",
+    "level": 7,
+    "domain": "influence",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "d532a376c8a239ad": {
+        "type": "effect",
+        "_id": "d532a376c8a239ad",
+        "systemPath": "actions",
+        "description": "<p>After you make an action roll to<br>persuade, lie, negotiate, perform,<br>command, manipulate, or garner favor,<br>you can spend a Hope to reroll the<br>Hope or Fear Die.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Endless Charisma",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:endless-charisma",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 76,
+        "pageEnd": 76,
+        "entityType": "competencyCard",
+        "slug": "endless-charisma",
+        "competency": "Influence",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Endless Charisma",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "influence",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:endless-charisma",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "aa28a1a9efd130e9",
+  "folder": "e296e52d3d87c83e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!aa28a1a9efd130e9"
+}

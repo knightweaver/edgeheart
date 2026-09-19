@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "ebb501fd45844a0e",
+  "name": "Street Surgeon",
+  "color": null,
+  "sorting": "a",
+  "_id": "56774260e8461d6b",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:features:subclass-street-surgeon",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!56774260e8461d6b"
+}

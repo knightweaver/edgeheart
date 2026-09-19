@@ -1,0 +1,72 @@
+{
+  "name": "Everybody Owes Somebody",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, ask the GM who in the scene can be bought, pressured, or turned. Your first Presence Roll or Influence card against them has advantage. On a success, choose two options from Terms of Engagement instead of one.</p>",
+    "actions": {
+      "14224540a8881a09": {
+        "type": "effect",
+        "_id": "14224540a8881a09",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, ask the GM who in the scene can be bought, pressured, or turned. Your first Presence Roll or Influence card against them has advantage. On a success, choose two options from Terms of Engagement instead of one.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Everybody Owes Somebody",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:fixer:everybody-owes-somebody",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 21
+      },
+      "deployment": {
+        "logicalKey": "feature:fixer:everybody-owes-somebody",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "1ff0fddc45e0b242",
+  "folder": "17c45e80d545090a",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1ff0fddc45e0b242"
+}

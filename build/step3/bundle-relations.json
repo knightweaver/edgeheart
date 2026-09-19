@@ -1,0 +1,300 @@
+{
+  "schemaVersion": "1.0",
+  "buildStep": 3,
+  "classes": {
+    "class:augmented": {
+      "bundle": "augmented.bundle.json",
+      "features": [
+        "feature:augmented:chrome-surge",
+        "feature:augmented:integrated-chrome",
+        "feature:reflex-suite:neural-reflexes",
+        "feature:reflex-suite:fast-enough",
+        "feature:reflex-suite:motion-blur",
+        "feature:reflex-suite:accelerated-loop",
+        "feature:titan-frame:reinforced-build",
+        "feature:titan-frame:load-bearing-body",
+        "feature:titan-frame:impact-absorbers",
+        "feature:titan-frame:heavy-chrome-walking"
+      ],
+      "subclasses": [
+        "subclass:reflex-suite",
+        "subclass:titan-frame"
+      ],
+      "pendingDomains": [
+        "chrome"
+      ]
+    },
+    "class:broker": {
+      "bundle": "broker.bundle.json",
+      "features": [
+        "feature:broker:fine-print",
+        "feature:broker:terms-of-engagement",
+        "feature:fixer:black-market-network",
+        "feature:fixer:contacts-everywhere",
+        "feature:fixer:everybody-owes-somebody",
+        "feature:icon:public-persona",
+        "feature:icon:live-feed",
+        "feature:icon:living-brand"
+      ],
+      "subclasses": [
+        "subclass:fixer",
+        "subclass:icon"
+      ],
+      "pendingDomains": [
+        "influence"
+      ]
+    },
+    "class:infiltrator": {
+      "bundle": "infiltrator.bundle.json",
+      "features": [
+        "feature:infiltrator:clean-exit",
+        "feature:infiltrator:cover-work",
+        "feature:silent-killer:opening-strike",
+        "feature:silent-killer:no-witnesses",
+        "feature:silent-killer:kill-window",
+        "feature:silent-killer:perfect-ambush",
+        "feature:phantom:ghost-route",
+        "feature:phantom:now-you-see-me",
+        "feature:phantom:extraction-window",
+        "feature:phantom:impossible-exit"
+      ],
+      "subclasses": [
+        "subclass:silent-killer",
+        "subclass:phantom"
+      ],
+      "pendingDomains": [
+        "ghost"
+      ]
+    },
+    "class:reclaimer": {
+      "bundle": "reclaimer.bundle.json",
+      "features": [
+        "feature:reclaimer:home-ground",
+        "feature:reclaimer:surveyed-route",
+        "feature:outrider:signature-vehicle",
+        "feature:outrider:stunt-driver",
+        "feature:outrider:drive-off",
+        "feature:zonebreaker:field-salvage",
+        "feature:zonebreaker:bad-ground",
+        "feature:zonebreaker:dead-zone"
+      ],
+      "subclasses": [
+        "subclass:outrider",
+        "subclass:zonebreaker"
+      ],
+      "pendingDomains": [
+        "frontier"
+      ]
+    },
+    "class:runner": {
+      "bundle": "runner.bundle.json",
+      "features": [
+        "feature:runner:zero-day",
+        "feature:runner:hold-your-breach",
+        "feature:runner:exploit",
+        "feature:breach-specialist:exploit-payload",
+        "feature:breach-specialist:hard-crash",
+        "feature:breach-specialist:cascade-breach",
+        "feature:breach-specialist:rootkill",
+        "feature:net-diver:deep-dive",
+        "feature:net-diver:virtual-overwatch",
+        "feature:net-diver:blackout-cascade"
+      ],
+      "subclasses": [
+        "subclass:breach-specialist",
+        "subclass:net-diver"
+      ],
+      "pendingDomains": [
+        "network"
+      ]
+    },
+    "class:solo": {
+      "bundle": "solo.bundle.json",
+      "features": [
+        "feature:solo:fire-superiority",
+        "feature:solo:kill-chain",
+        "feature:deadeye:marked-target",
+        "feature:deadeye:called-shot",
+        "feature:deadeye:kill-confirmed",
+        "feature:shock-trooper:breach-momentum",
+        "feature:shock-trooper:hard-entry",
+        "feature:shock-trooper:clear-the-line",
+        "feature:shock-trooper:no-way-back"
+      ],
+      "subclasses": [
+        "subclass:deadeye",
+        "subclass:shock-trooper"
+      ],
+      "pendingDomains": [
+        "assault"
+      ]
+    },
+    "class:tech": {
+      "bundle": "tech.bundle.json",
+      "features": [
+        "feature:tech:make-it-work",
+        "feature:tech:jury-rig",
+        "feature:rigger:companion-drone",
+        "feature:rigger:remote-hands",
+        "feature:rigger:drone-network",
+        "feature:saboteur:planted-charge",
+        "feature:saboteur:cascading-failure",
+        "feature:saboteur:controlled-demolition"
+      ],
+      "subclasses": [
+        "subclass:rigger",
+        "subclass:saboteur"
+      ],
+      "pendingDomains": [
+        "systems"
+      ]
+    },
+    "class:trauma-doc": {
+      "bundle": "trauma-doc.bundle.json",
+      "features": [
+        "feature:trauma-doc:stay-with-me",
+        "feature:trauma-doc:emergency-medicine",
+        "feature:combat-medic:rapid-response",
+        "feature:combat-medic:field-extraction",
+        "feature:combat-medic:mass-casualty-protocol",
+        "feature:combat-medic:combat-triage",
+        "feature:street-surgeon:black-clinic-procedure",
+        "feature:street-surgeon:bad-medicine",
+        "feature:street-surgeon:miracle-cocktail"
+      ],
+      "subclasses": [
+        "subclass:combat-medic",
+        "subclass:street-surgeon"
+      ],
+      "pendingDomains": [
+        "medtech"
+      ]
+    },
+    "class:warden": {
+      "bundle": "warden.bundle.json",
+      "features": [
+        "feature:warden:not-today",
+        "feature:warden:guardian-protocol",
+        "feature:bulwark:impact-frame",
+        "feature:bulwark:hard-to-break",
+        "feature:bulwark:unbreakable-frame",
+        "feature:riotbreaker:crowd-control",
+        "feature:riotbreaker:hard-stop",
+        "feature:riotbreaker:break-the-line"
+      ],
+      "subclasses": [
+        "subclass:bulwark",
+        "subclass:riotbreaker"
+      ],
+      "pendingDomains": [
+        "aegis"
+      ]
+    }
+  },
+  "origins": {
+    "ancestry:black-clinic-survivor": {
+      "bundle": "black-clinic-survivor.ancestry.bundle.json",
+      "originKind": "lifePath",
+      "features": [
+        "feature:black-clinic-survivor:scar-tissue",
+        "feature:black-clinic-survivor:emergency-rebuild"
+      ]
+    },
+    "community:black-clinic": {
+      "bundle": "black-clinic.community.bundle.json",
+      "originKind": "affiliation",
+      "features": [
+        "feature:black-clinic:chillax"
+      ]
+    },
+    "ancestry:corpo-raised": {
+      "bundle": "corpo-raised.ancestry.bundle.json",
+      "originKind": "lifePath",
+      "features": [
+        "feature:corpo-raised:corporate-design",
+        "feature:corpo-raised:efficient-routine"
+      ]
+    },
+    "community:corporate-asset": {
+      "bundle": "corporate-asset.community.bundle.json",
+      "originKind": "affiliation",
+      "features": [
+        "feature:corporate-asset:elite-privilege"
+      ]
+    },
+    "community:data-cult": {
+      "bundle": "data-cult.community.bundle.json",
+      "originKind": "affiliation",
+      "features": [
+        "feature:data-cult:forbidden-pattern"
+      ]
+    },
+    "community:fixer-network": {
+      "bundle": "fixer-network.community.bundle.json",
+      "originKind": "affiliation",
+      "features": [
+        "feature:fixer-network:know-the-deal"
+      ]
+    },
+    "community:gang-tied": {
+      "bundle": "gang-tied.community.bundle.json",
+      "originKind": "affiliation",
+      "features": [
+        "feature:gang-tied:street-wise"
+      ]
+    },
+    "community:mercenary-network": {
+      "bundle": "mercenary-network.community.bundle.json",
+      "originKind": "affiliation",
+      "features": [
+        "feature:mercenary-network:unbound"
+      ]
+    },
+    "ancestry:military-surplus": {
+      "bundle": "military-surplus.ancestry.bundle.json",
+      "originKind": "lifePath",
+      "features": [
+        "feature:military-surplus:combat-reactions",
+        "feature:military-surplus:last-one-standing"
+      ]
+    },
+    "community:nomad-convoy": {
+      "bundle": "nomad-convoy.community.bundle.json",
+      "originKind": "affiliation",
+      "features": [
+        "feature:nomad-convoy:law-of-the-road"
+      ]
+    },
+    "ancestry:nomad": {
+      "bundle": "nomad.ancestry.bundle.json",
+      "originKind": "lifePath",
+      "features": [
+        "feature:nomad:road-sprint",
+        "feature:nomad:off-road-born"
+      ]
+    },
+    "community:resistance-cell": {
+      "bundle": "resistance-cell.community.bundle.json",
+      "originKind": "affiliation",
+      "features": [
+        "feature:resistance-cell:found-family"
+      ]
+    },
+    "ancestry:streetborn": {
+      "bundle": "streetborn.ancestry.bundle.json",
+      "originKind": "lifePath",
+      "features": [
+        "feature:streetborn:alley-reflexes",
+        "feature:streetborn:cheap-shot"
+      ]
+    },
+    "ancestry:wasteland-native": {
+      "bundle": "wasteland-native.ancestry.bundle.json",
+      "originKind": "lifePath",
+      "features": [
+        "feature:wasteland-native:hazard-bred",
+        "feature:wasteland-native:hard-as-nails"
+      ]
+    }
+  }
+}

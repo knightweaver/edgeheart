@@ -1,0 +1,96 @@
+{
+  "name": "Blackout Veil",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (13). On a<br>success, you create a curtain of<br>darkness, signal chaff, or interference<br>between two points within Far range.<br>You&#x27;re considered Hidden to creatures<br>on the other side of the veil, and you<br>have advantage on attacks you make<br>through the veil. The veil remains until<br>you run another protocol.</p>",
+    "level": 3,
+    "domain": "ghost",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "1f8e0ab679eb9093": {
+        "type": "effect",
+        "_id": "1f8e0ab679eb9093",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (13). On a<br>success, you create a curtain of<br>darkness, signal chaff, or interference<br>between two points within Far range.<br>You&#x27;re considered Hidden to creatures<br>on the other side of the veil, and you<br>have advantage on attacks you make<br>through the veil. The veil remains until<br>you run another protocol.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Blackout Veil",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Ghost:blackout-veil",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 77,
+        "pageEnd": 77,
+        "entityType": "competencyCard",
+        "slug": "blackout-veil",
+        "competency": "Ghost",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "ghost"
+        }
+      ],
+      "validationExpected": {
+        "name": "Blackout Veil",
+        "type": "domainCard",
+        "system.level": 3,
+        "system.domain": "ghost",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:ghost:blackout-veil",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ff9e7d147f60e219",
+  "folder": "ac1e35f26b32d746",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ff9e7d147f60e219"
+}

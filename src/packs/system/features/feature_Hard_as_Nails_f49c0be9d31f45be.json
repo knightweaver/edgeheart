@@ -1,0 +1,72 @@
+{
+  "name": "Hard as Nails",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Gain a bonus to your damage thresholds equal to your Proficiency.</p>",
+    "actions": {
+      "c123e68330d57de0": {
+        "type": "effect",
+        "_id": "c123e68330d57de0",
+        "systemPath": "actions",
+        "description": "<p>Gain a bonus to your damage thresholds equal to your Proficiency.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Hard as Nails",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:wasteland-native:hard-as-nails",
+      "source": {
+        "featureStage": "lifePath",
+        "sourcePage": 29
+      },
+      "deployment": {
+        "logicalKey": "feature:wasteland-native:hard-as-nails",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "f49c0be9d31f45be",
+  "folder": "20a7265ff281db23",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f49c0be9d31f45be"
+}

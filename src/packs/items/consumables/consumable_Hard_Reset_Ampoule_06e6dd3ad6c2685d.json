@@ -1,0 +1,81 @@
+{
+  "name": "Hard Reset Ampoule",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Clear one temporary physical condition from yourself or a creature within Melee range. The target becomes temporarily Vulnerable until their next action.</p>",
+    "quantity": 1,
+    "actions": {
+      "ce0a7be1ce5ef113": {
+        "type": "effect",
+        "_id": "ce0a7be1ce5ef113",
+        "systemPath": "actions",
+        "description": "<p>Clear one temporary physical condition from yourself or a creature within Melee range. The target becomes temporarily Vulnerable until their next action.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Hard Reset Ampoule",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:hard-reset-ampoule",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 40,
+        "pageEnd": 40,
+        "entityType": "consumable",
+        "slug": "hard-reset-ampoule",
+        "roll": 22
+      },
+      "validationExpected": {
+        "name": "Hard Reset Ampoule",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:hard-reset-ampoule",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "06e6dd3ad6c2685d",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!06e6dd3ad6c2685d"
+}

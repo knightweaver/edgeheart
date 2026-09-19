@@ -1,0 +1,87 @@
+{
+  "name": "Black ICE Cortex - Corruption",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 3</p><p>Gain Half Access to Blackwall. When you roll with Fear using a Blackwall card, gain 1 Corruption, max 2. Before a Blackwall roll, spend any Corruption to roll that many d6s and add them to the roll. If you spend 2 Corruption and succeed, affected targets marks 1 Stress and becomes temporarily Degraded. While Degraded, the target uses a d12 instead of a d20 for attack rolls. Then mark a Stress or the GM gains a Fear.</p>",
+    "actions": {
+      "a3bd82e7accf8acc": {
+        "type": "effect",
+        "_id": "a3bd82e7accf8acc",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 3</p><p>Gain Half Access to Blackwall. When you roll with Fear using a Blackwall card, gain 1 Corruption, max 2. Before a Blackwall roll, spend any Corruption to roll that many d6s and add them to the roll. If you spend 2 Corruption and succeed, affected targets marks 1 Stress and becomes temporarily Degraded. While Degraded, the target uses a d12 instead of a d20 for attack rolls. Then mark a Stress or the GM gains a Fear.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Black ICE Cortex - Corruption",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:black-ice-cortex-corruption",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 43,
+        "pageEnd": 43,
+        "entityType": "cyberware",
+        "slug": "black-ice-cortex-corruption",
+        "roll": 45,
+        "cyberCostRaw": "3",
+        "competencyAccess": {
+          "competency": "Blackwall",
+          "mode": "half"
+        },
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Black ICE Cortex - Corruption",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:black-ice-cortex-corruption",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "dff9712e9855da45",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!dff9712e9855da45"
+}

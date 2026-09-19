@@ -1,0 +1,96 @@
+{
+  "name": "Transcendent Link",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per long rest, spend 5 Hope to<br>activate this protocol on two or more<br>willing creatures.<br>Until your next rest, when a creature<br>connected by this link would mark<br>Stress or Hit Points, the connected<br>creatures can choose who marks it.</p>",
+    "level": 10,
+    "domain": "systems",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "cae5f81568dcbbcc": {
+        "type": "effect",
+        "_id": "cae5f81568dcbbcc",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, spend 5 Hope to<br>activate this protocol on two or more<br>willing creatures.<br>Until your next rest, when a creature<br>connected by this link would mark<br>Stress or Hit Points, the connected<br>creatures can choose who marks it.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Transcendent Link",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:transcendent-link",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 74,
+        "pageEnd": 74,
+        "entityType": "competencyCard",
+        "slug": "transcendent-link",
+        "competency": "Systems",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "Transcendent Link",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "systems",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:transcendent-link",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "a1ce212216c965ae",
+  "folder": "5813ea8961f17d7f",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a1ce212216c965ae"
+}

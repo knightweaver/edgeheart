@@ -1,0 +1,96 @@
+{
+  "name": "Trauma Lance",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (16).<br>On a success, mark any number of<br>Stress to target a line of allies within<br>Far range with surgical drones, trauma<br>foam, life-support pulses, or<br>emergency repair systems.<br>You can clear HP on the targets equal<br>to the number of Stress marked,<br>divided among them however you’d<br>like.</p>",
+    "level": 9,
+    "domain": "medtech",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "50124bd7c0098699": {
+        "type": "effect",
+        "_id": "50124bd7c0098699",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (16).<br>On a success, mark any number of<br>Stress to target a line of allies within<br>Far range with surgical drones, trauma<br>foam, life-support pulses, or<br>emergency repair systems.<br>You can clear HP on the targets equal<br>to the number of Stress marked,<br>divided among them however you’d<br>like.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Trauma Lance",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:trauma-lance",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 83,
+        "pageEnd": 83,
+        "entityType": "competencyCard",
+        "slug": "trauma-lance",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Trauma Lance",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "medtech",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:trauma-lance",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "cb1f2d56ae5a8a3d",
+  "folder": "22870982809d20cb",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!cb1f2d56ae5a8a3d"
+}

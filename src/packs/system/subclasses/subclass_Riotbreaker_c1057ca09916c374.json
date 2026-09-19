@@ -1,0 +1,59 @@
+{
+  "name": "Riotbreaker",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as a Riotbreaker if you want to break charges, control space, shove enemies around, and turn defense into force.</p>",
+    "spellcastingTrait": "presence",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:riotbreaker:crowd-control"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:riotbreaker:hard-stop"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:riotbreaker:break-the-line"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:warden"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:riotbreaker",
+      "source": {
+        "entityType": "subclass",
+        "slug": "riotbreaker",
+        "parentClass": "Warden"
+      },
+      "deployment": {
+        "logicalKey": "subclass:riotbreaker",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "c1057ca09916c374",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c1057ca09916c374"
+}

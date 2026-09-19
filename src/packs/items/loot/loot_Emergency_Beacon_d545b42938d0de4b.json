@@ -1,0 +1,80 @@
+{
+  "name": "Emergency Beacon",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Once per rest, activate this beacon to let allies know your exact location and condition.</p>",
+    "quantity": 1,
+    "actions": {
+      "987a05da675ee609": {
+        "type": "effect",
+        "_id": "987a05da675ee609",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, activate this beacon to let allies know your exact location and condition.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Emergency Beacon",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:emergency-beacon",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 37,
+        "pageEnd": 37,
+        "entityType": "loot",
+        "slug": "emergency-beacon",
+        "roll": 5
+      },
+      "validationExpected": {
+        "name": "Emergency Beacon",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:emergency-beacon",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "d545b42938d0de4b",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d545b42938d0de4b"
+}

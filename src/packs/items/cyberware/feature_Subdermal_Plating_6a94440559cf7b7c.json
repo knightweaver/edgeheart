@@ -1,0 +1,84 @@
+{
+  "name": "Subdermal Plating",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 2</p><p>Gain +2 Armor Score.</p>",
+    "actions": {
+      "d4200545d0f6391a": {
+        "type": "effect",
+        "_id": "d4200545d0f6391a",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 2</p><p>Gain +2 Armor Score.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Subdermal Plating",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:subdermal-plating",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 42,
+        "pageEnd": 42,
+        "entityType": "cyberware",
+        "slug": "subdermal-plating",
+        "roll": 22,
+        "cyberCostRaw": "2",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Subdermal Plating",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:subdermal-plating",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6a94440559cf7b7c",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6a94440559cf7b7c"
+}

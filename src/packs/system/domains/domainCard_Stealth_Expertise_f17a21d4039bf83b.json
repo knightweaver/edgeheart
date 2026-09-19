@@ -1,0 +1,96 @@
+{
+  "name": "Stealth Expertise",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you roll with Fear while<br>attempting to move unnoticed through<br>a dangerous area, you can mark a<br>Stress to roll with Hope instead.<br>If an ally within Close range is also<br>attempting to move unnoticed and rolls<br>with Fear, you can mark a Stress to<br>change their result to a roll with Hope.</p>",
+    "level": 4,
+    "domain": "ghost",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "df7f435eff123d98": {
+        "type": "effect",
+        "_id": "df7f435eff123d98",
+        "systemPath": "actions",
+        "description": "<p>When you roll with Fear while<br>attempting to move unnoticed through<br>a dangerous area, you can mark a<br>Stress to roll with Hope instead.<br>If an ally within Close range is also<br>attempting to move unnoticed and rolls<br>with Fear, you can mark a Stress to<br>change their result to a roll with Hope.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Stealth Expertise",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Ghost:stealth-expertise",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 77,
+        "pageEnd": 77,
+        "entityType": "competencyCard",
+        "slug": "stealth-expertise",
+        "competency": "Ghost",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "ghost"
+        }
+      ],
+      "validationExpected": {
+        "name": "Stealth Expertise",
+        "type": "domainCard",
+        "system.level": 4,
+        "system.domain": "ghost",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:ghost:stealth-expertise",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "f17a21d4039bf83b",
+  "folder": "6539bed4cefb515e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f17a21d4039bf83b"
+}

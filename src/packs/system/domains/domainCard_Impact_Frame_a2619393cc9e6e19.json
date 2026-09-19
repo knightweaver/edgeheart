@@ -1,0 +1,96 @@
+{
+  "name": "Impact Frame",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You use the full force of your body,<br>armor, shield, exo-frame, or reinforced<br>limbs in a fight.<br>On a successful attack using a weapon<br>with a Melee range, gain a bonus to<br>your damage roll equal to your<br>Strength.</p>",
+    "level": 2,
+    "domain": "aegis",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "ac1c69b41d5a6484": {
+        "type": "effect",
+        "_id": "ac1c69b41d5a6484",
+        "systemPath": "actions",
+        "description": "<p>You use the full force of your body,<br>armor, shield, exo-frame, or reinforced<br>limbs in a fight.<br>On a successful attack using a weapon<br>with a Melee range, gain a bonus to<br>your damage roll equal to your<br>Strength.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Impact Frame",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Aegis:impact-frame",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 84,
+        "pageEnd": 84,
+        "entityType": "competencyCard",
+        "slug": "impact-frame",
+        "competency": "Aegis",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "aegis"
+        }
+      ],
+      "validationExpected": {
+        "name": "Impact Frame",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "aegis",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:aegis:impact-frame",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "a2619393cc9e6e19",
+  "folder": "0728ed7582e35f89",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a2619393cc9e6e19"
+}

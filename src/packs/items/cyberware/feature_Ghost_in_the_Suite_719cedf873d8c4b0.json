@@ -1,0 +1,84 @@
+{
+  "name": "Ghost in the Suite",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 4</p><p>You can’t be detected by mundane cameras, drones, or sensors beyond Close range unless you attack, speak loudly, or the GM spends a Fear.</p>",
+    "actions": {
+      "6531087ce6e168f5": {
+        "type": "effect",
+        "_id": "6531087ce6e168f5",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 4</p><p>You can’t be detected by mundane cameras, drones, or sensors beyond Close range unless you attack, speak loudly, or the GM spends a Fear.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Ghost in the Suite",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:ghost-in-the-suite",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 44,
+        "pageEnd": 44,
+        "entityType": "cyberware",
+        "slug": "ghost-in-the-suite",
+        "roll": 53,
+        "cyberCostRaw": "4",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Ghost in the Suite",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:ghost-in-the-suite",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "719cedf873d8c4b0",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!719cedf873d8c4b0"
+}

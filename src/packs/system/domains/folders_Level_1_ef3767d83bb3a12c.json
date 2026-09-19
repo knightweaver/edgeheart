@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "d21bface3003264b",
+  "name": "Level 1",
+  "color": null,
+  "sorting": "a",
+  "_id": "ef3767d83bb3a12c",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-ghost-level-1",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!ef3767d83bb3a12c"
+}

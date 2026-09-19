@@ -1,0 +1,72 @@
+{
+  "name": "Deep Dive",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per scene, when you create a Breach in a network, you can enter a Deep Dive.</p><p>While in a Deep Dive:<br>• You can interact with connected systems in the scene regardless of range.<br>• Gain a bonus equal to your Tier on Interface Rolls involving Hacking or Network cards.<br>• You can ask the GM one question about the network, its security, connected systems, or hidden routes.</p><p>The Deep Dive ends when you take major damage, disconnect, or the scene ends.</p>",
+    "actions": {
+      "93d0ebb80b327d4f": {
+        "type": "effect",
+        "_id": "93d0ebb80b327d4f",
+        "systemPath": "actions",
+        "description": "<p>Once per scene, when you create a Breach in a network, you can enter a Deep Dive.</p><p>While in a Deep Dive:<br>• You can interact with connected systems in the scene regardless of range.<br>• Gain a bonus equal to your Tier on Interface Rolls involving Hacking or Network cards.<br>• You can ask the GM one question about the network, its security, connected systems, or hidden routes.</p><p>The Deep Dive ends when you take major damage, disconnect, or the scene ends.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Deep Dive",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:net-diver:deep-dive",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 12
+      },
+      "deployment": {
+        "logicalKey": "feature:net-diver:deep-dive",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "fe0b3e2dd751cbfa",
+  "folder": "42642c5c25ce1479",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fe0b3e2dd751cbfa"
+}

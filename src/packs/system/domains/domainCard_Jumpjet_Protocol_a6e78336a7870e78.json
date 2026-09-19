@@ -1,0 +1,96 @@
+{
+  "name": "Jumpjet Protocol",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Agility Roll (15). On a success,<br>place a number of tokens equal to your<br>Agility on this card, minimum 1.<br>When you make an action roll while<br>flying, spend a token from this card.<br>After the action that spends the last<br>token is resolved, you descend to the<br>ground directly below you.</p>",
+    "level": 3,
+    "domain": "chrome",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "713632b7e1b80a1b": {
+        "type": "effect",
+        "_id": "713632b7e1b80a1b",
+        "systemPath": "actions",
+        "description": "<p>Make an Agility Roll (15). On a success,<br>place a number of tokens equal to your<br>Agility on this card, minimum 1.<br>When you make an action roll while<br>flying, spend a token from this card.<br>After the action that spends the last<br>token is resolved, you descend to the<br>ground directly below you.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Jumpjet Protocol",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Chrome:jumpjet-protocol",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 70,
+        "pageEnd": 70,
+        "entityType": "competencyCard",
+        "slug": "jumpjet-protocol",
+        "competency": "Chrome",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "chrome"
+        }
+      ],
+      "validationExpected": {
+        "name": "Jumpjet Protocol",
+        "type": "domainCard",
+        "system.level": 3,
+        "system.domain": "chrome",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:chrome:jumpjet-protocol",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "a6e78336a7870e78",
+  "folder": "568036079afa4eca",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a6e78336a7870e78"
+}

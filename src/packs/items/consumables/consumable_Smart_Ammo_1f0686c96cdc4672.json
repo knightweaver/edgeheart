@@ -1,0 +1,81 @@
+{
+  "name": "Smart Ammo",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The next successful weapon attack with a firearm can hit another target within Very Close range for half damage.</p>",
+    "quantity": 1,
+    "actions": {
+      "97659b0e8d272e35": {
+        "type": "effect",
+        "_id": "97659b0e8d272e35",
+        "systemPath": "actions",
+        "description": "<p>The next successful weapon attack with a firearm can hit another target within Very Close range for half damage.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Smart Ammo",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:smart-ammo",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 39,
+        "pageEnd": 39,
+        "entityType": "consumable",
+        "slug": "smart-ammo",
+        "roll": 17
+      },
+      "validationExpected": {
+        "name": "Smart Ammo",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:smart-ammo",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "1f0686c96cdc4672",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1f0686c96cdc4672"
+}

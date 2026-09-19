@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "d21bface3003264b",
+  "name": "Level 9",
+  "color": null,
+  "sorting": "a",
+  "_id": "06fda20b36d3ac64",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-ghost-level-9",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!06fda20b36d3ac64"
+}

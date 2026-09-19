@@ -1,0 +1,72 @@
+{
+  "name": "Rootkill",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, when you successfully Hack a target you have Exploited, you can force a catastrophic system failure. The target marks 1 Stress and 1 Hit Point, then becomes temporarily Degraded. While Degraded, the target uses a d12 instead of a d20 for attack rolls.</p>",
+    "actions": {
+      "b93f1e36f2d3f3d7": {
+        "type": "effect",
+        "_id": "b93f1e36f2d3f3d7",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, when you successfully Hack a target you have Exploited, you can force a catastrophic system failure. The target marks 1 Stress and 1 Hit Point, then becomes temporarily Degraded. While Degraded, the target uses a d12 instead of a d20 for attack rolls.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Rootkill",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:breach-specialist:rootkill",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 11
+      },
+      "deployment": {
+        "logicalKey": "feature:breach-specialist:rootkill",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "94df424796512b59",
+  "folder": "95b9673d2a648601",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!94df424796512b59"
+}

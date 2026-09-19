@@ -1,0 +1,149 @@
+{
+  "name": "Pop-Up Blade",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 1</p><p>This implant counts as a Secondary Weapon which is always equipped: Finesse, Melee, d6+3 physical. Concealed: You have advantage on your first attack each scene with it.</p>",
+    "actions": {
+      "ad98f2a0789a4a8c": {
+        "type": "attack",
+        "_id": "ad98f2a0789a4a8c",
+        "systemPath": "actions",
+        "description": "<p>Concealed: You have advantage on your first attack each scene with it.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "effects": [],
+        "roll": {
+          "trait": "finesse",
+          "type": "attack",
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "dice": "d6",
+                "bonus": 3,
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "type": [
+                "physical"
+              ],
+              "applyTo": "hitPoints",
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "base": false
+            }
+          ],
+          "includeBase": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Pop-Up Blade",
+        "img": "icons/svg/upgrade.svg",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:pop-up-blade",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 42,
+        "pageEnd": 42,
+        "entityType": "cyberware",
+        "slug": "pop-up-blade",
+        "roll": 11,
+        "cyberCostRaw": "1",
+        "competencyAccess": null,
+        "embeddedWeapon": {
+          "category": "secondary",
+          "trait": "Finesse",
+          "range": "Melee",
+          "damage": {
+            "raw": "d6+3 physical",
+            "formula": "d6+3",
+            "typeRaw": "physical",
+            "typeNormalized": "physical"
+          },
+          "featureText": "Concealed: You have advantage on your first attack each scene with it."
+        }
+      },
+      "validationExpected": {
+        "name": "Pop-Up Blade",
+        "type": "feature",
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "cyberware:pop-up-blade",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "4adbf707cf30e464",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4adbf707cf30e464"
+}

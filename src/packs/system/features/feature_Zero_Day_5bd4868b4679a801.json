@@ -1,0 +1,72 @@
+{
+  "name": "Zero-Day",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Spend 3 Hope to immediately create 2 Breaches.</p>",
+    "actions": {
+      "406ca2eb3d380f47": {
+        "type": "effect",
+        "_id": "406ca2eb3d380f47",
+        "systemPath": "actions",
+        "description": "<p>Spend 3 Hope to immediately create 2 Breaches.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Zero-Day",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:runner:zero-day",
+      "source": {
+        "featureStage": "hope",
+        "sourcePage": 11
+      },
+      "deployment": {
+        "logicalKey": "feature:runner:zero-day",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "5bd4868b4679a801",
+  "folder": "ddf64e131b385558",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5bd4868b4679a801"
+}

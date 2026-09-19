@@ -1,0 +1,96 @@
+{
+  "name": "Pain Conversion",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>If you have at least one HP marked, you<br>gain a bonus to your damage rolls<br>equal to twice your number of marked<br>HP.<br>Your pain editor, adrenal engine, threat<br>processor, or aggression software<br>converts physical damage into combat<br>output.</p>",
+    "level": 1,
+    "domain": "redline",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "e16782da6087cf00": {
+        "type": "effect",
+        "_id": "e16782da6087cf00",
+        "systemPath": "actions",
+        "description": "<p>If you have at least one HP marked, you<br>gain a bonus to your damage rolls<br>equal to twice your number of marked<br>HP.<br>Your pain editor, adrenal engine, threat<br>processor, or aggression software<br>converts physical damage into combat<br>output.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Pain Conversion",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:pain-conversion",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 85,
+        "pageEnd": 85,
+        "entityType": "competencyCard",
+        "slug": "pain-conversion",
+        "competency": "Redline",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Pain Conversion",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "redline",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:pain-conversion",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "dd02d5122435373b",
+  "folder": "53f3a7583391516c",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!dd02d5122435373b"
+}

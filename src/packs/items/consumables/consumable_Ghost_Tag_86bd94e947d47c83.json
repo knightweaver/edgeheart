@@ -1,0 +1,81 @@
+{
+  "name": "Ghost Tag",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Use when you enter a restricted, surveilled, or guarded area. Until your next Spotlight, cameras and basic sensors treat you as authorized or harmless.</p>",
+    "quantity": 1,
+    "actions": {
+      "6c310924ce16acc5": {
+        "type": "effect",
+        "_id": "6c310924ce16acc5",
+        "systemPath": "actions",
+        "description": "<p>Use when you enter a restricted, surveilled, or guarded area. Until your next Spotlight, cameras and basic sensors treat you as authorized or harmless.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Ghost Tag",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:ghost-tag",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 40,
+        "pageEnd": 40,
+        "entityType": "consumable",
+        "slug": "ghost-tag",
+        "roll": 32
+      },
+      "validationExpected": {
+        "name": "Ghost Tag",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:ghost-tag",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "86bd94e947d47c83",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!86bd94e947d47c83"
+}

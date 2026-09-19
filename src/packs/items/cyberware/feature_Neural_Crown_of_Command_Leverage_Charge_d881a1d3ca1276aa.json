@@ -1,0 +1,84 @@
+{
+  "name": "Neural Crown of Command - Leverage Charge",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 3</p><p>When you roll with Hope using an Influence card or in a social context, gain 1 Leverage Charge, max 3. Before a roll using your Presence or Influence card, spend any Charges to add +1 per charge to the roll. If you succeed, a target also marks the same number of Stress and one ally who can hear you clears the same number of Stress for every charge spent.</p>",
+    "actions": {
+      "34eca3f6212d9e19": {
+        "type": "effect",
+        "_id": "34eca3f6212d9e19",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 3</p><p>When you roll with Hope using an Influence card or in a social context, gain 1 Leverage Charge, max 3. Before a roll using your Presence or Influence card, spend any Charges to add +1 per charge to the roll. If you succeed, a target also marks the same number of Stress and one ally who can hear you clears the same number of Stress for every charge spent.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Neural Crown of Command - Leverage Charge",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:neural-crown-of-command-leverage-charge",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 44,
+        "pageEnd": 44,
+        "entityType": "cyberware",
+        "slug": "neural-crown-of-command-leverage-charge",
+        "roll": 55,
+        "cyberCostRaw": "3",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Neural Crown of Command - Leverage Charge",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:neural-crown-of-command-leverage-charge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "d881a1d3ca1276aa",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d881a1d3ca1276aa"
+}

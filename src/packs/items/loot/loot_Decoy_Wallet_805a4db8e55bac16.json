@@ -1,0 +1,80 @@
+{
+  "name": "Decoy Wallet",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Once per rest, when someone searches, robs, scans, or shakes you down, they find this convincing fake instead of something important.</p>",
+    "quantity": 1,
+    "actions": {
+      "c1daa46d80b4cf91": {
+        "type": "effect",
+        "_id": "c1daa46d80b4cf91",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, when someone searches, robs, scans, or shakes you down, they find this convincing fake instead of something important.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Decoy Wallet",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:decoy-wallet",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 38,
+        "pageEnd": 38,
+        "entityType": "loot",
+        "slug": "decoy-wallet",
+        "roll": 25
+      },
+      "validationExpected": {
+        "name": "Decoy Wallet",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:decoy-wallet",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "805a4db8e55bac16",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!805a4db8e55bac16"
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Black Clinic Under Siege",
+  "type": "environment",
+  "img": "icons/svg/door-exit.svg",
+  "system": {
+    "description": "A hidden clinic filled with half-finished surgeries, illegal medicine, and people too valuable to lose.",
+    "tier": 2,
+    "type": "event",
+    "difficulty": 14,
+    "notes": "",
+    "impulses": [
+      "Stabilize",
+      "panic",
+      "protect the helpless"
+    ],
+    "potentialAdversaries": [
+      "Black-Clinic Butcher",
+      "Blood Saint Duelist",
+      "Corporate Response Team"
+    ],
+    "features": [
+      {
+        "_id": "f9b15de4e72e497e",
+        "name": "Fragile Patients",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Any attack that rolls with Fear risks harming a patient, damaging medical gear, or contaminating the operating room.\n\nWho is on the table?",
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "c1a541134ada85c7",
+        "name": "Emergency Procedure",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "A PC can attempt a Knowledge or Finesse Roll to stabilize a patient or device. On a success, one ally clears 1 Stress.\n\nWhat illegal procedure is halfway complete?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "a9616b2ad9d7c52e",
+        "name": "Power Failure",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "When a PC rolls with Fear, lights fail, life support flickers, or doors unlock. All medical actions have disadvantage until someone restores power.\n\nWho wanted the power cut?",
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "tags": [],
+    "bonuses": {}
+  },
+  "prototypeToken": null,
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:environment:black-clinic-under-siege",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 55,
+        "pageEnd": 55,
+        "entityType": "environment",
+        "slug": "black-clinic-under-siege"
+      },
+      "validationExpected": {
+        "name": "Black Clinic Under Siege",
+        "type": "environment",
+        "system.tier": 2,
+        "system.type": "event",
+        "system.difficulty": 14,
+        "system.featuresCount": 3
+      },
+      "deployment": {
+        "logicalKey": "environment:black-clinic-under-siege",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "d85c2a117a84da51",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!d85c2a117a84da51"
+}

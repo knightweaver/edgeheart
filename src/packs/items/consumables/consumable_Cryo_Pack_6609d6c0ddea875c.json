@@ -1,0 +1,81 @@
+{
+  "name": "Cryo Pack",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When you or an ally within Melee range would take fire, heat, acid, or explosive damage, reduce the severity by one threshold.</p>",
+    "quantity": 1,
+    "actions": {
+      "b2d092bcf182ef26": {
+        "type": "effect",
+        "_id": "b2d092bcf182ef26",
+        "systemPath": "actions",
+        "description": "<p>When you or an ally within Melee range would take fire, heat, acid, or explosive damage, reduce the severity by one threshold.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Cryo Pack",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:cryo-pack",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 40,
+        "pageEnd": 40,
+        "entityType": "consumable",
+        "slug": "cryo-pack",
+        "roll": 29
+      },
+      "validationExpected": {
+        "name": "Cryo Pack",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:cryo-pack",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6609d6c0ddea875c",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6609d6c0ddea875c"
+}

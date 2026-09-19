@@ -1,0 +1,80 @@
+{
+  "name": "Old World Map",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When you enter a ruin, dead zone, tunnel, or sealed facility, ask the GM one question about a hidden route, old purpose, or structural weakness.</p>",
+    "quantity": 1,
+    "actions": {
+      "dc80625850cc3b82": {
+        "type": "effect",
+        "_id": "dc80625850cc3b82",
+        "systemPath": "actions",
+        "description": "<p>When you enter a ruin, dead zone, tunnel, or sealed facility, ask the GM one question about a hidden route, old purpose, or structural weakness.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Old World Map",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:old-world-map",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 37,
+        "pageEnd": 37,
+        "entityType": "loot",
+        "slug": "old-world-map",
+        "roll": 20
+      },
+      "validationExpected": {
+        "name": "Old World Map",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:old-world-map",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0858c0dbb8d0f3ca",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0858c0dbb8d0f3ca"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "System Rupture",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a<br>creature within Far range. On a<br>success, mark a HP to mark the target<br>with a trauma amplifier, wound exploit,<br>neural instability feedback, pressure<br>spike, or hostile nanite brand.<br>This mark lasts until the GM spends 2<br>Fear to remove it or you take Severe<br>damage.<br>Whenever the target marks any HP<br>while the mark remains, you can mark<br>a Stress to make them mark an<br>additional HP.</p>",
+    "level": 9,
+    "domain": "redline",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "e240e879d8f12d5a": {
+        "type": "effect",
+        "_id": "e240e879d8f12d5a",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a<br>creature within Far range. On a<br>success, mark a HP to mark the target<br>with a trauma amplifier, wound exploit,<br>neural instability feedback, pressure<br>spike, or hostile nanite brand.<br>This mark lasts until the GM spends 2<br>Fear to remove it or you take Severe<br>damage.<br>Whenever the target marks any HP<br>while the mark remains, you can mark<br>a Stress to make them mark an<br>additional HP.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "System Rupture",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:system-rupture",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 87,
+        "pageEnd": 87,
+        "entityType": "competencyCard",
+        "slug": "system-rupture",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "System Rupture",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "redline",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:system-rupture",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0ad3b80024d5c028",
+  "folder": "173b9091470f5e57",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0ad3b80024d5c028"
+}

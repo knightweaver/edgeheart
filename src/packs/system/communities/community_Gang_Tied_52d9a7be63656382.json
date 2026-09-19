@@ -1,0 +1,49 @@
+{
+  "name": "Gang-Tied",
+  "type": "community",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are connected to a gang, street family, or violent local power.</p><h4>COMMUNITY FEATURE</h4><p><em><strong>Street Wise:</strong></em> You have advantage on rolls to negotiate with criminals, detect lies, recognize gang signs, or find a safe place to hide in criminal territory.</p>",
+    "features": [
+      "feature:gang-tied:street-wise"
+    ],
+    "attribution": {
+      "source": "Edgeheart",
+      "page": 30,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "community:gang-tied",
+      "source": {
+        "entityType": "affiliation",
+        "slug": "gang-tied",
+        "mappedFoundryType": "community"
+      },
+      "deployment": {
+        "logicalKey": "community:gang-tied",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "52d9a7be63656382",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!52d9a7be63656382"
+}

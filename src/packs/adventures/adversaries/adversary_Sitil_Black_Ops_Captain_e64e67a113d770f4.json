@@ -1,0 +1,497 @@
+{
+  "name": "Sitil Black-Ops Captain",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "adversary",
+  "system": {
+    "difficulty": 17,
+    "damageThresholds": {
+      "major": 16,
+      "severe": 32
+    },
+    "resources": {
+      "hitPoints": {
+        "value": 0,
+        "max": 7,
+        "isReversed": true
+      },
+      "stress": {
+        "value": 0,
+        "max": 6,
+        "isReversed": true
+      }
+    },
+    "motivesAndTactics": "Command, isolate, execute",
+    "resistance": {
+      "physical": {
+        "resistance": false,
+        "immunity": false,
+        "reduction": 0
+      },
+      "magical": {
+        "resistance": false,
+        "immunity": false,
+        "reduction": 0
+      }
+    },
+    "type": "leader",
+    "notes": "",
+    "hordeHp": 1,
+    "experiences": {
+      "d3eb8b383196205a": {
+        "name": "Tactical Command",
+        "value": 4
+      }
+    },
+    "bonuses": {
+      "roll": {
+        "attack": {
+          "bonus": 0,
+          "dice": []
+        },
+        "action": {
+          "bonus": 0,
+          "dice": []
+        },
+        "reaction": {
+          "bonus": 0,
+          "dice": []
+        }
+      },
+      "damage": {
+        "physical": {
+          "bonus": 0,
+          "dice": []
+        },
+        "magical": {
+          "bonus": 0,
+          "dice": []
+        }
+      }
+    },
+    "tier": 3,
+    "description": "<p>A corporate commander with encrypted orders and permission to erase witnesses.</p>",
+    "attack": {
+      "name": "Command Rifle",
+      "roll": {
+        "bonus": 3,
+        "type": "attack",
+        "trait": null,
+        "difficulty": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "range": "far",
+      "damage": {
+        "parts": [
+          {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d8",
+              "bonus": 5,
+              "multiplier": "flat",
+              "flatMultiplier": 3
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        ],
+        "includeBase": false,
+        "direct": false
+      },
+      "img": "icons/svg/sword.svg",
+      "type": "attack",
+      "chatDisplay": false,
+      "_id": "34e80ee8fd6dd226",
+      "systemPath": "actions",
+      "baseAction": false,
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "target": {
+        "type": "any",
+        "amount": null
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      }
+    },
+    "attribution": {
+      "source": "Edgeheart",
+      "page": 61,
+      "artist": ""
+    },
+    "criticalThreshold": 20,
+    "rules": {
+      "conditionImmunities": {
+        "hidden": false,
+        "restrained": false,
+        "vulnerable": false
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Sitil Black-Ops Captain",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hitPoints"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": "#4d4033",
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.8,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Operational Control",
+      "type": "feature",
+      "_id": "7204b58cdc454270",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Corporate allies within Close range gain +1 Difficulty.</p>",
+        "resource": null,
+        "actions": {
+          "2db309c38aa8f048": {
+            "type": "effect",
+            "_id": "2db309c38aa8f048",
+            "systemPath": "actions",
+            "description": "<p>Corporate allies within Close range gain +1 Difficulty.</p>",
+            "chatDisplay": true,
+            "actionType": "passive",
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Operational Control",
+            "img": "icons/svg/aura.svg",
+            "range": "",
+            "baseAction": false,
+            "originItem": {
+              "type": "itemCollection"
+            }
+          }
+        },
+        "originItemType": null,
+        "attribution": {},
+        "multiclassOrigin": false
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "name": "Kill Order",
+      "type": "feature",
+      "_id": "3684ba28d1b61518",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Mark a Stress. The captain and one corporate ally within Far range immediately moves within Very Close range and makes a standard attack.</p>",
+        "resource": null,
+        "actions": {
+          "c94966865ca0a04a": {
+            "type": "effect",
+            "_id": "c94966865ca0a04a",
+            "systemPath": "actions",
+            "description": "<p>Mark a Stress. The captain and one corporate ally within Far range immediately moves within Very Close range and makes a standard attack.</p>",
+            "chatDisplay": true,
+            "actionType": "action",
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Kill Order",
+            "img": "icons/svg/aura.svg",
+            "range": "",
+            "baseAction": false,
+            "originItem": {
+              "type": "itemCollection"
+            }
+          }
+        },
+        "originItemType": null,
+        "attribution": {},
+        "multiclassOrigin": false
+      },
+      "effects": [],
+      "sort": 100000,
+      "flags": {}
+    },
+    {
+      "name": "No Witnesses",
+      "type": "feature",
+      "_id": "f23f9114e201ed59",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Mark 2 Stress and choose one object, body, terminal, witness, camera, or piece of evidence within Far range. It is destroyed, erased, extracted, or placed in immediate danger. If it chooses a target, it becomes Marked. Corporate allies that attacks a Marked target have advantage against it.</p>",
+        "resource": null,
+        "actions": {
+          "633ff592753f4ccc": {
+            "type": "effect",
+            "_id": "633ff592753f4ccc",
+            "systemPath": "actions",
+            "description": "<p>Mark 2 Stress and choose one object, body, terminal, witness, camera, or piece of evidence within Far range. It is destroyed, erased, extracted, or placed in immediate danger. If it chooses a target, it becomes Marked. Corporate allies that attacks a Marked target have advantage against it.</p>",
+            "chatDisplay": true,
+            "actionType": "action",
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "No Witnesses",
+            "img": "icons/svg/aura.svg",
+            "range": "",
+            "baseAction": false,
+            "originItem": {
+              "type": "itemCollection"
+            }
+          }
+        },
+        "originItemType": null,
+        "attribution": {},
+        "multiclassOrigin": false
+      },
+      "effects": [],
+      "sort": 200000,
+      "flags": {}
+    },
+    {
+      "name": "Asset Denial",
+      "type": "feature",
+      "_id": "a1750ecb153e8847",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When a PC rolls with Fear, lock down one door, route, elevator, drone, or security system within Far range.</p>",
+        "resource": null,
+        "actions": {
+          "30441d05e4633d38": {
+            "type": "effect",
+            "_id": "30441d05e4633d38",
+            "systemPath": "actions",
+            "description": "<p>When a PC rolls with Fear, lock down one door, route, elevator, drone, or security system within Far range.</p>",
+            "chatDisplay": true,
+            "actionType": "reaction",
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Asset Denial",
+            "img": "icons/svg/aura.svg",
+            "range": "",
+            "baseAction": false,
+            "originItem": {
+              "type": "itemCollection"
+            }
+          }
+        },
+        "originItemType": null,
+        "attribution": {},
+        "multiclassOrigin": false
+      },
+      "effects": [],
+      "sort": 300000,
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:adversary:sitil-black-ops-captain",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 61,
+        "pageEnd": 61,
+        "entityType": "adversary",
+        "slug": "sitil-black-ops-captain",
+        "classificationRaw": "Corporate Leader",
+        "affiliationTag": "Corporate",
+        "attackRangeRaw": "Far",
+        "attackDamageRaw": "3d8+5 phy"
+      },
+      "validationExpected": {
+        "name": "Sitil Black-Ops Captain",
+        "type": "adversary",
+        "system.tier": 3,
+        "system.type": "leader",
+        "system.difficulty": 17,
+        "system.damageThresholds.major": 16,
+        "system.damageThresholds.severe": 32,
+        "system.resources.hitPoints.max": 7,
+        "system.resources.stress.max": 6,
+        "system.attack.range": "far",
+        "system.attack.roll.bonus": 3
+      },
+      "deployment": {
+        "logicalKey": "adversary:sitil-black-ops-captain",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e64e67a113d770f4",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!e64e67a113d770f4"
+}

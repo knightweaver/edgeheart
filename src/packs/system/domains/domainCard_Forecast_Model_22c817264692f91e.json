@@ -1,0 +1,96 @@
+{
+  "name": "Forecast Model",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per rest, spend 2 Hope to run a<br>tactical assessment of your current<br>environment, using route data, terrain<br>scans, local markings, gang signs, old<br>maps, or survival instincts.<br>Ask the GM one yes or no question<br>about the current area, route, danger,<br>structure, or situation.<br>The GM answers truthfully based on<br>what is currently present or reasonably<br>detectable.<br>After receiving the answer, the next<br>time you or an ally acts directly on this<br>information, they gain a +2 bonus to<br>their action roll.</p>",
+    "level": 4,
+    "domain": "frontier",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "fb06f38a4de25413": {
+        "type": "effect",
+        "_id": "fb06f38a4de25413",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, spend 2 Hope to run a<br>tactical assessment of your current<br>environment, using route data, terrain<br>scans, local markings, gang signs, old<br>maps, or survival instincts.<br>Ask the GM one yes or no question<br>about the current area, route, danger,<br>structure, or situation.<br>The GM answers truthfully based on<br>what is currently present or reasonably<br>detectable.<br>After receiving the answer, the next<br>time you or an ally acts directly on this<br>information, they gain a +2 bonus to<br>their action roll.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Forecast Model",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:forecast-model",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 80,
+        "pageEnd": 80,
+        "entityType": "competencyCard",
+        "slug": "forecast-model",
+        "competency": "Frontier",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Forecast Model",
+        "type": "domainCard",
+        "system.level": 4,
+        "system.domain": "frontier",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:forecast-model",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "22c817264692f91e",
+  "folder": "2278b917b15a3c4a",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!22c817264692f91e"
+}

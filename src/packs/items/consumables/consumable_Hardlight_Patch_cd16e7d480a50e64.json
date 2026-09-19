@@ -1,0 +1,81 @@
+{
+  "name": "Hardlight Patch",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The next time you mark an Armor Slot before your next rest, reduce severity by one additional threshold.</p>",
+    "quantity": 1,
+    "actions": {
+      "209c3b46054b4f5c": {
+        "type": "effect",
+        "_id": "209c3b46054b4f5c",
+        "systemPath": "actions",
+        "description": "<p>The next time you mark an Armor Slot before your next rest, reduce severity by one additional threshold.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Hardlight Patch",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:hardlight-patch",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 39,
+        "pageEnd": 39,
+        "entityType": "consumable",
+        "slug": "hardlight-patch",
+        "roll": 14
+      },
+      "validationExpected": {
+        "name": "Hardlight Patch",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:hardlight-patch",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "cd16e7d480a50e64",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!cd16e7d480a50e64"
+}

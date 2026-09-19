@@ -1,0 +1,49 @@
+{
+  "name": "Nomad Convoy",
+  "type": "community",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are connected to a convoy, road clan, or wasteland route.</p><h4>COMMUNITY FEATURE</h4><p><em><strong>Law of the Road:</strong></em> Record three rules, codes, or protocols your convoy drilled into you. Once per rest, when you describe how you’re embodying one of these principles through your current action, you can roll a d20 as your Hope Die.</p>",
+    "features": [
+      "feature:nomad-convoy:law-of-the-road"
+    ],
+    "attribution": {
+      "source": "Edgeheart",
+      "page": 30,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "community:nomad-convoy",
+      "source": {
+        "entityType": "affiliation",
+        "slug": "nomad-convoy",
+        "mappedFoundryType": "community"
+      },
+      "deployment": {
+        "logicalKey": "community:nomad-convoy",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "2ea664a141e77eac",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2ea664a141e77eac"
+}

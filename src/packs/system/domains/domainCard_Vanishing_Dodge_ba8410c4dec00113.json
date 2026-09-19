@@ -1,0 +1,96 @@
+{
+  "name": "Vanishing Dodge",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When an attack made against you that<br>would deal physical damage fails, you<br>can spend a Hope to trigger a smoke<br>burst, ghost-skin flicker, phase jump,<br>emergency blink, or optical<br>displacement.<br>You become Hidden and move to a<br>point within Close range of the<br>attacker.<br>You remain Hidden until the next time<br>you make an action roll.<br>SS ae</p>",
+    "level": 7,
+    "domain": "ghost",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "c1272ea6110277b2": {
+        "type": "effect",
+        "_id": "c1272ea6110277b2",
+        "systemPath": "actions",
+        "description": "<p>When an attack made against you that<br>would deal physical damage fails, you<br>can spend a Hope to trigger a smoke<br>burst, ghost-skin flicker, phase jump,<br>emergency blink, or optical<br>displacement.<br>You become Hidden and move to a<br>point within Close range of the<br>attacker.<br>You remain Hidden until the next time<br>you make an action roll.<br>SS ae</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Vanishing Dodge",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Ghost:vanishing-dodge",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 78,
+        "pageEnd": 78,
+        "entityType": "competencyCard",
+        "slug": "vanishing-dodge",
+        "competency": "Ghost",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "ghost"
+        }
+      ],
+      "validationExpected": {
+        "name": "Vanishing Dodge",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "ghost",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:ghost:vanishing-dodge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ba8410c4dec00113",
+  "folder": "625322bbc3a61940",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ba8410c4dec00113"
+}

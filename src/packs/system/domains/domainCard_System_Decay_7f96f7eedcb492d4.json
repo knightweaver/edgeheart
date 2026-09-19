@@ -1,0 +1,96 @@
+{
+  "name": "System Decay",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, spend a<br>Hope to infect them with corrupted<br>firmware or obsolete code that their<br>system no longer know how to process.<br>The target becomes temporarily<br>Degraded. While Degraded, the target<br>uses a diz instead of a d20 for attack<br>rolls. You can only hold this protocol on<br>one creature at atime.</p>",
+    "level": 4,
+    "domain": "blackwall",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "4339419d907df55c": {
+        "type": "effect",
+        "_id": "4339419d907df55c",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, spend a<br>Hope to infect them with corrupted<br>firmware or obsolete code that their<br>system no longer know how to process.<br>The target becomes temporarily<br>Degraded. While Degraded, the target<br>uses a diz instead of a d20 for attack<br>rolls. You can only hold this protocol on<br>one creature at atime.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "System Decay",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:system-decay",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 88,
+        "pageEnd": 88,
+        "entityType": "competencyCard",
+        "slug": "system-decay",
+        "competency": "Blackwall",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "System Decay",
+        "type": "domainCard",
+        "system.level": 4,
+        "system.domain": "blackwall",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:system-decay",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7f96f7eedcb492d4",
+  "folder": "9521913973bd8906",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7f96f7eedcb492d4"
+}

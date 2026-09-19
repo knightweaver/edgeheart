@@ -1,0 +1,63 @@
+{
+  "name": "Tech",
+  "type": "class",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Techs are problem solvers who understand that every machine has a way to break, bend, or become useful. They make impossible plans work just long enough to matter.</p>",
+    "domains": [],
+    "classItems": [],
+    "hitPoints": 5,
+    "evasion": 10,
+    "features": [
+      {
+        "type": "hope",
+        "ref": "feature:tech:make-it-work"
+      },
+      {
+        "type": "class",
+        "ref": "feature:tech:jury-rig"
+      }
+    ],
+    "subclasses": [],
+    "isMulticlass": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "class:tech",
+      "source": {
+        "entityType": "class",
+        "slug": "tech",
+        "competency": "Systems",
+        "classItems": [
+          "A customized toolkit full of illegal adapters and scavenged parts, or a broken machine you refuse to stop repairing."
+        ]
+      },
+      "pendingDomainMapping": [
+        "systems"
+      ],
+      "deployment": {
+        "logicalKey": "class:tech",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "e7975847093a2ace",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e7975847093a2ace"
+}

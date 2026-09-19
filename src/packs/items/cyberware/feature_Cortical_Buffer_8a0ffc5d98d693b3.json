@@ -1,0 +1,84 @@
+{
+  "name": "Cortical Buffer",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 2</p><p>Gain one additional Stress slot. When you roll your Humanity Die, you may mark a Stress to add +1 to the result.</p>",
+    "actions": {
+      "6e171ac4415168ba": {
+        "type": "effect",
+        "_id": "6e171ac4415168ba",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 2</p><p>Gain one additional Stress slot. When you roll your Humanity Die, you may mark a Stress to add +1 to the result.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Cortical Buffer",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:cortical-buffer",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 43,
+        "pageEnd": 43,
+        "entityType": "cyberware",
+        "slug": "cortical-buffer",
+        "roll": 37,
+        "cyberCostRaw": "2",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Cortical Buffer",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:cortical-buffer",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "8a0ffc5d98d693b3",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8a0ffc5d98d693b3"
+}

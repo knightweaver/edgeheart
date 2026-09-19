@@ -1,0 +1,96 @@
+{
+  "name": "Cruel Precision",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you make a successful attack<br>with a weapon, gain a bonus to your<br>damage roll equal to either your<br>Finesse or Agility.</p>",
+    "level": 7,
+    "domain": "chrome",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "9e5c85d1a8eb8e2e": {
+        "type": "effect",
+        "_id": "9e5c85d1a8eb8e2e",
+        "systemPath": "actions",
+        "description": "<p>When you make a successful attack<br>with a weapon, gain a bonus to your<br>damage roll equal to either your<br>Finesse or Agility.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Cruel Precision",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Chrome:cruel-precision",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 71,
+        "pageEnd": 71,
+        "entityType": "competencyCard",
+        "slug": "cruel-precision",
+        "competency": "Chrome",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "chrome"
+        }
+      ],
+      "validationExpected": {
+        "name": "Cruel Precision",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "chrome",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:chrome:cruel-precision",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7420db2ff064a1db",
+  "folder": "6f631a6688172c4b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7420db2ff064a1db"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Bulwark",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as a Bulwark if you want to become heavy armor, riot shielding, and the person enemies regret hitting.</p>",
+    "spellcastingTrait": "strength",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:bulwark:impact-frame"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:bulwark:hard-to-break"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:bulwark:unbreakable-frame"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:warden"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:bulwark",
+      "source": {
+        "entityType": "subclass",
+        "slug": "bulwark",
+        "parentClass": "Warden"
+      },
+      "deployment": {
+        "logicalKey": "subclass:bulwark",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "c31bbf0a4ba3622f",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c31bbf0a4ba3622f"
+}

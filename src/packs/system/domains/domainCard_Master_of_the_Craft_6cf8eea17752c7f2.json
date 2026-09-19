@@ -1,0 +1,96 @@
+{
+  "name": "Master of the Craft",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Gain a permanent +2 bonus to two of your Experiences or a permanent +3 bonus to one of your Experiences.<br>Then place this card in your vault permanently.</p>",
+    "level": 9,
+    "domain": "influence",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "21a3247a7d0d9e47": {
+        "type": "effect",
+        "_id": "21a3247a7d0d9e47",
+        "systemPath": "actions",
+        "description": "<p>Gain a permanent +2 bonus to two of your Experiences or a permanent +3 bonus to one of your Experiences.<br>Then place this card in your vault permanently.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Master of the Craft",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:master-of-the-craft",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 76,
+        "pageEnd": 76,
+        "entityType": "competencyCard",
+        "slug": "master-of-the-craft",
+        "competency": "Influence",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Master of the Craft",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "influence",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:master-of-the-craft",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6cf8eea17752c7f2",
+  "folder": "101e265e92a018fe",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6cf8eea17752c7f2"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Filter Hood",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>You can breathe and act normally in smoke, dust, ash, chemical stink, tear gas, and polluted air unless the hazard is immediately lethal.</p>",
+    "quantity": 1,
+    "actions": {
+      "66d4d23883066099": {
+        "type": "effect",
+        "_id": "66d4d23883066099",
+        "systemPath": "actions",
+        "description": "<p>You can breathe and act normally in smoke, dust, ash, chemical stink, tear gas, and polluted air unless the hazard is immediately lethal.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Filter Hood",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:filter-hood",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 38,
+        "pageEnd": 38,
+        "entityType": "loot",
+        "slug": "filter-hood",
+        "roll": 28
+      },
+      "validationExpected": {
+        "name": "Filter Hood",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:filter-hood",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "4ff8e420aedc6680",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4ff8e420aedc6680"
+}

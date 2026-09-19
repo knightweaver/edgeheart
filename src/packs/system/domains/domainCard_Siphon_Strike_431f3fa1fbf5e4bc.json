@@ -1,0 +1,96 @@
+{
+  "name": "Siphon Strike",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you make a successful attack roll<br>against an adversary and cause them<br>to mark 2 or more HP, you can spend a<br>Hope to clear a HP or Stress.<br>This might look like your adrenal<br>system spiking, your pain editor<br>stabilizing, your combat firmware<br>rewarding violence, your body briefly<br>mistaking impact for recovery, or<br>forcing your body to stabilize through<br>adrenaline.</p>",
+    "level": 7,
+    "domain": "redline",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "ccadc15b8ad47b02": {
+        "type": "effect",
+        "_id": "ccadc15b8ad47b02",
+        "systemPath": "actions",
+        "description": "<p>When you make a successful attack roll<br>against an adversary and cause them<br>to mark 2 or more HP, you can spend a<br>Hope to clear a HP or Stress.<br>This might look like your adrenal<br>system spiking, your pain editor<br>stabilizing, your combat firmware<br>rewarding violence, your body briefly<br>mistaking impact for recovery, or<br>forcing your body to stabilize through<br>adrenaline.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Siphon Strike",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:siphon-strike",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 87,
+        "pageEnd": 87,
+        "entityType": "competencyCard",
+        "slug": "siphon-strike",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Siphon Strike",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "redline",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:siphon-strike",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "431f3fa1fbf5e4bc",
+  "folder": "7102051a2b83c018",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!431f3fa1fbf5e4bc"
+}

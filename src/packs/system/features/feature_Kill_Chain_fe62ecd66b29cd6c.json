@@ -1,0 +1,72 @@
+{
+  "name": "Kill Chain",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>At the beginning of each scene, your Kill Chain Die is a d4. When you succeed on a weapon attack or Assault card that deals damage, roll your Kill Chain Die and add its result to the damage roll. If the attack deals Major or Severe damage, increase your Kill Chain Die by one step, from d4 up to d20. If you fail an attack roll, take a rest, or the scene ends, reset your Kill Chain Die to d4.</p>",
+    "actions": {
+      "60a651174dc66c33": {
+        "type": "effect",
+        "_id": "60a651174dc66c33",
+        "systemPath": "actions",
+        "description": "<p>At the beginning of each scene, your Kill Chain Die is a d4. When you succeed on a weapon attack or Assault card that deals damage, roll your Kill Chain Die and add its result to the damage roll. If the attack deals Major or Severe damage, increase your Kill Chain Die by one step, from d4 up to d20. If you fail an attack roll, take a rest, or the scene ends, reset your Kill Chain Die to d4.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Kill Chain",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:solo:kill-chain",
+      "source": {
+        "featureStage": "class",
+        "sourcePage": 15
+      },
+      "deployment": {
+        "logicalKey": "feature:solo:kill-chain",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "fe62ecd66b29cd6c",
+  "folder": "5e8d50e29a7260de",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fe62ecd66b29cd6c"
+}

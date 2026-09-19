@@ -1,0 +1,80 @@
+{
+  "name": "Portable Shrine",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>During a rest, you or an ally can spend a Hope to clear 1 Stress by confessing, praying, remembering, or grounding yourself.</p>",
+    "quantity": 1,
+    "actions": {
+      "58cea5606741a607": {
+        "type": "effect",
+        "_id": "58cea5606741a607",
+        "systemPath": "actions",
+        "description": "<p>During a rest, you or an ally can spend a Hope to clear 1 Stress by confessing, praying, remembering, or grounding yourself.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Portable Shrine",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:portable-shrine",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 37,
+        "pageEnd": 37,
+        "entityType": "loot",
+        "slug": "portable-shrine",
+        "roll": 17
+      },
+      "validationExpected": {
+        "name": "Portable Shrine",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:portable-shrine",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0258c5204d5efa84",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0258c5204d5efa84"
+}

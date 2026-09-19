@@ -1,0 +1,88 @@
+{
+  "name": "Voiceprint Modulator",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 1</p><p>Gain Card Access to one Influence card of your level or lower. You have advantage on rolls to mimic voices, spoof identity, or pass as authorized through audio systems.</p>",
+    "actions": {
+      "cdb61b76cb01d3fd": {
+        "type": "effect",
+        "_id": "cdb61b76cb01d3fd",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 1</p><p>Gain Card Access to one Influence card of your level or lower. You have advantage on rolls to mimic voices, spoof identity, or pass as authorized through audio systems.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Voiceprint Modulator",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:voiceprint-modulator",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 42,
+        "pageEnd": 42,
+        "entityType": "cyberware",
+        "slug": "voiceprint-modulator",
+        "roll": 27,
+        "cyberCostRaw": "1",
+        "competencyAccess": {
+          "competency": "Influence",
+          "mode": "card",
+          "cardRestriction": "one Influence card of your level or lower"
+        },
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Voiceprint Modulator",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:voiceprint-modulator",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "dcea6d2b571677de",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!dcea6d2b571677de"
+}

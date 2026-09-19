@@ -1,0 +1,81 @@
+{
+  "name": "Smart Grenade",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Choose a point within Far range. All adversaries within Very Close range of that point must make a Reaction Roll (14). On a failure, they mark 1 Stress and become temporarily Vulnerable.</p>",
+    "quantity": 1,
+    "actions": {
+      "4aeb53366d62a8d4": {
+        "type": "effect",
+        "_id": "4aeb53366d62a8d4",
+        "systemPath": "actions",
+        "description": "<p>Choose a point within Far range. All adversaries within Very Close range of that point must make a Reaction Roll (14). On a failure, they mark 1 Stress and become temporarily Vulnerable.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Smart Grenade",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:smart-grenade",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 40,
+        "pageEnd": 40,
+        "entityType": "consumable",
+        "slug": "smart-grenade",
+        "roll": 31
+      },
+      "validationExpected": {
+        "name": "Smart Grenade",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:smart-grenade",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "f41b562057b45f99",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f41b562057b45f99"
+}

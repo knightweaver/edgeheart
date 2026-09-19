@@ -1,0 +1,84 @@
+{
+  "name": "Skillsoft Socket",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 1</p><p>Choose one of your Experiences. It gains a +1 bonus.</p>",
+    "actions": {
+      "8e3ff2d6871d25c7": {
+        "type": "effect",
+        "_id": "8e3ff2d6871d25c7",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 1</p><p>Choose one of your Experiences. It gains a +1 bonus.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Skillsoft Socket",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:skillsoft-socket",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 42,
+        "pageEnd": 42,
+        "entityType": "cyberware",
+        "slug": "skillsoft-socket",
+        "roll": 3,
+        "cyberCostRaw": "1",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Skillsoft Socket",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:skillsoft-socket",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "be2057631531912c",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!be2057631531912c"
+}

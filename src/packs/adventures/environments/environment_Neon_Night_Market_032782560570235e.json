@@ -1,0 +1,142 @@
+{
+  "name": "Neon Night Market",
+  "type": "environment",
+  "img": "icons/svg/door-exit.svg",
+  "system": {
+    "description": "A crowded market of food stalls, chrome dealers, counterfeit fashion, gang scouts, and illegal tech.",
+    "tier": 1,
+    "type": "social",
+    "difficulty": 10,
+    "notes": "",
+    "impulses": [
+      "Tempt",
+      "expose",
+      "sell",
+      "hide danger"
+    ],
+    "potentialAdversaries": [
+      "Neon Claw Ganger",
+      "Tiger Choir Cutter",
+      "Pocket Drone Handler",
+      "Rookie Edgerunner"
+    ],
+    "features": [
+      {
+        "_id": "8449f6f1fc8dc1b8",
+        "name": "Crowded Flow",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "PCs have advantage on rolls to hide in the crowd, but disadvantage on rolls to notice threats beyond Close range.\n\nWho is watching from the crowd?",
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "ff4c7040bdca6aa8",
+        "name": "Black-Market Offer",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Present a useful item, cyberware lead, or contact at a cost.\n\nWhat does the seller really want?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "1b7c2244a0cad1f4",
+        "name": "Wrong Eyes",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "When a PC rolls with Fear on a social or stealth roll, a gang scout recognizes them or mistakes them for someone else.\n\nWhose reputation did they inherit?",
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "tags": [],
+    "bonuses": {}
+  },
+  "prototypeToken": null,
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:environment:neon-night-market",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 54,
+        "pageEnd": 54,
+        "entityType": "environment",
+        "slug": "neon-night-market"
+      },
+      "validationExpected": {
+        "name": "Neon Night Market",
+        "type": "environment",
+        "system.tier": 1,
+        "system.type": "social",
+        "system.difficulty": 10,
+        "system.featuresCount": 3
+      },
+      "deployment": {
+        "logicalKey": "environment:neon-night-market",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "032782560570235e",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!032782560570235e"
+}

@@ -1,0 +1,149 @@
+{
+  "name": "Shock Palm",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 1</p><p>This implant counts as a Secondary Weapon which is always equipped: Presence, Melee, d6 techno. Jolt: On a roll with Hope, the target marks 1 Stress and becomes Vulnerable.</p>",
+    "actions": {
+      "90f7876c5cff7c7f": {
+        "type": "attack",
+        "_id": "90f7876c5cff7c7f",
+        "systemPath": "actions",
+        "description": "<p>Jolt: On a roll with Hope, the target marks 1 Stress and becomes Vulnerable.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "effects": [],
+        "roll": {
+          "trait": "presence",
+          "type": "attack",
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "dice": "d6",
+                "bonus": 0,
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "type": [
+                "magical"
+              ],
+              "applyTo": "hitPoints",
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "base": false
+            }
+          ],
+          "includeBase": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Shock Palm",
+        "img": "icons/svg/upgrade.svg",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:shock-palm",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 42,
+        "pageEnd": 42,
+        "entityType": "cyberware",
+        "slug": "shock-palm",
+        "roll": 10,
+        "cyberCostRaw": "1",
+        "competencyAccess": null,
+        "embeddedWeapon": {
+          "category": "secondary",
+          "trait": "Presence",
+          "range": "Melee",
+          "damage": {
+            "raw": "d6 techno",
+            "formula": "d6",
+            "typeRaw": "techno",
+            "typeNormalized": "techno"
+          },
+          "featureText": "Jolt: On a roll with Hope, the target marks 1 Stress and becomes Vulnerable."
+        }
+      },
+      "validationExpected": {
+        "name": "Shock Palm",
+        "type": "feature",
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "cyberware:shock-palm",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "517ca483d7387ea5",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!517ca483d7387ea5"
+}

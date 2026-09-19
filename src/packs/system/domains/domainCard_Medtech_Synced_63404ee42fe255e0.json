@@ -1,0 +1,96 @@
+{
+  "name": "Medtech-Synced",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Medtech<br>Competency, gain the following:<br>* Gain a +3 bonus to your Severe<br>damage threshold.<br>* Once per rest, when incoming<br>damage would make you mark HP,<br>you can mark that much Stress or<br>spend that much Hope instead.</p>",
+    "level": 7,
+    "domain": "medtech",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "3870c82dd942e588": {
+        "type": "effect",
+        "_id": "3870c82dd942e588",
+        "systemPath": "actions",
+        "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Medtech<br>Competency, gain the following:<br>* Gain a +3 bonus to your Severe<br>damage threshold.<br>* Once per rest, when incoming<br>damage would make you mark HP,<br>you can mark that much Stress or<br>spend that much Hope instead.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Medtech-Synced",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:medtech-synced",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 83,
+        "pageEnd": 83,
+        "entityType": "competencyCard",
+        "slug": "medtech-synced",
+        "competency": "Medtech",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Medtech-Synced",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "medtech",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:medtech-synced",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "63404ee42fe255e0",
+  "folder": "87f6ad2e7a7a3a29",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!63404ee42fe255e0"
+}

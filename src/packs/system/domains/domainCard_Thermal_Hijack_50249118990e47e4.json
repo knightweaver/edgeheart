@@ -1,0 +1,96 @@
+{
+  "name": "Thermal Hijack",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a target<br>within Melee range. On a success, you<br>force their implants ports to violently<br>overheat. They take 1d20+3 techno<br>damage and are Overheated.<br>When a creature acts while<br>Overheated, they must take an extra<br>2d6 techno damage if they are still<br>Overheated at the end of their action.</p>",
+    "level": 2,
+    "domain": "network",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "8d31b6a469eb610c": {
+        "type": "effect",
+        "_id": "8d31b6a469eb610c",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a target<br>within Melee range. On a success, you<br>force their implants ports to violently<br>overheat. They take 1d20+3 techno<br>damage and are Overheated.<br>When a creature acts while<br>Overheated, they must take an extra<br>2d6 techno damage if they are still<br>Overheated at the end of their action.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Thermal Hijack",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Network:thermal-hijack",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 67,
+        "pageEnd": 67,
+        "entityType": "competencyCard",
+        "slug": "thermal-hijack",
+        "competency": "Network",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "network"
+        }
+      ],
+      "validationExpected": {
+        "name": "Thermal Hijack",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "network",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:network:thermal-hijack",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "50249118990e47e4",
+  "folder": "0b14e5ce689973b8",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!50249118990e47e4"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Swift Step",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When an attack made against you fails,<br>clear a Stress.<br>If you can’t clear a Stress, gain a Hope.</p>",
+    "level": 10,
+    "domain": "chrome",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "11caa8bf8863fd7c": {
+        "type": "effect",
+        "_id": "11caa8bf8863fd7c",
+        "systemPath": "actions",
+        "description": "<p>When an attack made against you fails,<br>clear a Stress.<br>If you can’t clear a Stress, gain a Hope.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Swift Step",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Chrome:swift-step",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 71,
+        "pageEnd": 71,
+        "entityType": "competencyCard",
+        "slug": "swift-step",
+        "competency": "Chrome",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "chrome"
+        }
+      ],
+      "validationExpected": {
+        "name": "Swift Step",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "chrome",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:chrome:swift-step",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "f0126ea7720b028e",
+  "folder": "e1b8e9e5feeb6370",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f0126ea7720b028e"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Reassurance",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per rest, after an ally attempts an<br>action roll but before the consequences<br>take place, you can offer guidance,<br>calm their breathing, trigger a<br>stabilizer, shout a practiced command,<br>or talk them through shock. When you<br>do, your ally can reroll their dice.</p>",
+    "level": 1,
+    "domain": "medtech",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "bf915eb8fa5c27df": {
+        "type": "effect",
+        "_id": "bf915eb8fa5c27df",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, after an ally attempts an<br>action roll but before the consequences<br>take place, you can offer guidance,<br>calm their breathing, trigger a<br>stabilizer, shout a practiced command,<br>or talk them through shock. When you<br>do, your ally can reroll their dice.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Reassurance",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:reassurance",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 82,
+        "pageEnd": 82,
+        "entityType": "competencyCard",
+        "slug": "reassurance",
+        "competency": "Medtech",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Reassurance",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "medtech",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:reassurance",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "16ad88e0ca0035a2",
+  "folder": "07948428d560d802",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!16ad88e0ca0035a2"
+}

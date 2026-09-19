@@ -1,0 +1,96 @@
+{
+  "name": "Execution Protocol",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per long rest, spend a Hope to<br>make an attack roll.<br>The GM tells you which targets within<br>range it would succeed against.<br>Choose one of these targets and force<br>them to mark 5 Hit Points.</p>",
+    "level": 9,
+    "domain": "assault",
+    "recallCost": 3,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "194e7be0ccc0c95f": {
+        "type": "effect",
+        "_id": "194e7be0ccc0c95f",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, spend a Hope to<br>make an attack roll.<br>The GM tells you which targets within<br>range it would succeed against.<br>Choose one of these targets and force<br>them to mark 5 Hit Points.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Execution Protocol",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Assault:execution-protocol",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 70,
+        "pageEnd": 70,
+        "entityType": "competencyCard",
+        "slug": "execution-protocol",
+        "competency": "Assault",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "assault"
+        }
+      ],
+      "validationExpected": {
+        "name": "Execution Protocol",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "assault",
+        "system.recallCost": 3,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:assault:execution-protocol",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "5b0357bd53265237",
+  "folder": "2eee117ef72ad854",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5b0357bd53265237"
+}

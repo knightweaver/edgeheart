@@ -1,0 +1,96 @@
+{
+  "name": "Armor Tech",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>While you’re wearing armor, gain a +1<br>bonus to your Armor Score.<br>During a rest, when you choose to<br>repair your armor as a downtime move,<br>your allies also clear an Armor Slot.</p>",
+    "level": 5,
+    "domain": "aegis",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "08389301f176b739": {
+        "type": "effect",
+        "_id": "08389301f176b739",
+        "systemPath": "actions",
+        "description": "<p>While you’re wearing armor, gain a +1<br>bonus to your Armor Score.<br>During a rest, when you choose to<br>repair your armor as a downtime move,<br>your allies also clear an Armor Slot.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Armor Tech",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Aegis:armor-tech",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 84,
+        "pageEnd": 84,
+        "entityType": "competencyCard",
+        "slug": "armor-tech",
+        "competency": "Aegis",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "aegis"
+        }
+      ],
+      "validationExpected": {
+        "name": "Armor Tech",
+        "type": "domainCard",
+        "system.level": 5,
+        "system.domain": "aegis",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:aegis:armor-tech",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ea7e27023e583982",
+  "folder": "6251a85dd39bf029",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ea7e27023e583982"
+}

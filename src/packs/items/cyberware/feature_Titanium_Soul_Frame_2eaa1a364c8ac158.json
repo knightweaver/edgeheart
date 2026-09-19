@@ -1,0 +1,84 @@
+{
+  "name": "Titanium Soul Frame",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 4</p><p>Gain one additional Hit Point slot and +1 Armor Score. When you take Major or Severe damage, roll a d6. On 5+, mark 1 fewer Hit Point.</p>",
+    "actions": {
+      "e49e4214f2b81dc6": {
+        "type": "effect",
+        "_id": "e49e4214f2b81dc6",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 4</p><p>Gain one additional Hit Point slot and +1 Armor Score. When you take Major or Severe damage, roll a d6. On 5+, mark 1 fewer Hit Point.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Titanium Soul Frame",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:titanium-soul-frame",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 44,
+        "pageEnd": 44,
+        "entityType": "cyberware",
+        "slug": "titanium-soul-frame",
+        "roll": 50,
+        "cyberCostRaw": "4",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Titanium Soul Frame",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:titanium-soul-frame",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2eaa1a364c8ac158",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2eaa1a364c8ac158"
+}

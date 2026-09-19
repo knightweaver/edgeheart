@@ -1,0 +1,80 @@
+{
+  "name": "Signal Leech",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When you succeed on an Interface Roll against a connected system, you may learn one other device or user currently connected to it.</p>",
+    "quantity": 1,
+    "actions": {
+      "4beec26d30fc1df3": {
+        "type": "effect",
+        "_id": "4beec26d30fc1df3",
+        "systemPath": "actions",
+        "description": "<p>When you succeed on an Interface Roll against a connected system, you may learn one other device or user currently connected to it.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Signal Leech",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:signal-leech",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 38,
+        "pageEnd": 38,
+        "entityType": "loot",
+        "slug": "signal-leech",
+        "roll": 24
+      },
+      "validationExpected": {
+        "name": "Signal Leech",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:signal-leech",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "f352de2dabe60fb8",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f352de2dabe60fb8"
+}

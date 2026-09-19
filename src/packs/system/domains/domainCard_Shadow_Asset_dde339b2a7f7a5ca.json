@@ -1,0 +1,96 @@
+{
+  "name": "Shadow Asset",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Spend a Hope to deploy a silent<br>infiltration asset, such as a microdrone,<br>optical decoy, or assassination marker.<br>Until your next rest, the Shadow Asset<br>can quietly follow a creature, watch a<br>location, create a distraction, or help<br>you maintain cover. It can’t physically<br>manipulate the environment.<br>When you make a action involving a<br>creature or location watched by your<br>Shadow Asset, you gain advantage. L<br>You can also burn the asset to strike an<br>adversary. When you do, make an<br>Interface Roll against a target within<br>Very Far range.<br>On a hit, roll a number of d6s equal to<br>your Interface trait and deal that much<br>techno damage to the target. The<br>Shadow Asset then dissipates.<br>You can only have one Asset at a time.</p>",
+    "level": 2,
+    "domain": "ghost",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "408c6606f42b8c8e": {
+        "type": "effect",
+        "_id": "408c6606f42b8c8e",
+        "systemPath": "actions",
+        "description": "<p>Spend a Hope to deploy a silent<br>infiltration asset, such as a microdrone,<br>optical decoy, or assassination marker.<br>Until your next rest, the Shadow Asset<br>can quietly follow a creature, watch a<br>location, create a distraction, or help<br>you maintain cover. It can’t physically<br>manipulate the environment.<br>When you make a action involving a<br>creature or location watched by your<br>Shadow Asset, you gain advantage. L<br>You can also burn the asset to strike an<br>adversary. When you do, make an<br>Interface Roll against a target within<br>Very Far range.<br>On a hit, roll a number of d6s equal to<br>your Interface trait and deal that much<br>techno damage to the target. The<br>Shadow Asset then dissipates.<br>You can only have one Asset at a time.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Shadow Asset",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Ghost:shadow-asset",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 77,
+        "pageEnd": 77,
+        "entityType": "competencyCard",
+        "slug": "shadow-asset",
+        "competency": "Ghost",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "ghost"
+        }
+      ],
+      "validationExpected": {
+        "name": "Shadow Asset",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "ghost",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:ghost:shadow-asset",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "dde339b2a7f7a5ca",
+  "folder": "207ea0554e5a207b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!dde339b2a7f7a5ca"
+}

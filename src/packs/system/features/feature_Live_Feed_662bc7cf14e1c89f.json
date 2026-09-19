@@ -1,0 +1,72 @@
+{
+  "name": "Live Feed",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per rest, when you make a successful Presence Roll or use an Influence card while being watched by a crowd, recorded, or streamed by a group, you can amplify the moment. Choose any number of creatures within Close range who can see or hear you. Allies clear 1 Stress. Adversaries must mark 1 Stress.</p>",
+    "actions": {
+      "cc3abaf7c1e4a5c4": {
+        "type": "effect",
+        "_id": "cc3abaf7c1e4a5c4",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, when you make a successful Presence Roll or use an Influence card while being watched by a crowd, recorded, or streamed by a group, you can amplify the moment. Choose any number of creatures within Close range who can see or hear you. Allies clear 1 Stress. Adversaries must mark 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Live Feed",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:icon:live-feed",
+      "source": {
+        "featureStage": "specialization",
+        "sourcePage": 22
+      },
+      "deployment": {
+        "logicalKey": "feature:icon:live-feed",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "662bc7cf14e1c89f",
+  "folder": "47d6d9e4368a6108",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!662bc7cf14e1c89f"
+}

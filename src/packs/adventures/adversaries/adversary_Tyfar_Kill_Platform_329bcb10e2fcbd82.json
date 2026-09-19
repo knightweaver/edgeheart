@@ -1,0 +1,497 @@
+{
+  "name": "Tyfar Kill Platform",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "adversary",
+  "system": {
+    "difficulty": 17,
+    "damageThresholds": {
+      "major": 18,
+      "severe": 36
+    },
+    "resources": {
+      "hitPoints": {
+        "value": 0,
+        "max": 8,
+        "isReversed": true
+      },
+      "stress": {
+        "value": 0,
+        "max": 5,
+        "isReversed": true
+      }
+    },
+    "motivesAndTactics": "Suppress, destroy cover, advance slowly",
+    "resistance": {
+      "physical": {
+        "resistance": false,
+        "immunity": false,
+        "reduction": 0
+      },
+      "magical": {
+        "resistance": false,
+        "immunity": false,
+        "reduction": 0
+      }
+    },
+    "type": "ranged",
+    "notes": "",
+    "hordeHp": 1,
+    "experiences": {
+      "6f24397fa0ec427b": {
+        "name": "Heavy Weapons",
+        "value": 4
+      }
+    },
+    "bonuses": {
+      "roll": {
+        "attack": {
+          "bonus": 0,
+          "dice": []
+        },
+        "action": {
+          "bonus": 0,
+          "dice": []
+        },
+        "reaction": {
+          "bonus": 0,
+          "dice": []
+        }
+      },
+      "damage": {
+        "physical": {
+          "bonus": 0,
+          "dice": []
+        },
+        "magical": {
+          "bonus": 0,
+          "dice": []
+        }
+      }
+    },
+    "tier": 3,
+    "description": "<p>A walking weapons platform with enough firepower to turn a cover into a grave.</p>",
+    "attack": {
+      "name": "Rotary Cannon",
+      "roll": {
+        "bonus": 3,
+        "type": "attack",
+        "trait": null,
+        "difficulty": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "range": "far",
+      "damage": {
+        "parts": [
+          {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d10",
+              "bonus": 4,
+              "multiplier": "flat",
+              "flatMultiplier": 3
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        ],
+        "includeBase": false,
+        "direct": false
+      },
+      "img": "icons/svg/sword.svg",
+      "type": "attack",
+      "chatDisplay": false,
+      "_id": "7bf0f7a312852672",
+      "systemPath": "actions",
+      "baseAction": false,
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "target": {
+        "type": "any",
+        "amount": null
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      }
+    },
+    "attribution": {
+      "source": "Edgeheart",
+      "page": 62,
+      "artist": ""
+    },
+    "criticalThreshold": 20,
+    "rules": {
+      "conditionImmunities": {
+        "hidden": false,
+        "restrained": false,
+        "vulnerable": false
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Tyfar Kill Platform",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hitPoints"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": "#4d4033",
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.8,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Walking Arsenal",
+      "type": "feature",
+      "_id": "b42284dc8a801706",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When this adversary deals Major damage, the target’s cover is destroyed. When this adversary succeeds against a target without cover, add +1d10 to damage roll.</p>",
+        "resource": null,
+        "actions": {
+          "3267e664b910555a": {
+            "type": "effect",
+            "_id": "3267e664b910555a",
+            "systemPath": "actions",
+            "description": "<p>When this adversary deals Major damage, the target’s cover is destroyed. When this adversary succeeds against a target without cover, add +1d10 to damage roll.</p>",
+            "chatDisplay": true,
+            "actionType": "passive",
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Walking Arsenal",
+            "img": "icons/svg/aura.svg",
+            "range": "",
+            "baseAction": false,
+            "originItem": {
+              "type": "itemCollection"
+            }
+          }
+        },
+        "originItemType": null,
+        "attribution": {},
+        "multiclassOrigin": false
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "name": "Stabilizer Lock",
+      "type": "feature",
+      "_id": "8e80da2e96a7be7b",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>This adversary cannot be pushed, Restrained, or moved against its will unless it has marked half or more of its HP.</p>",
+        "resource": null,
+        "actions": {
+          "87a00c0574253faf": {
+            "type": "effect",
+            "_id": "87a00c0574253faf",
+            "systemPath": "actions",
+            "description": "<p>This adversary cannot be pushed, Restrained, or moved against its will unless it has marked half or more of its HP.</p>",
+            "chatDisplay": true,
+            "actionType": "passive",
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Stabilizer Lock",
+            "img": "icons/svg/aura.svg",
+            "range": "",
+            "baseAction": false,
+            "originItem": {
+              "type": "itemCollection"
+            }
+          }
+        },
+        "originItemType": null,
+        "attribution": {},
+        "multiclassOrigin": false
+      },
+      "effects": [],
+      "sort": 100000,
+      "flags": {}
+    },
+    {
+      "name": "Spin Up",
+      "type": "feature",
+      "_id": "57cf68ff3d5f47ff",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Mark a Stress and make a standard attack roll. It targets all creatures within Very Close range of the original target.</p>",
+        "resource": null,
+        "actions": {
+          "b49d211ceaadd2b3": {
+            "type": "effect",
+            "_id": "b49d211ceaadd2b3",
+            "systemPath": "actions",
+            "description": "<p>Mark a Stress and make a standard attack roll. It targets all creatures within Very Close range of the original target.</p>",
+            "chatDisplay": true,
+            "actionType": "action",
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Spin Up",
+            "img": "icons/svg/aura.svg",
+            "range": "",
+            "baseAction": false,
+            "originItem": {
+              "type": "itemCollection"
+            }
+          }
+        },
+        "originItemType": null,
+        "attribution": {},
+        "multiclassOrigin": false
+      },
+      "effects": [],
+      "sort": 200000,
+      "flags": {}
+    },
+    {
+      "name": "Armor-Piercing Burst",
+      "type": "feature",
+      "_id": "7ac0c0bc0821c48b",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When this adversary’s attack succeed against a PC, that PC must mark an Armor Slot without receiving it’s benefits. If the PC cannot mark an Armor Slot, it marks a Stress instead.</p>",
+        "resource": null,
+        "actions": {
+          "d6dcd8883f8a0554": {
+            "type": "effect",
+            "_id": "d6dcd8883f8a0554",
+            "systemPath": "actions",
+            "description": "<p>When this adversary’s attack succeed against a PC, that PC must mark an Armor Slot without receiving it’s benefits. If the PC cannot mark an Armor Slot, it marks a Stress instead.</p>",
+            "chatDisplay": true,
+            "actionType": "reaction",
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Armor-Piercing Burst",
+            "img": "icons/svg/aura.svg",
+            "range": "",
+            "baseAction": false,
+            "originItem": {
+              "type": "itemCollection"
+            }
+          }
+        },
+        "originItemType": null,
+        "attribution": {},
+        "multiclassOrigin": false
+      },
+      "effects": [],
+      "sort": 300000,
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:adversary:tyfar-kill-platform",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 62,
+        "pageEnd": 62,
+        "entityType": "adversary",
+        "slug": "tyfar-kill-platform",
+        "classificationRaw": "Corporate Ranged",
+        "affiliationTag": "Corporate",
+        "attackRangeRaw": "Far",
+        "attackDamageRaw": "3d10+4 phy"
+      },
+      "validationExpected": {
+        "name": "Tyfar Kill Platform",
+        "type": "adversary",
+        "system.tier": 3,
+        "system.type": "ranged",
+        "system.difficulty": 17,
+        "system.damageThresholds.major": 18,
+        "system.damageThresholds.severe": 36,
+        "system.resources.hitPoints.max": 8,
+        "system.resources.stress.max": 5,
+        "system.attack.range": "far",
+        "system.attack.roll.bonus": 3
+      },
+      "deployment": {
+        "logicalKey": "adversary:tyfar-kill-platform",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "329bcb10e2fcbd82",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!329bcb10e2fcbd82"
+}

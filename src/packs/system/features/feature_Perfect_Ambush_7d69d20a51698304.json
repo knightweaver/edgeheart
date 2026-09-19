@@ -1,0 +1,72 @@
+{
+  "name": "Perfect Ambush",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, when you make a successful attack against a target you are Hidden from, do not roll your weapon damage dice. Instead, use the highest possible value of those dice. If the target survives the attack, they become permanently Vulnerable.</p>",
+    "actions": {
+      "1d65e9b5266e2246": {
+        "type": "effect",
+        "_id": "1d65e9b5266e2246",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, when you make a successful attack against a target you are Hidden from, do not roll your weapon damage dice. Instead, use the highest possible value of those dice. If the target survives the attack, they become permanently Vulnerable.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Perfect Ambush",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:silent-killer:perfect-ambush",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 13
+      },
+      "deployment": {
+        "logicalKey": "feature:silent-killer:perfect-ambush",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7d69d20a51698304",
+  "folder": "0ba49d3d3b64c5a2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7d69d20a51698304"
+}

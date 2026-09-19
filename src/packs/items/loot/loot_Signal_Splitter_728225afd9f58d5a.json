@@ -1,0 +1,80 @@
+{
+  "name": "Signal Splitter",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>You can maintain two separate comm channels at once. Once per rest, when a comm signal would be jammed or cut off, you can keep one channel open.</p>",
+    "quantity": 1,
+    "actions": {
+      "755d3b550be63db7": {
+        "type": "effect",
+        "_id": "755d3b550be63db7",
+        "systemPath": "actions",
+        "description": "<p>You can maintain two separate comm channels at once. Once per rest, when a comm signal would be jammed or cut off, you can keep one channel open.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Signal Splitter",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:signal-splitter",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 38,
+        "pageEnd": 38,
+        "entityType": "loot",
+        "slug": "signal-splitter",
+        "roll": 36
+      },
+      "validationExpected": {
+        "name": "Signal Splitter",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:signal-splitter",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "728225afd9f58d5a",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!728225afd9f58d5a"
+}

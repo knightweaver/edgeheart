@@ -1,0 +1,72 @@
+{
+  "name": "Fast Enough",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per rest, when an attack against you would hit, you can mark a Stress to roll a d6 and add its result to your Evasion against that attack.</p>",
+    "actions": {
+      "d6ab6eade328b828": {
+        "type": "effect",
+        "_id": "d6ab6eade328b828",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, when an attack against you would hit, you can mark a Stress to roll a d6 and add its result to your Evasion against that attack.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Fast Enough",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:reflex-suite:fast-enough",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 17
+      },
+      "deployment": {
+        "logicalKey": "feature:reflex-suite:fast-enough",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2644989436dae0fd",
+  "folder": "1e25616ff33ab6c6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2644989436dae0fd"
+}

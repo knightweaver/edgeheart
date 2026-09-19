@@ -1,0 +1,97 @@
+{
+  "name": "Holo-Reactive Mantle",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Shifting: When you are targeted by an attack, mark an Armor Slot to give the attack roll disadvantage.</p>",
+    "actions": {
+      "1cacecc65b501943": {
+        "type": "effect",
+        "_id": "1cacecc65b501943",
+        "systemPath": "actions",
+        "description": "<p>When you are targeted by an attack, mark an Armor Slot to give the attack roll disadvantage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Shifting",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 4,
+    "equipped": false,
+    "baseScore": 6,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 13,
+      "severe": 36
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-holo-reactive-mantle",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 36,
+        "pageEnd": 36,
+        "entityType": "armor",
+        "slug": "holo-reactive-mantle",
+        "featureNames": [
+          "Shifting"
+        ]
+      },
+      "validationExpected": {
+        "name": "Holo-Reactive Mantle",
+        "type": "armor",
+        "system.tier": 4,
+        "system.baseScore": 6,
+        "system.baseThresholds.major": 13,
+        "system.baseThresholds.severe": 36,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:holo-reactive-mantle",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7b4d47bf1cc2d255",
+  "folder": "0cc9f35da55a0190",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7b4d47bf1cc2d255"
+}

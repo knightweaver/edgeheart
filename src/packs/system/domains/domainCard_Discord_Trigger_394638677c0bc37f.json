@@ -1,0 +1,96 @@
+{
+  "name": "Discord Trigger",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Whisper words of discord, transmit a<br>false order, exploit a rivalry, or trigger a<br>behavioral command in an adversary<br>within Melee range and make an<br>Interface Roll (13).<br>On a success, the target must mark a<br>Stress and make an attack against<br>another adversary instead of against<br>you or your allies.<br>Once this attack is over, the target<br>realizes what happened. The next time<br>you run Discord Trigger on them, gain a<br>-5 penalty to the Interface Roll.<br>ee ae</p>",
+    "level": 5,
+    "domain": "influence",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "e4b3a1df5467637b": {
+        "type": "effect",
+        "_id": "e4b3a1df5467637b",
+        "systemPath": "actions",
+        "description": "<p>Whisper words of discord, transmit a<br>false order, exploit a rivalry, or trigger a<br>behavioral command in an adversary<br>within Melee range and make an<br>Interface Roll (13).<br>On a success, the target must mark a<br>Stress and make an attack against<br>another adversary instead of against<br>you or your allies.<br>Once this attack is over, the target<br>realizes what happened. The next time<br>you run Discord Trigger on them, gain a<br>-5 penalty to the Interface Roll.<br>ee ae</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Discord Trigger",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:discord-trigger",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 75,
+        "pageEnd": 75,
+        "entityType": "competencyCard",
+        "slug": "discord-trigger",
+        "competency": "Influence",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Discord Trigger",
+        "type": "domainCard",
+        "system.level": 5,
+        "system.domain": "influence",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:discord-trigger",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "394638677c0bc37f",
+  "folder": "f5a02291d77ee59c",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!394638677c0bc37f"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Miracle Cocktail",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, when you successfully use Emergency Medicine on a creature, you can flood their body with illegal stabilizers, combat drugs, nerve blockers, or emergency cyberware commands. In addition of the normal benefits of the Emergency Medicine, the target may immediately move within Close range and make one action roll with advantage. If this action deals damage, add 2d8 to the damage roll.</p>",
+    "actions": {
+      "1907be5640c09001": {
+        "type": "effect",
+        "_id": "1907be5640c09001",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, when you successfully use Emergency Medicine on a creature, you can flood their body with illegal stabilizers, combat drugs, nerve blockers, or emergency cyberware commands. In addition of the normal benefits of the Emergency Medicine, the target may immediately move within Close range and make one action roll with advantage. If this action deals damage, add 2d8 to the damage roll.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Miracle Cocktail",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:street-surgeon:miracle-cocktail",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 26
+      },
+      "deployment": {
+        "logicalKey": "feature:street-surgeon:miracle-cocktail",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "dda67c1d55cc93e0",
+  "folder": "56774260e8461d6b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!dda67c1d55cc93e0"
+}

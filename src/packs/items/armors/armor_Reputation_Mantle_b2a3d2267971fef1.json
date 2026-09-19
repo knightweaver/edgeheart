@@ -1,0 +1,97 @@
+{
+  "name": "Reputation Mantle",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Name Carries Weight: When you roll with Hope on a Presence Roll, one ally who can see or hear you clears 1 Stress.</p>",
+    "actions": {
+      "4e52896bf51dfcc5": {
+        "type": "effect",
+        "_id": "4e52896bf51dfcc5",
+        "systemPath": "actions",
+        "description": "<p>When you roll with Hope on a Presence Roll, one ally who can see or hear you clears 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Name Carries Weight",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 3,
+    "equipped": false,
+    "baseScore": 5,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 13,
+      "severe": 31
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-reputation-mantle",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 36,
+        "pageEnd": 36,
+        "entityType": "armor",
+        "slug": "reputation-mantle",
+        "featureNames": [
+          "Name Carries Weight"
+        ]
+      },
+      "validationExpected": {
+        "name": "Reputation Mantle",
+        "type": "armor",
+        "system.tier": 3,
+        "system.baseScore": 5,
+        "system.baseThresholds.major": 13,
+        "system.baseThresholds.severe": 31,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:reputation-mantle",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "b2a3d2267971fef1",
+  "folder": "aca2f20d6b860b47",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b2a3d2267971fef1"
+}

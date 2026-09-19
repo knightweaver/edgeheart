@@ -1,0 +1,96 @@
+{
+  "name": "Never Off Camera",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you mark 1 or more Hit Points<br>from an attack, you can mark a Stress<br>to place a number of tokens equal to<br>the number of Hit Points you marked<br>on this card.<br>On your next successful attack, gain a<br>+5 bonus to your damage roll for each<br>token on this card, then clear all<br>tokens.</p>",
+    "level": 6,
+    "domain": "influence",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "f876c9e932e0623b": {
+        "type": "effect",
+        "_id": "f876c9e932e0623b",
+        "systemPath": "actions",
+        "description": "<p>When you mark 1 or more Hit Points<br>from an attack, you can mark a Stress<br>to place a number of tokens equal to<br>the number of Hit Points you marked<br>on this card.<br>On your next successful attack, gain a<br>+5 bonus to your damage roll for each<br>token on this card, then clear all<br>tokens.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Never Off Camera",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:never-off-camera",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 76,
+        "pageEnd": 76,
+        "entityType": "competencyCard",
+        "slug": "never-off-camera",
+        "competency": "Influence",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Never Off Camera",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "influence",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:never-off-camera",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "34de9ee7db683962",
+  "folder": "e3a67fb431132674",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!34de9ee7db683962"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Impact Reducer",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Mark a Stress to deploy a protective<br>aura on a target within Close range,<br>such as emergency plating, pain<br>suppression, or nanite reinforcement.<br>When the target marks an Armor Slot,<br>they reduce the severity by an extra<br>threshold. If this protocol causes a<br>creature who would be damaged to<br>instead mark no HP, the effect ends.<br>You can only hold Impact Reducer on<br>one creature at a time.</p>",
+    "level": 8,
+    "domain": "medtech",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "57acb71362c02114": {
+        "type": "effect",
+        "_id": "57acb71362c02114",
+        "systemPath": "actions",
+        "description": "<p>Mark a Stress to deploy a protective<br>aura on a target within Close range,<br>such as emergency plating, pain<br>suppression, or nanite reinforcement.<br>When the target marks an Armor Slot,<br>they reduce the severity by an extra<br>threshold. If this protocol causes a<br>creature who would be damaged to<br>instead mark no HP, the effect ends.<br>You can only hold Impact Reducer on<br>one creature at a time.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Impact Reducer",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:impact-reducer",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 83,
+        "pageEnd": 83,
+        "entityType": "competencyCard",
+        "slug": "impact-reducer",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Impact Reducer",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "medtech",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:impact-reducer",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ef9b8845482203b4",
+  "folder": "41942ecdbe63445f",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ef9b8845482203b4"
+}

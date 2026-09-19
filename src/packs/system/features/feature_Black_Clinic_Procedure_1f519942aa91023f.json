@@ -1,0 +1,72 @@
+{
+  "name": "Black-Clinic Procedure",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you successfully use Emergency Medicine on a creature, you can give them a dangerous enhancement in addition of the normal effect. Choose one:<br>• They add 1d8 to their next damage roll.<br>• They gain a +2 bonus to their next Agility, Strength, or Finesse Roll.<br>• They gain a +2 bonus to Evasion against the next attack that targets them.</p><p>After the enhanced roll or effect resolves, they mark 1 Stress.</p>",
+    "actions": {
+      "93b380b61a4c21db": {
+        "type": "effect",
+        "_id": "93b380b61a4c21db",
+        "systemPath": "actions",
+        "description": "<p>When you successfully use Emergency Medicine on a creature, you can give them a dangerous enhancement in addition of the normal effect. Choose one:<br>• They add 1d8 to their next damage roll.<br>• They gain a +2 bonus to their next Agility, Strength, or Finesse Roll.<br>• They gain a +2 bonus to Evasion against the next attack that targets them.</p><p>After the enhanced roll or effect resolves, they mark 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Black-Clinic Procedure",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:street-surgeon:black-clinic-procedure",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 26
+      },
+      "deployment": {
+        "logicalKey": "feature:street-surgeon:black-clinic-procedure",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "1f519942aa91023f",
+  "folder": "56774260e8461d6b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1f519942aa91023f"
+}

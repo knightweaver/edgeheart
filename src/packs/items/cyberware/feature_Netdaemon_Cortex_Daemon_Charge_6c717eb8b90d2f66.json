@@ -1,0 +1,84 @@
+{
+  "name": "Netdaemon Cortex - Daemon Charge",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 2</p><p>When you roll with Hope using a Network card or hack action, gain 1 Daemon Charge, max 2. When you roll with a Network card or to hack, spend any Charges to roll that many d6s and add the highest result to the roll. If you spend 2 Charges and succeed, create 1 Breach.</p>",
+    "actions": {
+      "37dff4ae9e89319a": {
+        "type": "effect",
+        "_id": "37dff4ae9e89319a",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 2</p><p>When you roll with Hope using a Network card or hack action, gain 1 Daemon Charge, max 2. When you roll with a Network card or to hack, spend any Charges to roll that many d6s and add the highest result to the roll. If you spend 2 Charges and succeed, create 1 Breach.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Netdaemon Cortex - Daemon Charge",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:netdaemon-cortex-daemon-charge",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 43,
+        "pageEnd": 43,
+        "entityType": "cyberware",
+        "slug": "netdaemon-cortex-daemon-charge",
+        "roll": 33,
+        "cyberCostRaw": "2",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Netdaemon Cortex - Daemon Charge",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:netdaemon-cortex-daemon-charge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6c717eb8b90d2f66",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6c717eb8b90d2f66"
+}

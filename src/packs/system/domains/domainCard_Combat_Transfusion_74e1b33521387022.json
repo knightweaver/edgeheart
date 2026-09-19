@@ -1,0 +1,96 @@
+{
+  "name": "Combat Transfusion",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you deal damage to a target, you<br>can spend 2 Hope to clear a HP on an<br>ally within Close range.<br>This might look like triggering a linked<br>trauma patch, releasing stored nanites,<br>or using the enemy’s exposed biology<br>or machinery to power an emergency<br>treatment.</p>",
+    "level": 7,
+    "domain": "medtech",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "70ae4d47a8a8346c": {
+        "type": "effect",
+        "_id": "70ae4d47a8a8346c",
+        "systemPath": "actions",
+        "description": "<p>When you deal damage to a target, you<br>can spend 2 Hope to clear a HP on an<br>ally within Close range.<br>This might look like triggering a linked<br>trauma patch, releasing stored nanites,<br>or using the enemy’s exposed biology<br>or machinery to power an emergency<br>treatment.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Combat Transfusion",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:combat-transfusion",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 83,
+        "pageEnd": 83,
+        "entityType": "competencyCard",
+        "slug": "combat-transfusion",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Combat Transfusion",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "medtech",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:combat-transfusion",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "74e1b33521387022",
+  "folder": "87f6ad2e7a7a3a29",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!74e1b33521387022"
+}

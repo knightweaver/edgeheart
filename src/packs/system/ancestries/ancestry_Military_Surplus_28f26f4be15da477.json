@@ -1,0 +1,56 @@
+{
+  "name": "Military Surplus",
+  "type": "ancestry",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You were trained by a corporate army, gang warband, or collapsed national force. Maybe you deserted. Maybe your unit was sold. Maybe you are the only one left.</p><h4>LIFE PATH FEATURES</h4><p><em><strong>Combat Reactions:</strong></em> Mark a Stress to gain advantage on a Reaction Roll.</p><p><em><strong>Last One Standing:</strong></em> When you have 1 Hit Point remaining, attacks against you have disadvantage.</p>",
+    "features": [
+      {
+        "type": "primary",
+        "ref": "feature:military-surplus:combat-reactions"
+      },
+      {
+        "type": "secondary",
+        "ref": "feature:military-surplus:last-one-standing"
+      }
+    ],
+    "attribution": {
+      "source": "Edgeheart",
+      "page": 29,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "ancestry:military-surplus",
+      "source": {
+        "entityType": "lifePath",
+        "slug": "military-surplus",
+        "mappedFoundryType": "ancestry"
+      },
+      "deployment": {
+        "logicalKey": "ancestry:military-surplus",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "28f26f4be15da477",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!28f26f4be15da477"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Clean Needle",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>You have advantage on rolls to administer drugs, stabilize poison, draw blood, or perform delicate field surgery.</p>",
+    "quantity": 1,
+    "actions": {
+      "5e1ca088e4edf4da": {
+        "type": "effect",
+        "_id": "5e1ca088e4edf4da",
+        "systemPath": "actions",
+        "description": "<p>You have advantage on rolls to administer drugs, stabilize poison, draw blood, or perform delicate field surgery.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Clean Needle",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:clean-needle",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 37,
+        "pageEnd": 37,
+        "entityType": "loot",
+        "slug": "clean-needle",
+        "roll": 15
+      },
+      "validationExpected": {
+        "name": "Clean Needle",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:clean-needle",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "79954fb0af9d511b",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!79954fb0af9d511b"
+}

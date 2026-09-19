@@ -1,0 +1,72 @@
+{
+  "name": "Cascade Breach",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per scene, when you create a Breach, you can immediately create another Breach on a connected target or system within Close range of the original target.</p>",
+    "actions": {
+      "ccd69be6541c1dca": {
+        "type": "effect",
+        "_id": "ccd69be6541c1dca",
+        "systemPath": "actions",
+        "description": "<p>Once per scene, when you create a Breach, you can immediately create another Breach on a connected target or system within Close range of the original target.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Cascade Breach",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:breach-specialist:cascade-breach",
+      "source": {
+        "featureStage": "specialization",
+        "sourcePage": 11
+      },
+      "deployment": {
+        "logicalKey": "feature:breach-specialist:cascade-breach",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "cca6ff2910755faa",
+  "folder": "95b9673d2a648601",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!cca6ff2910755faa"
+}

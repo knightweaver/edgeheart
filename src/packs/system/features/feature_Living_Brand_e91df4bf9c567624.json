@@ -1,0 +1,72 @@
+{
+  "name": "Living Brand",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, you can step fully into your reputation until the scene ends or you take Severe damage. While this feature is active, the first time each Spotlight that you succeed on a Presence Roll or with an Influence card, choose one:<br>• An ally who can see or hear you gains a Hope.<br>• An adversary who can see or hear you marks 1 Stress.<br>• You clear 1 Stress.</p>",
+    "actions": {
+      "1cd1b3e5ba0e05ad": {
+        "type": "effect",
+        "_id": "1cd1b3e5ba0e05ad",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, you can step fully into your reputation until the scene ends or you take Severe damage. While this feature is active, the first time each Spotlight that you succeed on a Presence Roll or with an Influence card, choose one:<br>• An ally who can see or hear you gains a Hope.<br>• An adversary who can see or hear you marks 1 Stress.<br>• You clear 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Living Brand",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:icon:living-brand",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 22
+      },
+      "deployment": {
+        "logicalKey": "feature:icon:living-brand",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e91df4bf9c567624",
+  "folder": "47d6d9e4368a6108",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e91df4bf9c567624"
+}

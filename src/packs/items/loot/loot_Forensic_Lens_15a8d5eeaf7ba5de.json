@@ -1,0 +1,80 @@
+{
+  "name": "Forensic Lens",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When you inspect a body, wound, destroyed machine, or damaged vehicle, ask the GM what caused the damage or what detail most people would miss.</p>",
+    "quantity": 1,
+    "actions": {
+      "d3cde315cb191a7d": {
+        "type": "effect",
+        "_id": "d3cde315cb191a7d",
+        "systemPath": "actions",
+        "description": "<p>When you inspect a body, wound, destroyed machine, or damaged vehicle, ask the GM what caused the damage or what detail most people would miss.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Forensic Lens",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:forensic-lens",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 38,
+        "pageEnd": 38,
+        "entityType": "loot",
+        "slug": "forensic-lens",
+        "roll": 21
+      },
+      "validationExpected": {
+        "name": "Forensic Lens",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:forensic-lens",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "15a8d5eeaf7ba5de",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!15a8d5eeaf7ba5de"
+}

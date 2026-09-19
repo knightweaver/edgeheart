@@ -1,0 +1,96 @@
+{
+  "name": "Survival Overclock",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per long rest, mark a Stress to<br>activate a survival overclock, pushing<br>your survival gear, reflex software,<br>hazard filters, movement assists,<br>terrain scanners, and emergency<br>stimulants past their safe limits.<br>Describe how you shift into survival<br>mode, then place a d6 on this card with<br>the 1 value facing up. While the<br>Survival Overclock Die is active, you<br>add its value to every action roll you<br>make.<br>After you add its value to a roll,<br>increase the Die’s value by one.<br>When the die’s value would exceed 6 or<br>you take a rest, the overclock burns out<br>and you must mark an additional<br>Stress.</p>",
+    "level": 7,
+    "domain": "frontier",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "3cb4aa7f2c5874e0": {
+        "type": "effect",
+        "_id": "3cb4aa7f2c5874e0",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, mark a Stress to<br>activate a survival overclock, pushing<br>your survival gear, reflex software,<br>hazard filters, movement assists,<br>terrain scanners, and emergency<br>stimulants past their safe limits.<br>Describe how you shift into survival<br>mode, then place a d6 on this card with<br>the 1 value facing up. While the<br>Survival Overclock Die is active, you<br>add its value to every action roll you<br>make.<br>After you add its value to a roll,<br>increase the Die’s value by one.<br>When the die’s value would exceed 6 or<br>you take a rest, the overclock burns out<br>and you must mark an additional<br>Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Survival Overclock",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:survival-overclock",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 80,
+        "pageEnd": 80,
+        "entityType": "competencyCard",
+        "slug": "survival-overclock",
+        "competency": "Frontier",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Survival Overclock",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "frontier",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:survival-overclock",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "3b247eac81a7dbb2",
+  "folder": "a447f133a2aa6f40",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3b247eac81a7dbb2"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Law of the Road",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Record three rules, codes, or protocols your convoy drilled into you. Once per rest, when you describe how you’re embodying one of these principles through your current action, you can roll a d20 as your Hope Die.</p>",
+    "actions": {
+      "147688a4a7784182": {
+        "type": "effect",
+        "_id": "147688a4a7784182",
+        "systemPath": "actions",
+        "description": "<p>Record three rules, codes, or protocols your convoy drilled into you. Once per rest, when you describe how you’re embodying one of these principles through your current action, you can roll a d20 as your Hope Die.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Law of the Road",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:nomad-convoy:law-of-the-road",
+      "source": {
+        "featureStage": "affiliation",
+        "sourcePage": 30
+      },
+      "deployment": {
+        "logicalKey": "feature:nomad-convoy:law-of-the-road",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ad8fef8696eb5333",
+  "folder": "b068cf44e5d71114",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ad8fef8696eb5333"
+}

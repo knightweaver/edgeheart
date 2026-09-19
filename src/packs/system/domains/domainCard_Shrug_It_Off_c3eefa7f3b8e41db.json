@@ -1,0 +1,96 @@
+{
+  "name": "Shrug It Off",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you would take damage, you can<br>mark a Stress to reduce the severity of<br>the damage by one threshold.<br>When you do, roll a d6. On a result of 3<br>or lower, place this card in your vault.</p>",
+    "level": 7,
+    "domain": "aegis",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "7cbc7806fd36abd4": {
+        "type": "effect",
+        "_id": "7cbc7806fd36abd4",
+        "systemPath": "actions",
+        "description": "<p>When you would take damage, you can<br>mark a Stress to reduce the severity of<br>the damage by one threshold.<br>When you do, roll a d6. On a result of 3<br>or lower, place this card in your vault.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Shrug It Off",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Aegis:shrug-it-off",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 85,
+        "pageEnd": 85,
+        "entityType": "competencyCard",
+        "slug": "shrug-it-off",
+        "competency": "Aegis",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "aegis"
+        }
+      ],
+      "validationExpected": {
+        "name": "Shrug It Off",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "aegis",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:aegis:shrug-it-off",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "c3eefa7f3b8e41db",
+  "folder": "699fa09326fd65e1",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c3eefa7f3b8e41db"
+}

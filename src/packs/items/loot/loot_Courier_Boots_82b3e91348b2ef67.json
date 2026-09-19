@@ -1,0 +1,80 @@
+{
+  "name": "Courier Boots",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Once per rest, when you move through a crowd, alley, rooftop, ruin, or traffic, ignore difficult terrain during that movement.</p>",
+    "quantity": 1,
+    "actions": {
+      "ae1f37ab8f97a1cb": {
+        "type": "effect",
+        "_id": "ae1f37ab8f97a1cb",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, when you move through a crowd, alley, rooftop, ruin, or traffic, ignore difficult terrain during that movement.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Courier Boots",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:courier-boots",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 38,
+        "pageEnd": 38,
+        "entityType": "loot",
+        "slug": "courier-boots",
+        "roll": 29
+      },
+      "validationExpected": {
+        "name": "Courier Boots",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:courier-boots",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "82b3e91348b2ef67",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!82b3e91348b2ef67"
+}

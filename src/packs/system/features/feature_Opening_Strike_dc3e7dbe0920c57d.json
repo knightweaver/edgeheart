@@ -1,0 +1,72 @@
+{
+  "name": "Opening Strike",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per Spotlight, when you deal damage to a target while you are Hidden from them or while they are Vulnerable, add a number of d6s equal to your Tier to the damage roll.</p>",
+    "actions": {
+      "1dbcc1673562f864": {
+        "type": "effect",
+        "_id": "1dbcc1673562f864",
+        "systemPath": "actions",
+        "description": "<p>Once per Spotlight, when you deal damage to a target while you are Hidden from them or while they are Vulnerable, add a number of d6s equal to your Tier to the damage roll.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Opening Strike",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:silent-killer:opening-strike",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 13
+      },
+      "deployment": {
+        "logicalKey": "feature:silent-killer:opening-strike",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "dc3e7dbe0920c57d",
+  "folder": "0ba49d3d3b64c5a2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!dc3e7dbe0920c57d"
+}

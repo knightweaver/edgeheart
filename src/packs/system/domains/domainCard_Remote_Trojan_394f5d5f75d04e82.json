@@ -1,0 +1,96 @@
+{
+  "name": "Remote Trojan",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per rest, make an Interface Roll<br>(15).<br>On a success, drop into a remote<br>spyware that lets you clearly see and a<br>hear any place you have been before as<br>though you are standing there in this<br>moment.<br>You can move freely in this spyware<br>and are not constrained by the physics<br>or impediments of a physical body.<br>This protocol cannot be detected by<br>mundane or technological means. You<br>drop out of this feed upon taking<br>damage or running another protocol.</p>",
+    "level": 9,
+    "domain": "network",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "e274e0260f846096": {
+        "type": "effect",
+        "_id": "e274e0260f846096",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, make an Interface Roll<br>(15).<br>On a success, drop into a remote<br>spyware that lets you clearly see and a<br>hear any place you have been before as<br>though you are standing there in this<br>moment.<br>You can move freely in this spyware<br>and are not constrained by the physics<br>or impediments of a physical body.<br>This protocol cannot be detected by<br>mundane or technological means. You<br>drop out of this feed upon taking<br>damage or running another protocol.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Remote Trojan",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Network:remote-trojan",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 68,
+        "pageEnd": 68,
+        "entityType": "competencyCard",
+        "slug": "remote-trojan",
+        "competency": "Network",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "network"
+        }
+      ],
+      "validationExpected": {
+        "name": "Remote Trojan",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "network",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:network:remote-trojan",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "394f5d5f75d04e82",
+  "folder": "5188a6c8cfbe4ff6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!394f5d5f75d04e82"
+}

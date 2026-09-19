@@ -1,0 +1,97 @@
+{
+  "name": "Armored Bodysuit",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Stealth: You gain a +2 bonus to rolls you make to become or remain Hidden.</p>",
+    "actions": {
+      "88158078a2d4f3b5": {
+        "type": "effect",
+        "_id": "88158078a2d4f3b5",
+        "systemPath": "actions",
+        "description": "<p>You gain a +2 bonus to rolls you make to become or remain Hidden.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Stealth",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "baseScore": 4,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 8,
+      "severe": 20
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-armored-bodysuit",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 35,
+        "pageEnd": 35,
+        "entityType": "armor",
+        "slug": "armored-bodysuit",
+        "featureNames": [
+          "Stealth"
+        ]
+      },
+      "validationExpected": {
+        "name": "Armored Bodysuit",
+        "type": "armor",
+        "system.tier": 2,
+        "system.baseScore": 4,
+        "system.baseThresholds.major": 8,
+        "system.baseThresholds.severe": 20,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:armored-bodysuit",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0516472a3457d1a2",
+  "folder": "f2396412f668609d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0516472a3457d1a2"
+}

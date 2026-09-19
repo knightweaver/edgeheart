@@ -1,0 +1,96 @@
+{
+  "name": "Shared Overload",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Spend a Hope to allow you and a willing<br>ally within Far range to redistribute<br>marked HP between the two of you.<br>This might look like linked trauma<br>pumps, shared pain editors, emergency<br>blood exchange, synchronized life-<br>support, mirrored cyberware stress, or<br>a dangerous neural bridge that spreads<br>the damage across two unstable<br>systems.<br>You can’t target that ally again with<br>Shared Overload until you finish a rest.</p>",
+    "level": 8,
+    "domain": "redline",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "9156e2da2334965c": {
+        "type": "effect",
+        "_id": "9156e2da2334965c",
+        "systemPath": "actions",
+        "description": "<p>Spend a Hope to allow you and a willing<br>ally within Far range to redistribute<br>marked HP between the two of you.<br>This might look like linked trauma<br>pumps, shared pain editors, emergency<br>blood exchange, synchronized life-<br>support, mirrored cyberware stress, or<br>a dangerous neural bridge that spreads<br>the damage across two unstable<br>systems.<br>You can’t target that ally again with<br>Shared Overload until you finish a rest.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Shared Overload",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:shared-overload",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 87,
+        "pageEnd": 87,
+        "entityType": "competencyCard",
+        "slug": "shared-overload",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Shared Overload",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "redline",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:shared-overload",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "88b71d6d14a3bf82",
+  "folder": "550148e0301f03c2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!88b71d6d14a3bf82"
+}

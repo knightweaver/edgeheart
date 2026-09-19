@@ -1,0 +1,96 @@
+{
+  "name": "Unyielding Armor",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you would mark an Armor Slot,<br>roll a number of d6s equal to your<br>Proficiency.<br>If any roll a 6, reduce the severity by<br>one threshold without marking an<br>Armor Slot.<br>REDLINE</p>",
+    "level": 10,
+    "domain": "aegis",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "52912af2c9ea39f3": {
+        "type": "effect",
+        "_id": "52912af2c9ea39f3",
+        "systemPath": "actions",
+        "description": "<p>When you would mark an Armor Slot,<br>roll a number of d6s equal to your<br>Proficiency.<br>If any roll a 6, reduce the severity by<br>one threshold without marking an<br>Armor Slot.<br>REDLINE</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Unyielding Armor",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Aegis:unyielding-armor",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 85,
+        "pageEnd": 85,
+        "entityType": "competencyCard",
+        "slug": "unyielding-armor",
+        "competency": "Aegis",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "aegis"
+        }
+      ],
+      "validationExpected": {
+        "name": "Unyielding Armor",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "aegis",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:aegis:unyielding-armor",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2fa875f6b150713d",
+  "folder": "8aeb105981368591",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2fa875f6b150713d"
+}

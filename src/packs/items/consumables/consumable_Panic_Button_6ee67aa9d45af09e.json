@@ -1,0 +1,81 @@
+{
+  "name": "Panic Button",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Use when you would be captured, cornered, or separated. An alarm, ally signal, emergency beacon, or preplanned escape protocol immediately activates.</p>",
+    "quantity": 1,
+    "actions": {
+      "3e6eaa0c1e999c25": {
+        "type": "effect",
+        "_id": "3e6eaa0c1e999c25",
+        "systemPath": "actions",
+        "description": "<p>Use when you would be captured, cornered, or separated. An alarm, ally signal, emergency beacon, or preplanned escape protocol immediately activates.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Panic Button",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:panic-button",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 40,
+        "pageEnd": 40,
+        "entityType": "consumable",
+        "slug": "panic-button",
+        "roll": 40
+      },
+      "validationExpected": {
+        "name": "Panic Button",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:panic-button",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6ee67aa9d45af09e",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6ee67aa9d45af09e"
+}

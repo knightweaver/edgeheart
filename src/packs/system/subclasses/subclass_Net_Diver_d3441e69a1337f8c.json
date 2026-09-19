@@ -1,0 +1,59 @@
+{
+  "name": "Net Diver",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as a Net Diver if you want to enter hostile networks, control connected systems, and complete the job from inside the digital architecture.</p>",
+    "spellcastingTrait": "instinct",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:net-diver:deep-dive"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:net-diver:virtual-overwatch"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:net-diver:blackout-cascade"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:runner"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:net-diver",
+      "source": {
+        "entityType": "subclass",
+        "slug": "net-diver",
+        "parentClass": "Runner"
+      },
+      "deployment": {
+        "logicalKey": "subclass:net-diver",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "d3441e69a1337f8c",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d3441e69a1337f8c"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Optical Scrambler",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you make a successful Interface<br>Roll to run a different protocol, you can<br>spend a Hope to become Cloaked.<br>While Cloaked, you remain unseen if<br>you are stationary when someone<br>moves to where they would see you.<br>When you move into or within an<br>adversary’s line of sight or make an<br>attack, you are no longer Cloaked.</p>",
+    "level": 7,
+    "domain": "network",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "405c2a916f57d9d7": {
+        "type": "effect",
+        "_id": "405c2a916f57d9d7",
+        "systemPath": "actions",
+        "description": "<p>When you make a successful Interface<br>Roll to run a different protocol, you can<br>spend a Hope to become Cloaked.<br>While Cloaked, you remain unseen if<br>you are stationary when someone<br>moves to where they would see you.<br>When you move into or within an<br>adversary’s line of sight or make an<br>attack, you are no longer Cloaked.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Optical Scrambler",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Network:optical-scrambler",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 68,
+        "pageEnd": 68,
+        "entityType": "competencyCard",
+        "slug": "optical-scrambler",
+        "competency": "Network",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "network"
+        }
+      ],
+      "validationExpected": {
+        "name": "Optical Scrambler",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "network",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:network:optical-scrambler",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "adf05ffb382c69f2",
+  "folder": "f8d49d1b066b8774",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!adf05ffb382c69f2"
+}

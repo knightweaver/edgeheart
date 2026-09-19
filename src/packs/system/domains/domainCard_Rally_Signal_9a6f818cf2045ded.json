@@ -1,0 +1,96 @@
+{
+  "name": "Rally Signal",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per long rest, while you&#x27;re<br>charging into danger, you can muster a<br>rousing call, broadcast, gesture, or<br>squad signal that inspires your allies.<br>All allies who can hear you each clear a<br>Stress and gain a Hope.<br>Additionally, your allies gain advantage<br>on attack rolls until you or an ally rolls a<br>failure with Fear.</p>",
+    "level": 8,
+    "domain": "assault",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "0e6391df495274ae": {
+        "type": "effect",
+        "_id": "0e6391df495274ae",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, while you&#x27;re<br>charging into danger, you can muster a<br>rousing call, broadcast, gesture, or<br>squad signal that inspires your allies.<br>All allies who can hear you each clear a<br>Stress and gain a Hope.<br>Additionally, your allies gain advantage<br>on attack rolls until you or an ally rolls a<br>failure with Fear.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Rally Signal",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Assault:rally-signal",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 69,
+        "pageEnd": 69,
+        "entityType": "competencyCard",
+        "slug": "rally-signal",
+        "competency": "Assault",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "assault"
+        }
+      ],
+      "validationExpected": {
+        "name": "Rally Signal",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "assault",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:assault:rally-signal",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "9a6f818cf2045ded",
+  "folder": "8ee3fac408fc07f3",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!9a6f818cf2045ded"
+}

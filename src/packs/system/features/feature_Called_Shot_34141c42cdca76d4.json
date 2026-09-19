@@ -1,0 +1,72 @@
+{
+  "name": "Called Shot",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you make a weapon attack against your marked target, you can mark a Stress before the roll to gain a +2 bonus to the attack roll. If the attack succeeds and deals any damage, increase your Kill Chain Die by one step, even if the attack did not deal Major or Severe damage.</p>",
+    "actions": {
+      "7f001ebaec49f56d": {
+        "type": "effect",
+        "_id": "7f001ebaec49f56d",
+        "systemPath": "actions",
+        "description": "<p>When you make a weapon attack against your marked target, you can mark a Stress before the roll to gain a +2 bonus to the attack roll. If the attack succeeds and deals any damage, increase your Kill Chain Die by one step, even if the attack did not deal Major or Severe damage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Called Shot",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:deadeye:called-shot",
+      "source": {
+        "featureStage": "specialization",
+        "sourcePage": 15
+      },
+      "deployment": {
+        "logicalKey": "feature:deadeye:called-shot",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "34141c42cdca76d4",
+  "folder": "ea76dd4d09c23aa9",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!34141c42cdca76d4"
+}

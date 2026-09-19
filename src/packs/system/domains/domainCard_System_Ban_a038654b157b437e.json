@@ -1,0 +1,96 @@
+{
+  "name": "System Ban",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a target<br>within Close range.<br>On a success, roll a number of d20s<br>equal to your Interface trait. The target<br>must make a Reaction Roll with a<br>Difficulty equal to your highest result.<br>On a success, the target must mark a<br>Stress but isn’t banished.<br>Once per rest on a failure, they are<br>banished from this battlefield, signal<br>layer, or active physical space.<br>When the PCs roll with Fear, the<br>Difficulty gains a -1 penalty and the<br>target makes another Reaction Roll. On<br>a success, they return from<br>banishment.<br>—eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeEeEeE—eEeEEEeEeEeEeee</p>",
+    "level": 6,
+    "domain": "systems",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "40d2540c0df1434c": {
+        "type": "effect",
+        "_id": "40d2540c0df1434c",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a target<br>within Close range.<br>On a success, roll a number of d20s<br>equal to your Interface trait. The target<br>must make a Reaction Roll with a<br>Difficulty equal to your highest result.<br>On a success, the target must mark a<br>Stress but isn’t banished.<br>Once per rest on a failure, they are<br>banished from this battlefield, signal<br>layer, or active physical space.<br>When the PCs roll with Fear, the<br>Difficulty gains a -1 penalty and the<br>target makes another Reaction Roll. On<br>a success, they return from<br>banishment.<br>—eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeEeEeE—eEeEEEeEeEeEeee</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "System Ban",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:system-ban",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 73,
+        "pageEnd": 73,
+        "entityType": "competencyCard",
+        "slug": "system-ban",
+        "competency": "Systems",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "System Ban",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "systems",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:system-ban",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "a038654b157b437e",
+  "folder": "60cfd41366334b3e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a038654b157b437e"
+}

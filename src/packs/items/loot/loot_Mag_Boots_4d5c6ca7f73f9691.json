@@ -1,0 +1,80 @@
+{
+  "name": "Mag Boots",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>You have advantage on rolls to resist being pushed, knocked down, dragged, or moved against your will while standing on metal, vehicle plating, or reinforced flooring.</p>",
+    "quantity": 1,
+    "actions": {
+      "2ad582ff140e91da": {
+        "type": "effect",
+        "_id": "2ad582ff140e91da",
+        "systemPath": "actions",
+        "description": "<p>You have advantage on rolls to resist being pushed, knocked down, dragged, or moved against your will while standing on metal, vehicle plating, or reinforced flooring.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mag Boots",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:mag-boots",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 38,
+        "pageEnd": 38,
+        "entityType": "loot",
+        "slug": "mag-boots",
+        "roll": 35
+      },
+      "validationExpected": {
+        "name": "Mag Boots",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:mag-boots",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "4d5c6ca7f73f9691",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4d5c6ca7f73f9691"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Solo",
+  "type": "class",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Specters are professional combatants, hired guns, assault specialists, and battlefield killers who survive by ending threats before they become problems. They are the mercenaries called when the job turns loud.</p>",
+    "domains": [],
+    "classItems": [],
+    "hitPoints": 6,
+    "evasion": 11,
+    "features": [
+      {
+        "type": "hope",
+        "ref": "feature:solo:fire-superiority"
+      },
+      {
+        "type": "class",
+        "ref": "feature:solo:kill-chain"
+      }
+    ],
+    "subclasses": [],
+    "isMulticlass": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "class:solo",
+      "source": {
+        "entityType": "class",
+        "slug": "solo",
+        "competency": "Assault",
+        "classItems": [
+          "A customized weapon with a name or a damaged dog tag from the fight that made your reputation."
+        ]
+      },
+      "pendingDomainMapping": [
+        "assault"
+      ],
+      "deployment": {
+        "logicalKey": "class:solo",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "a3072d80bc1b4f6b",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a3072d80bc1b4f6b"
+}

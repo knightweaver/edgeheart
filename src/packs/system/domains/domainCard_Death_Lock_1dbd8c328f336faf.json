@@ -1,0 +1,96 @@
+{
+  "name": "Death Lock",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Spend 3 Hope and choose an ally<br>within Close range.<br>They are placed under a death-lock<br>protocol, such as a cardiac override,<br>neural backup, emergency blood pump,<br>trauma stasis patch, or Last-chance<br>Auto-injector.<br>When this ally would make a death<br>move, they clear a Hit Point instead.<br>This effect ends when it saves the<br>target from a death move, you use<br>Death Lock on another target, or you<br>take a long rest.</p>",
+    "level": 4,
+    "domain": "medtech",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "26c410be8e12911d": {
+        "type": "effect",
+        "_id": "26c410be8e12911d",
+        "systemPath": "actions",
+        "description": "<p>Spend 3 Hope and choose an ally<br>within Close range.<br>They are placed under a death-lock<br>protocol, such as a cardiac override,<br>neural backup, emergency blood pump,<br>trauma stasis patch, or Last-chance<br>Auto-injector.<br>When this ally would make a death<br>move, they clear a Hit Point instead.<br>This effect ends when it saves the<br>target from a death move, you use<br>Death Lock on another target, or you<br>take a long rest.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Death Lock",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:death-lock",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 82,
+        "pageEnd": 82,
+        "entityType": "competencyCard",
+        "slug": "death-lock",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Death Lock",
+        "type": "domainCard",
+        "system.level": 4,
+        "system.domain": "medtech",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:death-lock",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "1dbd8c328f336faf",
+  "folder": "3e958cda8f0ef647",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1dbd8c328f336faf"
+}

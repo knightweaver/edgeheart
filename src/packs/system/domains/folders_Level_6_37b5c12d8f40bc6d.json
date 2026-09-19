@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "96bba602a2e761b0",
+  "name": "Level 6",
+  "color": null,
+  "sorting": "a",
+  "_id": "37b5c12d8f40bc6d",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-network-level-6",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!37b5c12d8f40bc6d"
+}

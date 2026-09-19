@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Medtech",
+  "color": null,
+  "sorting": "a",
+  "_id": "739b962985b2deb3",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-medtech",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!739b962985b2deb3"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Talk To Me",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per rest, take on the Stress from<br>a willing creature within Melee range.<br>The target describes what intimate<br>knowledge, emotional static, personal<br>fear, or private memory leaks from<br>their mind in this moment between<br>you.<br>Transfer any number of their marked<br>Stress to you, then gain a Hope for<br>each Stress transferred.</p>",
+    "level": 6,
+    "domain": "influence",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "e8932bbe1c5f0b16": {
+        "type": "effect",
+        "_id": "e8932bbe1c5f0b16",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, take on the Stress from<br>a willing creature within Melee range.<br>The target describes what intimate<br>knowledge, emotional static, personal<br>fear, or private memory leaks from<br>their mind in this moment between<br>you.<br>Transfer any number of their marked<br>Stress to you, then gain a Hope for<br>each Stress transferred.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Talk To Me",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:talk-to-me",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 76,
+        "pageEnd": 76,
+        "entityType": "competencyCard",
+        "slug": "talk-to-me",
+        "competency": "Influence",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Talk To Me",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "influence",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:talk-to-me",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "5d4b06aa8e44383a",
+  "folder": "e3a67fb431132674",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5d4b06aa8e44383a"
+}

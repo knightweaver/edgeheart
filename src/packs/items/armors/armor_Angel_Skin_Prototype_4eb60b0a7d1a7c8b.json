@@ -1,0 +1,97 @@
+{
+  "name": "Angel Skin Prototype",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Emergency Halo: When you would spend a Hope to help an ally or use a defensive feature, you may mark an Armor Slot instead.</p>",
+    "actions": {
+      "22dce7d6cafd8bd2": {
+        "type": "effect",
+        "_id": "22dce7d6cafd8bd2",
+        "systemPath": "actions",
+        "description": "<p>When you would spend a Hope to help an ally or use a defensive feature, you may mark an Armor Slot instead.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Emergency Halo",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 4,
+    "equipped": false,
+    "baseScore": 5,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 13,
+      "severe": 36
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-angel-skin-prototype",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 36,
+        "pageEnd": 36,
+        "entityType": "armor",
+        "slug": "angel-skin-prototype",
+        "featureNames": [
+          "Emergency Halo"
+        ]
+      },
+      "validationExpected": {
+        "name": "Angel Skin Prototype",
+        "type": "armor",
+        "system.tier": 4,
+        "system.baseScore": 5,
+        "system.baseThresholds.major": 13,
+        "system.baseThresholds.severe": 36,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:angel-skin-prototype",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "4eb60b0a7d1a7c8b",
+  "folder": "0cc9f35da55a0190",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4eb60b0a7d1a7c8b"
+}

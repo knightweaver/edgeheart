@@ -1,0 +1,84 @@
+{
+  "name": "Omega Organ Cluster",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 3</p><p>Gain two additional Hit Point slots. Once per long rest, when you would mark a Hit Point, you can instead clear it.</p>",
+    "actions": {
+      "f9fd939814447e4d": {
+        "type": "effect",
+        "_id": "f9fd939814447e4d",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 3</p><p>Gain two additional Hit Point slots. Once per long rest, when you would mark a Hit Point, you can instead clear it.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Omega Organ Cluster",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:omega-organ-cluster",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 44,
+        "pageEnd": 44,
+        "entityType": "cyberware",
+        "slug": "omega-organ-cluster",
+        "roll": 59,
+        "cyberCostRaw": "3",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Omega Organ Cluster",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:omega-organ-cluster",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "f30f05dabd2521e8",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f30f05dabd2521e8"
+}

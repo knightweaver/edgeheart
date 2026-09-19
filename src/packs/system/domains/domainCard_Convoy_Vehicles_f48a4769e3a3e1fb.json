@@ -1,0 +1,96 @@
+{
+  "name": "Convoy Vehicles",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Spend any number of Hope to call or<br>secure that many simple vehicles,<br>bikes, beasts, cyber-mounts, drones, or<br>survival transports that you and your<br>allies can drive until your next long rest<br>or the vehicles take any damage.<br>The vehicles double your land speed<br>while traveling and, when in danger,<br>allow you to move within Far range<br>without having to roll.<br>Creatures driving a vehicles gain a -2<br>penalty to attack rolls and a +2 bonus<br>to damage rolls.</p>",
+    "level": 6,
+    "domain": "frontier",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "4ac11c6068c7bea4": {
+        "type": "effect",
+        "_id": "4ac11c6068c7bea4",
+        "systemPath": "actions",
+        "description": "<p>Spend any number of Hope to call or<br>secure that many simple vehicles,<br>bikes, beasts, cyber-mounts, drones, or<br>survival transports that you and your<br>allies can drive until your next long rest<br>or the vehicles take any damage.<br>The vehicles double your land speed<br>while traveling and, when in danger,<br>allow you to move within Far range<br>without having to roll.<br>Creatures driving a vehicles gain a -2<br>penalty to attack rolls and a +2 bonus<br>to damage rolls.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Convoy Vehicles",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:convoy-vehicles",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 80,
+        "pageEnd": 80,
+        "entityType": "competencyCard",
+        "slug": "convoy-vehicles",
+        "competency": "Frontier",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Convoy Vehicles",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "frontier",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:convoy-vehicles",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "f48a4769e3a3e1fb",
+  "folder": "e52a1f88f629b769",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f48a4769e3a3e1fb"
+}

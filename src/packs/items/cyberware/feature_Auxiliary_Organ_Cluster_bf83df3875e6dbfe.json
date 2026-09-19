@@ -1,0 +1,84 @@
+{
+  "name": "Auxiliary Organ Cluster",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 2</p><p>Gain two additional Hit Point slots.</p>",
+    "actions": {
+      "ef7863088227f5bc": {
+        "type": "effect",
+        "_id": "ef7863088227f5bc",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 2</p><p>Gain two additional Hit Point slots.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Auxiliary Organ Cluster",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:auxiliary-organ-cluster",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 42,
+        "pageEnd": 42,
+        "entityType": "cyberware",
+        "slug": "auxiliary-organ-cluster",
+        "roll": 21,
+        "cyberCostRaw": "2",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Auxiliary Organ Cluster",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:auxiliary-organ-cluster",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "bf83df3875e6dbfe",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!bf83df3875e6dbfe"
+}

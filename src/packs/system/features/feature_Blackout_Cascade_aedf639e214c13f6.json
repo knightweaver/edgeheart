@@ -1,0 +1,72 @@
+{
+  "name": "Blackout Cascade",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, while in a Deep Dive, you can trigger a massive network disruption. Choose up to three connected systems, devices, or cyberware-linked targets in the scene. For each one, choose one:<br>• Disable it until the GM spends a Fear.<br>• Feed it false information, giving disadvantage on its next roll.<br>• Overload it, causing its operator to mark 1 Stress.<br>• Open, lock, jam, redirect, control, or trigger it in a way that significantly changes the scene.</p><p>Afterward, mark a Stress or become temporarily Vulnerable.</p>",
+    "actions": {
+      "aa6febd43c99253b": {
+        "type": "effect",
+        "_id": "aa6febd43c99253b",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, while in a Deep Dive, you can trigger a massive network disruption. Choose up to three connected systems, devices, or cyberware-linked targets in the scene. For each one, choose one:<br>• Disable it until the GM spends a Fear.<br>• Feed it false information, giving disadvantage on its next roll.<br>• Overload it, causing its operator to mark 1 Stress.<br>• Open, lock, jam, redirect, control, or trigger it in a way that significantly changes the scene.</p><p>Afterward, mark a Stress or become temporarily Vulnerable.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Blackout Cascade",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:net-diver:blackout-cascade",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 12
+      },
+      "deployment": {
+        "logicalKey": "feature:net-diver:blackout-cascade",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "aedf639e214c13f6",
+  "folder": "42642c5c25ce1479",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!aedf639e214c13f6"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Overdrive Muscles - Overdrive Charge",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 2</p><p>When you roll with Hope using a Chrome card or a Cyberware action, gain 1 Overdrive Charge, max 2. Before a roll, spend any Charges to roll that many +1 to the roll. If you spend 2 Charges and succeed, clear 1 Stress or gain +1 Evasion until your next action.</p>",
+    "actions": {
+      "386871b10653c970": {
+        "type": "effect",
+        "_id": "386871b10653c970",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 2</p><p>When you roll with Hope using a Chrome card or a Cyberware action, gain 1 Overdrive Charge, max 2. Before a roll, spend any Charges to roll that many +1 to the roll. If you spend 2 Charges and succeed, clear 1 Stress or gain +1 Evasion until your next action.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Overdrive Muscles - Overdrive Charge",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:overdrive-muscles-overdrive-charge",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 43,
+        "pageEnd": 43,
+        "entityType": "cyberware",
+        "slug": "overdrive-muscles-overdrive-charge",
+        "roll": 35,
+        "cyberCostRaw": "2",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Overdrive Muscles - Overdrive Charge",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:overdrive-muscles-overdrive-charge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0563887e24252b9d",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0563887e24252b9d"
+}

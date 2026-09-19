@@ -1,0 +1,96 @@
+{
+  "name": "Retaliation Daemon",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Mark an adversary within Close range<br>with a daemon. The GM gains a Fear.<br>When the marked adversary deals<br>damage to you or your allies, place a d8<br>on this card. You can hold a number of<br>d8s equal to your level.<br>When you hit the marked adversary,<br>roll the dice on this card and add it to<br>your damage roll, then clear the dice.<br>This effect ends when the marked<br>adversary is defeated or you run<br>Retaliation Daemon again.</p>",
+    "level": 6,
+    "domain": "network",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "7c1aa60bad051e19": {
+        "type": "effect",
+        "_id": "7c1aa60bad051e19",
+        "systemPath": "actions",
+        "description": "<p>Mark an adversary within Close range<br>with a daemon. The GM gains a Fear.<br>When the marked adversary deals<br>damage to you or your allies, place a d8<br>on this card. You can hold a number of<br>d8s equal to your level.<br>When you hit the marked adversary,<br>roll the dice on this card and add it to<br>your damage roll, then clear the dice.<br>This effect ends when the marked<br>adversary is defeated or you run<br>Retaliation Daemon again.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Retaliation Daemon",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Network:retaliation-daemon",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 68,
+        "pageEnd": 68,
+        "entityType": "competencyCard",
+        "slug": "retaliation-daemon",
+        "competency": "Network",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "network"
+        }
+      ],
+      "validationExpected": {
+        "name": "Retaliation Daemon",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "network",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:network:retaliation-daemon",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0179732187d4244a",
+  "folder": "37b5c12d8f40bc6d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0179732187d4244a"
+}

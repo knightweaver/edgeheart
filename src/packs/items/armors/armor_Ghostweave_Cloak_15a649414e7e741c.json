@@ -1,0 +1,97 @@
+{
+  "name": "Ghostweave Cloak",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Ghosted: When you become Hidden, you may also become invisible until you move.</p>",
+    "actions": {
+      "9ca175b8bd2689a1": {
+        "type": "effect",
+        "_id": "9ca175b8bd2689a1",
+        "systemPath": "actions",
+        "description": "<p>When you become Hidden, you may also become invisible until you move.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Ghosted",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 3,
+    "equipped": false,
+    "baseScore": 5,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 11,
+      "severe": 27
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-ghostweave-cloak",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 36,
+        "pageEnd": 36,
+        "entityType": "armor",
+        "slug": "ghostweave-cloak",
+        "featureNames": [
+          "Ghosted"
+        ]
+      },
+      "validationExpected": {
+        "name": "Ghostweave Cloak",
+        "type": "armor",
+        "system.tier": 3,
+        "system.baseScore": 5,
+        "system.baseThresholds.major": 11,
+        "system.baseThresholds.severe": 27,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:ghostweave-cloak",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "15a649414e7e741c",
+  "folder": "aca2f20d6b860b47",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!15a649414e7e741c"
+}

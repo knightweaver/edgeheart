@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "4a39e4d7423c0455",
+  "name": "Level 1",
+  "color": null,
+  "sorting": "a",
+  "_id": "29fc98aa023c779c",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-frontier-level-1",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!29fc98aa023c779c"
+}

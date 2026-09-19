@@ -1,0 +1,63 @@
+{
+  "name": "Broker",
+  "type": "class",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Brokers are negotiators, public faces, and social predators who understand that power rarely sits in the hands of the person holding the gun. They know who pays, who can be bought, and who needs to disappear before the next contract begins.</p>",
+    "domains": [],
+    "classItems": [],
+    "hitPoints": 5,
+    "evasion": 10,
+    "features": [
+      {
+        "type": "hope",
+        "ref": "feature:broker:fine-print"
+      },
+      {
+        "type": "class",
+        "ref": "feature:broker:terms-of-engagement"
+      }
+    ],
+    "subclasses": [],
+    "isMulticlass": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "class:broker",
+      "source": {
+        "entityType": "class",
+        "slug": "broker",
+        "competency": "Influence",
+        "classItems": [
+          "A contact list that worth more than your bank balance or a contract chip containing a big and illegal corporate deal."
+        ]
+      },
+      "pendingDomainMapping": [
+        "influence"
+      ],
+      "deployment": {
+        "logicalKey": "class:broker",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "ee9d0299d7db1e2b",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ee9d0299d7db1e2b"
+}

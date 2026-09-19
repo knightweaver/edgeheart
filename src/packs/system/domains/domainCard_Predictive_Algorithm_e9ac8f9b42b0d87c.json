@@ -1,0 +1,96 @@
+{
+  "name": "Predictive Algorithm",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You can run predictive models to<br>glimpse the most likely consequences<br>of your actions.<br>Once per long rest, immediately after<br>the GM conveys the consequences of a<br>roll you made, you can rescind the<br>move and consequences like they never<br>happened and make another move.</p>",
+    "level": 5,
+    "domain": "network",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "2e4ec0ca388f3822": {
+        "type": "effect",
+        "_id": "2e4ec0ca388f3822",
+        "systemPath": "actions",
+        "description": "<p>You can run predictive models to<br>glimpse the most likely consequences<br>of your actions.<br>Once per long rest, immediately after<br>the GM conveys the consequences of a<br>roll you made, you can rescind the<br>move and consequences like they never<br>happened and make another move.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Predictive Algorithm",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Network:predictive-algorithm",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 67,
+        "pageEnd": 67,
+        "entityType": "competencyCard",
+        "slug": "predictive-algorithm",
+        "competency": "Network",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "network"
+        }
+      ],
+      "validationExpected": {
+        "name": "Predictive Algorithm",
+        "type": "domainCard",
+        "system.level": 5,
+        "system.domain": "network",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:network:predictive-algorithm",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e9ac8f9b42b0d87c",
+  "folder": "8f0db890303b1966",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e9ac8f9b42b0d87c"
+}

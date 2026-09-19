@@ -1,0 +1,96 @@
+{
+  "name": "Combat Scan",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When observing a creature, you can<br>make an Instinct Roll against them.<br>On a success, spend a Hope and ask<br>the GM for one set of information<br>about the target from the following<br>options:<br>* Their unmarked Hit Points and<br>Stress.<br>* Their Difficulty and damage<br>thresholds.<br>• Their tactics and standard attack<br>damage dice.<br>• Their features and Experiences.<br>Additionally on a success, you can ;<br>mark a Stress to remove a Fear from<br>the GM&#x27;s Fear Pool.</p>",
+    "level": 5,
+    "domain": "chrome",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "5d1480e3c10bd74e": {
+        "type": "effect",
+        "_id": "5d1480e3c10bd74e",
+        "systemPath": "actions",
+        "description": "<p>When observing a creature, you can<br>make an Instinct Roll against them.<br>On a success, spend a Hope and ask<br>the GM for one set of information<br>about the target from the following<br>options:<br>* Their unmarked Hit Points and<br>Stress.<br>* Their Difficulty and damage<br>thresholds.<br>• Their tactics and standard attack<br>damage dice.<br>• Their features and Experiences.<br>Additionally on a success, you can ;<br>mark a Stress to remove a Fear from<br>the GM&#x27;s Fear Pool.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Combat Scan",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Chrome:combat-scan",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 71,
+        "pageEnd": 71,
+        "entityType": "competencyCard",
+        "slug": "combat-scan",
+        "competency": "Chrome",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "chrome"
+        }
+      ],
+      "validationExpected": {
+        "name": "Combat Scan",
+        "type": "domainCard",
+        "system.level": 5,
+        "system.domain": "chrome",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:chrome:combat-scan",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "5aa96f000fd39b5c",
+  "folder": "3e5b908cc44d41ea",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5aa96f000fd39b5c"
+}

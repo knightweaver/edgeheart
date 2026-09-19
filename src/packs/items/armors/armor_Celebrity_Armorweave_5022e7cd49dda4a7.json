@@ -1,0 +1,97 @@
+{
+  "name": "Celebrity Armorweave",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Spotlight Altar: Once per scene, you can make yourself the center of attention. Until your next Spotlight, allies have advantage on rolls to hide, escape, or act unnoticed.</p>",
+    "actions": {
+      "dfd8c6f00004c0f1": {
+        "type": "effect",
+        "_id": "dfd8c6f00004c0f1",
+        "systemPath": "actions",
+        "description": "<p>Once per scene, you can make yourself the center of attention. Until your next Spotlight, allies have advantage on rolls to hide, escape, or act unnoticed.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Spotlight Altar",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 3,
+    "equipped": false,
+    "baseScore": 5,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 11,
+      "severe": 27
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-celebrity-armorweave",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 36,
+        "pageEnd": 36,
+        "entityType": "armor",
+        "slug": "celebrity-armorweave",
+        "featureNames": [
+          "Spotlight Altar"
+        ]
+      },
+      "validationExpected": {
+        "name": "Celebrity Armorweave",
+        "type": "armor",
+        "system.tier": 3,
+        "system.baseScore": 5,
+        "system.baseThresholds.major": 11,
+        "system.baseThresholds.severe": 27,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:celebrity-armorweave",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "5022e7cd49dda4a7",
+  "folder": "aca2f20d6b860b47",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5022e7cd49dda4a7"
+}

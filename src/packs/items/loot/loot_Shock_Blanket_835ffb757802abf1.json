@@ -1,0 +1,80 @@
+{
+  "name": "Shock Blanket",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>During a short rest, one creature wrapped in this blanket may clear 1 Stress caused by fear, cold, shock, blood loss, or exposure.</p>",
+    "quantity": 1,
+    "actions": {
+      "b683f83793ffd0bd": {
+        "type": "effect",
+        "_id": "b683f83793ffd0bd",
+        "systemPath": "actions",
+        "description": "<p>During a short rest, one creature wrapped in this blanket may clear 1 Stress caused by fear, cold, shock, blood loss, or exposure.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Shock Blanket",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:shock-blanket",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 38,
+        "pageEnd": 38,
+        "entityType": "loot",
+        "slug": "shock-blanket",
+        "roll": 33
+      },
+      "validationExpected": {
+        "name": "Shock Blanket",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:shock-blanket",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "835ffb757802abf1",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!835ffb757802abf1"
+}

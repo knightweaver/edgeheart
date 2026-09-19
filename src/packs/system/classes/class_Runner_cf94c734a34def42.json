@@ -1,0 +1,67 @@
+{
+  "name": "Runner",
+  "type": "class",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Other mercenaries can use Network tools, but Runners live inside the breach. They are intrusion specialists, signal thieves, and digital exploiters who survive by turning every system into an opening.</p>",
+    "domains": [],
+    "classItems": [],
+    "hitPoints": 5,
+    "evasion": 10,
+    "features": [
+      {
+        "type": "hope",
+        "ref": "feature:runner:zero-day"
+      },
+      {
+        "type": "class",
+        "ref": "feature:runner:hold-your-breach"
+      },
+      {
+        "type": "class",
+        "ref": "feature:runner:exploit"
+      }
+    ],
+    "subclasses": [],
+    "isMulticlass": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "class:runner",
+      "source": {
+        "entityType": "class",
+        "slug": "runner",
+        "competency": "Network",
+        "classItems": [
+          "An illegal cyberdeck with a custom interface or a stolen access shard from a job that should have killed you."
+        ]
+      },
+      "pendingDomainMapping": [
+        "network"
+      ],
+      "deployment": {
+        "logicalKey": "class:runner",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "cf94c734a34def42",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!cf94c734a34def42"
+}

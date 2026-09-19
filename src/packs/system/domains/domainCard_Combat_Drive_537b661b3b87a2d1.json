@@ -1,0 +1,96 @@
+{
+  "name": "Combat Drive",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you cause an adversary to mark<br>lor more Hit Points, you can spend 2<br>Hope to increase your Evasion by the<br>number of Hit Points they marked.<br>This bonus lasts until after the next<br>attack made against you.</p>",
+    "level": 2,
+    "domain": "chrome",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "75e1cde83751b9bd": {
+        "type": "effect",
+        "_id": "75e1cde83751b9bd",
+        "systemPath": "actions",
+        "description": "<p>When you cause an adversary to mark<br>lor more Hit Points, you can spend 2<br>Hope to increase your Evasion by the<br>number of Hit Points they marked.<br>This bonus lasts until after the next<br>attack made against you.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Combat Drive",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Chrome:combat-drive",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 70,
+        "pageEnd": 70,
+        "entityType": "competencyCard",
+        "slug": "combat-drive",
+        "competency": "Chrome",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "chrome"
+        }
+      ],
+      "validationExpected": {
+        "name": "Combat Drive",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "chrome",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:chrome:combat-drive",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "537b661b3b87a2d1",
+  "folder": "e4c0d3984c59feb2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!537b661b3b87a2d1"
+}

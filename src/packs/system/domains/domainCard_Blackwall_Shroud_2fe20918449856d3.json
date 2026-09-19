@@ -1,0 +1,96 @@
+{
+  "name": "Blackwall Shroud",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (10). On a<br>success, spend any number of Hope<br>and place an equal number of tokens<br>on this card to wrap yourself in sensor<br>noise, digital shadow, corrupted<br>overlays, haunted Al, or signal<br>distortion.<br>After an attack roll is made against<br>you, you can spend any number of<br>tokens to gain a +1 bonus to your<br>Evasion per token against that attack.</p>",
+    "level": 1,
+    "domain": "blackwall",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "df493b06a4ee0a3e": {
+        "type": "effect",
+        "_id": "df493b06a4ee0a3e",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (10). On a<br>success, spend any number of Hope<br>and place an equal number of tokens<br>on this card to wrap yourself in sensor<br>noise, digital shadow, corrupted<br>overlays, haunted Al, or signal<br>distortion.<br>After an attack roll is made against<br>you, you can spend any number of<br>tokens to gain a +1 bonus to your<br>Evasion per token against that attack.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Blackwall Shroud",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:blackwall-shroud",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 88,
+        "pageEnd": 88,
+        "entityType": "competencyCard",
+        "slug": "blackwall-shroud",
+        "competency": "Blackwall",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "Blackwall Shroud",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "blackwall",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:blackwall-shroud",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2fe20918449856d3",
+  "folder": "f8981f4eb95522f0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2fe20918449856d3"
+}

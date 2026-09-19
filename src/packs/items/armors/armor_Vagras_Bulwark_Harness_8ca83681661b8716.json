@@ -1,0 +1,125 @@
+{
+  "name": "Vagras Bulwark Harness",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Very Heavy: -2 to Evasion.</p><p>Walking Barricade: You count as cover for allies within Very Close range. When an ally within Very Close range is targeted by an attack, you can mark an Armor Slot to give that attack disadvantage.</p>",
+    "actions": {
+      "cf02c61e0a64f248": {
+        "type": "effect",
+        "_id": "cf02c61e0a64f248",
+        "systemPath": "actions",
+        "description": "<p>-2 to Evasion.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Very Heavy",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      },
+      "36685a1b35579d03": {
+        "type": "effect",
+        "_id": "36685a1b35579d03",
+        "systemPath": "actions",
+        "description": "<p>You count as cover for allies within Very Close range. When an ally within Very Close range is targeted by an attack, you can mark an Armor Slot to give that attack disadvantage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Walking Barricade",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 4,
+    "equipped": false,
+    "baseScore": 7,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 17,
+      "severe": 44
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-vagras-bulwark-harness",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 36,
+        "pageEnd": 36,
+        "entityType": "armor",
+        "slug": "vagras-bulwark-harness",
+        "featureNames": [
+          "Very Heavy",
+          "Walking Barricade"
+        ]
+      },
+      "validationExpected": {
+        "name": "Vagras Bulwark Harness",
+        "type": "armor",
+        "system.tier": 4,
+        "system.baseScore": 7,
+        "system.baseThresholds.major": 17,
+        "system.baseThresholds.severe": 44,
+        "system.actionsCount": 2
+      },
+      "deployment": {
+        "logicalKey": "armor:vagras-bulwark-harness",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "8ca83681661b8716",
+  "folder": "0cc9f35da55a0190",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8ca83681661b8716"
+}

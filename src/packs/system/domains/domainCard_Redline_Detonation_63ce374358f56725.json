@@ -1,0 +1,96 @@
+{
+  "name": "Redline Detonation",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (12). Ona<br>success, mark a HP as you force your<br>Redline systems past safe limits,<br>dumping excess heat, neural overload,<br>aggression feedback, or unstable<br>cyberware output into a point within<br>Far range.<br>A violent pulse of thermal distortion,<br>pressure shock, sensor scream, or<br>overclock fallout fills the area within<br>Very Close range of that point.<br>Each target within the area marks 1 HP.<br>On a success with Hope, each target<br>within the area marks 2 HP instead.</p>",
+    "level": 3,
+    "domain": "redline",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "a4d00901e372efae": {
+        "type": "effect",
+        "_id": "a4d00901e372efae",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (12). Ona<br>success, mark a HP as you force your<br>Redline systems past safe limits,<br>dumping excess heat, neural overload,<br>aggression feedback, or unstable<br>cyberware output into a point within<br>Far range.<br>A violent pulse of thermal distortion,<br>pressure shock, sensor scream, or<br>overclock fallout fills the area within<br>Very Close range of that point.<br>Each target within the area marks 1 HP.<br>On a success with Hope, each target<br>within the area marks 2 HP instead.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Redline Detonation",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:redline-detonation",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 86,
+        "pageEnd": 86,
+        "entityType": "competencyCard",
+        "slug": "redline-detonation",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Redline Detonation",
+        "type": "domainCard",
+        "system.level": 3,
+        "system.domain": "redline",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:redline-detonation",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "63ce374358f56725",
+  "folder": "a10485d625ec9e18",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!63ce374358f56725"
+}

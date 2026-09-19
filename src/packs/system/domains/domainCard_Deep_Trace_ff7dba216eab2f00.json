@@ -1,0 +1,96 @@
+{
+  "name": "Deep Trace",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You can open a signal channel with any<br>person with whom you’ve made<br>contact. Once you&#x27;ve opened a channel<br>with them, they can speak back into<br>your mind, comms, or neural feed.<br>Additionally, you can mark a Stress to<br>make an Interface Roll against them.<br>On a success, you can receive an<br>answer to one of the questions:<br>1- Where are they?<br>2- What are they doing?<br>3- What are they afraid of?<br>4- What do they cherish most?</p>",
+    "level": 6,
+    "domain": "network",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "50b36d295dd603bb": {
+        "type": "effect",
+        "_id": "50b36d295dd603bb",
+        "systemPath": "actions",
+        "description": "<p>You can open a signal channel with any<br>person with whom you’ve made<br>contact. Once you&#x27;ve opened a channel<br>with them, they can speak back into<br>your mind, comms, or neural feed.<br>Additionally, you can mark a Stress to<br>make an Interface Roll against them.<br>On a success, you can receive an<br>answer to one of the questions:<br>1- Where are they?<br>2- What are they doing?<br>3- What are they afraid of?<br>4- What do they cherish most?</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Deep Trace",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Network:deep-trace",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 68,
+        "pageEnd": 68,
+        "entityType": "competencyCard",
+        "slug": "deep-trace",
+        "competency": "Network",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "network"
+        }
+      ],
+      "validationExpected": {
+        "name": "Deep Trace",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "network",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:network:deep-trace",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ff7dba216eab2f00",
+  "folder": "37b5c12d8f40bc6d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ff7dba216eab2f00"
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Blackwall Co-Processor - Corruption",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 4</p><p>Gain Full Access to Blackwall. When you roll with Fear using a Blackwall card, gain 1 Corruption, max 3. Before a Blackwall roll, spend any Corruption to roll that many d6s and add them to the roll. If you spend 3 Corruption and succeed, one affected target marks 1 Stress, becomes temporarily Degraded, and can’t benefit from connected systems while Degraded. Then mark a Stress and the GM gains a Fear.</p>",
+    "actions": {
+      "819a1e707bde7257": {
+        "type": "effect",
+        "_id": "819a1e707bde7257",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 4</p><p>Gain Full Access to Blackwall. When you roll with Fear using a Blackwall card, gain 1 Corruption, max 3. Before a Blackwall roll, spend any Corruption to roll that many d6s and add them to the roll. If you spend 3 Corruption and succeed, one affected target marks 1 Stress, becomes temporarily Degraded, and can’t benefit from connected systems while Degraded. Then mark a Stress and the GM gains a Fear.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Blackwall Co-Processor - Corruption",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:blackwall-co-processor-corruption",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 44,
+        "pageEnd": 44,
+        "entityType": "cyberware",
+        "slug": "blackwall-co-processor-corruption",
+        "roll": 47,
+        "cyberCostRaw": "4",
+        "competencyAccess": {
+          "competency": "Blackwall",
+          "mode": "full"
+        },
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Blackwall Co-Processor - Corruption",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:blackwall-co-processor-corruption",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "73063a49aac42562",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!73063a49aac42562"
+}

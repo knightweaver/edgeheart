@@ -1,0 +1,96 @@
+{
+  "name": "*Illiat Software Pack",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Neural Lullaby: Make an Interface Roll<br>against a target within Very Close<br>range. On a success, you flood their<br>nervous system, cyberware, or sensory<br>feed with a sedative pulse. They&#x27;re<br>Asleep until they take damage or the<br>GM spends a Fear on their turn to clear<br>this condition.<br>Arc Barrage: Once per rest, spend any<br>number of Hope and fire micro-<br>missiles, drone shots, smart flechettes,<br>or compact energy projectiles that<br>strike a target of your choice within<br>Close range. Roll a number of d6s<br>equal to the Hope spent and deal that<br>much techno damage to the target.<br>Direct Message: Spend a Hope to open<br>aline of encrypted communication<br>with one target you can see. This<br>connection lasts until your next rest or<br>you run Direct Message again.<br>SEE</p>",
+    "level": 1,
+    "domain": "systems",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "ed4872b08b9354ce": {
+        "type": "effect",
+        "_id": "ed4872b08b9354ce",
+        "systemPath": "actions",
+        "description": "<p>Neural Lullaby: Make an Interface Roll<br>against a target within Very Close<br>range. On a success, you flood their<br>nervous system, cyberware, or sensory<br>feed with a sedative pulse. They&#x27;re<br>Asleep until they take damage or the<br>GM spends a Fear on their turn to clear<br>this condition.<br>Arc Barrage: Once per rest, spend any<br>number of Hope and fire micro-<br>missiles, drone shots, smart flechettes,<br>or compact energy projectiles that<br>strike a target of your choice within<br>Close range. Roll a number of d6s<br>equal to the Hope spent and deal that<br>much techno damage to the target.<br>Direct Message: Spend a Hope to open<br>aline of encrypted communication<br>with one target you can see. This<br>connection lasts until your next rest or<br>you run Direct Message again.<br>SEE</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "*Illiat Software Pack",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:illiat-software-pack",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 72,
+        "pageEnd": 72,
+        "entityType": "competencyCard",
+        "slug": "illiat-software-pack",
+        "competency": "Systems",
+        "cardType": "Protocol Suite"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "*Illiat Software Pack",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "systems",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:illiat-software-pack",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0200c76e49270d1c",
+  "folder": "6f85f985ffeadf6f",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0200c76e49270d1c"
+}

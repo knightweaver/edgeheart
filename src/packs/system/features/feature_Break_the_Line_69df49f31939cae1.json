@@ -1,0 +1,72 @@
+{
+  "name": "Break the Line",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, when you enter the center of a dangerous fight, choose any number of adversaries within Close range. Each chosen adversary must make a Reaction Roll (16). On a failure, they are pushed back to Close range and become temporarily Vulnerable. On a success, they mark 1 Stress.</p>",
+    "actions": {
+      "b592e34fe54d7d75": {
+        "type": "effect",
+        "_id": "b592e34fe54d7d75",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, when you enter the center of a dangerous fight, choose any number of adversaries within Close range. Each chosen adversary must make a Reaction Roll (16). On a failure, they are pushed back to Close range and become temporarily Vulnerable. On a success, they mark 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Break the Line",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:riotbreaker:break-the-line",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 28
+      },
+      "deployment": {
+        "logicalKey": "feature:riotbreaker:break-the-line",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "69df49f31939cae1",
+  "folder": "f9fdab27d1fe8212",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!69df49f31939cae1"
+}

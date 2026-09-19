@@ -1,0 +1,88 @@
+{
+  "name": "Frontier Routeware",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 1</p><p>Gain Card Access to one Frontier card of your level or lower. Once per rest, ignore difficult terrain during one movement or vehicle maneuver.</p>",
+    "actions": {
+      "c963cef4a2e51ba4": {
+        "type": "effect",
+        "_id": "c963cef4a2e51ba4",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 1</p><p>Gain Card Access to one Frontier card of your level or lower. Once per rest, ignore difficult terrain during one movement or vehicle maneuver.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Frontier Routeware",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:frontier-routeware",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 42,
+        "pageEnd": 42,
+        "entityType": "cyberware",
+        "slug": "frontier-routeware",
+        "roll": 25,
+        "cyberCostRaw": "1",
+        "competencyAccess": {
+          "competency": "Frontier",
+          "mode": "card",
+          "cardRestriction": "one Frontier card of your level or lower"
+        },
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Frontier Routeware",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:frontier-routeware",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "621c284fa979e8ed",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!621c284fa979e8ed"
+}

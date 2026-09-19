@@ -1,0 +1,84 @@
+{
+  "name": "Overload Governor",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 4</p><p>Once per long rest, after you use a Cyberware feature with a limit, as a once per rest, you can immediately use that same feature again. After it resolves, roll your Humanity Die. If the result is equal to or lower than your Cyber Load, mark 2 Stress or the GM gains 3 Fear.</p>",
+    "actions": {
+      "b801789b4f95f4b2": {
+        "type": "effect",
+        "_id": "b801789b4f95f4b2",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 4</p><p>Once per long rest, after you use a Cyberware feature with a limit, as a once per rest, you can immediately use that same feature again. After it resolves, roll your Humanity Die. If the result is equal to or lower than your Cyber Load, mark 2 Stress or the GM gains 3 Fear.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Overload Governor",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:overload-governor",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 44,
+        "pageEnd": 44,
+        "entityType": "cyberware",
+        "slug": "overload-governor",
+        "roll": 57,
+        "cyberCostRaw": "4",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Overload Governor",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:overload-governor",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ab3fe408435fe8e6",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ab3fe408435fe8e6"
+}

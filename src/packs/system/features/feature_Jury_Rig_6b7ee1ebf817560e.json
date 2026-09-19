@@ -1,0 +1,72 @@
+{
+  "name": "Jury-Rig",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per scene, when you have a few moments and access to your tools, you can modify, repair, or improvise with a device, weapon, or piece of machinery within Melee range. Choose one:<br>• Boost: The next time the modified item is used before the scene ends, add +1d6 to its action roll, Interface Roll, or damage roll.<br>• Patch: Restore a broken, jammed, disabled, or damaged item so it functions until the scene ends, or allow a creature using the item to clear an Armor Slot.<br>• Rewire: Connect or disconnect the item from a network, bypass its local controls, or allow it to be operated from Far range until the scene ends.</p><p>You can mark a Stress to use Jury-Rig again during the same scene.</p>",
+    "actions": {
+      "005e01191ddaa407": {
+        "type": "effect",
+        "_id": "005e01191ddaa407",
+        "systemPath": "actions",
+        "description": "<p>Once per scene, when you have a few moments and access to your tools, you can modify, repair, or improvise with a device, weapon, or piece of machinery within Melee range. Choose one:<br>• Boost: The next time the modified item is used before the scene ends, add +1d6 to its action roll, Interface Roll, or damage roll.<br>• Patch: Restore a broken, jammed, disabled, or damaged item so it functions until the scene ends, or allow a creature using the item to clear an Armor Slot.<br>• Rewire: Connect or disconnect the item from a network, bypass its local controls, or allow it to be operated from Far range until the scene ends.</p><p>You can mark a Stress to use Jury-Rig again during the same scene.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Jury-Rig",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:tech:jury-rig",
+      "source": {
+        "featureStage": "class",
+        "sourcePage": 19
+      },
+      "deployment": {
+        "logicalKey": "feature:tech:jury-rig",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6b7ee1ebf817560e",
+  "folder": "b960adfceda6d47b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6b7ee1ebf817560e"
+}

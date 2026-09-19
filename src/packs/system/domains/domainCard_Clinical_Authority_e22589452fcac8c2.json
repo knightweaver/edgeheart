@@ -1,0 +1,96 @@
+{
+  "name": "Clinical Authority",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (15) to activate a<br>neurological presence enhancer. Ona<br>success, spend 2 Hope to make your<br>Presence equal to your Interface trait<br>until your next long rest.<br>While this protocol is active, a creature<br>must mark a Stress when they target<br>you with an attack.</p>",
+    "level": 9,
+    "domain": "medtech",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "e4a7e88f7e2dc510": {
+        "type": "effect",
+        "_id": "e4a7e88f7e2dc510",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (15) to activate a<br>neurological presence enhancer. Ona<br>success, spend 2 Hope to make your<br>Presence equal to your Interface trait<br>until your next long rest.<br>While this protocol is active, a creature<br>must mark a Stress when they target<br>you with an attack.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Clinical Authority",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:clinical-authority",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 83,
+        "pageEnd": 83,
+        "entityType": "competencyCard",
+        "slug": "clinical-authority",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Clinical Authority",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "medtech",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:clinical-authority",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e22589452fcac8c2",
+  "folder": "22870982809d20cb",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e22589452fcac8c2"
+}

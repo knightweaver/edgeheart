@@ -1,0 +1,72 @@
+{
+  "name": "Impossible Exit",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per rest, you can spend 3 Cover to reveal an escape route you prepared or noticed. You and any allies within Close range can immediately move within Far range, ignoring difficult terrain, simple alarms, and zones controlled by enemies during this movement. After this movement, you become Hidden. Any ally who ends this movement in cover, darkness, smoke, a crowd, or another plausible hiding place also becomes Hidden.</p>",
+    "actions": {
+      "1691c47fe1cc7c85": {
+        "type": "effect",
+        "_id": "1691c47fe1cc7c85",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, you can spend 3 Cover to reveal an escape route you prepared or noticed. You and any allies within Close range can immediately move within Far range, ignoring difficult terrain, simple alarms, and zones controlled by enemies during this movement. After this movement, you become Hidden. Any ally who ends this movement in cover, darkness, smoke, a crowd, or another plausible hiding place also becomes Hidden.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Impossible Exit",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:phantom:impossible-exit",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 14
+      },
+      "deployment": {
+        "logicalKey": "feature:phantom:impossible-exit",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "dbed3d70a1411f16",
+  "folder": "8443da7dcd2feb66",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!dbed3d70a1411f16"
+}

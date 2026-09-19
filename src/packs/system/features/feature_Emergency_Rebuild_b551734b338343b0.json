@@ -1,0 +1,72 @@
+{
+  "name": "Emergency Rebuild",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you would take Severe damage, you can mark a Stress to mark 1 fewer Hit Point.</p>",
+    "actions": {
+      "cec258899f91025a": {
+        "type": "effect",
+        "_id": "cec258899f91025a",
+        "systemPath": "actions",
+        "description": "<p>When you would take Severe damage, you can mark a Stress to mark 1 fewer Hit Point.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Emergency Rebuild",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:black-clinic-survivor:emergency-rebuild",
+      "source": {
+        "featureStage": "lifePath",
+        "sourcePage": 29
+      },
+      "deployment": {
+        "logicalKey": "feature:black-clinic-survivor:emergency-rebuild",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "b551734b338343b0",
+  "folder": "771dbc18cf8b84e0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b551734b338343b0"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Homet Access Suite",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Phase Breach: Make an Interface Roll<br>(13). Once per rest on a success, you<br>and all creatures touching you can pass<br>through a wall or door within Close<br>range by using a phase module,<br>molecular bypass, breach field, or<br>emergency matter-shift route. The<br>effect ends once everyone is on the<br>other side.<br>Blacksite Gate: Make an Interface Roll<br>(14). Once per long rest on a success,<br>open a gateway to a sealed facility,<br>hidden network layer, deep bunker, off-<br>grid safehouse, restricted blacksite, or<br>strange space you&#x27;ve been to before.<br>This gateway lasts until your next rest.</p>",
+    "level": 7,
+    "domain": "systems",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "6238e6a9b7f70f21": {
+        "type": "effect",
+        "_id": "6238e6a9b7f70f21",
+        "systemPath": "actions",
+        "description": "<p>Phase Breach: Make an Interface Roll<br>(13). Once per rest on a success, you<br>and all creatures touching you can pass<br>through a wall or door within Close<br>range by using a phase module,<br>molecular bypass, breach field, or<br>emergency matter-shift route. The<br>effect ends once everyone is on the<br>other side.<br>Blacksite Gate: Make an Interface Roll<br>(14). Once per long rest on a success,<br>open a gateway to a sealed facility,<br>hidden network layer, deep bunker, off-<br>grid safehouse, restricted blacksite, or<br>strange space you&#x27;ve been to before.<br>This gateway lasts until your next rest.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Homet Access Suite",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:homet-access-suite",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 73,
+        "pageEnd": 73,
+        "entityType": "competencyCard",
+        "slug": "homet-access-suite",
+        "competency": "Systems",
+        "cardType": "Protocol Suite"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "Homet Access Suite",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "systems",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:homet-access-suite",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "4c201674e3b069a1",
+  "folder": "75316aca2e25cc7c",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4c201674e3b069a1"
+}

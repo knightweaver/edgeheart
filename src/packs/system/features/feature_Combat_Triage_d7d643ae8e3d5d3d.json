@@ -1,0 +1,72 @@
+{
+  "name": "Combat Triage",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, when a dangerous scene begins or when an ally within Far range marks one or more Hit Points, you can call a triage order. Choose up to three allies within Far range who can hear you, see you, or receive your signal. Each chosen ally may immediately move within Very Close range, then choose one:<br>• Clear 1 Hit Point and 1 Stress.<br>• Clear a temporary physical condition.<br>• Gain a +2 bonus to their next Roll.</p>",
+    "actions": {
+      "0d4f4787dafe6b3c": {
+        "type": "effect",
+        "_id": "0d4f4787dafe6b3c",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, when a dangerous scene begins or when an ally within Far range marks one or more Hit Points, you can call a triage order. Choose up to three allies within Far range who can hear you, see you, or receive your signal. Each chosen ally may immediately move within Very Close range, then choose one:<br>• Clear 1 Hit Point and 1 Stress.<br>• Clear a temporary physical condition.<br>• Gain a +2 bonus to their next Roll.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Combat Triage",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:combat-medic:combat-triage",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 25
+      },
+      "deployment": {
+        "logicalKey": "feature:combat-medic:combat-triage",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "d7d643ae8e3d5d3d",
+  "folder": "f8218c4725d2102a",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d7d643ae8e3d5d3d"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Interpose",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When an ally within Very Close range<br>would take damage, you can mark a<br>Stress to throw yourself into the line of<br>fire, raise a defense, trigger your armor<br>rig, or physically block the attack.<br>You become the target of the attack<br>instead. When you take damage from<br>this attack, you can mark any number<br>of Armor Slots.</p>",
+    "level": 1,
+    "domain": "aegis",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "c90c0ca5aae704af": {
+        "type": "effect",
+        "_id": "c90c0ca5aae704af",
+        "systemPath": "actions",
+        "description": "<p>When an ally within Very Close range<br>would take damage, you can mark a<br>Stress to throw yourself into the line of<br>fire, raise a defense, trigger your armor<br>rig, or physically block the attack.<br>You become the target of the attack<br>instead. When you take damage from<br>this attack, you can mark any number<br>of Armor Slots.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Interpose",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Aegis:interpose",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 84,
+        "pageEnd": 84,
+        "entityType": "competencyCard",
+        "slug": "interpose",
+        "competency": "Aegis",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "aegis"
+        }
+      ],
+      "validationExpected": {
+        "name": "Interpose",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "aegis",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:aegis:interpose",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "80385df4b34c62d7",
+  "folder": "4ae282fc716ba506",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!80385df4b34c62d7"
+}

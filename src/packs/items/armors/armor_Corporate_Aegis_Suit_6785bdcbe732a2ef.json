@@ -1,0 +1,97 @@
+{
+  "name": "Corporate Aegis Suit",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Executive Defense: Once per rest, when you roll with Fear on a Reaction Roll, you can change it to a roll with Hope.</p>",
+    "actions": {
+      "ee9b2ead5cf551d9": {
+        "type": "effect",
+        "_id": "ee9b2ead5cf551d9",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, when you roll with Fear on a Reaction Roll, you can change it to a roll with Hope.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Executive Defense",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 3,
+    "equipped": false,
+    "baseScore": 5,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 13,
+      "severe": 31
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-corporate-aegis-suit",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 36,
+        "pageEnd": 36,
+        "entityType": "armor",
+        "slug": "corporate-aegis-suit",
+        "featureNames": [
+          "Executive Defense"
+        ]
+      },
+      "validationExpected": {
+        "name": "Corporate Aegis Suit",
+        "type": "armor",
+        "system.tier": 3,
+        "system.baseScore": 5,
+        "system.baseThresholds.major": 13,
+        "system.baseThresholds.severe": 31,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:corporate-aegis-suit",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6785bdcbe732a2ef",
+  "folder": "aca2f20d6b860b47",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6785bdcbe732a2ef"
+}

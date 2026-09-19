@@ -1,0 +1,96 @@
+{
+  "name": "Rejuvenation Barrier",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (15). Once per<br>rest on a success, create a temporary<br>barrier of mobile life-support shielding<br>around you at Close range.<br>You and allies within the barrier when<br>this protocol is activated clear 1d4 HP.<br>While the barrier is active, you and<br>allies within it have resistance to<br>physical damage from outside the<br>barrier. When you move, the barrier<br>follows you.</p>",
+    "level": 8,
+    "domain": "medtech",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "ad2e4eb2c968c186": {
+        "type": "effect",
+        "_id": "ad2e4eb2c968c186",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (15). Once per<br>rest on a success, create a temporary<br>barrier of mobile life-support shielding<br>around you at Close range.<br>You and allies within the barrier when<br>this protocol is activated clear 1d4 HP.<br>While the barrier is active, you and<br>allies within it have resistance to<br>physical damage from outside the<br>barrier. When you move, the barrier<br>follows you.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Rejuvenation Barrier",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:rejuvenation-barrier",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 83,
+        "pageEnd": 83,
+        "entityType": "competencyCard",
+        "slug": "rejuvenation-barrier",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Rejuvenation Barrier",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "medtech",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:rejuvenation-barrier",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "cf5c41cb87c3abc2",
+  "folder": "41942ecdbe63445f",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!cf5c41cb87c3abc2"
+}

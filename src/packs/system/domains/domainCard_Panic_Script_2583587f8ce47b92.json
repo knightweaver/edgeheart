@@ -1,0 +1,96 @@
+{
+  "name": "Panic Script",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, the<br>target marks 1d4 Stress as you flood<br>their HUD, senses, implants, or<br>systems with corrupted signals.<br>You can choose to make the target run<br>one range away from you. You can also<br>spend a Hope to make the target<br>temporarily Vulnerable.</p>",
+    "level": 3,
+    "domain": "blackwall",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "d2836dd280b3a115": {
+        "type": "effect",
+        "_id": "d2836dd280b3a115",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, the<br>target marks 1d4 Stress as you flood<br>their HUD, senses, implants, or<br>systems with corrupted signals.<br>You can choose to make the target run<br>one range away from you. You can also<br>spend a Hope to make the target<br>temporarily Vulnerable.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Panic Script",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:panic-script",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 88,
+        "pageEnd": 88,
+        "entityType": "competencyCard",
+        "slug": "panic-script",
+        "competency": "Blackwall",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "Panic Script",
+        "type": "domainCard",
+        "system.level": 3,
+        "system.domain": "blackwall",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:panic-script",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2583587f8ce47b92",
+  "folder": "d6d0bcbb5b95036a",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2583587f8ce47b92"
+}

@@ -1,0 +1,164 @@
+{
+  "name": "Dead Pantheon Breach",
+  "type": "environment",
+  "img": "icons/svg/door-exit.svg",
+  "system": {
+    "description": "A place where the Blackwall thins and Theoi-derived systems start dreaming in public.",
+    "tier": 4,
+    "type": "haunted zone",
+    "difficulty": 21,
+    "notes": "",
+    "impulses": [
+      "Rewrite",
+      "possess",
+      "reveal truth"
+    ],
+    "potentialAdversaries": [
+      "Hades Shard",
+      "Blackwall Seraph",
+      "Digital Wraith",
+      "Data Cult Oracle"
+    ],
+    "features": [
+      {
+        "_id": "03e7e2a4401daed1",
+        "name": "Reality Through Machines",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Cameras, implants, drones, vehicles, and screens may show different versions of the same scene. PCs must succeed on an Instinct or Knowledge Roll before trusting digital information.\n\nWhich version is lying?",
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "8f80deed3d25fc14",
+        "name": "Ghost Incursion",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Spawn a Digital Ghost or possess a connected machine within Far range.\n\nWhat came through the breach?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "986452955905f768",
+        "name": "Root-Level Intrusion",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Choose a connected device within Far range. It receives a command from beyond the Blackwall and turns against its user or the environment around it. A PC directly affected must make an Interface Reaction Roll. On a failure, they mark 3 Stress and the device misfires, locks, crashes, exposes them, moves them into danger, or attacks a nearby target. On a success, they mark 1 Stress and force the system back under control.\n\nWhat machine obeyed a dead god?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "53bfc79ebc62a507",
+        "name": "The God Notices",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "When a PC rolls with Fear, they mark a Stress or lose 1 Hope as the signal speaks directly to them.\n\nWhat name does it call them?",
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "tags": [],
+    "bonuses": {}
+  },
+  "prototypeToken": null,
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:environment:dead-pantheon-breach",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 57,
+        "pageEnd": 57,
+        "entityType": "environment",
+        "slug": "dead-pantheon-breach"
+      },
+      "validationExpected": {
+        "name": "Dead Pantheon Breach",
+        "type": "environment",
+        "system.tier": 4,
+        "system.type": "haunted zone",
+        "system.difficulty": 21,
+        "system.featuresCount": 4
+      },
+      "deployment": {
+        "logicalKey": "environment:dead-pantheon-breach",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "9b48c1a4a217d08e",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!9b48c1a4a217d08e"
+}

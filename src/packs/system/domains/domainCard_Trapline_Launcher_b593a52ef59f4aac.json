@@ -1,0 +1,96 @@
+{
+  "name": "Trapline Launcher",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a target<br>within Far range. On a hit, you fire a<br>trapline at the target. They take 1d8+1<br>physical damage and turn Restrained.<br>Additionally, you can spend a Hope to<br>launch a secondary trapline at another<br>adversary within Close range of the<br>EtarcatetamnnrarileReactrainingitharnm</p>",
+    "level": 1,
+    "domain": "frontier",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "e6cf8c8e4327e96d": {
+        "type": "effect",
+        "_id": "e6cf8c8e4327e96d",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a target<br>within Far range. On a hit, you fire a<br>trapline at the target. They take 1d8+1<br>physical damage and turn Restrained.<br>Additionally, you can spend a Hope to<br>launch a secondary trapline at another<br>adversary within Close range of the<br>EtarcatetamnnrarileReactrainingitharnm</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Trapline Launcher",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:trapline-launcher",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 79,
+        "pageEnd": 79,
+        "entityType": "competencyCard",
+        "slug": "trapline-launcher",
+        "competency": "Frontier",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Trapline Launcher",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "frontier",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:trapline-launcher",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "b593a52ef59f4aac",
+  "folder": "29fc98aa023c779c",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b593a52ef59f4aac"
+}

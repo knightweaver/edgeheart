@@ -1,0 +1,96 @@
+{
+  "name": "Long-Range Extraction",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per long rest, you can instantly<br>extract or displace yourself and any<br>number of willing targets within Close<br>range to a place you&#x27;ve been before —<br>using a recall beacon, displacement rig,<br>or pre-mapped extraction point.<br>Make an Interface Roll (16) with the<br>following modifiers:<br>7 1- If you’re familiar with the place: +3.<br>2- If you visit the place frequently: +1.<br>3- If you’ve visited the place once: +0.<br>4- If you’ve only been there once: -2.<br>On a success, you arrive where you<br>were intending to go. On a failure, you<br>arrive off course, with the range of<br>failure determining how far off course.</p>",
+    "level": 5,
+    "domain": "systems",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "b1b3cd1ea7de0075": {
+        "type": "effect",
+        "_id": "b1b3cd1ea7de0075",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, you can instantly<br>extract or displace yourself and any<br>number of willing targets within Close<br>range to a place you&#x27;ve been before —<br>using a recall beacon, displacement rig,<br>or pre-mapped extraction point.<br>Make an Interface Roll (16) with the<br>following modifiers:<br>7 1- If you’re familiar with the place: +3.<br>2- If you visit the place frequently: +1.<br>3- If you’ve visited the place once: +0.<br>4- If you’ve only been there once: -2.<br>On a success, you arrive where you<br>were intending to go. On a failure, you<br>arrive off course, with the range of<br>failure determining how far off course.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Long-Range Extraction",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:long-range-extraction",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 73,
+        "pageEnd": 73,
+        "entityType": "competencyCard",
+        "slug": "long-range-extraction",
+        "competency": "Systems",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "Long-Range Extraction",
+        "type": "domainCard",
+        "system.level": 5,
+        "system.domain": "systems",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:long-range-extraction",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7434ab0b9ba1747c",
+  "folder": "b6e33745d4cf5ce0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7434ab0b9ba1747c"
+}

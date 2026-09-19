@@ -1,0 +1,80 @@
+{
+  "name": "Garage Token",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Once per session, when you reach a garage, road camp, convoy stop, or mechanic contact, you can repair a Damaged vehicle without paying the normal cost.</p>",
+    "quantity": 1,
+    "actions": {
+      "8c70a524e0f51b16": {
+        "type": "effect",
+        "_id": "8c70a524e0f51b16",
+        "systemPath": "actions",
+        "description": "<p>Once per session, when you reach a garage, road camp, convoy stop, or mechanic contact, you can repair a Damaged vehicle without paying the normal cost.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Garage Token",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:garage-token",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 38,
+        "pageEnd": 38,
+        "entityType": "loot",
+        "slug": "garage-token",
+        "roll": 39
+      },
+      "validationExpected": {
+        "name": "Garage Token",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:garage-token",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e9b256aa2a8e8f48",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e9b256aa2a8e8f48"
+}

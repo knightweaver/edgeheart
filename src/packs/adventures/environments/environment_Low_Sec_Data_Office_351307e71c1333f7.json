@@ -1,0 +1,140 @@
+{
+  "name": "Low-Sec Data Office",
+  "type": "environment",
+  "img": "icons/svg/door-exit.svg",
+  "system": {
+    "description": "A cheap corporate office full of badge locks, glass walls, tired staff, and too many cameras.",
+    "tier": 1,
+    "type": "exploration",
+    "difficulty": 11,
+    "notes": "",
+    "impulses": [
+      "Delay",
+      "document",
+      "alert security"
+    ],
+    "potentialAdversaries": [
+      "Sitil Security Guard",
+      "Pocket Drone Handler",
+      "Rookie Edgerunner"
+    ],
+    "features": [
+      {
+        "_id": "a4ff1595c4894140",
+        "name": "Badge Logic",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "PCs can make an Interface Roll to create a Breach against doors, cameras, or elevators. On a roll with Fear, security starts asking questions.\n\nWhose badge still works here?",
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "a4d54526505bb785",
+        "name": "Camera Sweep",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Choose a PC in an exposed area. They must mark a Stress or become recorded and traceable.\n\nWho reviews the footage?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "bddf694fe81eb2e2",
+        "name": "Reception Alarm",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "When a PC fails a social roll, summon a Sitil Security Guard within Far range.\n\nWhat did the receptionist notice?",
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "tags": [],
+    "bonuses": {}
+  },
+  "prototypeToken": null,
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:environment:low-sec-data-office",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 54,
+        "pageEnd": 54,
+        "entityType": "environment",
+        "slug": "low-sec-data-office"
+      },
+      "validationExpected": {
+        "name": "Low-Sec Data Office",
+        "type": "environment",
+        "system.tier": 1,
+        "system.type": "exploration",
+        "system.difficulty": 11,
+        "system.featuresCount": 3
+      },
+      "deployment": {
+        "logicalKey": "environment:low-sec-data-office",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "351307e71c1333f7",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!351307e71c1333f7"
+}

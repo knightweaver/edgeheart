@@ -1,0 +1,49 @@
+{
+  "name": "Corporate Asset",
+  "type": "community",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are connected to a corporation as an employee, sponsored mercenary, or former insider.</p><h4>COMMUNITY FEATURE</h4><p><em><strong>Elite Privilege:</strong></em> You have advantage on rolls to consort with corporate employees, pass as authorized, or leverage your company reputation to get what you want.</p>",
+    "features": [
+      "feature:corporate-asset:elite-privilege"
+    ],
+    "attribution": {
+      "source": "Edgeheart",
+      "page": 30,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "community:corporate-asset",
+      "source": {
+        "entityType": "affiliation",
+        "slug": "corporate-asset",
+        "mappedFoundryType": "community"
+      },
+      "deployment": {
+        "logicalKey": "community:corporate-asset",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "056cde1d55f02396",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!056cde1d55f02396"
+}

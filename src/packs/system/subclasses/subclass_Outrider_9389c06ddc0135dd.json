@@ -1,0 +1,59 @@
+{
+  "name": "Outrider",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as an Outrider if you want to master vehicles, lead pursuits, and survive impossible roads.</p>",
+    "spellcastingTrait": "agility",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:outrider:signature-vehicle"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:outrider:stunt-driver"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:outrider:drive-off"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:reclaimer"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:outrider",
+      "source": {
+        "entityType": "subclass",
+        "slug": "outrider",
+        "parentClass": "Reclaimer"
+      },
+      "deployment": {
+        "logicalKey": "subclass:outrider",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "9389c06ddc0135dd",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!9389c06ddc0135dd"
+}

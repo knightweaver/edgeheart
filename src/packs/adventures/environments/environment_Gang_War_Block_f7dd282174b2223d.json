@@ -1,0 +1,141 @@
+{
+  "name": "Gang War Block",
+  "type": "environment",
+  "img": "icons/svg/door-exit.svg",
+  "system": {
+    "description": "A city block locked in open gang warfare, burning cars, rooftop shooters, and civilians trapped between colors.",
+    "tier": 3,
+    "type": "event",
+    "difficulty": 16,
+    "notes": "",
+    "impulses": [
+      "Escalate",
+      "recruit",
+      "punish weakness"
+    ],
+    "potentialAdversaries": [
+      "Blood Saint Duelist",
+      "Chrome Maw Bruiser",
+      "Rival Edgerunner Crew",
+      "Contract Sniper"
+    ],
+    "features": [
+      {
+        "_id": "0872b05a2950f473",
+        "name": "Crossfire",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "When a creature moves through open ground, they must mark a Stress or make an Agility Roll to avoid stray fire.\n\nWho is shooting from above?",
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "4dd7ef5180875431",
+        "name": "Claim the Block",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "A gang force seizes a street, rooftop, store, or vehicle. It becomes dangerous terrain until cleared.\n\nWhose symbol is painted there?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "b6169e84b7aa4461",
+        "name": "Reputation Test",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "When a PC rolls with Fear on a social or combat roll, someone challenges their name, crew, or loyalty.\n\nWho wants to embarrass them?",
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "tags": [],
+    "bonuses": {}
+  },
+  "prototypeToken": null,
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:environment:gang-war-block",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 56,
+        "pageEnd": 56,
+        "entityType": "environment",
+        "slug": "gang-war-block"
+      },
+      "validationExpected": {
+        "name": "Gang War Block",
+        "type": "environment",
+        "system.tier": 3,
+        "system.type": "event",
+        "system.difficulty": 16,
+        "system.featuresCount": 3
+      },
+      "deployment": {
+        "logicalKey": "environment:gang-war-block",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "f7dd282174b2223d",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!f7dd282174b2223d"
+}

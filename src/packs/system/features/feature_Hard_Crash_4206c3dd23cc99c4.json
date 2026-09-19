@@ -1,0 +1,72 @@
+{
+  "name": "Hard Crash",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per rest, when you create a Breach against a target you have Exploited, you can immediately use that Breach without spending it.</p>",
+    "actions": {
+      "a97ed4eda1b692ed": {
+        "type": "effect",
+        "_id": "a97ed4eda1b692ed",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, when you create a Breach against a target you have Exploited, you can immediately use that Breach without spending it.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Hard Crash",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:breach-specialist:hard-crash",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 11
+      },
+      "deployment": {
+        "logicalKey": "feature:breach-specialist:hard-crash",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "4206c3dd23cc99c4",
+  "folder": "95b9673d2a648601",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4206c3dd23cc99c4"
+}

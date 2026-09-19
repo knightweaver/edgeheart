@@ -1,0 +1,96 @@
+{
+  "name": "Feedback Retaliation",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When an attack from a creature causes<br>you to mark one or more HP, you can<br>make a Reaction Roll using your<br>Interface trait against the creature.<br>On a success, your Redline system<br>converts the impact into a hostile<br>backlash through your combat<br>firmware, shock relays, rageware, or<br>neural feedback implants, forcing the<br>creature to mark the same number of<br>HP as you did.<br>You can’t use this protocol again until<br>you finish a rest.</p>",
+    "level": 5,
+    "domain": "redline",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "d275f00aa60064c1": {
+        "type": "effect",
+        "_id": "d275f00aa60064c1",
+        "systemPath": "actions",
+        "description": "<p>When an attack from a creature causes<br>you to mark one or more HP, you can<br>make a Reaction Roll using your<br>Interface trait against the creature.<br>On a success, your Redline system<br>converts the impact into a hostile<br>backlash through your combat<br>firmware, shock relays, rageware, or<br>neural feedback implants, forcing the<br>creature to mark the same number of<br>HP as you did.<br>You can’t use this protocol again until<br>you finish a rest.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Feedback Retaliation",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:feedback-retaliation",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 86,
+        "pageEnd": 86,
+        "entityType": "competencyCard",
+        "slug": "feedback-retaliation",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Feedback Retaliation",
+        "type": "domainCard",
+        "system.level": 5,
+        "system.domain": "redline",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:feedback-retaliation",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "1700ff294414f468",
+  "folder": "7d955ad1d48028f4",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1700ff294414f468"
+}

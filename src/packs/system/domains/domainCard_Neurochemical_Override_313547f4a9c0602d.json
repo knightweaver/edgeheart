@@ -1,0 +1,96 @@
+{
+  "name": "Neurochemical Override",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a target<br>within Very Close range. If you use this<br>protocol on an ally, roll with advantage.<br>On a success, mark a Stress and<br>choose one of the following effects:<br>1- The target grows calmer, stabilized<br>by sedatives or neural regulation, and<br>clears a Stress. On a success with<br>Hope, they clear 2 Stress.<br>2- The target grows more anxious,<br>overloaded by adrenaline, panic<br>chemicals, or hostile feedback, and<br>marks a Stress. On a success with<br>Hope, they mark 2 Stress.</p>",
+    "level": 2,
+    "domain": "redline",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "53b66e37aa18a4e4": {
+        "type": "effect",
+        "_id": "53b66e37aa18a4e4",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a target<br>within Very Close range. If you use this<br>protocol on an ally, roll with advantage.<br>On a success, mark a Stress and<br>choose one of the following effects:<br>1- The target grows calmer, stabilized<br>by sedatives or neural regulation, and<br>clears a Stress. On a success with<br>Hope, they clear 2 Stress.<br>2- The target grows more anxious,<br>overloaded by adrenaline, panic<br>chemicals, or hostile feedback, and<br>marks a Stress. On a success with<br>Hope, they mark 2 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Neurochemical Override",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:neurochemical-override",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 86,
+        "pageEnd": 86,
+        "entityType": "competencyCard",
+        "slug": "neurochemical-override",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Neurochemical Override",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "redline",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:neurochemical-override",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "313547f4a9c0602d",
+  "folder": "bf42abe165565e1a",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!313547f4a9c0602d"
+}

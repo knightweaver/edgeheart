@@ -1,0 +1,84 @@
+{
+  "name": "Reflex Ghostware",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 3</p><p>Gain +1 Evasion. Once per scene, when an attack misses you, you may immediately move within Very Close range and become Hidden if cover or concealment is available.</p>",
+    "actions": {
+      "26572eb8356875d2": {
+        "type": "effect",
+        "_id": "26572eb8356875d2",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 3</p><p>Gain +1 Evasion. Once per scene, when an attack misses you, you may immediately move within Very Close range and become Hidden if cover or concealment is available.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Reflex Ghostware",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:reflex-ghostware",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 43,
+        "pageEnd": 43,
+        "entityType": "cyberware",
+        "slug": "reflex-ghostware",
+        "roll": 40,
+        "cyberCostRaw": "3",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Reflex Ghostware",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:reflex-ghostware",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "61b3abf351055bac",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!61b3abf351055bac"
+}

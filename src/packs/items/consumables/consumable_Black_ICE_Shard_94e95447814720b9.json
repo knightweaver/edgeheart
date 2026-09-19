@@ -1,0 +1,81 @@
+{
+  "name": "Black ICE Shard",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Spend before an Interface Roll. On a success, create one additional Breach. On a roll with Fear, mark 1 Stress.</p>",
+    "quantity": 1,
+    "actions": {
+      "a06f283bfdf4e6c5": {
+        "type": "effect",
+        "_id": "a06f283bfdf4e6c5",
+        "systemPath": "actions",
+        "description": "<p>Spend before an Interface Roll. On a success, create one additional Breach. On a roll with Fear, mark 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Black ICE Shard",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:black-ice-shard",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 39,
+        "pageEnd": 39,
+        "entityType": "consumable",
+        "slug": "black-ice-shard",
+        "roll": 15
+      },
+      "validationExpected": {
+        "name": "Black ICE Shard",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:black-ice-shard",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "94e95447814720b9",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!94e95447814720b9"
+}

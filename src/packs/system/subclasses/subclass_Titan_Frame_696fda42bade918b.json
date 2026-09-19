@@ -1,0 +1,63 @@
+{
+  "name": "Titan Frame",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as a Titan Frame if you want to become a mountain of heavy chrome and industrial strength that refuses to move unless you allow it.</p>",
+    "spellcastingTrait": "strength",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:titan-frame:reinforced-build"
+      },
+      {
+        "type": "foundation",
+        "ref": "feature:titan-frame:load-bearing-body"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:titan-frame:impact-absorbers"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:titan-frame:heavy-chrome-walking"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:augmented"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:titan-frame",
+      "source": {
+        "entityType": "subclass",
+        "slug": "titan-frame",
+        "parentClass": "Augmented"
+      },
+      "deployment": {
+        "logicalKey": "subclass:titan-frame",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "696fda42bade918b",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!696fda42bade918b"
+}

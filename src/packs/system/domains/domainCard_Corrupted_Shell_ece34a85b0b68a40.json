@@ -1,0 +1,96 @@
+{
+  "name": "Corrupted Shell",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You allow the Blackwall to partially<br>rewrite your body, armor, implants, and<br>nervous system.<br>While this card is active in your<br>loadout:<br>For every 2 Stress you have marked,<br>increase your thresholds by +1.<br>• Whenever you succeed with Fear on<br>an action roll, you can spend a Hope<br>to clear an Armor Slot.</p>",
+    "level": 8,
+    "domain": "blackwall",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "aaa22d730724510c": {
+        "type": "effect",
+        "_id": "aaa22d730724510c",
+        "systemPath": "actions",
+        "description": "<p>You allow the Blackwall to partially<br>rewrite your body, armor, implants, and<br>nervous system.<br>While this card is active in your<br>loadout:<br>For every 2 Stress you have marked,<br>increase your thresholds by +1.<br>• Whenever you succeed with Fear on<br>an action roll, you can spend a Hope<br>to clear an Armor Slot.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Corrupted Shell",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:corrupted-shell",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 89,
+        "pageEnd": 89,
+        "entityType": "competencyCard",
+        "slug": "corrupted-shell",
+        "competency": "Blackwall",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "Corrupted Shell",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "blackwall",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:corrupted-shell",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ece34a85b0b68a40",
+  "folder": "b31ce55e14154b04",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ece34a85b0b68a40"
+}

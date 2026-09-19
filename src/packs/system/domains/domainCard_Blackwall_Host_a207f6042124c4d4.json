@@ -1,0 +1,96 @@
+{
+  "name": "Blackwall Host",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You can mark a Stress to become an<br>Blackwall Host, allowing a rogue Al,<br>corrupted daemon, lost military<br>system, or forbidden Blackwall<br>fragment to partially pilot your body.<br>While in this form, gain the following:<br>All adversaries within Close range<br>must spend an additional Fear when<br>using a Fear feature.<br>When you defeat, disable, or<br>destroy a creature within Close<br>range, you absorb their final output<br>and clear a Hit Point.<br>You can mark a Stress to move to<br>any location within Very Far range,<br>ignoring difficult terrain, automated<br>security, and environmental<br>obstacles. This movement can&#x27;t pass<br>through sealed barriers or spaces<br>with no plausible route.<br>Every time you make an action roll in<br>this form, you must spend a Hope. If<br>you can’t, the breach collapses and you<br>drop this form.<br>aa cd</p>",
+    "level": 10,
+    "domain": "blackwall",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "8147237f748d070a": {
+        "type": "effect",
+        "_id": "8147237f748d070a",
+        "systemPath": "actions",
+        "description": "<p>You can mark a Stress to become an<br>Blackwall Host, allowing a rogue Al,<br>corrupted daemon, lost military<br>system, or forbidden Blackwall<br>fragment to partially pilot your body.<br>While in this form, gain the following:<br>All adversaries within Close range<br>must spend an additional Fear when<br>using a Fear feature.<br>When you defeat, disable, or<br>destroy a creature within Close<br>range, you absorb their final output<br>and clear a Hit Point.<br>You can mark a Stress to move to<br>any location within Very Far range,<br>ignoring difficult terrain, automated<br>security, and environmental<br>obstacles. This movement can&#x27;t pass<br>through sealed barriers or spaces<br>with no plausible route.<br>Every time you make an action roll in<br>this form, you must spend a Hope. If<br>you can’t, the breach collapses and you<br>drop this form.<br>aa cd</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Blackwall Host",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:blackwall-host",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 89,
+        "pageEnd": 89,
+        "entityType": "competencyCard",
+        "slug": "blackwall-host",
+        "competency": "Blackwall",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "Blackwall Host",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "blackwall",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:blackwall-host",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "a207f6042124c4d4",
+  "folder": "ecdd84aaed37a382",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a207f6042124c4d4"
+}

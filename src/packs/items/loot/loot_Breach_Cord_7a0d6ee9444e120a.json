@@ -1,0 +1,80 @@
+{
+  "name": "Breach Cord",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>You have advantage on rolls to force open, cut through, or bypass mundane doors, fences, vents, locks, and access panels.</p>",
+    "quantity": 1,
+    "actions": {
+      "cd6cfad448119c2d": {
+        "type": "effect",
+        "_id": "cd6cfad448119c2d",
+        "systemPath": "actions",
+        "description": "<p>You have advantage on rolls to force open, cut through, or bypass mundane doors, fences, vents, locks, and access panels.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Breach Cord",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:breach-cord",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 38,
+        "pageEnd": 38,
+        "entityType": "loot",
+        "slug": "breach-cord",
+        "roll": 26
+      },
+      "validationExpected": {
+        "name": "Breach Cord",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:breach-cord",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7a0d6ee9444e120a",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7a0d6ee9444e120a"
+}

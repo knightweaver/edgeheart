@@ -1,0 +1,63 @@
+{
+  "name": "Phantom",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as a Phantom if you want to slip through guarded spaces, reposition through blind spots, extract allies from danger, and disappear before the enemy can lock you down.</p>",
+    "spellcastingTrait": "agility",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:phantom:ghost-route"
+      },
+      {
+        "type": "foundation",
+        "ref": "feature:phantom:now-you-see-me"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:phantom:extraction-window"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:phantom:impossible-exit"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:infiltrator"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:phantom",
+      "source": {
+        "entityType": "subclass",
+        "slug": "phantom",
+        "parentClass": "Infiltrator"
+      },
+      "deployment": {
+        "logicalKey": "subclass:phantom",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "b694819eb8453236",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b694819eb8453236"
+}

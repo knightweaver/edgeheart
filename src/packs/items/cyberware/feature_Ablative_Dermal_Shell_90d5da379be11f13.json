@@ -1,0 +1,84 @@
+{
+  "name": "Ablative Dermal Shell",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 2</p><p>Gain a +3 bonus to your damage thresholds. Once per scene, when you mark an Armor Slot, reduce the severity by one additional threshold.</p>",
+    "actions": {
+      "743315429aa86bf7": {
+        "type": "effect",
+        "_id": "743315429aa86bf7",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 2</p><p>Gain a +3 bonus to your damage thresholds. Once per scene, when you mark an Armor Slot, reduce the severity by one additional threshold.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Ablative Dermal Shell",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:ablative-dermal-shell",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 43,
+        "pageEnd": 43,
+        "entityType": "cyberware",
+        "slug": "ablative-dermal-shell",
+        "roll": 39,
+        "cyberCostRaw": "2",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Ablative Dermal Shell",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:ablative-dermal-shell",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "90d5da379be11f13",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!90d5da379be11f13"
+}

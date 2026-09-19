@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "d5e18286503aa318",
+  "name": "Level 7",
+  "color": null,
+  "sorting": "a",
+  "_id": "e296e52d3d87c83e",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-influence-level-7",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!e296e52d3d87c83e"
+}

@@ -1,0 +1,452 @@
+{
+  "name": "Signal Haunt",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "adversary",
+  "system": {
+    "difficulty": 15,
+    "damageThresholds": {
+      "major": 9,
+      "severe": 18
+    },
+    "resources": {
+      "hitPoints": {
+        "value": 0,
+        "max": 5,
+        "isReversed": true
+      },
+      "stress": {
+        "value": 0,
+        "max": 5,
+        "isReversed": true
+      }
+    },
+    "motivesAndTactics": "Distort senses, isolate, whisper",
+    "resistance": {
+      "physical": {
+        "resistance": false,
+        "immunity": false,
+        "reduction": 0
+      },
+      "magical": {
+        "resistance": false,
+        "immunity": false,
+        "reduction": 0
+      }
+    },
+    "type": "ghost",
+    "notes": "",
+    "hordeHp": 1,
+    "experiences": {
+      "5eb4d0c4b730149b": {
+        "name": "Sensor Corruption",
+        "value": 3
+      }
+    },
+    "bonuses": {
+      "roll": {
+        "attack": {
+          "bonus": 0,
+          "dice": []
+        },
+        "action": {
+          "bonus": 0,
+          "dice": []
+        },
+        "reaction": {
+          "bonus": 0,
+          "dice": []
+        }
+      },
+      "damage": {
+        "physical": {
+          "bonus": 0,
+          "dice": []
+        },
+        "magical": {
+          "bonus": 0,
+          "dice": []
+        }
+      }
+    },
+    "tier": 2,
+    "description": "<p>A corrupted AI presence flickering through cameras, implants, headlights, and dead screens.</p>",
+    "attack": {
+      "name": "Static Spike",
+      "roll": {
+        "bonus": 2,
+        "type": "attack",
+        "trait": null,
+        "difficulty": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "range": "far",
+      "damage": {
+        "parts": [
+          {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d6",
+              "bonus": 5,
+              "multiplier": "flat",
+              "flatMultiplier": 2
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "magical"
+            ],
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        ],
+        "includeBase": false,
+        "direct": false
+      },
+      "img": "icons/svg/sword.svg",
+      "type": "attack",
+      "chatDisplay": false,
+      "_id": "2e40b4e7f0edb465",
+      "systemPath": "actions",
+      "baseAction": false,
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "target": {
+        "type": "any",
+        "amount": null
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      }
+    },
+    "attribution": {
+      "source": "Edgeheart",
+      "page": 60,
+      "artist": ""
+    },
+    "criticalThreshold": 20,
+    "rules": {
+      "conditionImmunities": {
+        "hidden": false,
+        "restrained": false,
+        "vulnerable": false
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Signal Haunt",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hitPoints"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": "#4d4033",
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.8,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Augmented Haunting",
+      "type": "feature",
+      "_id": "01b406be18e8090c",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>PCs using cyberware, connected gear, or sensors within Close range have disadvantage on rolls to distinguish real threats from false signals.</p>",
+        "resource": null,
+        "actions": {
+          "5c5e78588d886602": {
+            "type": "effect",
+            "_id": "5c5e78588d886602",
+            "systemPath": "actions",
+            "description": "<p>PCs using cyberware, connected gear, or sensors within Close range have disadvantage on rolls to distinguish real threats from false signals.</p>",
+            "chatDisplay": true,
+            "actionType": "passive",
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Augmented Haunting",
+            "img": "icons/svg/aura.svg",
+            "range": "",
+            "baseAction": false,
+            "originItem": {
+              "type": "itemCollection"
+            }
+          }
+        },
+        "originItemType": null,
+        "attribution": {},
+        "multiclassOrigin": false
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "name": "Signal Spike",
+      "type": "feature",
+      "_id": "2003cff556a33bde",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Mark a Stress and choose one PC within Far range using connected gear, cyberware, sensors, or comms. They must mark 1 Stress or lose the benefit of that system until they spent a Hope to re-enable it.</p>",
+        "resource": null,
+        "actions": {
+          "46eaab022bac068e": {
+            "type": "effect",
+            "_id": "46eaab022bac068e",
+            "systemPath": "actions",
+            "description": "<p>Mark a Stress and choose one PC within Far range using connected gear, cyberware, sensors, or comms. They must mark 1 Stress or lose the benefit of that system until they spent a Hope to re-enable it.</p>",
+            "chatDisplay": true,
+            "actionType": "action",
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Signal Spike",
+            "img": "icons/svg/aura.svg",
+            "range": "",
+            "baseAction": false,
+            "originItem": {
+              "type": "itemCollection"
+            }
+          }
+        },
+        "originItemType": null,
+        "attribution": {},
+        "multiclassOrigin": false
+      },
+      "effects": [],
+      "sort": 100000,
+      "flags": {}
+    },
+    {
+      "name": "Hostile Overlay",
+      "type": "feature",
+      "_id": "42b9c38cd6a2e614",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When a PC within Far range rolls with Fear, mark a Stress to corrupt their interface. Their vision or sensors fills with hostile markers and false warnings. They become Vulnerable until they mark 1 Stress to tear through the signal.</p>",
+        "resource": null,
+        "actions": {
+          "fd3045c991f34ee4": {
+            "type": "effect",
+            "_id": "fd3045c991f34ee4",
+            "systemPath": "actions",
+            "description": "<p>When a PC within Far range rolls with Fear, mark a Stress to corrupt their interface. Their vision or sensors fills with hostile markers and false warnings. They become Vulnerable until they mark 1 Stress to tear through the signal.</p>",
+            "chatDisplay": true,
+            "actionType": "reaction",
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Hostile Overlay",
+            "img": "icons/svg/aura.svg",
+            "range": "",
+            "baseAction": false,
+            "originItem": {
+              "type": "itemCollection"
+            }
+          }
+        },
+        "originItemType": null,
+        "attribution": {},
+        "multiclassOrigin": false
+      },
+      "effects": [],
+      "sort": 200000,
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:adversary:signal-haunt",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 60,
+        "pageEnd": 60,
+        "entityType": "adversary",
+        "slug": "signal-haunt",
+        "classificationRaw": "Digital Ghost",
+        "affiliationTag": "Digital",
+        "attackRangeRaw": "Far",
+        "attackDamageRaw": "2d6+5 techno"
+      },
+      "validationExpected": {
+        "name": "Signal Haunt",
+        "type": "adversary",
+        "system.tier": 2,
+        "system.type": "ghost",
+        "system.difficulty": 15,
+        "system.damageThresholds.major": 9,
+        "system.damageThresholds.severe": 18,
+        "system.resources.hitPoints.max": 5,
+        "system.resources.stress.max": 5,
+        "system.attack.range": "far",
+        "system.attack.roll.bonus": 2
+      },
+      "deployment": {
+        "logicalKey": "adversary:signal-haunt",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "13e8b5d72e4e906e",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!13e8b5d72e4e906e"
+}

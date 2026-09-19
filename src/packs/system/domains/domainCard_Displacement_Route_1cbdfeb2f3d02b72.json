@@ -1,0 +1,96 @@
+{
+  "name": "Displacement Route",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (12). Ona<br>success, spend a Hope to trigger a<br>short-range displacement route,<br>emergency blink rig, phase-jump<br>module, or tactical relocation system<br>that moves you to another point you<br>can see within Far range.<br>If any willing creatures are within Very<br>Close range, spend an extra Hope for<br>each creature to bring them with you.<br>EEE</p>",
+    "level": 4,
+    "domain": "systems",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "49e292626a37e2ec": {
+        "type": "effect",
+        "_id": "49e292626a37e2ec",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (12). Ona<br>success, spend a Hope to trigger a<br>short-range displacement route,<br>emergency blink rig, phase-jump<br>module, or tactical relocation system<br>that moves you to another point you<br>can see within Far range.<br>If any willing creatures are within Very<br>Close range, spend an extra Hope for<br>each creature to bring them with you.<br>EEE</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Displacement Route",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:displacement-route",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 73,
+        "pageEnd": 73,
+        "entityType": "competencyCard",
+        "slug": "displacement-route",
+        "competency": "Systems",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "Displacement Route",
+        "type": "domainCard",
+        "system.level": 4,
+        "system.domain": "systems",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:displacement-route",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "1cbdfeb2f3d02b72",
+  "folder": "049112243890e9ba",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1cbdfeb2f3d02b72"
+}

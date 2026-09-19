@@ -1,0 +1,56 @@
+{
+  "name": "Nomad",
+  "type": "ancestry",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You come from road clans, convoy families, or people who survived by never staying owned. You know engines, routes, and the value of family chosen at road.</p><h4>LIFE PATH FEATURES</h4><p><em><strong>Road Sprint:</strong></em> When you succeed on an Agility Roll or vehicle roll to move from Far or Very Far range into Melee range with one or more targets, you can mark a Stress to deal 1d12 physical damage to all targets within Melee range.</p><p><em><strong>Off-Road Born:</strong></em> You can move naturally through rubble, broken roads, mud, sand, shallow water, wreckage, and unstable ground.</p>",
+    "features": [
+      {
+        "type": "primary",
+        "ref": "feature:nomad:road-sprint"
+      },
+      {
+        "type": "secondary",
+        "ref": "feature:nomad:off-road-born"
+      }
+    ],
+    "attribution": {
+      "source": "Edgeheart",
+      "page": 29,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "ancestry:nomad",
+      "source": {
+        "entityType": "lifePath",
+        "slug": "nomad",
+        "mappedFoundryType": "ancestry"
+      },
+      "deployment": {
+        "logicalKey": "ancestry:nomad",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "1a13341fccf3a594",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1a13341fccf3a594"
+}

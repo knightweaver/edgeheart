@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "853ef2cb56bf88ac",
+  "name": "Level 3",
+  "color": null,
+  "sorting": "a",
+  "_id": "568036079afa4eca",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-chrome-level-3",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!568036079afa4eca"
+}

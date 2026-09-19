@@ -1,0 +1,72 @@
+{
+  "name": "Contacts Everywhere",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per rest, call in immediate help from a contact. Describe how the contact intervenes and choose one:<br>• Reduce the Hit Points marked by you or an ally by 1.<br>• Gain +3 to your next action roll.<br>• Add 2d8 to your next damage roll.</p>",
+    "actions": {
+      "c4da9ead5d10795b": {
+        "type": "effect",
+        "_id": "c4da9ead5d10795b",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, call in immediate help from a contact. Describe how the contact intervenes and choose one:<br>• Reduce the Hit Points marked by you or an ally by 1.<br>• Gain +3 to your next action roll.<br>• Add 2d8 to your next damage roll.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Contacts Everywhere",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:fixer:contacts-everywhere",
+      "source": {
+        "featureStage": "specialization",
+        "sourcePage": 21
+      },
+      "deployment": {
+        "logicalKey": "feature:fixer:contacts-everywhere",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "58cd852503d934f4",
+  "folder": "17c45e80d545090a",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!58cd852503d934f4"
+}

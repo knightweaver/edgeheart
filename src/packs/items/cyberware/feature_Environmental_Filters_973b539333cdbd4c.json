@@ -1,0 +1,84 @@
+{
+  "name": "Environmental Filters",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 1</p><p>You can breathe and act normally in smoke, dust, ash, polluted air, tear gas, and chemical stink unless the hazard is immediately lethal.</p>",
+    "actions": {
+      "4f3f14b7366a9a5f": {
+        "type": "effect",
+        "_id": "4f3f14b7366a9a5f",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 1</p><p>You can breathe and act normally in smoke, dust, ash, polluted air, tear gas, and chemical stink unless the hazard is immediately lethal.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Environmental Filters",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:environmental-filters",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 42,
+        "pageEnd": 42,
+        "entityType": "cyberware",
+        "slug": "environmental-filters",
+        "roll": 15,
+        "cyberCostRaw": "1",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Environmental Filters",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:environmental-filters",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "973b539333cdbd4c",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!973b539333cdbd4c"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Decoy Transponder",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Until your next rest, one vehicle, drone, device, or creature carrying this transponder appears under a false identity to simple scanners.</p>",
+    "quantity": 1,
+    "actions": {
+      "6deeec6126a0167c": {
+        "type": "effect",
+        "_id": "6deeec6126a0167c",
+        "systemPath": "actions",
+        "description": "<p>Until your next rest, one vehicle, drone, device, or creature carrying this transponder appears under a false identity to simple scanners.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Decoy Transponder",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:decoy-transponder",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 40,
+        "pageEnd": 40,
+        "entityType": "consumable",
+        "slug": "decoy-transponder",
+        "roll": 27
+      },
+      "validationExpected": {
+        "name": "Decoy Transponder",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:decoy-transponder",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "3d8299cc037bdc2f",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3d8299cc037bdc2f"
+}

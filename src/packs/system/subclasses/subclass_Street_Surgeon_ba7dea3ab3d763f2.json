@@ -1,0 +1,59 @@
+{
+  "name": "Street Surgeon",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as a Street Surgeon if you want to use illegal medicine, cyberware patches, black-clinic procedures, and dangerous stimulants to push bodies past safe limits.</p>",
+    "spellcastingTrait": "knowledge",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:street-surgeon:black-clinic-procedure"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:street-surgeon:bad-medicine"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:street-surgeon:miracle-cocktail"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:trauma-doc"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:street-surgeon",
+      "source": {
+        "entityType": "subclass",
+        "slug": "street-surgeon",
+        "parentClass": "Trauma Doc"
+      },
+      "deployment": {
+        "logicalKey": "subclass:street-surgeon",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "ba7dea3ab3d763f2",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ba7dea3ab3d763f2"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Tier 1",
+  "color": null,
+  "sorting": "a",
+  "_id": "31cbb4321fa6a524",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:weapons:tier-1",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!31cbb4321fa6a524"
+}

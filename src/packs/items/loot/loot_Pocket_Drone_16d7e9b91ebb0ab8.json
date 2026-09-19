@@ -1,0 +1,80 @@
+{
+  "name": "Pocket Drone",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>You can deploy this drone to scout within Very Far range. If it enters danger, roll a d6; on a 1, it is destroyed.</p>",
+    "quantity": 1,
+    "actions": {
+      "51e72c19a16e9043": {
+        "type": "effect",
+        "_id": "51e72c19a16e9043",
+        "systemPath": "actions",
+        "description": "<p>You can deploy this drone to scout within Very Far range. If it enters danger, roll a d6; on a 1, it is destroyed.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Pocket Drone",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:pocket-drone",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 37,
+        "pageEnd": 37,
+        "entityType": "loot",
+        "slug": "pocket-drone",
+        "roll": 8
+      },
+      "validationExpected": {
+        "name": "Pocket Drone",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:pocket-drone",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "16d7e9b91ebb0ab8",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!16d7e9b91ebb0ab8"
+}

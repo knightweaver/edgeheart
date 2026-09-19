@@ -1,0 +1,96 @@
+{
+  "name": "Defensive Protocols",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Arc-Deflection: Once per long rest,<br>spend a Hope to negate the damage of<br>an attack targeting you or an ally within<br>Very Close range.<br>Routine Lock: Target a object within Far<br>range. That object’s operating routine<br>is interrupted exactly where it is until<br>your next rest. If a creature tries to<br>reactivate it, make an Interface Roll<br>against them to maintain this protocol.<br>Fire-Wall: Make an Interface Roll (15).<br>On a success, create a wall of hostile<br>signal, burning plasma, hard-light code,<br>or automated suppression between<br>two points within Far range. All<br>creatures in its path must choose a<br>side to be on, and anything that<br>subsequently passes through the wall<br>takes 4d10+3 techno damage.</p>",
+    "level": 4,
+    "domain": "network",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "6c2aceb3ece5dc31": {
+        "type": "effect",
+        "_id": "6c2aceb3ece5dc31",
+        "systemPath": "actions",
+        "description": "<p>Arc-Deflection: Once per long rest,<br>spend a Hope to negate the damage of<br>an attack targeting you or an ally within<br>Very Close range.<br>Routine Lock: Target a object within Far<br>range. That object’s operating routine<br>is interrupted exactly where it is until<br>your next rest. If a creature tries to<br>reactivate it, make an Interface Roll<br>against them to maintain this protocol.<br>Fire-Wall: Make an Interface Roll (15).<br>On a success, create a wall of hostile<br>signal, burning plasma, hard-light code,<br>or automated suppression between<br>two points within Far range. All<br>creatures in its path must choose a<br>side to be on, and anything that<br>subsequently passes through the wall<br>takes 4d10+3 techno damage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Defensive Protocols",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Network:defensive-protocols",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 67,
+        "pageEnd": 67,
+        "entityType": "competencyCard",
+        "slug": "defensive-protocols",
+        "competency": "Network",
+        "cardType": "Protocol Suite"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "network"
+        }
+      ],
+      "validationExpected": {
+        "name": "Defensive Protocols",
+        "type": "domainCard",
+        "system.level": 4,
+        "system.domain": "network",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:network:defensive-protocols",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "982716386eed1455",
+  "folder": "9222971d14c6bdda",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!982716386eed1455"
+}

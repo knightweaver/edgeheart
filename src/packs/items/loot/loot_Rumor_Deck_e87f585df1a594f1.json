@@ -1,0 +1,80 @@
+{
+  "name": "Rumor Deck",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Once per rest, when you enter a bar, market, clinic, garage, hideout, or station, ask the GM what rumor everyone here is avoiding saying out loud.</p>",
+    "quantity": 1,
+    "actions": {
+      "631f13868ef75c1d": {
+        "type": "effect",
+        "_id": "631f13868ef75c1d",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, when you enter a bar, market, clinic, garage, hideout, or station, ask the GM what rumor everyone here is avoiding saying out loud.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Rumor Deck",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:rumor-deck",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 38,
+        "pageEnd": 38,
+        "entityType": "loot",
+        "slug": "rumor-deck",
+        "roll": 32
+      },
+      "validationExpected": {
+        "name": "Rumor Deck",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:rumor-deck",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e87f585df1a594f1",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e87f585df1a594f1"
+}

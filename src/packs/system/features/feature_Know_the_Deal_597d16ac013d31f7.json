@@ -1,0 +1,72 @@
+{
+  "name": "Know the Deal",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>You have a sixth sense for dealing with the uncertainties of your profession. When you roll with Fear, place a token on this Affiliation. You can hold a number of tokens equal to your level. Before you make an action roll, you can spend any number of these tokens to gain a +1 bonus to the roll for each token spent. At the end of each session, clear all unspent tokens.</p>",
+    "actions": {
+      "96e0f10fb1850424": {
+        "type": "effect",
+        "_id": "96e0f10fb1850424",
+        "systemPath": "actions",
+        "description": "<p>You have a sixth sense for dealing with the uncertainties of your profession. When you roll with Fear, place a token on this Affiliation. You can hold a number of tokens equal to your level. Before you make an action roll, you can spend any number of these tokens to gain a +1 bonus to the roll for each token spent. At the end of each session, clear all unspent tokens.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Know the Deal",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:fixer-network:know-the-deal",
+      "source": {
+        "featureStage": "affiliation",
+        "sourcePage": 30
+      },
+      "deployment": {
+        "logicalKey": "feature:fixer-network:know-the-deal",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "597d16ac013d31f7",
+  "folder": "ca32acb9216fbdf9",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!597d16ac013d31f7"
+}

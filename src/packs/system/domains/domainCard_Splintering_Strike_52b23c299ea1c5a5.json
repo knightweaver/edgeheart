@@ -1,0 +1,96 @@
+{
+  "name": "Splintering Strike",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Spend a Hope and make an attack<br>against all adversaries within your<br>weapon&#x27;s range.<br>Once per long rest, on a success<br>against any targets, add up the damage<br>dealt, then redistribute that damage<br>however you wish between the targets<br>you succeeded against.<br>When you deal damage to a target, roll<br>an additional damage die and add its<br>result to the damage you deal to that<br>target.</p>",
+    "level": 9,
+    "domain": "chrome",
+    "recallCost": 3,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "dac228808409d884": {
+        "type": "effect",
+        "_id": "dac228808409d884",
+        "systemPath": "actions",
+        "description": "<p>Spend a Hope and make an attack<br>against all adversaries within your<br>weapon&#x27;s range.<br>Once per long rest, on a success<br>against any targets, add up the damage<br>dealt, then redistribute that damage<br>however you wish between the targets<br>you succeeded against.<br>When you deal damage to a target, roll<br>an additional damage die and add its<br>result to the damage you deal to that<br>target.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Splintering Strike",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Chrome:splintering-strike",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 71,
+        "pageEnd": 71,
+        "entityType": "competencyCard",
+        "slug": "splintering-strike",
+        "competency": "Chrome",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "chrome"
+        }
+      ],
+      "validationExpected": {
+        "name": "Splintering Strike",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "chrome",
+        "system.recallCost": 3,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:chrome:splintering-strike",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "52b23c299ea1c5a5",
+  "folder": "43940a374f0eb725",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!52b23c299ea1c5a5"
+}

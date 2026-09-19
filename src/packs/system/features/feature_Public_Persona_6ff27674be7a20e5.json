@@ -1,0 +1,72 @@
+{
+  "name": "Public Persona",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Choose what your name means on the street:<br>• Beloved: When you use Terms of Engagement to let yourself or an ally clear Stress, that target clears 2 Stress instead.<br>• Feared: When you use Terms of Engagement to make a target mark Stress, you can mark a Stress to make them temporarily Vulnerable.<br>• Famous: When you use Terms of Engagement to grant a +2 bonus to a roll, grant a +4 bonus to the roll instead.</p><p>You can change your Public Persona when you take a long rest and explain how your image shifts.</p>",
+    "actions": {
+      "73dc309a8abfc72e": {
+        "type": "effect",
+        "_id": "73dc309a8abfc72e",
+        "systemPath": "actions",
+        "description": "<p>Choose what your name means on the street:<br>• Beloved: When you use Terms of Engagement to let yourself or an ally clear Stress, that target clears 2 Stress instead.<br>• Feared: When you use Terms of Engagement to make a target mark Stress, you can mark a Stress to make them temporarily Vulnerable.<br>• Famous: When you use Terms of Engagement to grant a +2 bonus to a roll, grant a +4 bonus to the roll instead.</p><p>You can change your Public Persona when you take a long rest and explain how your image shifts.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Public Persona",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:icon:public-persona",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 22
+      },
+      "deployment": {
+        "logicalKey": "feature:icon:public-persona",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6ff27674be7a20e5",
+  "folder": "47d6d9e4368a6108",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6ff27674be7a20e5"
+}

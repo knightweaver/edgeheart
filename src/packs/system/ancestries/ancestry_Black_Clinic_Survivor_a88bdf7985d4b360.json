@@ -1,0 +1,56 @@
+{
+  "name": "Black-Clinic Survivor",
+  "type": "ancestry",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You were rebuilt in an illegal clinic, experimental trauma ward, chop shop, organ market, cyberware den, or emergency surgical pit. Your body carries the price of survival.</p><h4>LIFE PATH FEATURES</h4><p><em><strong>Scar Tissue:</strong></em> When you would mark a Hit Point or Stress from physical damage, roll a d6. On a 6, don’t mark it.</p><p><em><strong>Emergency Rebuild:</strong></em> When you would take Severe damage, you can mark a Stress to mark 1 fewer Hit Point.</p>",
+    "features": [
+      {
+        "type": "primary",
+        "ref": "feature:black-clinic-survivor:scar-tissue"
+      },
+      {
+        "type": "secondary",
+        "ref": "feature:black-clinic-survivor:emergency-rebuild"
+      }
+    ],
+    "attribution": {
+      "source": "Edgeheart",
+      "page": 29,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "ancestry:black-clinic-survivor",
+      "source": {
+        "entityType": "lifePath",
+        "slug": "black-clinic-survivor",
+        "mappedFoundryType": "ancestry"
+      },
+      "deployment": {
+        "logicalKey": "ancestry:black-clinic-survivor",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "a88bdf7985d4b360",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a88bdf7985d4b360"
+}

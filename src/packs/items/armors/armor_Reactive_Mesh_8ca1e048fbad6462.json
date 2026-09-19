@@ -1,0 +1,97 @@
+{
+  "name": "Reactive Mesh",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Feedback: When an adversary damages you within Melee range, they mark 1 Stress.</p>",
+    "actions": {
+      "07fe230efd62e880": {
+        "type": "effect",
+        "_id": "07fe230efd62e880",
+        "systemPath": "actions",
+        "description": "<p>When an adversary damages you within Melee range, they mark 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Feedback",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "baseScore": 4,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 9,
+      "severe": 22
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-reactive-mesh",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 35,
+        "pageEnd": 35,
+        "entityType": "armor",
+        "slug": "reactive-mesh",
+        "featureNames": [
+          "Feedback"
+        ]
+      },
+      "validationExpected": {
+        "name": "Reactive Mesh",
+        "type": "armor",
+        "system.tier": 2,
+        "system.baseScore": 4,
+        "system.baseThresholds.major": 9,
+        "system.baseThresholds.severe": 22,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:reactive-mesh",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "8ca1e048fbad6462",
+  "folder": "f2396412f668609d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8ca1e048fbad6462"
+}

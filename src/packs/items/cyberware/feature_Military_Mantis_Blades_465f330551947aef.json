@@ -1,0 +1,149 @@
+{
+  "name": "Military Mantis Blades",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 3</p><p>This implant counts as a Primary Weapon which is always equipped: Finesse, Melee, d8+7 physical. Tear Apart: When you move into Melee range before attacking, add 1d8 to the damage roll. On a roll with Hope, the target is temporarily Vulnerable.</p>",
+    "actions": {
+      "f5065c03eebefc25": {
+        "type": "attack",
+        "_id": "f5065c03eebefc25",
+        "systemPath": "actions",
+        "description": "<p>Tear Apart: When you move into Melee range before attacking, add 1d8 to the damage roll. On a roll with Hope, the target is temporarily Vulnerable.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "effects": [],
+        "roll": {
+          "trait": "finesse",
+          "type": "attack",
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "dice": "d8",
+                "bonus": 7,
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "type": [
+                "physical"
+              ],
+              "applyTo": "hitPoints",
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "base": false
+            }
+          ],
+          "includeBase": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Military Mantis Blades",
+        "img": "icons/svg/upgrade.svg",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:military-mantis-blades",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 43,
+        "pageEnd": 43,
+        "entityType": "cyberware",
+        "slug": "military-mantis-blades",
+        "roll": 31,
+        "cyberCostRaw": "3",
+        "competencyAccess": null,
+        "embeddedWeapon": {
+          "category": "primary",
+          "trait": "Finesse",
+          "range": "Melee",
+          "damage": {
+            "raw": "d8+7 physical",
+            "formula": "d8+7",
+            "typeRaw": "physical",
+            "typeNormalized": "physical"
+          },
+          "featureText": "Tear Apart: When you move into Melee range before attacking, add 1d8 to the damage roll. On a roll with Hope, the target is temporarily Vulnerable."
+        }
+      },
+      "validationExpected": {
+        "name": "Military Mantis Blades",
+        "type": "feature",
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "cyberware:military-mantis-blades",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "465f330551947aef",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!465f330551947aef"
+}

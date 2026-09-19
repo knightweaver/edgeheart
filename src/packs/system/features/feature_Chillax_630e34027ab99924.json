@@ -1,0 +1,72 @@
+{
+  "name": "Chillax",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>During a short rest, you or an ally can reroll a die used for a recovery, repair, or cyberware-related downtime action.</p>",
+    "actions": {
+      "8763ae507558cc17": {
+        "type": "effect",
+        "_id": "8763ae507558cc17",
+        "systemPath": "actions",
+        "description": "<p>During a short rest, you or an ally can reroll a die used for a recovery, repair, or cyberware-related downtime action.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Chillax",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:black-clinic:chillax",
+      "source": {
+        "featureStage": "affiliation",
+        "sourcePage": 30
+      },
+      "deployment": {
+        "logicalKey": "feature:black-clinic:chillax",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "630e34027ab99924",
+  "folder": "53638b10a9de4f49",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!630e34027ab99924"
+}

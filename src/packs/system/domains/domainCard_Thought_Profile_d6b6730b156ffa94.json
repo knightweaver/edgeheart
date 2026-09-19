@@ -1,0 +1,96 @@
+{
+  "name": "Thought Profile",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You can read patterns in others<br>through microexpressions, voice<br>stress, neural leaks, surveillance feeds,<br>or emotional profiling.<br>Spend a Hope to read the vague<br>surface thoughts of a target within Far<br>range. Make an Interface Roll against<br>the target to delve for deeper, more<br>hidden thoughts.<br>On a roll with Fear, the target might, at<br>the GM’s discretion, become aware<br>that you’re reading them.</p>",
+    "level": 5,
+    "domain": "influence",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "d84736c9865c46e1": {
+        "type": "effect",
+        "_id": "d84736c9865c46e1",
+        "systemPath": "actions",
+        "description": "<p>You can read patterns in others<br>through microexpressions, voice<br>stress, neural leaks, surveillance feeds,<br>or emotional profiling.<br>Spend a Hope to read the vague<br>surface thoughts of a target within Far<br>range. Make an Interface Roll against<br>the target to delve for deeper, more<br>hidden thoughts.<br>On a roll with Fear, the target might, at<br>the GM’s discretion, become aware<br>that you’re reading them.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Thought Profile",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:thought-profile",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 75,
+        "pageEnd": 75,
+        "entityType": "competencyCard",
+        "slug": "thought-profile",
+        "competency": "Influence",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Thought Profile",
+        "type": "domainCard",
+        "system.level": 5,
+        "system.domain": "influence",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:thought-profile",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "d6b6730b156ffa94",
+  "folder": "f5a02291d77ee59c",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d6b6730b156ffa94"
+}

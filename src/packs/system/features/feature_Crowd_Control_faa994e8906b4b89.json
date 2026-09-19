@@ -1,0 +1,72 @@
+{
+  "name": "Crowd Control",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you succeed on a weapon attack, or Aegis card, choose one adversary within Close range. Until your next Spotlight, that adversary can’t willingly move closer to one ally, objective, or position you choose unless they first mark 1 Stress. If the target is already within Very Close range of the protected ally, objective, or position, they must immediately move away to Close range or mark 1 Stress.</p>",
+    "actions": {
+      "2994b7be64848962": {
+        "type": "effect",
+        "_id": "2994b7be64848962",
+        "systemPath": "actions",
+        "description": "<p>When you succeed on a weapon attack, or Aegis card, choose one adversary within Close range. Until your next Spotlight, that adversary can’t willingly move closer to one ally, objective, or position you choose unless they first mark 1 Stress. If the target is already within Very Close range of the protected ally, objective, or position, they must immediately move away to Close range or mark 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Crowd Control",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:riotbreaker:crowd-control",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 28
+      },
+      "deployment": {
+        "logicalKey": "feature:riotbreaker:crowd-control",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "faa994e8906b4b89",
+  "folder": "f9fdab27d1fe8212",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!faa994e8906b4b89"
+}

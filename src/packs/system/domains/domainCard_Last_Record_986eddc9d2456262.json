@@ -1,0 +1,96 @@
+{
+  "name": "Last Record",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You can extract the final biological,<br>neural, or cybernetic record from a<br>corpse, damaged implant, memory<br>chip, or dead biomonitor.<br>Make an Interface Roll (13).<br>On a success with Hope, you find the<br>answer to three questions. On a<br>success with Fear, you find the answer<br>to one question.<br>The information is reliable, but you<br>cannot discover anything beyond what<br>the target knew or witnessed in life.<br>On a failure, or after you find your<br>answers, the body, implant, or data<br>source becomes unusable for this<br>protocol.</p>",
+    "level": 2,
+    "domain": "medtech",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "d30b5c6df05b42ea": {
+        "type": "effect",
+        "_id": "d30b5c6df05b42ea",
+        "systemPath": "actions",
+        "description": "<p>You can extract the final biological,<br>neural, or cybernetic record from a<br>corpse, damaged implant, memory<br>chip, or dead biomonitor.<br>Make an Interface Roll (13).<br>On a success with Hope, you find the<br>answer to three questions. On a<br>success with Fear, you find the answer<br>to one question.<br>The information is reliable, but you<br>cannot discover anything beyond what<br>the target knew or witnessed in life.<br>On a failure, or after you find your<br>answers, the body, implant, or data<br>source becomes unusable for this<br>protocol.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Last Record",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:last-record",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 82,
+        "pageEnd": 82,
+        "entityType": "competencyCard",
+        "slug": "last-record",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Last Record",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "medtech",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:last-record",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "986eddc9d2456262",
+  "folder": "c59f6e5e0278f77a",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!986eddc9d2456262"
+}

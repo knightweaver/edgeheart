@@ -1,0 +1,96 @@
+{
+  "name": "Adaptive Persona",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per long rest, this card can mimic the features of another domain card of level 8 or lower in another player’s loadout.<br>Spend Hope equal to half the card’s level to gain access to the feature. It lasts until your next rest or they place the card in their vault.</p>",
+    "level": 9,
+    "domain": "influence",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "e2412bf731f0770b": {
+        "type": "effect",
+        "_id": "e2412bf731f0770b",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, this card can mimic the features of another domain card of level 8 or lower in another player’s loadout.<br>Spend Hope equal to half the card’s level to gain access to the feature. It lasts until your next rest or they place the card in their vault.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Adaptive Persona",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:adaptive-persona",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 76,
+        "pageEnd": 76,
+        "entityType": "competencyCard",
+        "slug": "adaptive-persona",
+        "competency": "Influence",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Adaptive Persona",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "influence",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:adaptive-persona",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "575a02f0ba84cfc6",
+  "folder": "101e265e92a018fe",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!575a02f0ba84cfc6"
+}

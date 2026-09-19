@@ -1,0 +1,96 @@
+{
+  "name": "Rally Strike",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per rest, when you critically<br>succeed on an attack, you and all allies<br>who can see or hear you can clear a Hit<br>Point or 1d4 Stress.<br>This might look like a shouted<br>command, a decisive opening, or a<br>moment where your allies see that the<br>line is still holding.</p>",
+    "level": 5,
+    "domain": "aegis",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "db761589842aeda6": {
+        "type": "effect",
+        "_id": "db761589842aeda6",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, when you critically<br>succeed on an attack, you and all allies<br>who can see or hear you can clear a Hit<br>Point or 1d4 Stress.<br>This might look like a shouted<br>command, a decisive opening, or a<br>moment where your allies see that the<br>line is still holding.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Rally Strike",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Aegis:rally-strike",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 84,
+        "pageEnd": 84,
+        "entityType": "competencyCard",
+        "slug": "rally-strike",
+        "competency": "Aegis",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "aegis"
+        }
+      ],
+      "validationExpected": {
+        "name": "Rally Strike",
+        "type": "domainCard",
+        "system.level": 5,
+        "system.domain": "aegis",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:aegis:rally-strike",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "1f5fff080d7f1ce6",
+  "folder": "6251a85dd39bf029",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1f5fff080d7f1ce6"
+}

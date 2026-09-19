@@ -1,0 +1,141 @@
+{
+  "name": "Blacksite Extraction",
+  "type": "environment",
+  "img": "icons/svg/door-exit.svg",
+  "system": {
+    "description": "A hidden corporate facility where the objective is alive, unstable, and probably not human anymore.",
+    "tier": 3,
+    "type": "heist",
+    "difficulty": 17,
+    "notes": "",
+    "impulses": [
+      "Contain",
+      "erase",
+      "deny truth"
+    ],
+    "potentialAdversaries": [
+      "Sitil Black-Ops Captain",
+      "Tyfar Kill Platform",
+      "Digital Wraith",
+      "Cordon Eidolon"
+    ],
+    "features": [
+      {
+        "_id": "ba03d0380c7417ec",
+        "name": "Containment Protocol",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "The objective cannot leave until the crew completes a Progress Countdown (6) to disable locks, restraints, sedation, or legal failsafes.\n\nWhat was the objective built to contain?",
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "34986b85bf655ced",
+        "name": "Sterile Kill Team",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Deploy a corporate squad within Far range or activate a turret, drone, or sealed corridor.\n\nWho gave the kill order?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "45fafd641c95a0c0",
+        "name": "Erase Evidence",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "When a PC rolls with Fear, a server, witness, body, or clue begins self-deleting.\n\nWhat truth is about to disappear?",
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "tags": [],
+    "bonuses": {}
+  },
+  "prototypeToken": null,
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:environment:blacksite-extraction",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 56,
+        "pageEnd": 56,
+        "entityType": "environment",
+        "slug": "blacksite-extraction"
+      },
+      "validationExpected": {
+        "name": "Blacksite Extraction",
+        "type": "environment",
+        "system.tier": 3,
+        "system.type": "heist",
+        "system.difficulty": 17,
+        "system.featuresCount": 3
+      },
+      "deployment": {
+        "logicalKey": "environment:blacksite-extraction",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6471e2b831ad5c70",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!6471e2b831ad5c70"
+}

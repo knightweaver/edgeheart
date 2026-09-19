@@ -1,0 +1,72 @@
+{
+  "name": "Hold Your Breach",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>After you create a Breach, spend a Hope to use it without spending it.</p>",
+    "actions": {
+      "6372a6d2eddc5a6b": {
+        "type": "effect",
+        "_id": "6372a6d2eddc5a6b",
+        "systemPath": "actions",
+        "description": "<p>After you create a Breach, spend a Hope to use it without spending it.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Hold Your Breach",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:runner:hold-your-breach",
+      "source": {
+        "featureStage": "class",
+        "sourcePage": 11
+      },
+      "deployment": {
+        "logicalKey": "feature:runner:hold-your-breach",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ff387dceb7895e34",
+  "folder": "ddf64e131b385558",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ff387dceb7895e34"
+}

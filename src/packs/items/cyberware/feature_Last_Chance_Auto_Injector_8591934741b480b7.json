@@ -1,0 +1,84 @@
+{
+  "name": "Last-Chance Auto-Injector",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 2</p><p>Once per long rest, when you mark your last Hit Point and would make a Death Move, take the Avoid Death Death Move. You fall unconscious, can’t move, act, or be targeted by attacks, and wake when an ally clears 1 or more of your marked Hit Points or when the party finishes a long rest. When you wake, roll your Hope Die. If the result is equal to or lower than your level, you gain a Scar.</p>",
+    "actions": {
+      "555cbf07840b2c23": {
+        "type": "effect",
+        "_id": "555cbf07840b2c23",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 2</p><p>Once per long rest, when you mark your last Hit Point and would make a Death Move, take the Avoid Death Death Move. You fall unconscious, can’t move, act, or be targeted by attacks, and wake when an ally clears 1 or more of your marked Hit Points or when the party finishes a long rest. When you wake, roll your Hope Die. If the result is equal to or lower than your level, you gain a Scar.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Last-Chance Auto-Injector",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:last-chance-auto-injector",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 44,
+        "pageEnd": 44,
+        "entityType": "cyberware",
+        "slug": "last-chance-auto-injector",
+        "roll": 46,
+        "cyberCostRaw": "2",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Last-Chance Auto-Injector",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:last-chance-auto-injector",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "8591934741b480b7",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8591934741b480b7"
+}

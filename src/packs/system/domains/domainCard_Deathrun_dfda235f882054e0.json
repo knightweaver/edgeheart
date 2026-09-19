@@ -1,0 +1,96 @@
+{
+  "name": "Deathrun",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Spend 3 Hope to run a straight path<br>through the battlefield to a point within<br>Far range, making an attack against all<br>adversaries within your weapon&#x27;s range<br>along that path.<br>Choose the order in which you deal<br>damage to the targets you succeeded<br>against.<br>For the first, roll your weapon damage<br>with a +1 bonus to your Proficiency.<br>Then remove adie from your damage<br>roll and deal the remaining damage to<br>the next target.<br>Continue to remove a die for each<br>subsequent target until you have no<br>more damage dice or adversaries.<br>You can’t target the same adversary<br>more than once per attack.</p>",
+    "level": 10,
+    "domain": "chrome",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "bb5d1803b1bdf628": {
+        "type": "effect",
+        "_id": "bb5d1803b1bdf628",
+        "systemPath": "actions",
+        "description": "<p>Spend 3 Hope to run a straight path<br>through the battlefield to a point within<br>Far range, making an attack against all<br>adversaries within your weapon&#x27;s range<br>along that path.<br>Choose the order in which you deal<br>damage to the targets you succeeded<br>against.<br>For the first, roll your weapon damage<br>with a +1 bonus to your Proficiency.<br>Then remove adie from your damage<br>roll and deal the remaining damage to<br>the next target.<br>Continue to remove a die for each<br>subsequent target until you have no<br>more damage dice or adversaries.<br>You can’t target the same adversary<br>more than once per attack.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Deathrun",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Chrome:deathrun",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 71,
+        "pageEnd": 71,
+        "entityType": "competencyCard",
+        "slug": "deathrun",
+        "competency": "Chrome",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "chrome"
+        }
+      ],
+      "validationExpected": {
+        "name": "Deathrun",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "chrome",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:chrome:deathrun",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "dfda235f882054e0",
+  "folder": "e1b8e9e5feeb6370",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!dfda235f882054e0"
+}

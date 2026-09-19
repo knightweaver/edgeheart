@@ -1,0 +1,96 @@
+{
+  "name": "Second Wind",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per rest, when you succeed on an<br>attack against an adversary, you can<br>trigger adrenaline, endorphin spikes,<br>pain blockers, combat drugs, or<br>survival reflexes to clear 3 Stress ora<br>HP.<br>On a success with Hope, you also<br>trigger this for an ally within Close<br>range that clears 3 Stress or a HP.</p>",
+    "level": 3,
+    "domain": "medtech",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "6aa9660076f7b340": {
+        "type": "effect",
+        "_id": "6aa9660076f7b340",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, when you succeed on an<br>attack against an adversary, you can<br>trigger adrenaline, endorphin spikes,<br>pain blockers, combat drugs, or<br>survival reflexes to clear 3 Stress ora<br>HP.<br>On a success with Hope, you also<br>trigger this for an ally within Close<br>range that clears 3 Stress or a HP.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Second Wind",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:second-wind",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 82,
+        "pageEnd": 82,
+        "entityType": "competencyCard",
+        "slug": "second-wind",
+        "competency": "Medtech",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Second Wind",
+        "type": "domainCard",
+        "system.level": 3,
+        "system.domain": "medtech",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:second-wind",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "f912d23016aec650",
+  "folder": "b596fd9fea9440d5",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f912d23016aec650"
+}

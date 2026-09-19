@@ -1,0 +1,96 @@
+{
+  "name": "Killhook",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You launch a killhook, magnetic spike,<br>tendon cable, monowire harpoon,<br>recoil anchor, or combat grapnel at a<br>location or creature within Far range.<br>If the target is a location, make an<br>Interface Roll (13). On a success, mark<br>a Stress to pull yourself to a position<br>within Melee range of it.<br>Ifthe target is a creature, make an<br>Interface Roll against it. On a success,<br>mark a Stress to deal 3d8 physical<br>damage to the target. You then pull the<br>target straight toward yourself or pull<br>yourself straight toward the target,<br>ending within Melee range of it.</p>",
+    "level": 4,
+    "domain": "redline",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "fd5cf4fee671cc2d": {
+        "type": "effect",
+        "_id": "fd5cf4fee671cc2d",
+        "systemPath": "actions",
+        "description": "<p>You launch a killhook, magnetic spike,<br>tendon cable, monowire harpoon,<br>recoil anchor, or combat grapnel at a<br>location or creature within Far range.<br>If the target is a location, make an<br>Interface Roll (13). On a success, mark<br>a Stress to pull yourself to a position<br>within Melee range of it.<br>Ifthe target is a creature, make an<br>Interface Roll against it. On a success,<br>mark a Stress to deal 3d8 physical<br>damage to the target. You then pull the<br>target straight toward yourself or pull<br>yourself straight toward the target,<br>ending within Melee range of it.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Killhook",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:killhook",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 86,
+        "pageEnd": 86,
+        "entityType": "competencyCard",
+        "slug": "killhook",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Killhook",
+        "type": "domainCard",
+        "system.level": 4,
+        "system.domain": "redline",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:killhook",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7a84fddbcfc8d0b9",
+  "folder": "1ec74db97dc73673",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7a84fddbcfc8d0b9"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "*Tyfar Field Kit",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Wild Flame: Make an Interface Roll<br>against up to three adversaries within<br>Melee range. Targets you succeed<br>against take 2d6 techno damage and<br>must mark a Stress as a burst of flame,<br>plasma, or volatile chemical spray<br>erupts from your gear.<br>Utility Arm: You deploy a mechanical<br>hand, drone claw, or remote<br>manipulator with the same size and<br>strength as your own within Far range.<br>Smoke Field: Make an Interface Roll<br>(13) to deploy a temporary thick cloud<br>of smoke, fog, signal chaff, or<br>obscuring vapor that gathers ina<br>stationary area within Very Close<br>range. The fog heavily obscures this<br>area and everything in it.</p>",
+    "level": 1,
+    "domain": "systems",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "84f1f038a27773f5": {
+        "type": "effect",
+        "_id": "84f1f038a27773f5",
+        "systemPath": "actions",
+        "description": "<p>Wild Flame: Make an Interface Roll<br>against up to three adversaries within<br>Melee range. Targets you succeed<br>against take 2d6 techno damage and<br>must mark a Stress as a burst of flame,<br>plasma, or volatile chemical spray<br>erupts from your gear.<br>Utility Arm: You deploy a mechanical<br>hand, drone claw, or remote<br>manipulator with the same size and<br>strength as your own within Far range.<br>Smoke Field: Make an Interface Roll<br>(13) to deploy a temporary thick cloud<br>of smoke, fog, signal chaff, or<br>obscuring vapor that gathers ina<br>stationary area within Very Close<br>range. The fog heavily obscures this<br>area and everything in it.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "*Tyfar Field Kit",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:tyfar-field-kit",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 72,
+        "pageEnd": 72,
+        "entityType": "competencyCard",
+        "slug": "tyfar-field-kit",
+        "competency": "Systems",
+        "cardType": "Protocol Suite"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "*Tyfar Field Kit",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "systems",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:tyfar-field-kit",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7e45f047ea989a1a",
+  "folder": "6f85f985ffeadf6f",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7e45f047ea989a1a"
+}

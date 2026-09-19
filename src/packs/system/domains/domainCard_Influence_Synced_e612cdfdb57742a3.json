@@ -1,0 +1,96 @@
+{
+  "name": "Influence-Synced",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Influence<br>Competency, gain the following:<br>* You can mark an Armor Slot instead<br>of marking a Stress.<br>* When you would force a target to<br>mark a number of Hit Points, you<br>can choose instead to force them to<br>mark that number of Stress.</p>",
+    "level": 7,
+    "domain": "influence",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "727649f7dadc903e": {
+        "type": "effect",
+        "_id": "727649f7dadc903e",
+        "systemPath": "actions",
+        "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Influence<br>Competency, gain the following:<br>* You can mark an Armor Slot instead<br>of marking a Stress.<br>* When you would force a target to<br>mark a number of Hit Points, you<br>can choose instead to force them to<br>mark that number of Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Influence-Synced",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:influence-synced",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 76,
+        "pageEnd": 76,
+        "entityType": "competencyCard",
+        "slug": "influence-synced",
+        "competency": "Influence",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Influence-Synced",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "influence",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:influence-synced",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e612cdfdb57742a3",
+  "folder": "e296e52d3d87c83e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e612cdfdb57742a3"
+}

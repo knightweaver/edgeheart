@@ -1,0 +1,96 @@
+{
+  "name": "Voice of Authority",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You speak with unmatched confidence, command presence, or cultivated authority. You have advantage on action rolls to de-escalate violent situations or convince someone to follow your lead.<br>Additionally, you’re emboldened in moments of duress. When all of your Stress are marked, you gain a +1 bonus to your Proficiency for damage rolls.</p>",
+    "level": 3,
+    "domain": "influence",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "931b3397c9fbadf7": {
+        "type": "effect",
+        "_id": "931b3397c9fbadf7",
+        "systemPath": "actions",
+        "description": "<p>You speak with unmatched confidence, command presence, or cultivated authority. You have advantage on action rolls to de-escalate violent situations or convince someone to follow your lead.<br>Additionally, you’re emboldened in moments of duress. When all of your Stress are marked, you gain a +1 bonus to your Proficiency for damage rolls.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Voice of Authority",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:voice-of-authority",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 75,
+        "pageEnd": 75,
+        "entityType": "competencyCard",
+        "slug": "voice-of-authority",
+        "competency": "Influence",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Voice of Authority",
+        "type": "domainCard",
+        "system.level": 3,
+        "system.domain": "influence",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:voice-of-authority",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e03ac32341995cad",
+  "folder": "97afe3bfd1a38731",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e03ac32341995cad"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Repulsion Pulse",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against all<br>targets within Melee range. Targets you<br>succeed against are forced back to Far<br>range and take d8+3 impact or techno<br>damage using your Interface trait.<br>This might look like a shield discharge,<br>repulsor plate, pressure wave, or<br>defensive blast from your armor rig.</p>",
+    "level": 4,
+    "domain": "aegis",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "923568939d211f9d": {
+        "type": "effect",
+        "_id": "923568939d211f9d",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against all<br>targets within Melee range. Targets you<br>succeed against are forced back to Far<br>range and take d8+3 impact or techno<br>damage using your Interface trait.<br>This might look like a shield discharge,<br>repulsor plate, pressure wave, or<br>defensive blast from your armor rig.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Repulsion Pulse",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Aegis:repulsion-pulse",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 84,
+        "pageEnd": 84,
+        "entityType": "competencyCard",
+        "slug": "repulsion-pulse",
+        "competency": "Aegis",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "aegis"
+        }
+      ],
+      "validationExpected": {
+        "name": "Repulsion Pulse",
+        "type": "domainCard",
+        "system.level": 4,
+        "system.domain": "aegis",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:aegis:repulsion-pulse",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "8349a7a4f65e1216",
+  "folder": "7449cbd289e70274",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8349a7a4f65e1216"
+}

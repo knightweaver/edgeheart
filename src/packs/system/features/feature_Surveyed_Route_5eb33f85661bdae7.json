@@ -1,0 +1,72 @@
+{
+  "name": "Surveyed Route",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Spend a Hope and take a moment to read the terrain, ruins, or streets around you. Make an Instinct Roll (12). On a success, the area within Far range becomes your Surveyed Route until the scene ends or you take severe damage.</p><p>While you are within your Surveyed Route:<br>• You and allies within Close range can ignore difficult terrain while moving or driving.<br>• When you deal damage to an adversary in the zone, you can force them to mark 1 Stress.<br>• When you fail an action roll, you can end your Surveyed Zone to reroll your Duality Dice.</p>",
+    "actions": {
+      "c183677ac6ee6b80": {
+        "type": "effect",
+        "_id": "c183677ac6ee6b80",
+        "systemPath": "actions",
+        "description": "<p>Spend a Hope and take a moment to read the terrain, ruins, or streets around you. Make an Instinct Roll (12). On a success, the area within Far range becomes your Surveyed Route until the scene ends or you take severe damage.</p><p>While you are within your Surveyed Route:<br>• You and allies within Close range can ignore difficult terrain while moving or driving.<br>• When you deal damage to an adversary in the zone, you can force them to mark 1 Stress.<br>• When you fail an action roll, you can end your Surveyed Zone to reroll your Duality Dice.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Surveyed Route",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:reclaimer:surveyed-route",
+      "source": {
+        "featureStage": "class",
+        "sourcePage": 23
+      },
+      "deployment": {
+        "logicalKey": "feature:reclaimer:surveyed-route",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "5eb33f85661bdae7",
+  "folder": "d291ec7f0e69a3a7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5eb33f85661bdae7"
+}

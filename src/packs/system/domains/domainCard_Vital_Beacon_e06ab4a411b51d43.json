@@ -1,0 +1,96 @@
+{
+  "name": "Vital Beacon",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a target<br>within Far range.<br>On a success, spend a Hope to tag<br>them with a vital scanner, surgical<br>laser, bioelectrical flare, or diagnostic<br>tracer, dealing d8+2 techno damage<br>using your Proficiency.<br>The target becomes temporarily<br>Vulnerable and remains visibly marked<br>until this condition is cleared.</p>",
+    "level": 1,
+    "domain": "medtech",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "75567f935588a277": {
+        "type": "effect",
+        "_id": "75567f935588a277",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a target<br>within Far range.<br>On a success, spend a Hope to tag<br>them with a vital scanner, surgical<br>laser, bioelectrical flare, or diagnostic<br>tracer, dealing d8+2 techno damage<br>using your Proficiency.<br>The target becomes temporarily<br>Vulnerable and remains visibly marked<br>until this condition is cleared.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Vital Beacon",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:vital-beacon",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 82,
+        "pageEnd": 82,
+        "entityType": "competencyCard",
+        "slug": "vital-beacon",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Vital Beacon",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "medtech",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:vital-beacon",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e06ab4a411b51d43",
+  "folder": "07948428d560d802",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e06ab4a411b51d43"
+}

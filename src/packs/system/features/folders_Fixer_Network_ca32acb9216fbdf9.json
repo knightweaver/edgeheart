@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "e7911bbb74ef8c39",
+  "name": "Fixer Network",
+  "color": null,
+  "sorting": "a",
+  "_id": "ca32acb9216fbdf9",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:features:origin-fixer-network",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!ca32acb9216fbdf9"
+}

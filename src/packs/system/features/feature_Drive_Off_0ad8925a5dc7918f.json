@@ -1,0 +1,72 @@
+{
+  "name": "Drive Off",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, when you succeed on a driving roll with your Signature Vehicle, you may move within Far range or clear 1 Stress. Additionally, one adversary makes a Reaction Roll (16). On a failure, it takes 3d10 physical damage and becomes temporarily Vulnerable. On a success, it takes half damage.</p>",
+    "actions": {
+      "3499d9d136d01879": {
+        "type": "effect",
+        "_id": "3499d9d136d01879",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, when you succeed on a driving roll with your Signature Vehicle, you may move within Far range or clear 1 Stress. Additionally, one adversary makes a Reaction Roll (16). On a failure, it takes 3d10 physical damage and becomes temporarily Vulnerable. On a success, it takes half damage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Drive Off",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:outrider:drive-off",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 23
+      },
+      "deployment": {
+        "logicalKey": "feature:outrider:drive-off",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0ad8925a5dc7918f",
+  "folder": "26522e0cc5bb8f5d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0ad8925a5dc7918f"
+}

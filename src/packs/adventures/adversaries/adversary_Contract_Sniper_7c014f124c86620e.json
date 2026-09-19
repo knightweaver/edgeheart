@@ -1,0 +1,452 @@
+{
+  "name": "Contract Sniper",
+  "img": "icons/svg/mystery-man.svg",
+  "type": "adversary",
+  "system": {
+    "difficulty": 15,
+    "damageThresholds": {
+      "major": 8,
+      "severe": 16
+    },
+    "resources": {
+      "hitPoints": {
+        "value": 0,
+        "max": 5,
+        "isReversed": true
+      },
+      "stress": {
+        "value": 0,
+        "max": 3,
+        "isReversed": true
+      }
+    },
+    "motivesAndTactics": "Aim, relocate, remove leaders",
+    "resistance": {
+      "physical": {
+        "resistance": false,
+        "immunity": false,
+        "reduction": 0
+      },
+      "magical": {
+        "resistance": false,
+        "immunity": false,
+        "reduction": 0
+      }
+    },
+    "type": "ranged",
+    "notes": "",
+    "hordeHp": 1,
+    "experiences": {
+      "826141e584f94195": {
+        "name": "Kill Lane",
+        "value": 3
+      }
+    },
+    "bonuses": {
+      "roll": {
+        "attack": {
+          "bonus": 0,
+          "dice": []
+        },
+        "action": {
+          "bonus": 0,
+          "dice": []
+        },
+        "reaction": {
+          "bonus": 0,
+          "dice": []
+        }
+      },
+      "damage": {
+        "physical": {
+          "bonus": 0,
+          "dice": []
+        },
+        "magical": {
+          "bonus": 0,
+          "dice": []
+        }
+      }
+    },
+    "tier": 2,
+    "description": "<p>A patient killer hired to end the job before the crew even reaches the door.</p>",
+    "attack": {
+      "name": "Long Rifle",
+      "roll": {
+        "bonus": 3,
+        "type": "attack",
+        "trait": null,
+        "difficulty": null,
+        "advState": "neutral",
+        "diceRolling": {
+          "multiplier": "prof",
+          "flatMultiplier": 1,
+          "dice": "d6",
+          "compare": null,
+          "treshold": null
+        },
+        "useDefault": false
+      },
+      "range": "veryFar",
+      "damage": {
+        "parts": [
+          {
+            "value": {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "dice": "d8",
+              "bonus": 5,
+              "multiplier": "flat",
+              "flatMultiplier": 2
+            },
+            "applyTo": "hitPoints",
+            "type": [
+              "physical"
+            ],
+            "resultBased": false,
+            "valueAlt": {
+              "multiplier": "prof",
+              "flatMultiplier": 1,
+              "dice": "d6",
+              "bonus": null,
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              }
+            },
+            "base": false
+          }
+        ],
+        "includeBase": false,
+        "direct": false
+      },
+      "img": "icons/svg/sword.svg",
+      "type": "attack",
+      "chatDisplay": false,
+      "_id": "9633323e37337966",
+      "systemPath": "actions",
+      "baseAction": false,
+      "description": "",
+      "originItem": {
+        "type": "itemCollection"
+      },
+      "actionType": "action",
+      "cost": [],
+      "uses": {
+        "value": null,
+        "max": null,
+        "recovery": null,
+        "consumeOnSuccess": false
+      },
+      "target": {
+        "type": "any",
+        "amount": null
+      },
+      "effects": [],
+      "save": {
+        "trait": null,
+        "difficulty": null,
+        "damageMod": "none"
+      }
+    },
+    "attribution": {
+      "source": "Edgeheart",
+      "page": 60,
+      "artist": ""
+    },
+    "criticalThreshold": 20,
+    "rules": {
+      "conditionImmunities": {
+        "hidden": false,
+        "restrained": false,
+        "vulnerable": false
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Contract Sniper",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "resources.hitPoints"
+    },
+    "bar2": {
+      "attribute": "resources.stress"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": "#4d4033",
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 0.8,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Prepared Position",
+      "type": "feature",
+      "_id": "4fc33623dd14f53a",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>This adversary starts a scene Hidden. The first time this adversary attacks while Hidden, add +1d8 damage.</p>",
+        "resource": null,
+        "actions": {
+          "a06d6877eeb1e51e": {
+            "type": "effect",
+            "_id": "a06d6877eeb1e51e",
+            "systemPath": "actions",
+            "description": "<p>This adversary starts a scene Hidden. The first time this adversary attacks while Hidden, add +1d8 damage.</p>",
+            "chatDisplay": true,
+            "actionType": "passive",
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Prepared Position",
+            "img": "icons/svg/aura.svg",
+            "range": "",
+            "baseAction": false,
+            "originItem": {
+              "type": "itemCollection"
+            }
+          }
+        },
+        "originItemType": null,
+        "attribution": {},
+        "multiclassOrigin": false
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "name": "Marked Shot",
+      "type": "feature",
+      "_id": "b2907d2bf5a8a98e",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Mark a Stress and choose one target within Very Far range. The next attack this adversary makes against that target gains a +2 bonus to attack roll.</p>",
+        "resource": null,
+        "actions": {
+          "1749ec7704c49f4b": {
+            "type": "effect",
+            "_id": "1749ec7704c49f4b",
+            "systemPath": "actions",
+            "description": "<p>Mark a Stress and choose one target within Very Far range. The next attack this adversary makes against that target gains a +2 bonus to attack roll.</p>",
+            "chatDisplay": true,
+            "actionType": "action",
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Marked Shot",
+            "img": "icons/svg/aura.svg",
+            "range": "",
+            "baseAction": false,
+            "originItem": {
+              "type": "itemCollection"
+            }
+          }
+        },
+        "originItemType": null,
+        "attribution": {},
+        "multiclassOrigin": false
+      },
+      "effects": [],
+      "sort": 100000,
+      "flags": {}
+    },
+    {
+      "name": "Relocate",
+      "type": "feature",
+      "_id": "81e624e9397de7f2",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When a PC rolls with Fear against this adversary, the Sniper becomes Hidden if there’s no PC within Very Close range of it.</p>",
+        "resource": null,
+        "actions": {
+          "a0510ab222717beb": {
+            "type": "effect",
+            "_id": "a0510ab222717beb",
+            "systemPath": "actions",
+            "description": "<p>When a PC rolls with Fear against this adversary, the Sniper becomes Hidden if there’s no PC within Very Close range of it.</p>",
+            "chatDisplay": true,
+            "actionType": "reaction",
+            "cost": [],
+            "uses": {
+              "value": null,
+              "max": "",
+              "recovery": null,
+              "consumeOnSuccess": false
+            },
+            "effects": [],
+            "target": {
+              "type": "any",
+              "amount": null
+            },
+            "name": "Relocate",
+            "img": "icons/svg/aura.svg",
+            "range": "",
+            "baseAction": false,
+            "originItem": {
+              "type": "itemCollection"
+            }
+          }
+        },
+        "originItemType": null,
+        "attribution": {},
+        "multiclassOrigin": false
+      },
+      "effects": [],
+      "sort": 200000,
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:adversary:contract-sniper",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 60,
+        "pageEnd": 60,
+        "entityType": "adversary",
+        "slug": "contract-sniper",
+        "classificationRaw": "Mercenary Ranged",
+        "affiliationTag": "Mercenary",
+        "attackRangeRaw": "Very Far",
+        "attackDamageRaw": "2d8+5 phy"
+      },
+      "validationExpected": {
+        "name": "Contract Sniper",
+        "type": "adversary",
+        "system.tier": 2,
+        "system.type": "ranged",
+        "system.difficulty": 15,
+        "system.damageThresholds.major": 8,
+        "system.damageThresholds.severe": 16,
+        "system.resources.hitPoints.max": 5,
+        "system.resources.stress.max": 3,
+        "system.attack.range": "veryFar",
+        "system.attack.roll.bonus": 3
+      },
+      "deployment": {
+        "logicalKey": "adversary:contract-sniper",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7c014f124c86620e",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!7c014f124c86620e"
+}

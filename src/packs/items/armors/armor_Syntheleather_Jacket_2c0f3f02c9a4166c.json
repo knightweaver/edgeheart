@@ -1,0 +1,97 @@
+{
+  "name": "Syntheleather Jacket",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Flexible: +1 to Evasion.</p>",
+    "actions": {
+      "d492a3ce4ab06643": {
+        "type": "effect",
+        "_id": "d492a3ce4ab06643",
+        "systemPath": "actions",
+        "description": "<p>+1 to Evasion.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Flexible",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 1,
+    "equipped": false,
+    "baseScore": 3,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 6,
+      "severe": 13
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-syntheleather-jacket",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 35,
+        "pageEnd": 35,
+        "entityType": "armor",
+        "slug": "syntheleather-jacket",
+        "featureNames": [
+          "Flexible"
+        ]
+      },
+      "validationExpected": {
+        "name": "Syntheleather Jacket",
+        "type": "armor",
+        "system.tier": 1,
+        "system.baseScore": 3,
+        "system.baseThresholds.major": 6,
+        "system.baseThresholds.severe": 13,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:syntheleather-jacket",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2c0f3f02c9a4166c",
+  "folder": "cb6630db0117a857",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2c0f3f02c9a4166c"
+}

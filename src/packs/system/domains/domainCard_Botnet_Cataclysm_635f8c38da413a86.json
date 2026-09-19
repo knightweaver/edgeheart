@@ -1,0 +1,96 @@
+{
+  "name": "Botnet Cataclysm",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against all<br>adversaries within Far range.<br>Mark any number of Stress to wake<br>every compromised process, stolen<br>credential, old virus, hijacked device,<br>corrupted server, dead account, and<br>sleeper daemon you have seeded into<br>the local network.<br>Targets you succeed against take<br>1d20+2 physical damage for each<br>Stress marked.<br>On a success with Hope, choose one<br>affected target. They are also locked<br>out of all connected system, weapon<br>mode, drone link, cyberware feature, or<br>tactical support effect until their next<br>Spotlight.</p>",
+    "level": 10,
+    "domain": "network",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "a860a52f3f4c4172": {
+        "type": "effect",
+        "_id": "a860a52f3f4c4172",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against all<br>adversaries within Far range.<br>Mark any number of Stress to wake<br>every compromised process, stolen<br>credential, old virus, hijacked device,<br>corrupted server, dead account, and<br>sleeper daemon you have seeded into<br>the local network.<br>Targets you succeed against take<br>1d20+2 physical damage for each<br>Stress marked.<br>On a success with Hope, choose one<br>affected target. They are also locked<br>out of all connected system, weapon<br>mode, drone link, cyberware feature, or<br>tactical support effect until their next<br>Spotlight.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Botnet Cataclysm",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Network:botnet-cataclysm",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 68,
+        "pageEnd": 68,
+        "entityType": "competencyCard",
+        "slug": "botnet-cataclysm",
+        "competency": "Network",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "network"
+        }
+      ],
+      "validationExpected": {
+        "name": "Botnet Cataclysm",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "network",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:network:botnet-cataclysm",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "635f8c38da413a86",
+  "folder": "3018d78a48dc3a49",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!635f8c38da413a86"
+}

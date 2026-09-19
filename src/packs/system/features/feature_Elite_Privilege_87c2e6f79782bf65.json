@@ -1,0 +1,72 @@
+{
+  "name": "Elite Privilege",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>You have advantage on rolls to consort with corporate employees, pass as authorized, or leverage your company reputation to get what you want.</p>",
+    "actions": {
+      "1e1b5dd10e70052b": {
+        "type": "effect",
+        "_id": "1e1b5dd10e70052b",
+        "systemPath": "actions",
+        "description": "<p>You have advantage on rolls to consort with corporate employees, pass as authorized, or leverage your company reputation to get what you want.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Elite Privilege",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:corporate-asset:elite-privilege",
+      "source": {
+        "featureStage": "affiliation",
+        "sourcePage": 30
+      },
+      "deployment": {
+        "logicalKey": "feature:corporate-asset:elite-privilege",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "87c2e6f79782bf65",
+  "folder": "390833fa357a7891",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!87c2e6f79782bf65"
+}

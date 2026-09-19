@@ -1,0 +1,72 @@
+{
+  "name": "Heavy Chrome Walking",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, when you mark an Armor Slot, you can activate your full-body reinforcement until the scene ends or you take Severe damage. While this feature is active:<br>• When you make a successful Melee attack roll, you can add your Calibrated Trait die to the damage roll.<br>• Gain a +3 bonus to your damage thresholds.<br>• When you succeed on a Strength Roll or weapon attack against a target within Melee range, you can push them back to Close range and make them temporarily Vulnerable.</p>",
+    "actions": {
+      "13ed9dd81b9b62fd": {
+        "type": "effect",
+        "_id": "13ed9dd81b9b62fd",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, when you mark an Armor Slot, you can activate your full-body reinforcement until the scene ends or you take Severe damage. While this feature is active:<br>• When you make a successful Melee attack roll, you can add your Calibrated Trait die to the damage roll.<br>• Gain a +3 bonus to your damage thresholds.<br>• When you succeed on a Strength Roll or weapon attack against a target within Melee range, you can push them back to Close range and make them temporarily Vulnerable.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Heavy Chrome Walking",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:titan-frame:heavy-chrome-walking",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 18
+      },
+      "deployment": {
+        "logicalKey": "feature:titan-frame:heavy-chrome-walking",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0c8eb58ddbb7b381",
+  "folder": "32ac2bae6062c9a7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0c8eb58ddbb7b381"
+}

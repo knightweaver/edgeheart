@@ -1,0 +1,84 @@
+{
+  "name": "Second Heart",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 3</p><p>Gain one additional Hit Point slot. Once per long rest, when you would mark your last Hit Point, don’t mark it instead instead.</p>",
+    "actions": {
+      "492b2cb2a5119e35": {
+        "type": "effect",
+        "_id": "492b2cb2a5119e35",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 3</p><p>Gain one additional Hit Point slot. Once per long rest, when you would mark your last Hit Point, don’t mark it instead instead.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Second Heart",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:second-heart",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 43,
+        "pageEnd": 43,
+        "entityType": "cyberware",
+        "slug": "second-heart",
+        "roll": 38,
+        "cyberCostRaw": "3",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Second Heart",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:second-heart",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "533f671c58b0a8d7",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!533f671c58b0a8d7"
+}

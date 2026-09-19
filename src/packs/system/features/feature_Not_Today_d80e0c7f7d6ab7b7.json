@@ -1,0 +1,72 @@
+{
+  "name": "Not Today",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Spend 3 Hope when any ally within Close range would mark one or more Hit Points. Move to within Very Close range of that ally. Reduce the damage severity by one threshold. If this prevents them from marking any Hit Points, you may also clear 1 Stress or force the attacker to mark 1 Stress.</p>",
+    "actions": {
+      "7e6c8b2b707dbd5e": {
+        "type": "effect",
+        "_id": "7e6c8b2b707dbd5e",
+        "systemPath": "actions",
+        "description": "<p>Spend 3 Hope when any ally within Close range would mark one or more Hit Points. Move to within Very Close range of that ally. Reduce the damage severity by one threshold. If this prevents them from marking any Hit Points, you may also clear 1 Stress or force the attacker to mark 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Not Today",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:warden:not-today",
+      "source": {
+        "featureStage": "hope",
+        "sourcePage": 27
+      },
+      "deployment": {
+        "logicalKey": "feature:warden:not-today",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "d80e0c7f7d6ab7b7",
+  "folder": "b98199e8e4a19495",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d80e0c7f7d6ab7b7"
+}

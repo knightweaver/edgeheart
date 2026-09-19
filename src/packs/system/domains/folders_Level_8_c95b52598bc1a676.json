@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "db33b403b2032cc2",
+  "name": "Level 8",
+  "color": null,
+  "sorting": "a",
+  "_id": "c95b52598bc1a676",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-systems-level-8",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!c95b52598bc1a676"
+}

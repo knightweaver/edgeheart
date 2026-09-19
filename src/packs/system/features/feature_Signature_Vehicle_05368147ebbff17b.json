@@ -1,0 +1,72 @@
+{
+  "name": "Signature Vehicle",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>You have a personal vehicle. When operating it, you may use Agility instead of its listed Trait. Once per scene, prevent your Signature Vehicle from becoming Damaged or from becoming Disabled. You may designate a new Signature Vehicle during a rest.</p>",
+    "actions": {
+      "82fb1df18cf1cd83": {
+        "type": "effect",
+        "_id": "82fb1df18cf1cd83",
+        "systemPath": "actions",
+        "description": "<p>You have a personal vehicle. When operating it, you may use Agility instead of its listed Trait. Once per scene, prevent your Signature Vehicle from becoming Damaged or from becoming Disabled. You may designate a new Signature Vehicle during a rest.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Signature Vehicle",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:outrider:signature-vehicle",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 23
+      },
+      "deployment": {
+        "logicalKey": "feature:outrider:signature-vehicle",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "05368147ebbff17b",
+  "folder": "26522e0cc5bb8f5d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!05368147ebbff17b"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Planted Charge",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you can touch an object, surface, or machine, mark a Stress to plant a charge. Trigger it later in the scene to choose one:<br>• Breach: Open, break, or collapse the target.<br>• Disable: Jam, lock, or shut it down until repaired.<br>• Disrupt: One adversary within Very Close range marks 1 Stress and becomes temporarily Vulnerable.</p><p>You can have one active charge at a time.</p>",
+    "actions": {
+      "1342dc710917578b": {
+        "type": "effect",
+        "_id": "1342dc710917578b",
+        "systemPath": "actions",
+        "description": "<p>When you can touch an object, surface, or machine, mark a Stress to plant a charge. Trigger it later in the scene to choose one:<br>• Breach: Open, break, or collapse the target.<br>• Disable: Jam, lock, or shut it down until repaired.<br>• Disrupt: One adversary within Very Close range marks 1 Stress and becomes temporarily Vulnerable.</p><p>You can have one active charge at a time.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Planted Charge",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:saboteur:planted-charge",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 20
+      },
+      "deployment": {
+        "logicalKey": "feature:saboteur:planted-charge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e91d61034f0b4aa9",
+  "folder": "3f589584f7a8e698",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e91d61034f0b4aa9"
+}

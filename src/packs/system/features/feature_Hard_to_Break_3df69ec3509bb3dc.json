@@ -1,0 +1,72 @@
+{
+  "name": "Hard to Break",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per rest, when you would mark one or more Hit Points, you can mark a Stress to reduce the severity by one threshold.</p>",
+    "actions": {
+      "a246b927e5f933a0": {
+        "type": "effect",
+        "_id": "a246b927e5f933a0",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, when you would mark one or more Hit Points, you can mark a Stress to reduce the severity by one threshold.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Hard to Break",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:bulwark:hard-to-break",
+      "source": {
+        "featureStage": "specialization",
+        "sourcePage": 27
+      },
+      "deployment": {
+        "logicalKey": "feature:bulwark:hard-to-break",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "3df69ec3509bb3dc",
+  "folder": "d2396cc3b2b31443",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3df69ec3509bb3dc"
+}

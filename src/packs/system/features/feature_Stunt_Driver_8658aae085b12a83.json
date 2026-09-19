@@ -1,0 +1,72 @@
+{
+  "name": "Stunt Driver",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per scene while operating your Signature Vehicle, describe a stunt and make an Agility Roll (15). On a success, choose two. On a failure, choose one, then your vehicle becomes Damaged or you mark 1 Stress.<br>• Move within Far range.<br>• Give one ally +2 to their next action roll.<br>• Make one adversary mark 1 Stress.</p>",
+    "actions": {
+      "fe839cf57ad15556": {
+        "type": "effect",
+        "_id": "fe839cf57ad15556",
+        "systemPath": "actions",
+        "description": "<p>Once per scene while operating your Signature Vehicle, describe a stunt and make an Agility Roll (15). On a success, choose two. On a failure, choose one, then your vehicle becomes Damaged or you mark 1 Stress.<br>• Move within Far range.<br>• Give one ally +2 to their next action roll.<br>• Make one adversary mark 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Stunt Driver",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:outrider:stunt-driver",
+      "source": {
+        "featureStage": "specialization",
+        "sourcePage": 23
+      },
+      "deployment": {
+        "logicalKey": "feature:outrider:stunt-driver",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "8658aae085b12a83",
+  "folder": "26522e0cc5bb8f5d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8658aae085b12a83"
+}

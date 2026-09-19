@@ -1,0 +1,96 @@
+{
+  "name": "*Exota Fabrication Suite",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Repudiate: You can interrupt a<br>technological, digital, or techno effect<br>taking place. Make a Reaction Roll<br>using your Interface trait. Once per rest<br>on a success, the effect stops and any<br>consequences are avoided.<br>Deploy Construct: Spend a Hope to<br>deploy an animated construct, drone<br>cluster, jury-rigged machine, or<br>autonomous hardware unit from them<br>that obeys basic commands. Make an<br>Interface Roll to command them to<br>take action. When necessary, they<br>share your Evasion and traits, and their<br>attacks deal 2d10+3 physical damage.<br>You can only maintain one construct at<br>a time, and they fall apart when they<br>take any amount of damage.</p>",
+    "level": 4,
+    "domain": "systems",
+    "recallCost": 3,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "dbea0c3a5570a025": {
+        "type": "effect",
+        "_id": "dbea0c3a5570a025",
+        "systemPath": "actions",
+        "description": "<p>Repudiate: You can interrupt a<br>technological, digital, or techno effect<br>taking place. Make a Reaction Roll<br>using your Interface trait. Once per rest<br>on a success, the effect stops and any<br>consequences are avoided.<br>Deploy Construct: Spend a Hope to<br>deploy an animated construct, drone<br>cluster, jury-rigged machine, or<br>autonomous hardware unit from them<br>that obeys basic commands. Make an<br>Interface Roll to command them to<br>take action. When necessary, they<br>share your Evasion and traits, and their<br>attacks deal 2d10+3 physical damage.<br>You can only maintain one construct at<br>a time, and they fall apart when they<br>take any amount of damage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "*Exota Fabrication Suite",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:exota-fabrication-suite",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 73,
+        "pageEnd": 73,
+        "entityType": "competencyCard",
+        "slug": "exota-fabrication-suite",
+        "competency": "Systems",
+        "cardType": "Protocol Suite"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "*Exota Fabrication Suite",
+        "type": "domainCard",
+        "system.level": 4,
+        "system.domain": "systems",
+        "system.recallCost": 3,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:exota-fabrication-suite",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "f78f36e99a98393e",
+  "folder": "049112243890e9ba",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f78f36e99a98393e"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Reflex Redirect",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When an attack made against you from<br>beyond Melee range fails, roll a number<br>of d6s equal to your Proficiency.<br>If any roll a 6, you can mark a Stress to<br>redirect the attack to damage an<br>adversary within Very Close range<br>instead.</p>",
+    "level": 4,
+    "domain": "chrome",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "ef7ce70184192981": {
+        "type": "effect",
+        "_id": "ef7ce70184192981",
+        "systemPath": "actions",
+        "description": "<p>When an attack made against you from<br>beyond Melee range fails, roll a number<br>of d6s equal to your Proficiency.<br>If any roll a 6, you can mark a Stress to<br>redirect the attack to damage an<br>adversary within Very Close range<br>instead.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Reflex Redirect",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Chrome:reflex-redirect",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 71,
+        "pageEnd": 71,
+        "entityType": "competencyCard",
+        "slug": "reflex-redirect",
+        "competency": "Chrome",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "chrome"
+        }
+      ],
+      "validationExpected": {
+        "name": "Reflex Redirect",
+        "type": "domainCard",
+        "system.level": 4,
+        "system.domain": "chrome",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:chrome:reflex-redirect",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "a99de94f672c16a5",
+  "folder": "8e72f8ed6c527866",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a99de94f672c16a5"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Tier 2",
+  "color": null,
+  "sorting": "a",
+  "_id": "3146acd2c5d5d95d",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:weapons:tier-2",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!3146acd2c5d5d95d"
+}

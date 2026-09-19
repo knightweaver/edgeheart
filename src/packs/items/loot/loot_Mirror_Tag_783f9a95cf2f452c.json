@@ -1,0 +1,80 @@
+{
+  "name": "Mirror Tag",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Once per rest, place this tag on a surface or object. Until your next rest, scanners and trackers looking for you may be redirected to the tag instead.</p>",
+    "quantity": 1,
+    "actions": {
+      "75dac15a47453326": {
+        "type": "effect",
+        "_id": "75dac15a47453326",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, place this tag on a surface or object. Until your next rest, scanners and trackers looking for you may be redirected to the tag instead.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mirror Tag",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:mirror-tag",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 38,
+        "pageEnd": 38,
+        "entityType": "loot",
+        "slug": "mirror-tag",
+        "roll": 27
+      },
+      "validationExpected": {
+        "name": "Mirror Tag",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:mirror-tag",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "783f9a95cf2f452c",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!783f9a95cf2f452c"
+}

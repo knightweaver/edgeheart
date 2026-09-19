@@ -1,0 +1,96 @@
+{
+  "name": "Hard Shutdown",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (16).<br>Once per rest on a success, all targets within Very Far range make a Reaction Roll (18).<br>Targets who fail take 3d10+8 techno damage and are temporarily Vulnerable. Targets who succeed take half damage.<br>Additionally, when you succeed on the Interface Roll, all terrain within Very Far range becomes Offline. While within an Offline range, targets cannot spend Fear and rolls with Fear do not generate Fear for the GM.</p>",
+    "level": 9,
+    "domain": "network",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "a7b75a9c4f3aadc3": {
+        "type": "effect",
+        "_id": "a7b75a9c4f3aadc3",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (16).<br>Once per rest on a success, all targets within Very Far range make a Reaction Roll (18).<br>Targets who fail take 3d10+8 techno damage and are temporarily Vulnerable. Targets who succeed take half damage.<br>Additionally, when you succeed on the Interface Roll, all terrain within Very Far range becomes Offline. While within an Offline range, targets cannot spend Fear and rolls with Fear do not generate Fear for the GM.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Hard Shutdown",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Network:hard-shutdown",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 68,
+        "pageEnd": 68,
+        "entityType": "competencyCard",
+        "slug": "hard-shutdown",
+        "competency": "Network",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "network"
+        }
+      ],
+      "validationExpected": {
+        "name": "Hard Shutdown",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "network",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:network:hard-shutdown",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "b59d1bca4cfb5f12",
+  "folder": "5188a6c8cfbe4ff6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b59d1bca4cfb5f12"
+}

@@ -1,0 +1,125 @@
+{
+  "name": "Siege Exo-Frame",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Difficult: -1 to all character traits.</p><p>Fortified: When you mark an Armor Slot, reduce severity by two thresholds instead of one.</p>",
+    "actions": {
+      "26d53ae839a5a15c": {
+        "type": "effect",
+        "_id": "26d53ae839a5a15c",
+        "systemPath": "actions",
+        "description": "<p>-1 to all character traits.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Difficult",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      },
+      "424feea2fcac9dca": {
+        "type": "effect",
+        "_id": "424feea2fcac9dca",
+        "systemPath": "actions",
+        "description": "<p>When you mark an Armor Slot, reduce severity by two thresholds instead of one.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Fortified",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 4,
+    "equipped": false,
+    "baseScore": 8,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 18,
+      "severe": 48
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-siege-exo-frame",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 36,
+        "pageEnd": 36,
+        "entityType": "armor",
+        "slug": "siege-exo-frame",
+        "featureNames": [
+          "Difficult",
+          "Fortified"
+        ]
+      },
+      "validationExpected": {
+        "name": "Siege Exo-Frame",
+        "type": "armor",
+        "system.tier": 4,
+        "system.baseScore": 8,
+        "system.baseThresholds.major": 18,
+        "system.baseThresholds.severe": 48,
+        "system.actionsCount": 2
+      },
+      "deployment": {
+        "logicalKey": "armor:siege-exo-frame",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "a260c60272deef86",
+  "folder": "0cc9f35da55a0190",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a260c60272deef86"
+}

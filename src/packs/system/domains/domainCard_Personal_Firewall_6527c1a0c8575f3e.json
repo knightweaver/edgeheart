@@ -1,0 +1,96 @@
+{
+  "name": "Personal Firewall",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You have a encrypted device that can<br>be loaded with a defensive firewall and<br>held by you or an ally. Describe what it<br>is and why it matters to you.<br>The firewall’s holder can spend a Hope<br>to reduce incoming techno damage by<br>1d12. If the Firewall Die result is 12, the<br>firewall burns out after it reduces<br>damage this turn. It can be recharged<br>for free on your next rest.</p>",
+    "level": 1,
+    "domain": "network",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "986372047417bcf4": {
+        "type": "effect",
+        "_id": "986372047417bcf4",
+        "systemPath": "actions",
+        "description": "<p>You have a encrypted device that can<br>be loaded with a defensive firewall and<br>held by you or an ally. Describe what it<br>is and why it matters to you.<br>The firewall’s holder can spend a Hope<br>to reduce incoming techno damage by<br>1d12. If the Firewall Die result is 12, the<br>firewall burns out after it reduces<br>damage this turn. It can be recharged<br>for free on your next rest.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Personal Firewall",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Network:personal-firewall",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 67,
+        "pageEnd": 67,
+        "entityType": "competencyCard",
+        "slug": "personal-firewall",
+        "competency": "Network",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "network"
+        }
+      ],
+      "validationExpected": {
+        "name": "Personal Firewall",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "network",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:network:personal-firewall",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6527c1a0c8575f3e",
+  "folder": "c5249115e6f9f64b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6527c1a0c8575f3e"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Reinforced Build",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When your Calibrated Trait is Strength, gain a +1 bonus to your Armor Score. Additionally, when you use Integrated Chrome on a Strength Roll, roll a d8 instead of a d6.</p>",
+    "actions": {
+      "2b073f0b4ff41393": {
+        "type": "effect",
+        "_id": "2b073f0b4ff41393",
+        "systemPath": "actions",
+        "description": "<p>When your Calibrated Trait is Strength, gain a +1 bonus to your Armor Score. Additionally, when you use Integrated Chrome on a Strength Roll, roll a d8 instead of a d6.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Reinforced Build",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:titan-frame:reinforced-build",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 18
+      },
+      "deployment": {
+        "logicalKey": "feature:titan-frame:reinforced-build",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "4d7072ea8ff303f5",
+  "folder": "32ac2bae6062c9a7",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4d7072ea8ff303f5"
+}

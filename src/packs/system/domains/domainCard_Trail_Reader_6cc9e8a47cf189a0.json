@@ -1,0 +1,96 @@
+{
+  "name": "Trail Reader",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you track a specific creature,<br>vehicle, or convoy, you can spend any<br>number of Hope and ask the GM that<br>many questions. When you encounter<br>targets you’ve tracked in this way, gain<br>a +1 to your Evasion against them:<br>1- What direction did they go?<br>2- How long ago did they pass by?<br>3- What were they doing here?<br>4- How many of them were here?</p>",
+    "level": 1,
+    "domain": "frontier",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "7b5ac6fd5edf6964": {
+        "type": "effect",
+        "_id": "7b5ac6fd5edf6964",
+        "systemPath": "actions",
+        "description": "<p>When you track a specific creature,<br>vehicle, or convoy, you can spend any<br>number of Hope and ask the GM that<br>many questions. When you encounter<br>targets you’ve tracked in this way, gain<br>a +1 to your Evasion against them:<br>1- What direction did they go?<br>2- How long ago did they pass by?<br>3- What were they doing here?<br>4- How many of them were here?</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Trail Reader",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:trail-reader",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 79,
+        "pageEnd": 79,
+        "entityType": "competencyCard",
+        "slug": "trail-reader",
+        "competency": "Frontier",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Trail Reader",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "frontier",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:trail-reader",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6cc9e8a47cf189a0",
+  "folder": "29fc98aa023c779c",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6cc9e8a47cf189a0"
+}

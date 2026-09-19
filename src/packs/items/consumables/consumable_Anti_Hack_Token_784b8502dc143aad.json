@@ -1,0 +1,81 @@
+{
+  "name": "Anti-Hack Token",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Use when a trace, hack, scan, or hostile signal would affect you or your gear. Roll a d6. On 4+, the effect fails.</p>",
+    "quantity": 1,
+    "actions": {
+      "9f047fb42982143c": {
+        "type": "effect",
+        "_id": "9f047fb42982143c",
+        "systemPath": "actions",
+        "description": "<p>Use when a trace, hack, scan, or hostile signal would affect you or your gear. Roll a d6. On 4+, the effect fails.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Anti-Hack Token",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:anti-hack-token",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 40,
+        "pageEnd": 40,
+        "entityType": "consumable",
+        "slug": "anti-hack-token",
+        "roll": 35
+      },
+      "validationExpected": {
+        "name": "Anti-Hack Token",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:anti-hack-token",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "784b8502dc143aad",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!784b8502dc143aad"
+}

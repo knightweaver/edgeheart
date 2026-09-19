@@ -1,0 +1,72 @@
+{
+  "name": "Guardian Protocol",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>At the end of your Spotlight, choose one ally, vehicle, or objective within Close range as your Guarded Asset until your next Spotlight. The first attack made against your Guarded Asset before your next Spotlight has disadvantage. If that attack misses, you may immediately move within Very Close range of the attacker or your Guarded Asset, and the attacker marks 1 Stress.</p>",
+    "actions": {
+      "c51f64d466cec847": {
+        "type": "effect",
+        "_id": "c51f64d466cec847",
+        "systemPath": "actions",
+        "description": "<p>At the end of your Spotlight, choose one ally, vehicle, or objective within Close range as your Guarded Asset until your next Spotlight. The first attack made against your Guarded Asset before your next Spotlight has disadvantage. If that attack misses, you may immediately move within Very Close range of the attacker or your Guarded Asset, and the attacker marks 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Guardian Protocol",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:warden:guardian-protocol",
+      "source": {
+        "featureStage": "class",
+        "sourcePage": 27
+      },
+      "deployment": {
+        "logicalKey": "feature:warden:guardian-protocol",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "778dd209187a852a",
+  "folder": "b98199e8e4a19495",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!778dd209187a852a"
+}

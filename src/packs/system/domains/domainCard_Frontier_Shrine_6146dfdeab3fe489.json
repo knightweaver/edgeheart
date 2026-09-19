@@ -1,0 +1,96 @@
+{
+  "name": "Frontier Shrine",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>After a long rest, place a number of tokens equal to the number of Frontier domain cards in your loadout and vault on this card.<br>When you would make an Interface Roll, you can spend any number of tokens after the roll to gain a +1 bonus for each token spent.<br>When you critically succeed on an Interface Roll for a Frontier protocol, gain a token.<br>When you take a long rest, clear all unspent tokens.</p>",
+    "level": 9,
+    "domain": "frontier",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "ab43a41f79525f45": {
+        "type": "effect",
+        "_id": "ab43a41f79525f45",
+        "systemPath": "actions",
+        "description": "<p>After a long rest, place a number of tokens equal to the number of Frontier domain cards in your loadout and vault on this card.<br>When you would make an Interface Roll, you can spend any number of tokens after the roll to gain a +1 bonus for each token spent.<br>When you critically succeed on an Interface Roll for a Frontier protocol, gain a token.<br>When you take a long rest, clear all unspent tokens.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Frontier Shrine",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:frontier-shrine",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 81,
+        "pageEnd": 81,
+        "entityType": "competencyCard",
+        "slug": "frontier-shrine",
+        "competency": "Frontier",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Frontier Shrine",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "frontier",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:frontier-shrine",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6146dfdeab3fe489",
+  "folder": "38451cc4211bad10",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6146dfdeab3fe489"
+}

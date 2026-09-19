@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Influence",
+  "color": null,
+  "sorting": "a",
+  "_id": "d5e18286503aa318",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-influence",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!d5e18286503aa318"
+}

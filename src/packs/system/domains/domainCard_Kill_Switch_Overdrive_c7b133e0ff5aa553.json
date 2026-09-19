@@ -1,0 +1,96 @@
+{
+  "name": "Kill-Switch Overdrive",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against an<br>adversary within Close range. Ona<br>success, spend 2 Hope to mark 1-3 HP.<br>The target marks twice the number of<br>Hit Points you marked. If this causes<br>the target to mark their last HP, you<br>can clear the HP you marked to<br>activate this protocol.<br>This might look like a lethal overclock<br>strike, rageware execution, neural kill-<br>switch, cyberware burnout, adrenal<br>detonation, or a point-blank system<br>crash that converts the target’s<br>collapse into your survival.</p>",
+    "level": 10,
+    "domain": "redline",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "4929ef12a542ace8": {
+        "type": "effect",
+        "_id": "4929ef12a542ace8",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against an<br>adversary within Close range. Ona<br>success, spend 2 Hope to mark 1-3 HP.<br>The target marks twice the number of<br>Hit Points you marked. If this causes<br>the target to mark their last HP, you<br>can clear the HP you marked to<br>activate this protocol.<br>This might look like a lethal overclock<br>strike, rageware execution, neural kill-<br>switch, cyberware burnout, adrenal<br>detonation, or a point-blank system<br>crash that converts the target’s<br>collapse into your survival.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Kill-Switch Overdrive",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:kill-switch-overdrive",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 87,
+        "pageEnd": 87,
+        "entityType": "competencyCard",
+        "slug": "kill-switch-overdrive",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Kill-Switch Overdrive",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "redline",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:kill-switch-overdrive",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "c7b133e0ff5aa553",
+  "folder": "edb9c83fd13c0d60",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c7b133e0ff5aa553"
+}

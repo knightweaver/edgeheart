@@ -1,0 +1,72 @@
+{
+  "name": "Combat Reactions",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Mark a Stress to gain advantage on a Reaction Roll.</p>",
+    "actions": {
+      "ab26477faf2b5970": {
+        "type": "effect",
+        "_id": "ab26477faf2b5970",
+        "systemPath": "actions",
+        "description": "<p>Mark a Stress to gain advantage on a Reaction Roll.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Combat Reactions",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:military-surplus:combat-reactions",
+      "source": {
+        "featureStage": "lifePath",
+        "sourcePage": 29
+      },
+      "deployment": {
+        "logicalKey": "feature:military-surplus:combat-reactions",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ff5d741fca1835c8",
+  "folder": "2de41db6d1ef4190",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ff5d741fca1835c8"
+}

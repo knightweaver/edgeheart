@@ -1,0 +1,84 @@
+{
+  "name": "Clone Reflex Loop",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 3</p><p>Once per rest, when you roll with Hope on an attack, you can repeat the attack against another target within range for half damage.</p>",
+    "actions": {
+      "4f1079d325bb9ff1": {
+        "type": "effect",
+        "_id": "4f1079d325bb9ff1",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 3</p><p>Once per rest, when you roll with Hope on an attack, you can repeat the attack against another target within range for half damage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Clone Reflex Loop",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:clone-reflex-loop",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 44,
+        "pageEnd": 44,
+        "entityType": "cyberware",
+        "slug": "clone-reflex-loop",
+        "roll": 52,
+        "cyberCostRaw": "3",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Clone Reflex Loop",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:clone-reflex-loop",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "43f772c5ad976d6a",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!43f772c5ad976d6a"
+}

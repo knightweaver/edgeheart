@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "ebb501fd45844a0e",
+  "name": "Phantom",
+  "color": null,
+  "sorting": "a",
+  "_id": "8443da7dcd2feb66",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:features:subclass-phantom",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!8443da7dcd2feb66"
+}

@@ -1,0 +1,125 @@
+{
+  "name": "Ceramite Plate",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Heavy: -1 to Evasion.</p><p>Ceramite: Before you mark your last Armor Slot, roll a d6. On a 5 or higher, reduce the severity by one threshold without marking an Armor Slot.</p>",
+    "actions": {
+      "875b54dfc439ebb8": {
+        "type": "effect",
+        "_id": "875b54dfc439ebb8",
+        "systemPath": "actions",
+        "description": "<p>-1 to Evasion.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Heavy",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      },
+      "f221add04ef9809e": {
+        "type": "effect",
+        "_id": "f221add04ef9809e",
+        "systemPath": "actions",
+        "description": "<p>Before you mark your last Armor Slot, roll a d6. On a 5 or higher, reduce the severity by one threshold without marking an Armor Slot.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Ceramite",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 3,
+    "equipped": false,
+    "baseScore": 6,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 15,
+      "severe": 35
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-ceramite-plate",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 36,
+        "pageEnd": 36,
+        "entityType": "armor",
+        "slug": "ceramite-plate",
+        "featureNames": [
+          "Heavy",
+          "Ceramite"
+        ]
+      },
+      "validationExpected": {
+        "name": "Ceramite Plate",
+        "type": "armor",
+        "system.tier": 3,
+        "system.baseScore": 6,
+        "system.baseThresholds.major": 15,
+        "system.baseThresholds.severe": 35,
+        "system.actionsCount": 2
+      },
+      "deployment": {
+        "logicalKey": "armor:ceramite-plate",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "4b8b800a9dcebefa",
+  "folder": "aca2f20d6b860b47",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4b8b800a9dcebefa"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Deadeye",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as a Deadeye if you want to eliminate priority targets, exploit openings, and make every shot count.</p>",
+    "spellcastingTrait": "finesse",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:deadeye:marked-target"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:deadeye:called-shot"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:deadeye:kill-confirmed"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:solo"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:deadeye",
+      "source": {
+        "entityType": "subclass",
+        "slug": "deadeye",
+        "parentClass": "Solo"
+      },
+      "deployment": {
+        "logicalKey": "subclass:deadeye",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "a8fbb13c31f96eec",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a8fbb13c31f96eec"
+}

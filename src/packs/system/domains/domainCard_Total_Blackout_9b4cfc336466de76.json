@@ -1,0 +1,96 @@
+{
+  "name": "Total Blackout",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (16). Once per<br>long rest on a success, plunge the<br>entire area within Far range into<br>complete darkness, signal blackout,<br>smoke saturation, sensor denial, or<br>light-eating interference that only you<br>and your allies can see through.<br>Attack rolls have disadvantage when<br>targeting you or an ally within this<br>blackout.<br>Additionally, when you or an ally<br>succeeds with Hope against an<br>adversary within this blackout, the<br>target must mark a Stress.<br>This protocol lasts until the GM spends<br>a Fear on their turn to clear this effect<br>or you take Severe damage.</p>",
+    "level": 10,
+    "domain": "ghost",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "fa6c7b681aab1b61": {
+        "type": "effect",
+        "_id": "fa6c7b681aab1b61",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (16). Once per<br>long rest on a success, plunge the<br>entire area within Far range into<br>complete darkness, signal blackout,<br>smoke saturation, sensor denial, or<br>light-eating interference that only you<br>and your allies can see through.<br>Attack rolls have disadvantage when<br>targeting you or an ally within this<br>blackout.<br>Additionally, when you or an ally<br>succeeds with Hope against an<br>adversary within this blackout, the<br>target must mark a Stress.<br>This protocol lasts until the GM spends<br>a Fear on their turn to clear this effect<br>or you take Severe damage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Total Blackout",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Ghost:total-blackout",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 79,
+        "pageEnd": 79,
+        "entityType": "competencyCard",
+        "slug": "total-blackout",
+        "competency": "Ghost",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "ghost"
+        }
+      ],
+      "validationExpected": {
+        "name": "Total Blackout",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "ghost",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:ghost:total-blackout",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "9b4cfc336466de76",
+  "folder": "5e0075a757a198e5",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!9b4cfc336466de76"
+}

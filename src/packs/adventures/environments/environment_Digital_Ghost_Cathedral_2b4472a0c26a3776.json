@@ -1,0 +1,164 @@
+{
+  "name": "Digital Ghost Cathedral",
+  "type": "environment",
+  "img": "icons/svg/door-exit.svg",
+  "system": {
+    "description": "A ruined data center where corrupted AI speak through prayer loops, broken ads, and dead family photos.",
+    "tier": 3,
+    "type": "haunted zone",
+    "difficulty": 18,
+    "notes": "",
+    "impulses": [
+      "Convert",
+      "reveal",
+      "corrupt memory"
+    ],
+    "potentialAdversaries": [
+      "Signal Haunt",
+      "Digital Wraith",
+      "Data Cult Oracle",
+      "Hades Shard"
+    ],
+    "features": [
+      {
+        "_id": "af5a46914a9b635e",
+        "name": "Litany of Static",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "At the start of a scene, each PC with connected cyberware must mark a Stress and hear a voice asking them a personal question.\n\nWhat does the Ghost know?",
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "8266fc7308a7b63d",
+        "name": "Icon Becomes Monster",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Choose a screen, statue, drone, vehicle, or body. It animates as a temporary Digital Ghost threat until destroyed or disconnected.\n\nWhat image does it wear?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "2417398bda731a64",
+        "name": "Mirrored Dead",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Spent up to 3 Fear and choose the same number of PC in the scene. The Cathedral generates a corrupted echo of them through screens, speakers, drones, old photos, security footage, or AR static.\n\nUntil the end of the scene or a PC rolls with Hope, when that PC would make an action roll, the GM reveal a distorted memory, fear, regret, or false version of their past. They must choose one:\n\n• Mark 1 Stress and become temporarily Vulnerable.\n• Give disadvantage to the roll as the echo interferes with their senses.\n• Mark 2 Armor Slots, as the echo “attacks” them.\n\nWhat part of them did the Cathedral learn to imitate?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "90f363f4fdd4be67",
+        "name": "Prayer Loop",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "When a PC rolls with Fear, marked Stress cannot be cleared until the PC leaves the Haunted Zone or severs the signal.\n\nWhat phrase keeps repeating?",
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "tags": [],
+    "bonuses": {}
+  },
+  "prototypeToken": null,
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:environment:digital-ghost-cathedral",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 56,
+        "pageEnd": 56,
+        "entityType": "environment",
+        "slug": "digital-ghost-cathedral"
+      },
+      "validationExpected": {
+        "name": "Digital Ghost Cathedral",
+        "type": "environment",
+        "system.tier": 3,
+        "system.type": "haunted zone",
+        "system.difficulty": 18,
+        "system.featuresCount": 4
+      },
+      "deployment": {
+        "logicalKey": "environment:digital-ghost-cathedral",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2b4472a0c26a3776",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!2b4472a0c26a3776"
+}

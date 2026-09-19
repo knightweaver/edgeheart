@@ -1,0 +1,96 @@
+{
+  "name": "Field Markers",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (13).<br>On a success, spend any number of<br>Hope to create an equal number of<br>field markers that appear at points you<br>choose within Far range, providing the<br>following benefits:<br>• Allies gain a +3 bonus to attack rolls<br>against adversaries within Very<br>Close range of a marker.<br>• Allies who marks an Armor while<br>within Very Close range of a marker<br>can mark an extra Armor.<br>A marker vanishes after granting a<br>benefit or taking any damage.</p>",
+    "level": 8,
+    "domain": "frontier",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "aa5185f38d7e224a": {
+        "type": "effect",
+        "_id": "aa5185f38d7e224a",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (13).<br>On a success, spend any number of<br>Hope to create an equal number of<br>field markers that appear at points you<br>choose within Far range, providing the<br>following benefits:<br>• Allies gain a +3 bonus to attack rolls<br>against adversaries within Very<br>Close range of a marker.<br>• Allies who marks an Armor while<br>within Very Close range of a marker<br>can mark an extra Armor.<br>A marker vanishes after granting a<br>benefit or taking any damage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Field Markers",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:field-markers",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 81,
+        "pageEnd": 81,
+        "entityType": "competencyCard",
+        "slug": "field-markers",
+        "competency": "Frontier",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Field Markers",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "frontier",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:field-markers",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "3e57301b40a8515a",
+  "folder": "34024bd7ecbcbd47",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3e57301b40a8515a"
+}

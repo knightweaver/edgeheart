@@ -1,0 +1,72 @@
+{
+  "name": "Virtual Overwatch",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When an adversary targets you or an ally within Very Close range with an attack while in a Deep Dive, you can give them disadvantage on the roll. If the adversary fails the roll, they must also mark a Stress. If they succeed, you must mark a Stress.</p>",
+    "actions": {
+      "837542e4386fe867": {
+        "type": "effect",
+        "_id": "837542e4386fe867",
+        "systemPath": "actions",
+        "description": "<p>When an adversary targets you or an ally within Very Close range with an attack while in a Deep Dive, you can give them disadvantage on the roll. If the adversary fails the roll, they must also mark a Stress. If they succeed, you must mark a Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Virtual Overwatch",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:net-diver:virtual-overwatch",
+      "source": {
+        "featureStage": "specialization",
+        "sourcePage": 12
+      },
+      "deployment": {
+        "logicalKey": "feature:net-diver:virtual-overwatch",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "3dd6d1d6165b3b38",
+  "folder": "42642c5c25ce1479",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3dd6d1d6165b3b38"
+}

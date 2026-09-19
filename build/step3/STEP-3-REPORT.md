@@ -9,5 +9,4 @@
 - Stable-ID collisions: **0**
 - `system.actions` shape errors: **0**
 
-Step 3 deliberately leaves bundle references, Competency registration, final
-art-path rewriting, and LevelDB compilation to downstream steps.
+Step 3 deliberately leaves bundle references, Competency registration, final art-path rewriting, and LevelDB compilation to downstream steps.

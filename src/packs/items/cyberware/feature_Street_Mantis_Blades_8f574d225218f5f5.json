@@ -1,0 +1,149 @@
+{
+  "name": "Street Mantis Blades",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 2</p><p>This implant counts as a Primary Weapon which is always equipped: Finesse, Melee, d8+5 physical. Pounce: When you move into Melee range before attacking, add 1d6 to the damage roll. On a roll with Hope, the target is temporarily Restrained.</p>",
+    "actions": {
+      "d2c7d9184c046f6e": {
+        "type": "attack",
+        "_id": "d2c7d9184c046f6e",
+        "systemPath": "actions",
+        "description": "<p>Pounce: When you move into Melee range before attacking, add 1d6 to the damage roll. On a roll with Hope, the target is temporarily Restrained.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "target": {
+          "type": "any",
+          "amount": 1
+        },
+        "effects": [],
+        "roll": {
+          "trait": "finesse",
+          "type": "attack",
+          "difficulty": null,
+          "bonus": null,
+          "advState": "neutral",
+          "diceRolling": {
+            "multiplier": "prof",
+            "flatMultiplier": 1,
+            "dice": "d6",
+            "compare": null,
+            "treshold": null
+          },
+          "useDefault": false
+        },
+        "damage": {
+          "parts": [
+            {
+              "value": {
+                "dice": "d8",
+                "bonus": 5,
+                "multiplier": "flat",
+                "flatMultiplier": 1,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "type": [
+                "physical"
+              ],
+              "applyTo": "hitPoints",
+              "resultBased": false,
+              "valueAlt": {
+                "multiplier": "prof",
+                "flatMultiplier": 1,
+                "dice": "d6",
+                "bonus": null,
+                "custom": {
+                  "enabled": false,
+                  "formula": ""
+                }
+              },
+              "base": false
+            }
+          ],
+          "includeBase": false
+        },
+        "save": {
+          "trait": null,
+          "difficulty": null,
+          "damageMod": "none"
+        },
+        "name": "Street Mantis Blades",
+        "img": "icons/svg/upgrade.svg",
+        "range": "melee",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:street-mantis-blades",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 42,
+        "pageEnd": 42,
+        "entityType": "cyberware",
+        "slug": "street-mantis-blades",
+        "roll": 24,
+        "cyberCostRaw": "2",
+        "competencyAccess": null,
+        "embeddedWeapon": {
+          "category": "primary",
+          "trait": "Finesse",
+          "range": "Melee",
+          "damage": {
+            "raw": "d8+5 physical",
+            "formula": "d8+5",
+            "typeRaw": "physical",
+            "typeNormalized": "physical"
+          },
+          "featureText": "Pounce: When you move into Melee range before attacking, add 1d6 to the damage roll. On a roll with Hope, the target is temporarily Restrained."
+        }
+      },
+      "validationExpected": {
+        "name": "Street Mantis Blades",
+        "type": "feature",
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "cyberware:street-mantis-blades",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "8f574d225218f5f5",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8f574d225218f5f5"
+}

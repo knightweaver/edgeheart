@@ -1,0 +1,96 @@
+{
+  "name": "Fearmask",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per long rest, choose any targets<br>within Very Close range to perceive you<br>as a nightmarish threat, impossible<br>assassin, corrupted sensor ghost, or<br>fear-triggered hallucination.<br>The targets must succeed ona<br>Reaction Roll (16) or become<br>temporarily Horrified. While Horrified,<br>they’re Vulnerable.<br>Steal a number of Fear from the GM<br>equal to the number of targets that are<br>Horrified, up to the number of Fear in<br>the GM’s pool.<br>Roll a number of d6s equal to the<br>number of stolen Fear and deal the<br>total damage to each Horrified target.<br>Discard the stolen Fear.</p>",
+    "level": 9,
+    "domain": "ghost",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "5b7384fe902cb1f3": {
+        "type": "effect",
+        "_id": "5b7384fe902cb1f3",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, choose any targets<br>within Very Close range to perceive you<br>as a nightmarish threat, impossible<br>assassin, corrupted sensor ghost, or<br>fear-triggered hallucination.<br>The targets must succeed ona<br>Reaction Roll (16) or become<br>temporarily Horrified. While Horrified,<br>they’re Vulnerable.<br>Steal a number of Fear from the GM<br>equal to the number of targets that are<br>Horrified, up to the number of Fear in<br>the GM’s pool.<br>Roll a number of d6s equal to the<br>number of stolen Fear and deal the<br>total damage to each Horrified target.<br>Discard the stolen Fear.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Fearmask",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Ghost:fearmask",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 78,
+        "pageEnd": 78,
+        "entityType": "competencyCard",
+        "slug": "fearmask",
+        "competency": "Ghost",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "ghost"
+        }
+      ],
+      "validationExpected": {
+        "name": "Fearmask",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "ghost",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:ghost:fearmask",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "a7a0f9719eadf37d",
+  "folder": "06fda20b36d3ac64",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a7a0f9719eadf37d"
+}

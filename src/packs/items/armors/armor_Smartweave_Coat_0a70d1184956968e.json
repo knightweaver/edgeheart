@@ -1,0 +1,97 @@
+{
+  "name": "Smartweave Coat",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Adaptive: When you are targeted by an attack, you can mark an Armor Slot to give the attack roll disadvantage.</p>",
+    "actions": {
+      "b124a7f7fb14e850": {
+        "type": "effect",
+        "_id": "b124a7f7fb14e850",
+        "systemPath": "actions",
+        "description": "<p>When you are targeted by an attack, you can mark an Armor Slot to give the attack roll disadvantage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Adaptive",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "baseScore": 3,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 7,
+      "severe": 16
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-smartweave-coat",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 35,
+        "pageEnd": 35,
+        "entityType": "armor",
+        "slug": "smartweave-coat",
+        "featureNames": [
+          "Adaptive"
+        ]
+      },
+      "validationExpected": {
+        "name": "Smartweave Coat",
+        "type": "armor",
+        "system.tier": 2,
+        "system.baseScore": 3,
+        "system.baseThresholds.major": 7,
+        "system.baseThresholds.severe": 16,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:smartweave-coat",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0a70d1184956968e",
+  "folder": "f2396412f668609d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0a70d1184956968e"
+}

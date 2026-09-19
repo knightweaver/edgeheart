@@ -1,0 +1,97 @@
+{
+  "name": "Street Regalia",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Legendary Cyberpunk: Once per scene, when you roll with Fear on a Roll, you may change it to a roll with Hope instead.</p>",
+    "actions": {
+      "54b7238cf80ade52": {
+        "type": "effect",
+        "_id": "54b7238cf80ade52",
+        "systemPath": "actions",
+        "description": "<p>Once per scene, when you roll with Fear on a Roll, you may change it to a roll with Hope instead.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Legendary Cyberpunk",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 4,
+    "equipped": false,
+    "baseScore": 6,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 15,
+      "severe": 40
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-street-regalia",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 36,
+        "pageEnd": 36,
+        "entityType": "armor",
+        "slug": "street-regalia",
+        "featureNames": [
+          "Legendary Cyberpunk"
+        ]
+      },
+      "validationExpected": {
+        "name": "Street Regalia",
+        "type": "armor",
+        "system.tier": 4,
+        "system.baseScore": 6,
+        "system.baseThresholds.major": 15,
+        "system.baseThresholds.severe": 40,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:street-regalia",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "67c89ec18187ba2a",
+  "folder": "0cc9f35da55a0190",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!67c89ec18187ba2a"
+}

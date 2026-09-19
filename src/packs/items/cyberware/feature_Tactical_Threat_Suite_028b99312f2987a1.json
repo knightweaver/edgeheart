@@ -1,0 +1,88 @@
+{
+  "name": "Tactical Threat Suite",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 1</p><p>Gain Card Access to one Aegis card of your level or lower. Once per rest, when an ally within Close range is targeted by an attack, you may move within Very Close range of them.</p>",
+    "actions": {
+      "3ed197256f4716b6": {
+        "type": "effect",
+        "_id": "3ed197256f4716b6",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 1</p><p>Gain Card Access to one Aegis card of your level or lower. Once per rest, when an ally within Close range is targeted by an attack, you may move within Very Close range of them.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Tactical Threat Suite",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:tactical-threat-suite",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 42,
+        "pageEnd": 42,
+        "entityType": "cyberware",
+        "slug": "tactical-threat-suite",
+        "roll": 26,
+        "cyberCostRaw": "1",
+        "competencyAccess": {
+          "competency": "Aegis",
+          "mode": "card",
+          "cardRestriction": "one Aegis card of your level or lower"
+        },
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Tactical Threat Suite",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:tactical-threat-suite",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "028b99312f2987a1",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!028b99312f2987a1"
+}

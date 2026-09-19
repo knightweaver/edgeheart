@@ -1,0 +1,72 @@
+{
+  "name": "Chrome Surge",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Spend 3 Hope when you make an Agility, Strength, or Finesse Roll. Roll a d8 and add its result to the roll. If this roll succeeds, choose one:<br>• Immediately move within Close range.<br>• Clear a Stress.<br>• Gain a +2 bonus to your Evasion until your next Spotlight.</p>",
+    "actions": {
+      "28c124ea5b7ebf23": {
+        "type": "effect",
+        "_id": "28c124ea5b7ebf23",
+        "systemPath": "actions",
+        "description": "<p>Spend 3 Hope when you make an Agility, Strength, or Finesse Roll. Roll a d8 and add its result to the roll. If this roll succeeds, choose one:<br>• Immediately move within Close range.<br>• Clear a Stress.<br>• Gain a +2 bonus to your Evasion until your next Spotlight.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Chrome Surge",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:augmented:chrome-surge",
+      "source": {
+        "featureStage": "hope",
+        "sourcePage": 17
+      },
+      "deployment": {
+        "logicalKey": "feature:augmented:chrome-surge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "1b3f697166b4a2bd",
+  "folder": "05c81a05016f1e41",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1b3f697166b4a2bd"
+}

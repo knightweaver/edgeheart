@@ -1,0 +1,96 @@
+{
+  "name": "Remote Persona",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per long rest, mark a Stress to<br>create a projected copy, remote<br>persona, hard-light avatar, hacked<br>broadcast body, or social proxy of<br>yourself that can appear anywhere<br>you&#x27;ve been before.<br>You can see and hear through the a<br>projection as though it were you and<br>affect the world as though you were<br>there.<br>A creature investigating the projection<br>can tell it’s artificial, digital, or<br>technologically generated.<br>This effect lasts until your next rest or<br>your projection takes any damage.</p>",
+    "level": 8,
+    "domain": "influence",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "4400d098ac193dbc": {
+        "type": "effect",
+        "_id": "4400d098ac193dbc",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, mark a Stress to<br>create a projected copy, remote<br>persona, hard-light avatar, hacked<br>broadcast body, or social proxy of<br>yourself that can appear anywhere<br>you&#x27;ve been before.<br>You can see and hear through the a<br>projection as though it were you and<br>affect the world as though you were<br>there.<br>A creature investigating the projection<br>can tell it’s artificial, digital, or<br>technologically generated.<br>This effect lasts until your next rest or<br>your projection takes any damage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Remote Persona",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:remote-persona",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 76,
+        "pageEnd": 76,
+        "entityType": "competencyCard",
+        "slug": "remote-persona",
+        "competency": "Influence",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Remote Persona",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "influence",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:remote-persona",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "21729dd6e7b1949a",
+  "folder": "d72148e7935aa3f0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!21729dd6e7b1949a"
+}

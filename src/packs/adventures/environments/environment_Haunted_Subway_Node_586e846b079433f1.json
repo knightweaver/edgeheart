@@ -1,0 +1,163 @@
+{
+  "name": "Haunted Subway Node",
+  "type": "environment",
+  "img": "icons/svg/door-exit.svg",
+  "system": {
+    "description": "An abandoned transit station where screens whisper names and trains arrive from routes that no longer exist.",
+    "tier": 2,
+    "type": "haunted zone",
+    "difficulty": 15,
+    "notes": "",
+    "impulses": [
+      "Isolate",
+      "distort",
+      "replay the dead"
+    ],
+    "potentialAdversaries": [
+      "Signal Haunt",
+      "Digital Wraith",
+      "Data Cult Oracle"
+    ],
+    "features": [
+      {
+        "_id": "05823c3dccdbde5a",
+        "name": "Signal Haunting",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Connected devices show false exits, dead passengers, impossible reflections, or messages from familiar voices. PCs relying on sensors have disadvantage unless they first create a Breach.\n\nWhose voice comes through the speakers?",
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "5f5a9922fb1dd89f",
+        "name": "Ghost Train",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "A phantom train screams through the station. All creatures in a line must make an Agility Reaction Roll or take 2d8+4 techno damage and become temporarily Vulnerable.\n\nWhere is the train going?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "8d3ec9f47456b8ba",
+        "name": "False Exit",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Choose one visible exit, tunnel, or door. It appears safe, open, or closer than it truly is. The first PC who moves toward it must mark 1 Stress and succeed an Agility Reaction Roll or mark 1 Hit Point and end their movement somewhere dangerous, exposed, or separated.\n\nWhere did the station want them to go?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "03afc29d0ec91ea7",
+        "name": "Possessed Platform",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "When a PC rolls with Fear, the environment moves them within Close range or separates them from one ally.\n\nWhat platform did they step onto?",
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "tags": [],
+    "bonuses": {}
+  },
+  "prototypeToken": null,
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:environment:haunted-subway-node",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 55,
+        "pageEnd": 55,
+        "entityType": "environment",
+        "slug": "haunted-subway-node"
+      },
+      "validationExpected": {
+        "name": "Haunted Subway Node",
+        "type": "environment",
+        "system.tier": 2,
+        "system.type": "haunted zone",
+        "system.difficulty": 15,
+        "system.featuresCount": 4
+      },
+      "deployment": {
+        "logicalKey": "environment:haunted-subway-node",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "586e846b079433f1",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!586e846b079433f1"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Memory Wipe Tab",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Use after a short conversation with a minor NPC. They forget one small detail from the interaction unless it would obviously endanger them.</p>",
+    "quantity": 1,
+    "actions": {
+      "1437a57da3572347": {
+        "type": "effect",
+        "_id": "1437a57da3572347",
+        "systemPath": "actions",
+        "description": "<p>Use after a short conversation with a minor NPC. They forget one small detail from the interaction unless it would obviously endanger them.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Memory Wipe Tab",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:memory-wipe-tab",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 40,
+        "pageEnd": 40,
+        "entityType": "consumable",
+        "slug": "memory-wipe-tab",
+        "roll": 38
+      },
+      "validationExpected": {
+        "name": "Memory Wipe Tab",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:memory-wipe-tab",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2196441eb2f32ca4",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2196441eb2f32ca4"
+}

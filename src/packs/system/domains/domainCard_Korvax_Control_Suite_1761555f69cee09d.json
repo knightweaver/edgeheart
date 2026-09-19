@@ -1,0 +1,96 @@
+{
+  "name": "*Korvax Control Suite",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Gravity Clamp: Make an Interface Roll<br>to temporarily lift a target you can see<br>up into the air and move them within<br>Close range of their original position.<br>Memory Scrub: Spend a Hope to force<br>a target within Melee range to make a<br>Reaction Roll (15). On a failure, you<br>overwrite, scramble, or suppress the<br>last minute of their short-term<br>memory, causing them to forget the<br>last minute of your conversation.<br>Repulsion Circle: Mark a Stress to<br>deploy a temporary repulsion field,<br>shock ring, or kinetic perimeter on the<br>ground where you stand. All<br>adversaries within Melee range, or who<br>enter Melee range, take 2d12+4 techno<br>damage and are knocked back to Very<br>Close range.</p>",
+    "level": 3,
+    "domain": "systems",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "0df13cd42d1bfb9a": {
+        "type": "effect",
+        "_id": "0df13cd42d1bfb9a",
+        "systemPath": "actions",
+        "description": "<p>Gravity Clamp: Make an Interface Roll<br>to temporarily lift a target you can see<br>up into the air and move them within<br>Close range of their original position.<br>Memory Scrub: Spend a Hope to force<br>a target within Melee range to make a<br>Reaction Roll (15). On a failure, you<br>overwrite, scramble, or suppress the<br>last minute of their short-term<br>memory, causing them to forget the<br>last minute of your conversation.<br>Repulsion Circle: Mark a Stress to<br>deploy a temporary repulsion field,<br>shock ring, or kinetic perimeter on the<br>ground where you stand. All<br>adversaries within Melee range, or who<br>enter Melee range, take 2d12+4 techno<br>damage and are knocked back to Very<br>Close range.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "*Korvax Control Suite",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:korvax-control-suite",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 72,
+        "pageEnd": 72,
+        "entityType": "competencyCard",
+        "slug": "korvax-control-suite",
+        "competency": "Systems",
+        "cardType": "Protocol Suite"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "*Korvax Control Suite",
+        "type": "domainCard",
+        "system.level": 3,
+        "system.domain": "systems",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:korvax-control-suite",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "1761555f69cee09d",
+  "folder": "16168180e8d1fa27",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1761555f69cee09d"
+}

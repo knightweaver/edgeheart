@@ -1,0 +1,96 @@
+{
+  "name": "Studying the Victim",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Choose a target within Far range.<br>When you succeed on an action roll<br>against them that doesn’t result in<br>making a damage roll, place a token on<br>this card.<br>When you deal damage to this target,<br>spend any number of tokens to add a<br>d12 for each token spent to your<br>damage roll.<br>You can only hold Studying the Victim<br>on one creature at a time.<br>When you choose a new target or take<br>a rest, clear all unspent tokens.</p>",
+    "level": 9,
+    "domain": "ghost",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "e1bcd4b711f1ac22": {
+        "type": "effect",
+        "_id": "e1bcd4b711f1ac22",
+        "systemPath": "actions",
+        "description": "<p>Choose a target within Far range.<br>When you succeed on an action roll<br>against them that doesn’t result in<br>making a damage roll, place a token on<br>this card.<br>When you deal damage to this target,<br>spend any number of tokens to add a<br>d12 for each token spent to your<br>damage roll.<br>You can only hold Studying the Victim<br>on one creature at a time.<br>When you choose a new target or take<br>a rest, clear all unspent tokens.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Studying the Victim",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Ghost:studying-the-victim",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 79,
+        "pageEnd": 79,
+        "entityType": "competencyCard",
+        "slug": "studying-the-victim",
+        "competency": "Ghost",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "ghost"
+        }
+      ],
+      "validationExpected": {
+        "name": "Studying the Victim",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "ghost",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:ghost:studying-the-victim",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e72282ed7522e35f",
+  "folder": "06fda20b36d3ac64",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e72282ed7522e35f"
+}

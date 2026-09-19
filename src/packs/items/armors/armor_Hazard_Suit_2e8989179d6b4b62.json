@@ -1,0 +1,97 @@
+{
+  "name": "Hazard Suit",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Sealed: You have advantage on rolls to resist smoke, poison, gas, contamination, disease, or environmental exposure.</p>",
+    "actions": {
+      "a73ea50b92f4cf1f": {
+        "type": "effect",
+        "_id": "a73ea50b92f4cf1f",
+        "systemPath": "actions",
+        "description": "<p>You have advantage on rolls to resist smoke, poison, gas, contamination, disease, or environmental exposure.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Sealed",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 1,
+    "equipped": false,
+    "baseScore": 3,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 6,
+      "severe": 13
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-hazard-suit",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 35,
+        "pageEnd": 35,
+        "entityType": "armor",
+        "slug": "hazard-suit",
+        "featureNames": [
+          "Sealed"
+        ]
+      },
+      "validationExpected": {
+        "name": "Hazard Suit",
+        "type": "armor",
+        "system.tier": 1,
+        "system.baseScore": 3,
+        "system.baseThresholds.major": 6,
+        "system.baseThresholds.severe": 13,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:hazard-suit",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2e8989179d6b4b62",
+  "folder": "cb6630db0117a857",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2e8989179d6b4b62"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Kill Confirmed",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, when you deal Severe damage to your marked target, they must mark an additional Hit Point. If this defeats them, you can immediately mark a new target as your marked target and set your Kill Chain Die to d10.</p>",
+    "actions": {
+      "5f69d02ad50411a5": {
+        "type": "effect",
+        "_id": "5f69d02ad50411a5",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, when you deal Severe damage to your marked target, they must mark an additional Hit Point. If this defeats them, you can immediately mark a new target as your marked target and set your Kill Chain Die to d10.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Kill Confirmed",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:deadeye:kill-confirmed",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 15
+      },
+      "deployment": {
+        "logicalKey": "feature:deadeye:kill-confirmed",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "3c52ac322616f9f2",
+  "folder": "ea76dd4d09c23aa9",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3c52ac322616f9f2"
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Light Exosuit",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Agile Frame: +1 to Evasion.</p>",
+    "actions": {
+      "8dbf967452ddb2c3": {
+        "type": "effect",
+        "_id": "8dbf967452ddb2c3",
+        "systemPath": "actions",
+        "description": "<p>+1 to Evasion.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Agile Frame",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 3,
+    "equipped": false,
+    "baseScore": 5,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 11,
+      "severe": 27
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-light-exosuit",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 36,
+        "pageEnd": 36,
+        "entityType": "armor",
+        "slug": "light-exosuit",
+        "featureNames": [
+          "Agile Frame"
+        ]
+      },
+      "validationExpected": {
+        "name": "Light Exosuit",
+        "type": "armor",
+        "system.tier": 3,
+        "system.baseScore": 5,
+        "system.baseThresholds.major": 11,
+        "system.baseThresholds.severe": 27,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:light-exosuit",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2421478f5865a5e5",
+  "folder": "aca2f20d6b860b47",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2421478f5865a5e5"
+}

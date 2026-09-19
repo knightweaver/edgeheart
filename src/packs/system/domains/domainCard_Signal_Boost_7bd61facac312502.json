@@ -1,0 +1,96 @@
+{
+  "name": "Signal Boost",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When an ally within Close range deals<br>damage to an adversary, you can make<br>an Interface Roll against that same<br>target.<br>On a success, you deal the same<br>damage to the target that your ally<br>dealt.<br>If your Interface Roll succeeds with<br>Fear, place this card in your vault.</p>",
+    "level": 10,
+    "domain": "influence",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "217829813179e338": {
+        "type": "effect",
+        "_id": "217829813179e338",
+        "systemPath": "actions",
+        "description": "<p>When an ally within Close range deals<br>damage to an adversary, you can make<br>an Interface Roll against that same<br>target.<br>On a success, you deal the same<br>damage to the target that your ally<br>dealt.<br>If your Interface Roll succeeds with<br>Fear, place this card in your vault.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Signal Boost",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:signal-boost",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 76,
+        "pageEnd": 76,
+        "entityType": "competencyCard",
+        "slug": "signal-boost",
+        "competency": "Influence",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Signal Boost",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "influence",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:signal-boost",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7bd61facac312502",
+  "folder": "6af72b7734c857e2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7bd61facac312502"
+}

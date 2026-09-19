@@ -1,0 +1,96 @@
+{
+  "name": "Restoration Suite",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>After a rest, place a number of tokens<br>equal to your Interface trait on this<br>card. Touch a creature and spend any<br>number of tokens to clear 1 HP or 1<br>Stress for each token spent.<br>You can also spend 2 token from this<br>card when touching a creature to clear<br>a condition or treat a physical,<br>cybernetic, or psychological ailment.<br>The GM might require additional<br>tokens depending on the severity of the<br>ailment. After a rest, clear all tokens.</p>",
+    "level": 6,
+    "domain": "medtech",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "c9fd79b925e83961": {
+        "type": "effect",
+        "_id": "c9fd79b925e83961",
+        "systemPath": "actions",
+        "description": "<p>After a rest, place a number of tokens<br>equal to your Interface trait on this<br>card. Touch a creature and spend any<br>number of tokens to clear 1 HP or 1<br>Stress for each token spent.<br>You can also spend 2 token from this<br>card when touching a creature to clear<br>a condition or treat a physical,<br>cybernetic, or psychological ailment.<br>The GM might require additional<br>tokens depending on the severity of the<br>ailment. After a rest, clear all tokens.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Restoration Suite",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:restoration-suite",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 83,
+        "pageEnd": 83,
+        "entityType": "competencyCard",
+        "slug": "restoration-suite",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Restoration Suite",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "medtech",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:restoration-suite",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "af62b5f11bebe3c5",
+  "folder": "01b1bde23f7dcc08",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!af62b5f11bebe3c5"
+}

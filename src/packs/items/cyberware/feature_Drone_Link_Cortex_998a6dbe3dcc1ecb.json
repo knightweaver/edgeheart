@@ -1,0 +1,88 @@
+{
+  "name": "Drone-Link Cortex",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 2</p><p>Gain Card Access to one Systems card of your level or lower. You can operate simple drones within Far range without using your hands.</p>",
+    "actions": {
+      "e2f62a52ca32ef7e": {
+        "type": "effect",
+        "_id": "e2f62a52ca32ef7e",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 2</p><p>Gain Card Access to one Systems card of your level or lower. You can operate simple drones within Far range without using your hands.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Drone-Link Cortex",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:drone-link-cortex",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 42,
+        "pageEnd": 42,
+        "entityType": "cyberware",
+        "slug": "drone-link-cortex",
+        "roll": 28,
+        "cyberCostRaw": "2",
+        "competencyAccess": {
+          "competency": "Systems",
+          "mode": "card",
+          "cardRestriction": "one Systems card of your level or lower"
+        },
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Drone-Link Cortex",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:drone-link-cortex",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "998a6dbe3dcc1ecb",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!998a6dbe3dcc1ecb"
+}

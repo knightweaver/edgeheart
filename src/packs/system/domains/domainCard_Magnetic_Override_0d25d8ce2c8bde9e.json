@@ -1,0 +1,96 @@
+{
+  "name": "Magnetic Override",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a target<br>within Far range.<br>On a success, you use magnetic force,<br>remote machinery, grav-tech,<br>industrial drones, or a heavy<br>manipulator array to move them<br>anywhere within Far range of their<br>original position.<br>You can throw the lifted target as an<br>attack by making an additional<br>Interface Roll against the second target<br>you’re trying to attack.<br>On a success, deal d12+4 physical<br>damage to the second target using<br>your Proficiency.<br>This protocol then ends.</p>",
+    "level": 6,
+    "domain": "systems",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "b40c8c07762f7cd3": {
+        "type": "effect",
+        "_id": "b40c8c07762f7cd3",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a target<br>within Far range.<br>On a success, you use magnetic force,<br>remote machinery, grav-tech,<br>industrial drones, or a heavy<br>manipulator array to move them<br>anywhere within Far range of their<br>original position.<br>You can throw the lifted target as an<br>attack by making an additional<br>Interface Roll against the second target<br>you’re trying to attack.<br>On a success, deal d12+4 physical<br>damage to the second target using<br>your Proficiency.<br>This protocol then ends.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Magnetic Override",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:magnetic-override",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 73,
+        "pageEnd": 73,
+        "entityType": "competencyCard",
+        "slug": "magnetic-override",
+        "competency": "Systems",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "Magnetic Override",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "systems",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:magnetic-override",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0d25d8ce2c8bde9e",
+  "folder": "60cfd41366334b3e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0d25d8ce2c8bde9e"
+}

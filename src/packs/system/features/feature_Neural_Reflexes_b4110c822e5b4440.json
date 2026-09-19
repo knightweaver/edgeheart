@@ -1,0 +1,72 @@
+{
+  "name": "Neural Reflexes",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you use Integrated Chrome on an Agility or Finesse Roll, you can immediately move within Very Close range after the roll resolves. If that roll succeeds with Hope, you can move within Close range instead.</p>",
+    "actions": {
+      "4ce09454225cbd3d": {
+        "type": "effect",
+        "_id": "4ce09454225cbd3d",
+        "systemPath": "actions",
+        "description": "<p>When you use Integrated Chrome on an Agility or Finesse Roll, you can immediately move within Very Close range after the roll resolves. If that roll succeeds with Hope, you can move within Close range instead.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Neural Reflexes",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:reflex-suite:neural-reflexes",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 17
+      },
+      "deployment": {
+        "logicalKey": "feature:reflex-suite:neural-reflexes",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "b4110c822e5b4440",
+  "folder": "1e25616ff33ab6c6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b4110c822e5b4440"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Fine Print",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Spend 3 Hope after you or an ally within Far range fails a Presence Roll. Reveal a secret, bribe, threat, or perfectly interruption. The failure becomes a success with Fear. If the failed roll was made directly against a creature, they also mark 1 Stress.</p>",
+    "actions": {
+      "422763ab8852f71c": {
+        "type": "effect",
+        "_id": "422763ab8852f71c",
+        "systemPath": "actions",
+        "description": "<p>Spend 3 Hope after you or an ally within Far range fails a Presence Roll. Reveal a secret, bribe, threat, or perfectly interruption. The failure becomes a success with Fear. If the failed roll was made directly against a creature, they also mark 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Fine Print",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:broker:fine-print",
+      "source": {
+        "featureStage": "hope",
+        "sourcePage": 21
+      },
+      "deployment": {
+        "logicalKey": "feature:broker:fine-print",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "dfd45881d44ec13e",
+  "folder": "59287ec1ff48d6f2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!dfd45881d44ec13e"
+}

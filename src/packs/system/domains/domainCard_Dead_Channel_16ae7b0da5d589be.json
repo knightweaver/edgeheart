@@ -1,0 +1,96 @@
+{
+  "name": "Dead Channel",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You let a corrupted AI speak through a<br>dead channel, broken speaker, or<br>hijacked implant to torment a target.<br>Make an Interface Roll against a<br>creature you can see. On a success,<br>they must mark a Stress and become<br>temporarily Vulnerable.</p>",
+    "level": 1,
+    "domain": "blackwall",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "5fdd07d535c47781": {
+        "type": "effect",
+        "_id": "5fdd07d535c47781",
+        "systemPath": "actions",
+        "description": "<p>You let a corrupted AI speak through a<br>dead channel, broken speaker, or<br>hijacked implant to torment a target.<br>Make an Interface Roll against a<br>creature you can see. On a success,<br>they must mark a Stress and become<br>temporarily Vulnerable.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Dead Channel",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:dead-channel",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 88,
+        "pageEnd": 88,
+        "entityType": "competencyCard",
+        "slug": "dead-channel",
+        "competency": "Blackwall",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "Dead Channel",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "blackwall",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:dead-channel",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "16ae7b0da5d589be",
+  "folder": "f8981f4eb95522f0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!16ae7b0da5d589be"
+}

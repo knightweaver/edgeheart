@@ -1,0 +1,96 @@
+{
+  "name": "Neuromuscular Lock",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, mark a<br>Stress as you attack the target&#x27;s<br>muscles, cyberware, nerves, blood<br>pressure, or motor control.<br>The target becomes temporarily<br>Restrained and temporarily Vulnerable.<br>Each time the target is spotlighted<br>while either of these conditions<br>persists on them, they take d10 techno<br>damage using your Proficiency.<br>This protocol ends early on the target if<br>you use it again.</p>",
+    "level": 6,
+    "domain": "redline",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "5d008733b30a2062": {
+        "type": "effect",
+        "_id": "5d008733b30a2062",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, mark a<br>Stress as you attack the target&#x27;s<br>muscles, cyberware, nerves, blood<br>pressure, or motor control.<br>The target becomes temporarily<br>Restrained and temporarily Vulnerable.<br>Each time the target is spotlighted<br>while either of these conditions<br>persists on them, they take d10 techno<br>damage using your Proficiency.<br>This protocol ends early on the target if<br>you use it again.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Neuromuscular Lock",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:neuromuscular-lock",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 87,
+        "pageEnd": 87,
+        "entityType": "competencyCard",
+        "slug": "neuromuscular-lock",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Neuromuscular Lock",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "redline",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:neuromuscular-lock",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2ae8cbcb61f795bd",
+  "folder": "9602fbf007687d95",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2ae8cbcb61f795bd"
+}

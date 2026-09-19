@@ -1,0 +1,96 @@
+{
+  "name": "Grapple Snare",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a target<br>within Close range and choose one:<br>1- You pull the target into Melee range<br>or pull yourself into Melee range of it.<br>2- You constrict the target and force<br>them to mark 2 Stress.<br>3- All adversaries between you and the<br>target must succeed on a Reaction Roll<br>(13) or be caught by cables taking<br>3d6+2 physical damage.<br>On a success, the snare reaches out<br>from your hands, gear, vehicle, or<br>drone, causing the chosen effect and<br>temporarily Restraining the target.</p>",
+    "level": 4,
+    "domain": "frontier",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "f69251c04871690a": {
+        "type": "effect",
+        "_id": "f69251c04871690a",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a target<br>within Close range and choose one:<br>1- You pull the target into Melee range<br>or pull yourself into Melee range of it.<br>2- You constrict the target and force<br>them to mark 2 Stress.<br>3- All adversaries between you and the<br>target must succeed on a Reaction Roll<br>(13) or be caught by cables taking<br>3d6+2 physical damage.<br>On a success, the snare reaches out<br>from your hands, gear, vehicle, or<br>drone, causing the chosen effect and<br>temporarily Restraining the target.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Grapple Snare",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:grapple-snare",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 80,
+        "pageEnd": 80,
+        "entityType": "competencyCard",
+        "slug": "grapple-snare",
+        "competency": "Frontier",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Grapple Snare",
+        "type": "domainCard",
+        "system.level": 4,
+        "system.domain": "frontier",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:grapple-snare",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "61ade79f2903a46f",
+  "folder": "2278b917b15a3c4a",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!61ade79f2903a46f"
+}

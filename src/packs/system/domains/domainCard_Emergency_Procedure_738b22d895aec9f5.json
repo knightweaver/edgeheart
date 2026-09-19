@@ -1,0 +1,96 @@
+{
+  "name": "Emergency Procedure",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (13) and target a<br>creature other than yourself within<br>Melee range.<br>On a success, mark a Stress to clear 2<br>HP or 2 Stress on the target. On a<br>failure, mark a Stress to clear a HP ora<br>Stress on the target.<br>You can’t heal the same target with<br>Emergency Procedure again until your</p>",
+    "level": 2,
+    "domain": "medtech",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "71c717d58689da7e": {
+        "type": "effect",
+        "_id": "71c717d58689da7e",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (13) and target a<br>creature other than yourself within<br>Melee range.<br>On a success, mark a Stress to clear 2<br>HP or 2 Stress on the target. On a<br>failure, mark a Stress to clear a HP ora<br>Stress on the target.<br>You can’t heal the same target with<br>Emergency Procedure again until your</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Emergency Procedure",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:emergency-procedure",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 82,
+        "pageEnd": 82,
+        "entityType": "competencyCard",
+        "slug": "emergency-procedure",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Emergency Procedure",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "medtech",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:emergency-procedure",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "738b22d895aec9f5",
+  "folder": "c59f6e5e0278f77a",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!738b22d895aec9f5"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Combat Medic",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as a Combat Medic if you want to keep the crew alive and perform emergency treatment in the middle of combat.</p>",
+    "spellcastingTrait": "instinct",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:combat-medic:rapid-response"
+      },
+      {
+        "type": "foundation",
+        "ref": "feature:combat-medic:field-extraction"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:combat-medic:mass-casualty-protocol"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:combat-medic:combat-triage"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:trauma-doc"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:combat-medic",
+      "source": {
+        "entityType": "subclass",
+        "slug": "combat-medic",
+        "parentClass": "Trauma Doc"
+      },
+      "deployment": {
+        "logicalKey": "subclass:combat-medic",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "ba794d11bf1cda7f",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ba794d11bf1cda7f"
+}

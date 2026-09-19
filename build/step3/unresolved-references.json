@@ -1,0 +1,1023 @@
+{
+  "schemaVersion": "1.0",
+  "buildStep": 3,
+  "status": "INTENTIONALLY_UNRESOLVED_FOR_STEP_4",
+  "count": 145,
+  "references": [
+    {
+      "ownerLogicalKey": "ancestry:black-clinic-survivor",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:black-clinic-survivor:scar-tissue",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "black-clinic-survivor.ancestry.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "ancestry:black-clinic-survivor",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:black-clinic-survivor:emergency-rebuild",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "black-clinic-survivor.ancestry.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "ancestry:corpo-raised",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:corpo-raised:corporate-design",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "corpo-raised.ancestry.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "ancestry:corpo-raised",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:corpo-raised:efficient-routine",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "corpo-raised.ancestry.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "ancestry:military-surplus",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:military-surplus:combat-reactions",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "military-surplus.ancestry.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "ancestry:military-surplus",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:military-surplus:last-one-standing",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "military-surplus.ancestry.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "ancestry:nomad",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:nomad:road-sprint",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "nomad.ancestry.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "ancestry:nomad",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:nomad:off-road-born",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "nomad.ancestry.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "ancestry:streetborn",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:streetborn:alley-reflexes",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "streetborn.ancestry.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "ancestry:streetborn",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:streetborn:cheap-shot",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "streetborn.ancestry.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "ancestry:wasteland-native",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:wasteland-native:hazard-bred",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "wasteland-native.ancestry.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "ancestry:wasteland-native",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:wasteland-native:hard-as-nails",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "wasteland-native.ancestry.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:augmented",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:chrome",
+      "kind": "external-domain-registration-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:augmented",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:augmented:chrome-surge",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:augmented",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:augmented:integrated-chrome",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:augmented",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:reflex-suite",
+      "kind": "bundle-membership-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:augmented",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:titan-frame",
+      "kind": "bundle-membership-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:broker",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:influence",
+      "kind": "external-domain-registration-reference",
+      "bundle": "broker.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:broker",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:broker:fine-print",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "broker.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:broker",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:broker:terms-of-engagement",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "broker.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:broker",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:fixer",
+      "kind": "bundle-membership-reference",
+      "bundle": "broker.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:broker",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:icon",
+      "kind": "bundle-membership-reference",
+      "bundle": "broker.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:infiltrator",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:ghost",
+      "kind": "external-domain-registration-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:infiltrator",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:infiltrator:clean-exit",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:infiltrator",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:infiltrator:cover-work",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:infiltrator",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:phantom",
+      "kind": "bundle-membership-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:infiltrator",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:silent-killer",
+      "kind": "bundle-membership-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:reclaimer",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:frontier",
+      "kind": "external-domain-registration-reference",
+      "bundle": "reclaimer.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:reclaimer",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:reclaimer:home-ground",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "reclaimer.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:reclaimer",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:reclaimer:surveyed-route",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "reclaimer.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:reclaimer",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:outrider",
+      "kind": "bundle-membership-reference",
+      "bundle": "reclaimer.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:reclaimer",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:zonebreaker",
+      "kind": "bundle-membership-reference",
+      "bundle": "reclaimer.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:runner",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:network",
+      "kind": "external-domain-registration-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:runner",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:runner:zero-day",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:runner",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:runner:hold-your-breach",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:runner",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:runner:exploit",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:runner",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:breach-specialist",
+      "kind": "bundle-membership-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:runner",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:net-diver",
+      "kind": "bundle-membership-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:solo",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:assault",
+      "kind": "external-domain-registration-reference",
+      "bundle": "solo.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:solo",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:solo:fire-superiority",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "solo.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:solo",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:solo:kill-chain",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "solo.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:solo",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:deadeye",
+      "kind": "bundle-membership-reference",
+      "bundle": "solo.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:solo",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:shock-trooper",
+      "kind": "bundle-membership-reference",
+      "bundle": "solo.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:tech",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:systems",
+      "kind": "external-domain-registration-reference",
+      "bundle": "tech.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:tech",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:tech:make-it-work",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "tech.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:tech",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:tech:jury-rig",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "tech.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:tech",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:rigger",
+      "kind": "bundle-membership-reference",
+      "bundle": "tech.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:tech",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:saboteur",
+      "kind": "bundle-membership-reference",
+      "bundle": "tech.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:trauma-doc",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:medtech",
+      "kind": "external-domain-registration-reference",
+      "bundle": "trauma-doc.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:trauma-doc",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:trauma-doc:stay-with-me",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "trauma-doc.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:trauma-doc",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:trauma-doc:emergency-medicine",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "trauma-doc.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:trauma-doc",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:combat-medic",
+      "kind": "bundle-membership-reference",
+      "bundle": "trauma-doc.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:trauma-doc",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:street-surgeon",
+      "kind": "bundle-membership-reference",
+      "bundle": "trauma-doc.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:warden",
+      "jsonPath": "$.system.domains[]",
+      "targetLogicalKey": "domain:aegis",
+      "kind": "external-domain-registration-reference",
+      "bundle": "warden.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:warden",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:warden:not-today",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "warden.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:warden",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:warden:guardian-protocol",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "warden.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:warden",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:bulwark",
+      "kind": "bundle-membership-reference",
+      "bundle": "warden.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "class:warden",
+      "jsonPath": "$.system.subclasses[]",
+      "targetLogicalKey": "subclass:riotbreaker",
+      "kind": "bundle-membership-reference",
+      "bundle": "warden.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "community:black-clinic",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:black-clinic:chillax",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "black-clinic.community.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "community:corporate-asset",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:corporate-asset:elite-privilege",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "corporate-asset.community.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "community:data-cult",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:data-cult:forbidden-pattern",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "data-cult.community.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "community:fixer-network",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:fixer-network:know-the-deal",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "fixer-network.community.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "community:gang-tied",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:gang-tied:street-wise",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "gang-tied.community.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "community:mercenary-network",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:mercenary-network:unbound",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "mercenary-network.community.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "community:nomad-convoy",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:nomad-convoy:law-of-the-road",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "nomad-convoy.community.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "community:resistance-cell",
+      "jsonPath": "$.system.features[0]",
+      "targetLogicalKey": "feature:resistance-cell:found-family",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "resistance-cell.community.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:breach-specialist",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:breach-specialist:exploit-payload",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:breach-specialist",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:breach-specialist:hard-crash",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:breach-specialist",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:breach-specialist:cascade-breach",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:breach-specialist",
+      "jsonPath": "$.system.features[3].ref",
+      "targetLogicalKey": "feature:breach-specialist:rootkill",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:breach-specialist",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:runner",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:bulwark",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:bulwark:impact-frame",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "warden.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:bulwark",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:bulwark:hard-to-break",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "warden.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:bulwark",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:bulwark:unbreakable-frame",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "warden.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:bulwark",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:warden",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "warden.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:combat-medic",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:combat-medic:rapid-response",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "trauma-doc.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:combat-medic",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:combat-medic:field-extraction",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "trauma-doc.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:combat-medic",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:combat-medic:mass-casualty-protocol",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "trauma-doc.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:combat-medic",
+      "jsonPath": "$.system.features[3].ref",
+      "targetLogicalKey": "feature:combat-medic:combat-triage",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "trauma-doc.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:combat-medic",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:trauma-doc",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "trauma-doc.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:deadeye",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:deadeye:marked-target",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "solo.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:deadeye",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:deadeye:called-shot",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "solo.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:deadeye",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:deadeye:kill-confirmed",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "solo.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:deadeye",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:solo",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "solo.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:fixer",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:fixer:black-market-network",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "broker.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:fixer",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:fixer:contacts-everywhere",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "broker.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:fixer",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:fixer:everybody-owes-somebody",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "broker.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:fixer",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:broker",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "broker.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:icon",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:icon:public-persona",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "broker.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:icon",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:icon:live-feed",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "broker.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:icon",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:icon:living-brand",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "broker.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:icon",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:broker",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "broker.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:net-diver",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:net-diver:deep-dive",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:net-diver",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:net-diver:virtual-overwatch",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:net-diver",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:net-diver:blackout-cascade",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:net-diver",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:runner",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "runner.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:outrider",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:outrider:signature-vehicle",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "reclaimer.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:outrider",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:outrider:stunt-driver",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "reclaimer.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:outrider",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:outrider:drive-off",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "reclaimer.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:outrider",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:reclaimer",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "reclaimer.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:phantom",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:phantom:ghost-route",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:phantom",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:phantom:now-you-see-me",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:phantom",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:phantom:extraction-window",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:phantom",
+      "jsonPath": "$.system.features[3].ref",
+      "targetLogicalKey": "feature:phantom:impossible-exit",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:phantom",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:infiltrator",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:reflex-suite",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:reflex-suite:neural-reflexes",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:reflex-suite",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:reflex-suite:fast-enough",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:reflex-suite",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:reflex-suite:motion-blur",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:reflex-suite",
+      "jsonPath": "$.system.features[3].ref",
+      "targetLogicalKey": "feature:reflex-suite:accelerated-loop",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:reflex-suite",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:augmented",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:rigger",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:rigger:companion-drone",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "tech.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:rigger",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:rigger:remote-hands",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "tech.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:rigger",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:rigger:drone-network",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "tech.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:rigger",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:tech",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "tech.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:riotbreaker",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:riotbreaker:crowd-control",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "warden.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:riotbreaker",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:riotbreaker:hard-stop",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "warden.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:riotbreaker",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:riotbreaker:break-the-line",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "warden.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:riotbreaker",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:warden",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "warden.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:saboteur",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:saboteur:planted-charge",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "tech.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:saboteur",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:saboteur:cascading-failure",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "tech.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:saboteur",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:saboteur:controlled-demolition",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "tech.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:saboteur",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:tech",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "tech.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:shock-trooper",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:shock-trooper:breach-momentum",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "solo.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:shock-trooper",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:shock-trooper:hard-entry",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "solo.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:shock-trooper",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:shock-trooper:clear-the-line",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "solo.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:shock-trooper",
+      "jsonPath": "$.system.features[3].ref",
+      "targetLogicalKey": "feature:shock-trooper:no-way-back",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "solo.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:shock-trooper",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:solo",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "solo.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:silent-killer",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:silent-killer:opening-strike",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:silent-killer",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:silent-killer:no-witnesses",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:silent-killer",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:silent-killer:kill-window",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:silent-killer",
+      "jsonPath": "$.system.features[3].ref",
+      "targetLogicalKey": "feature:silent-killer:perfect-ambush",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:silent-killer",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:infiltrator",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "infiltrator.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:street-surgeon",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:street-surgeon:black-clinic-procedure",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "trauma-doc.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:street-surgeon",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:street-surgeon:bad-medicine",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "trauma-doc.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:street-surgeon",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:street-surgeon:miracle-cocktail",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "trauma-doc.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:street-surgeon",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:trauma-doc",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "trauma-doc.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:titan-frame",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:titan-frame:reinforced-build",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:titan-frame",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:titan-frame:load-bearing-body",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:titan-frame",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:titan-frame:impact-absorbers",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:titan-frame",
+      "jsonPath": "$.system.features[3].ref",
+      "targetLogicalKey": "feature:titan-frame:heavy-chrome-walking",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:titan-frame",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:augmented",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "augmented.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:zonebreaker",
+      "jsonPath": "$.system.features[0].ref",
+      "targetLogicalKey": "feature:zonebreaker:field-salvage",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "reclaimer.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:zonebreaker",
+      "jsonPath": "$.system.features[1].ref",
+      "targetLogicalKey": "feature:zonebreaker:bad-ground",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "reclaimer.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:zonebreaker",
+      "jsonPath": "$.system.features[2].ref",
+      "targetLogicalKey": "feature:zonebreaker:dead-zone",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "reclaimer.bundle.json"
+    },
+    {
+      "ownerLogicalKey": "subclass:zonebreaker",
+      "jsonPath": "$.system.linkedClass",
+      "targetLogicalKey": "class:reclaimer",
+      "kind": "bundle-symbolic-reference",
+      "bundle": "reclaimer.bundle.json"
+    }
+  ]
+}

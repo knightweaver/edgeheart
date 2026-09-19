@@ -1,0 +1,96 @@
+{
+  "name": "Black Route",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (15). On a success, you map, open, or prepare a covert route through the area.<br>Until your next rest, you and any allies you guide can use this route to move between your current location and another one within Very Far range that you have already reached in this scene.<br>While using the route, you and allies you guide have advantage on rolls to avoid detection, bypass mundane security, or escape pursuit.<br>This route stays available until you choose to close it or the GM spends a Fear to reveal that the route has been compromised.</p>",
+    "level": 6,
+    "domain": "ghost",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "cfdc4448e3488764": {
+        "type": "effect",
+        "_id": "cfdc4448e3488764",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (15). On a success, you map, open, or prepare a covert route through the area.<br>Until your next rest, you and any allies you guide can use this route to move between your current location and another one within Very Far range that you have already reached in this scene.<br>While using the route, you and allies you guide have advantage on rolls to avoid detection, bypass mundane security, or escape pursuit.<br>This route stays available until you choose to close it or the GM spends a Fear to reveal that the route has been compromised.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Black Route",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Ghost:black-route",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 78,
+        "pageEnd": 78,
+        "entityType": "competencyCard",
+        "slug": "black-route",
+        "competency": "Ghost",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "ghost"
+        }
+      ],
+      "validationExpected": {
+        "name": "Black Route",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "ghost",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:ghost:black-route",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "33458d78b9ed1250",
+  "folder": "ef78e6d12364f4ea",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!33458d78b9ed1250"
+}

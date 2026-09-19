@@ -1,0 +1,72 @@
+{
+  "name": "Drone Network",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, deploy a drone network until the scene ends or you take Severe damage. While active:<br>• Your drone can operate within Very Far range.<br>• Jury-Rig used through it may apply two effects.<br>• When an ally within Close range of it takes damage, mark a Stress to reduce that damage by 1d8.</p>",
+    "actions": {
+      "896d26ec046fac9a": {
+        "type": "effect",
+        "_id": "896d26ec046fac9a",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, deploy a drone network until the scene ends or you take Severe damage. While active:<br>• Your drone can operate within Very Far range.<br>• Jury-Rig used through it may apply two effects.<br>• When an ally within Close range of it takes damage, mark a Stress to reduce that damage by 1d8.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Drone Network",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:rigger:drone-network",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 19
+      },
+      "deployment": {
+        "logicalKey": "feature:rigger:drone-network",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "88f76d5550a141f9",
+  "folder": "08439cf13d495dab",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!88f76d5550a141f9"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Cascading Failure",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>You can have two active charges. When one is triggered:<br>• Breach: You or an ally Close to it may immediately move within Close range.<br>• Disable: An adversary using the target also marks 1 Stress.<br>• Disrupt: The affected adversary has disadvantage on their next action roll before your next Spotlight.</p>",
+    "actions": {
+      "9e5567f5e3b294e4": {
+        "type": "effect",
+        "_id": "9e5567f5e3b294e4",
+        "systemPath": "actions",
+        "description": "<p>You can have two active charges. When one is triggered:<br>• Breach: You or an ally Close to it may immediately move within Close range.<br>• Disable: An adversary using the target also marks 1 Stress.<br>• Disrupt: The affected adversary has disadvantage on their next action roll before your next Spotlight.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Cascading Failure",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:saboteur:cascading-failure",
+      "source": {
+        "featureStage": "specialization",
+        "sourcePage": 20
+      },
+      "deployment": {
+        "logicalKey": "feature:saboteur:cascading-failure",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "b57d7df1e722910a",
+  "folder": "3f589584f7a8e698",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b57d7df1e722910a"
+}

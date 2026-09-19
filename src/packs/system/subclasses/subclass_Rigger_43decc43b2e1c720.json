@@ -1,0 +1,59 @@
+{
+  "name": "Rigger",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as a Rigger if you want to control drones, operate machines remotely, and support allies through equipment.</p>",
+    "spellcastingTrait": "knowledge",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:rigger:companion-drone"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:rigger:remote-hands"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:rigger:drone-network"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:tech"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:rigger",
+      "source": {
+        "entityType": "subclass",
+        "slug": "rigger",
+        "parentClass": "Tech"
+      },
+      "deployment": {
+        "logicalKey": "subclass:rigger",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "43decc43b2e1c720",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!43decc43b2e1c720"
+}

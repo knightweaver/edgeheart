@@ -1,0 +1,72 @@
+{
+  "name": "Clean Exit",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Spend 3 Hope when you would be discovered, trigger an alarm, or be targeted by an attack. You immediately become Hidden and move to a point within Close range. If this was triggered by an attack, the attack has disadvantage. If this was triggered by discovery or an alarm, it is delayed until your next Spotlight.</p>",
+    "actions": {
+      "06c827108a37e986": {
+        "type": "effect",
+        "_id": "06c827108a37e986",
+        "systemPath": "actions",
+        "description": "<p>Spend 3 Hope when you would be discovered, trigger an alarm, or be targeted by an attack. You immediately become Hidden and move to a point within Close range. If this was triggered by an attack, the attack has disadvantage. If this was triggered by discovery or an alarm, it is delayed until your next Spotlight.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Clean Exit",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:infiltrator:clean-exit",
+      "source": {
+        "featureStage": "hope",
+        "sourcePage": 13
+      },
+      "deployment": {
+        "logicalKey": "feature:infiltrator:clean-exit",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "fe9a635324760435",
+  "folder": "4a12de1c458f2956",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fe9a635324760435"
+}

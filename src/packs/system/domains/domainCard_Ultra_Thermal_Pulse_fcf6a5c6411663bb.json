@@ -1,0 +1,96 @@
+{
+  "name": "Ultra Thermal Pulse",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (18). Once per<br>long rest on a success, the GM tells you<br>which adversaries within Far range<br>have a Difficulty of 18 or lower.<br>Mark a Stress for each one you wish to<br>hit with this protocol. They are<br>instantly killed.<br>eee eEEEE</p>",
+    "level": 9,
+    "domain": "systems",
+    "recallCost": 4,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "1aad8e453c222eaf": {
+        "type": "effect",
+        "_id": "1aad8e453c222eaf",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (18). Once per<br>long rest on a success, the GM tells you<br>which adversaries within Far range<br>have a Difficulty of 18 or lower.<br>Mark a Stress for each one you wish to<br>hit with this protocol. They are<br>instantly killed.<br>eee eEEEE</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Ultra Thermal Pulse",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:ultra-thermal-pulse",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 74,
+        "pageEnd": 74,
+        "entityType": "competencyCard",
+        "slug": "ultra-thermal-pulse",
+        "competency": "Systems",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "Ultra Thermal Pulse",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "systems",
+        "system.recallCost": 4,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:ultra-thermal-pulse",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "fcf6a5c6411663bb",
+  "folder": "15eb09e0aff325df",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fcf6a5c6411663bb"
+}

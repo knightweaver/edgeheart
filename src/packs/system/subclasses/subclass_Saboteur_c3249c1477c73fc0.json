@@ -1,0 +1,59 @@
+{
+  "name": "Saboteur",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as a Saboteur if you want to plant charges, disable defenses, and turn the environment against your enemies.</p>",
+    "spellcastingTrait": "finesse",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:saboteur:planted-charge"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:saboteur:cascading-failure"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:saboteur:controlled-demolition"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:tech"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:saboteur",
+      "source": {
+        "entityType": "subclass",
+        "slug": "saboteur",
+        "parentClass": "Tech"
+      },
+      "deployment": {
+        "logicalKey": "subclass:saboteur",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "c3249c1477c73fc0",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c3249c1477c73fc0"
+}

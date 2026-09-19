@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Origin Features",
+  "color": null,
+  "sorting": "a",
+  "_id": "e7911bbb74ef8c39",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:features:origin-features",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!e7911bbb74ef8c39"
+}

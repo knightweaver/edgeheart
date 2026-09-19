@@ -1,0 +1,84 @@
+{
+  "name": "Aegis Threat Mesh - Guard Charge",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 2</p><p>When you roll with Hope using an Aegis card or protecting something, gain 1 Guard Charge, max 2. When an ally within Close range is targeted by an attack, spend 1 Charge to give them +1 Evasion. If you spent 2 Charges and the attack hits, reduce the damage by 1.</p>",
+    "actions": {
+      "aa9a248f567d35ac": {
+        "type": "effect",
+        "_id": "aa9a248f567d35ac",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 2</p><p>When you roll with Hope using an Aegis card or protecting something, gain 1 Guard Charge, max 2. When an ally within Close range is targeted by an attack, spend 1 Charge to give them +1 Evasion. If you spent 2 Charges and the attack hits, reduce the damage by 1.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Aegis Threat Mesh - Guard Charge",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:aegis-threat-mesh-guard-charge",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 43,
+        "pageEnd": 43,
+        "entityType": "cyberware",
+        "slug": "aegis-threat-mesh-guard-charge",
+        "roll": 36,
+        "cyberCostRaw": "2",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Aegis Threat Mesh - Guard Charge",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:aegis-threat-mesh-guard-charge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "271a49c485a0b630",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!271a49c485a0b630"
+}

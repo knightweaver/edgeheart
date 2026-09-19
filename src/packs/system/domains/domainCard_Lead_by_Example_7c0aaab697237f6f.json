@@ -1,0 +1,96 @@
+{
+  "name": "Lead by Example",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you deal damage to an<br>adversary, you can mark a Stress and<br>describe how you encourage your<br>allies, draw fire, expose a weakness, or<br>prove the enemy can be broken.<br>The next PC to make an attack against<br>that adversary can clear a Stress or<br>gain a Hope.</p>",
+    "level": 9,
+    "domain": "aegis",
+    "recallCost": 3,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "2019d27dcb643d06": {
+        "type": "effect",
+        "_id": "2019d27dcb643d06",
+        "systemPath": "actions",
+        "description": "<p>When you deal damage to an<br>adversary, you can mark a Stress and<br>describe how you encourage your<br>allies, draw fire, expose a weakness, or<br>prove the enemy can be broken.<br>The next PC to make an attack against<br>that adversary can clear a Stress or<br>gain a Hope.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Lead by Example",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Aegis:lead-by-example",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 85,
+        "pageEnd": 85,
+        "entityType": "competencyCard",
+        "slug": "lead-by-example",
+        "competency": "Aegis",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "aegis"
+        }
+      ],
+      "validationExpected": {
+        "name": "Lead by Example",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "aegis",
+        "system.recallCost": 3,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:aegis:lead-by-example",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7c0aaab697237f6f",
+  "folder": "5a54be59c27da150",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7c0aaab697237f6f"
+}

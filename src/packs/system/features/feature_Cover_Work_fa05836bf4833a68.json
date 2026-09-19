@@ -1,0 +1,72 @@
+{
+  "name": "Cover Work",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>You have a resource called Cover. When you roll with Hope while using a Ghost card, using stealth, disguise, misdirection, or a prepared route, gain 1 Cover. You can hold up to 3 Cover.</p><p>Spend 1 Cover to do one of the following:<br>• Setup: Gain a +2 bonus to a roll made to hide, infiltrate, sabotage, impersonate someone, or bypass security.<br>• Takedown: Add 1d6 to the damage roll when you deal damage to a target you are Hidden from, that is unaware of you, or that is Vulnerable.</p><p>You lose all unspent Cover when the scene ends.</p>",
+    "actions": {
+      "1c37e2f16c34cb01": {
+        "type": "effect",
+        "_id": "1c37e2f16c34cb01",
+        "systemPath": "actions",
+        "description": "<p>You have a resource called Cover. When you roll with Hope while using a Ghost card, using stealth, disguise, misdirection, or a prepared route, gain 1 Cover. You can hold up to 3 Cover.</p><p>Spend 1 Cover to do one of the following:<br>• Setup: Gain a +2 bonus to a roll made to hide, infiltrate, sabotage, impersonate someone, or bypass security.<br>• Takedown: Add 1d6 to the damage roll when you deal damage to a target you are Hidden from, that is unaware of you, or that is Vulnerable.</p><p>You lose all unspent Cover when the scene ends.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Cover Work",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:infiltrator:cover-work",
+      "source": {
+        "featureStage": "class",
+        "sourcePage": 13
+      },
+      "deployment": {
+        "logicalKey": "feature:infiltrator:cover-work",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "fa05836bf4833a68",
+  "folder": "4a12de1c458f2956",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fa05836bf4833a68"
+}

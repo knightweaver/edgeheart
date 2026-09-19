@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "216490cef1e420a4",
+  "name": "Level 8",
+  "color": null,
+  "sorting": "a",
+  "_id": "8ee3fac408fc07f3",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-assault-level-8",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!8ee3fac408fc07f3"
+}

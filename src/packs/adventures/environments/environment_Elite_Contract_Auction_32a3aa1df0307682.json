@@ -1,0 +1,141 @@
+{
+  "name": "Elite Contract Auction",
+  "type": "environment",
+  "img": "icons/svg/door-exit.svg",
+  "system": {
+    "description": "A secret auction where corps, gangs, digital cults, and mercenary legends bid on a person, weapon, AI shard, or Eidolon key.",
+    "tier": 4,
+    "type": "social",
+    "difficulty": 20,
+    "notes": "",
+    "impulses": [
+      "Tempt",
+      "betray",
+      "expose identities"
+    ],
+    "potentialAdversaries": [
+      "Board Executive",
+      "Chrome Reaper",
+      "Data Cult Oracle",
+      "Rival Edgerunner Crew"
+    ],
+    "features": [
+      {
+        "_id": "e148064630b1e461",
+        "name": "Everyone Wants It",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Every faction present has a different objective. When PCs create an opening, other faction may exploit it.\n\nWho is bidding with blood instead of credits?",
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "49fde8b113bcbd2e",
+        "name": "Raise the Price",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Reveal a new cost: hostage, debt, public exposure, cyberware key, blackmail, or a rival bid.\n\nWhat is the real price?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "7acc219a7bed569d",
+        "name": "Masks Off",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "When a PC rolls with Fear, reveal a hidden identity, disguised enemy, double agent, or secret buyer.\n\nWho was never supposed to be here?",
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "tags": [],
+    "bonuses": {}
+  },
+  "prototypeToken": null,
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:environment:elite-contract-auction",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 57,
+        "pageEnd": 57,
+        "entityType": "environment",
+        "slug": "elite-contract-auction"
+      },
+      "validationExpected": {
+        "name": "Elite Contract Auction",
+        "type": "environment",
+        "system.tier": 4,
+        "system.type": "social",
+        "system.difficulty": 20,
+        "system.featuresCount": 3
+      },
+      "deployment": {
+        "logicalKey": "environment:elite-contract-auction",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "32a3aa1df0307682",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!32a3aa1df0307682"
+}

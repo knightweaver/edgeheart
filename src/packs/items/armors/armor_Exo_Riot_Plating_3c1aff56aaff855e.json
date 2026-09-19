@@ -1,0 +1,97 @@
+{
+  "name": "Exo-Riot Plating",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Anchored: You have advantage on rolls to resist being pushed, knocked down, moved, or Restrained.</p>",
+    "actions": {
+      "001597d348749a7c": {
+        "type": "effect",
+        "_id": "001597d348749a7c",
+        "systemPath": "actions",
+        "description": "<p>You have advantage on rolls to resist being pushed, knocked down, moved, or Restrained.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Anchored",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "baseScore": 5,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 10,
+      "severe": 24
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-exo-riot-plating",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 35,
+        "pageEnd": 35,
+        "entityType": "armor",
+        "slug": "exo-riot-plating",
+        "featureNames": [
+          "Anchored"
+        ]
+      },
+      "validationExpected": {
+        "name": "Exo-Riot Plating",
+        "type": "armor",
+        "system.tier": 2,
+        "system.baseScore": 5,
+        "system.baseThresholds.major": 10,
+        "system.baseThresholds.severe": 24,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:exo-riot-plating",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "3c1aff56aaff855e",
+  "folder": "f2396412f668609d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3c1aff56aaff855e"
+}

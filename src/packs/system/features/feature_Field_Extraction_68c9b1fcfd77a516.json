@@ -1,0 +1,72 @@
+{
+  "name": "Field Extraction",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you successfully use Emergency Medicine on a creature, you can immediately move them within Very Close range. This movement can place them behind cover, out of immediate danger, or away from enemy vision.</p>",
+    "actions": {
+      "c55fd3de6d0b24aa": {
+        "type": "effect",
+        "_id": "c55fd3de6d0b24aa",
+        "systemPath": "actions",
+        "description": "<p>When you successfully use Emergency Medicine on a creature, you can immediately move them within Very Close range. This movement can place them behind cover, out of immediate danger, or away from enemy vision.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Field Extraction",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:combat-medic:field-extraction",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 25
+      },
+      "deployment": {
+        "logicalKey": "feature:combat-medic:field-extraction",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "68c9b1fcfd77a516",
+  "folder": "f8218c4725d2102a",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!68c9b1fcfd77a516"
+}

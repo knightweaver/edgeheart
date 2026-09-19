@@ -1,0 +1,96 @@
+{
+  "name": "Public Provocation",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you provoke, taunt, expose, or<br>bait a target within Far range, make a<br>Presence Roll against them.<br>Once per rest on a success, roll a<br>number of d4s equal to your<br>Proficiency. The target marks Stress<br>equal to the highest result rolled.</p>",
+    "level": 2,
+    "domain": "influence",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "c0251b2dbec88845": {
+        "type": "effect",
+        "_id": "c0251b2dbec88845",
+        "systemPath": "actions",
+        "description": "<p>When you provoke, taunt, expose, or<br>bait a target within Far range, make a<br>Presence Roll against them.<br>Once per rest on a success, roll a<br>number of d4s equal to your<br>Proficiency. The target marks Stress<br>equal to the highest result rolled.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Public Provocation",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:public-provocation",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 75,
+        "pageEnd": 75,
+        "entityType": "competencyCard",
+        "slug": "public-provocation",
+        "competency": "Influence",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Public Provocation",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "influence",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:public-provocation",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "665ff15ef693508c",
+  "folder": "479390d477c1b490",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!665ff15ef693508c"
+}

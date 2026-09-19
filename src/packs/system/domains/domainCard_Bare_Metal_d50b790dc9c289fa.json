@@ -1,0 +1,96 @@
+{
+  "name": "Bare Metal",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you choose not to equip armor,<br>your reinforced body, subdermal<br>plating, hardened bones, or defensive<br>cyberware gives you a base Armor<br>Score of 3 + your Strength and the<br>following base damage thresholds:<br>Tier 1: 9/19<br>Tier 2: 11/24<br>Tier 3: 13/31<br>Tier 4: 15/38</p>",
+    "level": 1,
+    "domain": "aegis",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "84f21ef6d5efb597": {
+        "type": "effect",
+        "_id": "84f21ef6d5efb597",
+        "systemPath": "actions",
+        "description": "<p>When you choose not to equip armor,<br>your reinforced body, subdermal<br>plating, hardened bones, or defensive<br>cyberware gives you a base Armor<br>Score of 3 + your Strength and the<br>following base damage thresholds:<br>Tier 1: 9/19<br>Tier 2: 11/24<br>Tier 3: 13/31<br>Tier 4: 15/38</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Bare Metal",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Aegis:bare-metal",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 84,
+        "pageEnd": 84,
+        "entityType": "competencyCard",
+        "slug": "bare-metal",
+        "competency": "Aegis",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "aegis"
+        }
+      ],
+      "validationExpected": {
+        "name": "Bare Metal",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "aegis",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:aegis:bare-metal",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "d50b790dc9c289fa",
+  "folder": "4ae282fc716ba506",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d50b790dc9c289fa"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Systems Module Bay - Module Charge",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 2</p><p>When you roll with Hope using a Systems card or action involving devicess, gain 1 Module Charge, max 2. Spend 1 Charge to add +1d6 to a roll involving devices. Spend 2 Charges to also repair, disable, connect, or modify one Close device after the action resolves.</p>",
+    "actions": {
+      "b63b3184af2f4919": {
+        "type": "effect",
+        "_id": "b63b3184af2f4919",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 2</p><p>When you roll with Hope using a Systems card or action involving devicess, gain 1 Module Charge, max 2. Spend 1 Charge to add +1d6 to a roll involving devices. Spend 2 Charges to also repair, disable, connect, or modify one Close device after the action resolves.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Systems Module Bay - Module Charge",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:systems-module-bay-module-charge",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 43,
+        "pageEnd": 43,
+        "entityType": "cyberware",
+        "slug": "systems-module-bay-module-charge",
+        "roll": 43,
+        "cyberCostRaw": "2",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Systems Module Bay - Module Charge",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:systems-module-bay-module-charge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "566ab42e4450b2f9",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!566ab42e4450b2f9"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Full System Surge",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per long rest, mark 3 Stress to<br>push your body, armor, cyberware,<br>combat drugs, reinforcement frame,<br>and defensive systems to their limits.<br>Gain a +2 bonus to all of your character<br>traits until your next rest.</p>",
+    "level": 8,
+    "domain": "aegis",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "ffc4f43e9451bd42": {
+        "type": "effect",
+        "_id": "ffc4f43e9451bd42",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, mark 3 Stress to<br>push your body, armor, cyberware,<br>combat drugs, reinforcement frame,<br>and defensive systems to their limits.<br>Gain a +2 bonus to all of your character<br>traits until your next rest.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Full System Surge",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Aegis:full-system-surge",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 85,
+        "pageEnd": 85,
+        "entityType": "competencyCard",
+        "slug": "full-system-surge",
+        "competency": "Aegis",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "aegis"
+        }
+      ],
+      "validationExpected": {
+        "name": "Full System Surge",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "aegis",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:aegis:full-system-surge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "cdd962448f6286bb",
+  "folder": "bd1a7bbab69f9bd8",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!cdd962448f6286bb"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Blackbox Recorder",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When a dangerous scene ends, you can ask the GM what one nearby device, signal, or camera recorded.</p>",
+    "quantity": 1,
+    "actions": {
+      "ead9dd20939195e6": {
+        "type": "effect",
+        "_id": "ead9dd20939195e6",
+        "systemPath": "actions",
+        "description": "<p>When a dangerous scene ends, you can ask the GM what one nearby device, signal, or camera recorded.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Blackbox Recorder",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:blackbox-recorder",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 37,
+        "pageEnd": 37,
+        "entityType": "loot",
+        "slug": "blackbox-recorder",
+        "roll": 16
+      },
+      "validationExpected": {
+        "name": "Blackbox Recorder",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:blackbox-recorder",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "fbb539ac091ceda3",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fbb539ac091ceda3"
+}

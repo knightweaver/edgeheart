@@ -1,0 +1,96 @@
+{
+  "name": "Emergency Fabricator",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Spend a Hope to deploy a compact<br>medical fabricator, trauma printer, or<br>emergency reconstruction tool.<br>You can create, reshape, reinforce, or<br>repair a object or material within Close<br>range, no larger than you.<br>This protocol is designed for medical,<br>survival, and emergency use. For<br>example, you can print a temporary<br>prosthetic support, seal a wound,<br>create a tool, stabilize damaged<br>cyberware, or shape synthetic tissue.<br>If you use this protocol to help a<br>creature act through injury, or a failing<br>system, they gain a +2 bonus to their<br>next action roll.<br>This protocol can’t create weapons,<br>complex machines, advanced<br>electronics, ammunition, valuable<br>goods, or permanent.cyberware.</p>",
+    "level": 5,
+    "domain": "medtech",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "62c892a406d40de5": {
+        "type": "effect",
+        "_id": "62c892a406d40de5",
+        "systemPath": "actions",
+        "description": "<p>Spend a Hope to deploy a compact<br>medical fabricator, trauma printer, or<br>emergency reconstruction tool.<br>You can create, reshape, reinforce, or<br>repair a object or material within Close<br>range, no larger than you.<br>This protocol is designed for medical,<br>survival, and emergency use. For<br>example, you can print a temporary<br>prosthetic support, seal a wound,<br>create a tool, stabilize damaged<br>cyberware, or shape synthetic tissue.<br>If you use this protocol to help a<br>creature act through injury, or a failing<br>system, they gain a +2 bonus to their<br>next action roll.<br>This protocol can’t create weapons,<br>complex machines, advanced<br>electronics, ammunition, valuable<br>goods, or permanent.cyberware.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Emergency Fabricator",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:emergency-fabricator",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 82,
+        "pageEnd": 82,
+        "entityType": "competencyCard",
+        "slug": "emergency-fabricator",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Emergency Fabricator",
+        "type": "domainCard",
+        "system.level": 5,
+        "system.domain": "medtech",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:emergency-fabricator",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "543c3fc93994ae03",
+  "folder": "934a5b0ad99e828d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!543c3fc93994ae03"
+}

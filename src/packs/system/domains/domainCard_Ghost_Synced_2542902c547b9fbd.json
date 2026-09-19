@@ -1,0 +1,96 @@
+{
+  "name": "Ghost-Synced",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Ghost<br>Competency, gain the following:<br>• Once per rest, when you have 0<br>Hope and the GM would gain a Fear,<br>you can gain a Hope instead.<br>• When you make a successful attack,<br>you can mark a Stress to add the<br>result of your Fear Die to your<br>damage roll.</p>",
+    "level": 7,
+    "domain": "ghost",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "dadb3e64fe073b92": {
+        "type": "effect",
+        "_id": "dadb3e64fe073b92",
+        "systemPath": "actions",
+        "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Ghost<br>Competency, gain the following:<br>• Once per rest, when you have 0<br>Hope and the GM would gain a Fear,<br>you can gain a Hope instead.<br>• When you make a successful attack,<br>you can mark a Stress to add the<br>result of your Fear Die to your<br>damage roll.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Ghost-Synced",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Ghost:ghost-synced",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 78,
+        "pageEnd": 78,
+        "entityType": "competencyCard",
+        "slug": "ghost-synced",
+        "competency": "Ghost",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "ghost"
+        }
+      ],
+      "validationExpected": {
+        "name": "Ghost-Synced",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "ghost",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:ghost:ghost-synced",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2542902c547b9fbd",
+  "folder": "625322bbc3a61940",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2542902c547b9fbd"
+}

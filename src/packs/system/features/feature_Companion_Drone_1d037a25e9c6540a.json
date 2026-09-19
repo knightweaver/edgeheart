@@ -1,0 +1,72 @@
+{
+  "name": "Companion Drone",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>You have a small drone or machine companion that can move independently within Far range, carry small objects, record, scan, and interact with controls. You may Help an ally within Close range of the drone regardless of your own position. If their roll involves equipment or connected systems, use a d8 as your Help die. When the drone would take damage, mark a Stress to move it out of danger. Otherwise, it is disabled until your next rest.</p>",
+    "actions": {
+      "e72182e6ada049be": {
+        "type": "effect",
+        "_id": "e72182e6ada049be",
+        "systemPath": "actions",
+        "description": "<p>You have a small drone or machine companion that can move independently within Far range, carry small objects, record, scan, and interact with controls. You may Help an ally within Close range of the drone regardless of your own position. If their roll involves equipment or connected systems, use a d8 as your Help die. When the drone would take damage, mark a Stress to move it out of danger. Otherwise, it is disabled until your next rest.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Companion Drone",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:rigger:companion-drone",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 19
+      },
+      "deployment": {
+        "logicalKey": "feature:rigger:companion-drone",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "1d037a25e9c6540a",
+  "folder": "08439cf13d495dab",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1d037a25e9c6540a"
+}

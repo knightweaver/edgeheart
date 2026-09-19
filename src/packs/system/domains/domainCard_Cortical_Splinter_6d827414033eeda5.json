@@ -1,0 +1,96 @@
+{
+  "name": "Cortical Splinter",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a<br>creature within Very Far range.<br>On a success, mark a HP to deploy a<br>cortical splinter, neural spyware,<br>biochip packet, or pain-loop signal that<br>burrows into the target’s system.<br>On a success with Hope, the target<br>isn’t aware of the splinter.<br>You have advantage on Presence Rolls<br>against the target, and whenever they<br>make a roll, you can spend a Hope to<br>give the roll disadvantage.<br>You can destroy the splinter to cause<br>the target to mark a HP.</p>",
+    "level": 5,
+    "domain": "redline",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "2d9d8d80735a8d00": {
+        "type": "effect",
+        "_id": "2d9d8d80735a8d00",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a<br>creature within Very Far range.<br>On a success, mark a HP to deploy a<br>cortical splinter, neural spyware,<br>biochip packet, or pain-loop signal that<br>burrows into the target’s system.<br>On a success with Hope, the target<br>isn’t aware of the splinter.<br>You have advantage on Presence Rolls<br>against the target, and whenever they<br>make a roll, you can spend a Hope to<br>give the roll disadvantage.<br>You can destroy the splinter to cause<br>the target to mark a HP.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Cortical Splinter",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:cortical-splinter",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 86,
+        "pageEnd": 86,
+        "entityType": "competencyCard",
+        "slug": "cortical-splinter",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Cortical Splinter",
+        "type": "domainCard",
+        "system.level": 5,
+        "system.domain": "redline",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:cortical-splinter",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6d827414033eeda5",
+  "folder": "7d955ad1d48028f4",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6d827414033eeda5"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Sonic Spike",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>All creatures within Very Close range of the target point mark 1 Stress, and fragile glass, sensors, or exposed electronics break.</p>",
+    "quantity": 1,
+    "actions": {
+      "fdf306c1ae0e750d": {
+        "type": "effect",
+        "_id": "fdf306c1ae0e750d",
+        "systemPath": "actions",
+        "description": "<p>All creatures within Very Close range of the target point mark 1 Stress, and fragile glass, sensors, or exposed electronics break.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Sonic Spike",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:sonic-spike",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 39,
+        "pageEnd": 39,
+        "entityType": "consumable",
+        "slug": "sonic-spike",
+        "roll": 18
+      },
+      "validationExpected": {
+        "name": "Sonic Spike",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:sonic-spike",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "8f7bcae4c2a722fc",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8f7bcae4c2a722fc"
+}

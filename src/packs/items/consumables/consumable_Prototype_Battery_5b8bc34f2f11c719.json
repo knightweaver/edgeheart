@@ -1,0 +1,81 @@
+{
+  "name": "Prototype Battery",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Recharge one expended Loot item that works through power, signal, drones, hardlight, scanners, or electronics, allowing it to be used one additional time before your next rest.</p>",
+    "quantity": 1,
+    "actions": {
+      "c6aba0452ef4a91e": {
+        "type": "effect",
+        "_id": "c6aba0452ef4a91e",
+        "systemPath": "actions",
+        "description": "<p>Recharge one expended Loot item that works through power, signal, drones, hardlight, scanners, or electronics, allowing it to be used one additional time before your next rest.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Prototype Battery",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:prototype-battery",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 40,
+        "pageEnd": 40,
+        "entityType": "consumable",
+        "slug": "prototype-battery",
+        "roll": 39
+      },
+      "validationExpected": {
+        "name": "Prototype Battery",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:prototype-battery",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "5b8bc34f2f11c719",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5b8bc34f2f11c719"
+}

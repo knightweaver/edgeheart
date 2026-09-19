@@ -1,0 +1,96 @@
+{
+  "name": "Adrenaline Stack",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Your Redline systems have seeped into<br>your bloodstream, enhancing your body<br>in moments of urgency.<br>When you roll with advantage, use a d8<br>instead of a d6 as your advantage die if<br>you have 1 or more HP marked.<br>After you make a Strength, Agility, or<br>Finesse Roll, you can mark a HP to roll<br>1d8 and add it to the result.</p>",
+    "level": 8,
+    "domain": "redline",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "e5b15a5b6a4c655d": {
+        "type": "effect",
+        "_id": "e5b15a5b6a4c655d",
+        "systemPath": "actions",
+        "description": "<p>Your Redline systems have seeped into<br>your bloodstream, enhancing your body<br>in moments of urgency.<br>When you roll with advantage, use a d8<br>instead of a d6 as your advantage die if<br>you have 1 or more HP marked.<br>After you make a Strength, Agility, or<br>Finesse Roll, you can mark a HP to roll<br>1d8 and add it to the result.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Adrenaline Stack",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:adrenaline-stack",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 87,
+        "pageEnd": 87,
+        "entityType": "competencyCard",
+        "slug": "adrenaline-stack",
+        "competency": "Redline",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Adrenaline Stack",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "redline",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:adrenaline-stack",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "af1be3f1b8dc2ea6",
+  "folder": "550148e0301f03c2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!af1be3f1b8dc2ea6"
+}

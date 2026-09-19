@@ -1,0 +1,96 @@
+{
+  "name": "Drain Signal",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, once<br>per short rest, the target takes d8<br>techno damage using your Proficiency<br>and you clear 2 HP. On a success with<br>Fear, you clear 3 HP instead.<br>This might look like draining power,<br>stealing biofeedback, siphoning<br>processor load, feeding on neural<br>panic, or letting a daemon extract<br>something useful from the target.</p>",
+    "level": 2,
+    "domain": "blackwall",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "bb04ab485920d241": {
+        "type": "effect",
+        "_id": "bb04ab485920d241",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, once<br>per short rest, the target takes d8<br>techno damage using your Proficiency<br>and you clear 2 HP. On a success with<br>Fear, you clear 3 HP instead.<br>This might look like draining power,<br>stealing biofeedback, siphoning<br>processor load, feeding on neural<br>panic, or letting a daemon extract<br>something useful from the target.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Drain Signal",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:drain-signal",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 88,
+        "pageEnd": 88,
+        "entityType": "competencyCard",
+        "slug": "drain-signal",
+        "competency": "Blackwall",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "Drain Signal",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "blackwall",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:drain-signal",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e2b10adbe9843f98",
+  "folder": "b688829e72ce2596",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e2b10adbe9843f98"
+}

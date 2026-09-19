@@ -1,0 +1,96 @@
+{
+  "name": "Strategic Approach",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>After along rest, place a number of<br>tokens equal to your Knowledge on this<br>card, minimum 1.<br>The first time you move within Close<br>range of an adversary and make an Z<br>attack against them, you can spend<br>one token to choose one of the<br>following options:<br>• You make the attack with<br>advantage.<br>• You clear a Stress on an ally within<br>Melee range of the adversary.<br>• You add a d8 to your damage roll.<br>When you take along rest, clear all<br>unspent tokens.</p>",
+    "level": 2,
+    "domain": "chrome",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "ae4cb8a88e50853a": {
+        "type": "effect",
+        "_id": "ae4cb8a88e50853a",
+        "systemPath": "actions",
+        "description": "<p>After along rest, place a number of<br>tokens equal to your Knowledge on this<br>card, minimum 1.<br>The first time you move within Close<br>range of an adversary and make an Z<br>attack against them, you can spend<br>one token to choose one of the<br>following options:<br>• You make the attack with<br>advantage.<br>• You clear a Stress on an ally within<br>Melee range of the adversary.<br>• You add a d8 to your damage roll.<br>When you take along rest, clear all<br>unspent tokens.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Strategic Approach",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Chrome:strategic-approach",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 70,
+        "pageEnd": 70,
+        "entityType": "competencyCard",
+        "slug": "strategic-approach",
+        "competency": "Chrome",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "chrome"
+        }
+      ],
+      "validationExpected": {
+        "name": "Strategic Approach",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "chrome",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:chrome:strategic-approach",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "3eea69f2a79c3a81",
+  "folder": "e4c0d3984c59feb2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3eea69f2a79c3a81"
+}

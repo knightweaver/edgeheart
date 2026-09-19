@@ -1,0 +1,96 @@
+{
+  "name": "Ruinbreaker Rig",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Mark a Stress to activate a heavy<br>survival exo-rig built. While active,<br>hydraulic braces lock into place,<br>cutting tools unfold, armor plates shift,<br>hazard filters overclock, and your gear<br>enters full breach mode. You gain the<br>following benefits:<br>When you succeed on an attack or<br>Interface Roll, add +10 to damage.<br>When you deal enough damage to<br>defeat a creature within Close<br>range, you strip usable plating,<br>siphon a power cell, or trigger<br>emergency repair foam and clear an<br>Armor Slot.<br>You can’t be Restrained.<br>Before you make an action roll, you<br>must spend a Hope. If you can’t, the rig<br>overheats, locks, or burns through its<br>emergency charge, and you revert to<br>your normal state.</p>",
+    "level": 10,
+    "domain": "frontier",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "57e2ca6ee0057061": {
+        "type": "effect",
+        "_id": "57e2ca6ee0057061",
+        "systemPath": "actions",
+        "description": "<p>Mark a Stress to activate a heavy<br>survival exo-rig built. While active,<br>hydraulic braces lock into place,<br>cutting tools unfold, armor plates shift,<br>hazard filters overclock, and your gear<br>enters full breach mode. You gain the<br>following benefits:<br>When you succeed on an attack or<br>Interface Roll, add +10 to damage.<br>When you deal enough damage to<br>defeat a creature within Close<br>range, you strip usable plating,<br>siphon a power cell, or trigger<br>emergency repair foam and clear an<br>Armor Slot.<br>You can’t be Restrained.<br>Before you make an action roll, you<br>must spend a Hope. If you can’t, the rig<br>overheats, locks, or burns through its<br>emergency charge, and you revert to<br>your normal state.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Ruinbreaker Rig",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:ruinbreaker-rig",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 81,
+        "pageEnd": 81,
+        "entityType": "competencyCard",
+        "slug": "ruinbreaker-rig",
+        "competency": "Frontier",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Ruinbreaker Rig",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "frontier",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:ruinbreaker-rig",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "f900792248c480b5",
+  "folder": "20f65553bd1fe454",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f900792248c480b5"
+}

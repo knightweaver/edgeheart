@@ -1,0 +1,96 @@
+{
+  "name": "Ronin Alteration Suite",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Adaptive Shell: Make an Interface Roll<br>(15). On a success, wrap yourself in<br>adaptive camouflage, smart-material<br>plating, hard-light masking, or a<br>compact disguise shell, transforming<br>into an inanimate object no larger than<br>twice your normal size. You can remain<br>in this shape until you take damage.<br>Permanent Weakpoint: Once per long<br>rest, make an Interface Roll against a<br>target within Close range. Ona<br>success, they become permanently<br>Vulnerable. They can’t clear this<br>condition by any means. i&quot;</p>",
+    "level": 9,
+    "domain": "systems",
+    "recallCost": 4,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "0a76180efe606f63": {
+        "type": "effect",
+        "_id": "0a76180efe606f63",
+        "systemPath": "actions",
+        "description": "<p>Adaptive Shell: Make an Interface Roll<br>(15). On a success, wrap yourself in<br>adaptive camouflage, smart-material<br>plating, hard-light masking, or a<br>compact disguise shell, transforming<br>into an inanimate object no larger than<br>twice your normal size. You can remain<br>in this shape until you take damage.<br>Permanent Weakpoint: Once per long<br>rest, make an Interface Roll against a<br>target within Close range. Ona<br>success, they become permanently<br>Vulnerable. They can’t clear this<br>condition by any means. i&quot;</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Ronin Alteration Suite",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:ronin-alteration-suite",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 74,
+        "pageEnd": 74,
+        "entityType": "competencyCard",
+        "slug": "ronin-alteration-suite",
+        "competency": "Systems",
+        "cardType": "Protocol Suite"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "Ronin Alteration Suite",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "systems",
+        "system.recallCost": 4,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:ronin-alteration-suite",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "824b3f27aec71eb3",
+  "folder": "15eb09e0aff325df",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!824b3f27aec71eb3"
+}

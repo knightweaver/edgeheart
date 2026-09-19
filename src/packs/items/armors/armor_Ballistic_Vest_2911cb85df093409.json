@@ -1,0 +1,97 @@
+{
+  "name": "Ballistic Vest",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Reinforced: When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot.</p>",
+    "actions": {
+      "db8843777ad5eb71": {
+        "type": "effect",
+        "_id": "db8843777ad5eb71",
+        "systemPath": "actions",
+        "description": "<p>When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Reinforced",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 1,
+    "equipped": false,
+    "baseScore": 4,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 7,
+      "severe": 15
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-ballistic-vest",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 35,
+        "pageEnd": 35,
+        "entityType": "armor",
+        "slug": "ballistic-vest",
+        "featureNames": [
+          "Reinforced"
+        ]
+      },
+      "validationExpected": {
+        "name": "Ballistic Vest",
+        "type": "armor",
+        "system.tier": 1,
+        "system.baseScore": 4,
+        "system.baseThresholds.major": 7,
+        "system.baseThresholds.severe": 15,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:ballistic-vest",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2911cb85df093409",
+  "folder": "cb6630db0117a857",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2911cb85df093409"
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Street Icon Fit",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Recognizable: Once per scene, choose one creature who has heard of your reputation. Gain advantage on your first roll against them.</p>",
+    "actions": {
+      "d4da8975fc589230": {
+        "type": "effect",
+        "_id": "d4da8975fc589230",
+        "systemPath": "actions",
+        "description": "<p>Once per scene, choose one creature who has heard of your reputation. Gain advantage on your first roll against them.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Recognizable",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 1,
+    "equipped": false,
+    "baseScore": 3,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 5,
+      "severe": 11
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-street-icon-fit",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 35,
+        "pageEnd": 35,
+        "entityType": "armor",
+        "slug": "street-icon-fit",
+        "featureNames": [
+          "Recognizable"
+        ]
+      },
+      "validationExpected": {
+        "name": "Street Icon Fit",
+        "type": "armor",
+        "system.tier": 1,
+        "system.baseScore": 3,
+        "system.baseThresholds.major": 5,
+        "system.baseThresholds.severe": 11,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:street-icon-fit",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "30b029a0318dbfde",
+  "folder": "cb6630db0117a857",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!30b029a0318dbfde"
+}

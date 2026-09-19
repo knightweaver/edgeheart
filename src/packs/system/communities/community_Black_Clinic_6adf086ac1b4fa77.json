@@ -1,0 +1,49 @@
+{
+  "name": "Black Clinic",
+  "type": "community",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You are connected to a street doctor, illegal clinic, or illegal cyberware medical ring.</p><h4>COMMUNITY FEATURE</h4><p><em><strong>Chillax:</strong></em> During a short rest, you or an ally can reroll a die used for a recovery, repair, or cyberware-related downtime action.</p>",
+    "features": [
+      "feature:black-clinic:chillax"
+    ],
+    "attribution": {
+      "source": "Edgeheart",
+      "page": 30,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "community:black-clinic",
+      "source": {
+        "entityType": "affiliation",
+        "slug": "black-clinic",
+        "mappedFoundryType": "community"
+      },
+      "deployment": {
+        "logicalKey": "community:black-clinic",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "6adf086ac1b4fa77",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6adf086ac1b4fa77"
+}

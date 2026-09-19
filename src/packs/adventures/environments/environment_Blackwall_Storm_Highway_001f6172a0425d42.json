@@ -1,0 +1,141 @@
+{
+  "name": "Blackwall Storm Highway",
+  "type": "environment",
+  "img": "icons/svg/door-exit.svg",
+  "system": {
+    "description": "A ruined highway where vehicles race through lightning, broken infrastructure, and corrupted machine weather.",
+    "tier": 4,
+    "type": "traversal",
+    "difficulty": 20,
+    "notes": "",
+    "impulses": [
+      "Accelerate",
+      "corrupt",
+      "split the convoy"
+    ],
+    "potentialAdversaries": [
+      "Handler's Hound",
+      "Hades Shard",
+      "Blackwall Seraph",
+      "Contract Sniper"
+    ],
+    "features": [
+      {
+        "_id": "bd57d86cc862e651",
+        "name": "Machine Weather",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Vehicles and connected gear glitch under the storm. On any vehicle roll with Fear, the vehicle becomes Damaged unless the driver marks a Stress.\n\nWhat system flickers first?",
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "b9cb614e24f19156",
+        "name": "Black Lightning",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Strike a vehicle, drone, Eidolon, or connected device within Far range. It must make a Reaction Roll or take 4d8+6 techno damage.\n\nWhat does the lightning spell out?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "a4dfd72dd1c32dc7",
+        "name": "Route Collapse",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "When a PC rolls with Fear, destroy one route, bridge, tunnel, ramp, or exit.\n\nWho knew the road would fail?",
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "tags": [],
+    "bonuses": {}
+  },
+  "prototypeToken": null,
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:environment:blackwall-storm-highway",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 57,
+        "pageEnd": 57,
+        "entityType": "environment",
+        "slug": "blackwall-storm-highway"
+      },
+      "validationExpected": {
+        "name": "Blackwall Storm Highway",
+        "type": "environment",
+        "system.tier": 4,
+        "system.type": "traversal",
+        "system.difficulty": 20,
+        "system.featuresCount": 3
+      },
+      "deployment": {
+        "logicalKey": "environment:blackwall-storm-highway",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "001f6172a0425d42",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!001f6172a0425d42"
+}

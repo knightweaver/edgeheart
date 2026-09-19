@@ -1,0 +1,97 @@
+{
+  "name": "Insulated Hazmat",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Grounded: When you mark an Armor Slot against techno damage, reduce the severity by one additional threshold.</p>",
+    "actions": {
+      "86d1ea0b0a3227c6": {
+        "type": "effect",
+        "_id": "86d1ea0b0a3227c6",
+        "systemPath": "actions",
+        "description": "<p>When you mark an Armor Slot against techno damage, reduce the severity by one additional threshold.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Grounded",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 2,
+    "equipped": false,
+    "baseScore": 4,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 8,
+      "severe": 18
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-insulated-hazmat",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 35,
+        "pageEnd": 35,
+        "entityType": "armor",
+        "slug": "insulated-hazmat",
+        "featureNames": [
+          "Grounded"
+        ]
+      },
+      "validationExpected": {
+        "name": "Insulated Hazmat",
+        "type": "armor",
+        "system.tier": 2,
+        "system.baseScore": 4,
+        "system.baseThresholds.major": 8,
+        "system.baseThresholds.severe": 18,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:insulated-hazmat",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "2f80dd45906efc3b",
+  "folder": "f2396412f668609d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2f80dd45906efc3b"
+}

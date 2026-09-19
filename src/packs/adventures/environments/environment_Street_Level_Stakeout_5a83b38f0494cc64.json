@@ -1,0 +1,140 @@
+{
+  "name": "Street-Level Stakeout",
+  "type": "environment",
+  "img": "icons/svg/door-exit.svg",
+  "system": {
+    "description": "A quiet surveillance job where everyone is waiting for the first mistake.",
+    "tier": 1,
+    "type": "event",
+    "difficulty": 10,
+    "notes": "",
+    "impulses": [
+      "Watch",
+      "misdirect",
+      "escalate suddenly"
+    ],
+    "potentialAdversaries": [
+      "Rookie Edgerunner",
+      "Contract Sniper",
+      "Sitil Security Guard"
+    ],
+    "features": [
+      {
+        "_id": "2277b5f0e1bafa31",
+        "name": "Eyes Everywhere",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "PCs may make Instinct or Knowledge Rolls to identify watchers. On a success, gain advantage on the next stealth or counter-surveillance roll.\n\nWho is watching the watchers?",
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "a6e6cc919688a46b",
+        "name": "The Target Moves",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Move the objective to a new location within Far range.\n\nWhy did they leave early?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "4593e51534b0939d",
+        "name": "Burned Position",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "When a PC rolls with Fear, reveal that their hiding place, signal, or cover identity is compromised.\n\nWho burned them?",
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "tags": [],
+    "bonuses": {}
+  },
+  "prototypeToken": null,
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:environment:street-level-stakeout",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 54,
+        "pageEnd": 54,
+        "entityType": "environment",
+        "slug": "street-level-stakeout"
+      },
+      "validationExpected": {
+        "name": "Street-Level Stakeout",
+        "type": "environment",
+        "system.tier": 1,
+        "system.type": "event",
+        "system.difficulty": 10,
+        "system.featuresCount": 3
+      },
+      "deployment": {
+        "logicalKey": "environment:street-level-stakeout",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "5a83b38f0494cc64",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!5a83b38f0494cc64"
+}

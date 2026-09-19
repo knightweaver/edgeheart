@@ -1,0 +1,141 @@
+{
+  "name": "Corporate Tower Coup",
+  "type": "environment",
+  "img": "icons/svg/door-exit.svg",
+  "system": {
+    "description": "A boardroom, gala, hostage floor, and command bunker all pretending to be the same building.",
+    "tier": 4,
+    "type": "social",
+    "difficulty": 20,
+    "notes": "",
+    "impulses": [
+      "Betray",
+      "reframe",
+      "monetize violence"
+    ],
+    "potentialAdversaries": [
+      "Board Executive",
+      "Sitil Black-Ops Captain",
+      "Korvax Neural Interrogator",
+      "Corporate Response Team"
+    ],
+    "features": [
+      {
+        "_id": "5b7c25eab6653a17",
+        "name": "Legal Battlefield",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Succeeded social rolls can disable security, redirect guards, freeze accounts, or change objectives. Failed social rolls with Fear create legal, financial, or hostage complications.\n\nWho owns the room?",
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "e9eaff00fd8bbbd5",
+        "name": "Hostile Vote",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "A faction inside the tower changes sides, reveals leverage, or calls armed support.\n\nWho bought their loyalty?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "df8a6d0d163edbae",
+        "name": "Executive Evacuation",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "When a PC rolls with Fear, the true target begins escaping through a private route.\n\nWhich exit was never on the map?",
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "tags": [],
+    "bonuses": {}
+  },
+  "prototypeToken": null,
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:environment:corporate-tower-coup",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 57,
+        "pageEnd": 57,
+        "entityType": "environment",
+        "slug": "corporate-tower-coup"
+      },
+      "validationExpected": {
+        "name": "Corporate Tower Coup",
+        "type": "environment",
+        "system.tier": 4,
+        "system.type": "social",
+        "system.difficulty": 20,
+        "system.featuresCount": 3
+      },
+      "deployment": {
+        "logicalKey": "environment:corporate-tower-coup",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "95085dcbed855ffd",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!95085dcbed855ffd"
+}

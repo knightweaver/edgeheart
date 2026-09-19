@@ -1,0 +1,96 @@
+{
+  "name": "*Norai Heavy Package",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Tether Clamp: Make an Interface Roll<br>against a target within Far range. Ona<br>success, they’re temporarily Restrained<br>and must mark a Stress. If you target a<br>flying creature, this protocol grounds<br>and temporarily Restrains them.<br>Firebomb: Make an Interface Roll<br>against a target within Very Far range.<br>On a success, launch an explosive<br>payload, plasma charge, volatile shell,<br>or drone-delivered bomb toward them<br>that explodes on impact. The target<br>and all creatures within Very Close<br>range of them must make a Reaction<br>Roll (13). Targets who fail take d20+5<br>techno damage using your Proficiency.<br>Targets who succeed take half damage.</p>",
+    "level": 3,
+    "domain": "systems",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "92a3f9bfa058c5f2": {
+        "type": "effect",
+        "_id": "92a3f9bfa058c5f2",
+        "systemPath": "actions",
+        "description": "<p>Tether Clamp: Make an Interface Roll<br>against a target within Far range. Ona<br>success, they’re temporarily Restrained<br>and must mark a Stress. If you target a<br>flying creature, this protocol grounds<br>and temporarily Restrains them.<br>Firebomb: Make an Interface Roll<br>against a target within Very Far range.<br>On a success, launch an explosive<br>payload, plasma charge, volatile shell,<br>or drone-delivered bomb toward them<br>that explodes on impact. The target<br>and all creatures within Very Close<br>range of them must make a Reaction<br>Roll (13). Targets who fail take d20+5<br>techno damage using your Proficiency.<br>Targets who succeed take half damage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "*Norai Heavy Package",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:norai-heavy-package",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 73,
+        "pageEnd": 73,
+        "entityType": "competencyCard",
+        "slug": "norai-heavy-package",
+        "competency": "Systems",
+        "cardType": "Protocol Suite"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "*Norai Heavy Package",
+        "type": "domainCard",
+        "system.level": 3,
+        "system.domain": "systems",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:norai-heavy-package",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "a952db6622398dfe",
+  "folder": "16168180e8d1fa27",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a952db6622398dfe"
+}

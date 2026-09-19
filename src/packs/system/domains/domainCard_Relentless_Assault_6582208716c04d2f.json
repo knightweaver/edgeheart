@@ -1,0 +1,96 @@
+{
+  "name": "Relentless Assault",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you successfully make an attack<br>with your weapon, you never deal<br>damage beneath a target&#x27;s Major<br>damage threshold. The target always<br>marks a minimum of 2 Hit Points.<br>Additionally, when a creature within<br>your weapon&#x27;s range deals damage to<br>an ally with an attack that doesn’t<br>include you, you can mark a Stress to<br>force them to make a Reaction Roll<br>(15).<br>On a failure, the target must mark a Hit<br>Point.</p>",
+    "level": 10,
+    "domain": "assault",
+    "recallCost": 3,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "b622003d7e9a1cbe": {
+        "type": "effect",
+        "_id": "b622003d7e9a1cbe",
+        "systemPath": "actions",
+        "description": "<p>When you successfully make an attack<br>with your weapon, you never deal<br>damage beneath a target&#x27;s Major<br>damage threshold. The target always<br>marks a minimum of 2 Hit Points.<br>Additionally, when a creature within<br>your weapon&#x27;s range deals damage to<br>an ally with an attack that doesn’t<br>include you, you can mark a Stress to<br>force them to make a Reaction Roll<br>(15).<br>On a failure, the target must mark a Hit<br>Point.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Relentless Assault",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Assault:relentless-assault",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 70,
+        "pageEnd": 70,
+        "entityType": "competencyCard",
+        "slug": "relentless-assault",
+        "competency": "Assault",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "assault"
+        }
+      ],
+      "validationExpected": {
+        "name": "Relentless Assault",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "assault",
+        "system.recallCost": 3,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:assault:relentless-assault",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6582208716c04d2f",
+  "folder": "4698cf175a19c1a0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6582208716c04d2f"
+}

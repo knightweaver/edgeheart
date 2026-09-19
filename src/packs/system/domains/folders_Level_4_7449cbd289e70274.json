@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "7e6dc94cf7a8853e",
+  "name": "Level 4",
+  "color": null,
+  "sorting": "a",
+  "_id": "7449cbd289e70274",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-aegis-level-4",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!7449cbd289e70274"
+}

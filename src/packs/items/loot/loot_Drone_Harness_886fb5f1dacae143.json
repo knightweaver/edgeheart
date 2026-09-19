@@ -1,0 +1,80 @@
+{
+  "name": "Drone Harness",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>You can carry, dock, launch, or repair small drones more easily. Your first roll on a rest to repair, hide, or recover a drone has advantage.</p>",
+    "quantity": 1,
+    "actions": {
+      "962e4f63180dec57": {
+        "type": "effect",
+        "_id": "962e4f63180dec57",
+        "systemPath": "actions",
+        "description": "<p>You can carry, dock, launch, or repair small drones more easily. Your first roll on a rest to repair, hide, or recover a drone has advantage.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Drone Harness",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:drone-harness",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 38,
+        "pageEnd": 38,
+        "entityType": "loot",
+        "slug": "drone-harness",
+        "roll": 30
+      },
+      "validationExpected": {
+        "name": "Drone Harness",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:drone-harness",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "886fb5f1dacae143",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!886fb5f1dacae143"
+}

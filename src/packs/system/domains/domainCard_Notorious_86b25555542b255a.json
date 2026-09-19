@@ -1,0 +1,96 @@
+{
+  "name": "Notorious",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>People know who you are and what<br>you’ve done, and they treat you<br>differently because of it.<br>When you leverage your notoriety to<br>get what you want, you can mark a<br>Stress before you roll to gain a +10<br>bonus to the result.<br>Your food and drinks are always free<br>wherever you go, and everything else<br>you buy is reduced in price by one bag<br>of cash, credit, barter, or gold, to a<br>minimum of one handful.<br>This card doesn’t count against your<br>loadout’s domain card maximum of 5<br>and can’t be placed in your vault.<br>ee eee ee</p>",
+    "level": 10,
+    "domain": "influence",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "ace5907225e1d616": {
+        "type": "effect",
+        "_id": "ace5907225e1d616",
+        "systemPath": "actions",
+        "description": "<p>People know who you are and what<br>you’ve done, and they treat you<br>differently because of it.<br>When you leverage your notoriety to<br>get what you want, you can mark a<br>Stress before you roll to gain a +10<br>bonus to the result.<br>Your food and drinks are always free<br>wherever you go, and everything else<br>you buy is reduced in price by one bag<br>of cash, credit, barter, or gold, to a<br>minimum of one handful.<br>This card doesn’t count against your<br>loadout’s domain card maximum of 5<br>and can’t be placed in your vault.<br>ee eee ee</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Notorious",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:notorious",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 76,
+        "pageEnd": 76,
+        "entityType": "competencyCard",
+        "slug": "notorious",
+        "competency": "Influence",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Notorious",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "influence",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:notorious",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "86b25555542b255a",
+  "folder": "6af72b7734c857e2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!86b25555542b255a"
+}

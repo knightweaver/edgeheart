@@ -1,0 +1,81 @@
+{
+  "name": "Focus Ampoule",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Add 1d6 to your next Knowledge, Instinct, or Presence Roll. After the roll, mark 1 Stress.</p>",
+    "quantity": 1,
+    "actions": {
+      "de64bf3c6a23b7a4": {
+        "type": "effect",
+        "_id": "de64bf3c6a23b7a4",
+        "systemPath": "actions",
+        "description": "<p>Add 1d6 to your next Knowledge, Instinct, or Presence Roll. After the roll, mark 1 Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Focus Ampoule",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:focus-ampoule",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 39,
+        "pageEnd": 39,
+        "entityType": "consumable",
+        "slug": "focus-ampoule",
+        "roll": 5
+      },
+      "validationExpected": {
+        "name": "Focus Ampoule",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:focus-ampoule",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "078436c96ea9e5fb",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!078436c96ea9e5fb"
+}

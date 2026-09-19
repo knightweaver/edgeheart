@@ -1,0 +1,81 @@
+{
+  "name": "Anti-Toxin Cartridge",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Immediately clear poison, contamination, chemical exposure, or a similar temporary condition.</p>",
+    "quantity": 1,
+    "actions": {
+      "287aa0fa65a3ad7c": {
+        "type": "effect",
+        "_id": "287aa0fa65a3ad7c",
+        "systemPath": "actions",
+        "description": "<p>Immediately clear poison, contamination, chemical exposure, or a similar temporary condition.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Anti-Toxin Cartridge",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:anti-toxin-cartridge",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 39,
+        "pageEnd": 39,
+        "entityType": "consumable",
+        "slug": "anti-toxin-cartridge",
+        "roll": 13
+      },
+      "validationExpected": {
+        "name": "Anti-Toxin Cartridge",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:anti-toxin-cartridge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "53c6b67c8569afa1",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!53c6b67c8569afa1"
+}

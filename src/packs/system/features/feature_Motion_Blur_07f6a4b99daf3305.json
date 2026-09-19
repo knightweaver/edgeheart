@@ -1,0 +1,72 @@
+{
+  "name": "Motion Blur",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you move within Close range or farther during your Spotlight, the next attack made against you before your next Spotlight has disadvantage.</p>",
+    "actions": {
+      "059e38783c2f9318": {
+        "type": "effect",
+        "_id": "059e38783c2f9318",
+        "systemPath": "actions",
+        "description": "<p>When you move within Close range or farther during your Spotlight, the next attack made against you before your next Spotlight has disadvantage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Motion Blur",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:reflex-suite:motion-blur",
+      "source": {
+        "featureStage": "specialization",
+        "sourcePage": 17
+      },
+      "deployment": {
+        "logicalKey": "feature:reflex-suite:motion-blur",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "07f6a4b99daf3305",
+  "folder": "1e25616ff33ab6c6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!07f6a4b99daf3305"
+}

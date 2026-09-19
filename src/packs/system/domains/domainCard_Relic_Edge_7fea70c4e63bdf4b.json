@@ -1,0 +1,96 @@
+{
+  "name": "Relic Edge",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Spend a Hope to load your weapon<br>with a Blackwall combat routine until<br>your next rest.<br>When you make an attack with this<br>weapon, use your Interface trait<br>instead of the trait it normally calls for.<br>On a success, roll a number of d8s<br>equal to the current number of Fear the<br>GM has, up to your level, and deal that<br>much techno damage as the target&#x27;s<br>cyberware, nervous system, or armor<br>interface is cut open by corrupted<br>code.<br>If you succeed with Fear, the target<br>must also mark a Stress.</p>",
+    "level": 5,
+    "domain": "blackwall",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "b5d7c95ca21eebaa": {
+        "type": "effect",
+        "_id": "b5d7c95ca21eebaa",
+        "systemPath": "actions",
+        "description": "<p>Spend a Hope to load your weapon<br>with a Blackwall combat routine until<br>your next rest.<br>When you make an attack with this<br>weapon, use your Interface trait<br>instead of the trait it normally calls for.<br>On a success, roll a number of d8s<br>equal to the current number of Fear the<br>GM has, up to your level, and deal that<br>much techno damage as the target&#x27;s<br>cyberware, nervous system, or armor<br>interface is cut open by corrupted<br>code.<br>If you succeed with Fear, the target<br>must also mark a Stress.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Relic Edge",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:relic-edge",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 88,
+        "pageEnd": 88,
+        "entityType": "competencyCard",
+        "slug": "relic-edge",
+        "competency": "Blackwall",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "Relic Edge",
+        "type": "domainCard",
+        "system.level": 5,
+        "system.domain": "blackwall",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:relic-edge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7fea70c4e63bdf4b",
+  "folder": "24dc847c7e967b59",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7fea70c4e63bdf4b"
+}

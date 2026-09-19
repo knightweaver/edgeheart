@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "96bba602a2e761b0",
+  "name": "Level 2",
+  "color": null,
+  "sorting": "a",
+  "_id": "0b14e5ce689973b8",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-network-level-2",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!0b14e5ce689973b8"
+}

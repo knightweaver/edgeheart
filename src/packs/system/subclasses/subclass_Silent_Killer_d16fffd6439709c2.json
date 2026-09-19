@@ -1,0 +1,63 @@
+{
+  "name": "Silent Killer",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as a Silent Killer if you want to eliminate targets with precision and end fights before they begin.</p>",
+    "spellcastingTrait": "finesse",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:silent-killer:opening-strike"
+      },
+      {
+        "type": "foundation",
+        "ref": "feature:silent-killer:no-witnesses"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:silent-killer:kill-window"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:silent-killer:perfect-ambush"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:infiltrator"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:silent-killer",
+      "source": {
+        "entityType": "subclass",
+        "slug": "silent-killer",
+        "parentClass": "Infiltrator"
+      },
+      "deployment": {
+        "logicalKey": "subclass:silent-killer",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "d16fffd6439709c2",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d16fffd6439709c2"
+}

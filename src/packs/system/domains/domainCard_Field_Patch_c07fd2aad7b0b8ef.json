@@ -1,0 +1,96 @@
+{
+  "name": "Field Patch",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you can take a few minutes to<br>focus on a creature you&#x27;re helping,<br>spend 2 Hope to use trauma foam,<br>sutures, nanite gel, pain blockers,<br>therapy software, or emergency<br>stabilizers to clear a HP or a Stress.<br>Once per long rest, when you spend<br>this time learning something new<br>about them or revealing something<br>about yourself, you can clear 2 HP or 2<br>Stress on them instead.</p>",
+    "level": 1,
+    "domain": "medtech",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "1e076937dcbbe336": {
+        "type": "effect",
+        "_id": "1e076937dcbbe336",
+        "systemPath": "actions",
+        "description": "<p>When you can take a few minutes to<br>focus on a creature you&#x27;re helping,<br>spend 2 Hope to use trauma foam,<br>sutures, nanite gel, pain blockers,<br>therapy software, or emergency<br>stabilizers to clear a HP or a Stress.<br>Once per long rest, when you spend<br>this time learning something new<br>about them or revealing something<br>about yourself, you can clear 2 HP or 2<br>Stress on them instead.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Field Patch",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:field-patch",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 82,
+        "pageEnd": 82,
+        "entityType": "competencyCard",
+        "slug": "field-patch",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Field Patch",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "medtech",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:field-patch",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "c07fd2aad7b0b8ef",
+  "folder": "07948428d560d802",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c07fd2aad7b0b8ef"
+}

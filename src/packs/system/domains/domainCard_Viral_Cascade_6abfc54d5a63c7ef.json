@@ -1,0 +1,96 @@
+{
+  "name": "Viral Cascade",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Mark 2 Stress to make an Interface<br>Roll, unleashing a self-replicating<br>attack on all targets within Close range.<br>Targets you succeed against must<br>make a Reaction Roll with a Difficulty<br>equal to the result of your Interface<br>Roll. Targets who fail take 2d8+4<br>techno damage.<br>Additional adversaries not already<br>targeted by Viral Cascade and within<br>Close range of previous targets who<br>took damage must also make the<br>Reaction Roll. Targets who fail take<br>2d8+4 techno damage. This chain<br>continues until there are no more<br>adversaries within range.</p>",
+    "level": 5,
+    "domain": "network",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "6a11490550f8b9a7": {
+        "type": "effect",
+        "_id": "6a11490550f8b9a7",
+        "systemPath": "actions",
+        "description": "<p>Mark 2 Stress to make an Interface<br>Roll, unleashing a self-replicating<br>attack on all targets within Close range.<br>Targets you succeed against must<br>make a Reaction Roll with a Difficulty<br>equal to the result of your Interface<br>Roll. Targets who fail take 2d8+4<br>techno damage.<br>Additional adversaries not already<br>targeted by Viral Cascade and within<br>Close range of previous targets who<br>took damage must also make the<br>Reaction Roll. Targets who fail take<br>2d8+4 techno damage. This chain<br>continues until there are no more<br>adversaries within range.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Viral Cascade",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Network:viral-cascade",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 67,
+        "pageEnd": 67,
+        "entityType": "competencyCard",
+        "slug": "viral-cascade",
+        "competency": "Network",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "network"
+        }
+      ],
+      "validationExpected": {
+        "name": "Viral Cascade",
+        "type": "domainCard",
+        "system.level": 5,
+        "system.domain": "network",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:network:viral-cascade",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6abfc54d5a63c7ef",
+  "folder": "8f0db890303b1966",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6abfc54d5a63c7ef"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Smart Cuffs",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When you restrain a willing, unconscious, or defeated creature, mundane escape attempts against these restraints have disadvantage.</p>",
+    "quantity": 1,
+    "actions": {
+      "d96a0350b93438f5": {
+        "type": "effect",
+        "_id": "d96a0350b93438f5",
+        "systemPath": "actions",
+        "description": "<p>When you restrain a willing, unconscious, or defeated creature, mundane escape attempts against these restraints have disadvantage.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Smart Cuffs",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:smart-cuffs",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 38,
+        "pageEnd": 38,
+        "entityType": "loot",
+        "slug": "smart-cuffs",
+        "roll": 31
+      },
+      "validationExpected": {
+        "name": "Smart Cuffs",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:smart-cuffs",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "3ed64f3dbf7f53c8",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3ed64f3dbf7f53c8"
+}

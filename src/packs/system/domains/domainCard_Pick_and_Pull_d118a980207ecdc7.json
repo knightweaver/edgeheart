@@ -1,0 +1,96 @@
+{
+  "name": "Pick and Pull",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You have advantage on action rolls to<br>pick non-digital locks, bypass physical<br>security, disarm traps, disable simple<br>alarms, or steal items from a target,<br>either through stealth or by force.</p>",
+    "level": 1,
+    "domain": "ghost",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "cb24aa1469062911": {
+        "type": "effect",
+        "_id": "cb24aa1469062911",
+        "systemPath": "actions",
+        "description": "<p>You have advantage on action rolls to<br>pick non-digital locks, bypass physical<br>security, disarm traps, disable simple<br>alarms, or steal items from a target,<br>either through stealth or by force.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Pick and Pull",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Ghost:pick-and-pull",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 77,
+        "pageEnd": 77,
+        "entityType": "competencyCard",
+        "slug": "pick-and-pull",
+        "competency": "Ghost",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "ghost"
+        }
+      ],
+      "validationExpected": {
+        "name": "Pick and Pull",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "ghost",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:ghost:pick-and-pull",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "d118a980207ecdc7",
+  "folder": "ef3767d83bb3a12c",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d118a980207ecdc7"
+}

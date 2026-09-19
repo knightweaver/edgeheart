@@ -1,0 +1,97 @@
+{
+  "name": "Nullweave Armor",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Signal Dead: You can&#x27;t be targeted by sensors, drones, or remote systems beyond Far range unless you are already detected.</p>",
+    "actions": {
+      "698e5e045ad0c3e5": {
+        "type": "effect",
+        "_id": "698e5e045ad0c3e5",
+        "systemPath": "actions",
+        "description": "<p>You can&#x27;t be targeted by sensors, drones, or remote systems beyond Far range unless you are already detected.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Signal Dead",
+        "img": "icons/svg/shield.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "attached": [],
+    "tier": 4,
+    "equipped": false,
+    "baseScore": 6,
+    "armorFeatures": [],
+    "marks": {
+      "value": 0
+    },
+    "baseThresholds": {
+      "major": 15,
+      "severe": 40
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-a-armor-nullweave-armor",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 36,
+        "pageEnd": 36,
+        "entityType": "armor",
+        "slug": "nullweave-armor",
+        "featureNames": [
+          "Signal Dead"
+        ]
+      },
+      "validationExpected": {
+        "name": "Nullweave Armor",
+        "type": "armor",
+        "system.tier": 4,
+        "system.baseScore": 6,
+        "system.baseThresholds.major": 15,
+        "system.baseThresholds.severe": 40,
+        "system.actionsCount": 1
+      },
+      "deployment": {
+        "logicalKey": "armor:nullweave-armor",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "5963206dd443e138",
+  "folder": "0cc9f35da55a0190",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5963206dd443e138"
+}

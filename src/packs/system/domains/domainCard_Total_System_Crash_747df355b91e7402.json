@@ -1,0 +1,96 @@
+{
+  "name": "Total System Crash",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, mark 3<br>Stress and roll a number of d20s equal<br>to your Interface trait, dealing that<br>much techno damage to them.<br>If this damage is enough to defeat,<br>disable, or destroy the target, all<br>adversaries within Far range of the<br>target must mark a Stress.<br>This might look like a catastrophic<br>cyberware crash, mass hallucination,<br>corrupted command cascade, terminal<br>Black ICE burn, or rogue AI execution<br>routine.<br>Mi Invoke Shutdown</p>",
+    "level": 9,
+    "domain": "blackwall",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "5430ea25ef97fe4f": {
+        "type": "effect",
+        "_id": "5430ea25ef97fe4f",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a target<br>within Far range. On a success, mark 3<br>Stress and roll a number of d20s equal<br>to your Interface trait, dealing that<br>much techno damage to them.<br>If this damage is enough to defeat,<br>disable, or destroy the target, all<br>adversaries within Far range of the<br>target must mark a Stress.<br>This might look like a catastrophic<br>cyberware crash, mass hallucination,<br>corrupted command cascade, terminal<br>Black ICE burn, or rogue AI execution<br>routine.<br>Mi Invoke Shutdown</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Total System Crash",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:total-system-crash",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 89,
+        "pageEnd": 89,
+        "entityType": "competencyCard",
+        "slug": "total-system-crash",
+        "competency": "Blackwall",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "Total System Crash",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "blackwall",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:total-system-crash",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "747df355b91e7402",
+  "folder": "3070751f796b5d98",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!747df355b91e7402"
+}

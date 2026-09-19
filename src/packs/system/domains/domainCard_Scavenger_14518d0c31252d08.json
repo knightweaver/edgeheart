@@ -1,0 +1,96 @@
+{
+  "name": "Scavenger",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>As an additional downtime move, roll a<br>d6 to see what you scavenge.<br>Work with the GM to describe it and<br>add it to your inventory as a<br>consumable. Your party can carry up to<br>five scavenged consumables at a time.<br>1- A unique ration, stimulant, or<br>comfort item (Clear 2 Stress)<br>2- A beautiful relic, valuable trinket, or<br>black-market find (Gain 2 Hope)<br>3- An old access chip, route marker, or<br>field module (+2 to an Interface Roll)<br>4- A medical vial, trauma patch, or<br>emergency stabilizer (Clear 2 HP)<br>5- A luck charm, loaded die, or old-<br>world token (Reroll any die)<br>6- Choose one of the options above.</p>",
+    "level": 6,
+    "domain": "frontier",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "fa7618478c862112": {
+        "type": "effect",
+        "_id": "fa7618478c862112",
+        "systemPath": "actions",
+        "description": "<p>As an additional downtime move, roll a<br>d6 to see what you scavenge.<br>Work with the GM to describe it and<br>add it to your inventory as a<br>consumable. Your party can carry up to<br>five scavenged consumables at a time.<br>1- A unique ration, stimulant, or<br>comfort item (Clear 2 Stress)<br>2- A beautiful relic, valuable trinket, or<br>black-market find (Gain 2 Hope)<br>3- An old access chip, route marker, or<br>field module (+2 to an Interface Roll)<br>4- A medical vial, trauma patch, or<br>emergency stabilizer (Clear 2 HP)<br>5- A luck charm, loaded die, or old-<br>world token (Reroll any die)<br>6- Choose one of the options above.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Scavenger",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:scavenger",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 80,
+        "pageEnd": 80,
+        "entityType": "competencyCard",
+        "slug": "scavenger",
+        "competency": "Frontier",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Scavenger",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "frontier",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:scavenger",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "14518d0c31252d08",
+  "folder": "e52a1f88f629b769",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!14518d0c31252d08"
+}

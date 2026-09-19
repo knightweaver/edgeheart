@@ -1,0 +1,72 @@
+{
+  "name": "Hard Entry",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you make an attack immediately after moving into Melee or Very Close range of your target, you can mark a Stress to add your Kill Chain Die to the damage roll again.</p>",
+    "actions": {
+      "10454f547874ea26": {
+        "type": "effect",
+        "_id": "10454f547874ea26",
+        "systemPath": "actions",
+        "description": "<p>When you make an attack immediately after moving into Melee or Very Close range of your target, you can mark a Stress to add your Kill Chain Die to the damage roll again.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Hard Entry",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:shock-trooper:hard-entry",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 16
+      },
+      "deployment": {
+        "logicalKey": "feature:shock-trooper:hard-entry",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "51703c2278e0182c",
+  "folder": "8fcd9eba8917e1d9",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!51703c2278e0182c"
+}

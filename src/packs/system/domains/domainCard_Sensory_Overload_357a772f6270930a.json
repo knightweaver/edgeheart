@@ -1,0 +1,96 @@
+{
+  "name": "Sensory Overload",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against all targets within Close range of you.<br>Once per rest on a success, create an overwhelming display of flashing ads, braindance static, sonic distortion, hard-light colors, or tactical projections that temporarily Stuns targets you succeed against and forces them to mark a Stress.<br>While Stunned, they can’t use reactions and can’t take any other actions until they clear this condition.</p>",
+    "level": 3,
+    "domain": "influence",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "efb1ca0b405e3eba": {
+        "type": "effect",
+        "_id": "efb1ca0b405e3eba",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against all targets within Close range of you.<br>Once per rest on a success, create an overwhelming display of flashing ads, braindance static, sonic distortion, hard-light colors, or tactical projections that temporarily Stuns targets you succeed against and forces them to mark a Stress.<br>While Stunned, they can’t use reactions and can’t take any other actions until they clear this condition.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Sensory Overload",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Influence:sensory-overload",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 75,
+        "pageEnd": 75,
+        "entityType": "competencyCard",
+        "slug": "sensory-overload",
+        "competency": "Influence",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "influence"
+        }
+      ],
+      "validationExpected": {
+        "name": "Sensory Overload",
+        "type": "domainCard",
+        "system.level": 3,
+        "system.domain": "influence",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:influence:sensory-overload",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "357a772f6270930a",
+  "folder": "97afe3bfd1a38731",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!357a772f6270930a"
+}

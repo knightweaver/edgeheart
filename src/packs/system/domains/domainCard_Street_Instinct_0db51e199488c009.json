@@ -1,0 +1,96 @@
+{
+  "name": "Street Instinct",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per rest, when you enter a urban,<br>ruined, or hostile environment, make<br>an Instinct Roll (12). On a success,<br>place a Street token on this card. Ona<br>success with Hope, place two instead.<br>Cover Line: When you are targeted by<br>an attack from beyond Melee range,<br>spend this token to gain a +2 to your<br>Evasion against that attack.<br>Open Lane: Spend this token to move<br>to a point within Far range.<br>Hazard Mark: When you deal damage,<br>spend this token to add 1d6 damage.<br>Clear all unspent tokens upon a rest.</p>",
+    "level": 1,
+    "domain": "frontier",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "07f4c32a621b1f83": {
+        "type": "effect",
+        "_id": "07f4c32a621b1f83",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, when you enter a urban,<br>ruined, or hostile environment, make<br>an Instinct Roll (12). On a success,<br>place a Street token on this card. Ona<br>success with Hope, place two instead.<br>Cover Line: When you are targeted by<br>an attack from beyond Melee range,<br>spend this token to gain a +2 to your<br>Evasion against that attack.<br>Open Lane: Spend this token to move<br>to a point within Far range.<br>Hazard Mark: When you deal damage,<br>spend this token to add 1d6 damage.<br>Clear all unspent tokens upon a rest.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Street Instinct",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:street-instinct",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 79,
+        "pageEnd": 79,
+        "entityType": "competencyCard",
+        "slug": "street-instinct",
+        "competency": "Frontier",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Street Instinct",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "frontier",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:street-instinct",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "0db51e199488c009",
+  "folder": "29fc98aa023c779c",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0db51e199488c009"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Signal Burst",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>At the beginning of a session, place<br>tokens equal to your Interface trait on<br>this card.<br>Make an Interface Roll against a target<br>within Far range and spend any number<br>of tokens to release a concentrated<br>burst of unstable code, signal noise, or<br>weaponized feedback against them.<br>On a success, roll a number of d6s<br>equal to the tokens spent and deal that<br>much techno damage to the target.<br>Mark a Stress to replenish this card<br>with tokens, up to your Interface trait.<br>At the end of each session, clear all<br>unspent tokens.</p>",
+    "level": 1,
+    "domain": "network",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "08bbe1222bac7969": {
+        "type": "effect",
+        "_id": "08bbe1222bac7969",
+        "systemPath": "actions",
+        "description": "<p>At the beginning of a session, place<br>tokens equal to your Interface trait on<br>this card.<br>Make an Interface Roll against a target<br>within Far range and spend any number<br>of tokens to release a concentrated<br>burst of unstable code, signal noise, or<br>weaponized feedback against them.<br>On a success, roll a number of d6s<br>equal to the tokens spent and deal that<br>much techno damage to the target.<br>Mark a Stress to replenish this card<br>with tokens, up to your Interface trait.<br>At the end of each session, clear all<br>unspent tokens.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Signal Burst",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Network:signal-burst",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 67,
+        "pageEnd": 67,
+        "entityType": "competencyCard",
+        "slug": "signal-burst",
+        "competency": "Network",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "network"
+        }
+      ],
+      "validationExpected": {
+        "name": "Signal Burst",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "network",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:network:signal-burst",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "e5299859d5d9b65a",
+  "folder": "c5249115e6f9f64b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e5299859d5d9b65a"
+}

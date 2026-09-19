@@ -1,0 +1,96 @@
+{
+  "name": "*Sitil Disguise Rig",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Adjust Appearance: You shift your<br>appearance and clothing with light- z<br>bending fabric, facial projection, —<br>skinmesh, or disguise tech to avoid<br>recognition.<br>Target Splitter: Spend 2 Hope to<br>activate this targeting assist on<br>yourself or an ally within Close range.<br>. The next time the target makes an<br>attack, they can hit an additional target<br>within range that their attack roll would<br>succeed against. You can only hold this<br>protocol on one creature at atime.<br>Hard-Light Decoy: Make an Interface<br>Roll (14). On a success, create a<br>temporary visual projection, hard-light<br>duplicate, false object, or tactical<br>hologram no larger than you within<br>Close range that lasts for as long as<br>you look at it. It holds up to scrutiny<br>until an observer is within Melee range.</p>",
+    "level": 2,
+    "domain": "systems",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "2a3ddd6ad6cea6fd": {
+        "type": "effect",
+        "_id": "2a3ddd6ad6cea6fd",
+        "systemPath": "actions",
+        "description": "<p>Adjust Appearance: You shift your<br>appearance and clothing with light- z<br>bending fabric, facial projection, —<br>skinmesh, or disguise tech to avoid<br>recognition.<br>Target Splitter: Spend 2 Hope to<br>activate this targeting assist on<br>yourself or an ally within Close range.<br>. The next time the target makes an<br>attack, they can hit an additional target<br>within range that their attack roll would<br>succeed against. You can only hold this<br>protocol on one creature at atime.<br>Hard-Light Decoy: Make an Interface<br>Roll (14). On a success, create a<br>temporary visual projection, hard-light<br>duplicate, false object, or tactical<br>hologram no larger than you within<br>Close range that lasts for as long as<br>you look at it. It holds up to scrutiny<br>until an observer is within Melee range.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "*Sitil Disguise Rig",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:sitil-disguise-rig",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 72,
+        "pageEnd": 72,
+        "entityType": "competencyCard",
+        "slug": "sitil-disguise-rig",
+        "competency": "Systems",
+        "cardType": "Protocol Suite"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "*Sitil Disguise Rig",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "systems",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:sitil-disguise-rig",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7f5619f94aa13d16",
+  "folder": "477f3798a62286a8",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7f5619f94aa13d16"
+}

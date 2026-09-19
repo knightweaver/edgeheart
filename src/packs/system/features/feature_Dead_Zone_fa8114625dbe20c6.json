@@ -1,0 +1,72 @@
+{
+  "name": "Dead Zone",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per long rest, when you create a Surveyed Route, you can turn it into a Dead Zone until the scene ends or take severe damage. While inside your Dead Zone:<br>• Adversaries that move within Very Close range of you must mark a Stress.<br>• Adversaries treat the entire area as difficult terrain.<br>• When you deal damage to an adversary in the Dead Zone, add 1d8 physical damage to the damage roll.</p>",
+    "actions": {
+      "2fe4b3ded77d93d5": {
+        "type": "effect",
+        "_id": "2fe4b3ded77d93d5",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, when you create a Surveyed Route, you can turn it into a Dead Zone until the scene ends or take severe damage. While inside your Dead Zone:<br>• Adversaries that move within Very Close range of you must mark a Stress.<br>• Adversaries treat the entire area as difficult terrain.<br>• When you deal damage to an adversary in the Dead Zone, add 1d8 physical damage to the damage roll.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Dead Zone",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:zonebreaker:dead-zone",
+      "source": {
+        "featureStage": "mastery",
+        "sourcePage": 24
+      },
+      "deployment": {
+        "logicalKey": "feature:zonebreaker:dead-zone",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "fa8114625dbe20c6",
+  "folder": "69f2df05ae8bf096",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fa8114625dbe20c6"
+}

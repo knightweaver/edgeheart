@@ -1,0 +1,72 @@
+{
+  "name": "Street Wise",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>You have advantage on rolls to negotiate with criminals, detect lies, recognize gang signs, or find a safe place to hide in criminal territory.</p>",
+    "actions": {
+      "2c9a934056dc567c": {
+        "type": "effect",
+        "_id": "2c9a934056dc567c",
+        "systemPath": "actions",
+        "description": "<p>You have advantage on rolls to negotiate with criminals, detect lies, recognize gang signs, or find a safe place to hide in criminal territory.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Street Wise",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:gang-tied:street-wise",
+      "source": {
+        "featureStage": "affiliation",
+        "sourcePage": 30
+      },
+      "deployment": {
+        "logicalKey": "feature:gang-tied:street-wise",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ddeee16f0f906567",
+  "folder": "391290d6936dffea",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ddeee16f0f906567"
+}

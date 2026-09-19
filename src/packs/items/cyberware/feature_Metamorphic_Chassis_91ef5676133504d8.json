@@ -1,0 +1,84 @@
+{
+  "name": "Metamorphic Chassis",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 4</p><p>When you finish a long rest, choose Evasion, Armor, or Thresholds. Until your next long rest, gain one of the following: +1 Evasion, +1 Armor Score, or +4 damage thresholds. Once per long rest, when you spend Hope or mark Stress to use a feature, you don’t spend or mark it.</p>",
+    "actions": {
+      "0e8108c0fb0eba11": {
+        "type": "effect",
+        "_id": "0e8108c0fb0eba11",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 4</p><p>When you finish a long rest, choose Evasion, Armor, or Thresholds. Until your next long rest, gain one of the following: +1 Evasion, +1 Armor Score, or +4 damage thresholds. Once per long rest, when you spend Hope or mark Stress to use a feature, you don’t spend or mark it.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Metamorphic Chassis",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:metamorphic-chassis",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 44,
+        "pageEnd": 44,
+        "entityType": "cyberware",
+        "slug": "metamorphic-chassis",
+        "roll": 54,
+        "cyberCostRaw": "4",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Metamorphic Chassis",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:metamorphic-chassis",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "91ef5676133504d8",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!91ef5676133504d8"
+}

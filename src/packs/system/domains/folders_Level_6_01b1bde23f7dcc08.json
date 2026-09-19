@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "739b962985b2deb3",
+  "name": "Level 6",
+  "color": null,
+  "sorting": "a",
+  "_id": "01b1bde23f7dcc08",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-medtech-level-6",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!01b1bde23f7dcc08"
+}

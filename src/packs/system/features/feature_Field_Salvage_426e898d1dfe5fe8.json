@@ -1,0 +1,72 @@
+{
+  "name": "Field Salvage",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Once per scene, you can scavenge useful material from the surrounding area. Choose one piece of Field Salvage:<br>• Patch: You or an ally within Melee range clears an Armor Slot.<br>• Tool: You or an ally gains a +2 bonus to their next action.<br>• Hazard: The next time you deal damage to an adversary within your Surveyed Route, add 1d6 physical damage to the damage roll.</p><p>Unused Field Salvage is lost when you take a rest.</p>",
+    "actions": {
+      "f5eaa1cccaca4b59": {
+        "type": "effect",
+        "_id": "f5eaa1cccaca4b59",
+        "systemPath": "actions",
+        "description": "<p>Once per scene, you can scavenge useful material from the surrounding area. Choose one piece of Field Salvage:<br>• Patch: You or an ally within Melee range clears an Armor Slot.<br>• Tool: You or an ally gains a +2 bonus to their next action.<br>• Hazard: The next time you deal damage to an adversary within your Surveyed Route, add 1d6 physical damage to the damage roll.</p><p>Unused Field Salvage is lost when you take a rest.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Field Salvage",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:zonebreaker:field-salvage",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 24
+      },
+      "deployment": {
+        "logicalKey": "feature:zonebreaker:field-salvage",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "426e898d1dfe5fe8",
+  "folder": "69f2df05ae8bf096",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!426e898d1dfe5fe8"
+}

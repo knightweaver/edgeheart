@@ -1,0 +1,72 @@
+{
+  "name": "Rapid Response",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When an ally within Close range marks one or more Hit Points, you can mark a Stress to immediately move to within Melee range of them. The next time you use Emergency Medicine on that ally before the scene ends, you roll with advantage.</p>",
+    "actions": {
+      "409e92adbc38c737": {
+        "type": "effect",
+        "_id": "409e92adbc38c737",
+        "systemPath": "actions",
+        "description": "<p>When an ally within Close range marks one or more Hit Points, you can mark a Stress to immediately move to within Melee range of them. The next time you use Emergency Medicine on that ally before the scene ends, you roll with advantage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Rapid Response",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:combat-medic:rapid-response",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 25
+      },
+      "deployment": {
+        "logicalKey": "feature:combat-medic:rapid-response",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ec5d8843d3e610ee",
+  "folder": "f8218c4725d2102a",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ec5d8843d3e610ee"
+}

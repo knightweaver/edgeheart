@@ -1,0 +1,96 @@
+{
+  "name": "Throwing Blades",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Spend a Hope to make an Interface<br>Roll and release a burst of throwing<br>blades, microdrones, or suppressed<br>smart-shards that strike out at all<br>targets within Very Close range.<br>Targets you hit take d8+2 physical<br>damage using your Proficiency. If a<br>target you hit is Vulnerable, they take<br>an extra 1d8 damage.</p>",
+    "level": 1,
+    "domain": "ghost",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "21d780bd852ff518": {
+        "type": "effect",
+        "_id": "21d780bd852ff518",
+        "systemPath": "actions",
+        "description": "<p>Spend a Hope to make an Interface<br>Roll and release a burst of throwing<br>blades, microdrones, or suppressed<br>smart-shards that strike out at all<br>targets within Very Close range.<br>Targets you hit take d8+2 physical<br>damage using your Proficiency. If a<br>target you hit is Vulnerable, they take<br>an extra 1d8 damage.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Throwing Blades",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Ghost:throwing-blades",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 77,
+        "pageEnd": 77,
+        "entityType": "competencyCard",
+        "slug": "throwing-blades",
+        "competency": "Ghost",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "ghost"
+        }
+      ],
+      "validationExpected": {
+        "name": "Throwing Blades",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "ghost",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:ghost:throwing-blades",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "538a02f4cbbcaa63",
+  "folder": "ef3767d83bb3a12c",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!538a02f4cbbcaa63"
+}

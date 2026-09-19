@@ -1,0 +1,96 @@
+{
+  "name": "Mass Disguise",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you have a few minutes of<br>silence to focus, you can mark a Stress<br>to change the appearance of all willing<br>creatures within Close range using<br>false-face rigs, projected identities,<br>smart-skin overlays, synthetic masks,<br>or coordinated disguise tech.<br>Their new forms must share a general<br>body structure and size, and can be<br>somebody or something you’ve seen a<br>before or entirely fabricated.<br>A disguised creature has advantage on<br>Presence Rolls to avoid scrutiny.<br>Activate a Countdown (8). It ticks down<br>as a consequence the GM chooses.<br>When it triggers, the disguises drop.</p>",
+    "level": 6,
+    "domain": "ghost",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "c2d42358711f25b3": {
+        "type": "effect",
+        "_id": "c2d42358711f25b3",
+        "systemPath": "actions",
+        "description": "<p>When you have a few minutes of<br>silence to focus, you can mark a Stress<br>to change the appearance of all willing<br>creatures within Close range using<br>false-face rigs, projected identities,<br>smart-skin overlays, synthetic masks,<br>or coordinated disguise tech.<br>Their new forms must share a general<br>body structure and size, and can be<br>somebody or something you’ve seen a<br>before or entirely fabricated.<br>A disguised creature has advantage on<br>Presence Rolls to avoid scrutiny.<br>Activate a Countdown (8). It ticks down<br>as a consequence the GM chooses.<br>When it triggers, the disguises drop.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mass Disguise",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Ghost:mass-disguise",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 78,
+        "pageEnd": 78,
+        "entityType": "competencyCard",
+        "slug": "mass-disguise",
+        "competency": "Ghost",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "ghost"
+        }
+      ],
+      "validationExpected": {
+        "name": "Mass Disguise",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "ghost",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:ghost:mass-disguise",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "a89a958f4477f08c",
+  "folder": "ef78e6d12364f4ea",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a89a958f4477f08c"
+}

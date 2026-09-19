@@ -1,0 +1,96 @@
+{
+  "name": "Wirebind",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against all<br>adversaries within Very Close range.<br>Targets you succeed against are<br>temporarily Restrained by snare wire,<br>smart restraints, adhesive gel, or<br>hijacked security systems.<br>a —</p>",
+    "level": 2,
+    "domain": "ghost",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "f644d67e3874ce7a": {
+        "type": "effect",
+        "_id": "f644d67e3874ce7a",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against all<br>adversaries within Very Close range.<br>Targets you succeed against are<br>temporarily Restrained by snare wire,<br>smart restraints, adhesive gel, or<br>hijacked security systems.<br>a —</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Wirebind",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Ghost:wirebind",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 77,
+        "pageEnd": 77,
+        "entityType": "competencyCard",
+        "slug": "wirebind",
+        "competency": "Ghost",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "ghost"
+        }
+      ],
+      "validationExpected": {
+        "name": "Wirebind",
+        "type": "domainCard",
+        "system.level": 2,
+        "system.domain": "ghost",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:ghost:wirebind",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "56858d77e776e126",
+  "folder": "207ea0554e5a207b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!56858d77e776e126"
+}

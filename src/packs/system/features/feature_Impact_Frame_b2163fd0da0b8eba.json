@@ -1,0 +1,72 @@
+{
+  "name": "Impact Frame",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Gain a +1 bonus to your Armor Score. When you mark an Armor Slot to reduce incoming damage, you may force the attacker to mark 1 Stress or push them back to Close range, the attackers choice.</p>",
+    "actions": {
+      "0b23dc6d3ec6cf33": {
+        "type": "effect",
+        "_id": "0b23dc6d3ec6cf33",
+        "systemPath": "actions",
+        "description": "<p>Gain a +1 bonus to your Armor Score. When you mark an Armor Slot to reduce incoming damage, you may force the attacker to mark 1 Stress or push them back to Close range, the attackers choice.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Impact Frame",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:bulwark:impact-frame",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 27
+      },
+      "deployment": {
+        "logicalKey": "feature:bulwark:impact-frame",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "b2163fd0da0b8eba",
+  "folder": "d2396cc3b2b31443",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b2163fd0da0b8eba"
+}

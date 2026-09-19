@@ -1,0 +1,96 @@
+{
+  "name": "System Hijack",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll against a<br>creature within Far range. Ona<br>success, spend a Hope to hijack the<br>target’s muscles, cyberware, nervous<br>system, pain response, or nervous<br>system for a brief violent burst.<br>You can cause the target to move,<br>attack, or both. If you do both, you<br>choose the order.<br>lf you cause the creature to move, they<br>move to a location you choose within<br>Close range of them.<br>lf you cause the creature to attack,<br>make an Interface Roll against a target<br>within Melee range of them.<br>On a success, deal d10 physical<br>damage using your Proficiency.</p>",
+    "level": 3,
+    "domain": "redline",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "26001d616f826447": {
+        "type": "effect",
+        "_id": "26001d616f826447",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll against a<br>creature within Far range. Ona<br>success, spend a Hope to hijack the<br>target’s muscles, cyberware, nervous<br>system, pain response, or nervous<br>system for a brief violent burst.<br>You can cause the target to move,<br>attack, or both. If you do both, you<br>choose the order.<br>lf you cause the creature to move, they<br>move to a location you choose within<br>Close range of them.<br>lf you cause the creature to attack,<br>make an Interface Roll against a target<br>within Melee range of them.<br>On a success, deal d10 physical<br>damage using your Proficiency.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "System Hijack",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:system-hijack",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 86,
+        "pageEnd": 86,
+        "entityType": "competencyCard",
+        "slug": "system-hijack",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "System Hijack",
+        "type": "domainCard",
+        "system.level": 3,
+        "system.domain": "redline",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:system-hijack",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "fd28680e9af4564e",
+  "folder": "a10485d625ec9e18",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fd28680e9af4564e"
+}

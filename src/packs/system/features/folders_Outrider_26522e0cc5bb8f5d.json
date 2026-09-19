@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "ebb501fd45844a0e",
+  "name": "Outrider",
+  "color": null,
+  "sorting": "a",
+  "_id": "26522e0cc5bb8f5d",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:features:subclass-outrider",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!26522e0cc5bb8f5d"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Hardlight Umbrella",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Mark 1 Stress to create temporary cover for yourself or one ally within Very Close range.</p>",
+    "quantity": 1,
+    "actions": {
+      "40bd022e952d9f16": {
+        "type": "effect",
+        "_id": "40bd022e952d9f16",
+        "systemPath": "actions",
+        "description": "<p>Mark 1 Stress to create temporary cover for yourself or one ally within Very Close range.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Hardlight Umbrella",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:loot:hardlight-umbrella",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 37,
+        "pageEnd": 37,
+        "entityType": "loot",
+        "slug": "hardlight-umbrella",
+        "roll": 11
+      },
+      "validationExpected": {
+        "name": "Hardlight Umbrella",
+        "type": "loot",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "loot:hardlight-umbrella",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "ac99c8e8dc10ec75",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ac99c8e8dc10ec75"
+}

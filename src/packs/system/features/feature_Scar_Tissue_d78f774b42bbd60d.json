@@ -1,0 +1,72 @@
+{
+  "name": "Scar Tissue",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you would mark a Hit Point or Stress from physical damage, roll a d6. On a 6, don’t mark it.</p>",
+    "actions": {
+      "4b1090d56616ce79": {
+        "type": "effect",
+        "_id": "4b1090d56616ce79",
+        "systemPath": "actions",
+        "description": "<p>When you would mark a Hit Point or Stress from physical damage, roll a d6. On a 6, don’t mark it.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Scar Tissue",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:black-clinic-survivor:scar-tissue",
+      "source": {
+        "featureStage": "lifePath",
+        "sourcePage": 29
+      },
+      "deployment": {
+        "logicalKey": "feature:black-clinic-survivor:scar-tissue",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "d78f774b42bbd60d",
+  "folder": "771dbc18cf8b84e0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d78f774b42bbd60d"
+}

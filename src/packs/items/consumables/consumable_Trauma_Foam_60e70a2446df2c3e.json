@@ -1,0 +1,81 @@
+{
+  "name": "Trauma Foam",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>When a creature within Melee range marks HP, use this to make them clear 1 Stress and stop bleeding, burning, or leaking.</p>",
+    "quantity": 1,
+    "actions": {
+      "927c07b5b5d67a28": {
+        "type": "effect",
+        "_id": "927c07b5b5d67a28",
+        "systemPath": "actions",
+        "description": "<p>When a creature within Melee range marks HP, use this to make them clear 1 Stress and stop bleeding, burning, or leaking.</p>",
+        "chatDisplay": true,
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Trauma Foam",
+        "img": "icons/svg/item-bag.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "consumeOnUse": true
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:consumable:trauma-foam",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 39,
+        "pageEnd": 39,
+        "entityType": "consumable",
+        "slug": "trauma-foam",
+        "roll": 3
+      },
+      "validationExpected": {
+        "name": "Trauma Foam",
+        "type": "consumable",
+        "system.quantity": 1
+      },
+      "deployment": {
+        "logicalKey": "consumable:trauma-foam",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "60e70a2446df2c3e",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!60e70a2446df2c3e"
+}

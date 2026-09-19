@@ -1,0 +1,96 @@
+{
+  "name": "Support Tank",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When an ally within Close range fails a<br>roll, you can spend 2 Hope to allow<br>them to reroll either their Hope Die or<br>Fear Die.<br>This might look like providing cover,<br>forcing the enemy’s attention onto you,<br>or bracing them through impact.</p>",
+    "level": 4,
+    "domain": "aegis",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "1a9313ec8d7ca148": {
+        "type": "effect",
+        "_id": "1a9313ec8d7ca148",
+        "systemPath": "actions",
+        "description": "<p>When an ally within Close range fails a<br>roll, you can spend 2 Hope to allow<br>them to reroll either their Hope Die or<br>Fear Die.<br>This might look like providing cover,<br>forcing the enemy’s attention onto you,<br>or bracing them through impact.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Support Tank",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Aegis:support-tank",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 84,
+        "pageEnd": 84,
+        "entityType": "competencyCard",
+        "slug": "support-tank",
+        "competency": "Aegis",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "aegis"
+        }
+      ],
+      "validationExpected": {
+        "name": "Support Tank",
+        "type": "domainCard",
+        "system.level": 4,
+        "system.domain": "aegis",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:aegis:support-tank",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "67d17eb9d7c78378",
+  "folder": "7449cbd289e70274",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!67d17eb9d7c78378"
+}

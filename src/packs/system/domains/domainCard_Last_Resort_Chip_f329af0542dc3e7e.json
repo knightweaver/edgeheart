@@ -1,0 +1,96 @@
+{
+  "name": "Last-Resort Chip",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Mark a Hit Point to create a last-resort<br>chip, emergency override patch,<br>adrenaline key, survival trigger, or<br>illegal biofeedback token powered by<br>your own unstable systems.<br>Whoever carries it gains the following<br>benefit:<br>Whenever the bearer would mark 2<br>or more HP, they can spend a Hope<br>to reduce the HP marked by 1.<br>The chip burns out if you have no HP<br>marked or you use this protocol again.</p>",
+    "level": 1,
+    "domain": "redline",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "195b2fcdd82db7e0": {
+        "type": "effect",
+        "_id": "195b2fcdd82db7e0",
+        "systemPath": "actions",
+        "description": "<p>Mark a Hit Point to create a last-resort<br>chip, emergency override patch,<br>adrenaline key, survival trigger, or<br>illegal biofeedback token powered by<br>your own unstable systems.<br>Whoever carries it gains the following<br>benefit:<br>Whenever the bearer would mark 2<br>or more HP, they can spend a Hope<br>to reduce the HP marked by 1.<br>The chip burns out if you have no HP<br>marked or you use this protocol again.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Last-Resort Chip",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:last-resort-chip",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 85,
+        "pageEnd": 85,
+        "entityType": "competencyCard",
+        "slug": "last-resort-chip",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Last-Resort Chip",
+        "type": "domainCard",
+        "system.level": 1,
+        "system.domain": "redline",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:last-resort-chip",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "f329af0542dc3e7e",
+  "folder": "53f3a7583391516c",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f329af0542dc3e7e"
+}

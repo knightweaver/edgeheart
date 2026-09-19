@@ -1,0 +1,96 @@
+{
+  "name": "Feed on Panic",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Whenever a creature within Close<br>range marks any number of Stress or<br>takes Severe damage, you can spend a<br>Hope to clear a Stress or clear a Fear<br>the GM holds.<br>This might look like your system<br>harvesting panic data, converting<br>suffering into processing power, or<br>letting something beyond the wall feed</p>",
+    "level": 9,
+    "domain": "blackwall",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "ca690adf35c69667": {
+        "type": "effect",
+        "_id": "ca690adf35c69667",
+        "systemPath": "actions",
+        "description": "<p>Whenever a creature within Close<br>range marks any number of Stress or<br>takes Severe damage, you can spend a<br>Hope to clear a Stress or clear a Fear<br>the GM holds.<br>This might look like your system<br>harvesting panic data, converting<br>suffering into processing power, or<br>letting something beyond the wall feed</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Feed on Panic",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:feed-on-panic",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 89,
+        "pageEnd": 89,
+        "entityType": "competencyCard",
+        "slug": "feed-on-panic",
+        "competency": "Blackwall",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "Feed on Panic",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "blackwall",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:feed-on-panic",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "c7a879a09ba31675",
+  "folder": "3070751f796b5d98",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c7a879a09ba31675"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "216490cef1e420a4",
+  "name": "Level 6",
+  "color": null,
+  "sorting": "a",
+  "_id": "83c58ac21e5a50f6",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-assault-level-6",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!83c58ac21e5a50f6"
+}

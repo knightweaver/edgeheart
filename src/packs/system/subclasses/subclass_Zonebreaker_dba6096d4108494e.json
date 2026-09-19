@@ -1,0 +1,59 @@
+{
+  "name": "Zonebreaker",
+  "type": "subclass",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Play as a Zonebreaker if you want to dominate terrain, turn ruins into weapons, and make the battlefield itself dangerous.</p>",
+    "spellcastingTrait": "instinct",
+    "features": [
+      {
+        "type": "foundation",
+        "ref": "feature:zonebreaker:field-salvage"
+      },
+      {
+        "type": "specialization",
+        "ref": "feature:zonebreaker:bad-ground"
+      },
+      {
+        "type": "mastery",
+        "ref": "feature:zonebreaker:dead-zone"
+      }
+    ],
+    "featureState": 1,
+    "isMulticlass": false,
+    "linkedClass": "@class:reclaimer"
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "subclass:zonebreaker",
+      "source": {
+        "entityType": "subclass",
+        "slug": "zonebreaker",
+        "parentClass": "Reclaimer"
+      },
+      "deployment": {
+        "logicalKey": "subclass:zonebreaker",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "dba6096d4108494e",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!dba6096d4108494e"
+}

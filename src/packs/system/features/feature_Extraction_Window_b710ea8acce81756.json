@@ -1,0 +1,72 @@
+{
+  "name": "Extraction Window",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When an ally within Close range would be targeted by an attack, discovered, or caught by a danger, you can spend 1 Cover to make that ally immediately move to a point within Close range, and the triggering attack has disadvantage against them or the ally has advantage on the roll to avoid it.</p>",
+    "actions": {
+      "bbc4d2a0e6f6b687": {
+        "type": "effect",
+        "_id": "bbc4d2a0e6f6b687",
+        "systemPath": "actions",
+        "description": "<p>When an ally within Close range would be targeted by an attack, discovered, or caught by a danger, you can spend 1 Cover to make that ally immediately move to a point within Close range, and the triggering attack has disadvantage against them or the ally has advantage on the roll to avoid it.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Extraction Window",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:phantom:extraction-window",
+      "source": {
+        "featureStage": "specialization",
+        "sourcePage": 14
+      },
+      "deployment": {
+        "logicalKey": "feature:phantom:extraction-window",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "b710ea8acce81756",
+  "folder": "8443da7dcd2feb66",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b710ea8acce81756"
+}

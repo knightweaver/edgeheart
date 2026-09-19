@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "96bba602a2e761b0",
+  "name": "Level 5",
+  "color": null,
+  "sorting": "a",
+  "_id": "8f0db890303b1966",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-network-level-5",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!8f0db890303b1966"
+}

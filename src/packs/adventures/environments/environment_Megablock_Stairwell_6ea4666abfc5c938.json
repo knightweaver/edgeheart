@@ -1,0 +1,141 @@
+{
+  "name": "Megablock Stairwell",
+  "type": "environment",
+  "img": "icons/svg/door-exit.svg",
+  "system": {
+    "description": "A vertical maze of emergency stairs, leaking pipes, locked floors, and neighbors who know when to shut their doors.",
+    "tier": 1,
+    "type": "traversal",
+    "difficulty": 11,
+    "notes": "",
+    "impulses": [
+      "Divide",
+      "reroute",
+      "delay",
+      "escalate"
+    ],
+    "potentialAdversaries": [
+      "Neon Claw Ganger",
+      "Chrome Maw Bruiser",
+      "Tiger Choir Cutter"
+    ],
+    "features": [
+      {
+        "_id": "7dd860417aa643b7",
+        "name": "Bad Angles",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Ranged attacks beyond Very Close range have disadvantage unless the attacker controls a higher position.\n\nWho has the high ground?",
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "13dac2dd528a781a",
+        "name": "Door Slams Open",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "Introduce civilians, gang lookouts, security, or a new route through an apartment.\n\nWho lives behind this door?",
+        "actionType": "action",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      },
+      {
+        "_id": "66f5fe3eccbb50ee",
+        "name": "Down the Stairs",
+        "type": "effect",
+        "img": "icons/svg/aura.svg",
+        "systemPath": "features",
+        "chatDisplay": true,
+        "description": "When a PC rolls with Fear while moving, they slip, crash, or get blocked. They mark a Stress or move down one range band.\n\nWhat broke under their feet?",
+        "actionType": "reaction",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": null,
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "scene",
+          "amount": null
+        },
+        "range": ""
+      }
+    ],
+    "tags": [],
+    "bonuses": {}
+  },
+  "prototypeToken": null,
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-e:environment:megablock-stairwell",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 54,
+        "pageEnd": 54,
+        "entityType": "environment",
+        "slug": "megablock-stairwell"
+      },
+      "validationExpected": {
+        "name": "Megablock Stairwell",
+        "type": "environment",
+        "system.tier": 1,
+        "system.type": "traversal",
+        "system.difficulty": 11,
+        "system.featuresCount": 3
+      },
+      "deployment": {
+        "logicalKey": "environment:megablock-stairwell",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6ea4666abfc5c938",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!6ea4666abfc5c938"
+}

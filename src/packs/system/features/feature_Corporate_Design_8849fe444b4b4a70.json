@@ -1,0 +1,72 @@
+{
+  "name": "Corporate Design",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Choose one of your Experiences tied to corporate training, education, etiquette, security, finance, or bureaucracy. Gain a permanent +1 bonus to it.</p>",
+    "actions": {
+      "14e2f9607e94b640": {
+        "type": "effect",
+        "_id": "14e2f9607e94b640",
+        "systemPath": "actions",
+        "description": "<p>Choose one of your Experiences tied to corporate training, education, etiquette, security, finance, or bureaucracy. Gain a permanent +1 bonus to it.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Corporate Design",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:corpo-raised:corporate-design",
+      "source": {
+        "featureStage": "lifePath",
+        "sourcePage": 29
+      },
+      "deployment": {
+        "logicalKey": "feature:corpo-raised:corporate-design",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "8849fe444b4b4a70",
+  "folder": "d1153fdf8deb21bc",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8849fe444b4b4a70"
+}

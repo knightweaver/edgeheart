@@ -1,0 +1,28 @@
+{
+  "type": "Item",
+  "folder": "1bcce8a66730ed40",
+  "name": "Level 10",
+  "color": null,
+  "sorting": "a",
+  "_id": "edb9c83fd13c0d60",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "edgeheart": {
+      "deployment": {
+        "logicalKey": "folder:domains:domain-redline-level-10",
+        "sourceBuildStep": 3
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!edb9c83fd13c0d60"
+}

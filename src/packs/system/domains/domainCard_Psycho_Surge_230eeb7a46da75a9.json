@@ -1,0 +1,96 @@
+{
+  "name": "Psycho Surge",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per rest, spend a Hope to unleash<br>aviolent surge of adrenaline, neural<br>noise, rageware instability, overheating<br>implants, pain-editor failure, and<br>cyberpsychosis-adjacent aggression<br>around yourself.<br>Make a single Interface Roll against<br>each adversary within Close range.<br>On a success, a target marks a HP and<br>a Stress. On a failure, atarget marks a<br>Stress.<br>Each ally within Close range marks a<br>Stress but clears a HP.</p>",
+    "level": 9,
+    "domain": "redline",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "8922bf78a53a23e9": {
+        "type": "effect",
+        "_id": "8922bf78a53a23e9",
+        "systemPath": "actions",
+        "description": "<p>Once per rest, spend a Hope to unleash<br>aviolent surge of adrenaline, neural<br>noise, rageware instability, overheating<br>implants, pain-editor failure, and<br>cyberpsychosis-adjacent aggression<br>around yourself.<br>Make a single Interface Roll against<br>each adversary within Close range.<br>On a success, a target marks a HP and<br>a Stress. On a failure, atarget marks a<br>Stress.<br>Each ally within Close range marks a<br>Stress but clears a HP.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Psycho Surge",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Redline:psycho-surge",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 87,
+        "pageEnd": 87,
+        "entityType": "competencyCard",
+        "slug": "psycho-surge",
+        "competency": "Redline",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "redline"
+        }
+      ],
+      "validationExpected": {
+        "name": "Psycho Surge",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "redline",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:redline:psycho-surge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "230eeb7a46da75a9",
+  "folder": "173b9091470f5e57",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!230eeb7a46da75a9"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Ghost Fog",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (13). Ona<br>success, spend a Hope to flood the<br>area around you with ghost fog: sensor<br>static, chaff mist, corrupted light,<br>digital afterimages, or invasive route-<br>mapping projections.<br>You and any targets within Close range<br>become momentarily incorporeal to<br>security systems and automated<br>barriers, allowing you to pass through a<br>sealed passage that has a plausible<br>physical or digital bypass.<br>This protocol lasts until you have<br>passed through the barrier<br>successfully.</p>",
+    "level": 5,
+    "domain": "blackwall",
+    "recallCost": 0,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "d6570fb7911dac09": {
+        "type": "effect",
+        "_id": "d6570fb7911dac09",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (13). Ona<br>success, spend a Hope to flood the<br>area around you with ghost fog: sensor<br>static, chaff mist, corrupted light,<br>digital afterimages, or invasive route-<br>mapping projections.<br>You and any targets within Close range<br>become momentarily incorporeal to<br>security systems and automated<br>barriers, allowing you to pass through a<br>sealed passage that has a plausible<br>physical or digital bypass.<br>This protocol lasts until you have<br>passed through the barrier<br>successfully.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Ghost Fog",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:ghost-fog",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 88,
+        "pageEnd": 88,
+        "entityType": "competencyCard",
+        "slug": "ghost-fog",
+        "competency": "Blackwall",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "Ghost Fog",
+        "type": "domainCard",
+        "system.level": 5,
+        "system.domain": "blackwall",
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:ghost-fog",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "d62c6f86d5da191b",
+  "folder": "24dc847c7e967b59",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d62c6f86d5da191b"
+}

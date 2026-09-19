@@ -1,0 +1,72 @@
+{
+  "name": "Fire Superiority",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Spend 3 Hope after you succeed on a weapon attack. Choose one:<br>• Add +2d6 to the damage roll.<br>• Choose another target within range that your attack roll would also succeed against.<br>• The target marks 1 Stress and becomes temporarily Vulnerable.</p>",
+    "actions": {
+      "0afe9db704d5ef94": {
+        "type": "effect",
+        "_id": "0afe9db704d5ef94",
+        "systemPath": "actions",
+        "description": "<p>Spend 3 Hope after you succeed on a weapon attack. Choose one:<br>• Add +2d6 to the damage roll.<br>• Choose another target within range that your attack roll would also succeed against.<br>• The target marks 1 Stress and becomes temporarily Vulnerable.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Fire Superiority",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:solo:fire-superiority",
+      "source": {
+        "featureStage": "hope",
+        "sourcePage": 15
+      },
+      "deployment": {
+        "logicalKey": "feature:solo:fire-superiority",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "6faf890fe1762273",
+  "folder": "5e8d50e29a7260de",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6faf890fe1762273"
+}

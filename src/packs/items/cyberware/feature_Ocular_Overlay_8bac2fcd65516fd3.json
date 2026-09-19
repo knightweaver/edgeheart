@@ -1,0 +1,84 @@
+{
+  "name": "Ocular Overlay",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 0</p><p>You can see clearly in dim light, read digital displays at a distance, and have advantage on rolls to notice visual glitches, hidden cameras, or small details.</p>",
+    "actions": {
+      "055d0d220a89787f": {
+        "type": "effect",
+        "_id": "055d0d220a89787f",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 0</p><p>You can see clearly in dim light, read digital displays at a distance, and have advantage on rolls to notice visual glitches, hidden cameras, or small details.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Ocular Overlay",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:ocular-overlay",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 42,
+        "pageEnd": 42,
+        "entityType": "cyberware",
+        "slug": "ocular-overlay",
+        "roll": 1,
+        "cyberCostRaw": "0",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Ocular Overlay",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:ocular-overlay",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "8bac2fcd65516fd3",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8bac2fcd65516fd3"
+}

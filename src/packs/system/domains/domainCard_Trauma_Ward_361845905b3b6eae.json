@@ -1,0 +1,96 @@
+{
+  "name": "Trauma Ward",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (16). Once per<br>long rest on a success, choose a point<br>within Far range and deploy a trauma<br>ward there for all allies within Very<br>Close range of that point.<br>This might appear as a med-drone<br>perimeter, hard-light clinic, surgical<br>tent, nanite curtain, emergency<br>stabilization field, or automated life-<br>support zone. When you do, place a d6<br>on this card with the 1 value facing up.<br>When an ally in this zone takes<br>damage, they reduce it by the die’s<br>value. You then increase the die’s value<br>by one. When the die’s value would<br>exceed 6, this effect ends.</p>",
+    "level": 6,
+    "domain": "medtech",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "6c1e23be3a384364": {
+        "type": "effect",
+        "_id": "6c1e23be3a384364",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (16). Once per<br>long rest on a success, choose a point<br>within Far range and deploy a trauma<br>ward there for all allies within Very<br>Close range of that point.<br>This might appear as a med-drone<br>perimeter, hard-light clinic, surgical<br>tent, nanite curtain, emergency<br>stabilization field, or automated life-<br>support zone. When you do, place a d6<br>on this card with the 1 value facing up.<br>When an ally in this zone takes<br>damage, they reduce it by the die’s<br>value. You then increase the die’s value<br>by one. When the die’s value would<br>exceed 6, this effect ends.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Trauma Ward",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:trauma-ward",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 83,
+        "pageEnd": 83,
+        "entityType": "competencyCard",
+        "slug": "trauma-ward",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Trauma Ward",
+        "type": "domainCard",
+        "system.level": 6,
+        "system.domain": "medtech",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:trauma-ward",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "361845905b3b6eae",
+  "folder": "01b1bde23f7dcc08",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!361845905b3b6eae"
+}

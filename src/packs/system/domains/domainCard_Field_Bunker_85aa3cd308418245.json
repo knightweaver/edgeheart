@@ -1,0 +1,96 @@
+{
+  "name": "Field Bunker",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (13).<br>On a success, spend 2 Hope to deploy<br>a survival bunker, natural barricade,<br>scrap dome, hard-shell shelter,<br>emergency cover, or rapid-build<br>defensive structure that you and one<br>ally can take cover within.<br>While inside the bunker, a creature<br>can’t be targeted by attacks and can’t<br>make attacks.<br>Attacks made against the bunker<br>automatically succeed.<br>The bunker has the following damage<br>thresholds and lasts until it marks 3 Hit<br>Points. Place tokens on this card to<br>represent marking Hit Points.<br>Thresholds: 15/30</p>",
+    "level": 5,
+    "domain": "frontier",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "a9d8db58dc5d4cd2": {
+        "type": "effect",
+        "_id": "a9d8db58dc5d4cd2",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (13).<br>On a success, spend 2 Hope to deploy<br>a survival bunker, natural barricade,<br>scrap dome, hard-shell shelter,<br>emergency cover, or rapid-build<br>defensive structure that you and one<br>ally can take cover within.<br>While inside the bunker, a creature<br>can’t be targeted by attacks and can’t<br>make attacks.<br>Attacks made against the bunker<br>automatically succeed.<br>The bunker has the following damage<br>thresholds and lasts until it marks 3 Hit<br>Points. Place tokens on this card to<br>represent marking Hit Points.<br>Thresholds: 15/30</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Field Bunker",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:field-bunker",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 80,
+        "pageEnd": 80,
+        "entityType": "competencyCard",
+        "slug": "field-bunker",
+        "competency": "Frontier",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Field Bunker",
+        "type": "domainCard",
+        "system.level": 5,
+        "system.domain": "frontier",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:field-bunker",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "85aa3cd308418245",
+  "folder": "cea695611a3fbbee",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!85aa3cd308418245"
+}

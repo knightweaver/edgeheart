@@ -1,0 +1,56 @@
+{
+  "name": "Streetborn",
+  "type": "ancestry",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You grew up in the streets, alleys, and gang districts of the New Dark Age. You learned how to read danger before it speaks.</p><h4>LIFE PATH FEATURES</h4><p><em><strong>Alley Reflexes:</strong></em> When you make an Agility Roll, you can spend 2 Hope to reroll your Hope Die.</p><p><em><strong>Cheap Shot:</strong></em> When you succeed on an attack against a target within Very Close range using an improvised weapon, hidden blade, dirty trick, or street tactic, you can spend a Hope to make them temporarily Vulnerable.</p>",
+    "features": [
+      {
+        "type": "primary",
+        "ref": "feature:streetborn:alley-reflexes"
+      },
+      {
+        "type": "secondary",
+        "ref": "feature:streetborn:cheap-shot"
+      }
+    ],
+    "attribution": {
+      "source": "Edgeheart",
+      "page": 29,
+      "artist": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "ancestry:streetborn",
+      "source": {
+        "entityType": "lifePath",
+        "slug": "streetborn",
+        "mappedFoundryType": "ancestry"
+      },
+      "deployment": {
+        "logicalKey": "ancestry:streetborn",
+        "sourceBuildStep": 3,
+        "referencesResolved": false
+      }
+    }
+  },
+  "_id": "bca55a342d384489",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!bca55a342d384489"
+}

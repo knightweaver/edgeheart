@@ -1,0 +1,96 @@
+{
+  "name": "Invigoration",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you or an ally within Close range<br>has used a feature that has an<br>exhaustion limit, such as once per rest<br>or once per session, you can spend any<br>number of Hope and roll that many<br>d6s. If any roll a 6, the feature can be<br>used again.<br>This might represent emergency<br>stimulants, memory backups, neural<br>rebooting, adrenal flooding, cyberware<br>overclocking, or forcing a body past its<br>safe limits.</p>",
+    "level": 10,
+    "domain": "medtech",
+    "recallCost": 3,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "d27c2f7f3f5f9ad6": {
+        "type": "effect",
+        "_id": "d27c2f7f3f5f9ad6",
+        "systemPath": "actions",
+        "description": "<p>When you or an ally within Close range<br>has used a feature that has an<br>exhaustion limit, such as once per rest<br>or once per session, you can spend any<br>number of Hope and roll that many<br>d6s. If any roll a 6, the feature can be<br>used again.<br>This might represent emergency<br>stimulants, memory backups, neural<br>rebooting, adrenal flooding, cyberware<br>overclocking, or forcing a body past its<br>safe limits.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Invigoration",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:invigoration",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 83,
+        "pageEnd": 83,
+        "entityType": "competencyCard",
+        "slug": "invigoration",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Invigoration",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "medtech",
+        "system.recallCost": 3,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:invigoration",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "269dd9f31bc50523",
+  "folder": "f8c10bae3aee0f52",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!269dd9f31bc50523"
+}

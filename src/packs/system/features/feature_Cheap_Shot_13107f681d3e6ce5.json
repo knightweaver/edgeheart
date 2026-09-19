@@ -1,0 +1,72 @@
+{
+  "name": "Cheap Shot",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When you succeed on an attack against a target within Very Close range using an improvised weapon, hidden blade, dirty trick, or street tactic, you can spend a Hope to make them temporarily Vulnerable.</p>",
+    "actions": {
+      "e2662ff253df8eb0": {
+        "type": "effect",
+        "_id": "e2662ff253df8eb0",
+        "systemPath": "actions",
+        "description": "<p>When you succeed on an attack against a target within Very Close range using an improvised weapon, hidden blade, dirty trick, or street tactic, you can spend a Hope to make them temporarily Vulnerable.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Cheap Shot",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:streetborn:cheap-shot",
+      "source": {
+        "featureStage": "lifePath",
+        "sourcePage": 29
+      },
+      "deployment": {
+        "logicalKey": "feature:streetborn:cheap-shot",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "13107f681d3e6ce5",
+  "folder": "6539cc59e068a620",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!13107f681d3e6ce5"
+}

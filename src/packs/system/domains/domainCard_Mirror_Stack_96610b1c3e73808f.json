@@ -1,0 +1,96 @@
+{
+  "name": "Mirror Stack",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (14).<br>Once per long rest on a success, you<br>create a stack of false targeting<br>profiles, AR ghosts, signal echoes,<br>movement loops, or false targeting<br>data over your body that makes it hard<br>to tell exactly where you are.<br>Mark any number of Stress to make<br>that many additional layers.<br>When an adversary makes an attack<br>against you, roll a number of d6s equal<br>to the number of layers currently<br>active.<br>If any roll as or higher, one layer of the<br>decoy loop is destroyed and the attack<br>fails. a<br>If all the results are 4 or lower, you take<br>the damage and this protocol ends.</p>",
+    "level": 8,
+    "domain": "network",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "dc67d04f401cbb77": {
+        "type": "effect",
+        "_id": "dc67d04f401cbb77",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (14).<br>Once per long rest on a success, you<br>create a stack of false targeting<br>profiles, AR ghosts, signal echoes,<br>movement loops, or false targeting<br>data over your body that makes it hard<br>to tell exactly where you are.<br>Mark any number of Stress to make<br>that many additional layers.<br>When an adversary makes an attack<br>against you, roll a number of d6s equal<br>to the number of layers currently<br>active.<br>If any roll as or higher, one layer of the<br>decoy loop is destroyed and the attack<br>fails. a<br>If all the results are 4 or lower, you take<br>the damage and this protocol ends.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Mirror Stack",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Network:mirror-stack",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 68,
+        "pageEnd": 68,
+        "entityType": "competencyCard",
+        "slug": "mirror-stack",
+        "competency": "Network",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "network"
+        }
+      ],
+      "validationExpected": {
+        "name": "Mirror Stack",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "network",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:network:mirror-stack",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "96610b1c3e73808f",
+  "folder": "f627e4cab447cc7c",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!96610b1c3e73808f"
+}

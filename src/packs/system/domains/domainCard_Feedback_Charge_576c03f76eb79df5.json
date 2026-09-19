@@ -1,0 +1,96 @@
+{
+  "name": "Feedback Charge",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you take techno damage, place<br>tokens on this card equal to the<br>number of Hit Points you marked.<br>You can store a number of tokens equal<br>to your Interface trait.<br>When you make a successful attack<br>against a target, you can spend any<br>number of tokens to add a d6 for each<br>token spent to your damage roll.</p>",
+    "level": 8,
+    "domain": "ghost",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "cf3c3702831cb35d": {
+        "type": "effect",
+        "_id": "cf3c3702831cb35d",
+        "systemPath": "actions",
+        "description": "<p>When you take techno damage, place<br>tokens on this card equal to the<br>number of Hit Points you marked.<br>You can store a number of tokens equal<br>to your Interface trait.<br>When you make a successful attack<br>against a target, you can spend any<br>number of tokens to add a d6 for each<br>token spent to your damage roll.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Feedback Charge",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Ghost:feedback-charge",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 78,
+        "pageEnd": 78,
+        "entityType": "competencyCard",
+        "slug": "feedback-charge",
+        "competency": "Ghost",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "ghost"
+        }
+      ],
+      "validationExpected": {
+        "name": "Feedback Charge",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "ghost",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:ghost:feedback-charge",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "576c03f76eb79df5",
+  "folder": "0fcf5f65aa0f9951",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!576c03f76eb79df5"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Vyola Neural Suite",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Memory Delve: Make an Interface Roll<br>against a target within Far range. Ona<br>success, peer into the target’s mind,<br>memory archive, neural residue, or<br>recorded perception and ask the GM a<br>question. The GM describes any<br>memories the target has pertaining to<br>the answer.<br>Neural Loadshare: Once per long rest,<br>spend a Hope to choose two willing<br>creatures. You create a temporary<br>neural support link between them.<br>When one of them would mark Stress,<br>they can choose between the two of<br>them who marks it. This protocol lasts<br>until their next rest.</p>",
+    "level": 8,
+    "domain": "systems",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "e9fdbf563ae9ac4a": {
+        "type": "effect",
+        "_id": "e9fdbf563ae9ac4a",
+        "systemPath": "actions",
+        "description": "<p>Memory Delve: Make an Interface Roll<br>against a target within Far range. Ona<br>success, peer into the target’s mind,<br>memory archive, neural residue, or<br>recorded perception and ask the GM a<br>question. The GM describes any<br>memories the target has pertaining to<br>the answer.<br>Neural Loadshare: Once per long rest,<br>spend a Hope to choose two willing<br>creatures. You create a temporary<br>neural support link between them.<br>When one of them would mark Stress,<br>they can choose between the two of<br>them who marks it. This protocol lasts<br>until their next rest.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Vyola Neural Suite",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Systems:vyola-neural-suite",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 74,
+        "pageEnd": 74,
+        "entityType": "competencyCard",
+        "slug": "vyola-neural-suite",
+        "competency": "Systems",
+        "cardType": "Protocol Suite"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "systems"
+        }
+      ],
+      "validationExpected": {
+        "name": "Vyola Neural Suite",
+        "type": "domainCard",
+        "system.level": 8,
+        "system.domain": "systems",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:systems:vyola-neural-suite",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "dce34235dadc5020",
+  "folder": "c95b52598bc1a676",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!dce34235dadc5020"
+}

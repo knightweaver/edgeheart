@@ -1,0 +1,96 @@
+{
+  "name": "Trauma Field",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Once per long rest, you can deploy a<br>trauma field around you using medical<br>drones, nanite mist, auto-injectors, or<br>emergency triage beacons.<br>You and all allies within Close range<br>clear a HP. Spend 2 Hope to allow you<br>and all allies within Close range to clear<br>2 HP instead.</p>",
+    "level": 4,
+    "domain": "medtech",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "9301e5cf2f1d19c2": {
+        "type": "effect",
+        "_id": "9301e5cf2f1d19c2",
+        "systemPath": "actions",
+        "description": "<p>Once per long rest, you can deploy a<br>trauma field around you using medical<br>drones, nanite mist, auto-injectors, or<br>emergency triage beacons.<br>You and all allies within Close range<br>clear a HP. Spend 2 Hope to allow you<br>and all allies within Close range to clear<br>2 HP instead.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Trauma Field",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Medtech:trauma-field",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 82,
+        "pageEnd": 82,
+        "entityType": "competencyCard",
+        "slug": "trauma-field",
+        "competency": "Medtech",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "medtech"
+        }
+      ],
+      "validationExpected": {
+        "name": "Trauma Field",
+        "type": "domainCard",
+        "system.level": 4,
+        "system.domain": "medtech",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:medtech:trauma-field",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "8c9d5bbda0285cd4",
+  "folder": "3e958cda8f0ef647",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8c9d5bbda0285cd4"
+}

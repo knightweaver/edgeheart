@@ -1,0 +1,72 @@
+{
+  "name": "Breach Momentum",
+  "type": "feature",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>When your Kill Chain Die increases, gain a +1 bonus to your Evasion until your next action.</p>",
+    "actions": {
+      "9b7263303abf9543": {
+        "type": "effect",
+        "_id": "9b7263303abf9543",
+        "systemPath": "actions",
+        "description": "<p>When your Kill Chain Die increases, gain a +1 bonus to your Evasion until your next action.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Breach Momentum",
+        "img": "icons/svg/aura.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "bundleKey": "feature:shock-trooper:breach-momentum",
+      "source": {
+        "featureStage": "foundation",
+        "sourcePage": 16
+      },
+      "deployment": {
+        "logicalKey": "feature:shock-trooper:breach-momentum",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "3a6e34054d46f967",
+  "folder": "8fcd9eba8917e1d9",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3a6e34054d46f967"
+}

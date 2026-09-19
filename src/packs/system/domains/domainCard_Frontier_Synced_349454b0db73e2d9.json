@@ -1,0 +1,96 @@
+{
+  "name": "Frontier-Synced",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Frontier<br>Competency, gain the following:<br>While you’re in a urband, ruined, or<br>hostile environment, you gain a +2<br>bonus to your Interface Rolls.<br>Once per rest, you can double your<br>Agility or Instinct when making a roll<br>that uses that trait. You must choose<br>to do this before you roll.</p>",
+    "level": 7,
+    "domain": "frontier",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "595fc9c619934a53": {
+        "type": "effect",
+        "_id": "595fc9c619934a53",
+        "systemPath": "actions",
+        "description": "<p>When 4 or more of the domain cards in<br>your loadout are from the Frontier<br>Competency, gain the following:<br>While you’re in a urband, ruined, or<br>hostile environment, you gain a +2<br>bonus to your Interface Rolls.<br>Once per rest, you can double your<br>Agility or Instinct when making a roll<br>that uses that trait. You must choose<br>to do this before you roll.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Frontier-Synced",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:frontier-synced",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 80,
+        "pageEnd": 80,
+        "entityType": "competencyCard",
+        "slug": "frontier-synced",
+        "competency": "Frontier",
+        "cardType": "Ability"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Frontier-Synced",
+        "type": "domainCard",
+        "system.level": 7,
+        "system.domain": "frontier",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:frontier-synced",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "349454b0db73e2d9",
+  "folder": "a447f133a2aa6f40",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!349454b0db73e2d9"
+}

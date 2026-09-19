@@ -1,0 +1,96 @@
+{
+  "name": "Invoke Shutdown",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>When you deal damage to a creature<br>that has all ofits Stress marked,<br>double the damage.<br>If this defeats, disables, or destroys<br>them, you clear a Stress. If it doesn’t<br>defeat, disable, or destroy them, they<br>are permanently Vulnerable.<br>This might look like a kill command,<br>identity collapse, full nervous-system<br>lock, or a shutdown signal that leaves<br>the target forever compromised.</p>",
+    "level": 10,
+    "domain": "blackwall",
+    "recallCost": 2,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "90834d34412b43b6": {
+        "type": "effect",
+        "_id": "90834d34412b43b6",
+        "systemPath": "actions",
+        "description": "<p>When you deal damage to a creature<br>that has all ofits Stress marked,<br>double the damage.<br>If this defeats, disables, or destroys<br>them, you clear a Stress. If it doesn’t<br>defeat, disable, or destroy them, they<br>are permanently Vulnerable.<br>This might look like a kill command,<br>identity collapse, full nervous-system<br>lock, or a shutdown signal that leaves<br>the target forever compromised.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Invoke Shutdown",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Blackwall:invoke-shutdown",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 89,
+        "pageEnd": 89,
+        "entityType": "competencyCard",
+        "slug": "invoke-shutdown",
+        "competency": "Blackwall",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "blackwall"
+        }
+      ],
+      "validationExpected": {
+        "name": "Invoke Shutdown",
+        "type": "domainCard",
+        "system.level": 10,
+        "system.domain": "blackwall",
+        "system.recallCost": 2,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:blackwall:invoke-shutdown",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "7df2b04585b773e7",
+  "folder": "ecdd84aaed37a382",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7df2b04585b773e7"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Zone Reconfiguration",
+  "type": "domainCard",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Make an Interface Roll (18).<br>Once per long rest on a success, you<br>reconfigure the surrounding combat<br>zone anywhere within Far range using<br>field engineering gear, demolition<br>charges, deployable barricades,<br>construction drones, foamcrete, road<br>spikes, cutting lasers, or compromised<br>infrastructure.<br>For example, you can clear a path<br>through dense debris, collapse<br>unstable cover, open a breach through<br>a wrecked zone, raise a wall of scrap<br>and barricades, expose buried<br>infrastructure, create a ramp or bridge,<br>or alter the battlefield’s available cover.<br>The change must be something that<br>could plausibly be accomplished<br>through machinery, demolition or<br>construction.</p>",
+    "level": 9,
+    "domain": "frontier",
+    "recallCost": 1,
+    "type": "ability",
+    "inVault": false,
+    "actions": {
+      "8bb6a8b6c3631110": {
+        "type": "effect",
+        "_id": "8bb6a8b6c3631110",
+        "systemPath": "actions",
+        "description": "<p>Make an Interface Roll (18).<br>Once per long rest on a success, you<br>reconfigure the surrounding combat<br>zone anywhere within Far range using<br>field engineering gear, demolition<br>charges, deployable barricades,<br>construction drones, foamcrete, road<br>spikes, cutting lasers, or compromised<br>infrastructure.<br>For example, you can clear a path<br>through dense debris, collapse<br>unstable cover, open a breach through<br>a wrecked zone, raise a wall of scrap<br>and barricades, expose buried<br>infrastructure, create a ramp or bridge,<br>or alter the battlefield’s available cover.<br>The change must be something that<br>could plausibly be accomplished<br>through machinery, demolition or<br>construction.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Zone Reconfiguration",
+        "img": "icons/svg/book.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-d:Frontier:zone-reconfiguration",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 81,
+        "pageEnd": 81,
+        "entityType": "competencyCard",
+        "slug": "zone-reconfiguration",
+        "competency": "Frontier",
+        "cardType": "Protocol"
+      },
+      "expectedExternalDependencies": [
+        {
+          "kind": "registered-domain",
+          "value": "frontier"
+        }
+      ],
+      "validationExpected": {
+        "name": "Zone Reconfiguration",
+        "type": "domainCard",
+        "system.level": 9,
+        "system.domain": "frontier",
+        "system.recallCost": 1,
+        "system.type": "ability",
+        "system.inVault": false
+      },
+      "deployment": {
+        "logicalKey": "domainCard:frontier:zone-reconfiguration",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "d985e782deb9d0e8",
+  "folder": "38451cc4211bad10",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d985e782deb9d0e8"
+}

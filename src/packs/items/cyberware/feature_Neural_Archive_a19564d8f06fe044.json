@@ -1,0 +1,84 @@
+{
+  "name": "Neural Archive",
+  "type": "feature",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Cyber Cost: 2</p><p>Gain a new Experience at +2 or add +1 to one of your Experiences. Once per rest, when you use that Experience, you may reroll your Fear Die.</p>",
+    "actions": {
+      "e389e3b256b2992f": {
+        "type": "effect",
+        "_id": "e389e3b256b2992f",
+        "systemPath": "actions",
+        "description": "<p>Cyber Cost: 2</p><p>Gain a new Experience at +2 or add +1 to one of your Experiences. Once per rest, when you use that Experience, you may reroll your Fear Die.</p>",
+        "chatDisplay": true,
+        "actionType": "passive",
+        "cost": [],
+        "uses": {
+          "value": null,
+          "max": "",
+          "recovery": null,
+          "consumeOnSuccess": false
+        },
+        "effects": [],
+        "target": {
+          "type": "any",
+          "amount": null
+        },
+        "name": "Neural Archive",
+        "img": "icons/svg/upgrade.svg",
+        "range": "",
+        "baseAction": false,
+        "originItem": {
+          "type": "itemCollection"
+        }
+      }
+    },
+    "resource": null,
+    "originItemType": null,
+    "multiclassOrigin": false
+  },
+  "effects": [],
+  "flags": {
+    "edgeheart": {
+      "validationFixture": true,
+      "fixtureId": "batch-b:cyberware:neural-archive",
+      "source": {
+        "document": "Edgeheart",
+        "documentVersion": "1.1",
+        "pageStart": 43,
+        "pageEnd": 43,
+        "entityType": "cyberware",
+        "slug": "neural-archive",
+        "roll": 42,
+        "cyberCostRaw": "2",
+        "competencyAccess": null,
+        "embeddedWeapon": null
+      },
+      "validationExpected": {
+        "name": "Neural Archive",
+        "type": "feature"
+      },
+      "deployment": {
+        "logicalKey": "cyberware:neural-archive",
+        "sourceBuildStep": 3,
+        "referencesResolved": true
+      }
+    }
+  },
+  "_id": "a19564d8f06fe044",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a19564d8f06fe044"
+}
