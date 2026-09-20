@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Prepare and harden an Edgeheart GitHub release.
 
-Publication is allowed only when the newly rebuilt runtime archive is
-byte-for-byte identical to the Step 8 manually qualified candidate.
+The published v0.1.0 archive MUST be the exact Step 8 manually qualified
+runtime candidate. A fresh rebuild must also pass all deterministic gates and
+match that qualified archive in every ZIP member except LevelDB LOG/LOG.old
+files, whose contents are ephemeral compiler output.
 """
 from __future__ import annotations
 
@@ -13,27 +15,28 @@ import shutil
 from pathlib import Path
 
 def sha256(path: Path) -> str:
-    h = hashlib.sha256()
+    h=hashlib.sha256()
     with path.open("rb") as f:
-        for chunk in iter(lambda: f.read(1024 * 1024), b""):
+        for chunk in iter(lambda:f.read(1024*1024),b""):
             h.update(chunk)
     return h.hexdigest()
 
-def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--repo", type=Path, default=Path.cwd())
-    ap.add_argument("--control", type=Path, required=True)
-    args = ap.parse_args()
+def main()->int:
+    ap=argparse.ArgumentParser()
+    ap.add_argument("--repo",type=Path,default=Path.cwd())
+    ap.add_argument("--control",type=Path,required=True)
+    args=ap.parse_args()
+    repo=args.repo.resolve()
+    control_path=(repo/args.control).resolve() if not args.control.is_absolute() else args.control.resolve()
 
-    repo = args.repo.resolve()
-    control_path = (repo / args.control).resolve() if not args.control.is_absolute() else args.control.resolve()
-    control = json.loads(control_path.read_text(encoding="utf-8"))
-    module = json.loads((repo / "module.json").read_text(encoding="utf-8"))
-    step8 = json.loads((repo / "build/step8/step8-summary.json").read_text(encoding="utf-8"))
-    runtime = json.loads((repo / "build/step7/runtime-package.json").read_text(encoding="utf-8"))
+    control=json.loads(control_path.read_text(encoding="utf-8"))
+    module=json.loads((repo/"module.json").read_text(encoding="utf-8"))
+    step8=json.loads((repo/"build/step8/step8-summary.json").read_text(encoding="utf-8"))
+    runtime=json.loads((repo/"build/step7/runtime-package.json").read_text(encoding="utf-8"))
+    equivalence=json.loads((repo/"build/step9/runtime-equivalence.json").read_text(encoding="utf-8"))
 
-    version = control.get("version")
-    tag = control.get("tag")
+    version=control.get("version")
+    tag=control.get("tag")
     if control.get("publish") is not True:
         raise ValueError("Release control must explicitly set publish=true")
     if version != module.get("version"):
@@ -43,73 +46,72 @@ def main() -> int:
     if step8.get("status") != "PASS" or step8.get("releaseGateCleared") is not True:
         raise ValueError("Step 8 runtime qualification PASS is required")
     if runtime.get("status") != "PASS":
-        raise ValueError("Current Step 7 runtime-package build is not PASS")
+        raise ValueError("Fresh Step 7 rebuild is not PASS")
+    if equivalence.get("status") != "PASS" or equivalence.get("forbiddenDifferenceCount") != 0:
+        raise ValueError("Fresh rebuild did not pass runtime equivalence validation")
 
-    expected_hash = step8["qualifiedRuntimeCandidate"]["sha256"]
-    control_hash = control.get("qualifiedRuntimeSha256")
-    current_hash = runtime.get("archiveSha256")
-    if control_hash != expected_hash:
+    expected_hash=step8["qualifiedRuntimeCandidate"]["sha256"]
+    if control.get("qualifiedRuntimeSha256") != expected_hash:
         raise ValueError("Release-control qualified hash differs from Step 8")
-    if current_hash != expected_hash:
-        raise ValueError(
-            "Rebuilt runtime archive differs from the manually qualified Step 8 candidate: "
-            f"expected {expected_hash}, got {current_hash}"
-        )
+    if equivalence.get("qualifiedSha256") != expected_hash:
+        raise ValueError("Downloaded qualified artifact hash differs from Step 8")
 
-    archive_name = f"edgeheart-v{version}.zip"
-    archive = repo / "release" / archive_name
+    rebuilt_hash=runtime.get("archiveSha256")
+    if equivalence.get("rebuiltSha256") != rebuilt_hash:
+        raise ValueError("Equivalence report rebuilt hash differs from current Step 7 build")
+
+    archive_name=f"edgeheart-v{version}.zip"
+    archive=repo/"release"/archive_name
     if not archive.is_file():
-        raise ValueError(f"Runtime archive missing: {archive}")
-    actual_hash = sha256(archive)
+        raise ValueError(f"Qualified runtime archive missing: {archive}")
+    actual_hash=sha256(archive)
     if actual_hash != expected_hash:
         raise ValueError(
-            f"Runtime archive byte hash mismatch: expected {expected_hash}, got {actual_hash}"
+            f"Published archive must be exact Step 8 candidate: expected {expected_hash}, got {actual_hash}"
         )
 
-    manifest_url = module.get("manifest")
-    download_url = module.get("download")
-    expected_manifest = "https://github.com/knightweaver/edgeheart/releases/latest/download/module.json"
-    expected_download = f"https://github.com/knightweaver/edgeheart/releases/download/{tag}/{archive_name}"
-    if manifest_url != expected_manifest:
-        raise ValueError(f"module.json manifest URL mismatch: {manifest_url}")
-    if download_url != expected_download:
-        raise ValueError(f"module.json download URL mismatch: {download_url}")
+    expected_manifest="https://github.com/knightweaver/edgeheart/releases/latest/download/module.json"
+    expected_download=f"https://github.com/knightweaver/edgeheart/releases/download/{tag}/{archive_name}"
+    if module.get("manifest") != expected_manifest:
+        raise ValueError(f"module.json manifest URL mismatch: {module.get('manifest')}")
+    if module.get("download") != expected_download:
+        raise ValueError(f"module.json download URL mismatch: {module.get('download')}")
 
-    release_dir = repo / "release"
-    release_dir.mkdir(parents=True, exist_ok=True)
-    release_module = release_dir / "module.json"
-    shutil.copy2(repo / "module.json", release_module)
+    release_dir=repo/"release"
+    release_module=release_dir/"module.json"
+    shutil.copy2(repo/"module.json",release_module)
 
-    checksums = {
-        archive_name: sha256(archive),
-        "module.json": sha256(release_module),
+    checksums={
+        archive_name:sha256(archive),
+        "module.json":sha256(release_module),
     }
-    checksum_file = release_dir / "SHA256SUMS.txt"
-    checksum_file.write_text(
-        "".join(f"{digest}  {name}\n" for name, digest in sorted(checksums.items())),
-        encoding="utf-8",
+    (release_dir/"SHA256SUMS.txt").write_text(
+        "".join(f"{digest}  {name}\n" for name,digest in sorted(checksums.items())),
+        encoding="utf-8"
     )
 
-    step9_dir = repo / "build/step9"
-    step9_dir.mkdir(parents=True, exist_ok=True)
-    summary = {
-        "step": 9,
-        "status": "READY_TO_PUBLISH",
-        "version": version,
-        "tag": tag,
-        "qualifiedRuntimeSha256": expected_hash,
-        "rebuiltRuntimeSha256": current_hash,
-        "byteIdenticalToQualifiedRuntime": True,
-        "releaseAssets": [archive_name, "module.json", "SHA256SUMS.txt"],
-        "manifestUrl": expected_manifest,
-        "downloadUrl": expected_download,
+    summary={
+        "step":9,
+        "status":"READY_TO_PUBLISH",
+        "version":version,
+        "tag":tag,
+        "qualifiedRuntimeSha256":expected_hash,
+        "freshRebuildSha256":rebuilt_hash,
+        "publishedArchiveIsExactQualifiedRuntime":True,
+        "freshRebuildEquivalentExceptLevelDbLogs":True,
+        "byteIdenticalZipMembers":equivalence["byteIdenticalMemberCount"],
+        "permittedLevelDbLogDifferences":equivalence["permittedLevelDbLogDifferenceCount"],
+        "releaseAssets":[archive_name,"module.json","SHA256SUMS.txt"],
+        "manifestUrl":expected_manifest,
+        "downloadUrl":expected_download,
     }
-    (step9_dir / "step9-prepublish.json").write_text(
-        json.dumps(summary, indent=2) + "\n", encoding="utf-8"
+    step9=repo/"build/step9"
+    step9.mkdir(parents=True,exist_ok=True)
+    (step9/"step9-prepublish.json").write_text(
+        json.dumps(summary,indent=2)+"\n",encoding="utf-8"
     )
-
-    print(json.dumps(summary, indent=2))
+    print(json.dumps(summary,indent=2))
     return 0
 
-if __name__ == "__main__":
+if __name__=="__main__":
     raise SystemExit(main())

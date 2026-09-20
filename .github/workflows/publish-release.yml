@@ -41,6 +41,20 @@ jobs:
       - name: Install build dependencies
         run: npm install --no-audit --no-fund
 
+      - name: Read release control
+        id: control
+        shell: bash
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os
+          data=json.load(open(os.environ["RELEASE_CONTROL"]))
+          print(f"version={data['version']}")
+          print(f"tag={data['tag']}")
+          print(f"archive=edgeheart-v{data['version']}.zip")
+          print(f"qualified_run_id={data['qualifiedWorkflowRunId']}")
+          print(f"qualified_artifact={data['qualifiedArtifactName']}")
+          PY
+
       - name: Rebuild deterministic source tree
         run: |
           npm run build:sources -- sources/edgeheart-consolidated-production-v1.0.zip
@@ -57,28 +71,36 @@ jobs:
           npm run compile:packs
           npm run validate:compiled-packs
 
-      - name: Build runtime candidate
-        run: npm run build:runtime-package
+      - name: Build fresh runtime candidate
+        run: |
+          npm run build:runtime-package
+          mv "release/${{ steps.control.outputs.archive }}"              "release/edgeheart-v${{ steps.control.outputs.version }}-rebuilt.zip"
 
-      - name: Enforce Step 8 byte-for-byte release gate
+      - name: Download exact Step 8 qualified candidate
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ steps.control.outputs.qualified_artifact }}
+          path: qualified-step8
+          github-token: ${{ github.token }}
+          run-id: ${{ steps.control.outputs.qualified_run_id }}
+
+      - name: Prove rebuilt runtime equivalence
+        run: |
+          python tools/compare-runtime-packages.py             --repo .             --qualified "qualified-step8/release/${{ steps.control.outputs.archive }}"             --rebuilt "release/edgeheart-v${{ steps.control.outputs.version }}-rebuilt.zip"
+
+      - name: Stage exact qualified runtime for publication
+        run: |
+          cp "qualified-step8/release/${{ steps.control.outputs.archive }}"              "release/${{ steps.control.outputs.archive }}"
+
+      - name: Enforce release gates
         run: |
           python tools/prepare-release.py --repo . --control "$RELEASE_CONTROL"
-
-      - name: Read release metadata
-        id: release
-        shell: bash
-        run: |
-          VERSION="$(python -c 'import json,os; print(json.load(open(os.environ["RELEASE_CONTROL"]))["version"])')"
-          TAG="v$VERSION"
-          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
-          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
-          echo "archive=edgeheart-v$VERSION.zip" >> "$GITHUB_OUTPUT"
 
       - name: Publish or refresh GitHub release
         shell: bash
         run: |
-          TAG="${{ steps.release.outputs.tag }}"
-          ARCHIVE="${{ steps.release.outputs.archive }}"
+          TAG="${{ steps.control.outputs.tag }}"
+          ARCHIVE="${{ steps.control.outputs.archive }}"
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release upload "$TAG"               "release/$ARCHIVE"               "release/module.json"               "release/SHA256SUMS.txt"               --clobber
             gh release edit "$TAG"               --title "Edgeheart $TAG"               --notes-file RELEASE-NOTES-v0.1.0.md
@@ -89,18 +111,19 @@ jobs:
       - name: Verify published release assets
         shell: bash
         run: |
-          TAG="${{ steps.release.outputs.tag }}"
+          TAG="${{ steps.control.outputs.tag }}"
+          ARCHIVE="${{ steps.control.outputs.archive }}"
           gh release view "$TAG" --json tagName,isDraft,isPrerelease,url,assets > published-release.json
-          python - <<'PY'
-          import json
+          ARCHIVE="$ARCHIVE" python - <<'PY'
+          import json, os
           data=json.load(open("published-release.json"))
           names=sorted(a["name"] for a in data["assets"])
-          expected=sorted(["edgeheart-v0.1.0.zip","module.json","SHA256SUMS.txt"])
+          expected=sorted([os.environ["ARCHIVE"],"module.json","SHA256SUMS.txt"])
           if data["isDraft"] or data["isPrerelease"]:
               raise SystemExit("Release must be a published non-prerelease")
           if names != expected:
               raise SystemExit(f"Release assets mismatch: {names}")
-          print(json.dumps(data, indent=2))
+          print(json.dumps(data,indent=2))
           PY
 
       - name: Upload release evidence
