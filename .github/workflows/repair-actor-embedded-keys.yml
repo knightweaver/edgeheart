@@ -1,0 +1,57 @@
+name: Repair Edgeheart Actor Export Keys
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "tools/build-source-packs.py"
+      - "tools/repair-actor-embedded-keys.py"
+      - "tools/validate-source-packs.py"
+      - ".github/workflows/repair-actor-embedded-keys.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: edgeheart-source-repair-main
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  repair-actor-keys:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Repair embedded Actor export keys
+        run: |
+          python tools/repair-actor-embedded-keys.py --repo .
+
+      - name: Validate source packs
+        run: |
+          python tools/validate-source-packs.py --repo .
+
+      - name: Re-run downstream source invariants
+        run: |
+          python tools/validate-resolved-references.py --repo .
+          node tools/validate-competency-registration.mjs
+          python tools/validate-asset-paths.py --repo . --require-assets
+
+      - name: Commit repaired Actor sources
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/packs/adventures/adversaries src/packs/adventures/environments
+          if git diff --cached --quiet; then
+            echo "Actor export keys are already correct."
+            exit 0
+          fi
+          git commit -m "Add Foundry embedded Actor export keys"
+          git pull --rebase origin main
+          git push
