@@ -56,6 +56,10 @@ jobs:
         run: |
           npm run validate:compiled-packs
 
+      - name: Build deterministic runtime candidate
+        run: |
+          npm run build:runtime-package
+
       - name: Upload compiled pack artifact
         uses: actions/upload-artifact@v4
         with:
@@ -63,6 +67,16 @@ jobs:
           path: |
             packs/
             build/step7/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Upload runtime qualification candidate
+        uses: actions/upload-artifact@v4
+        with:
+          name: edgeheart-runtime-candidate-v0.1.0
+          path: |
+            release/edgeheart-v0.1.0.zip
+            build/step7/runtime-package.json
           if-no-files-found: error
           retention-days: 30
 
