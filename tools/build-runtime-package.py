@@ -44,14 +44,31 @@ def main() -> int:
     if not version:
         raise ValueError("module.json version is required")
 
-    asset_files = sorted(
-        p for p in (repo / "assets").rglob("*")
-        if p.is_file() and p.name != ".gitkeep"
-    )
-    if len(asset_files) != EXPECTED_ASSETS:
+    asset_manifest_path = repo / "build" / "step6" / "asset-manifest.json"
+    asset_manifest = json.loads(asset_manifest_path.read_text(encoding="utf-8"))
+    asset_entries = asset_manifest.get("entries", [])
+    if asset_manifest.get("expectedAssetCount") != EXPECTED_ASSETS:
         raise ValueError(
-            f"Expected {EXPECTED_ASSETS} runtime asset files, got {len(asset_files)}"
+            f"Step 6 asset manifest must declare {EXPECTED_ASSETS} assets"
         )
+    if len(asset_entries) != EXPECTED_ASSETS:
+        raise ValueError(
+            f"Step 6 asset manifest contains {len(asset_entries)} entries; "
+            f"expected {EXPECTED_ASSETS}"
+        )
+
+    asset_files = []
+    seen_asset_paths = set()
+    for entry in asset_entries:
+        rel = entry.get("repositoryPath")
+        if not rel or rel in seen_asset_paths:
+            raise ValueError(f"Invalid or duplicate asset manifest path: {rel!r}")
+        seen_asset_paths.add(rel)
+        asset_path = repo / rel
+        if not asset_path.is_file():
+            raise ValueError(f"Required runtime asset missing: {rel}")
+        asset_files.append(asset_path)
+    asset_files.sort()
 
     pack_dirs = []
     for pack in manifest.get("packs", []):
