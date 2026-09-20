@@ -1,6 +1,6 @@
 {
   "step": 6,
-  "status": "PATHS_REWRITTEN_ASSETS_PENDING",
+  "status": "PASS",
   "visualCanon": "edgeheart-v0.1.1",
   "domainArtContract": "dual-art-v1",
   "primaryDocumentAssetCount": 538,
@@ -8,8 +8,8 @@
   "competencyUiGlyphAssetCount": 11,
   "adversaryTokenAssetCount": 22,
   "totalExpectedAssetCount": 582,
-  "assetsPresentInRepository": 571,
-  "assetsMissingFromRepository": 11,
+  "assetsPresentInRepository": 582,
+  "assetsMissingFromRepository": 0,
   "documentsWithPrimaryArt": 538,
   "nestedActionImagesRewritten": 0,
   "derivedFeatureArtPolicy": "retain Daggerheart generic feature icons",
@@ -17,8 +17,8 @@
   "adversaryAttackArtPolicy": "retain Daggerheart generic attack icon",
   "competencyRuntimeIconPolicy": "Daggerheart Homebrew Domain src uses 250x250 SVG uiGlyph",
   "assetPathsRewritten": true,
-  "binaryAssetQualificationPending": true,
+  "binaryAssetQualificationPending": false,
   "compendiumCompilationPending": true,
   "runtimeFoundryQualificationPending": true,
-  "nextStep": "Stage the 11 missing asset(s) and run python tools/validate-asset-paths.py --require-assets"
+  "nextStep": "Validate staged assets, then compile Foundry Compendia."
 }

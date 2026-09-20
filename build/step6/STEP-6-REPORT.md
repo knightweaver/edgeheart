@@ -1,14 +1,14 @@
 # Edgeheart Foundry Build — Step 6 Asset Deployment Report
 
-**Status:** PATHS_REWRITTEN_ASSETS_PENDING
+**Status:** PASS
 
 - Source documents with dedicated primary art: **538**
 - Competency full-color illustrations: **11**
 - Competency Daggerheart UI SVG glyphs: **11**
 - Adversary token assets: **22**
 - Total required assets: **582**
-- Assets currently present in repository: **571**
-- Assets still to stage: **11**
+- Assets currently present in repository: **582**
+- Assets still to stage: **0**
 - Nested same-document action images rewritten: **0**
 - Daggerheart Homebrew Domain src uses the SVG UI glyph, not the full-color WebP.
 - Derived Feature documents retain generic Daggerheart Feature art.
