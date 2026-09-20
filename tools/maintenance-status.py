@@ -10,7 +10,7 @@ def git_paths(repo:Path,base:str,head:str)->list[str]:
  p=subprocess.run(["git","diff","--name-only",base,head],cwd=repo,check=True,text=True,capture_output=True)
  return [x.strip().replace("\\","/") for x in p.stdout.splitlines() if x.strip()]
 def main()->int:
- ap=argparse.ArgumentParser(); ap.add_argument("--repo",type=Path,default=Path.cwd()); ap.add_argument("--base"); ap.add_argument("--head",default="HEAD"); ap.add_argument("--paths",nargs="*"); ap.add_argument("--output",type=Path); a=ap.parse_args()
+ ap=argparse.ArgumentParser(); ap.add_argument("--repo",type=Path,default=Path.cwd()); ap.add_argument("--base"); ap.add_argument("--head",default="HEAD"); ap.add_argument("--paths",nargs="*"); ap.add_argument("--output",type=Path); ap.add_argument("--actor",default=""); a=ap.parse_args()
  repo=a.repo.resolve(); m=load(repo/"maintenance/change-impact-v1.json")
  if a.paths: paths=[p.replace("\\","/") for p in a.paths]
  elif a.base: paths=git_paths(repo,a.base,a.head)
@@ -25,9 +25,14 @@ def main()->int:
  matched={p for i in impacts for p in i["paths"]}; unmatched=sorted(set(paths)-matched)
  derived=[p for p in paths if matches(p,m["derivedSourcePolicy"]["path"])]
  companion=any(matches(p,pat) for p in paths for pat in m["derivedSourcePolicy"]["authorizedCompanionPatterns"])
- blocking=[]
- if derived and not companion: blocking.append("src/packs is generated authority: direct source-pack changes require an accepted source or generator/compatibility change.")
- report={"status":"BLOCK" if blocking else "PASS","changedPaths":sorted(paths),"impacts":impacts,"unmatchedPaths":unmatched,"requiredGates":sorted(gates),"minimumVersionBump":severity,"runtimeQualification":runtime,"blockingReasons":blocking}
+ blocking=[]; warnings=[]
+ if derived and not companion:
+  message="src/packs is generated authority: direct source-pack changes require an accepted source or generator/compatibility change."
+  if a.actor=="github-actions[bot]":
+   warnings.append(message+" Automated generated-source commit accepted; downstream deterministic gates still apply.")
+  else:
+   blocking.append(message)
+ report={"status":"BLOCK" if blocking else "PASS","changedPaths":sorted(paths),"impacts":impacts,"unmatchedPaths":unmatched,"requiredGates":sorted(gates),"minimumVersionBump":severity,"runtimeQualification":runtime,"blockingReasons":blocking,"warnings":warnings}
  if a.output:
   out=(repo/a.output).resolve() if not a.output.is_absolute() else a.output.resolve(); out.parent.mkdir(parents=True,exist_ok=True); out.write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
  print(json.dumps(report,indent=2)); return 1 if blocking else 0

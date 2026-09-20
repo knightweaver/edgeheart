@@ -25,8 +25,9 @@
     "prepare:release": "python tools/prepare-release.py --repo . --control",
     "validate:regressions": "python tools/validate-maintenance-regressions.py --repo .",
     "maintenance:status": "python tools/maintenance-status.py --repo .",
-    "validate:maintenance": "npm run validate && npm run validate:sources && npm run validate:references && npm run validate:competencies && npm run validate:assets && npm run validate:regressions",
-    "build:maintenance": "npm run validate:maintenance && npm run clean:packs && npm run compile:packs && npm run validate:compiled-packs && npm run build:runtime-package"
+    "validate:maintenance": "npm run validate && npm run validate:sources && npm run validate:references && npm run validate:competencies && npm run validate:assets && npm run validate:regressions && npm run validate:policy",
+    "build:maintenance": "npm run validate:maintenance && npm run clean:packs && npm run compile:packs && npm run validate:compiled-packs && npm run build:runtime-package",
+    "validate:policy": "python tools/test-maintenance-policy.py"
   },
   "repository": {
     "type": "git",

@@ -32,7 +32,7 @@ jobs:
         run: |
           BASE="$PUSH_BASE"
           if [ "$EVENT_NAME" = "pull_request" ]; then BASE="$PR_BASE"; fi
-          python tools/maintenance-status.py --repo . --base "$BASE" --head "$HEAD_SHA" --output build/maintenance/change-impact.json
+          python tools/maintenance-status.py --repo . --base "$BASE" --head "$HEAD_SHA" --actor "$GITHUB_ACTOR" --output build/maintenance/change-impact.json
       - name: Validate maintenance baseline and fixtures
         run: npm run validate:regressions
       - name: Run source and deployment gates
