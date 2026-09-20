@@ -4,13 +4,13 @@
 
 - Native Competencies defined: **11**
 - Domain cards validated: **231**
-- Cards per Competency: **21 each**
+- Domain art contract: **full-color WebP illustration + SVG UI glyph**
+- Homebrew Domain src: **SVG UI glyph**
 - Class mappings validated: **9**
-- Registration mechanism: **Daggerheart 1.2.7 world-scoped Homebrew domains**
 - Idempotent registration behavior: **validated**
+- Legacy WebP-to-SVG Edgeheart migration: **validated**
 - Unrelated Homebrew preservation: **validated**
 - Same-ID conflict preservation: **validated**
 - Core-domain collision guard: **validated**
 - Foundry runtime qualification: **pending downstream runtime test**
-- Final art-path rewrite: **pending next deployment step**
 - LevelDB Compendium compilation: **pending downstream step**

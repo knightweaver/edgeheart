@@ -2,6 +2,7 @@
   "step": 5,
   "status": "PASS",
   "implementation": "Daggerheart 1.2.7 native Homebrew domains",
+  "domainArtContract": "dual-art-v1",
   "competencyCount": 11,
   "competencyIds": [
     "network",
@@ -31,12 +32,14 @@
     "blackwall": 21
   },
   "classDomainMappingsValidated": 9,
+  "uiGlyphFormat": "svg",
+  "illustrationFormat": "webp",
   "idempotentMergeValidated": true,
+  "legacyWebpToSvgMigrationValidated": true,
   "unrelatedHomebrewPreservationValidated": true,
   "conflictPreservationValidated": true,
   "coreCollisionGuardValidated": true,
   "runtimeFoundryQualificationPending": true,
-  "artPathRewritePending": true,
   "compendiumCompilationPending": true,
-  "nextStep": "Rewrite final Edgeheart asset paths after generated art is staged in the module."
+  "nextStep": "Stage and validate all 11 Competency SVG UI glyphs, then compile Compendia."
 }
