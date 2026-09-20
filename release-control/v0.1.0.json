@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "tag": "v0.1.0",
+  "publish": true,
+  "qualifiedRuntimeSha256": "8e9c2fdba53f108d11f48867a4759fcc51b45aba3c2176b40998bb3e11f161c1",
+  "runtime": {
+    "foundryCore": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7"
+  },
+  "qualification": {
+    "step": 8,
+    "status": "PASS",
+    "acceptedAt": "2026-09-20"
+  }
+}
