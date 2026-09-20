@@ -363,16 +363,23 @@ def main() -> int:
     if len(token_entries) != EXPECTED_TOKENS:
         errors.append(f"expected 22 adversary token entries, got {len(token_entries)}")
 
-    competency_source = (repo / "scripts/competencies.js").read_text(encoding="utf-8")
+    # Validate the manifest-side dual-art convention directly. Runtime use of
+    # the SVG uiGlyph is independently enforced by Step 5's JS validator.
     for entry in competency_illustrations:
-        if entry["modulePath"] not in competency_source:
+        competency_id = entry["assetId"].split(":")[1]
+        expected_repo = f"assets/icons/domains/{competency_id}.webp"
+        expected_module = f"modules/edgeheart/{expected_repo}"
+        if entry["repositoryPath"] != expected_repo or entry["modulePath"] != expected_module:
             errors.append(
-                f"{entry['assetId']}: full illustration path is not declared in competency art contract"
+                f"{entry['assetId']}: Competency illustration path does not match dual-art contract"
             )
     for entry in competency_glyphs:
-        if entry["modulePath"] not in competency_source:
+        competency_id = entry["assetId"].split(":")[1]
+        expected_repo = f"assets/icons/domains/{competency_id}.svg"
+        expected_module = f"modules/edgeheart/{expected_repo}"
+        if entry["repositoryPath"] != expected_repo or entry["modulePath"] != expected_module:
             errors.append(
-                f"{entry['assetId']}: SVG UI glyph path is not declared in competency art contract"
+                f"{entry['assetId']}: Competency SVG UI glyph path does not match dual-art contract"
             )
 
     existing = 0
