@@ -1,0 +1,116 @@
+name: Publish Edgeheart Release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "release-control/*.json"
+  workflow_dispatch:
+    inputs:
+      control:
+        description: "Release-control file"
+        required: true
+        default: "release-control/v0.1.0.json"
+
+concurrency:
+  group: edgeheart-release
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      RELEASE_CONTROL: ${{ github.event.inputs.control || 'release-control/v0.1.0.json' }}
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - name: Check out release source
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install build dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Rebuild deterministic source tree
+        run: |
+          npm run build:sources -- sources/edgeheart-consolidated-production-v1.0.zip
+          npm run validate:sources
+          npm run resolve:references
+          npm run validate:references
+          npm run validate:competencies
+          npm run rewrite:assets
+          npm run validate:assets
+
+      - name: Compile and validate all Compendia
+        run: |
+          npm run clean:packs
+          npm run compile:packs
+          npm run validate:compiled-packs
+
+      - name: Build runtime candidate
+        run: npm run build:runtime-package
+
+      - name: Enforce Step 8 byte-for-byte release gate
+        run: |
+          python tools/prepare-release.py --repo . --control "$RELEASE_CONTROL"
+
+      - name: Read release metadata
+        id: release
+        shell: bash
+        run: |
+          VERSION="$(python -c 'import json,os; print(json.load(open(os.environ["RELEASE_CONTROL"]))["version"])')"
+          TAG="v$VERSION"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "archive=edgeheart-v$VERSION.zip" >> "$GITHUB_OUTPUT"
+
+      - name: Publish or refresh GitHub release
+        shell: bash
+        run: |
+          TAG="${{ steps.release.outputs.tag }}"
+          ARCHIVE="${{ steps.release.outputs.archive }}"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG"               "release/$ARCHIVE"               "release/module.json"               "release/SHA256SUMS.txt"               --clobber
+            gh release edit "$TAG"               --title "Edgeheart $TAG"               --notes-file RELEASE-NOTES-v0.1.0.md
+          else
+            gh release create "$TAG"               "release/$ARCHIVE"               "release/module.json"               "release/SHA256SUMS.txt"               --target "$GITHUB_SHA"               --title "Edgeheart $TAG"               --notes-file RELEASE-NOTES-v0.1.0.md
+          fi
+
+      - name: Verify published release assets
+        shell: bash
+        run: |
+          TAG="${{ steps.release.outputs.tag }}"
+          gh release view "$TAG" --json tagName,isDraft,isPrerelease,url,assets > published-release.json
+          python - <<'PY'
+          import json
+          data=json.load(open("published-release.json"))
+          names=sorted(a["name"] for a in data["assets"])
+          expected=sorted(["edgeheart-v0.1.0.zip","module.json","SHA256SUMS.txt"])
+          if data["isDraft"] or data["isPrerelease"]:
+              raise SystemExit("Release must be a published non-prerelease")
+          if names != expected:
+              raise SystemExit(f"Release assets mismatch: {names}")
+          print(json.dumps(data, indent=2))
+          PY
+
+      - name: Upload release evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: edgeheart-v0.1.0-release-evidence
+          path: |
+            build/step8/
+            build/step9/
+            release/SHA256SUMS.txt
+            published-release.json
+          if-no-files-found: error
+          retention-days: 90

@@ -1,0 +1,28 @@
+{
+  "step": 8,
+  "status": "PASS",
+  "qualificationType": "manual clean-world runtime qualification",
+  "qualifiedAt": "2026-09-20",
+  "runtime": {
+    "foundryCore": "13.351",
+    "systemId": "daggerheart",
+    "systemVersion": "1.2.7",
+    "moduleId": "edgeheart",
+    "moduleVersion": "0.1.0"
+  },
+  "qualifiedRuntimeCandidate": {
+    "archive": "edgeheart-v0.1.0.zip",
+    "sha256": "8e9c2fdba53f108d11f48867a4759fcc51b45aba3c2176b40998bb3e11f161c1"
+  },
+  "acceptedChecks": {
+    "allCompendiaOpenedSuccessfully": true,
+    "compendiumContentAppearedCorrect": true,
+    "artworkRenderedProperly": true,
+    "newActorCreatedSuccessfully": true,
+    "daggerheartCharacterBuilderCompletedSuccessfully": true,
+    "customDomainSvgGlyphsRenderedProperly": true
+  },
+  "acceptedByUser": true,
+  "releaseGateCleared": true,
+  "nextStep": "Release hardening and v0.1.0 publication."
+}
