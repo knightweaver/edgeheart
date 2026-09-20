@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.0",
+  "fixtureSet": "edgeheart-core-regressions-v1",
+  "fixtures": [
+    {
+      "id": "runner-class",
+      "logicalKey": "class:runner",
+      "expectedId": "cf94c734a34def42",
+      "expected": {
+        "name": "Runner",
+        "type": "class",
+        "system.domains": ["network"],
+        "system.subclasses": [
+          "Compendium.edgeheart.edgeheart-subclasses.Item.dd2947e288ec9d89",
+          "Compendium.edgeheart.edgeheart-subclasses.Item.d3441e69a1337f8c"
+        ],
+        "system.features.length": 3,
+        "img": "modules/edgeheart/assets/icons/classes/runner.webp"
+      }
+    },
+    {
+      "id": "breach-specialist-subclass",
+      "logicalKey": "subclass:breach-specialist",
+      "expectedId": "dd2947e288ec9d89",
+      "expected": {
+        "name": "Breach Specialist",
+        "type": "subclass",
+        "system.linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.cf94c734a34def42",
+        "system.features.length": 4,
+        "img": "modules/edgeheart/assets/icons/subclasses/breach-specialist.webp"
+      }
+    },
+    {
+      "id": "net-diver-subclass",
+      "logicalKey": "subclass:net-diver",
+      "expectedId": "d3441e69a1337f8c",
+      "expected": {
+        "name": "Net Diver",
+        "type": "subclass",
+        "system.linkedClass": "Compendium.edgeheart.edgeheart-classes.Item.cf94c734a34def42",
+        "system.features.length": 3,
+        "img": "modules/edgeheart/assets/icons/subclasses/net-diver.webp"
+      }
+    },
+    {
+      "id": "network-domain-card",
+      "logicalKey": "domainCard:network:personal-firewall",
+      "expectedId": "6527c1a0c8575f3e",
+      "expected": {
+        "name": "Personal Firewall",
+        "type": "domainCard",
+        "system.domain": "network",
+        "system.level": 1,
+        "system.recallCost": 0,
+        "system.type": "ability",
+        "system.inVault": false,
+        "img": "modules/edgeheart/assets/icons/domains/network/personal-firewall.webp"
+      }
+    },
+    {
+      "id": "military-surplus-life-path",
+      "logicalKey": "ancestry:military-surplus",
+      "expectedId": "28f26f4be15da477",
+      "expected": {
+        "name": "Military Surplus",
+        "type": "ancestry",
+        "system.features.length": 2,
+        "img": "modules/edgeheart/assets/icons/life-paths/military-surplus.webp"
+      }
+    },
+    {
+      "id": "corporate-asset-affiliation",
+      "logicalKey": "community:corporate-asset",
+      "expectedId": "056cde1d55f02396",
+      "expected": {
+        "name": "Corporate Asset",
+        "type": "community",
+        "system.features.length": 1,
+        "img": "modules/edgeheart/assets/icons/affiliations/corporate-asset.webp"
+      }
+    },
+    {
+      "id": "sitil-security-guard",
+      "logicalKey": "adversary:sitil-security-guard",
+      "expectedId": "b7596fdfc43010e9",
+      "expected": {
+        "name": "Sitil Security Guard",
+        "type": "adversary",
+        "system.tier": 1,
+        "system.type": "standard",
+        "system.difficulty": 11,
+        "system.attack.range": "far",
+        "items.length": 2,
+        "img": "modules/edgeheart/assets/icons/adversaries/sitil-security-guard.webp",
+        "prototypeToken.texture.src": "modules/edgeheart/assets/tokens/adversaries/sitil-security-guard-token.png"
+      },
+      "specialChecks": ["embeddedActorItemKeys"]
+    },
+    {
+      "id": "neon-night-market",
+      "logicalKey": "environment:neon-night-market",
+      "expectedId": "032782560570235e",
+      "expected": {
+        "name": "Neon Night Market",
+        "type": "environment",
+        "system.tier": 1,
+        "system.type": "social",
+        "system.difficulty": 10,
+        "system.features.length": 3,
+        "img": "modules/edgeheart/assets/icons/environments/neon-night-market.webp"
+      }
+    }
+  ],
+  "runtimeScenarios": [
+    "Enable Edgeheart in a clean Foundry 13.351 / Daggerheart 1.2.7 world as GM.",
+    "Confirm all 13 Compendia open and representative artwork renders.",
+    "Create a new Actor and complete the Daggerheart Character Builder with an Edgeheart Class, Subclass, Life Path, Affiliation, and Competency Card.",
+    "Confirm all 11 Competency SVG glyphs render in the character-sheet Domain interface.",
+    "Instantiate Sitil Security Guard and confirm embedded Features and token art render.",
+    "Open Neon Night Market and confirm its three inline Environment Features render.",
+    "Reload and confirm no Edgeheart 404, unresolved Compendium UUID, or schema errors appear in the browser console."
+  ]
+}

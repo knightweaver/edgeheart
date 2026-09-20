@@ -1,0 +1,56 @@
+name: Edgeheart Maintenance Regression
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "build/step*/**"
+      - "STEP-*-HANDOFF.md"
+
+permissions:
+  contents: read
+
+jobs:
+  maintenance-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Classify change impact
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PUSH_BASE: ${{ github.event.before }}
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.sha }}
+        run: |
+          BASE="$PUSH_BASE"
+          if [ "$EVENT_NAME" = "pull_request" ]; then BASE="$PR_BASE"; fi
+          python tools/maintenance-status.py --repo . --base "$BASE" --head "$HEAD_SHA" --output build/maintenance/change-impact.json
+      - name: Validate maintenance baseline and fixtures
+        run: npm run validate:regressions
+      - name: Run source and deployment gates
+        run: npm run validate:maintenance
+      - name: Compile and validate Compendia
+        run: |
+          npm run clean:packs
+          npm run compile:packs
+          npm run validate:compiled-packs
+      - name: Build runtime package
+        run: npm run build:runtime-package
+      - name: Upload maintenance evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: edgeheart-maintenance-regression
+          path: |
+            build/maintenance/change-impact.json
+            build/step7/step7-summary.json
+            build/step7/runtime-package.json
+          if-no-files-found: error
+          retention-days: 14

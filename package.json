@@ -22,7 +22,11 @@
     "generate:glyphs": "python tools/generate-competency-glyphs.py --repo .",
     "validate:compiled-packs": "node tools/validate-compiled-packs.mjs",
     "build:runtime-package": "python tools/build-runtime-package.py --repo .",
-    "prepare:release": "python tools/prepare-release.py --repo . --control release-control/v0.1.0.json"
+    "prepare:release": "python tools/prepare-release.py --repo . --control",
+    "validate:regressions": "python tools/validate-maintenance-regressions.py --repo .",
+    "maintenance:status": "python tools/maintenance-status.py --repo .",
+    "validate:maintenance": "npm run validate && npm run validate:sources && npm run validate:references && npm run validate:competencies && npm run validate:assets && npm run validate:regressions",
+    "build:maintenance": "npm run validate:maintenance && npm run clean:packs && npm run compile:packs && npm run validate:compiled-packs && npm run build:runtime-package"
   },
   "repository": {
     "type": "git",
