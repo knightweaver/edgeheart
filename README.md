@@ -13,9 +13,25 @@ while pinning schema/runtime behavior to Daggerheart 1.2.7.
 
 See `DEPLOYMENT-CONTRACT.md` for the frozen implementation contract.
 
-## Current status
+## Release
 
-Steps 1–8 are complete:
+**Edgeheart v0.1.0 is published and runtime-qualified.**
+
+Release:
+
+https://github.com/knightweaver/edgeheart/releases/tag/v0.1.0
+
+Foundry manifest:
+
+`https://github.com/knightweaver/edgeheart/releases/latest/download/module.json`
+
+Qualified runtime SHA-256:
+
+`8e9c2fdba53f108d11f48867a4759fcc51b45aba3c2176b40998bb3e11f161c1`
+
+## Pipeline status
+
+Steps 1–9 are complete:
 
 1. deployment contract and module architecture;
 2. module skeleton;
@@ -23,17 +39,13 @@ Steps 1–8 are complete:
 4. symbolic reference resolution;
 5. native Daggerheart Competency registration;
 6. complete 582-asset deployment, including SVG Domain glyphs;
-7. deterministic compilation and re-extraction validation of all 13 Compendia;
-8. clean-world runtime qualification in Foundry 13.351 / Daggerheart 1.2.7.
+7. compilation and re-extraction validation of all 13 Compendia;
+8. clean-world runtime qualification in Foundry 13.351 / Daggerheart 1.2.7;
+9. release hardening and publication of v0.1.0.
 
-The manually qualified Edgeheart 0.1.0 runtime candidate SHA-256 is:
-
-`8e9c2fdba53f108d11f48867a4759fcc51b45aba3c2176b40998bb3e11f161c1`
-
-Step 9 is release hardening and publication. The release workflow rebuilds from
-the accepted consolidated source package, reruns every deterministic gate, and
-refuses publication unless the rebuilt runtime ZIP is byte-for-byte identical
-to the Step 8 qualified candidate.
+The published archive is the exact package qualified during Step 8. Fresh release
+builds must also match every non-log runtime member and pass all source,
+reference, asset, and compiled-pack gates.
 
 ## Build authority
 
@@ -45,3 +57,7 @@ to the Step 8 qualified candidate.
 - `release-control/` — explicit publication requests
 
 Generated packs and runtime ZIPs are not canonical inputs.
+
+## Next
+
+Step 10 — Maintenance and Regression Workflow.

@@ -1,0 +1,31 @@
+{
+  "step": 9,
+  "status": "PASS",
+  "version": "0.1.0",
+  "tag": "v0.1.0",
+  "publishedRelease": "https://github.com/knightweaver/edgeheart/releases/tag/v0.1.0",
+  "releaseWorkflowRunId": 35510638082,
+  "releaseTargetCommit": "3e11161925142040b1b91a50941043068bede980",
+  "qualifiedRuntimeSha256": "8e9c2fdba53f108d11f48867a4759fcc51b45aba3c2176b40998bb3e11f161c1",
+  "releaseAssets": {
+    "edgeheart-v0.1.0.zip": {
+      "sha256": "8e9c2fdba53f108d11f48867a4759fcc51b45aba3c2176b40998bb3e11f161c1"
+    },
+    "module.json": {
+      "sha256": "f4741768b2ff0d8bf3fd19cb2a01e236d7114b0a1cabc7c118bb2e2b8da454bf"
+    },
+    "SHA256SUMS.txt": {
+      "published": true
+    }
+  },
+  "freshRebuildEquivalence": {
+    "status": "PASS",
+    "zipMemberCount": 676,
+    "byteIdenticalMemberCount": 650,
+    "permittedLevelDbLogDifferenceCount": 26,
+    "forbiddenDifferenceCount": 0
+  },
+  "foundryManifestUrl": "https://github.com/knightweaver/edgeheart/releases/latest/download/module.json",
+  "foundryDownloadUrl": "https://github.com/knightweaver/edgeheart/releases/download/v0.1.0/edgeheart-v0.1.0.zip",
+  "nextStep": "Step 10 — Maintenance and Regression Workflow"
+}
