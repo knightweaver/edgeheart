@@ -1,0 +1,131 @@
+{
+  "step": 7,
+  "status": "PASS",
+  "compiler": "@foundryvtt/foundryvtt-cli",
+  "declaredCompendiumCount": 13,
+  "totalSourceEntries": 810,
+  "totalExtractedEntries": 810,
+  "expectedTotalEntries": 810,
+  "packResults": [
+    {
+      "packName": "edgeheart-weapons",
+      "documentType": "Item",
+      "sourcePath": "src/packs/items/weapons",
+      "compiledPath": "packs/items/weapons",
+      "sourceEntryCount": 68,
+      "extractedEntryCount": 68,
+      "levelDbFileCount": 6
+    },
+    {
+      "packName": "edgeheart-armors",
+      "documentType": "Item",
+      "sourcePath": "src/packs/items/armors",
+      "compiledPath": "packs/items/armors",
+      "sourceEntryCount": 29,
+      "extractedEntryCount": 29,
+      "levelDbFileCount": 6
+    },
+    {
+      "packName": "edgeheart-loot",
+      "documentType": "Item",
+      "sourcePath": "src/packs/items/loot",
+      "compiledPath": "packs/items/loot",
+      "sourceEntryCount": 40,
+      "extractedEntryCount": 40,
+      "levelDbFileCount": 6
+    },
+    {
+      "packName": "edgeheart-consumables",
+      "documentType": "Item",
+      "sourcePath": "src/packs/items/consumables",
+      "compiledPath": "packs/items/consumables",
+      "sourceEntryCount": 40,
+      "extractedEntryCount": 40,
+      "levelDbFileCount": 6
+    },
+    {
+      "packName": "edgeheart-cyberware",
+      "documentType": "Item",
+      "sourcePath": "src/packs/items/cyberware",
+      "compiledPath": "packs/items/cyberware",
+      "sourceEntryCount": 60,
+      "extractedEntryCount": 60,
+      "levelDbFileCount": 6
+    },
+    {
+      "packName": "edgeheart-classes",
+      "documentType": "Item",
+      "sourcePath": "src/packs/system/classes",
+      "compiledPath": "packs/system/classes",
+      "sourceEntryCount": 9,
+      "extractedEntryCount": 9,
+      "levelDbFileCount": 6
+    },
+    {
+      "packName": "edgeheart-subclasses",
+      "documentType": "Item",
+      "sourcePath": "src/packs/system/subclasses",
+      "compiledPath": "packs/system/subclasses",
+      "sourceEntryCount": 18,
+      "extractedEntryCount": 18,
+      "levelDbFileCount": 6
+    },
+    {
+      "packName": "edgeheart-domains",
+      "documentType": "Item",
+      "sourcePath": "src/packs/system/domains",
+      "compiledPath": "packs/system/domains",
+      "sourceEntryCount": 352,
+      "extractedEntryCount": 352,
+      "levelDbFileCount": 6
+    },
+    {
+      "packName": "edgeheart-features",
+      "documentType": "Item",
+      "sourcePath": "src/packs/system/features",
+      "compiledPath": "packs/system/features",
+      "sourceEntryCount": 143,
+      "extractedEntryCount": 143,
+      "levelDbFileCount": 6
+    },
+    {
+      "packName": "edgeheart-ancestries",
+      "documentType": "Item",
+      "sourcePath": "src/packs/system/ancestries",
+      "compiledPath": "packs/system/ancestries",
+      "sourceEntryCount": 6,
+      "extractedEntryCount": 6,
+      "levelDbFileCount": 6
+    },
+    {
+      "packName": "edgeheart-communities",
+      "documentType": "Item",
+      "sourcePath": "src/packs/system/communities",
+      "compiledPath": "packs/system/communities",
+      "sourceEntryCount": 8,
+      "extractedEntryCount": 8,
+      "levelDbFileCount": 6
+    },
+    {
+      "packName": "edgeheart-adversaries",
+      "documentType": "Actor",
+      "sourcePath": "src/packs/adventures/adversaries",
+      "compiledPath": "packs/adventures/adversaries",
+      "sourceEntryCount": 22,
+      "extractedEntryCount": 22,
+      "levelDbFileCount": 6
+    },
+    {
+      "packName": "edgeheart-environments",
+      "documentType": "Actor",
+      "sourcePath": "src/packs/adventures/environments",
+      "compiledPath": "packs/adventures/environments",
+      "sourceEntryCount": 15,
+      "extractedEntryCount": 15,
+      "levelDbFileCount": 6
+    }
+  ],
+  "foundryRuntimeQualificationPending": true,
+  "generatedPacksAreDerivative": true,
+  "nextStep": "Install the built Edgeheart module into a clean Foundry 13.351 / Daggerheart 1.2.7 world and perform runtime qualification."
+}
