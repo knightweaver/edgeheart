@@ -2,20 +2,41 @@
 
 ## Visual authority
 
-Edgeheart artwork uses accepted **Visual Canon v0.1.1**.
+Edgeheart artwork uses accepted **Visual Canon v0.1.1** plus the derived
+Daggerheart UI-glyph layer defined by Deployment Contract v1.1.
 
-The complete deployment requires **571 image assets**:
+The complete deployment requires **582 assets**:
 
-- 538 source-document primary images
-- 11 Competency icons
-- 22 adversary tokens
+- 538 source-document primary WebP images
+- 11 full-color Competency illustration WebPs
+- 11 monochrome Competency SVG UI glyphs
+- 22 adversary token PNGs
 
-Derived Class/Subclass/Origin Feature documents do not receive dedicated art in
-this release and intentionally retain Daggerheart generic Feature icons.
+Derived Class/Subclass/Origin Feature documents do not receive dedicated art and
+intentionally retain Daggerheart generic Feature icons.
+
+## Dual-art Competency contract
+
+Each Competency has both:
+
+```text
+assets/icons/domains/<competency>.webp   # full illustration
+assets/icons/domains/<competency>.svg    # Daggerheart UI glyph
+```
+
+The native Daggerheart Homebrew Domain `src` uses the **SVG**. The WebP remains
+the full Edgeheart artwork.
+
+Competency SVGs must be normalized to:
+
+- width: 250
+- height: 250
+- viewBox: `0 0 250 250`
+- vector paths only; no embedded raster image
+- no script or external resource reference
+- `currentColor` used for fill or stroke
 
 ## Final module paths
-
-Primary assets are staged under:
 
 ```text
 assets/icons/weapons/<slug>.webp
@@ -30,60 +51,51 @@ assets/icons/affiliations/<slug>.webp
 assets/icons/environments/<slug>.webp
 assets/icons/adversaries/<slug>.webp
 assets/icons/domains/<competency>.webp
+assets/icons/domains/<competency>.svg
 assets/icons/domains/<competency>/<card-slug>.webp
 assets/tokens/adversaries/<slug>-token.png
 ```
 
-Foundry JSON always references those files as portable module paths beginning
-with:
+Foundry references use portable module paths beginning with
+`modules/edgeheart/`. World-specific paths are prohibited.
 
-`modules/edgeheart/`
+## Staging artwork
 
-World-specific paths are prohibited.
-
-## Same-document image reuse
-
-For Weapons, Armors, Loot, Consumables, Cyberware, and Competency Cards, the
-same primary image is also used by that document's attack/action entries.
-
-Adversary attack icons remain generic because no separate attack-art assets were
-generated. Embedded Adversary and Environment features also retain generic
-Daggerheart Feature icons.
-
-## Staging generated artwork
-
-After Step 6 has generated `build/step6/asset-manifest.json`, run:
+After generating `build/step6/asset-manifest.json`:
 
 ```bash
 python tools/stage-assets.py /path/to/generated-edgeheart-art --repo .
 ```
 
-The source directory may be flat or nested. The stager matches the globally
-unique v0.1.1 output filenames and copies each file into its deterministic module
-destination.
-
-For an intentionally incomplete local pass:
+For an intentionally incomplete pass:
 
 ```bash
 python tools/stage-assets.py /path/to/generated-edgeheart-art --repo . --allow-missing
 ```
 
-## Final asset qualification
+To reorganize a flat art folder into the module hierarchy without touching the
+repository:
 
-After all generated images are staged:
+```bash
+python tools/organize-artwork.py /path/to/flat-art /path/to/organized-art \
+  --manifest build/step6/asset-manifest.json
+```
+
+## Final asset qualification
 
 ```bash
 npm run validate:assets
 ```
 
-The validator requires all 571 files and checks:
+The validator requires all 582 files and checks:
 
-- required file presence;
-- portable module-path agreement;
-- expected image format;
-- accepted v0.1.1 dimensions;
+- portable path agreement;
+- expected WebP/PNG dimensions;
 - transparent PNG capability for all 22 adversary tokens;
-- source-document image-path coverage;
+- all 11 Competency SVGs are valid 250x250 vector glyphs;
+- no raster embedding, scripts, or external resources in SVG glyphs;
+- SVG glyphs use `currentColor`;
+- source-document image coverage;
 - preservation of intentionally generic Feature and adversary attack art.
 
 Do not compile release Compendia until this validation passes.

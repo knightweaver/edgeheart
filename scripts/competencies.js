@@ -6,15 +6,38 @@
  * the nine core Daggerheart domains. Edgeheart therefore registers its
  * Competencies through that supported setting rather than patching Daggerheart.
  *
- * Descriptions below preserve the three source-backed Competency paragraphs
- * from the accepted Edgeheart neutral corpus: description, playstyle, access.
+ * Dual-art contract:
+ * - illustration: full-color Edgeheart Competency artwork (.webp)
+ * - uiGlyph: monochrome Daggerheart interface glyph (.svg)
+ *
+ * The Homebrew Domain "src" field MUST use uiGlyph. The full illustration is
+ * retained as a separate module asset for publication/reference use.
  */
+
+const competencyArt = id => Object.freeze({
+  illustration: `modules/edgeheart/assets/icons/domains/${id}.webp`,
+  uiGlyph: `modules/edgeheart/assets/icons/domains/${id}.svg`
+});
+
+export const EDGEHEART_COMPETENCY_ART = Object.freeze({
+  network: competencyArt("network"),
+  assault: competencyArt("assault"),
+  chrome: competencyArt("chrome"),
+  systems: competencyArt("systems"),
+  influence: competencyArt("influence"),
+  ghost: competencyArt("ghost"),
+  frontier: competencyArt("frontier"),
+  medtech: competencyArt("medtech"),
+  aegis: competencyArt("aegis"),
+  redline: competencyArt("redline"),
+  blackwall: competencyArt("blackwall")
+});
 
 export const EDGEHEART_COMPETENCIES = Object.freeze({
   network: Object.freeze({
     id: "network",
     label: "Network",
-    src: "modules/edgeheart/assets/icons/domains/network.webp",
+    src: EDGEHEART_COMPETENCY_ART.network.uiGlyph,
     description:
       "<p>Network is the Competency of hacking, electronic warfare, artificial intelligence, signal manipulation, and remote systems.</p>" +
       "<p>Characters who use Network bend the world through code, hijacked infrastructure, predictive software, signal ghosts, drones, cyberdecks, and forbidden protocols.</p>" +
@@ -23,7 +46,7 @@ export const EDGEHEART_COMPETENCIES = Object.freeze({
   assault: Object.freeze({
     id: "assault",
     label: "Assault",
-    src: "modules/edgeheart/assets/icons/domains/assault.webp",
+    src: EDGEHEART_COMPETENCY_ART.assault.uiGlyph,
     description:
       "<p>Assault is the Competency of direct combat, firearms, blades, heavy weapons, combat reflexes, battlefield aggression, and tactical violence.</p>" +
       "<p>Characters who use Assault solve problems through superior firepower, brutal precision, weapon mastery, and the willingness to keep moving when anyone else would be dead.</p>" +
@@ -32,7 +55,7 @@ export const EDGEHEART_COMPETENCIES = Object.freeze({
   chrome: Object.freeze({
     id: "chrome",
     label: "Chrome",
-    src: "modules/edgeheart/assets/icons/domains/chrome.webp",
+    src: EDGEHEART_COMPETENCY_ART.chrome.uiGlyph,
     description:
       "<p>Chrome is the Competency of reinforced bodies, synthetic muscle, subdermal armor, cybernetic reflexes, implanted combat systems, and physical control.</p>" +
       "<p>Characters who use Chrome turn their body into a weapon platform and survive through precision, endurance, and engineered durability.</p>" +
@@ -41,7 +64,7 @@ export const EDGEHEART_COMPETENCIES = Object.freeze({
   systems: Object.freeze({
     id: "systems",
     label: "Systems",
-    src: "modules/edgeheart/assets/icons/domains/systems.webp",
+    src: EDGEHEART_COMPETENCY_ART.systems.uiGlyph,
     description:
       "<p>Systems is the Competency of engineering, drones, scanners, gadgets, tactical preparation, hardware, and battlefield tools.</p>" +
       "<p>Characters who use Systems solve problems by having the right device, the right schematic, or the right plan at the right time.</p>" +
@@ -50,7 +73,7 @@ export const EDGEHEART_COMPETENCIES = Object.freeze({
   influence: Object.freeze({
     id: "influence",
     label: "Influence",
-    src: "modules/edgeheart/assets/icons/domains/influence.webp",
+    src: EDGEHEART_COMPETENCY_ART.influence.uiGlyph,
     description:
       "<p>Influence is the Competency of reputation, negotiation, manipulation, media presence, corporate pressure, social engineering, and contacts.</p>" +
       "<p>Characters who use Influence understand that power is not always held by the person with the biggest gun, but by who controls the story.</p>" +
@@ -59,7 +82,7 @@ export const EDGEHEART_COMPETENCIES = Object.freeze({
   ghost: Object.freeze({
     id: "ghost",
     label: "Ghost",
-    src: "modules/edgeheart/assets/icons/domains/ghost.webp",
+    src: EDGEHEART_COMPETENCY_ART.ghost.uiGlyph,
     description:
       "<p>Ghost is the Competency of infiltration, stealth, assassination, sabotage, disguise, theft, and black operations.</p>" +
       "<p>Characters who use Ghost disappear into blind spots, false identities, smoke, shadow, dead cameras, and the moment between one heartbeat and the next.</p>" +
@@ -68,7 +91,7 @@ export const EDGEHEART_COMPETENCIES = Object.freeze({
   frontier: Object.freeze({
     id: "frontier",
     label: "Frontier",
-    src: "modules/edgeheart/assets/icons/domains/frontier.webp",
+    src: EDGEHEART_COMPETENCY_ART.frontier.uiGlyph,
     description:
       "<p>Frontier is the Competency of survival, navigation, tracking, wasteland, environments, and life beyond corporate control.</p>" +
       "<p>Characters who use Frontier know how to cross dead zones, read broken streets, survive toxic storms, track enemies through ruins, and find paths where maps have failed.</p>" +
@@ -77,7 +100,7 @@ export const EDGEHEART_COMPETENCIES = Object.freeze({
   medtech: Object.freeze({
     id: "medtech",
     label: "Medtech",
-    src: "modules/edgeheart/assets/icons/domains/medtech.webp",
+    src: EDGEHEART_COMPETENCY_ART.medtech.uiGlyph,
     description:
       "<p>Medtech is the Competency of trauma care, surgery, emergency medicine, nanomedicine, cyberware repair, biological support, and keeping people alive after they should be dead.</p>" +
       "<p>Characters who use Medtech carry biofoam, trauma patches, surgical drones, stimulant cocktails, organ printers, and the kind of calm hands people pray for when bullets start flying.</p>" +
@@ -86,7 +109,7 @@ export const EDGEHEART_COMPETENCIES = Object.freeze({
   aegis: Object.freeze({
     id: "aegis",
     label: "Aegis",
-    src: "modules/edgeheart/assets/icons/domains/aegis.webp",
+    src: EDGEHEART_COMPETENCY_ART.aegis.uiGlyph,
     description:
       "<p>Aegis is the Competency of protection, defense, armor, shields, suppression, tactical cover, and keeping the team alive under fire.</p>" +
       "<p>Characters who use Aegis turn themselves into the line between their allies and the thing trying to kill them.</p>" +
@@ -95,7 +118,7 @@ export const EDGEHEART_COMPETENCIES = Object.freeze({
   redline: Object.freeze({
     id: "redline",
     label: "Redline",
-    src: "modules/edgeheart/assets/icons/domains/redline.webp",
+    src: EDGEHEART_COMPETENCY_ART.redline.uiGlyph,
     description:
       "<p>Redline is the Competency of overclocked bodies, experimental drugs, aggressive nanites, unstable augments, combat highs, mutation, pain loops, and controlled cyberpsychosis.</p>" +
       "<p>Characters who use Redline turn their body and mind into fuel, pushing beyond safe limits and daring the crash to catch them later.</p>" +
@@ -104,7 +127,7 @@ export const EDGEHEART_COMPETENCIES = Object.freeze({
   blackwall: Object.freeze({
     id: "blackwall",
     label: "Blackwall",
-    src: "modules/edgeheart/assets/icons/domains/blackwall.webp",
+    src: EDGEHEART_COMPETENCY_ART.blackwall.uiGlyph,
     description:
       "<p>Blackwall is the Competency of forbidden AI, rogue daemons, impossible code, digital possession, haunted machines, Eidolon minds, and things sealed beyond the network.</p>" +
       "<p>Characters who use Blackwall do not simply access technology. They listen to something on the other side, and sometimes it answers.</p>" +
@@ -119,13 +142,37 @@ const comparableDomain = domain => ({
   description: domain?.description ?? ""
 });
 
+const comparableDomainWithoutSrc = domain => ({
+  id: domain?.id ?? "",
+  label: domain?.label ?? "",
+  description: domain?.description ?? ""
+});
+
 const domainEquals = (a, b) =>
   JSON.stringify(comparableDomain(a)) === JSON.stringify(comparableDomain(b));
+
+const domainEqualsWithoutSrc = (a, b) =>
+  JSON.stringify(comparableDomainWithoutSrc(a)) ===
+  JSON.stringify(comparableDomainWithoutSrc(b));
+
+function isLegacyEdgeheartDomain(id, existing, expected) {
+  const art = EDGEHEART_COMPETENCY_ART[id];
+  return Boolean(
+    art &&
+    existing?.src === art.illustration &&
+    domainEqualsWithoutSrc(existing, expected)
+  );
+}
 
 /**
  * Pure planning function used by both runtime registration and build validation.
  * Existing unrelated Homebrew domains are preserved. Edgeheart never silently
- * overwrites a same-id Homebrew domain whose data differs from its definition.
+ * overwrites a same-id Homebrew domain whose semantic data differs from its
+ * definition.
+ *
+ * The one supported migration is the Edgeheart-owned v0.1.0/v0.1.1 legacy
+ * Competency image path: <domain>.webp -> <domain>.svg. This updates only an
+ * otherwise exact Edgeheart definition.
  */
 export function planCompetencyRegistration({
   coreDomains = {},
@@ -135,6 +182,7 @@ export function planCompetencyRegistration({
     Object.entries(homebrewDomains).map(([id, value]) => [id, { ...value }])
   );
   const added = [];
+  const updated = [];
   const unchanged = [];
   const conflicts = [];
   const coreConflicts = [];
@@ -157,6 +205,12 @@ export function planCompetencyRegistration({
       continue;
     }
 
+    if (isLegacyEdgeheartDomain(id, existing, expected)) {
+      nextDomains[id] = { ...expected };
+      updated.push(id);
+      continue;
+    }
+
     conflicts.push({
       id,
       expected: comparableDomain(expected),
@@ -167,10 +221,11 @@ export function planCompetencyRegistration({
   return {
     nextDomains,
     added,
+    updated,
     unchanged,
     conflicts,
     coreConflicts,
-    changed: added.length > 0
+    changed: added.length > 0 || updated.length > 0
   };
 }
 
@@ -265,7 +320,7 @@ export async function registerEdgeheartCompetencies({ notify = true } = {}) {
   }
 
   console.info(
-    `Edgeheart | Competencies ready (${Object.keys(EDGEHEART_COMPETENCIES).length}); added ${plan.added.length}, unchanged ${plan.unchanged.length}.`
+    `Edgeheart | Competencies ready (${Object.keys(EDGEHEART_COMPETENCIES).length}); added ${plan.added.length}, migrated ${plan.updated.length}, unchanged ${plan.unchanged.length}.`
   );
 
   return {

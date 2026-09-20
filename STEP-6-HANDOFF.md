@@ -2,81 +2,65 @@
 
 ## Status
 
-**IN PROGRESS — PATH REWRITING COMPLETE / BINARY ART STAGING PENDING**
+**IN PROGRESS — 571 RASTER ASSETS STAGED / 11 SVG UI GLYPHS PENDING**
 
-The deterministic asset deployment layer is now authoritative in GitHub.
+Deployment Contract v1.1 formalizes the dual-art Competency/Domain requirement.
 
-GitHub Actions workflow run **35442434292** completed successfully and produced
-the source-path rewrite commit:
+## Asset inventory
 
-`d658e28d06e95566979b26afc946f52362ffc346`
-
-## Accepted deterministic deployment manifest
-
-Step 6 generated `build/step6/asset-manifest.json` with exactly **571** required
-assets:
+The complete Step 6 deployment now contains **582 required assets**:
 
 - **538** source-document primary images
-- **11** native Competency icons
+- **11** Competency full-color WebP illustrations
+- **11** Competency 250x250 SVG UI glyphs
 - **22** adversary tokens
 
-An independent cross-check against the accepted Edgeheart Visual Canon v0.1.1
-full art manifest confirms a one-to-one match across all 571 expected output
-filenames and deployment paths.
+The previously generated 571 raster assets (549 WebPs + 22 PNG tokens) have been
+staged in GitHub. The remaining deployment work is generation and staging of the
+11 derived SVG UI glyphs.
+
+## Domain runtime behavior
+
+Daggerheart 1.2.7 Homebrew Domain `src` now points to:
+
+`modules/edgeheart/assets/icons/domains/<domain>.svg`
+
+The corresponding full-color illustration remains:
+
+`modules/edgeheart/assets/icons/domains/<domain>.webp`
+
+Existing Edgeheart world settings that contain the old WebP `src` are migrated
+to the SVG path only when the rest of the Competency definition is an exact
+Edgeheart match. Differing same-ID Homebrew domains remain protected as
+conflicts and are never silently overwritten.
 
 ## Source-document rewriting
 
-The source tree now uses portable module paths under:
+The 538 Foundry documents continue to use their full-color primary artwork.
+The 231 Competency Cards continue to use nested WebP art under:
 
-`modules/edgeheart/assets/...`
+`assets/icons/domains/<domain>/<card-slug>.webp`
 
-The rewrite covers:
+No Domain Card JSON changes are required for the SVG UI-glyph layer.
 
-- all 538 source documents with dedicated artwork;
-- all 22 adversary prototype token paths;
-- 528 same-document attack/action image references where the source entity's
-  primary art is intentionally reused.
+## SVG qualification
 
-Representative examples:
+Each of the eleven SVG glyphs must have:
 
-- Weapon:
-  `modules/edgeheart/assets/icons/weapons/assault-carbine.webp`
-- Competency Card:
-  `modules/edgeheart/assets/icons/domains/network/personal-firewall.webp`
-- Adversary portrait:
-  `modules/edgeheart/assets/icons/adversaries/sitil-security-guard.webp`
-- Adversary token:
-  `modules/edgeheart/assets/tokens/adversaries/sitil-security-guard-token.png`
+- `width="250"`
+- `height="250"`
+- `viewBox="0 0 250 250"`
+- at least one vector `<path>`
+- no embedded raster `<image>`
+- no script or external resource reference
+- `currentColor` fill or stroke
 
-## Intentionally generic images
-
-Visual Canon v0.1.1 did not create separate artwork for derived subordinate
-Feature documents. Those 100 documents continue to use Daggerheart generic
-Feature icons.
-
-Embedded Environment/Adversary features also retain generic Feature art.
-Adversary attack actions retain the generic attack icon because no separate
-attack-art family was generated.
-
-## Binary staging
-
-The repository currently contains **0 / 571** final generated image binaries.
-The image files are produced externally by the accepted Edgeheart art-generation
-workflow and must be staged from that output directory.
-
-Run from a local clone of this repository:
+Final validation:
 
 ```bash
-python tools/stage-assets.py /path/to/generated-edgeheart-art --repo .
-python tools/validate-asset-paths.py --repo . --require-assets
+npm run validate:assets
 ```
-
-The staging tool accepts a flat or nested generated-art directory and copies the
-globally unique v0.1.1 output filenames into their deterministic module paths.
-
-Final validation requires all 571 files and checks format, accepted dimensions,
-and PNG transparency capability for all 22 adversary tokens.
 
 ## Downstream gate
 
-Do not compile release Compendia until final binary asset qualification passes.
+Do not compile release Compendia until all 582 assets pass final qualification.

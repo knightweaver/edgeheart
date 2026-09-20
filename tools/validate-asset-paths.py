@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Validate Edgeheart Step 6 asset-path rewriting and optional staged binaries."""
+"""Validate Edgeheart Step 6 dual-art asset deployment."""
 from __future__ import annotations
 
 import argparse
 import json
 import struct
 import sys
+import xml.etree.ElementTree as ET
 from collections import Counter
 from pathlib import Path
 from typing import Any
@@ -25,8 +26,9 @@ EXPECTED_PRIMARY_COUNTS = {
     "adversary": 22,
 }
 EXPECTED_PRIMARY_TOTAL = 538
-EXPECTED_ASSET_TOTAL = 571
+EXPECTED_ASSET_TOTAL = 582
 EXPECTED_COMPETENCIES = 11
+EXPECTED_COMPETENCY_ART_ENTRIES = 22
 EXPECTED_TOKENS = 22
 
 ACTION_ART_PREFIXES = {
@@ -48,7 +50,7 @@ EXPECTED_SIZE_BY_FAMILY_KIND = {
     ("subclass", "primary"): (1024, 1280),
     ("ancestry", "primary"): (1024, 1280),
     ("community", "primary"): (1024, 1280),
-    ("competency", "primary"): (1024, 1024),
+    ("competency", "illustration"): (1024, 1024),
     ("domainCard", "primary"): (1024, 1024),
     ("environment", "primary"): (1536, 1024),
     ("adversary", "primary"): (1024, 1280),
@@ -83,22 +85,22 @@ def webp_dimensions(data: bytes) -> tuple[int, int]:
         size = int.from_bytes(data[offset + 4:offset + 8], "little")
         payload = data[offset + 8:offset + 8 + size]
         if fourcc == b"VP8X" and len(payload) >= 10:
-            width = 1 + int.from_bytes(payload[4:7], "little")
-            height = 1 + int.from_bytes(payload[7:10], "little")
-            return width, height
+            return (
+                1 + int.from_bytes(payload[4:7], "little"),
+                1 + int.from_bytes(payload[7:10], "little"),
+            )
         if fourcc == b"VP8 " and len(payload) >= 10:
             if payload[3:6] != b"\x9d\x01\x2a":
                 raise ValueError("invalid VP8 frame header")
-            width = int.from_bytes(payload[6:8], "little") & 0x3FFF
-            height = int.from_bytes(payload[8:10], "little") & 0x3FFF
-            return width, height
+            return (
+                int.from_bytes(payload[6:8], "little") & 0x3FFF,
+                int.from_bytes(payload[8:10], "little") & 0x3FFF,
+            )
         if fourcc == b"VP8L" and len(payload) >= 5:
             if payload[0] != 0x2F:
                 raise ValueError("invalid VP8L signature")
             bits = int.from_bytes(payload[1:5], "little")
-            width = 1 + (bits & 0x3FFF)
-            height = 1 + ((bits >> 14) & 0x3FFF)
-            return width, height
+            return (1 + (bits & 0x3FFF), 1 + ((bits >> 14) & 0x3FFF))
         offset += 8 + size + (size & 1)
     raise ValueError("could not determine WebP dimensions")
 
@@ -108,7 +110,63 @@ def image_dimensions(path: Path) -> tuple[int, int]:
         return png_dimensions(data)
     if path.suffix.lower() == ".webp":
         return webp_dimensions(data)
-    raise ValueError(f"unsupported asset extension: {path.suffix}")
+    raise ValueError(f"unsupported raster asset extension: {path.suffix}")
+
+def local_name(tag: str) -> str:
+    return tag.rsplit("}", 1)[-1]
+
+def validate_svg_glyph(path: Path) -> list[str]:
+    errors = []
+    try:
+        root = ET.parse(path).getroot()
+    except Exception as exc:
+        return [f"invalid SVG/XML: {exc}"]
+
+    if local_name(root.tag) != "svg":
+        return ["root element is not <svg>"]
+
+    def scalar(value: str | None) -> str:
+        return (value or "").strip().lower().removesuffix("px")
+
+    if scalar(root.get("width")) != "250":
+        errors.append("SVG width must be 250")
+    if scalar(root.get("height")) != "250":
+        errors.append("SVG height must be 250")
+
+    viewbox = (root.get("viewBox") or "").replace(",", " ").split()
+    if viewbox != ["0", "0", "250", "250"]:
+        errors.append('SVG viewBox must be "0 0 250 250"')
+
+    descendants = list(root.iter())
+    if any(local_name(node.tag) == "image" for node in descendants):
+        errors.append("SVG must not embed raster <image> elements")
+    if any(local_name(node.tag) == "script" for node in descendants):
+        errors.append("SVG must not contain <script> elements")
+
+    paths = [node for node in descendants if local_name(node.tag) == "path"]
+    if not paths:
+        errors.append("SVG must contain at least one vector <path>")
+
+    for node in descendants:
+        for attr, value in node.attrib.items():
+            if local_name(attr) == "href" and (
+                value.startswith(("http:", "https:", "data:", "file:")) or "//" in value
+            ):
+                errors.append("SVG must not reference external or embedded resources")
+                break
+
+    current_color = (
+        root.get("fill") == "currentColor" or
+        root.get("stroke") == "currentColor" or
+        any(
+            node.get("fill") == "currentColor" or node.get("stroke") == "currentColor"
+            for node in descendants
+        )
+    )
+    if not current_color:
+        errors.append("SVG glyph must use currentColor for fill or stroke")
+
+    return errors
 
 def document_index(repo: Path):
     docs = {}
@@ -133,7 +191,7 @@ def main() -> int:
     parser.add_argument(
         "--require-assets",
         action="store_true",
-        help="Require all 571 staged image binaries and validate format/dimensions."
+        help="Require all 582 assets and validate raster/SVG structure."
     )
     args = parser.parse_args()
     repo = args.repo.resolve()
@@ -152,12 +210,15 @@ def main() -> int:
 
     manifest = load_json(manifest_path)
     entries = manifest.get("entries", [])
+    if manifest.get("schemaVersion") != "1.1":
+        errors.append("asset manifest schemaVersion must be 1.1")
+    if manifest.get("domainArtContract") != "dual-art-v1":
+        errors.append("asset manifest domainArtContract must be dual-art-v1")
     if manifest.get("expectedAssetCount") != EXPECTED_ASSET_TOTAL:
-        errors.append("asset manifest expectedAssetCount must be 571")
+        errors.append("asset manifest expectedAssetCount must be 582")
     if len(entries) != EXPECTED_ASSET_TOTAL:
-        errors.append(f"asset manifest must contain 571 entries, got {len(entries)}")
+        errors.append(f"asset manifest must contain 582 entries, got {len(entries)}")
 
-    # Manifest identity and path checks.
     repository_paths = [e.get("repositoryPath") for e in entries]
     module_paths = [e.get("modulePath") for e in entries]
     source_filenames = [e.get("sourceFilename") for e in entries]
@@ -211,11 +272,10 @@ def main() -> int:
                 errors.append(f"{path.relative_to(repo)}: system.actions must remain an object")
             if isinstance(actions, dict):
                 for action in actions.values():
-                    if isinstance(action, dict) and "img" in action:
-                        if action["img"] != "icons/svg/aura.svg":
-                            errors.append(
-                                f"{path.relative_to(repo)}: derived Feature action should retain generic aura art"
-                            )
+                    if isinstance(action, dict) and "img" in action and action["img"] != "icons/svg/aura.svg":
+                        errors.append(
+                            f"{path.relative_to(repo)}: derived Feature action should retain generic aura art"
+                        )
             continue
 
         entry = primary_by_key.get(key)
@@ -225,9 +285,7 @@ def main() -> int:
 
         expected = entry["modulePath"]
         if doc.get("img") != expected:
-            errors.append(
-                f"{path.relative_to(repo)}: img {doc.get('img')} != {expected}"
-            )
+            errors.append(f"{path.relative_to(repo)}: img {doc.get('img')} != {expected}")
         if not dep.get("assetPathRewritten") or dep.get("assetBuildStep") != 6:
             errors.append(f"{path.relative_to(repo)}: missing Step 6 deployment flags")
         if dep.get("primaryAssetPath") != expected:
@@ -236,19 +294,16 @@ def main() -> int:
         if prefix in ACTION_ART_PREFIXES:
             attack = doc.get("system", {}).get("attack")
             if isinstance(attack, dict) and "img" in attack and attack["img"] != expected:
-                errors.append(
-                    f"{path.relative_to(repo)}: system.attack.img must reuse primary art"
-                )
+                errors.append(f"{path.relative_to(repo)}: system.attack.img must reuse primary art")
             actions = doc.get("system", {}).get("actions")
             if actions is not None and not isinstance(actions, dict):
                 errors.append(f"{path.relative_to(repo)}: system.actions must remain an object")
             if isinstance(actions, dict):
                 for action in actions.values():
-                    if isinstance(action, dict) and "img" in action:
-                        if action["img"] != expected:
-                            errors.append(
-                                f"{path.relative_to(repo)}: same-document action img must reuse primary art"
-                            )
+                    if isinstance(action, dict) and "img" in action and action["img"] != expected:
+                        errors.append(
+                            f"{path.relative_to(repo)}: same-document action img must reuse primary art"
+                        )
 
         if prefix == "adversary":
             token_entry = token_by_key.get(key)
@@ -257,16 +312,12 @@ def main() -> int:
             else:
                 actual = doc.get("prototypeToken", {}).get("texture", {}).get("src")
                 if actual != token_entry["modulePath"]:
-                    errors.append(
-                        f"{path.relative_to(repo)}: prototypeToken.texture.src mismatch"
-                    )
+                    errors.append(f"{path.relative_to(repo)}: prototypeToken.texture.src mismatch")
                 if dep.get("tokenAssetPath") != token_entry["modulePath"]:
                     errors.append(f"{path.relative_to(repo)}: tokenAssetPath mismatch")
             attack_img = doc.get("system", {}).get("attack", {}).get("img")
             if attack_img and attack_img.startswith("modules/edgeheart/"):
-                errors.append(
-                    f"{path.relative_to(repo)}: adversary attack art should remain generic"
-                )
+                errors.append(f"{path.relative_to(repo)}: adversary attack art should remain generic")
             for item in doc.get("items", []):
                 if str(item.get("img", "")).startswith("modules/edgeheart/"):
                     errors.append(
@@ -291,25 +342,39 @@ def main() -> int:
     if sum(primary_counts.values()) != EXPECTED_PRIMARY_TOTAL:
         errors.append("expected 538 source documents with dedicated primary art")
 
-    competency_entries = [
+    competency_illustrations = [
         e for e in entries
-        if e.get("family") == "competency" and e.get("assetKind") == "primary"
+        if e.get("family") == "competency" and e.get("assetKind") == "illustration"
+    ]
+    competency_glyphs = [
+        e for e in entries
+        if e.get("family") == "competency" and e.get("assetKind") == "uiGlyph"
     ]
     token_entries = [e for e in entries if e.get("assetKind") == "token"]
-    if len(competency_entries) != EXPECTED_COMPETENCIES:
-        errors.append(f"expected 11 Competency asset entries, got {len(competency_entries)}")
+
+    if len(competency_illustrations) != EXPECTED_COMPETENCIES:
+        errors.append(
+            f"expected 11 Competency illustration entries, got {len(competency_illustrations)}"
+        )
+    if len(competency_glyphs) != EXPECTED_COMPETENCIES:
+        errors.append(f"expected 11 Competency UI glyph entries, got {len(competency_glyphs)}")
+    if len(competency_illustrations) + len(competency_glyphs) != EXPECTED_COMPETENCY_ART_ENTRIES:
+        errors.append("expected 22 total Competency dual-art entries")
     if len(token_entries) != EXPECTED_TOKENS:
         errors.append(f"expected 22 adversary token entries, got {len(token_entries)}")
 
     competency_source = (repo / "scripts/competencies.js").read_text(encoding="utf-8")
-    for entry in competency_entries:
+    for entry in competency_illustrations:
         if entry["modulePath"] not in competency_source:
             errors.append(
-                f"{entry['assetId']}: Competency registration does not reference {entry['modulePath']}"
+                f"{entry['assetId']}: full illustration path is not declared in competency art contract"
+            )
+    for entry in competency_glyphs:
+        if entry["modulePath"] not in competency_source:
+            errors.append(
+                f"{entry['assetId']}: SVG UI glyph path is not declared in competency art contract"
             )
 
-    # Binary validation is intentionally optional until the locally generated
-    # artwork has been staged into the repository.
     existing = 0
     missing = []
     binary_errors = []
@@ -321,7 +386,13 @@ def main() -> int:
         existing += 1
         if not args.require_assets:
             continue
+
         try:
+            if entry["assetKind"] == "uiGlyph":
+                for error in validate_svg_glyph(asset_path):
+                    binary_errors.append(f"{entry['repositoryPath']}: {error}")
+                continue
+
             actual_size = image_dimensions(asset_path)
             expected_size = EXPECTED_SIZE_BY_FAMILY_KIND[
                 (entry["family"], entry["assetKind"])
@@ -355,13 +426,14 @@ def main() -> int:
 
     print("Edgeheart Step 6 asset-path validation PASS")
     print(" - dedicated primary document art paths: 538")
-    print(" - Competency icon paths: 11")
+    print(" - Competency illustration paths: 11")
+    print(" - Competency SVG UI glyph paths: 11")
     print(" - adversary token paths: 22")
-    print(" - total deployment assets: 571")
+    print(" - total deployment assets: 582")
     print(f" - asset binaries currently present: {existing}")
     print(f" - asset binaries currently missing: {len(missing)}")
     if args.require_assets:
-        print(" - image formats/dimensions/transparency: PASS")
+        print(" - raster formats/dimensions, token transparency, and SVG structure: PASS")
     else:
         print(" - binary presence qualification: deferred (use --require-assets)")
     return 0

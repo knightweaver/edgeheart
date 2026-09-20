@@ -1,6 +1,10 @@
-# Edgeheart Foundry Deployment Contract v1.0
+# Edgeheart Foundry Deployment Contract v1.1
 
 **Status:** FROZEN / ACCEPTED
+
+v1.1 supersedes v1.0 only where necessary to formalize the dual-art
+Competency/Domain asset contract. All other deployment decisions remain
+unchanged.
 
 ## Runtime target
 
@@ -17,6 +21,7 @@ Later Daggerheart releases are not authoritative for this build.
 - `edgeheart-consolidated-production-v1.0.zip`
 - accepted Edgeheart Visual Canon **v0.1.1**
 - generated Edgeheart art assets produced from the accepted art manifest
+- derived Competency SVG UI glyphs produced from the accepted Competency artwork
 
 The neutral Edgeheart corpus remains the source-content authority. Foundry JSON,
 compiled Compendia, release ZIPs, and rendered art are derivative outputs.
@@ -61,8 +66,21 @@ Daggerheart-native document types remain authoritative internally:
 
 Do not patch the Daggerheart installation.
 
-The eleven Edgeheart Competencies will be registered through Daggerheart 1.2.7's
-native Homebrew domain setting and exposed through `CONFIG.DH.DOMAIN.allDomains()`.
+The eleven Edgeheart Competencies are registered through Daggerheart 1.2.7's
+native Homebrew domain setting and exposed through
+`CONFIG.DH.DOMAIN.allDomains()`.
+
+Each Competency has two distinct visual assets:
+
+1. **Illustration** — full-color square WebP retained as the canonical Edgeheart
+   Competency artwork: `assets/icons/domains/<domain>.webp`.
+2. **UI glyph** — simplified monochrome 250x250 SVG used by Daggerheart's
+   Homebrew Domain `src` field:
+   `assets/icons/domains/<domain>.svg`.
+
+The SVG is the runtime interface icon used in character sheets, multiclass
+dialogs, and Homebrew Domain interfaces. It does not replace the full-color
+Competency illustration.
 
 ## Asset path contract
 
@@ -81,9 +99,14 @@ Examples:
 - `modules/edgeheart/assets/icons/affiliations/<slug>.webp`
 - `modules/edgeheart/assets/icons/environments/<slug>.webp`
 - `modules/edgeheart/assets/icons/adversaries/<slug>.webp`
-- `modules/edgeheart/assets/icons/domains/<domain>.webp`
-- `modules/edgeheart/assets/icons/domains/<domain>/<card-slug>.webp`
+- Competency illustration: `modules/edgeheart/assets/icons/domains/<domain>.webp`
+- Competency UI glyph: `modules/edgeheart/assets/icons/domains/<domain>.svg`
+- Competency Card art: `modules/edgeheart/assets/icons/domains/<domain>/<card-slug>.webp`
 - `modules/edgeheart/assets/tokens/adversaries/<slug>-token.png`
+
+The complete Step 6 deployment contains **582 required assets**:
+538 document primary images + 11 Competency illustrations + 11 Competency SVG UI
+glyphs + 22 adversary tokens.
 
 ## Build authority
 

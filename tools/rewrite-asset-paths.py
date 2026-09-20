@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 """Step 6: generate the Edgeheart asset deployment manifest and rewrite source paths.
 
-This step is deterministic and source-driven. It does not require the generated
-binary artwork to be present in the repository; binary presence is validated
-separately by tools/validate-asset-paths.py --require-assets.
+Edgeheart uses a dual-art contract for its eleven Daggerheart Competencies:
+- <domain>.webp: full-color illustration retained as an Edgeheart art asset.
+- <domain>.svg: monochrome UI glyph used by Daggerheart's Homebrew Domain src.
 
-Dedicated artwork exists for 538 Foundry source documents, 11 native
-Competencies, and 22 adversary tokens = 571 required assets.
+Dedicated artwork exists for 538 Foundry source documents. In addition there are
+11 Competency illustrations, 11 derived Competency UI glyphs, and 22 adversary
+tokens = 582 required deployment assets.
 
 Derived Class/Subclass/Origin Feature documents do not have dedicated artwork
-in Visual Canon v0.1.1 and intentionally retain Daggerheart generic feature art.
-Embedded Environment/Adversary features and Adversary attack art likewise retain
-their generic icons.
+and intentionally retain Daggerheart generic feature art. Embedded
+Environment/Adversary features and adversary attack art likewise retain generic
+icons.
 """
 from __future__ import annotations
 
@@ -40,8 +41,9 @@ EXPECTED_PRIMARY_COUNTS = {
 }
 EXPECTED_PRIMARY_TOTAL = 538
 EXPECTED_COMPETENCY_COUNT = 11
+EXPECTED_COMPETENCY_ART_COUNT = 22
 EXPECTED_TOKEN_COUNT = 22
-EXPECTED_ASSET_TOTAL = 571
+EXPECTED_ASSET_TOTAL = 582
 
 DIR_BY_PREFIX = {
     "weapon": "assets/icons/weapons",
@@ -163,7 +165,6 @@ def main() -> int:
     for path, key, doc in iter_documents(repo):
         prefix = logical_prefix(key)
         if prefix == "feature":
-            # 100 derived subordinate Features have no dedicated art in v0.1.1.
             continue
         if prefix not in EXPECTED_PRIMARY_COUNTS:
             raise ValueError(f"Unexpected source document logical prefix: {prefix} ({key})")
@@ -185,8 +186,7 @@ def main() -> int:
             token = doc.get("prototypeToken")
             if not isinstance(token, dict):
                 raise ValueError(f"{key}: adversary must have prototypeToken")
-            texture = token.setdefault("texture", {})
-            texture["src"] = token_path
+            token.setdefault("texture", {})["src"] = token_path
             adversary_slugs.append(slug)
             entries.append({
                 "assetId": f"adversaryToken:{slug}",
@@ -238,27 +238,37 @@ def main() -> int:
     if len(adversary_slugs) != EXPECTED_TOKEN_COUNT:
         raise ValueError(f"Expected {EXPECTED_TOKEN_COUNT} adversary tokens")
 
-    # Competencies are native Daggerheart Homebrew-domain records rather than
-    # Compendium Items. Their art paths are defined in scripts/competencies.js.
+    # Competencies are native Daggerheart Homebrew Domains, not Compendium
+    # documents. Each has both a full illustration and a Daggerheart UI glyph.
     for competency_id in competency_ids:
-        repository_path = f"assets/icons/domains/{competency_id}.webp"
+        illustration_repo = f"assets/icons/domains/{competency_id}.webp"
+        glyph_repo = f"assets/icons/domains/{competency_id}.svg"
+
         entries.append({
-            "assetId": f"competency:{competency_id}",
+            "assetId": f"competency:{competency_id}:illustration",
             "family": "competency",
-            "assetKind": "primary",
+            "assetKind": "illustration",
             "documentLogicalKey": None,
             "sourceFilename": f"{competency_id}.webp",
-            "repositoryPath": repository_path,
-            "modulePath": module_path(repository_path),
+            "repositoryPath": illustration_repo,
+            "modulePath": module_path(illustration_repo),
+            "required": True,
+        })
+        entries.append({
+            "assetId": f"competency:{competency_id}:uiGlyph",
+            "family": "competency",
+            "assetKind": "uiGlyph",
+            "documentLogicalKey": None,
+            "sourceFilename": f"{competency_id}.svg",
+            "repositoryPath": glyph_repo,
+            "modulePath": module_path(glyph_repo),
             "required": True,
         })
 
-    # Verify globally unique output filenames. Visual Canon v0.1.1 deliberately
-    # generated unique output filenames across all 571 assets.
     source_names = [entry["sourceFilename"] for entry in entries]
     duplicates = [name for name, count in Counter(source_names).items() if count > 1]
     if duplicates:
-        raise ValueError(f"Duplicate generated-art filenames: {duplicates[:10]}")
+        raise ValueError(f"Duplicate deployment filenames: {duplicates[:10]}")
 
     entries = sorted(entries, key=lambda e: (e["repositoryPath"], e["assetId"]))
 
@@ -266,6 +276,10 @@ def main() -> int:
         raise ValueError(
             f"Expected {EXPECTED_ASSET_TOTAL} deployment assets, got {len(entries)}"
         )
+
+    competency_entries = [e for e in entries if e["family"] == "competency"]
+    if len(competency_entries) != EXPECTED_COMPETENCY_ART_COUNT:
+        raise ValueError("Expected 22 Competency dual-art entries")
 
     existing = 0
     missing = []
@@ -280,9 +294,10 @@ def main() -> int:
     step6.mkdir(parents=True, exist_ok=True)
 
     dump_json(step6 / "asset-manifest.json", {
-        "schemaVersion": "1.0",
+        "schemaVersion": "1.1",
         "buildStep": 6,
         "visualCanon": "edgeheart-v0.1.1",
+        "domainArtContract": "dual-art-v1",
         "expectedAssetCount": EXPECTED_ASSET_TOTAL,
         "entries": entries,
     })
@@ -291,8 +306,10 @@ def main() -> int:
         "step": 6,
         "status": "PASS" if not missing else "PATHS_REWRITTEN_ASSETS_PENDING",
         "visualCanon": "edgeheart-v0.1.1",
+        "domainArtContract": "dual-art-v1",
         "primaryDocumentAssetCount": EXPECTED_PRIMARY_TOTAL,
-        "competencyAssetCount": EXPECTED_COMPETENCY_COUNT,
+        "competencyIllustrationAssetCount": EXPECTED_COMPETENCY_COUNT,
+        "competencyUiGlyphAssetCount": EXPECTED_COMPETENCY_COUNT,
         "adversaryTokenAssetCount": EXPECTED_TOKEN_COUNT,
         "totalExpectedAssetCount": EXPECTED_ASSET_TOTAL,
         "assetsPresentInRepository": existing,
@@ -302,12 +319,13 @@ def main() -> int:
         "derivedFeatureArtPolicy": "retain Daggerheart generic feature icons",
         "embeddedActorFeatureArtPolicy": "retain Daggerheart generic feature icons",
         "adversaryAttackArtPolicy": "retain Daggerheart generic attack icon",
+        "competencyRuntimeIconPolicy": "Daggerheart Homebrew Domain src uses 250x250 SVG uiGlyph",
         "assetPathsRewritten": True,
         "binaryAssetQualificationPending": bool(missing),
         "compendiumCompilationPending": True,
         "runtimeFoundryQualificationPending": True,
         "nextStep": (
-            "Stage all 571 generated assets and run "
+            f"Stage the {len(missing)} missing asset(s) and run "
             "python tools/validate-asset-paths.py --require-assets"
             if missing
             else "Validate staged assets, then compile Foundry Compendia."
@@ -319,12 +337,14 @@ def main() -> int:
         "# Edgeheart Foundry Build — Step 6 Asset Deployment Report\n\n"
         f"**Status:** {summary['status']}\n\n"
         f"- Source documents with dedicated primary art: **{EXPECTED_PRIMARY_TOTAL}**\n"
-        f"- Native Competency icons: **{EXPECTED_COMPETENCY_COUNT}**\n"
+        f"- Competency full-color illustrations: **{EXPECTED_COMPETENCY_COUNT}**\n"
+        f"- Competency Daggerheart UI SVG glyphs: **{EXPECTED_COMPETENCY_COUNT}**\n"
         f"- Adversary token assets: **{EXPECTED_TOKEN_COUNT}**\n"
         f"- Total required assets: **{EXPECTED_ASSET_TOTAL}**\n"
         f"- Assets currently present in repository: **{existing}**\n"
         f"- Assets still to stage: **{len(missing)}**\n"
         f"- Nested same-document action images rewritten: **{nested_images_rewritten}**\n"
+        "- Daggerheart Homebrew Domain src uses the SVG UI glyph, not the full-color WebP.\n"
         "- Derived Feature documents retain generic Daggerheart Feature art.\n"
         "- Embedded Environment/Adversary features retain generic Daggerheart Feature art.\n"
         "- Adversary attack icons remain generic until dedicated attack art exists.\n"

@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
-"""Stage generated Edgeheart artwork into the module asset tree.
+"""Stage Edgeheart artwork into the module asset tree.
 
-The generated-art source directory may be flat or nested. Filenames must match
-build/step6/asset-manifest.json exactly. Output filenames are globally unique
-across the accepted v0.1.1 art manifest, so filename-only staging is deterministic.
+The source directory may be flat or nested. Filenames must match
+build/step6/asset-manifest.json exactly.
+
+The Step 6 dual-art contract contains 582 required assets:
+- 538 source-document primary WebP images
+- 11 Competency illustration WebPs
+- 11 Competency UI-glyph SVGs
+- 22 adversary token PNGs
 """
 from __future__ import annotations
 
@@ -13,6 +18,8 @@ import shutil
 import sys
 from collections import defaultdict
 from pathlib import Path
+
+EXPECTED_ASSET_COUNT = 582
 
 def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
@@ -42,8 +49,8 @@ def main() -> int:
 
     manifest = load_json(manifest_path)
     entries = manifest.get("entries", [])
-    if manifest.get("expectedAssetCount") != 571 or len(entries) != 571:
-        raise ValueError("Expected a 571-entry Step 6 asset manifest")
+    if manifest.get("expectedAssetCount") != EXPECTED_ASSET_COUNT or len(entries) != EXPECTED_ASSET_COUNT:
+        raise ValueError(f"Expected a {EXPECTED_ASSET_COUNT}-entry Step 6 asset manifest")
 
     found = defaultdict(list)
     for path in source.rglob("*"):
@@ -72,7 +79,7 @@ def main() -> int:
         staged += 1
 
     if duplicates:
-        print("Duplicate generated-art filenames prevent deterministic staging:", file=sys.stderr)
+        print("Duplicate filenames prevent deterministic staging:", file=sys.stderr)
         for item in duplicates[:20]:
             print(f" - {item['filename']}: {item['matches']}", file=sys.stderr)
         return 1

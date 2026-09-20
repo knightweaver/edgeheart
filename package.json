@@ -16,6 +16,7 @@
     "validate:references": "python tools/validate-resolved-references.py",
     "validate:competencies": "node tools/validate-competency-registration.mjs",
     "rewrite:assets": "python tools/rewrite-asset-paths.py",
+    "organize:assets": "python tools/organize-artwork.py",
     "validate:asset-paths": "python tools/validate-asset-paths.py",
     "validate:assets": "python tools/validate-asset-paths.py --require-assets"
   },

@@ -12,6 +12,10 @@ on:
       - "src/packs/system/classes/**"
       - ".github/workflows/validate-competencies.yml"
 
+concurrency:
+  group: edgeheart-generated-reports-main
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -20,8 +24,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
+      - name: Check out latest main
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Validate native Competency registration
         run: |
@@ -38,4 +44,5 @@ jobs:
             exit 0
           fi
           git commit -m "Validate Edgeheart Step 5 Competencies"
+          git pull --rebase origin main
           git push
