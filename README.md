@@ -36,15 +36,22 @@ Step 3 — Deterministic source-pack transformation: complete.
 
 Step 4 — Symbolic reference and class Competency mapping resolution: complete.
 
-Step 5 — Native Competency registration: complete. Homebrew Domain `src` now
-uses the Daggerheart-compatible SVG UI glyph, with safe migration from the
-previous Edgeheart WebP path.
+Step 5 — Native Competency registration: complete. Homebrew Domain `src` uses
+the Daggerheart-compatible SVG UI glyph, with safe migration from the previous
+Edgeheart WebP path.
 
-Step 6 — Asset deployment: **571 raster assets are staged; 11 derived SVG
-Competency UI glyphs remain to generate and stage**. The final required asset
-count is **582**.
+Step 6 — Asset deployment: **complete**.
 
-Each Competency now has:
+The repository now contains the complete qualified **582-asset** deployment:
+
+- 538 source-document primary images
+- 11 full-color Competency WebP illustrations
+- 11 approved Competency SVG UI glyphs
+- 22 adversary token PNGs
+
+All 582 assets passed the deterministic asset qualification workflow.
+
+Each Competency has:
 
 ```text
 assets/icons/domains/<domain>.webp   # full Edgeheart illustration
@@ -57,16 +64,19 @@ Competency Cards continue to use:
 assets/icons/domains/<domain>/<card-slug>.webp
 ```
 
-See `ASSET-STAGING.md` for the complete staging and SVG validation contract.
+See `ASSET-STAGING.md` and `STEP-6-HANDOFF.md` for the complete asset
+contract and qualification record.
 
 ## Relevant commands
 
 ```bash
 npm run validate:competencies
 npm run rewrite:assets
+npm run generate:glyphs
 npm run validate:asset-paths
 npm run validate:assets
 ```
 
-Compendium compilation and clean-world Foundry runtime qualification remain
-downstream of final 582-asset validation.
+The next build unit is deterministic Compendium compilation from
+`src/packs/`, followed by compiled-pack validation and clean-world Foundry
+runtime qualification.
