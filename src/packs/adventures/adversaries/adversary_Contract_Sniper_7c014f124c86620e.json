@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!7c014f124c86620e.4fc33623dd14f53a"
     },
     {
       "name": "Marked Shot",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!7c014f124c86620e.b2907d2bf5a8a98e"
     },
     {
       "name": "Relocate",
@@ -393,7 +395,8 @@
       },
       "effects": [],
       "sort": 200000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!7c014f124c86620e.81e624e9397de7f2"
     }
   ],
   "effects": [],

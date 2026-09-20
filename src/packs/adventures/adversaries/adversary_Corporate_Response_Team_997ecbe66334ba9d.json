@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!997ecbe66334ba9d.4e8a998da55d565c"
     },
     {
       "name": "Stack Up",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!997ecbe66334ba9d.62ae4571f5078107"
     },
     {
       "name": "Tactical Sweep",
@@ -393,7 +395,8 @@
       },
       "effects": [],
       "sort": 200000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!997ecbe66334ba9d.9a771250a127f932"
     }
   ],
   "effects": [],

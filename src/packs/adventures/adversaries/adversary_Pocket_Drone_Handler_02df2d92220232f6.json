@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!02df2d92220232f6.30b051382240492d"
     },
     {
       "name": "Send the Drone",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!02df2d92220232f6.0877a51fea784792"
     }
   ],
   "effects": [],

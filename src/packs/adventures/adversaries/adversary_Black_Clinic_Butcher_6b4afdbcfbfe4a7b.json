@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!6b4afdbcfbfe4a7b.885b763179b0a3ae"
     },
     {
       "name": "Surgical Disable",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!6b4afdbcfbfe4a7b.1bfa80f7c5014f7b"
     },
     {
       "name": "Emergency Stitching",
@@ -393,7 +395,8 @@
       },
       "effects": [],
       "sort": 200000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!6b4afdbcfbfe4a7b.926b92aca6a678cc"
     }
   ],
   "effects": [],

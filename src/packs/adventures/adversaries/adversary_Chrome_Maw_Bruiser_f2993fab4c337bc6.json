@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!f2993fab4c337bc6.888ca75fa019bad1"
     },
     {
       "name": "Jawbreaker",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!f2993fab4c337bc6.73a82ac83cee4efb"
     }
   ],
   "effects": [],

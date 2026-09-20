@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!1e5d53180f8f6afd.e7533d02f2e4a026"
     },
     {
       "name": "Role Switch",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!1e5d53180f8f6afd.c1e70dda0e1eba9a"
     },
     {
       "name": "Setpiece Combo",
@@ -393,7 +395,8 @@
       },
       "effects": [],
       "sort": 200000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!1e5d53180f8f6afd.371231caccacb8d1"
     },
     {
       "name": "Cover Each Other",
@@ -438,7 +441,8 @@
       },
       "effects": [],
       "sort": 300000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!1e5d53180f8f6afd.7160e1f27fd05b35"
     }
   ],
   "effects": [],

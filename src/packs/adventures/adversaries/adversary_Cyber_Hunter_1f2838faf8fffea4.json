@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!1f2838faf8fffea4.88fd7fe26f8db9d7"
     },
     {
       "name": "Piercing Shot",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!1f2838faf8fffea4.a480a1709302c0f2"
     },
     {
       "name": "Remote Reposition",
@@ -393,7 +395,8 @@
       },
       "effects": [],
       "sort": 200000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!1f2838faf8fffea4.3d137955b0be5c30"
     },
     {
       "name": "Blackout Shot",
@@ -438,7 +441,8 @@
       },
       "effects": [],
       "sort": 300000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!1f2838faf8fffea4.bf78dbd65dd576ae"
     },
     {
       "name": "Hold The Breath",
@@ -483,7 +487,8 @@
       },
       "effects": [],
       "sort": 400000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!1f2838faf8fffea4.7486be127fe39fad"
     }
   ],
   "effects": [],

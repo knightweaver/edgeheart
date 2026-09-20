@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!e5f26e531749bc76.66aa3c5e9171fb4b"
     },
     {
       "name": "Hostile Acquisition",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!e5f26e531749bc76.113e8284780bd3c7"
     },
     {
       "name": "Asset Freeze",
@@ -393,7 +395,8 @@
       },
       "effects": [],
       "sort": 200000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!e5f26e531749bc76.7f215c4e5d2ae072"
     },
     {
       "name": "Contractual Violence",
@@ -438,7 +441,8 @@
       },
       "effects": [],
       "sort": 300000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!e5f26e531749bc76.25a2250bd89d2c84"
     },
     {
       "name": "Plausible Deniability",
@@ -483,7 +487,8 @@
       },
       "effects": [],
       "sort": 400000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!e5f26e531749bc76.78e66dd7bf332679"
     }
   ],
   "effects": [],

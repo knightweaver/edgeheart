@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!d54d5b82527eb902.140d63de7ae86eb3"
     },
     {
       "name": "Show of Force",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!d54d5b82527eb902.4c20943822d33a1c"
     }
   ],
   "effects": [],

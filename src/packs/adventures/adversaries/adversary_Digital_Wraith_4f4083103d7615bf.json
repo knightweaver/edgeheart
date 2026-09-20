@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!4f4083103d7615bf.5f91faa884db9657"
     },
     {
       "name": "Possess Device",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!4f4083103d7615bf.ea4203d97200a3b1"
     },
     {
       "name": "Fear Echo",
@@ -393,7 +395,8 @@
       },
       "effects": [],
       "sort": 200000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!4f4083103d7615bf.159484fce4d92efc"
     },
     {
       "name": "Digital Vanish",
@@ -438,7 +441,8 @@
       },
       "effects": [],
       "sort": 300000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!4f4083103d7615bf.125d336eeb797fb2"
     }
   ],
   "effects": [],

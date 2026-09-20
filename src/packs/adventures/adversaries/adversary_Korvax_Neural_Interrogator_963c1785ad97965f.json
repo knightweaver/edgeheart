@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!963c1785ad97965f.c7e15413a4aeacfe"
     },
     {
       "name": "Memory Hook",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!963c1785ad97965f.942872e747cc531f"
     },
     {
       "name": "Pressure File",
@@ -393,7 +395,8 @@
       },
       "effects": [],
       "sort": 200000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!963c1785ad97965f.9ddef91b5f27bf3e"
     }
   ],
   "effects": [],

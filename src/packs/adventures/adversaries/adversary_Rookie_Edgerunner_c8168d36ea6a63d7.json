@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!c8168d36ea6a63d7.377b3ca39cb779e9"
     },
     {
       "name": "Panic Burst",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!c8168d36ea6a63d7.84784c649f49541c"
     }
   ],
   "effects": [],

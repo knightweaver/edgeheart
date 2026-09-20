@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!eb95c1484463f186.29540b45aac8aa38"
     },
     {
       "name": "Convert the Weak",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!eb95c1484463f186.484a6effd46c5546"
     },
     {
       "name": "Cult Transmission",
@@ -393,7 +395,8 @@
       },
       "effects": [],
       "sort": 200000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!eb95c1484463f186.f6e14ce81bfab904"
     },
     {
       "name": "Signal Martyr",
@@ -438,7 +441,8 @@
       },
       "effects": [],
       "sort": 300000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!eb95c1484463f186.037ed93787e3d2d9"
     }
   ],
   "effects": [],

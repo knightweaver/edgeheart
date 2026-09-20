@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!329bcb10e2fcbd82.b42284dc8a801706"
     },
     {
       "name": "Stabilizer Lock",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!329bcb10e2fcbd82.8e80da2e96a7be7b"
     },
     {
       "name": "Spin Up",
@@ -393,7 +395,8 @@
       },
       "effects": [],
       "sort": 200000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!329bcb10e2fcbd82.57cf68ff3d5f47ff"
     },
     {
       "name": "Armor-Piercing Burst",
@@ -438,7 +441,8 @@
       },
       "effects": [],
       "sort": 300000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!329bcb10e2fcbd82.7ac0c0bc0821c48b"
     }
   ],
   "effects": [],

@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!13e8b5d72e4e906e.01b406be18e8090c"
     },
     {
       "name": "Signal Spike",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!13e8b5d72e4e906e.2003cff556a33bde"
     },
     {
       "name": "Hostile Overlay",
@@ -393,7 +395,8 @@
       },
       "effects": [],
       "sort": 200000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!13e8b5d72e4e906e.42b9c38cd6a2e614"
     }
   ],
   "effects": [],

@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!ce974e400702c6dd.f3d6da38a946a749"
     },
     {
       "name": "Weapon Switch",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!ce974e400702c6dd.5e07517f9707dca8"
     },
     {
       "name": "Personal Threat",
@@ -393,7 +395,8 @@
       },
       "effects": [],
       "sort": 200000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!ce974e400702c6dd.7b4cca6744986228"
     },
     {
       "name": "Unfair Reflexes",
@@ -438,7 +441,8 @@
       },
       "effects": [],
       "sort": 300000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!ce974e400702c6dd.8eddf0836baed918"
     },
     {
       "name": "Chrome Supremacy",
@@ -483,7 +487,8 @@
       },
       "effects": [],
       "sort": 400000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!ce974e400702c6dd.0bb5e22e8182277e"
     }
   ],
   "effects": [],

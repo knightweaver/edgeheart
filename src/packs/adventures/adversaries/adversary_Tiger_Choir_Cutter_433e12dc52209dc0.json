@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!433e12dc52209dc0.68bb8c6c62465691"
     },
     {
       "name": "Reputation Cut",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!433e12dc52209dc0.d8b59d96e3d26078"
     }
   ],
   "effects": [],

@@ -303,7 +303,8 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!d68829704bc1ed91.c2b515007d66ce66"
     },
     {
       "name": "Signature Cut",
@@ -348,7 +349,8 @@
       },
       "effects": [],
       "sort": 100000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!d68829704bc1ed91.d3a820f19f49e4d1"
     },
     {
       "name": "Public Humiliation",
@@ -393,7 +395,8 @@
       },
       "effects": [],
       "sort": 200000,
-      "flags": {}
+      "flags": {},
+      "_key": "!actors.items!d68829704bc1ed91.66047185c0453ba2"
     }
   ],
   "effects": [],
