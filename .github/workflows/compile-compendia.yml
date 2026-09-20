@@ -7,6 +7,7 @@ on:
     paths:
       - "tools/compile-packs.mjs"
       - "tools/validate-compiled-packs.mjs"
+      - "tools/build-runtime-package.py"
       - "package.json"
       - "module.json"
       - "src/packs/**"
