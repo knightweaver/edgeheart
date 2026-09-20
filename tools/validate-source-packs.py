@@ -103,6 +103,35 @@ def main() -> int:
                 if actions is not None and not isinstance(actions, dict):
                     action_shape_errors.append(str(path.relative_to(repo)))
 
+                if doc.get("type") in ("adversary", "environment"):
+                    actor_id = doc.get("_id")
+                    for item in doc.get("items", []) or []:
+                        item_id = item.get("_id")
+                        expected_key = f"!actors.items!{actor_id}.{item_id}"
+                        if item.get("_key") != expected_key:
+                            errors.append(
+                                f"{path.relative_to(repo)}: embedded Item {item_id} "
+                                f"_key must be {expected_key!r}, got {item.get('_key')!r}"
+                            )
+                        for effect in item.get("effects", []) or []:
+                            effect_id = effect.get("_id")
+                            expected_effect_key = (
+                                f"!actors.items.effects!{actor_id}.{item_id}.{effect_id}"
+                            )
+                            if effect.get("_key") != expected_effect_key:
+                                errors.append(
+                                    f"{path.relative_to(repo)}: embedded Item effect {effect_id} "
+                                    f"_key must be {expected_effect_key!r}, got {effect.get('_key')!r}"
+                                )
+                    for effect in doc.get("effects", []) or []:
+                        effect_id = effect.get("_id")
+                        expected_effect_key = f"!actors.effects!{actor_id}.{effect_id}"
+                        if effect.get("_key") != expected_effect_key:
+                            errors.append(
+                                f"{path.relative_to(repo)}: embedded Actor effect {effect_id} "
+                                f"_key must be {expected_effect_key!r}, got {effect.get('_key')!r}"
+                            )
+
     for rel, expected in EXPECTED_DOCS.items():
         if actual_docs[rel] != expected:
             errors.append(f"{rel}: expected {expected} documents, got {actual_docs[rel]}")

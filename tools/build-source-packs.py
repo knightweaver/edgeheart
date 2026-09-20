@@ -50,10 +50,29 @@ def root_of(z:zipfile.ZipFile)->str:
  if len(c)!=1: raise ValueError("Could not identify consolidated package root")
  return c[0]
 
+def normalize_actor_embedded_keys(d:dict,key:str)->None:
+ actor_id=d["_id"]
+ for item in d.get("items",[]) or []:
+  item_id=item.get("_id")
+  if not item_id:
+   raise ValueError(f"{key}: embedded Actor Item is missing _id: {item.get('name','<unnamed>')}")
+  item["_key"]=f"!actors.items!{actor_id}.{item_id}"
+  for effect in item.get("effects",[]) or []:
+   effect_id=effect.get("_id")
+   if not effect_id:
+    raise ValueError(f"{key}/{item_id}: embedded Item effect is missing _id")
+   effect["_key"]=f"!actors.items.effects!{actor_id}.{item_id}.{effect_id}"
+ for effect in d.get("effects",[]) or []:
+  effect_id=effect.get("_id")
+  if not effect_id:
+   raise ValueError(f"{key}: embedded Actor effect is missing _id")
+  effect["_key"]=f"!actors.effects!{actor_id}.{effect_id}"
+
 def finish(doc:dict,key:str,pack:str,folder:str|None=None)->dict:
  d=copy.deepcopy(doc); i=sid(f"document:{key}"); d["_id"]=i; d["folder"]=folder if folder is not None else d.get("folder")
  d.setdefault("sort",0); d.setdefault("ownership",{"default":0}); d.setdefault("effects",[]); d.setdefault("flags",{}); d["_stats"]=stats()
  d["_key"]=f"!{'actors' if PACKS[pack][2]=='Actor' else 'items'}!{i}"
+ if PACKS[pack][2]=="Actor": normalize_actor_embedded_keys(d,key)
  dep=d["flags"].setdefault("edgeheart",{}).setdefault("deployment",{})
  dep.update({"logicalKey":key,"sourceBuildStep":3,"referencesResolved":not key.startswith(("class:","subclass:","ancestry:","community:"))})
  return d
