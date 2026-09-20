@@ -13,70 +13,32 @@ while pinning schema/runtime behavior to Daggerheart 1.2.7.
 
 See `DEPLOYMENT-CONTRACT.md` for the frozen implementation contract.
 
-## Repository structure
-
-```text
-src/packs/      editable Foundry document sources
-packs/          generated LevelDB Compendia (not canonical)
-assets/icons/   module artwork by content family
-assets/tokens/  VTT token art
-scripts/        runtime module code
-tools/          deterministic pack build/extract/deployment tooling
-sources/        accepted upstream transformation inputs
-```
-
 ## Current status
 
-Step 1 — Deployment Contract: accepted and frozen; revised to **v1.1** for the
-dual-art Competency asset contract.
+Steps 1–7 are complete and authoritative in GitHub:
 
-Step 2 — Module Skeleton: complete.
+1. deployment contract and module architecture;
+2. module skeleton;
+3. deterministic source-pack transformation;
+4. symbolic reference resolution;
+5. native Daggerheart Competency registration;
+6. complete 582-asset deployment, including approved SVG Domain glyphs;
+7. deterministic compilation and re-extraction validation of all 13 Compendia.
 
-Step 3 — Deterministic source-pack transformation: complete.
+Step 7 validates **810 / 810** source/compiled pack entries. A deterministic
+Edgeheart 0.1.0 runtime candidate has also been built with SHA-256:
 
-Step 4 — Symbolic reference and class Competency mapping resolution: complete.
+`8e9c2fdba53f108d11f48867a4759fcc51b45aba3c2176b40998bb3e11f161c1`
 
-Step 5 — Native Competency registration: complete. Homebrew Domain `src` uses
-the Daggerheart-compatible SVG UI glyph, with safe migration from the previous
-Edgeheart WebP path.
+The next gate is **Step 8 — clean-world runtime qualification** against exactly
+Foundry 13.351 and Daggerheart 1.2.7. See `RUNTIME-QUALIFICATION.md`.
 
-Step 6 — Asset deployment: **complete**.
+## Build authority
 
-The repository now contains the complete qualified **582-asset** deployment:
+- `src/packs/` — editable Foundry source boundary
+- `packs/` — generated LevelDB derivative output
+- `assets/` — qualified module artwork
+- `build/` — validation/report outputs
+- `release/` — derivative runtime packages
 
-- 538 source-document primary images
-- 11 full-color Competency WebP illustrations
-- 11 approved Competency SVG UI glyphs
-- 22 adversary token PNGs
-
-All 582 assets passed the deterministic asset qualification workflow.
-
-Each Competency has:
-
-```text
-assets/icons/domains/<domain>.webp   # full Edgeheart illustration
-assets/icons/domains/<domain>.svg    # Daggerheart UI glyph
-```
-
-Competency Cards continue to use:
-
-```text
-assets/icons/domains/<domain>/<card-slug>.webp
-```
-
-See `ASSET-STAGING.md` and `STEP-6-HANDOFF.md` for the complete asset
-contract and qualification record.
-
-## Relevant commands
-
-```bash
-npm run validate:competencies
-npm run rewrite:assets
-npm run generate:glyphs
-npm run validate:asset-paths
-npm run validate:assets
-```
-
-The next build unit is deterministic Compendium compilation from
-`src/packs/`, followed by compiled-pack validation and clean-world Foundry
-runtime qualification.
+Generated packs and runtime ZIPs are not canonical inputs.
