@@ -3,12 +3,14 @@
 **Status:** PATHS_REWRITTEN_ASSETS_PENDING
 
 - Source documents with dedicated primary art: **538**
-- Native Competency icons: **11**
+- Competency full-color illustrations: **11**
+- Competency Daggerheart UI SVG glyphs: **11**
 - Adversary token assets: **22**
-- Total required assets: **571**
-- Assets currently present in repository: **0**
-- Assets still to stage: **571**
-- Nested same-document action images rewritten: **528**
+- Total required assets: **582**
+- Assets currently present in repository: **571**
+- Assets still to stage: **11**
+- Nested same-document action images rewritten: **0**
+- Daggerheart Homebrew Domain src uses the SVG UI glyph, not the full-color WebP.
 - Derived Feature documents retain generic Daggerheart Feature art.
 - Embedded Environment/Adversary features retain generic Daggerheart Feature art.
 - Adversary attack icons remain generic until dedicated attack art exists.

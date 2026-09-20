@@ -1,8 +1,9 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "1.1",
   "buildStep": 6,
   "visualCanon": "edgeheart-v0.1.1",
-  "expectedAssetCount": 571,
+  "domainArtContract": "dual-art-v1",
+  "expectedAssetCount": 582,
   "entries": [
     {
       "assetId": "adversary:black-clinic-butcher",
@@ -1645,9 +1646,19 @@
       "required": true
     },
     {
-      "assetId": "competency:aegis",
+      "assetId": "competency:aegis:uiGlyph",
       "family": "competency",
-      "assetKind": "primary",
+      "assetKind": "uiGlyph",
+      "documentLogicalKey": null,
+      "sourceFilename": "aegis.svg",
+      "repositoryPath": "assets/icons/domains/aegis.svg",
+      "modulePath": "modules/edgeheart/assets/icons/domains/aegis.svg",
+      "required": true
+    },
+    {
+      "assetId": "competency:aegis:illustration",
+      "family": "competency",
+      "assetKind": "illustration",
       "documentLogicalKey": null,
       "sourceFilename": "aegis.webp",
       "repositoryPath": "assets/icons/domains/aegis.webp",
@@ -1865,9 +1876,19 @@
       "required": true
     },
     {
-      "assetId": "competency:assault",
+      "assetId": "competency:assault:uiGlyph",
       "family": "competency",
-      "assetKind": "primary",
+      "assetKind": "uiGlyph",
+      "documentLogicalKey": null,
+      "sourceFilename": "assault.svg",
+      "repositoryPath": "assets/icons/domains/assault.svg",
+      "modulePath": "modules/edgeheart/assets/icons/domains/assault.svg",
+      "required": true
+    },
+    {
+      "assetId": "competency:assault:illustration",
+      "family": "competency",
+      "assetKind": "illustration",
       "documentLogicalKey": null,
       "sourceFilename": "assault.webp",
       "repositoryPath": "assets/icons/domains/assault.webp",
@@ -2085,9 +2106,19 @@
       "required": true
     },
     {
-      "assetId": "competency:blackwall",
+      "assetId": "competency:blackwall:uiGlyph",
       "family": "competency",
-      "assetKind": "primary",
+      "assetKind": "uiGlyph",
+      "documentLogicalKey": null,
+      "sourceFilename": "blackwall.svg",
+      "repositoryPath": "assets/icons/domains/blackwall.svg",
+      "modulePath": "modules/edgeheart/assets/icons/domains/blackwall.svg",
+      "required": true
+    },
+    {
+      "assetId": "competency:blackwall:illustration",
+      "family": "competency",
+      "assetKind": "illustration",
       "documentLogicalKey": null,
       "sourceFilename": "blackwall.webp",
       "repositoryPath": "assets/icons/domains/blackwall.webp",
@@ -2305,9 +2336,19 @@
       "required": true
     },
     {
-      "assetId": "competency:chrome",
+      "assetId": "competency:chrome:uiGlyph",
       "family": "competency",
-      "assetKind": "primary",
+      "assetKind": "uiGlyph",
+      "documentLogicalKey": null,
+      "sourceFilename": "chrome.svg",
+      "repositoryPath": "assets/icons/domains/chrome.svg",
+      "modulePath": "modules/edgeheart/assets/icons/domains/chrome.svg",
+      "required": true
+    },
+    {
+      "assetId": "competency:chrome:illustration",
+      "family": "competency",
+      "assetKind": "illustration",
       "documentLogicalKey": null,
       "sourceFilename": "chrome.webp",
       "repositoryPath": "assets/icons/domains/chrome.webp",
@@ -2525,9 +2566,19 @@
       "required": true
     },
     {
-      "assetId": "competency:frontier",
+      "assetId": "competency:frontier:uiGlyph",
       "family": "competency",
-      "assetKind": "primary",
+      "assetKind": "uiGlyph",
+      "documentLogicalKey": null,
+      "sourceFilename": "frontier.svg",
+      "repositoryPath": "assets/icons/domains/frontier.svg",
+      "modulePath": "modules/edgeheart/assets/icons/domains/frontier.svg",
+      "required": true
+    },
+    {
+      "assetId": "competency:frontier:illustration",
+      "family": "competency",
+      "assetKind": "illustration",
       "documentLogicalKey": null,
       "sourceFilename": "frontier.webp",
       "repositoryPath": "assets/icons/domains/frontier.webp",
@@ -2745,9 +2796,19 @@
       "required": true
     },
     {
-      "assetId": "competency:ghost",
+      "assetId": "competency:ghost:uiGlyph",
       "family": "competency",
-      "assetKind": "primary",
+      "assetKind": "uiGlyph",
+      "documentLogicalKey": null,
+      "sourceFilename": "ghost.svg",
+      "repositoryPath": "assets/icons/domains/ghost.svg",
+      "modulePath": "modules/edgeheart/assets/icons/domains/ghost.svg",
+      "required": true
+    },
+    {
+      "assetId": "competency:ghost:illustration",
+      "family": "competency",
+      "assetKind": "illustration",
       "documentLogicalKey": null,
       "sourceFilename": "ghost.webp",
       "repositoryPath": "assets/icons/domains/ghost.webp",
@@ -2965,9 +3026,19 @@
       "required": true
     },
     {
-      "assetId": "competency:influence",
+      "assetId": "competency:influence:uiGlyph",
       "family": "competency",
-      "assetKind": "primary",
+      "assetKind": "uiGlyph",
+      "documentLogicalKey": null,
+      "sourceFilename": "influence.svg",
+      "repositoryPath": "assets/icons/domains/influence.svg",
+      "modulePath": "modules/edgeheart/assets/icons/domains/influence.svg",
+      "required": true
+    },
+    {
+      "assetId": "competency:influence:illustration",
+      "family": "competency",
+      "assetKind": "illustration",
       "documentLogicalKey": null,
       "sourceFilename": "influence.webp",
       "repositoryPath": "assets/icons/domains/influence.webp",
@@ -3185,9 +3256,19 @@
       "required": true
     },
     {
-      "assetId": "competency:medtech",
+      "assetId": "competency:medtech:uiGlyph",
       "family": "competency",
-      "assetKind": "primary",
+      "assetKind": "uiGlyph",
+      "documentLogicalKey": null,
+      "sourceFilename": "medtech.svg",
+      "repositoryPath": "assets/icons/domains/medtech.svg",
+      "modulePath": "modules/edgeheart/assets/icons/domains/medtech.svg",
+      "required": true
+    },
+    {
+      "assetId": "competency:medtech:illustration",
+      "family": "competency",
+      "assetKind": "illustration",
       "documentLogicalKey": null,
       "sourceFilename": "medtech.webp",
       "repositoryPath": "assets/icons/domains/medtech.webp",
@@ -3405,9 +3486,19 @@
       "required": true
     },
     {
-      "assetId": "competency:network",
+      "assetId": "competency:network:uiGlyph",
       "family": "competency",
-      "assetKind": "primary",
+      "assetKind": "uiGlyph",
+      "documentLogicalKey": null,
+      "sourceFilename": "network.svg",
+      "repositoryPath": "assets/icons/domains/network.svg",
+      "modulePath": "modules/edgeheart/assets/icons/domains/network.svg",
+      "required": true
+    },
+    {
+      "assetId": "competency:network:illustration",
+      "family": "competency",
+      "assetKind": "illustration",
       "documentLogicalKey": null,
       "sourceFilename": "network.webp",
       "repositoryPath": "assets/icons/domains/network.webp",
@@ -3625,9 +3716,19 @@
       "required": true
     },
     {
-      "assetId": "competency:redline",
+      "assetId": "competency:redline:uiGlyph",
       "family": "competency",
-      "assetKind": "primary",
+      "assetKind": "uiGlyph",
+      "documentLogicalKey": null,
+      "sourceFilename": "redline.svg",
+      "repositoryPath": "assets/icons/domains/redline.svg",
+      "modulePath": "modules/edgeheart/assets/icons/domains/redline.svg",
+      "required": true
+    },
+    {
+      "assetId": "competency:redline:illustration",
+      "family": "competency",
+      "assetKind": "illustration",
       "documentLogicalKey": null,
       "sourceFilename": "redline.webp",
       "repositoryPath": "assets/icons/domains/redline.webp",
@@ -3845,9 +3946,19 @@
       "required": true
     },
     {
-      "assetId": "competency:systems",
+      "assetId": "competency:systems:uiGlyph",
       "family": "competency",
-      "assetKind": "primary",
+      "assetKind": "uiGlyph",
+      "documentLogicalKey": null,
+      "sourceFilename": "systems.svg",
+      "repositoryPath": "assets/icons/domains/systems.svg",
+      "modulePath": "modules/edgeheart/assets/icons/domains/systems.svg",
+      "required": true
+    },
+    {
+      "assetId": "competency:systems:illustration",
+      "family": "competency",
+      "assetKind": "illustration",
       "documentLogicalKey": null,
       "sourceFilename": "systems.webp",
       "repositoryPath": "assets/icons/domains/systems.webp",
