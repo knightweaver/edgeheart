@@ -30,7 +30,7 @@ def main()->int:
  if any(compat.get(k)!=expected_foundry.get(k) for k in ("minimum","verified","maximum")): errors.append("Foundry compatibility differs from baseline")
  dh=next((x for x in module.get("relationships",{}).get("systems",[]) if x.get("id")=="daggerheart"),None)
  expected_dh=b["declaredCompatibility"]["daggerheart"]
- if not dh or any(dh.get("compatibility",{}).get(k)!=expected_dh.get(k) for k in ("minimum","verified")) or dh.get("compatibility",{}).get("maximum") is not expected_dh.get("maximum"): errors.append("Daggerheart compatibility differs from baseline")
+ if not dh or any(dh.get("compatibility",{}).get(k)!=expected_dh.get(k) for k in ("minimum","verified")) or dh.get("compatibility",{}).get("maximum") != expected_dh.get("maximum"): errors.append("Daggerheart compatibility differs from baseline")
  arc=repo/b["sourceArchive"]["path"]
  if not arc.is_file(): errors.append("canonical source archive missing")
  elif sha256(arc)!=b["sourceArchive"]["sha256"]: errors.append("canonical source archive SHA-256 differs from baseline")
