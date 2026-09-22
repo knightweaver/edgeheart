@@ -3,8 +3,7 @@
 ## Authority
 
 This is the authoritative routine-maintenance workflow for the released
-Edgeheart module. Runtime remains frozen at Foundry **13.351** / Daggerheart
-**1.2.7** unless a separately reviewed contract change supersedes it.
+Edgeheart module. The final legacy release declares support for Foundry **13.x** and Daggerheart **1.2.x**. The implementation was originally runtime-qualified on Foundry **13.351** / Daggerheart **1.2.7**. Foundry 14 / Daggerheart 2.x is a separate migration target.
 
 Authority flows:
 
@@ -95,7 +94,7 @@ runtime qualification**. Never patch Daggerheart itself.
 
 Baseline:
 
-`maintenance/baseline-v0.1.0.json`
+`maintenance/baseline-v0.1.1.json`
 
 Fixtures:
 
@@ -170,15 +169,16 @@ Do not release every maintenance commit. Publish coherent user-visible fixes,
 content updates, installed-behavior changes, or compatibility/security fixes.
 Documentation/developer-only changes may accumulate without a release.
 
-## Current qualified baseline
+## Current legacy baseline
 
-Edgeheart v0.1.0:
+Edgeheart v0.1.1:
 
 - 638 source documents
 - 172 structural folders
 - 810 pack entries
 - 582 assets
 - 13 Compendia
-- Foundry 13.351 / Daggerheart 1.2.7
+- declared support: Foundry 13.x / Daggerheart 1.2.x
+- original runtime qualification: Foundry 13.351 / Daggerheart 1.2.7
 - runtime SHA-256
   `8e9c2fdba53f108d11f48867a4759fcc51b45aba3c2176b40998bb3e11f161c1`

@@ -21,14 +21,16 @@ def get_path(v:Any,dotted:str)->Any:
 
 def main()->int:
  ap=argparse.ArgumentParser(); ap.add_argument("--repo",type=Path,default=Path.cwd()); a=ap.parse_args()
- repo=a.repo.resolve(); b=load(repo/"maintenance/baseline-v0.1.0.json"); f=load(repo/"maintenance/regression-fixtures-v1.json")
- module=load(repo/"module.json"); assets=load(repo/"build/step6/asset-manifest.json"); registry=load(repo/"build/step3/stable-id-registry.json")
+ repo=a.repo.resolve(); module=load(repo/"module.json"); baseline_path=repo/f"maintenance/baseline-v{module.get('version')}.json"; b=load(baseline_path); f=load(repo/"maintenance/regression-fixtures-v1.json")
+ assets=load(repo/"build/step6/asset-manifest.json"); registry=load(repo/"build/step3/stable-id-registry.json")
  errors=[]
  if module.get("version")!=b["moduleVersion"]: errors.append("module version differs from baseline")
  compat=module.get("compatibility",{})
- if compat.get("minimum")!=b["runtime"]["foundryCore"] or compat.get("verified")!=b["runtime"]["foundryCore"]: errors.append("Foundry compatibility differs from baseline")
+ expected_foundry=b["declaredCompatibility"]["foundry"]
+ if any(compat.get(k)!=expected_foundry.get(k) for k in ("minimum","verified","maximum")): errors.append("Foundry compatibility differs from baseline")
  dh=next((x for x in module.get("relationships",{}).get("systems",[]) if x.get("id")=="daggerheart"),None)
- if not dh or any(dh.get("compatibility",{}).get(k)!=b["runtime"]["systemVersion"] for k in ("minimum","verified","maximum")): errors.append("Daggerheart compatibility differs from baseline")
+ expected_dh=b["declaredCompatibility"]["daggerheart"]
+ if not dh or any(dh.get("compatibility",{}).get(k)!=expected_dh.get(k) for k in ("minimum","verified")) or dh.get("compatibility",{}).get("maximum") is not expected_dh.get("maximum"): errors.append("Daggerheart compatibility differs from baseline")
  arc=repo/b["sourceArchive"]["path"]
  if not arc.is_file(): errors.append("canonical source archive missing")
  elif sha256(arc)!=b["sourceArchive"]["sha256"]: errors.append("canonical source archive SHA-256 differs from baseline")
