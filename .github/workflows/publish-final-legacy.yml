@@ -1,0 +1,192 @@
+name: Publish Final Edgeheart Legacy Release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "legacy-release-control/v0.1.1.json"
+  workflow_dispatch:
+
+concurrency:
+  group: edgeheart-final-legacy-release
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  publish-final-legacy:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      VERSION: "0.1.1"
+      TAG: "v0.1.1"
+      BASE_RUN_ID: "35486375897"
+      BASE_ARTIFACT: "edgeheart-runtime-candidate-v0.1.0"
+      CURRENT_RUN_ID: "35722495332"
+      CURRENT_ARTIFACT: "edgeheart-runtime-candidate-v0.1.1"
+      CURRENT_RUNTIME_SHA256: "687f931384fbbb2ae22d0186d5e44d9ac09977a819b9938affda4e5721f67d72"
+
+    steps:
+      - name: Check out release source
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install build dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Re-run deterministic maintenance gates
+        run: |
+          npm run validate:maintenance
+          npm run clean:packs
+          npm run compile:packs
+          npm run validate:compiled-packs
+          npm run build:runtime-package
+
+      - name: Download v0.1.0 qualified runtime
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.BASE_ARTIFACT }}
+          path: base-qualified
+          github-token: ${{ github.token }}
+          run-id: ${{ env.BASE_RUN_ID }}
+
+      - name: Download v0.1.1 release candidate
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.CURRENT_ARTIFACT }}
+          path: current-candidate
+          github-token: ${{ github.token }}
+          run-id: ${{ env.CURRENT_RUN_ID }}
+
+      - name: Validate metadata-only legacy delta
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib, json, os, re, zipfile
+          from pathlib import Path
+
+          base = Path("base-qualified/release/edgeheart-v0.1.0.zip")
+          current = Path("current-candidate/release/edgeheart-v0.1.1.zip")
+          rebuilt = Path("release/edgeheart-v0.1.1.zip")
+          expected_hash = os.environ["CURRENT_RUNTIME_SHA256"]
+
+          def sha256(path):
+              h=hashlib.sha256()
+              with path.open("rb") as f:
+                  for chunk in iter(lambda:f.read(1024*1024),b""):
+                      h.update(chunk)
+              return h.hexdigest()
+
+          actual=sha256(current)
+          if actual != expected_hash:
+              raise SystemExit(f"v0.1.1 candidate hash mismatch: {actual}")
+
+          log_pattern=re.compile(r"^packs/.+/(LOG|LOG\.old)$")
+
+          def compare(left, right, allowed_extra):
+              with zipfile.ZipFile(left) as a, zipfile.ZipFile(right) as b:
+                  an=a.namelist(); bn=b.namelist()
+                  if an != bn:
+                      raise SystemExit("Runtime ZIP member lists differ")
+                  diffs=[]
+                  forbidden=[]
+                  for name in an:
+                      if a.read(name)==b.read(name):
+                          continue
+                      diffs.append(name)
+                      if not log_pattern.match(name) and name not in allowed_extra:
+                          forbidden.append(name)
+                  if forbidden:
+                      raise SystemExit(f"Forbidden runtime differences: {forbidden}")
+                  return diffs
+
+          # v0.1.1 must differ from the manually-qualified v0.1.0 runtime only
+          # in module.json plus LevelDB's ephemeral LOG/LOG.old files.
+          legacy_diffs=compare(base,current,{"module.json"})
+          if "module.json" not in legacy_diffs:
+              raise SystemExit("Expected module.json to be the sole semantic runtime delta")
+          nonlog=[x for x in legacy_diffs if not log_pattern.match(x)]
+          if nonlog != ["module.json"]:
+              raise SystemExit(f"Unexpected semantic differences: {nonlog}")
+
+          # A fresh rebuild of v0.1.1 must match the selected release candidate
+          # except for the same ephemeral LevelDB logs.
+          rebuilt_diffs=compare(current,rebuilt,set())
+          if any(not log_pattern.match(x) for x in rebuilt_diffs):
+              raise SystemExit(f"Fresh rebuild has semantic differences: {rebuilt_diffs}")
+
+          with zipfile.ZipFile(current) as z:
+              module=json.loads(z.read("module.json"))
+          if module["version"] != "0.1.1":
+              raise SystemExit("module version is not 0.1.1")
+          if module["compatibility"] != {"minimum":"13","verified":"13","maximum":"13"}:
+              raise SystemExit(f"Foundry compatibility mismatch: {module['compatibility']}")
+          dh=next(x for x in module["relationships"]["systems"] if x["id"]=="daggerheart")
+          if dh["compatibility"] != {"minimum":"1.2","verified":"1.2"}:
+              raise SystemExit(f"Daggerheart compatibility mismatch: {dh['compatibility']}")
+          if module["manifest"] != "https://github.com/knightweaver/edgeheart/releases/latest/download/module.json":
+              raise SystemExit("manifest URL mismatch")
+          if module["download"] != "https://github.com/knightweaver/edgeheart/releases/download/v0.1.1/edgeheart-v0.1.1.zip":
+              raise SystemExit("download URL mismatch")
+
+          print("Final legacy metadata-only release validation PASS")
+          print(f" - v0.1.1 SHA-256: {actual}")
+          print(f" - legacy semantic differences: {nonlog}")
+          print(f" - legacy LevelDB log differences: {len(legacy_diffs)-len(nonlog)}")
+          print(f" - fresh rebuild LevelDB log differences: {len(rebuilt_diffs)}")
+          PY
+
+      - name: Stage exact v0.1.1 candidate and checksums
+        shell: bash
+        run: |
+          cp "current-candidate/release/edgeheart-v0.1.1.zip" "release/edgeheart-v0.1.1.zip"
+          cp module.json release/module.json
+          (
+            cd release
+            sha256sum edgeheart-v0.1.1.zip module.json > SHA256SUMS.txt
+          )
+
+      - name: Publish GitHub release
+        shell: bash
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG"               release/edgeheart-v0.1.1.zip               release/module.json               release/SHA256SUMS.txt               --clobber
+            gh release edit "$TAG"               --title "Edgeheart $TAG"               --notes-file RELEASE-NOTES-v0.1.1.md
+          else
+            gh release create "$TAG"               release/edgeheart-v0.1.1.zip               release/module.json               release/SHA256SUMS.txt               --target "$GITHUB_SHA"               --title "Edgeheart $TAG"               --notes-file RELEASE-NOTES-v0.1.1.md
+          fi
+
+      - name: Verify published release
+        shell: bash
+        run: |
+          gh release view "$TAG" --json tagName,isDraft,isPrerelease,url,assets > final-legacy-release.json
+          python - <<'PY'
+          import json
+          data=json.load(open("final-legacy-release.json"))
+          names=sorted(a["name"] for a in data["assets"])
+          expected=sorted(["edgeheart-v0.1.1.zip","module.json","SHA256SUMS.txt"])
+          if data["isDraft"] or data["isPrerelease"]:
+              raise SystemExit("Release is not a normal published release")
+          if names != expected:
+              raise SystemExit(f"Release asset mismatch: {names}")
+          print(json.dumps(data,indent=2))
+          PY
+
+      - name: Upload final legacy release evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: edgeheart-v0.1.1-final-legacy-release-evidence
+          path: |
+            final-legacy-release.json
+            release/SHA256SUMS.txt
+            build/step7/runtime-package.json
+          if-no-files-found: error
+          retention-days: 90
