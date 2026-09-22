@@ -14,9 +14,9 @@
       "maximum": "13"
     },
     "daggerheart": {
-      "minimum": "1.2",
-      "verified": "1.2",
-      "maximum": null
+      "minimum": "1",
+      "verified": "1",
+      "maximum": "1"
     }
   },
   "sourceArchive": {
@@ -58,7 +58,19 @@
   },
   "competencies": {
     "count": 11,
-    "ids": ["network","assault","chrome","systems","influence","ghost","frontier","medtech","aegis","redline","blackwall"],
+    "ids": [
+      "network",
+      "assault",
+      "chrome",
+      "systems",
+      "influence",
+      "ghost",
+      "frontier",
+      "medtech",
+      "aegis",
+      "redline",
+      "blackwall"
+    ],
     "cardsPerCompetency": 21,
     "totalCards": 231
   },
@@ -73,6 +85,6 @@
     "tag": "v0.1.0",
     "runtimeSha256": "8e9c2fdba53f108d11f48867a4759fcc51b45aba3c2176b40998bb3e11f161c1"
   },
-  "releaseIntent": "Final legacy-series release before Foundry 14 / Daggerheart 2.x migration. Runtime content is unchanged from v0.1.0; module compatibility metadata is broadened to Foundry 13 generation and Daggerheart 1.2 series.",
+  "releaseIntent": "Final legacy-series release before Foundry 14 / Daggerheart 2.x migration. Runtime content is unchanged from v0.1.0; module compatibility metadata is expressed at the supported Foundry 13 and Daggerheart 1 major-version generations.",
   "cardinalityPolicy": "Counts remain frozen for the v0.1.x legacy line."
 }
