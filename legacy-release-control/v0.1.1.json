@@ -1,0 +1,25 @@
+{
+  "version": "0.1.1",
+  "tag": "v0.1.1",
+  "purpose": "Final Foundry 13 / Daggerheart 1.2 legacy release before Foundry 14 / Daggerheart 2.x migration",
+  "foundryCompatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "daggerheartCompatibility": {
+    "minimum": "1.2",
+    "verified": "1.2",
+    "maximum": null
+  },
+  "baseQualifiedRelease": {
+    "version": "0.1.0",
+    "workflowRunId": 35486375897,
+    "runtimeSha256": "8e9c2fdba53f108d11f48867a4759fcc51b45aba3c2176b40998bb3e11f161c1"
+  },
+  "candidate": {
+    "workflowRunId": 35722495332,
+    "runtimeSha256": "687f931384fbbb2ae22d0186d5e44d9ac09977a819b9938affda4e5721f67d72"
+  },
+  "semanticChange": "module.json compatibility/version metadata only"
+}
