@@ -16,9 +16,9 @@ assert(manifest.compatibility?.maximum === "13", "Foundry maximum must remain ge
 
 const dh = manifest.relationships?.systems?.find((s) => s.id === "daggerheart");
 assert(Boolean(dh), "Daggerheart system relationship is required");
-assert(dh?.compatibility?.minimum === "1.2", "Daggerheart minimum must remain 1.2");
-assert(dh?.compatibility?.verified === "1.2", "Daggerheart verified version must remain 1.2");
-assert(dh?.compatibility?.maximum === undefined, "Daggerheart maximum must remain unset so 1.2.x patch releases are not hard-blocked");
+assert(dh?.compatibility?.minimum === "1", "Daggerheart minimum must remain major version 1");
+assert(dh?.compatibility?.verified === "1", "Daggerheart verified version must remain major version 1");
+assert(dh?.compatibility?.maximum === "1", "Daggerheart maximum must remain major version 1");
 
 const packs = manifest.packs ?? [];
 const packNames = packs.map((p) => p.name);

@@ -21,8 +21,9 @@
         "id": "daggerheart",
         "type": "system",
         "compatibility": {
-          "minimum": "1.2",
-          "verified": "1.2"
+          "minimum": "1",
+          "verified": "1",
+          "maximum": "1"
         }
       }
     ]
