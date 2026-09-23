@@ -1,0 +1,247 @@
+name: Publish Compatibility Release Alias
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "compatibility-release-control/*.json"
+  workflow_dispatch:
+    inputs:
+      control:
+        description: "Compatibility release-control file"
+        required: true
+        default: "compatibility-release-control/F13-DH1.json"
+
+concurrency:
+  group: edgeheart-compatibility-alias
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish-alias:
+    runs-on: ubuntu-latest
+    env:
+      CONTROL: ${{ github.event.inputs.control || 'compatibility-release-control/F13-DH1.json' }}
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Read compatibility alias control
+        id: control
+        shell: bash
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os
+          data=json.load(open(os.environ["CONTROL"]))
+          print(f"alias_tag={data['aliasTag']}")
+          print(f"canonical_tag={data['canonicalTag']}")
+          print(f"title={data['title']}")
+          print(f"runtime_sha256={data['qualifiedRuntimeSha256']}")
+          print(f"runtime_asset={data['runtimeAsset']}")
+          PY
+
+      - name: Download canonical release assets
+        shell: bash
+        run: |
+          mkdir -p canonical-assets
+          gh release download "${{ steps.control.outputs.canonical_tag }}" \
+            --dir canonical-assets \
+            --pattern "${{ steps.control.outputs.runtime_asset }}" \
+            --pattern "module.json" \
+            --pattern "SHA256SUMS.txt"
+
+      - name: Verify canonical release and manifest
+        shell: bash
+        run: |
+          CANONICAL="${{ steps.control.outputs.canonical_tag }}"
+          ARCHIVE="${{ steps.control.outputs.runtime_asset }}"
+          EXPECTED="${{ steps.control.outputs.runtime_sha256 }}"
+
+          test "$(sha256sum "canonical-assets/$ARCHIVE" | awk '{print $1}')" = "$EXPECTED"
+
+          git fetch --force --tags
+          CANONICAL_COMMIT="$(git rev-list -n 1 "$CANONICAL")"
+          test -n "$CANONICAL_COMMIT"
+          printf '%s\n' "$CANONICAL_COMMIT" > canonical-commit.txt
+
+          CANONICAL_ASSETS="$(gh release view "$CANONICAL" --json assets --jq '.assets[].name')"
+          ARCHIVE="$ARCHIVE" CANONICAL_ASSETS="$CANONICAL_ASSETS" python - <<'PY'
+          import os
+          expected={"module.json","SHA256SUMS.txt",os.environ["ARCHIVE"]}
+          actual={x for x in os.environ["CANONICAL_ASSETS"].splitlines() if x}
+          if actual != expected:
+              raise SystemExit(f"Canonical release asset set mismatch: {sorted(actual)}")
+          PY
+
+          CANONICAL="$CANONICAL" python - <<'PY'
+          import json, os
+          from pathlib import Path
+
+          data=json.load(open("canonical-assets/module.json"))
+          expected_version=os.environ["CANONICAL"].removeprefix("v")
+          if data.get("version") != expected_version:
+              raise SystemExit(f"Canonical manifest version mismatch: {data.get('version')} != {expected_version}")
+
+          foundry=data.get("compatibility",{})
+          vals=[str(foundry.get(k,"")) for k in ("minimum","verified","maximum") if foundry.get(k) is not None]
+          if not vals or any(v.split(".",1)[0] != "13" for v in vals):
+              raise SystemExit(f"Canonical manifest is not a Foundry 13 baseline: {foundry}")
+
+          systems=[x for x in data.get("relationships",{}).get("systems",[]) if x.get("id")=="daggerheart"]
+          if len(systems) != 1:
+              raise SystemExit("Expected exactly one Daggerheart system relationship")
+          dh=systems[0].get("compatibility",{})
+          dh_vals=[str(v) for v in dh.values() if v is not None]
+          if not dh_vals or any(v.split(".",1)[0] != "1" for v in dh_vals):
+              raise SystemExit(f"Canonical manifest is not a Daggerheart 1.x baseline: {dh}")
+
+          parts=[]
+          if "minimum" in dh: parts.append(f"minimum {dh['minimum']}")
+          if "verified" in dh: parts.append(f"verified {dh['verified']}")
+          if "maximum" in dh:
+              parts.append(f"maximum {dh['maximum']}")
+          else:
+              parts.append("no maximum declared")
+          Path("daggerheart-constraint.txt").write_text(", ".join(parts), encoding="utf-8")
+          PY
+
+      - name: Create or repair compatibility alias release
+        shell: bash
+        run: |
+          ALIAS="${{ steps.control.outputs.alias_tag }}"
+          CANONICAL="${{ steps.control.outputs.canonical_tag }}"
+          TITLE="${{ steps.control.outputs.title }}"
+          COMMIT="$(cat canonical-commit.txt)"
+          DH_CONSTRAINT="$(cat daggerheart-constraint.txt)"
+
+          ALIAS="$ALIAS" CANONICAL="$CANONICAL" COMMIT="$COMMIT" DH_CONSTRAINT="$DH_CONSTRAINT" python - <<'PY'
+          import os
+          from pathlib import Path
+          alias=os.environ["ALIAS"]
+          canonical=os.environ["CANONICAL"]
+          commit=os.environ["COMMIT"]
+          constraint=os.environ["DH_CONSTRAINT"]
+          body=f"""# Edgeheart compatibility alias: {alias}
+
+          This is a compatibility-oriented alias of **{canonical}**.
+
+          - Foundry VTT: **13**
+          - Daggerheart infrastructure generation: **1.x**
+          - Canonical manifest Daggerheart constraint: **{constraint}**
+          - Canonical semantic release: **{canonical}**
+          - Target commit: `{commit}`
+
+          The runtime ZIP, `module.json`, and `SHA256SUMS.txt` attached here are copied byte-for-byte from the canonical qualified release. No rebuild, code change, content change, or compatibility-metadata change is associated with this alias.
+
+          The alias name identifies the infrastructure generation; the canonical release manifest remains authoritative for the precise supported version constraint.
+          """
+          Path("alias-notes.md").write_text(body, encoding="utf-8")
+          PY
+
+          if gh release view "$ALIAS" >/dev/null 2>&1; then
+            EXISTING_TARGET="$(gh release view "$ALIAS" --json targetCommitish --jq .targetCommitish)"
+            test "$EXISTING_TARGET" = "$COMMIT"
+
+            EXISTING_ASSETS="$(gh release view "$ALIAS" --json assets --jq '.assets[].name')"
+
+            for NAME in $(printf '%s\n' "$EXISTING_ASSETS"); do
+              case "$NAME" in
+                "${{ steps.control.outputs.runtime_asset }}"|"module.json"|"SHA256SUMS.txt") ;;
+                *) gh release delete-asset "$ALIAS" "$NAME" -y ;;
+              esac
+            done
+
+            rm -rf existing-alias-assets
+            mkdir -p existing-alias-assets
+            for FILE in canonical-assets/*; do
+              NAME="$(basename "$FILE")"
+              if grep -Fxq "$NAME" <<< "$EXISTING_ASSETS"; then
+                gh release download "$ALIAS" --dir existing-alias-assets --pattern "$NAME"
+                if ! cmp -s "$FILE" "existing-alias-assets/$NAME"; then
+                  gh release upload "$ALIAS" "$FILE" --clobber
+                fi
+              else
+                gh release upload "$ALIAS" "$FILE"
+              fi
+            done
+
+            gh release edit "$ALIAS" \
+              --title "$TITLE" \
+              --notes-file alias-notes.md \
+              --latest=false
+          else
+            gh release create "$ALIAS" \
+              canonical-assets/* \
+              --target "$COMMIT" \
+              --title "$TITLE" \
+              --notes-file alias-notes.md \
+              --latest=false
+          fi
+
+      - name: Verify published alias and latest-release stability
+        shell: bash
+        run: |
+          ALIAS="${{ steps.control.outputs.alias_tag }}"
+          CANONICAL="${{ steps.control.outputs.canonical_tag }}"
+          ARCHIVE="${{ steps.control.outputs.runtime_asset }}"
+          EXPECTED="${{ steps.control.outputs.runtime_sha256 }}"
+          COMMIT="$(cat canonical-commit.txt)"
+
+          gh release view "$ALIAS" \
+            --json tagName,isDraft,isPrerelease,targetCommitish,url,assets \
+            > alias-release.json
+
+          ALIAS="$ALIAS" ARCHIVE="$ARCHIVE" COMMIT="$COMMIT" python - <<'PY'
+          import json, os
+          data=json.load(open("alias-release.json"))
+          if data["tagName"] != os.environ["ALIAS"]:
+              raise SystemExit("Alias tag mismatch")
+          if data["isDraft"] or data["isPrerelease"]:
+              raise SystemExit("Alias release must be published and non-prerelease")
+          if data["targetCommitish"] != os.environ["COMMIT"]:
+              raise SystemExit(f"Alias release target mismatch: {data['targetCommitish']}")
+          names=sorted(a["name"] for a in data["assets"])
+          expected_names=sorted([os.environ["ARCHIVE"],"module.json","SHA256SUMS.txt"])
+          if names != expected_names:
+              raise SystemExit(f"Alias assets mismatch: {names}")
+          PY
+
+          TAG_COMMIT="$(gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$ALIAS" --jq .object.sha)"
+          test "$TAG_COMMIT" = "$COMMIT"
+
+          LATEST="$(gh api "repos/$GITHUB_REPOSITORY/releases/latest" --jq .tag_name)"
+          test "$LATEST" = "$CANONICAL"
+
+          rm -rf alias-verify
+          mkdir -p alias-verify
+          gh release download "$ALIAS" \
+            --dir alias-verify \
+            --pattern "$ARCHIVE" \
+            --pattern "module.json" \
+            --pattern "SHA256SUMS.txt"
+
+          for FILE in canonical-assets/*; do
+            NAME="$(basename "$FILE")"
+            cmp "$FILE" "alias-verify/$NAME"
+          done
+
+          test "$(sha256sum "alias-verify/$ARCHIVE" | awk '{print $1}')" = "$EXPECTED"
+
+          REPO_URL="https://github.com/$GITHUB_REPOSITORY"
+          curl -fsSL "$REPO_URL/releases/download/$ALIAS/module.json" -o alias-url-module.json
+          cmp canonical-assets/module.json alias-url-module.json
+
+          curl -fsSI "$REPO_URL/releases/latest/download/module.json" -o latest-headers.txt
+          LATEST_LOCATION="$(python -c 'from pathlib import Path; print(next(line.split(":",1)[1].strip() for line in Path("latest-headers.txt").read_text().splitlines() if line.lower().startswith("location:")))')"
+          case "$LATEST_LOCATION" in
+            *"/releases/download/$CANONICAL/module.json") ;;
+            *) echo "latest manifest redirect resolved unexpectedly: $LATEST_LOCATION" >&2; exit 1 ;;
+          esac
+
+          curl -fsSL "$REPO_URL/releases/latest/download/module.json" -o latest-url-module.json
+          cmp canonical-assets/module.json latest-url-module.json
