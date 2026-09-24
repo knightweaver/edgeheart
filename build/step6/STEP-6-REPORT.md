@@ -9,7 +9,7 @@
 - Total required assets: **582**
 - Assets currently present in repository: **582**
 - Assets still to stage: **0**
-- Nested same-document action images rewritten: **528**
+- Nested same-document action images rewritten: **0**
 - Daggerheart Homebrew Domain src uses the SVG UI glyph, not the full-color WebP.
 - Derived Feature documents retain generic Daggerheart Feature art.
 - Embedded Environment/Adversary features retain generic Daggerheart Feature art.
