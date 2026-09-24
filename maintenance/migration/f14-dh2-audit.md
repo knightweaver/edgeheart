@@ -36,4 +36,4 @@ The five occurrences retain their labels in native keyed groups with `adversarie
 
 ## Runtime gate
 
-The v0.2.0 clean-world checklist was reported PASS on 2026-09-24. The baseline remains a pending candidate until the copied-world upgrade test passes. Do not mark overall qualification PASS, publish a release, or merge it before then. Daggerheart's system migration chain is tested on the copied world, not simulated by rewriting its records in this repository.
+The v0.2.0 clean-world checklist was reported PASS on 2026-09-24. The user subsequently authorized the release on that evidence alone. The copied-world upgrade remains NOT_TESTED and must not be represented as PASS. Daggerheart's system migration chain was not simulated by rewriting its records in this repository.

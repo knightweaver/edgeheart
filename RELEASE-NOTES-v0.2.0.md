@@ -26,3 +26,10 @@ For the tested target, install with the manifest URL:
 Back up existing worlds before moving from the Foundry 13 / Daggerheart 1.2
 release line. Upgrade a **copy** of a legacy world and allow Daggerheart's
 historical world migration to finish before continuing play.
+
+## Qualification scope
+
+The Foundry 14.368 / Daggerheart 2.10.5 clean-world runtime checklist passed.
+An upgrade of an existing Foundry 13 / Daggerheart 1.2 world has **not** been
+tested for this release. Keep the original world backup until the migrated copy
+has been checked, including characters, equipment, Actions, and console output.

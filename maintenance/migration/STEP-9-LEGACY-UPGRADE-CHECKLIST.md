@@ -4,7 +4,9 @@ Clean-world qualification was reported PASS on 2026-09-24 for the candidate from
 [Actions run 36048884506](https://github.com/knightweaver/edgeheart/actions/runs/36048884506):
 `edgeheart-runtime-candidate-v0.2.0`, inner `edgeheart-v0.2.0.zip` SHA-256
 `0170e923c2ea773f334933d993a8ee3bca685e3ed067af57002d642ea34c3e1c`.
-The release gate remains closed until this copied-world test passes.
+The user authorized a clean-world-only release on 2026-09-24. This upgrade
+test remains useful before moving an existing campaign, but was not completed
+as part of the v0.2.0 release qualification.
 
 1. Back up the known-good Foundry **13.351 / Daggerheart 1.2.7** Data directory.
    Make a separate copy of its world, retaining its settings and documents.
@@ -29,8 +31,5 @@ The release gate remains closed until this copied-world test passes.
    errors; include logs or screenshots for failures.
 
 Report **PASS** only if the copy migrates and these checks pass. Include the
-candidate SHA-256 and actual runtime versions with the result. On PASS, update
-the v0.2.0 baseline's legacy-world and overall qualification, set its qualified
-SHA-256, clear the release gate, run the final deterministic regression, merge
-the reviewed migration branch, and publish the exact qualified ZIP via the
-release workflow. Do not publish or tag v0.2.0 before that result.
+candidate SHA-256 and actual runtime versions with the result. Record any
+subsequent PASS separately from the clean-world-only release qualification.

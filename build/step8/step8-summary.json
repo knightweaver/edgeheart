@@ -18,6 +18,7 @@
   },
   "reportedChecks": "User reported the full clean-world checklist passes; individual screenshots and console logs were not supplied.",
   "acceptedByUser": true,
-  "releaseGateCleared": false,
-  "nextStep": "Upgrade a copy of the known-good legacy world and report the migration results."
+  "releaseGateCleared": true,
+  "releaseScope": "Clean-world qualification only; copied legacy-world upgrade not tested by the user.",
+  "nextStep": "Rebuild and compare the exact candidate, then publish v0.2.0."
 }

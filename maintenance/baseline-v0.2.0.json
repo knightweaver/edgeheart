@@ -76,7 +76,7 @@
     "competencyUiGlyphs": 11,
     "adversaryTokens": 22
   },
-  "releaseIntent": "Migration candidate only; runtime qualification requires clean-world and legacy-world tests.",
+  "releaseIntent": "Release authorized after clean-world qualification; copied legacy-world upgrade remains untested.",
   "cardinalityPolicy": "638 logical documents, 172 folders and 13 packs remain authoritative; embedded Environment feature count is 49.",
   "targetRuntime": {
     "foundryCore": "14.368",
@@ -84,10 +84,11 @@
     "systemVersion": "2.10.5"
   },
   "qualification": {
-    "status": "PENDING",
+    "status": "PASS_CLEAN_WORLD_ONLY",
     "cleanWorld": "PASS",
-    "legacyWorldUpgrade": "PENDING",
-    "qualifiedArtifactSha256": null
+    "legacyWorldUpgrade": "NOT_TESTED",
+    "qualifiedArtifactSha256": "0170e923c2ea773f334933d993a8ee3bca685e3ed067af57002d642ea34c3e1c",
+    "scopeDecision": "User authorized release on 2026-09-24 after reporting the clean-world checklist PASS; copied legacy-world upgrade was not reported."
   },
   "legacyReference": {
     "releaseTag": "v0.1.1",

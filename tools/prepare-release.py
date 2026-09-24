@@ -46,10 +46,11 @@ def main()->int:
     if version == "0.2.0":
         baseline=json.loads((repo/"maintenance/baseline-v0.2.0.json").read_text(encoding="utf-8"))
         qualification=baseline["qualification"]
-        if (qualification.get("status") != "PASS"
+        if (qualification.get("status") != "PASS_CLEAN_WORLD_ONLY"
                 or qualification.get("cleanWorld") != "PASS"
-                or qualification.get("legacyWorldUpgrade") != "PASS"):
-            raise ValueError("v0.2.0 requires clean-world and copied legacy-world qualification PASS")
+                or qualification.get("legacyWorldUpgrade") != "NOT_TESTED"
+                or not qualification.get("scopeDecision")):
+            raise ValueError("v0.2.0 requires an explicit clean-world-only release decision")
         if qualification.get("qualifiedArtifactSha256") != step8["qualifiedRuntimeCandidate"]["sha256"]:
             raise ValueError("v0.2.0 baseline qualified hash differs from Step 8")
         if step8.get("runtime") != {
