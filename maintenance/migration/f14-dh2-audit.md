@@ -2,6 +2,11 @@
 
 Target: Foundry 14.368, Daggerheart 2.10.5 (`Foundryborne/daggerheart` tag `2.10.5`, commit `6bf4b69f983139107bd0d2207a5b2897e8c44cc1`). Its `system.json` declares minimum 14.364, verified 14.368, maximum 14. Legacy release `v0.1.1` remains frozen.
 
+The Edgeheart manifest declares major-version compatibility (Foundry 14,
+Daggerheart 2), following the established module convention. The exact target
+builds above remain pending runtime qualification; the broad manifest range
+does not establish qualification on every earlier patch in those generations.
+
 Classification: **A** = Daggerheart explicitly migrates the old shape; **B** = Edgeheart must normalize its projection; **C** = preserve pending runtime evidence. This audit concerns new module Compendia and separately notes that Daggerheart's world migration depends on the world's recorded system version.
 
 | Difference | Classification | Evidence and decision |

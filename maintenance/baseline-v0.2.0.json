@@ -4,13 +4,13 @@
   "moduleVersion": "0.2.0",
   "declaredCompatibility": {
     "foundry": {
-      "minimum": "14.368",
-      "verified": "14.368",
+      "minimum": "14",
+      "verified": "14",
       "maximum": "14"
     },
     "daggerheart": {
-      "minimum": "2.10.5",
-      "verified": "2.10.5",
+      "minimum": "2",
+      "verified": "2",
       "maximum": null
     }
   },
