@@ -8,87 +8,27 @@
     "type": "exploration",
     "difficulty": 11,
     "notes": "",
-    "impulses": [
-      "Delay",
-      "document",
-      "alert security"
-    ],
-    "potentialAdversaries": [
-      "Sitil Security Guard",
-      "Pocket Drone Handler",
-      "Rookie Edgerunner"
-    ],
-    "features": [
-      {
-        "_id": "a4ff1595c4894140",
-        "name": "Badge Logic",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "PCs can make an Interface Roll to create a Breach against doors, cameras, or elevators. On a roll with Fear, security starts asking questions.\n\nWhose badge still works here?",
-        "actionType": "passive",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+    "impulses": "Delay, document, alert security",
+    "potentialAdversaries": {
+      "29e8ab7e94202789": {
+        "label": "Sitil Security Guard",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.b7596fdfc43010e9"
+        ]
       },
-      {
-        "_id": "a4d54526505bb785",
-        "name": "Camera Sweep",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "Choose a PC in an exposed area. They must mark a Stress or become recorded and traceable.\n\nWho reviews the footage?",
-        "actionType": "action",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "076c61a87fe4d730": {
+        "label": "Pocket Drone Handler",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.02df2d92220232f6"
+        ]
       },
-      {
-        "_id": "bddf694fe81eb2e2",
-        "name": "Reception Alarm",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "When a PC fails a social roll, summon a Sitil Security Guard within Far range.\n\nWhat did the receptionist notice?",
-        "actionType": "reaction",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "bbe8119362f09b13": {
+        "label": "Rookie Edgerunner",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.c8168d36ea6a63d7"
+        ]
       }
-    ],
+    },
     "tags": [],
     "bonuses": {}
   },
@@ -134,10 +74,93 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "systemId": "daggerheart",
-    "systemVersion": "1.2.7",
+    "systemVersion": "2.10.5",
     "lastModifiedBy": null
   },
+  "items": [
+    {
+      "_id": "a4ff1595c4894140",
+      "name": "Badge Logic",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>PCs can make an Interface Roll to create a Breach against doors, cameras, or elevators. On a roll with Fear, security starts asking questions.</p><p>Whose badge still works here?</p>",
+        "featureForm": "passive",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!351307e71c1333f7.a4ff1595c4894140"
+    },
+    {
+      "_id": "a4d54526505bb785",
+      "name": "Camera Sweep",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Choose a PC in an exposed area. They must mark a Stress or become recorded and traceable.</p><p>Who reviews the footage?</p>",
+        "featureForm": "action",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!351307e71c1333f7.a4d54526505bb785"
+    },
+    {
+      "_id": "bddf694fe81eb2e2",
+      "name": "Reception Alarm",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When a PC fails a social roll, summon a Sitil Security Guard within Far range.</p><p>What did the receptionist notice?</p>",
+        "featureForm": "reaction",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!351307e71c1333f7.bddf694fe81eb2e2"
+    }
+  ],
   "_key": "!actors!351307e71c1333f7"
 }

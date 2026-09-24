@@ -8,111 +8,31 @@
     "type": "traversal",
     "difficulty": 14,
     "notes": "",
-    "impulses": [
-      "Accelerate",
-      "split vehicles",
-      "weaponize traffic"
-    ],
-    "potentialAdversaries": [
-      "Corporate Response Team",
-      "Contract Sniper",
-      "Blood Saint Duelist",
-      "Cordon Eidolon"
-    ],
-    "features": [
-      {
-        "_id": "bcec3aa68dce3c85",
-        "name": "The Chase",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "When this Traversal starts, place a Chase Die (d8) on this card with the 4 value facing up. When a PC makes an action related to the chase, turn the die according to the result.\n\n• When a PC succeeds with Hope, increase the die by 2.\n• When a PC succeeds with Fear, increase the die by 1.\n• When a PC fails with Hope, decrease the die by 1.\n• When a PC fails with Fear, decrease the die by 2.\n\nIf the die reach the 8 value, the PC succeed in the Highway Kill Run, either by escaping or having reached the target. If the die reach 0, the PC failed, either getting captured or letting the target escape.\n\nWhy are we chasing them, anyway?",
-        "actionType": "passive",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+    "impulses": "Accelerate, split vehicles, weaponize traffic",
+    "potentialAdversaries": {
+      "a2c7010eb9f11bd4": {
+        "label": "Corporate Response Team",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.997ecbe66334ba9d"
+        ]
       },
-      {
-        "_id": "0afb16be973bfa97",
-        "name": "Vehicle Momentum",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "When a PC succeeds on a vehicle roll with Hope, they may move one additional range or create an opening for an ally.\n\nWho knows this road best?",
-        "actionType": "passive",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "7fa120771ff1acfa": {
+        "label": "Contract Sniper",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.7c014f124c86620e"
+        ]
       },
-      {
-        "_id": "22b5224070afe8dd",
-        "name": "Road Hazard",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "Drop traffic, wreckage, drones, civilians, or a collapsing overpass into the route. Drivers must make an Agility Reaction Roll or the vehicle becomes Damaged.\n\nWhat did the road hide?",
-        "actionType": "action",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "89c099aef959978a": {
+        "label": "Blood Saint Duelist",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.d68829704bc1ed91"
+        ]
       },
-      {
-        "_id": "3eb95fab90a9ffc1",
-        "name": "Pursuit Escalation",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "When a PC rolls with Fear while driving, a new hostile vehicle enters at Far range.\n\nWho joined the chase?",
-        "actionType": "reaction",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "5bba8c07b46b235d": {
+        "label": "Cordon Eidolon",
+        "adversaries": []
       }
-    ],
+    },
     "tags": [],
     "bonuses": {}
   },
@@ -158,10 +78,120 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "systemId": "daggerheart",
-    "systemVersion": "1.2.7",
+    "systemVersion": "2.10.5",
     "lastModifiedBy": null
   },
+  "items": [
+    {
+      "_id": "bcec3aa68dce3c85",
+      "name": "The Chase",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When this Traversal starts, place a Chase Die (d8) on this card with the 4 value facing up. When a PC makes an action related to the chase, turn the die according to the result.</p><p>• When a PC succeeds with Hope, increase the die by 2.<br>• When a PC succeeds with Fear, increase the die by 1.<br>• When a PC fails with Hope, decrease the die by 1.<br>• When a PC fails with Fear, decrease the die by 2.</p><p>If the die reach the 8 value, the PC succeed in the Highway Kill Run, either by escaping or having reached the target. If the die reach 0, the PC failed, either getting captured or letting the target escape.</p><p>Why are we chasing them, anyway?</p>",
+        "featureForm": "passive",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d22101efe26a0f5a.bcec3aa68dce3c85"
+    },
+    {
+      "_id": "0afb16be973bfa97",
+      "name": "Vehicle Momentum",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When a PC succeeds on a vehicle roll with Hope, they may move one additional range or create an opening for an ally.</p><p>Who knows this road best?</p>",
+        "featureForm": "passive",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d22101efe26a0f5a.0afb16be973bfa97"
+    },
+    {
+      "_id": "22b5224070afe8dd",
+      "name": "Road Hazard",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Drop traffic, wreckage, drones, civilians, or a collapsing overpass into the route. Drivers must make an Agility Reaction Roll or the vehicle becomes Damaged.</p><p>What did the road hide?</p>",
+        "featureForm": "action",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d22101efe26a0f5a.22b5224070afe8dd"
+    },
+    {
+      "_id": "3eb95fab90a9ffc1",
+      "name": "Pursuit Escalation",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When a PC rolls with Fear while driving, a new hostile vehicle enters at Far range.</p><p>Who joined the chase?</p>",
+        "featureForm": "reaction",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d22101efe26a0f5a.3eb95fab90a9ffc1"
+    }
+  ],
   "_key": "!actors!d22101efe26a0f5a"
 }

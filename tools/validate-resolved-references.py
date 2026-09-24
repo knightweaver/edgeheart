@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate Edgeheart Step 4 resolved references against Daggerheart 1.2.7 shapes."""
+"""Validate Edgeheart Step 4 resolved references against Daggerheart 2.10.5 shapes."""
 from __future__ import annotations
 
 import argparse
@@ -18,7 +18,6 @@ PACK_BY_PREFIX = {
     "community": "edgeheart-communities",
 }
 EXPECTED_KINDS = {
-    "bundle-membership-reference": 18,
     "bundle-symbolic-reference": 118,
     "external-domain-registration-reference": 9,
 }
@@ -83,8 +82,8 @@ def main() -> int:
     if len(docs) != 638:
         errors.append(f"expected 638 indexed source documents, got {len(docs)}")
 
-    if resolution.get("count") != 145 or len(resolution.get("references", [])) != 145:
-        errors.append("Step 4 resolution map must contain exactly 145 references")
+    if resolution.get("count") != 127 or len(resolution.get("references", [])) != 127:
+        errors.append("Step 4 resolution map must contain exactly 127 references")
 
     kinds = Counter(r["kind"] for r in resolution.get("references", []))
     if dict(kinds) != EXPECTED_KINDS:
@@ -112,9 +111,8 @@ def main() -> int:
         if cls.get("flags", {}).get("edgeheart", {}).get("pendingDomainMapping") is not None:
             errors.append(f"{class_key}: pendingDomainMapping should be removed after Step 4")
 
-        expected_subclasses = [uuid_for(k, registry) for k in relation["subclasses"]]
-        if cls["system"].get("subclasses") != expected_subclasses:
-            errors.append(f"{class_key}: subclass UUID list mismatch")
+        if "subclasses" in cls["system"]:
+            errors.append(f"{class_key}: obsolete subclasses field present")
 
         for link in cls["system"].get("features", []):
             if set(link) != {"type", "item"}:
@@ -197,7 +195,7 @@ def main() -> int:
         return 1
 
     print("Edgeheart Step 4 reference validation PASS")
-    print(" - resolved references: 145")
+    print(" - resolved references: 127")
     print(" - classes: 9")
     print(" - subclasses: 18")
     print(" - life paths: 6")

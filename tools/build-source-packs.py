@@ -7,13 +7,13 @@ rewrite final art paths, or compile LevelDB packs.
 """
 from __future__ import annotations
 
-import argparse, copy, hashlib, json, re, shutil, sys, zipfile
+import argparse, copy, hashlib, html, json, re, shutil, sys, zipfile
 from collections import Counter
 from pathlib import Path
 from typing import Any
 
 PACKAGE="edgeheart-consolidated-production-v1.0"
-CORE="13.351"; SYSTEM="daggerheart"; SYSTEM_VERSION="1.2.7"; MODULE="edgeheart"
+CORE="14.368"; SYSTEM="daggerheart"; SYSTEM_VERSION="2.10.5"; MODULE="edgeheart"
 NS="edgeheart-foundry-source-v1"
 PACKS={
  "weapons":("src/packs/items/weapons","edgeheart-weapons","Item"),
@@ -36,6 +36,7 @@ EXPECTED_DIRECT={"weapons":64,"armors":25,"loot":40,"consumables":40,"cyberware"
 EXPECTED_DOCS={"weapons":64,"armors":25,"loot":40,"consumables":40,"cyberware":60,"domains":231,
                "classes":9,"subclasses":18,"features":100,"ancestries":6,"communities":8,"environments":15,"adversaries":22}
 SYMBOLIC=("feature:","class:","subclass:","ancestry:","community:")
+EXTERNAL_ADVERSARY_SUGGESTIONS=frozenset({"Cordon Eidolon", "Handler's Hound", "Blackwall Seraph"})
 
 def sid(key:str)->str: return hashlib.sha256(f"{NS}:{key}".encode()).hexdigest()[:16]
 def safe(s:str)->str: return re.sub(r"[^A-Za-z0-9]+","_",s).strip("_") or "Unnamed"
@@ -68,9 +69,58 @@ def normalize_actor_embedded_keys(d:dict,key:str)->None:
    raise ValueError(f"{key}: embedded Actor effect is missing _id")
   effect["_key"]=f"!actors.effects!{actor_id}.{effect_id}"
 
-def finish(doc:dict,key:str,pack:str,folder:str|None=None)->dict:
+def normalize_environment(d:dict,key:str,adversary_ids:dict[str,str])->None:
+ """Project the frozen Environment payload into Daggerheart 2.10.5 fields."""
+ system=d["system"]
+ features=system.pop("features",None)
+ if not isinstance(features,list) or d.get("items"):
+  raise ValueError(f"{key}: expected legacy features and no embedded Items")
+ for feature in features:
+  for field,empty in (("cost",[]),("effects",[]),("range",""),
+                      ("uses",{"value":None,"max":None,"recovery":None,"consumeOnSuccess":False}),
+                      ("target",{"type":"scene","amount":None})):
+   if feature.get(field)!=empty:
+    raise ValueError(f"{key}/{feature.get('name')}: non-default {field} requires mapping")
+  if feature.get("chatDisplay") is not True or feature.get("systemPath")!="features" or feature.get("type")!="effect":
+   raise ValueError(f"{key}/{feature.get('name')}: unknown legacy feature metadata")
+  form=feature.get("actionType")
+  if form not in ("passive","action","reaction"):
+   raise ValueError(f"{key}/{feature.get('name')}: unknown feature form {form!r}")
+  description=feature["description"]
+  paragraphs=[f"<p>{html.escape(part).replace(chr(10),'<br>')}</p>" for part in description.split("\n\n")]
+  d.setdefault("items",[]).append({
+   "_id":feature["_id"],"name":feature["name"],"type":"feature", "img":feature["img"],
+   "system":{"description":"".join(paragraphs),"featureForm":form,"actions":{}},
+   "effects":[],"flags":{},"sort":0,"ownership":{"default":0},"_stats":stats()
+  })
+ impulses=system["impulses"]
+ if not isinstance(impulses,list) or not all(isinstance(x,str) and x for x in impulses):
+  raise ValueError(f"{key}: invalid legacy impulses")
+ system["impulses"]=', '.join(impulses)
+ names=system["potentialAdversaries"]
+ if not isinstance(names,list) or len(names)!=len(set(names)):
+  raise ValueError(f"{key}: invalid or duplicate potential adversary names")
+ groups={}
+ for name in names:
+  actor_id=adversary_ids.get(name)
+  if actor_id is None and name not in EXTERNAL_ADVERSARY_SUGGESTIONS:
+   raise ValueError(f"{key}: unknown potential adversary {name!r}")
+  group_key=sid(f"potential-adversary:{key}:{name}")
+  groups[group_key]={"label":name,"adversaries":([f"Compendium.edgeheart.edgeheart-adversaries.Actor.{actor_id}"] if actor_id else [])}
+ system["potentialAdversaries"]=groups
+
+def finish(doc:dict,key:str,pack:str,folder:str|None=None,adversary_ids:dict[str,str]|None=None)->dict:
  d=copy.deepcopy(doc); i=sid(f"document:{key}"); d["_id"]=i; d["folder"]=folder if folder is not None else d.get("folder")
  d.setdefault("sort",0); d.setdefault("ownership",{"default":0}); d.setdefault("effects",[]); d.setdefault("flags",{}); d["_stats"]=stats()
+ if d.get("type")=="feature":
+  for field,empty in (("originItemType",(None,"")),("multiclassOrigin",(None,False)),("identifier",(None,""))):
+   value=d.get("system",{}).get(field)
+   if value not in empty: raise ValueError(f"{key}: populated legacy Feature {field}={value!r} needs granter mapping")
+   d["system"].pop(field,None)
+ if d.get("type")=="class": d.get("system",{}).pop("subclasses",None)
+ if d.get("type")=="environment":
+  if adversary_ids is None: raise ValueError(f"{key}: adversary index required")
+  normalize_environment(d,key,adversary_ids)
  d["_key"]=f"!{'actors' if PACKS[pack][2]=='Actor' else 'items'}!{i}"
  if PACKS[pack][2]=="Actor": normalize_actor_embedded_keys(d,key)
  dep=d["flags"].setdefault("edgeheart",{}).setdefault("deployment",{})
@@ -132,7 +182,8 @@ def main():
   d=folder(name,lk,par); write(repo,pack,d); folders[lk]=d["_id"]; fcounts[pack]+=1; return d["_id"]
  with zipfile.ZipFile(arc) as z:
   root=root_of(z); man=json.loads(z.read(root+"MANIFEST.json")); runtime=man["foundry"]["targetRuntime"]
-  if man.get("packageVersion")!="1.0" or runtime!={"foundryCore":CORE,"systemId":SYSTEM,"systemVersion":SYSTEM_VERSION}: raise ValueError("Package/runtime mismatch")
+  legacy_runtime={"foundryCore":"13.351","systemId":SYSTEM,"systemVersion":"1.2.7"}
+  if man.get("packageVersion")!="1.0" or runtime!=legacy_runtime: raise ValueError("Frozen source package/runtime mismatch")
   for t in range(1,5): mk("weapons",f"Tier {t}",f"tier-{t}"); mk("armors",f"Tier {t}",f"tier-{t}")
   cards=[n for n in z.namelist() if "/foundry/direct/domain-cards/" in n and n.endswith(".foundry.json")]
   domains=sorted({n.split("/foundry/direct/domain-cards/",1)[1].split("/",1)[0] for n in cards})
@@ -142,11 +193,17 @@ def main():
    for lvl in range(1,11): mk("domains",f"Level {lvl}",f"domain-{dom}-level-{lvl}",f"domain-{dom}")
   mk("features","Class and Subclass Features","class-subclass-features"); mk("features","Origin Features","origin-features")
   pref=root+"foundry/direct/"
+  adversary_ids={}
+  for n in sorted(x for x in z.namelist() if x.startswith(pref+"adversaries/") and x.endswith(".foundry.json")):
+   raw=json.loads(z.read(n)); name=raw["name"]; key=direct_key("adversaries",n[len(pref):],raw)
+   if name in adversary_ids: raise ValueError(f"Duplicate adversary name {name!r}")
+   adversary_ids[name]=sid(f"document:{key}")
+  if len(adversary_ids)!=22: raise ValueError(f"Expected 22 adversaries, got {len(adversary_ids)}")
   for n in sorted(x for x in z.namelist() if x.startswith(pref) and x.endswith(".foundry.json")):
    rel=n[len(pref):]; cat=rel.split("/",1)[0]; pack=DIRECT[cat]; raw=json.loads(z.read(n)); key=direct_key(cat,rel,raw); fid=None
    if cat in ("weapons","armors"): fid=folders[f"{pack}:tier-{int(raw['system']['tier'])}"]
    elif cat=="domain-cards": fid=folders[f"domains:domain-{raw['system']['domain']}-level-{int(raw['system']['level'])}"]
-   d=finish(raw,key,pack,fid); write(repo,pack,d); reg(key,pack,d); counts[pack]+=1; dcounts[cat]+=1
+   d=finish(raw,key,pack,fid,adversary_ids); write(repo,pack,d); reg(key,pack,d); counts[pack]+=1; dcounts[cat]+=1
   if dict(dcounts)!=EXPECTED_DIRECT: raise ValueError(f"Direct counts mismatch: {dict(dcounts)}")
   cp=root+"foundry/bundles/classes/"; class_paths=sorted(n for n in z.namelist() if n.startswith(cp) and n.endswith(".bundle.json"))
   if len(class_paths)!=9: raise ValueError("Expected 9 class bundles")
@@ -164,7 +221,6 @@ def main():
    pending=cd.get("flags",{}).get("edgeheart",{}).get("pendingDomainMapping",[]); relations["classes"][ck]={"bundle":Path(n).name,"features":fkeys,"subclasses":skeys,"pendingDomains":pending}
    for owner,d in [(ck,cd),*sdocs]:
     for loc,target in refs(d): unresolved.append({"ownerLogicalKey":owner,"jsonPath":loc,"targetLogicalKey":target,"kind":"bundle-symbolic-reference","bundle":Path(n).name})
-   for sk in skeys: unresolved.append({"ownerLogicalKey":ck,"jsonPath":"$.system.subclasses[]","targetLogicalKey":sk,"kind":"bundle-membership-reference","bundle":Path(n).name})
    for dom in pending: unresolved.append({"ownerLogicalKey":ck,"jsonPath":"$.system.domains[]","targetLogicalKey":f"domain:{dom}","kind":"external-domain-registration-reference","bundle":Path(n).name})
   op=root+"foundry/bundles/origins/"; origin_paths=sorted(n for n in z.namelist() if n.startswith(op) and n.endswith(".bundle.json"))
   if len(origin_paths)!=14: raise ValueError("Expected 14 origin bundles")

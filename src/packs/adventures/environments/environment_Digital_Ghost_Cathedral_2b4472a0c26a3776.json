@@ -8,111 +8,33 @@
     "type": "haunted zone",
     "difficulty": 18,
     "notes": "",
-    "impulses": [
-      "Convert",
-      "reveal",
-      "corrupt memory"
-    ],
-    "potentialAdversaries": [
-      "Signal Haunt",
-      "Digital Wraith",
-      "Data Cult Oracle",
-      "Hades Shard"
-    ],
-    "features": [
-      {
-        "_id": "af5a46914a9b635e",
-        "name": "Litany of Static",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "At the start of a scene, each PC with connected cyberware must mark a Stress and hear a voice asking them a personal question.\n\nWhat does the Ghost know?",
-        "actionType": "passive",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+    "impulses": "Convert, reveal, corrupt memory",
+    "potentialAdversaries": {
+      "26e5374f4309a7c4": {
+        "label": "Signal Haunt",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.13e8b5d72e4e906e"
+        ]
       },
-      {
-        "_id": "8266fc7308a7b63d",
-        "name": "Icon Becomes Monster",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "Choose a screen, statue, drone, vehicle, or body. It animates as a temporary Digital Ghost threat until destroyed or disconnected.\n\nWhat image does it wear?",
-        "actionType": "action",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "832d894ab7a0aa6c": {
+        "label": "Digital Wraith",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.4f4083103d7615bf"
+        ]
       },
-      {
-        "_id": "2417398bda731a64",
-        "name": "Mirrored Dead",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "Spent up to 3 Fear and choose the same number of PC in the scene. The Cathedral generates a corrupted echo of them through screens, speakers, drones, old photos, security footage, or AR static.\n\nUntil the end of the scene or a PC rolls with Hope, when that PC would make an action roll, the GM reveal a distorted memory, fear, regret, or false version of their past. They must choose one:\n\n• Mark 1 Stress and become temporarily Vulnerable.\n• Give disadvantage to the roll as the echo interferes with their senses.\n• Mark 2 Armor Slots, as the echo “attacks” them.\n\nWhat part of them did the Cathedral learn to imitate?",
-        "actionType": "action",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "d8780e7ea46c6be6": {
+        "label": "Data Cult Oracle",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.eb95c1484463f186"
+        ]
       },
-      {
-        "_id": "90f363f4fdd4be67",
-        "name": "Prayer Loop",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "When a PC rolls with Fear, marked Stress cannot be cleared until the PC leaves the Haunted Zone or severs the signal.\n\nWhat phrase keeps repeating?",
-        "actionType": "reaction",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "05e181a60b969468": {
+        "label": "Hades Shard",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.f2123de91e146bae"
+        ]
       }
-    ],
+    },
     "tags": [],
     "bonuses": {}
   },
@@ -158,10 +80,120 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "systemId": "daggerheart",
-    "systemVersion": "1.2.7",
+    "systemVersion": "2.10.5",
     "lastModifiedBy": null
   },
+  "items": [
+    {
+      "_id": "af5a46914a9b635e",
+      "name": "Litany of Static",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>At the start of a scene, each PC with connected cyberware must mark a Stress and hear a voice asking them a personal question.</p><p>What does the Ghost know?</p>",
+        "featureForm": "passive",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!2b4472a0c26a3776.af5a46914a9b635e"
+    },
+    {
+      "_id": "8266fc7308a7b63d",
+      "name": "Icon Becomes Monster",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Choose a screen, statue, drone, vehicle, or body. It animates as a temporary Digital Ghost threat until destroyed or disconnected.</p><p>What image does it wear?</p>",
+        "featureForm": "action",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!2b4472a0c26a3776.8266fc7308a7b63d"
+    },
+    {
+      "_id": "2417398bda731a64",
+      "name": "Mirrored Dead",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Spent up to 3 Fear and choose the same number of PC in the scene. The Cathedral generates a corrupted echo of them through screens, speakers, drones, old photos, security footage, or AR static.</p><p>Until the end of the scene or a PC rolls with Hope, when that PC would make an action roll, the GM reveal a distorted memory, fear, regret, or false version of their past. They must choose one:</p><p>• Mark 1 Stress and become temporarily Vulnerable.<br>• Give disadvantage to the roll as the echo interferes with their senses.<br>• Mark 2 Armor Slots, as the echo “attacks” them.</p><p>What part of them did the Cathedral learn to imitate?</p>",
+        "featureForm": "action",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!2b4472a0c26a3776.2417398bda731a64"
+    },
+    {
+      "_id": "90f363f4fdd4be67",
+      "name": "Prayer Loop",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When a PC rolls with Fear, marked Stress cannot be cleared until the PC leaves the Haunted Zone or severs the signal.</p><p>What phrase keeps repeating?</p>",
+        "featureForm": "reaction",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!2b4472a0c26a3776.90f363f4fdd4be67"
+    }
+  ],
   "_key": "!actors!2b4472a0c26a3776"
 }

@@ -1,7 +1,7 @@
 /**
- * Edgeheart Competency registration for Daggerheart 1.2.7.
+ * Edgeheart Competency registration for Daggerheart 2.10.5.
  *
- * Daggerheart 1.2.7 exposes custom Domains through the world-scoped Homebrew
+ * Daggerheart 2.10.5 exposes custom Domains through the world-scoped Homebrew
  * setting. CONFIG.DH.DOMAIN.allDomains() merges those Homebrew domains with
  * the nine core Daggerheart domains. Edgeheart therefore registers its
  * Competencies through that supported setting rather than patching Daggerheart.

@@ -16,8 +16,8 @@ const EXPECTED_IDS = [
   "frontier", "medtech", "aegis", "redline", "blackwall"
 ];
 
-const CORE_DAGGERHEART_127_DOMAINS = {
-  arcana: {}, blade: {}, bone: {}, codex: {}, grace: {},
+const CORE_DAGGERHEART_2105_DOMAINS = {
+  arcana: {}, blade: {}, bone: {}, codex: {}, dread: {}, grace: {},
   midnight: {}, sage: {}, splendor: {}, valor: {}
 };
 
@@ -84,8 +84,8 @@ for (const id of EXPECTED_IDS) {
     `${id}: expected three source-backed description paragraphs`
   );
   assert(
-    !Object.prototype.hasOwnProperty.call(CORE_DAGGERHEART_127_DOMAINS, id),
-    `${id}: collides with a Daggerheart 1.2.7 core domain`
+    !Object.prototype.hasOwnProperty.call(CORE_DAGGERHEART_2105_DOMAINS, id),
+    `${id}: collides with a Daggerheart 2.10.5 core domain`
   );
 }
 
@@ -127,7 +127,7 @@ const unrelatedDomain = {
 };
 
 const firstPlan = planCompetencyRegistration({
-  coreDomains: CORE_DAGGERHEART_127_DOMAINS,
+  coreDomains: CORE_DAGGERHEART_2105_DOMAINS,
   homebrewDomains: { "custom-domain": unrelatedDomain }
 });
 assert(firstPlan.added.length === 11, "first registration should add all 11 Competencies");
@@ -140,7 +140,7 @@ assert(
 );
 
 const secondPlan = planCompetencyRegistration({
-  coreDomains: CORE_DAGGERHEART_127_DOMAINS,
+  coreDomains: CORE_DAGGERHEART_2105_DOMAINS,
   homebrewDomains: firstPlan.nextDomains
 });
 assert(secondPlan.added.length === 0, "second registration must be idempotent");
@@ -160,7 +160,7 @@ const legacyDomains = Object.fromEntries(
   ])
 );
 const migrationPlan = planCompetencyRegistration({
-  coreDomains: CORE_DAGGERHEART_127_DOMAINS,
+  coreDomains: CORE_DAGGERHEART_2105_DOMAINS,
   homebrewDomains: legacyDomains
 });
 assert(migrationPlan.added.length === 0, "legacy migration should not add domains");
@@ -184,7 +184,7 @@ const conflictingNetwork = {
   }
 };
 const conflictPlan = planCompetencyRegistration({
-  coreDomains: CORE_DAGGERHEART_127_DOMAINS,
+  coreDomains: CORE_DAGGERHEART_2105_DOMAINS,
   homebrewDomains: conflictingNetwork
 });
 assert(
@@ -197,7 +197,7 @@ assert(
 );
 
 const coreConflictPlan = planCompetencyRegistration({
-  coreDomains: { ...CORE_DAGGERHEART_127_DOMAINS, network: { id: "network" } },
+  coreDomains: { ...CORE_DAGGERHEART_2105_DOMAINS, network: { id: "network" } },
   homebrewDomains: {}
 });
 assert(coreConflictPlan.coreConflicts.includes("network"), "core collisions must be rejected");
@@ -216,7 +216,7 @@ await fs.mkdir(REPORT_DIR, { recursive: true });
 const summary = {
   step: 5,
   status: errors.length ? "FAIL" : "PASS",
-  implementation: "Daggerheart 1.2.7 native Homebrew domains",
+  implementation: "Daggerheart 2.10.5 native Homebrew domains",
   domainArtContract: "dual-art-v1",
   competencyCount: ids.length,
   competencyIds: ids,

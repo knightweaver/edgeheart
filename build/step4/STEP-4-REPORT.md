@@ -2,7 +2,7 @@
 
 **Status:** PASS
 
-- Resolved references: **145**
+- Resolved references: **127**
 - Classes resolved: **9**
 - Subclasses resolved: **18**
 - Life Paths resolved: **6**

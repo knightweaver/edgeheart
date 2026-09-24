@@ -1,7 +1,7 @@
 {
   "step": 5,
   "status": "PASS",
-  "implementation": "Daggerheart 1.2.7 native Homebrew domains",
+  "implementation": "Daggerheart 2.10.5 native Homebrew domains",
   "domainArtContract": "dual-art-v1",
   "competencyCount": 11,
   "competencyIds": [

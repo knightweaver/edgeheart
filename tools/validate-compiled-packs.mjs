@@ -171,6 +171,17 @@ try {
         extracted,
         `${pack.name}/${id}`
       );
+      if (pack.name === "edgeheart-environments") {
+        const source = sourceDocs.get(id);
+        const sourceFeatures = (source.items ?? []).map(item => [item._id, item._key, item.system?.featureForm]);
+        const extractedFeatures = (extracted.items ?? []).map(item => [item._id, item._key, item.system?.featureForm]);
+        if (JSON.stringify(sourceFeatures) !== JSON.stringify(extractedFeatures)) {
+          errors.push(`${pack.name}/${id}: embedded Feature identity or form changed during compilation`);
+        }
+        if (JSON.stringify(source.system?.potentialAdversaries) !== JSON.stringify(extracted.system?.potentialAdversaries)) {
+          errors.push(`${pack.name}/${id}: potential adversary groups changed during compilation`);
+        }
+      }
     }
 
     results.push({
@@ -209,7 +220,7 @@ try {
     packResults: results,
     foundryRuntimeQualificationPending: true,
     generatedPacksAreDerivative: true,
-    nextStep: "Install the built Edgeheart module into a clean Foundry 13.351 / Daggerheart 1.2.7 world and perform runtime qualification."
+    nextStep: "Install the built Edgeheart module into a clean Foundry 14.368 / Daggerheart 2.10.5 world and perform runtime qualification."
   };
 
   await fs.writeFile(

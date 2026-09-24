@@ -37,7 +37,6 @@ PACK_BY_PREFIX = {
 }
 
 EXPECTED_STEP3_UNRESOLVED = {
-    "bundle-membership-reference": 18,
     "bundle-symbolic-reference": 118,
     "external-domain-registration-reference": 9,
 }
@@ -112,8 +111,8 @@ def resolve_link_array(
 
 def assert_step3_inventory(unresolved: dict[str, Any]) -> None:
     refs = unresolved.get("references", [])
-    if unresolved.get("count") != 145 or len(refs) != 145:
-        raise ValueError(f"Expected 145 Step 3 unresolved references, got {len(refs)}")
+    if unresolved.get("count") != 127 or len(refs) != 127:
+        raise ValueError(f"Expected 127 Step 3 unresolved references, got {len(refs)}")
     counts = Counter(r.get("kind") for r in refs)
     if dict(counts) != EXPECTED_STEP3_UNRESOLVED:
         raise ValueError(f"Unexpected Step 3 unresolved-reference counts: {dict(counts)}")
@@ -178,17 +177,7 @@ def main() -> int:
         )
 
         subclass_keys = list(relation.get("subclasses", []))
-        class_doc["system"]["subclasses"] = [
-            compendium_uuid(key, registry) for key in subclass_keys
-        ]
-        for key, value in zip(subclass_keys, class_doc["system"]["subclasses"]):
-            records.append({
-                "ownerLogicalKey": class_key,
-                "jsonPath": "$.system.subclasses[]",
-                "targetLogicalKey": key,
-                "resolvedValue": value,
-                "kind": "bundle-membership-reference",
-            })
+        class_doc["system"].pop("subclasses", None)
 
         dep = deployment(class_doc)
         dep.update({
@@ -299,8 +288,8 @@ def main() -> int:
         extra = list((actual_tuples - expected_tuples).elements())[:10]
         raise ValueError(f"Resolution accounting mismatch; missing={missing} extra={extra}")
 
-    if len(records) != 145:
-        raise ValueError(f"Expected 145 resolution records, got {len(records)}")
+    if len(records) != 127:
+        raise ValueError(f"Expected 127 resolution records, got {len(records)}")
 
     step4 = repo / "build/step4"
     step4.mkdir(parents=True, exist_ok=True)
@@ -343,7 +332,7 @@ def main() -> int:
         "artPathRewritePending": True,
         "compendiumCompilationPending": True,
         "nextStep": (
-            "Register the eleven Edgeheart Competencies through Daggerheart 1.2.7 "
+            "Register the eleven Edgeheart Competencies through Daggerheart 2.10.5 "
             "Homebrew domains before runtime qualification."
         ),
     }

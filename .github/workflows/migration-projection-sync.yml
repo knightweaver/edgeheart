@@ -1,0 +1,73 @@
+name: Rebuild Edgeheart migration projection
+
+on:
+  push:
+    branches: [migration/f14-dh2-edgeheart-0.2.0]
+    paths:
+      - "tools/build-source-packs.py"
+      - "tools/resolve-source-references.py"
+      - "tools/validate-*.py"
+      - "tools/validate-*.mjs"
+      - "module.json"
+      - "maintenance/regression-fixtures-v1.json"
+      - ".github/workflows/migration-projection-sync.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: migration/f14-dh2-edgeheart-0.2.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Project frozen source to DH2 target
+        run: |
+          python tools/build-source-packs.py sources/edgeheart-consolidated-production-v1.0.zip --repo .
+          python tools/validate-source-packs.py --repo .
+          python tools/resolve-source-references.py --repo .
+          python tools/validate-resolved-references.py --repo .
+          python tools/rewrite-asset-paths.py --repo .
+          npm run validate:maintenance
+      - name: Commit deterministic projection
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/packs build/step3 build/step4 build/step5 build/step6
+          if ! git diff --cached --quiet; then
+            git commit -m "Rebuild Edgeheart v0.2.0 source projection"
+            git push origin HEAD:migration/f14-dh2-edgeheart-0.2.0
+          fi
+
+      - name: Compile and validate all 13 Compendia
+        run: |
+          npm run clean:packs
+          npm run compile:packs
+          npm run validate:compiled-packs
+          npm run build:runtime-package
+      - name: Commit Step 7 candidate evidence
+        run: |
+          git add build/step7/step7-summary.json build/step7/runtime-package.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record Edgeheart v0.2.0 candidate build evidence"
+            git push origin HEAD:migration/f14-dh2-edgeheart-0.2.0
+          fi
+      - name: Upload clean-world qualification candidate
+        uses: actions/upload-artifact@v4
+        with:
+          name: edgeheart-runtime-candidate-v0.2.0
+          path: |
+            release/edgeheart-v0.2.0.zip
+            build/step7/runtime-package.json
+            build/step7/step7-summary.json
+          if-no-files-found: error
+          retention-days: 30
+
+# This artifact is a candidate; copied-world upgrade qualification remains pending.

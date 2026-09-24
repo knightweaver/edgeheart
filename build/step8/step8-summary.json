@@ -2,27 +2,23 @@
   "step": 8,
   "status": "PASS",
   "qualificationType": "manual clean-world runtime qualification",
-  "qualifiedAt": "2026-09-20",
+  "qualifiedAt": "2026-09-24",
   "runtime": {
-    "foundryCore": "13.351",
+    "foundryCore": "14.368",
     "systemId": "daggerheart",
-    "systemVersion": "1.2.7",
+    "systemVersion": "2.10.5",
     "moduleId": "edgeheart",
-    "moduleVersion": "0.1.0"
+    "moduleVersion": "0.2.0"
   },
   "qualifiedRuntimeCandidate": {
-    "archive": "edgeheart-v0.1.0.zip",
-    "sha256": "8e9c2fdba53f108d11f48867a4759fcc51b45aba3c2176b40998bb3e11f161c1"
+    "archive": "edgeheart-v0.2.0.zip",
+    "sha256": "0170e923c2ea773f334933d993a8ee3bca685e3ed067af57002d642ea34c3e1c",
+    "workflowRunId": 36048884506,
+    "artifactName": "edgeheart-runtime-candidate-v0.2.0"
   },
-  "acceptedChecks": {
-    "allCompendiaOpenedSuccessfully": true,
-    "compendiumContentAppearedCorrect": true,
-    "artworkRenderedProperly": true,
-    "newActorCreatedSuccessfully": true,
-    "daggerheartCharacterBuilderCompletedSuccessfully": true,
-    "customDomainSvgGlyphsRenderedProperly": true
-  },
+  "reportedChecks": "User reported the full clean-world checklist passes; individual screenshots and console logs were not supplied.",
   "acceptedByUser": true,
   "releaseGateCleared": true,
-  "nextStep": "Release hardening and v0.1.0 publication."
+  "releaseScope": "Clean-world qualification only; copied legacy-world upgrade not tested by the user.",
+  "nextStep": "Rebuild and compare the exact candidate, then publish v0.2.0."
 }

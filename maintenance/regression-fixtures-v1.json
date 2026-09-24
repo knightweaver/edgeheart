@@ -9,10 +9,8 @@
       "expected": {
         "name": "Runner",
         "type": "class",
-        "system.domains": ["network"],
-        "system.subclasses": [
-          "Compendium.edgeheart.edgeheart-subclasses.Item.dd2947e288ec9d89",
-          "Compendium.edgeheart.edgeheart-subclasses.Item.d3441e69a1337f8c"
+        "system.domains": [
+          "network"
         ],
         "system.features.length": 3,
         "img": "modules/edgeheart/assets/icons/classes/runner.webp"
@@ -94,7 +92,9 @@
         "img": "modules/edgeheart/assets/icons/adversaries/sitil-security-guard.webp",
         "prototypeToken.texture.src": "modules/edgeheart/assets/tokens/adversaries/sitil-security-guard-token.png"
       },
-      "specialChecks": ["embeddedActorItemKeys"]
+      "specialChecks": [
+        "embeddedActorItemKeys"
+      ]
     },
     {
       "id": "neon-night-market",
@@ -106,18 +106,23 @@
         "system.tier": 1,
         "system.type": "social",
         "system.difficulty": 10,
-        "system.features.length": 3,
-        "img": "modules/edgeheart/assets/icons/environments/neon-night-market.webp"
-      }
+        "img": "modules/edgeheart/assets/icons/environments/neon-night-market.webp",
+        "items.length": 3,
+        "system.impulses": "Tempt, expose, sell, hide danger"
+      },
+      "specialChecks": [
+        "embeddedActorItemKeys"
+      ]
     }
   ],
   "runtimeScenarios": [
-    "Enable Edgeheart in a clean Foundry 13.351 / Daggerheart 1.2.7 world as GM.",
+    "Enable Edgeheart in a clean Foundry 14.368 / Daggerheart 2.10.5 world as GM.",
     "Confirm all 13 Compendia open and representative artwork renders.",
     "Create a new Actor and complete the Daggerheart Character Builder with an Edgeheart Class, Subclass, Life Path, Affiliation, and Competency Card.",
     "Confirm all 11 Competency SVG glyphs render in the character-sheet Domain interface.",
     "Instantiate Sitil Security Guard and confirm embedded Features and token art render.",
-    "Open Neon Night Market and confirm its three inline Environment Features render.",
+    "Open Neon Night Market and confirm its three embedded Environment Features render.",
+    "Check Blackwall Storm Highway: Handler's Hound and Blackwall Seraph appear as named external suggestions without Actor links.",
     "Reload and confirm no Edgeheart 404, unresolved Compendium UUID, or schema errors appear in the browser console."
   ]
 }

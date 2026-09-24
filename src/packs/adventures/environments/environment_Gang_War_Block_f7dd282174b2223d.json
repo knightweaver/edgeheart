@@ -8,88 +8,33 @@
     "type": "event",
     "difficulty": 16,
     "notes": "",
-    "impulses": [
-      "Escalate",
-      "recruit",
-      "punish weakness"
-    ],
-    "potentialAdversaries": [
-      "Blood Saint Duelist",
-      "Chrome Maw Bruiser",
-      "Rival Edgerunner Crew",
-      "Contract Sniper"
-    ],
-    "features": [
-      {
-        "_id": "0872b05a2950f473",
-        "name": "Crossfire",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "When a creature moves through open ground, they must mark a Stress or make an Agility Roll to avoid stray fire.\n\nWho is shooting from above?",
-        "actionType": "passive",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+    "impulses": "Escalate, recruit, punish weakness",
+    "potentialAdversaries": {
+      "47a699916243be88": {
+        "label": "Blood Saint Duelist",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.d68829704bc1ed91"
+        ]
       },
-      {
-        "_id": "4dd7ef5180875431",
-        "name": "Claim the Block",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "A gang force seizes a street, rooftop, store, or vehicle. It becomes dangerous terrain until cleared.\n\nWhose symbol is painted there?",
-        "actionType": "action",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "6c7956eddd6f39b0": {
+        "label": "Chrome Maw Bruiser",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.f2993fab4c337bc6"
+        ]
       },
-      {
-        "_id": "b6169e84b7aa4461",
-        "name": "Reputation Test",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "When a PC rolls with Fear on a social or combat roll, someone challenges their name, crew, or loyalty.\n\nWho wants to embarrass them?",
-        "actionType": "reaction",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "c56b8587efc34d67": {
+        "label": "Rival Edgerunner Crew",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.1e5d53180f8f6afd"
+        ]
+      },
+      "89b1840d024be62a": {
+        "label": "Contract Sniper",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.7c014f124c86620e"
+        ]
       }
-    ],
+    },
     "tags": [],
     "bonuses": {}
   },
@@ -135,10 +80,93 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "systemId": "daggerheart",
-    "systemVersion": "1.2.7",
+    "systemVersion": "2.10.5",
     "lastModifiedBy": null
   },
+  "items": [
+    {
+      "_id": "0872b05a2950f473",
+      "name": "Crossfire",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When a creature moves through open ground, they must mark a Stress or make an Agility Roll to avoid stray fire.</p><p>Who is shooting from above?</p>",
+        "featureForm": "passive",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!f7dd282174b2223d.0872b05a2950f473"
+    },
+    {
+      "_id": "4dd7ef5180875431",
+      "name": "Claim the Block",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>A gang force seizes a street, rooftop, store, or vehicle. It becomes dangerous terrain until cleared.</p><p>Whose symbol is painted there?</p>",
+        "featureForm": "action",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!f7dd282174b2223d.4dd7ef5180875431"
+    },
+    {
+      "_id": "b6169e84b7aa4461",
+      "name": "Reputation Test",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When a PC rolls with Fear on a social or combat roll, someone challenges their name, crew, or loyalty.</p><p>Who wants to embarrass them?</p>",
+        "featureForm": "reaction",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!f7dd282174b2223d.b6169e84b7aa4461"
+    }
+  ],
   "_key": "!actors!f7dd282174b2223d"
 }

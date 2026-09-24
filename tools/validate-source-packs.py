@@ -31,7 +31,6 @@ EXPECTED_FOLDERS = {
     "src/packs/system/features": 43,
 }
 EXPECTED_UNRESOLVED_KINDS = {
-    "bundle-membership-reference": 18,
     "bundle-symbolic-reference": 118,
     "external-domain-registration-reference": 9,
 }
@@ -146,8 +145,8 @@ def main() -> int:
         errors.append(f"source tree / registry ID mismatch; missing={missing[:5]} extra={extra[:5]}")
 
     refs = unresolved.get("references", [])
-    if unresolved.get("count") != 145 or len(refs) != 145:
-        errors.append(f"unresolved reference inventory: expected 145, got {len(refs)}")
+    if unresolved.get("count") != 127 or len(refs) != 127:
+        errors.append(f"unresolved reference inventory: expected 127, got {len(refs)}")
     kinds = Counter(ref.get("kind") for ref in refs)
     if dict(kinds) != EXPECTED_UNRESOLVED_KINDS:
         errors.append(f"unresolved kind counts mismatch: {dict(kinds)}")

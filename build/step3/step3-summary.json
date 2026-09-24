@@ -4,9 +4,9 @@
   "inputPackage": "edgeheart-consolidated-production-v1.0",
   "inputArchiveSha256": "3943cf9957661c82add6ecbaac33a3ecb8a80f1dc1b2d3161b1ba6f3590d32fa",
   "runtime": {
-    "foundryCore": "13.351",
+    "foundryCore": "14.368",
     "systemId": "daggerheart",
-    "systemVersion": "1.2.7"
+    "systemVersion": "2.10.5"
   },
   "documentCount": 638,
   "folderCount": 172,
@@ -31,9 +31,8 @@
     "features": 43,
     "weapons": 4
   },
-  "unresolvedReferenceCount": 145,
+  "unresolvedReferenceCount": 127,
   "unresolvedKinds": {
-    "bundle-membership-reference": 18,
     "bundle-symbolic-reference": 118,
     "external-domain-registration-reference": 9
   },

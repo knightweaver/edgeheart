@@ -8,89 +8,33 @@
     "type": "social",
     "difficulty": 10,
     "notes": "",
-    "impulses": [
-      "Tempt",
-      "expose",
-      "sell",
-      "hide danger"
-    ],
-    "potentialAdversaries": [
-      "Neon Claw Ganger",
-      "Tiger Choir Cutter",
-      "Pocket Drone Handler",
-      "Rookie Edgerunner"
-    ],
-    "features": [
-      {
-        "_id": "8449f6f1fc8dc1b8",
-        "name": "Crowded Flow",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "PCs have advantage on rolls to hide in the crowd, but disadvantage on rolls to notice threats beyond Close range.\n\nWho is watching from the crowd?",
-        "actionType": "passive",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+    "impulses": "Tempt, expose, sell, hide danger",
+    "potentialAdversaries": {
+      "e61534ea9ed1a5ba": {
+        "label": "Neon Claw Ganger",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.d54d5b82527eb902"
+        ]
       },
-      {
-        "_id": "ff4c7040bdca6aa8",
-        "name": "Black-Market Offer",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "Present a useful item, cyberware lead, or contact at a cost.\n\nWhat does the seller really want?",
-        "actionType": "action",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "7964cdd73087dd82": {
+        "label": "Tiger Choir Cutter",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.433e12dc52209dc0"
+        ]
       },
-      {
-        "_id": "1b7c2244a0cad1f4",
-        "name": "Wrong Eyes",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "When a PC rolls with Fear on a social or stealth roll, a gang scout recognizes them or mistakes them for someone else.\n\nWhose reputation did they inherit?",
-        "actionType": "reaction",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "9df317ded7dbf969": {
+        "label": "Pocket Drone Handler",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.02df2d92220232f6"
+        ]
+      },
+      "fd2cac2584c323f4": {
+        "label": "Rookie Edgerunner",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.c8168d36ea6a63d7"
+        ]
       }
-    ],
+    },
     "tags": [],
     "bonuses": {}
   },
@@ -136,10 +80,93 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "systemId": "daggerheart",
-    "systemVersion": "1.2.7",
+    "systemVersion": "2.10.5",
     "lastModifiedBy": null
   },
+  "items": [
+    {
+      "_id": "8449f6f1fc8dc1b8",
+      "name": "Crowded Flow",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>PCs have advantage on rolls to hide in the crowd, but disadvantage on rolls to notice threats beyond Close range.</p><p>Who is watching from the crowd?</p>",
+        "featureForm": "passive",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!032782560570235e.8449f6f1fc8dc1b8"
+    },
+    {
+      "_id": "ff4c7040bdca6aa8",
+      "name": "Black-Market Offer",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Present a useful item, cyberware lead, or contact at a cost.</p><p>What does the seller really want?</p>",
+        "featureForm": "action",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!032782560570235e.ff4c7040bdca6aa8"
+    },
+    {
+      "_id": "1b7c2244a0cad1f4",
+      "name": "Wrong Eyes",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When a PC rolls with Fear on a social or stealth roll, a gang scout recognizes them or mistakes them for someone else.</p><p>Whose reputation did they inherit?</p>",
+        "featureForm": "reaction",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!032782560570235e.1b7c2244a0cad1f4"
+    }
+  ],
   "_key": "!actors!032782560570235e"
 }

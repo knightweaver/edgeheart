@@ -3,7 +3,7 @@
   "buildStep": 4,
   "sourceStep": 3,
   "status": "RESOLVED",
-  "count": 145,
+  "count": 127,
   "references": [
     {
       "ownerLogicalKey": "ancestry:black-clinic-survivor",
@@ -111,20 +111,6 @@
       "kind": "bundle-symbolic-reference"
     },
     {
-      "ownerLogicalKey": "class:augmented",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:reflex-suite",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.6ebef169afb18b8d",
-      "kind": "bundle-membership-reference"
-    },
-    {
-      "ownerLogicalKey": "class:augmented",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:titan-frame",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.696fda42bade918b",
-      "kind": "bundle-membership-reference"
-    },
-    {
       "ownerLogicalKey": "class:broker",
       "jsonPath": "$.system.domains[]",
       "targetLogicalKey": "domain:influence",
@@ -144,20 +130,6 @@
       "targetLogicalKey": "feature:broker:terms-of-engagement",
       "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.bf0113139444712f",
       "kind": "bundle-symbolic-reference"
-    },
-    {
-      "ownerLogicalKey": "class:broker",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:fixer",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.243aad9c45310dd5",
-      "kind": "bundle-membership-reference"
-    },
-    {
-      "ownerLogicalKey": "class:broker",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:icon",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.4d906afbfb11deee",
-      "kind": "bundle-membership-reference"
     },
     {
       "ownerLogicalKey": "class:infiltrator",
@@ -181,20 +153,6 @@
       "kind": "bundle-symbolic-reference"
     },
     {
-      "ownerLogicalKey": "class:infiltrator",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:phantom",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.b694819eb8453236",
-      "kind": "bundle-membership-reference"
-    },
-    {
-      "ownerLogicalKey": "class:infiltrator",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:silent-killer",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.d16fffd6439709c2",
-      "kind": "bundle-membership-reference"
-    },
-    {
       "ownerLogicalKey": "class:reclaimer",
       "jsonPath": "$.system.domains[]",
       "targetLogicalKey": "domain:frontier",
@@ -214,20 +172,6 @@
       "targetLogicalKey": "feature:reclaimer:surveyed-route",
       "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.5eb33f85661bdae7",
       "kind": "bundle-symbolic-reference"
-    },
-    {
-      "ownerLogicalKey": "class:reclaimer",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:outrider",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.9389c06ddc0135dd",
-      "kind": "bundle-membership-reference"
-    },
-    {
-      "ownerLogicalKey": "class:reclaimer",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:zonebreaker",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.dba6096d4108494e",
-      "kind": "bundle-membership-reference"
     },
     {
       "ownerLogicalKey": "class:runner",
@@ -258,20 +202,6 @@
       "kind": "bundle-symbolic-reference"
     },
     {
-      "ownerLogicalKey": "class:runner",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:breach-specialist",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.dd2947e288ec9d89",
-      "kind": "bundle-membership-reference"
-    },
-    {
-      "ownerLogicalKey": "class:runner",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:net-diver",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.d3441e69a1337f8c",
-      "kind": "bundle-membership-reference"
-    },
-    {
       "ownerLogicalKey": "class:solo",
       "jsonPath": "$.system.domains[]",
       "targetLogicalKey": "domain:assault",
@@ -291,20 +221,6 @@
       "targetLogicalKey": "feature:solo:kill-chain",
       "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.fe62ecd66b29cd6c",
       "kind": "bundle-symbolic-reference"
-    },
-    {
-      "ownerLogicalKey": "class:solo",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:deadeye",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.a8fbb13c31f96eec",
-      "kind": "bundle-membership-reference"
-    },
-    {
-      "ownerLogicalKey": "class:solo",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:shock-trooper",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.e4207d3de3a2309f",
-      "kind": "bundle-membership-reference"
     },
     {
       "ownerLogicalKey": "class:tech",
@@ -328,20 +244,6 @@
       "kind": "bundle-symbolic-reference"
     },
     {
-      "ownerLogicalKey": "class:tech",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:rigger",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.43decc43b2e1c720",
-      "kind": "bundle-membership-reference"
-    },
-    {
-      "ownerLogicalKey": "class:tech",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:saboteur",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.c3249c1477c73fc0",
-      "kind": "bundle-membership-reference"
-    },
-    {
       "ownerLogicalKey": "class:trauma-doc",
       "jsonPath": "$.system.domains[]",
       "targetLogicalKey": "domain:medtech",
@@ -363,20 +265,6 @@
       "kind": "bundle-symbolic-reference"
     },
     {
-      "ownerLogicalKey": "class:trauma-doc",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:combat-medic",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.ba794d11bf1cda7f",
-      "kind": "bundle-membership-reference"
-    },
-    {
-      "ownerLogicalKey": "class:trauma-doc",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:street-surgeon",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.ba7dea3ab3d763f2",
-      "kind": "bundle-membership-reference"
-    },
-    {
       "ownerLogicalKey": "class:warden",
       "jsonPath": "$.system.domains[]",
       "targetLogicalKey": "domain:aegis",
@@ -396,20 +284,6 @@
       "targetLogicalKey": "feature:warden:guardian-protocol",
       "resolvedValue": "Compendium.edgeheart.edgeheart-features.Item.778dd209187a852a",
       "kind": "bundle-symbolic-reference"
-    },
-    {
-      "ownerLogicalKey": "class:warden",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:bulwark",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.c31bbf0a4ba3622f",
-      "kind": "bundle-membership-reference"
-    },
-    {
-      "ownerLogicalKey": "class:warden",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:riotbreaker",
-      "resolvedValue": "Compendium.edgeheart.edgeheart-subclasses.Item.c1057ca09916c374",
-      "kind": "bundle-membership-reference"
     },
     {
       "ownerLogicalKey": "community:black-clinic",
