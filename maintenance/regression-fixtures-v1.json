@@ -9,10 +9,8 @@
       "expected": {
         "name": "Runner",
         "type": "class",
-        "system.domains": ["network"],
-        "system.subclasses": [
-          "Compendium.edgeheart.edgeheart-subclasses.Item.dd2947e288ec9d89",
-          "Compendium.edgeheart.edgeheart-subclasses.Item.d3441e69a1337f8c"
+        "system.domains": [
+          "network"
         ],
         "system.features.length": 3,
         "img": "modules/edgeheart/assets/icons/classes/runner.webp"
@@ -94,7 +92,9 @@
         "img": "modules/edgeheart/assets/icons/adversaries/sitil-security-guard.webp",
         "prototypeToken.texture.src": "modules/edgeheart/assets/tokens/adversaries/sitil-security-guard-token.png"
       },
-      "specialChecks": ["embeddedActorItemKeys"]
+      "specialChecks": [
+        "embeddedActorItemKeys"
+      ]
     },
     {
       "id": "neon-night-market",

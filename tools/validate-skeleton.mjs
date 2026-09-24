@@ -10,15 +10,15 @@ function assert(condition, message) {
 }
 
 assert(manifest.id === "edgeheart", 'module id must be "edgeheart"');
-assert(manifest.compatibility?.minimum === "13", "Foundry minimum must remain generation 13");
-assert(manifest.compatibility?.verified === "13", "Foundry verified version must remain generation 13");
-assert(manifest.compatibility?.maximum === "13", "Foundry maximum must remain generation 13");
+assert(manifest.compatibility?.minimum === "14.368", "Foundry minimum must target 14.368");
+assert(manifest.compatibility?.verified === "14.368", "Foundry verified version must target 14.368");
+assert(manifest.compatibility?.maximum === "14", "Foundry maximum must remain generation 14");
 
 const dh = manifest.relationships?.systems?.find((s) => s.id === "daggerheart");
 assert(Boolean(dh), "Daggerheart system relationship is required");
-assert(dh?.compatibility?.minimum === "1.2", "Daggerheart minimum must remain 1.2");
-assert(dh?.compatibility?.verified === "1.2", "Daggerheart verified version must remain 1.2");
-assert(dh?.compatibility?.maximum === undefined, "Daggerheart maximum must remain unset so 1.2.x patch releases are not hard-blocked");
+assert(dh?.compatibility?.minimum === "2.10.5", "Daggerheart minimum must target 2.10.5");
+assert(dh?.compatibility?.verified === "2.10.5", "Daggerheart verified version must target 2.10.5");
+assert(dh?.compatibility?.maximum === undefined, "Daggerheart maximum must remain unset so 2.10.x patches are not hard-blocked");
 
 const packs = manifest.packs ?? [];
 const packNames = packs.map((p) => p.name);

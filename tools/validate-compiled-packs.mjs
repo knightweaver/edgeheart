@@ -209,7 +209,7 @@ try {
     packResults: results,
     foundryRuntimeQualificationPending: true,
     generatedPacksAreDerivative: true,
-    nextStep: "Install the built Edgeheart module into a clean Foundry 13.351 / Daggerheart 1.2.7 world and perform runtime qualification."
+    nextStep: "Install the built Edgeheart module into a clean Foundry 14.368 / Daggerheart 2.10.5 world and perform runtime qualification."
   };
 
   await fs.writeFile(

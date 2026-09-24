@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Any
 
 PACKAGE="edgeheart-consolidated-production-v1.0"
-CORE="13.351"; SYSTEM="daggerheart"; SYSTEM_VERSION="1.2.7"; MODULE="edgeheart"
+CORE="14.368"; SYSTEM="daggerheart"; SYSTEM_VERSION="2.10.5"; MODULE="edgeheart"
 NS="edgeheart-foundry-source-v1"
 PACKS={
  "weapons":("src/packs/items/weapons","edgeheart-weapons","Item"),
@@ -71,6 +71,12 @@ def normalize_actor_embedded_keys(d:dict,key:str)->None:
 def finish(doc:dict,key:str,pack:str,folder:str|None=None)->dict:
  d=copy.deepcopy(doc); i=sid(f"document:{key}"); d["_id"]=i; d["folder"]=folder if folder is not None else d.get("folder")
  d.setdefault("sort",0); d.setdefault("ownership",{"default":0}); d.setdefault("effects",[]); d.setdefault("flags",{}); d["_stats"]=stats()
+ if d.get("type")=="feature":
+  for field,empty in (("originItemType",(None,"")),("multiclassOrigin",(None,False)),("identifier",(None,""))):
+   value=d.get("system",{}).get(field)
+   if value not in empty: raise ValueError(f"{key}: populated legacy Feature {field}={value!r} needs granter mapping")
+   d["system"].pop(field,None)
+ if d.get("type")=="class": d.get("system",{}).pop("subclasses",None)
  d["_key"]=f"!{'actors' if PACKS[pack][2]=='Actor' else 'items'}!{i}"
  if PACKS[pack][2]=="Actor": normalize_actor_embedded_keys(d,key)
  dep=d["flags"].setdefault("edgeheart",{}).setdefault("deployment",{})
@@ -132,7 +138,8 @@ def main():
   d=folder(name,lk,par); write(repo,pack,d); folders[lk]=d["_id"]; fcounts[pack]+=1; return d["_id"]
  with zipfile.ZipFile(arc) as z:
   root=root_of(z); man=json.loads(z.read(root+"MANIFEST.json")); runtime=man["foundry"]["targetRuntime"]
-  if man.get("packageVersion")!="1.0" or runtime!={"foundryCore":CORE,"systemId":SYSTEM,"systemVersion":SYSTEM_VERSION}: raise ValueError("Package/runtime mismatch")
+  legacy_runtime={"foundryCore":"13.351","systemId":SYSTEM,"systemVersion":"1.2.7"}
+  if man.get("packageVersion")!="1.0" or runtime!=legacy_runtime: raise ValueError("Frozen source package/runtime mismatch")
   for t in range(1,5): mk("weapons",f"Tier {t}",f"tier-{t}"); mk("armors",f"Tier {t}",f"tier-{t}")
   cards=[n for n in z.namelist() if "/foundry/direct/domain-cards/" in n and n.endswith(".foundry.json")]
   domains=sorted({n.split("/foundry/direct/domain-cards/",1)[1].split("/",1)[0] for n in cards})
@@ -164,7 +171,6 @@ def main():
    pending=cd.get("flags",{}).get("edgeheart",{}).get("pendingDomainMapping",[]); relations["classes"][ck]={"bundle":Path(n).name,"features":fkeys,"subclasses":skeys,"pendingDomains":pending}
    for owner,d in [(ck,cd),*sdocs]:
     for loc,target in refs(d): unresolved.append({"ownerLogicalKey":owner,"jsonPath":loc,"targetLogicalKey":target,"kind":"bundle-symbolic-reference","bundle":Path(n).name})
-   for sk in skeys: unresolved.append({"ownerLogicalKey":ck,"jsonPath":"$.system.subclasses[]","targetLogicalKey":sk,"kind":"bundle-membership-reference","bundle":Path(n).name})
    for dom in pending: unresolved.append({"ownerLogicalKey":ck,"jsonPath":"$.system.domains[]","targetLogicalKey":f"domain:{dom}","kind":"external-domain-registration-reference","bundle":Path(n).name})
   op=root+"foundry/bundles/origins/"; origin_paths=sorted(n for n in z.namelist() if n.startswith(op) and n.endswith(".bundle.json"))
   if len(origin_paths)!=14: raise ValueError("Expected 14 origin bundles")
