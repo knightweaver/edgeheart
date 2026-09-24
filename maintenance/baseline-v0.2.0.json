@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "2.0",
+  "baselineId": "edgeheart-v0.2.0-migration-candidate",
+  "moduleVersion": "0.2.0",
+  "declaredCompatibility": {
+    "foundry": {
+      "minimum": "14.368",
+      "verified": "14.368",
+      "maximum": "14"
+    },
+    "daggerheart": {
+      "minimum": "2.10.5",
+      "verified": "2.10.5",
+      "maximum": null
+    }
+  },
+  "sourceArchive": {
+    "path": "sources/edgeheart-consolidated-production-v1.0.zip",
+    "sha256": "3943cf9957661c82add6ecbaac33a3ecb8a80f1dc1b2d3161b1ba6f3590d32fa"
+  },
+  "sourceDocuments": 638,
+  "structuralFolders": 172,
+  "sourcePackEntries": 810,
+  "documentsByPack": {
+    "edgeheart-weapons": 64,
+    "edgeheart-armors": 25,
+    "edgeheart-loot": 40,
+    "edgeheart-consumables": 40,
+    "edgeheart-cyberware": 60,
+    "edgeheart-classes": 9,
+    "edgeheart-subclasses": 18,
+    "edgeheart-domains": 231,
+    "edgeheart-features": 100,
+    "edgeheart-ancestries": 6,
+    "edgeheart-communities": 8,
+    "edgeheart-adversaries": 22,
+    "edgeheart-environments": 15
+  },
+  "entriesByPack": {
+    "edgeheart-weapons": 68,
+    "edgeheart-armors": 29,
+    "edgeheart-loot": 40,
+    "edgeheart-consumables": 40,
+    "edgeheart-cyberware": 60,
+    "edgeheart-classes": 9,
+    "edgeheart-subclasses": 18,
+    "edgeheart-domains": 352,
+    "edgeheart-features": 143,
+    "edgeheart-ancestries": 6,
+    "edgeheart-communities": 8,
+    "edgeheart-adversaries": 22,
+    "edgeheart-environments": 15
+  },
+  "competencies": {
+    "count": 11,
+    "ids": [
+      "network",
+      "assault",
+      "chrome",
+      "systems",
+      "influence",
+      "ghost",
+      "frontier",
+      "medtech",
+      "aegis",
+      "redline",
+      "blackwall"
+    ],
+    "cardsPerCompetency": 21,
+    "totalCards": 231
+  },
+  "assets": {
+    "total": 582,
+    "documentPrimary": 538,
+    "competencyIllustrations": 11,
+    "competencyUiGlyphs": 11,
+    "adversaryTokens": 22
+  },
+  "releaseIntent": "Migration candidate only; runtime qualification requires clean-world and legacy-world tests.",
+  "cardinalityPolicy": "638 logical documents, 172 folders and 13 packs remain authoritative; embedded Environment feature count is 49.",
+  "targetRuntime": {
+    "foundryCore": "14.368",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5"
+  },
+  "qualification": {
+    "status": "PENDING",
+    "cleanWorld": "PENDING",
+    "legacyWorldUpgrade": "PENDING",
+    "qualifiedArtifactSha256": null
+  },
+  "legacyReference": {
+    "releaseTag": "v0.1.1",
+    "baselinePath": "maintenance/baseline-v0.1.1.json",
+    "releaseCommit": "496f9984e82ad3417a4db4dcb2ebe81fe31d7060"
+  }
+}
