@@ -8,88 +8,33 @@
     "type": "social",
     "difficulty": 20,
     "notes": "",
-    "impulses": [
-      "Betray",
-      "reframe",
-      "monetize violence"
-    ],
-    "potentialAdversaries": [
-      "Board Executive",
-      "Sitil Black-Ops Captain",
-      "Korvax Neural Interrogator",
-      "Corporate Response Team"
-    ],
-    "features": [
-      {
-        "_id": "5b7c25eab6653a17",
-        "name": "Legal Battlefield",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "Succeeded social rolls can disable security, redirect guards, freeze accounts, or change objectives. Failed social rolls with Fear create legal, financial, or hostage complications.\n\nWho owns the room?",
-        "actionType": "passive",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+    "impulses": "Betray, reframe, monetize violence",
+    "potentialAdversaries": {
+      "1472ce22e32ed3ca": {
+        "label": "Board Executive",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.e5f26e531749bc76"
+        ]
       },
-      {
-        "_id": "e9eaff00fd8bbbd5",
-        "name": "Hostile Vote",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "A faction inside the tower changes sides, reveals leverage, or calls armed support.\n\nWho bought their loyalty?",
-        "actionType": "action",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "372ade21c9b1cd44": {
+        "label": "Sitil Black-Ops Captain",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.e64e67a113d770f4"
+        ]
       },
-      {
-        "_id": "df8a6d0d163edbae",
-        "name": "Executive Evacuation",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "When a PC rolls with Fear, the true target begins escaping through a private route.\n\nWhich exit was never on the map?",
-        "actionType": "reaction",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "79b1494c7fc825b4": {
+        "label": "Korvax Neural Interrogator",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.963c1785ad97965f"
+        ]
+      },
+      "a0f65ea00aeaaefc": {
+        "label": "Corporate Response Team",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.997ecbe66334ba9d"
+        ]
       }
-    ],
+    },
     "tags": [],
     "bonuses": {}
   },
@@ -140,5 +85,88 @@
     "systemVersion": "2.10.5",
     "lastModifiedBy": null
   },
+  "items": [
+    {
+      "_id": "5b7c25eab6653a17",
+      "name": "Legal Battlefield",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Succeeded social rolls can disable security, redirect guards, freeze accounts, or change objectives. Failed social rolls with Fear create legal, financial, or hostage complications.</p><p>Who owns the room?</p>",
+        "featureForm": "passive",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!95085dcbed855ffd.5b7c25eab6653a17"
+    },
+    {
+      "_id": "e9eaff00fd8bbbd5",
+      "name": "Hostile Vote",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>A faction inside the tower changes sides, reveals leverage, or calls armed support.</p><p>Who bought their loyalty?</p>",
+        "featureForm": "action",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!95085dcbed855ffd.e9eaff00fd8bbbd5"
+    },
+    {
+      "_id": "df8a6d0d163edbae",
+      "name": "Executive Evacuation",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When a PC rolls with Fear, the true target begins escaping through a private route.</p><p>Which exit was never on the map?</p>",
+        "featureForm": "reaction",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!95085dcbed855ffd.df8a6d0d163edbae"
+    }
+  ],
   "_key": "!actors!95085dcbed855ffd"
 }

@@ -8,88 +8,29 @@
     "type": "traversal",
     "difficulty": 20,
     "notes": "",
-    "impulses": [
-      "Accelerate",
-      "corrupt",
-      "split the convoy"
-    ],
-    "potentialAdversaries": [
-      "Handler's Hound",
-      "Hades Shard",
-      "Blackwall Seraph",
-      "Contract Sniper"
-    ],
-    "features": [
-      {
-        "_id": "bd57d86cc862e651",
-        "name": "Machine Weather",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "Vehicles and connected gear glitch under the storm. On any vehicle roll with Fear, the vehicle becomes Damaged unless the driver marks a Stress.\n\nWhat system flickers first?",
-        "actionType": "passive",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+    "impulses": "Accelerate, corrupt, split the convoy",
+    "potentialAdversaries": {
+      "8d53d83b42233487": {
+        "label": "Handler's Hound",
+        "adversaries": []
       },
-      {
-        "_id": "b9cb614e24f19156",
-        "name": "Black Lightning",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "Strike a vehicle, drone, Eidolon, or connected device within Far range. It must make a Reaction Roll or take 4d8+6 techno damage.\n\nWhat does the lightning spell out?",
-        "actionType": "action",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "26b4bc3e46f8cb9f": {
+        "label": "Hades Shard",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.f2123de91e146bae"
+        ]
       },
-      {
-        "_id": "a4dfd72dd1c32dc7",
-        "name": "Route Collapse",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "When a PC rolls with Fear, destroy one route, bridge, tunnel, ramp, or exit.\n\nWho knew the road would fail?",
-        "actionType": "reaction",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "074ddff29f62f3a1": {
+        "label": "Blackwall Seraph",
+        "adversaries": []
+      },
+      "2d25de21e0f8add8": {
+        "label": "Contract Sniper",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.7c014f124c86620e"
+        ]
       }
-    ],
+    },
     "tags": [],
     "bonuses": {}
   },
@@ -140,5 +81,88 @@
     "systemVersion": "2.10.5",
     "lastModifiedBy": null
   },
+  "items": [
+    {
+      "_id": "bd57d86cc862e651",
+      "name": "Machine Weather",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Vehicles and connected gear glitch under the storm. On any vehicle roll with Fear, the vehicle becomes Damaged unless the driver marks a Stress.</p><p>What system flickers first?</p>",
+        "featureForm": "passive",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!001f6172a0425d42.bd57d86cc862e651"
+    },
+    {
+      "_id": "b9cb614e24f19156",
+      "name": "Black Lightning",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Strike a vehicle, drone, Eidolon, or connected device within Far range. It must make a Reaction Roll or take 4d8+6 techno damage.</p><p>What does the lightning spell out?</p>",
+        "featureForm": "action",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!001f6172a0425d42.b9cb614e24f19156"
+    },
+    {
+      "_id": "a4dfd72dd1c32dc7",
+      "name": "Route Collapse",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When a PC rolls with Fear, destroy one route, bridge, tunnel, ramp, or exit.</p><p>Who knew the road would fail?</p>",
+        "featureForm": "reaction",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!001f6172a0425d42.a4dfd72dd1c32dc7"
+    }
+  ],
   "_key": "!actors!001f6172a0425d42"
 }

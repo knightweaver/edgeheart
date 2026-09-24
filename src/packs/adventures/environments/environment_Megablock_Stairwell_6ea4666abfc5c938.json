@@ -8,88 +8,27 @@
     "type": "traversal",
     "difficulty": 11,
     "notes": "",
-    "impulses": [
-      "Divide",
-      "reroute",
-      "delay",
-      "escalate"
-    ],
-    "potentialAdversaries": [
-      "Neon Claw Ganger",
-      "Chrome Maw Bruiser",
-      "Tiger Choir Cutter"
-    ],
-    "features": [
-      {
-        "_id": "7dd860417aa643b7",
-        "name": "Bad Angles",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "Ranged attacks beyond Very Close range have disadvantage unless the attacker controls a higher position.\n\nWho has the high ground?",
-        "actionType": "passive",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+    "impulses": "Divide, reroute, delay, escalate",
+    "potentialAdversaries": {
+      "774ea7132f2dd42d": {
+        "label": "Neon Claw Ganger",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.d54d5b82527eb902"
+        ]
       },
-      {
-        "_id": "13dac2dd528a781a",
-        "name": "Door Slams Open",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "Introduce civilians, gang lookouts, security, or a new route through an apartment.\n\nWho lives behind this door?",
-        "actionType": "action",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "afbb38a7fd1161a1": {
+        "label": "Chrome Maw Bruiser",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.f2993fab4c337bc6"
+        ]
       },
-      {
-        "_id": "66f5fe3eccbb50ee",
-        "name": "Down the Stairs",
-        "type": "effect",
-        "img": "icons/svg/aura.svg",
-        "systemPath": "features",
-        "chatDisplay": true,
-        "description": "When a PC rolls with Fear while moving, they slip, crash, or get blocked. They mark a Stress or move down one range band.\n\nWhat broke under their feet?",
-        "actionType": "reaction",
-        "cost": [],
-        "uses": {
-          "value": null,
-          "max": null,
-          "recovery": null,
-          "consumeOnSuccess": false
-        },
-        "effects": [],
-        "target": {
-          "type": "scene",
-          "amount": null
-        },
-        "range": ""
+      "41df7d33b3afccfd": {
+        "label": "Tiger Choir Cutter",
+        "adversaries": [
+          "Compendium.edgeheart.edgeheart-adversaries.Actor.433e12dc52209dc0"
+        ]
       }
-    ],
+    },
     "tags": [],
     "bonuses": {}
   },
@@ -140,5 +79,88 @@
     "systemVersion": "2.10.5",
     "lastModifiedBy": null
   },
+  "items": [
+    {
+      "_id": "7dd860417aa643b7",
+      "name": "Bad Angles",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Ranged attacks beyond Very Close range have disadvantage unless the attacker controls a higher position.</p><p>Who has the high ground?</p>",
+        "featureForm": "passive",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6ea4666abfc5c938.7dd860417aa643b7"
+    },
+    {
+      "_id": "13dac2dd528a781a",
+      "name": "Door Slams Open",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Introduce civilians, gang lookouts, security, or a new route through an apartment.</p><p>Who lives behind this door?</p>",
+        "featureForm": "action",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6ea4666abfc5c938.13dac2dd528a781a"
+    },
+    {
+      "_id": "66f5fe3eccbb50ee",
+      "name": "Down the Stairs",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When a PC rolls with Fear while moving, they slip, crash, or get blocked. They mark a Stress or move down one range band.</p><p>What broke under their feet?</p>",
+        "featureForm": "reaction",
+        "actions": {}
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "daggerheart",
+        "systemVersion": "2.10.5",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6ea4666abfc5c938.66f5fe3eccbb50ee"
+    }
+  ],
   "_key": "!actors!6ea4666abfc5c938"
 }
