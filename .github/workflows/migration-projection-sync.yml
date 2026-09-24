@@ -52,6 +52,13 @@ jobs:
           npm run compile:packs
           npm run validate:compiled-packs
           npm run build:runtime-package
+      - name: Commit Step 7 candidate evidence
+        run: |
+          git add build/step7/step7-summary.json build/step7/runtime-package.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record Edgeheart v0.2.0 candidate build evidence"
+            git push origin HEAD:migration/f14-dh2-edgeheart-0.2.0
+          fi
       - name: Upload clean-world qualification candidate
         uses: actions/upload-artifact@v4
         with:
