@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "tag": "v0.2.0",
+  "publish": true,
+  "qualifiedRuntimeSha256": "0170e923c2ea773f334933d993a8ee3bca685e3ed067af57002d642ea34c3e1c",
+  "qualifiedWorkflowRunId": 36048884506,
+  "qualifiedArtifactName": "edgeheart-runtime-candidate-v0.2.0",
+  "runtime": {
+    "foundryCore": "14.368",
+    "systemId": "daggerheart",
+    "systemVersion": "2.10.5"
+  },
+  "qualification": {
+    "step": 8,
+    "status": "PASS_CLEAN_WORLD_ONLY",
+    "acceptedAt": "2026-09-24",
+    "legacyWorldUpgrade": "NOT_TESTED"
+  }
+}
