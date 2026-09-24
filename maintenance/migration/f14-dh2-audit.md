@@ -36,4 +36,4 @@ The five occurrences retain their labels in native keyed groups with `adversarie
 
 ## Runtime gate
 
-The v0.2.0 baseline is a pending candidate. Do not mark it qualified, publish a release, or merge it until clean-world and copied-world tests pass. Daggerheart's system migration chain is tested on the copied world, not simulated by rewriting its records in this repository.
+The v0.2.0 clean-world checklist was reported PASS on 2026-09-24. The baseline remains a pending candidate until the copied-world upgrade test passes. Do not mark overall qualification PASS, publish a release, or merge it before then. Daggerheart's system migration chain is tested on the copied world, not simulated by rewriting its records in this repository.

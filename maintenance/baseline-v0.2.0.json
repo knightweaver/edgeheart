@@ -85,7 +85,7 @@
   },
   "qualification": {
     "status": "PENDING",
-    "cleanWorld": "PENDING",
+    "cleanWorld": "PASS",
     "legacyWorldUpgrade": "PENDING",
     "qualifiedArtifactSha256": null
   },

@@ -70,4 +70,4 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
-# This artifact is a candidate; both user-owned runtime gates remain pending.
+# This artifact is a candidate; copied-world upgrade qualification remains pending.

@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-"""Prepare and harden an Edgeheart GitHub release.
+"""Prepare a release from the exact manually qualified runtime archive.
 
-The published v0.1.0 archive MUST be the exact Step 8 manually qualified
-runtime candidate. A fresh rebuild must also pass all deterministic gates and
-match that qualified archive in every ZIP member except LevelDB LOG/LOG.old
-files, whose contents are ephemeral compiler output.
+A fresh rebuild must pass all deterministic gates and match the qualified
+archive except for ephemeral LevelDB LOG/LOG.old files.
 """
 from __future__ import annotations
 
@@ -45,6 +43,20 @@ def main()->int:
         raise ValueError(f"Release tag must be v{version}, got {tag}")
     if step8.get("status") != "PASS" or step8.get("releaseGateCleared") is not True:
         raise ValueError("Step 8 runtime qualification PASS is required")
+    if version == "0.2.0":
+        baseline=json.loads((repo/"maintenance/baseline-v0.2.0.json").read_text(encoding="utf-8"))
+        qualification=baseline["qualification"]
+        if (qualification.get("status") != "PASS"
+                or qualification.get("cleanWorld") != "PASS"
+                or qualification.get("legacyWorldUpgrade") != "PASS"):
+            raise ValueError("v0.2.0 requires clean-world and copied legacy-world qualification PASS")
+        if qualification.get("qualifiedArtifactSha256") != step8["qualifiedRuntimeCandidate"]["sha256"]:
+            raise ValueError("v0.2.0 baseline qualified hash differs from Step 8")
+        if step8.get("runtime") != {
+            "foundryCore": "14.368", "systemId": "daggerheart",
+            "systemVersion": "2.10.5", "moduleId": "edgeheart", "moduleVersion": "0.2.0"
+        }:
+            raise ValueError("v0.2.0 Step 8 runtime does not match the qualification target")
     if runtime.get("status") != "PASS":
         raise ValueError("Fresh Step 7 rebuild is not PASS")
     if equivalence.get("status") != "PASS" or equivalence.get("forbiddenDifferenceCount") != 0:
