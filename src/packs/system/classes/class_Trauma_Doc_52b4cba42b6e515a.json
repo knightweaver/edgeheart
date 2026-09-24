@@ -20,10 +20,6 @@
         "item": "Compendium.edgeheart.edgeheart-features.Item.0ee01b6ba54a8581"
       }
     ],
-    "subclasses": [
-      "Compendium.edgeheart.edgeheart-subclasses.Item.ba794d11bf1cda7f",
-      "Compendium.edgeheart.edgeheart-subclasses.Item.ba7dea3ab3d763f2"
-    ],
     "isMulticlass": false
   },
   "effects": [],
@@ -63,9 +59,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.368",
     "systemId": "daggerheart",
-    "systemVersion": "1.2.7",
+    "systemVersion": "2.10.5",
     "lastModifiedBy": null
   },
   "_key": "!items!52b4cba42b6e515a"

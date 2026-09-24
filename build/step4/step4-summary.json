@@ -1,9 +1,8 @@
 {
   "step": 4,
   "status": "PASS",
-  "resolvedReferenceCount": 145,
+  "resolvedReferenceCount": 127,
   "resolvedKinds": {
-    "bundle-membership-reference": 18,
     "bundle-symbolic-reference": 118,
     "external-domain-registration-reference": 9
   },
@@ -15,5 +14,5 @@
   "domainRuntimeRegistrationPending": true,
   "artPathRewritePending": true,
   "compendiumCompilationPending": true,
-  "nextStep": "Register the eleven Edgeheart Competencies through Daggerheart 1.2.7 Homebrew domains before runtime qualification."
+  "nextStep": "Register the eleven Edgeheart Competencies through Daggerheart 2.10.5 Homebrew domains before runtime qualification."
 }

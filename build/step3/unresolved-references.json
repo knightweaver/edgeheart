@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "buildStep": 3,
   "status": "INTENTIONALLY_UNRESOLVED_FOR_STEP_4",
-  "count": 145,
+  "count": 127,
   "references": [
     {
       "ownerLogicalKey": "ancestry:black-clinic-survivor",
@@ -110,20 +110,6 @@
       "bundle": "augmented.bundle.json"
     },
     {
-      "ownerLogicalKey": "class:augmented",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:reflex-suite",
-      "kind": "bundle-membership-reference",
-      "bundle": "augmented.bundle.json"
-    },
-    {
-      "ownerLogicalKey": "class:augmented",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:titan-frame",
-      "kind": "bundle-membership-reference",
-      "bundle": "augmented.bundle.json"
-    },
-    {
       "ownerLogicalKey": "class:broker",
       "jsonPath": "$.system.domains[]",
       "targetLogicalKey": "domain:influence",
@@ -142,20 +128,6 @@
       "jsonPath": "$.system.features[1].ref",
       "targetLogicalKey": "feature:broker:terms-of-engagement",
       "kind": "bundle-symbolic-reference",
-      "bundle": "broker.bundle.json"
-    },
-    {
-      "ownerLogicalKey": "class:broker",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:fixer",
-      "kind": "bundle-membership-reference",
-      "bundle": "broker.bundle.json"
-    },
-    {
-      "ownerLogicalKey": "class:broker",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:icon",
-      "kind": "bundle-membership-reference",
       "bundle": "broker.bundle.json"
     },
     {
@@ -180,20 +152,6 @@
       "bundle": "infiltrator.bundle.json"
     },
     {
-      "ownerLogicalKey": "class:infiltrator",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:phantom",
-      "kind": "bundle-membership-reference",
-      "bundle": "infiltrator.bundle.json"
-    },
-    {
-      "ownerLogicalKey": "class:infiltrator",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:silent-killer",
-      "kind": "bundle-membership-reference",
-      "bundle": "infiltrator.bundle.json"
-    },
-    {
       "ownerLogicalKey": "class:reclaimer",
       "jsonPath": "$.system.domains[]",
       "targetLogicalKey": "domain:frontier",
@@ -212,20 +170,6 @@
       "jsonPath": "$.system.features[1].ref",
       "targetLogicalKey": "feature:reclaimer:surveyed-route",
       "kind": "bundle-symbolic-reference",
-      "bundle": "reclaimer.bundle.json"
-    },
-    {
-      "ownerLogicalKey": "class:reclaimer",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:outrider",
-      "kind": "bundle-membership-reference",
-      "bundle": "reclaimer.bundle.json"
-    },
-    {
-      "ownerLogicalKey": "class:reclaimer",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:zonebreaker",
-      "kind": "bundle-membership-reference",
       "bundle": "reclaimer.bundle.json"
     },
     {
@@ -257,20 +201,6 @@
       "bundle": "runner.bundle.json"
     },
     {
-      "ownerLogicalKey": "class:runner",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:breach-specialist",
-      "kind": "bundle-membership-reference",
-      "bundle": "runner.bundle.json"
-    },
-    {
-      "ownerLogicalKey": "class:runner",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:net-diver",
-      "kind": "bundle-membership-reference",
-      "bundle": "runner.bundle.json"
-    },
-    {
       "ownerLogicalKey": "class:solo",
       "jsonPath": "$.system.domains[]",
       "targetLogicalKey": "domain:assault",
@@ -289,20 +219,6 @@
       "jsonPath": "$.system.features[1].ref",
       "targetLogicalKey": "feature:solo:kill-chain",
       "kind": "bundle-symbolic-reference",
-      "bundle": "solo.bundle.json"
-    },
-    {
-      "ownerLogicalKey": "class:solo",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:deadeye",
-      "kind": "bundle-membership-reference",
-      "bundle": "solo.bundle.json"
-    },
-    {
-      "ownerLogicalKey": "class:solo",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:shock-trooper",
-      "kind": "bundle-membership-reference",
       "bundle": "solo.bundle.json"
     },
     {
@@ -327,20 +243,6 @@
       "bundle": "tech.bundle.json"
     },
     {
-      "ownerLogicalKey": "class:tech",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:rigger",
-      "kind": "bundle-membership-reference",
-      "bundle": "tech.bundle.json"
-    },
-    {
-      "ownerLogicalKey": "class:tech",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:saboteur",
-      "kind": "bundle-membership-reference",
-      "bundle": "tech.bundle.json"
-    },
-    {
       "ownerLogicalKey": "class:trauma-doc",
       "jsonPath": "$.system.domains[]",
       "targetLogicalKey": "domain:medtech",
@@ -362,20 +264,6 @@
       "bundle": "trauma-doc.bundle.json"
     },
     {
-      "ownerLogicalKey": "class:trauma-doc",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:combat-medic",
-      "kind": "bundle-membership-reference",
-      "bundle": "trauma-doc.bundle.json"
-    },
-    {
-      "ownerLogicalKey": "class:trauma-doc",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:street-surgeon",
-      "kind": "bundle-membership-reference",
-      "bundle": "trauma-doc.bundle.json"
-    },
-    {
       "ownerLogicalKey": "class:warden",
       "jsonPath": "$.system.domains[]",
       "targetLogicalKey": "domain:aegis",
@@ -394,20 +282,6 @@
       "jsonPath": "$.system.features[1].ref",
       "targetLogicalKey": "feature:warden:guardian-protocol",
       "kind": "bundle-symbolic-reference",
-      "bundle": "warden.bundle.json"
-    },
-    {
-      "ownerLogicalKey": "class:warden",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:bulwark",
-      "kind": "bundle-membership-reference",
-      "bundle": "warden.bundle.json"
-    },
-    {
-      "ownerLogicalKey": "class:warden",
-      "jsonPath": "$.system.subclasses[]",
-      "targetLogicalKey": "subclass:riotbreaker",
-      "kind": "bundle-membership-reference",
       "bundle": "warden.bundle.json"
     },
     {
