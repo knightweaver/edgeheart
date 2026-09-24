@@ -46,5 +46,21 @@ jobs:
             git push origin HEAD:migration/f14-dh2-edgeheart-0.2.0
           fi
 
-# Source projection remains a migration candidate until Environment references
-# are resolved and the two user-owned runtime gates have passed.
+      - name: Compile and validate all 13 Compendia
+        run: |
+          npm run clean:packs
+          npm run compile:packs
+          npm run validate:compiled-packs
+          npm run build:runtime-package
+      - name: Upload clean-world qualification candidate
+        uses: actions/upload-artifact@v4
+        with:
+          name: edgeheart-runtime-candidate-v0.2.0
+          path: |
+            release/edgeheart-v0.2.0.zip
+            build/step7/runtime-package.json
+            build/step7/step7-summary.json
+          if-no-files-found: error
+          retention-days: 30
+
+# This artifact is a candidate; both user-owned runtime gates remain pending.

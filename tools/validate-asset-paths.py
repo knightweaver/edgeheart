@@ -325,7 +325,7 @@ def main() -> int:
                     )
 
         if prefix == "environment":
-            for feature in doc.get("system", {}).get("features", []):
+            for feature in doc.get("items", []):
                 if str(feature.get("img", "")).startswith("modules/edgeheart/"):
                     errors.append(
                         f"{path.relative_to(repo)}: embedded Environment Feature art should remain generic"
